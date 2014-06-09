@@ -1,0 +1,62 @@
+{
+"sky" "drksky"
+"message" "Welcome to the Rok!   By: Jf^ Supreme & Zakath [RK] @ TEAM SiSu"
+"classname" "worldspawn"
+}
+{
+"origin" "-408 1716 52"
+"_color" "1.00 0.34 0.18"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "509 2 413"
+"angle" "180"
+"classname" "info_player_start"
+}
+{
+"origin" "-1613 2116 24"
+"classname" "info_reinforcements_start"
+"obj_owner" "0"
+}
+{
+"origin" "517 87 420"
+"classname" "info_reinforcements_start"
+"obj_owner" "1"
+}
+{
+"origin" "-248 712 170"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"nextmap" "lostcoast"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"origin" "1068 -2186 170"
+"message" "Axis"
+"obj_owner" "1"
+"dll" "grm"
+"nextmap" "lostcoast"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"classname" "spawn_protect"
+"obj_owner" "0"
+"min" "-1190 2493 523"
+"max" "-2036 2052 -101"
+}
+{
+"classname" "spawn_protect"
+"obj_owner" "0"
+"min" "-2036 2052 -101"
+"max" "-1752 1385 309"
+}
+{
+"classname" "spawn_protect"
+"obj_owner" "1"
+"min" "101 538 293"
+"max" "1165 -511 529"
+}

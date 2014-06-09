@@ -1,0 +1,1471 @@
+{
+"_sun_diffade" ".5"
+"_sun_surface" "100"
+"_sun_diffuse" "50"
+"_sun_angle" "245 -45"
+"_sun_color" "5.8 5.8 5.8"
+"_sun_ambient" "50"
+"_sun_light" "400"
+"gravity" "800"
+"message" "Desert Battle : axe and arrows\nBy L.T. Mark\nRev Tanatovago"
+"sky" "des"
+"classname" "worldspawn"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-720 -986.8 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "105"
+"origin" "467 -1026.8 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"points" "100"
+"nextmap" "desert5"
+"kills" "60"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "L.R.D.S."
+"origin" "-729 -1037 23"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "702 926 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "76 678 -22"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-491 1059 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "675 968 -20"
+"classname" "info_reinforcements_start"
+}
+{
+"points" "100"
+"nextmap" "desert4"
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Afrika Korps"
+"origin" "736 999 -32"
+"classname" "info_team_start"
+}
+{
+"delay" "5"
+"dmg" "100"
+"targetname" "expo"
+"origin" "-264 -252 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "6"
+"dmg" "100"
+"targetname" "expo"
+"origin" "168 260 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "2"
+"dmg" "100"
+"targetname" "expo"
+"origin" "148 -256 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "3"
+"dmg" "100"
+"targetname" "expo"
+"origin" "-252 248 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "8"
+"dmg" "100"
+"targetname" "expo"
+"origin" "0 -4 -56"
+"classname" "target_explosion"
+}
+{
+"delay" "9"
+"dmg" "100"
+"targetname" "expo"
+"origin" "508 4 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "100"
+"targetname" "expo"
+"origin" "-640 0 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "100"
+"targetname" "expo"
+"origin" "508 344 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "100"
+"targetname" "expo"
+"origin" "488 -312 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "15"
+"dmg" "100"
+"targetname" "expo"
+"origin" "-527 320 -64"
+"classname" "target_explosion"
+}
+{
+"delay" "5"
+"dmg" "100"
+"targetname" "expo"
+"origin" "-498 -292 -64"
+"classname" "target_explosion"
+}
+{
+"spawnflags" "1"
+"pausetime" "20"
+"delay" "8"
+"random" "3"
+"wait" "300"
+"target" "expo"
+"origin" "-2 -1 280"
+"classname" "func_timer"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "1 560 8"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-64 -539 -38"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "323 -690 21"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-278 -720 21"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-85 -955 -4"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "84 1019 -4"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "274 695 29"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-290 612 29"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-8 -8 -20"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "257 253 -20"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-239 -262 -20"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "316 -980 -20"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-289 -962 -20"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "63 -644 24"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "62 761 24"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "346 1004 -29"
+"classname" "target_speaker"
+}
+{
+"noise" "inland/backwind.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-194 962 -29"
+"classname" "target_speaker"
+}
+{
+"origin" "32 -644 -61"
+"classname" "ammo_tnt"
+}
+{
+"origin" "-52 662 -13"
+"classname" "ammo_tnt"
+}
+{
+"angle" "180"
+"origin" "0.9 5.9 -795.2"
+"classname" "info_player_start"
+}
+{
+"style" "7"
+"_color" "1 0.5 0.3"
+"light" "200"
+"origin" "-64 -32 -748"
+"classname" "light"
+}
+{
+"style" "8"
+"_color" "1 0.5 0"
+"light" "200"
+"origin" "64 64 -748"
+"classname" "light"
+}
+{
+"noise" "dinant/battle1b.wav"
+"volume" ".8"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "1 2 -747"
+"classname" "target_speaker"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*1"
+"dmg" "10000"
+"mass" "500"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"dmg" "10000"
+"mass" "500"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"target" "Tiger1"
+"angle" "270"
+"origin" "-288 755.1 17.1"
+"classname" "turret_driver"
+}
+{
+"model" "*3"
+"origin" "-284.03310 740.11900 0.12500"
+"team" "Tiger1-gun"
+"angle" "270"
+"classname" "turret_base"
+}
+{
+"model" "*4"
+"target" "Tiger1"
+"classname" "turret_range"
+}
+{
+"model" "*5"
+"origin" "-284.03310 740.11900 0.12500"
+"turret_sound" "catacombs/cart.wav"
+"minpitch" "-2"
+"maxpitch" "12"
+"ammo_speed" "2000"
+"maxyaw" "360"
+"fire_sound" "weapons/grenlx1a.wav"
+"dmg" "800"
+"ammo_type" "shell"
+"count" "92"
+"rate" "4"
+"speed" "30"
+"minyaw" "0"
+"team" "Tiger1-gun"
+"target" "Tiger1-tip"
+"targetname" "Tiger1"
+"angle" "270"
+"stance" "1"
+"classname" "turret_breach"
+}
+{
+"targetname" "Tiger1-tip"
+"origin" "-108 740 3"
+"classname" "info_notnull"
+}
+{
+"targetname" "tiger1-fx-fire-always"
+"target" "tiger1-fx-fire"
+"origin" "-286 745 76"
+"classname" "trigger_always"
+}
+{
+"target" "tiger1-fx-fire-on"
+"targetname" "kill_tiger1"
+"origin" "-286 745 76"
+"classname" "trigger_relay"
+}
+{
+"killtarget" "tiger1-fx-fire-always"
+"target" "tiger1-fx-fire"
+"targetname" "tiger1-fx-fire-on"
+"origin" "-286 729 53"
+"classname" "trigger_relay"
+}
+{
+"targetname" "tiger1-fx-fire"
+"mass" "21"
+"origin" "-278 737 74"
+"angle" "360"
+"model" "sprites/fire.sp2"
+"classname" "misc_md2"
+}
+{
+"model" "*6"
+"targetname" "tiger1-fx-fire"
+"spawnflags" "22"
+"dmg" "20"
+"classname" "trigger_hurt"
+}
+{
+"wait" "1"
+"target" "tiger1-fx-fire-light"
+"targetname" "tiger1-fx-fire-on"
+"origin" "-278 737 79"
+"classname" "func_timer"
+}
+{
+"Spawnflags" "1"
+"targetname" "tiger1-fx-fire-light"
+"style" "32"
+"_color" "1 1 0"
+"light" "200"
+"origin" "-294 729 28"
+"classname" "light"
+}
+{
+"targetname" "tiger1-fx-fire-light"
+"count" "100"
+"dmg" "0"
+"sounds" "1"
+"origin" "-312 676 -9"
+"classname" "target_splash"
+}
+{
+"Spawnflags" "1"
+"targetname" "kill_tiger1"
+"style" "33"
+"_color" "1 0.5 0.3"
+"light" "200"
+"origin" "-278 745 29"
+"classname" "light"
+}
+{
+"noise" "inland/fire.wav"
+"attenuation" "2"
+"targetname" "tiger1-fx-fire-on"
+"volume" "1"
+"spawnflags" "6"
+"origin" "-286 737 30"
+"classname" "target_speaker"
+}
+{
+"targetname" "kill_tiger1"
+"delay" "2"
+"dmg" "100"
+"origin" "-313 673 -8"
+"classname" "target_explosion"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*7"
+"killtarget" "Tiger1-fx"
+"target" "kill_tiger1"
+"obj_gain" "50"
+"dmg" "200"
+"mass" "500"
+"health" "1050"
+"obj_name" "Tiger Oberfuhrer"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"targetname" "Tiger-fx"
+"volume" "-1"
+"attenuation" "2"
+"spawnflags" "5"
+"noise" "colpiron/tank1.wav"
+"origin" "-286 817 2"
+"classname" "target_speaker"
+}
+{
+"targetname" "descarga"
+"dmg" "0"
+"count" "200"
+"origin" "-270 833 -6"
+"classname" "target_splash"
+}
+{
+"targetname" "Tiger-fx"
+"style" "34"
+"_color" "1 0 0"
+"light" "100"
+"origin" "-285 829 -54"
+"classname" "light"
+}
+{
+"model" "*8"
+"killtarget" "pz4-fx"
+"dmg" "200"
+"target" "kill_pz4"
+"mass" "400"
+"health" "1200"
+"classname" "func_explosive"
+}
+{
+"target" "Tiger2"
+"angle" "270"
+"origin" "353 702 20.5"
+"classname" "turret_driver"
+}
+{
+"model" "*9"
+"origin" "356.96690 687.11900 0.12500"
+"team" "Tiger-gun2"
+"angle" "270"
+"classname" "turret_base"
+}
+{
+"model" "*10"
+"target" "Tiger2"
+"classname" "turret_range"
+}
+{
+"model" "*11"
+"origin" "356.96690 687.11900 0.12500"
+"turret_sound" "catacombs/cart.wav"
+"minpitch" "-2"
+"maxpitch" "12"
+"ammo_speed" "2000"
+"maxyaw" "360"
+"fire_sound" "weapons/grenlx1a.wav"
+"dmg" "800"
+"ammo_type" "shell"
+"count" "92"
+"rate" "4"
+"speed" "30"
+"minyaw" "0"
+"team" "Tiger-gun2"
+"target" "Tiger-tip2"
+"targetname" "Tiger2"
+"angle" "270"
+"stance" "1"
+"classname" "turret_breach"
+}
+{
+"targetname" "Tiger-tip2"
+"origin" "533 687 2"
+"classname" "info_notnull"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*12"
+"killtarget" "Tiger2-fx"
+"target" "kill_tiger2"
+"obj_gain" "50"
+"dmg" "200"
+"mass" "500"
+"health" "1050"
+"obj_name" "Tiger 2"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"targetname" "Tiger2-fx"
+"volume" "-1"
+"attenuation" "2"
+"spawnflags" "5"
+"noise" "colpiron/tank1.wav"
+"origin" "355 764 2"
+"classname" "target_speaker"
+}
+{
+"targetname" "descarga"
+"dmg" "0"
+"count" "200"
+"origin" "371 780 -6"
+"classname" "target_splash"
+}
+{
+"targetname" "Tiger2-fx"
+"style" "35"
+"_color" "1 0 0"
+"light" "100"
+"origin" "356 776 -54"
+"classname" "light"
+}
+{
+"targetname" "tiger2-fx-fire-always"
+"target" "tiger2-fx-fire"
+"origin" "355 692 76"
+"classname" "trigger_always"
+}
+{
+"target" "tiger2-fx-fire-on"
+"targetname" "kill_tiger2"
+"origin" "355 692 76"
+"classname" "trigger_relay"
+}
+{
+"killtarget" "tiger2-fx-fire-always"
+"target" "tiger2-fx-fire"
+"targetname" "tiger2-fx-fire-on"
+"origin" "355 676 53"
+"classname" "trigger_relay"
+}
+{
+"targetname" "tiger2-fx-fire"
+"mass" "18"
+"origin" "363 684 74"
+"angle" "360"
+"model" "sprites/fire.sp2"
+"classname" "misc_md2"
+}
+{
+"model" "*13"
+"targetname" "tiger2-fx-fire"
+"spawnflags" "22"
+"dmg" "20"
+"classname" "trigger_hurt"
+}
+{
+"wait" "1"
+"target" "tiger2-fx-fire-light"
+"targetname" "tiger2-fx-fire-on"
+"origin" "363 684 79"
+"classname" "func_timer"
+}
+{
+"Spawnflags" "1"
+"targetname" "tiger2-fx-fire-light"
+"style" "36"
+"_color" "1 1 0"
+"light" "200"
+"origin" "347 676 28"
+"classname" "light"
+}
+{
+"targetname" "tiger2-fx-fire-light"
+"count" "100"
+"dmg" "0"
+"sounds" "1"
+"origin" "329 623 -9"
+"classname" "target_splash"
+}
+{
+"Spawnflags" "1"
+"targetname" "kill_tiger2"
+"style" "37"
+"_color" "1 0.5 0.3"
+"light" "200"
+"origin" "363 692 29"
+"classname" "light"
+}
+{
+"noise" "inland/fire.wav"
+"attenuation" "2"
+"targetname" "tiger2-fx-fire-on"
+"volume" "1"
+"spawnflags" "6"
+"origin" "355 684 30"
+"classname" "target_speaker"
+}
+{
+"targetname" "kill_tiger2"
+"delay" "2"
+"dmg" "100"
+"origin" "328 620 -8"
+"classname" "target_explosion"
+}
+{
+"model" "*14"
+"dmg" "200"
+"mass" "200"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"dmg" "100"
+"mass" "200"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"origin" "640.96690 938.11900 -49.87500"
+"wait" "12"
+"speed" "40"
+"spawnflags" "128"
+"distance" "120"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+}
+{
+"model" "*18"
+"mass" "200"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*19"
+"classname" "func_wall"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "406.4 937.6 -57.5"
+"classname" "target_speaker"
+}
+{
+"targetname" "descarga"
+"count" "300"
+"origin" "634 953 -86.5"
+"classname" "target_splash"
+}
+{
+"style" "4"
+"_color" "1 0 0"
+"light" "100"
+"origin" "642 923 -80.5"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "6"
+"light" "80"
+"origin" "480 947 -38"
+"classname" "light"
+}
+{
+"_color" "1 1 0"
+"style" "6"
+"light" "80"
+"origin" "404 939 -58"
+"classname" "light"
+}
+{
+"target" "breach-mortar1"
+"angle" "270"
+"origin" "-25 991 -69"
+"classname" "turret_driver"
+}
+{
+"model" "*22"
+"origin" "0 991 -93"
+"team" "gun-mortar1"
+"angle" "270"
+"classname" "turret_base"
+}
+{
+"model" "*20"
+"target" "breach-mortar1"
+"classname" "turret_range"
+}
+{
+"model" "*21"
+"origin" "0 991 -91"
+"maxpitch" "45"
+"minpitch" "-1"
+"dmg" "50"
+"ammo_speed" "800"
+"fire_sound" "ita/B38/fire.wav"
+"ammo_type" "grenade"
+"count" "200"
+"rate" "4"
+"speed" "50"
+"minyaw" "0"
+"maxyaw" "360"
+"targetname" "breach-mortar1"
+"target" "tip-mortar1"
+"team" "gun-mortar1"
+"angle" "270"
+"classname" "turret_breach"
+}
+{
+"targetname" "tip-mortar1"
+"origin" "33 991 -53"
+"classname" "info_notnull"
+}
+{
+"model" "*23"
+"dmg" "200"
+"mass" "500"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"target" "Mk2-1"
+"angle" "90"
+"origin" "-357 -668.1 16.5"
+"classname" "turret_driver"
+}
+{
+"model" "*24"
+"origin" "-357 -668.08030 -1"
+"team" "Mk2-1-gun"
+"angle" "90"
+"classname" "turret_base"
+}
+{
+"model" "*25"
+"target" "Mk2-1"
+"classname" "turret_range"
+}
+{
+"model" "*26"
+"origin" "-357 -668.08030 -1"
+"turret_sound" "catacombs/cart.wav"
+"minpitch" "-2"
+"maxpitch" "12"
+"ammo_speed" "1000"
+"maxyaw" "360"
+"fire_sound" "weapons/grenlx1a.wav"
+"dmg" "500"
+"ammo_type" "shell"
+"count" "120"
+"rate" "3"
+"speed" "60"
+"minyaw" "0"
+"team" "Mk2-1-gun"
+"target" "Mk2-1-tip"
+"targetname" "Mk2-1"
+"angle" "90"
+"stance" "1"
+"classname" "turret_breach"
+}
+{
+"targetname" "Mk2-1-tip"
+"origin" "-278 -668 0.5"
+"classname" "info_notnull"
+}
+{
+"targetname" "Mk2-1-fx-fire-always"
+"target" "Mk2-1-fx-fire"
+"origin" "-358 -663 60.5"
+"classname" "trigger_always"
+}
+{
+"target" "Mk2-1-fx-fire-on"
+"targetname" "kill_Mk2-1"
+"origin" "-358 -663 60.5"
+"classname" "trigger_relay"
+}
+{
+"killtarget" "Mk2-1-fx-fire-always"
+"target" "Mk2-1-fx-fire"
+"targetname" "Mk2-1-fx-fire-on"
+"origin" "-358 -679 37.5"
+"classname" "trigger_relay"
+}
+{
+"targetname" "Mk2-1-fx-fire"
+"mass" "21"
+"origin" "-358 -671 43"
+"angle" "180"
+"model" "sprites/fire.sp2"
+"classname" "misc_md2"
+}
+{
+"model" "*27"
+"targetname" "Mk2-1-fx-fire"
+"spawnflags" "22"
+"dmg" "20"
+"classname" "trigger_hurt"
+}
+{
+"wait" "1"
+"target" "Mk2-1-fx-fire-light"
+"targetname" "Mk2-1-fx-fire-on"
+"origin" "-350 -671 63.5"
+"classname" "func_timer"
+}
+{
+"Spawnflags" "1"
+"targetname" "Mk2-1-fx-fire-light"
+"style" "38"
+"_color" "1 1 0"
+"light" "200"
+"origin" "-366 -679 12.5"
+"classname" "light"
+}
+{
+"targetname" "Mk2-1-fx-fire-light"
+"count" "100"
+"dmg" "0"
+"sounds" "1"
+"origin" "-332 -615 -24.5"
+"classname" "target_splash"
+}
+{
+"Spawnflags" "1"
+"targetname" "kill_Mk2-1"
+"style" "39"
+"_color" "1 0.5 0.3"
+"light" "200"
+"origin" "-350 -663 13.5"
+"classname" "light"
+}
+{
+"noise" "inland/fire.wav"
+"attenuation" "2"
+"targetname" "Mk2-1-fx-fire-on"
+"volume" "1"
+"spawnflags" "6"
+"origin" "-358 -671 14.5"
+"classname" "target_speaker"
+}
+{
+"dmg" "100"
+"delay" "2"
+"targetname" "kill_Mk2-1"
+"origin" "-357 -655 22.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "descarga"
+"dmg" "0"
+"count" "200"
+"origin" "-386 -786 -33.5"
+"classname" "target_splash"
+}
+{
+"attenuation" "2"
+"targetname" "Mk2-1-fx"
+"volume" "1"
+"noise" "faf/tank2.wav"
+"spawnflags" "5"
+"origin" "-349 -797 -16.5"
+"classname" "target_speaker"
+}
+{
+"targetname" "Mk2-1-fx"
+"_color" "1 0 0"
+"style" "40"
+"light" "100"
+"origin" "-320 -784 -55.5"
+"classname" "light"
+}
+{
+"model" "*28"
+"killtarget" "Mk2-1-fx"
+"target" "kill_Mk2-1"
+"dmg" "200"
+"mass" "200"
+"health" "1000"
+"obj_gain" "30"
+"obj_name" "Mathilda Flag"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*29"
+"dmg" "200"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*30"
+"dmg" "200"
+"mass" "200"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*31"
+"dmg" "100"
+"mass" "200"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"target" "mk2-2"
+"angle" "90"
+"origin" "228 -651.1 16.5"
+"classname" "turret_driver"
+}
+{
+"model" "*32"
+"origin" "228 -651.08030 -1"
+"team" "mk2-2-gun"
+"angle" "90"
+"classname" "turret_base"
+}
+{
+"model" "*33"
+"target" "mk2-2"
+"classname" "turret_range"
+}
+{
+"model" "*34"
+"origin" "228 -651.08030 -1"
+"turret_sound" "catacombs/cart.wav"
+"minpitch" "-2"
+"maxpitch" "12"
+"ammo_speed" "1000"
+"maxyaw" "360"
+"fire_sound" "weapons/grenlx1a.wav"
+"dmg" "500"
+"ammo_type" "shell"
+"count" "120"
+"rate" "3"
+"speed" "60"
+"minyaw" "0"
+"team" "mk2-2-gun"
+"target" "mk2-2-tip"
+"targetname" "mk2-2"
+"angle" "90"
+"stance" "1"
+"classname" "turret_breach"
+}
+{
+"targetname" "mk2-2-tip"
+"origin" "321 -651 0.5"
+"classname" "info_notnull"
+}
+{
+"targetname" "mk2-2-fx-fire-always"
+"target" "mk2-2-fx-fire"
+"origin" "227 -646 60.5"
+"classname" "trigger_always"
+}
+{
+"target" "mk2-2-fx-fire-on"
+"targetname" "kill_mk2-2"
+"origin" "227 -646 60.5"
+"classname" "trigger_relay"
+}
+{
+"killtarget" "mk2-2-fx-fire-always"
+"target" "mk2-2-fx-fire"
+"targetname" "mk2-2-fx-fire-on"
+"origin" "227 -662 37.5"
+"classname" "trigger_relay"
+}
+{
+"targetname" "mk2-2-fx-fire"
+"mass" "15"
+"origin" "227 -654 43"
+"angle" "180"
+"model" "sprites/fire.sp2"
+"classname" "misc_md2"
+}
+{
+"model" "*35"
+"targetname" "mk2-2-fx-fire"
+"spawnflags" "22"
+"dmg" "20"
+"classname" "trigger_hurt"
+}
+{
+"wait" "1"
+"target" "mk2-2-fx-fire-light"
+"targetname" "mk2-2-fx-fire-on"
+"origin" "235 -654 63.5"
+"classname" "func_timer"
+}
+{
+"Spawnflags" "1"
+"targetname" "mk2-2-fx-fire-light"
+"style" "41"
+"_color" "1 1 0"
+"light" "200"
+"origin" "219 -662 12.5"
+"classname" "light"
+}
+{
+"targetname" "mk2-2-fx-fire-light"
+"count" "100"
+"dmg" "0"
+"sounds" "1"
+"origin" "238 -755 -19.5"
+"classname" "target_splash"
+}
+{
+"Spawnflags" "1"
+"targetname" "kill_mk2-2"
+"style" "42"
+"_color" "1 0.5 0.3"
+"light" "200"
+"origin" "235 -646 13.5"
+"classname" "light"
+}
+{
+"noise" "inland/fire.wav"
+"attenuation" "2"
+"targetname" "mk2-2-fx-fire-on"
+"volume" "1"
+"spawnflags" "6"
+"origin" "227 -654 14.5"
+"classname" "target_speaker"
+}
+{
+"dmg" "100"
+"delay" "2"
+"targetname" "kill_mk2-2"
+"origin" "236 -738 -13.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "descarga"
+"dmg" "0"
+"count" "200"
+"origin" "199 -769 -33.5"
+"classname" "target_splash"
+}
+{
+"attenuation" "2"
+"targetname" "mk2-2-fx"
+"volume" "1"
+"noise" "faf/tank2.wav"
+"spawnflags" "5"
+"origin" "236 -780 -16.5"
+"classname" "target_speaker"
+}
+{
+"targetname" "mk2-2-fx"
+"_color" "1 0 0"
+"style" "43"
+"light" "100"
+"origin" "265 -767 -55.5"
+"classname" "light"
+}
+{
+"model" "*36"
+"killtarget" "mk2-2-fx"
+"target" "kill_mk2-2"
+"dmg" "200"
+"mass" "200"
+"health" "1000"
+"obj_gain" "40"
+"obj_name" "Mathilda Eagle - leader"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*37"
+"dmg" "200"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"target" "mk2-3"
+"angle" "90"
+"origin" "414 -702.1 16.5"
+"classname" "turret_driver"
+}
+{
+"model" "*38"
+"origin" "414 -702.08030 -1"
+"team" "mk2-3-gun"
+"angle" "90"
+"classname" "turret_base"
+}
+{
+"model" "*39"
+"target" "mk2-3"
+"classname" "turret_range"
+}
+{
+"model" "*40"
+"origin" "414 -702.08030 -1"
+"turret_sound" "catacombs/cart.wav"
+"minpitch" "-2"
+"maxpitch" "12"
+"ammo_speed" "1000"
+"maxyaw" "360"
+"fire_sound" "weapons/grenlx1a.wav"
+"dmg" "500"
+"ammo_type" "shell"
+"count" "120"
+"rate" "3"
+"speed" "60"
+"minyaw" "0"
+"team" "mk2-3-gun"
+"target" "mk2-3-tip"
+"targetname" "mk2-3"
+"angle" "90"
+"stance" "1"
+"classname" "turret_breach"
+}
+{
+"targetname" "mk2-3-tip"
+"origin" "493 -702 0.5"
+"classname" "info_notnull"
+}
+{
+"targetname" "mk2-3-fx-fire-always"
+"target" "mk2-3-fx-fire"
+"origin" "413 -697 60.5"
+"classname" "trigger_always"
+}
+{
+"target" "mk2-3-fx-fire-on"
+"targetname" "kill_mk2-3"
+"origin" "413 -697 60.5"
+"classname" "trigger_relay"
+}
+{
+"killtarget" "mk2-3-fx-fire-always"
+"target" "mk2-3-fx-fire"
+"targetname" "mk2-3-fx-fire-on"
+"origin" "413 -713 37.5"
+"classname" "trigger_relay"
+}
+{
+"targetname" "mk2-3-fx-fire"
+"mass" "10"
+"origin" "413 -705 43"
+"angle" "180"
+"model" "sprites/fire.sp2"
+"classname" "misc_md2"
+}
+{
+"model" "*41"
+"targetname" "mk2-3-fx-fire"
+"spawnflags" "22"
+"dmg" "20"
+"classname" "trigger_hurt"
+}
+{
+"wait" "1"
+"target" "mk2-3-fx-fire-light"
+"targetname" "mk2-3-fx-fire-on"
+"origin" "421 -705 63.5"
+"classname" "func_timer"
+}
+{
+"Spawnflags" "1"
+"targetname" "mk2-3-fx-fire-light"
+"style" "44"
+"_color" "1 1 0"
+"light" "200"
+"origin" "405 -713 12.5"
+"classname" "light"
+}
+{
+"targetname" "mk2-3-fx-fire-light"
+"count" "100"
+"dmg" "0"
+"sounds" "1"
+"origin" "414 -650 -19.5"
+"classname" "target_splash"
+}
+{
+"Spawnflags" "1"
+"targetname" "kill_mk2-3"
+"style" "45"
+"_color" "1 0.5 0.3"
+"light" "200"
+"origin" "421 -697 13.5"
+"classname" "light"
+}
+{
+"noise" "inland/fire.wav"
+"attenuation" "2"
+"targetname" "mk2-3-fx-fire-on"
+"volume" "1"
+"spawnflags" "6"
+"origin" "413 -705 14.5"
+"classname" "target_speaker"
+}
+{
+"dmg" "100"
+"delay" "2"
+"targetname" "kill_mk2-3"
+"origin" "416 -694 19.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "descarga"
+"dmg" "0"
+"count" "200"
+"origin" "385 -820 -33.5"
+"classname" "target_splash"
+}
+{
+"attenuation" "2"
+"targetname" "mk2-3-fx"
+"volume" "1"
+"noise" "faf/tank2.wav"
+"spawnflags" "5"
+"origin" "422 -831 -16.5"
+"classname" "target_speaker"
+}
+{
+"targetname" "mk2-3-fx"
+"_color" "1 0 0"
+"style" "46"
+"light" "100"
+"origin" "451 -818 -55.5"
+"classname" "light"
+}
+{
+"model" "*42"
+"killtarget" "mk2-3-fx"
+"target" "kill_mk2-3"
+"dmg" "200"
+"mass" "200"
+"health" "1000"
+"obj_gain" "30"
+"obj_name" "Mathilda Lion Army"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*43"
+"dmg" "200"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "200"
+"origin" "-213 -1019.1 -63.5"
+"classname" "light"
+}
+{
+"target" "chargesmoke"
+"wait" "0.5"
+"spawnflags" "1"
+"origin" "-222.9 -1019.1 -48.5"
+"classname" "func_timer"
+}
+{
+"targetname" "chargesmoke"
+"count" "100"
+"origin" "-237.8 -1009.9 -80.5"
+"classname" "target_splash"
+}
+{
+"noise" "colpiron/engine4.wav"
+"volume" ".7"
+"attenuation" "2"
+"spawnflags" "5"
+"origin" "-150.1 -956.2 -72.5"
+"classname" "target_speaker"
+}
+{
+"targetname" "chargesmoke"
+"count" "250"
+"origin" "-247 -1019.1 -76.5"
+"classname" "target_splash"
+}
+{
+"model" "*44"
+"dmg" "100"
+"mass" "50"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*45"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*46"
+"classname" "func_wall"
+}
+{
+"style" "4"
+"_color" "1 0 0"
+"light" "200"
+"origin" "-669.5 -963.9 -76.1"
+"classname" "light"
+}
+{
+"model" "*47"
+"classname" "func_wall"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "colpiron/engine2.wav"
+"spawnflags" "5"
+"origin" "-520.4 -985.9 -48.1"
+"classname" "target_speaker"
+}
+{
+"target" "breach-mortar2"
+"angle" "90"
+"origin" "-25 -1025 -71"
+"classname" "turret_driver"
+}
+{
+"model" "*50"
+"origin" "0 -1024 -95"
+"team" "gun-mortar2"
+"angle" "90"
+"classname" "turret_base"
+}
+{
+"model" "*48"
+"target" "breach-mortar2"
+"classname" "turret_range"
+}
+{
+"model" "*49"
+"origin" "0 -1024 -93"
+"maxpitch" "45"
+"minpitch" "-1"
+"dmg" "50"
+"ammo_speed" "800"
+"fire_sound" "ita/B38/fire.wav"
+"ammo_type" "grenade"
+"count" "200"
+"rate" "4"
+"speed" "50"
+"minyaw" "0"
+"maxyaw" "360"
+"targetname" "breach-mortar2"
+"target" "tip-mortar2"
+"team" "gun-mortar2"
+"angle" "90"
+"classname" "turret_breach"
+}
+{
+"targetname" "tip-mortar2"
+"origin" "33 -1025 -55"
+"classname" "info_notnull"
+}
+{
+"model" "*51"
+"dmg" "200"
+"mass" "500"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"target" "descarga"
+"origin" "-8 -8 -12"
+"classname" "trigger_always"
+}

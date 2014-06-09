@@ -1,0 +1,358 @@
+{
+"_sun_color" ".7 .7 1"
+"_sun_ambient" "20"
+"_sun_diffuse" "100"
+"message" "Small town at night\nDesigned by shuft"
+"_sun" "moon-light"
+"_sun_light" "360"
+"_sun_angle" "313 -50"
+"sky" "night1dark"
+"classname" "worldspawn"
+}
+{
+"angle" "163"
+"origin" "-2149 2374 -2894"
+"classname" "info_player_start"
+}
+{
+"nextmap" "soviet6"
+"kills" "50"
+"count" "2"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russians"
+"origin" "-3118 3350 -2828"
+"classname" "info_team_start"
+}
+{
+"nextmap" "soviet6"
+"kills" "50"
+"count" "2"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Germans"
+"origin" "-2357 2786 -2873"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "354"
+"origin" "-1660 2541 -2973"
+"count" "-1"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "347"
+"origin" "-1635 2541 -2972"
+"count" "-1"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "357"
+"origin" "-3525 3302 -2928"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "113"
+"origin" "-1002 1641 -3039"
+"classname" "info_reinforcements_start"
+}
+{
+"_color" "1 1.0 0.8"
+"style" "1"
+"light" "180"
+"origin" "-1904 3086 -2606"
+"classname" "light"
+}
+{
+"style" "32"
+"targetname" "moon-light"
+"light" "120"
+"origin" "-1893 3056 -2525"
+"classname" "light"
+}
+{
+"volume" ".5"
+"noise" "inland/dogs.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-1301 2716 -2917"
+"classname" "target_speaker"
+}
+{
+"volume" "0.3"
+"noise" "cherbourg/amb1.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-1323 3254 -2796"
+"classname" "target_speaker"
+}
+{
+"message" "Grenade Spamming Corner"
+"origin" "-1300 2823 -2924"
+"classname" "map_location"
+}
+{
+"_color" "1 1.0 0.8"
+"style" "1"
+"light" "180"
+"origin" "-1896 3365 -2606"
+"classname" "light"
+}
+{
+"message" "Stone Gate"
+"origin" "-1577 2829 -2944"
+"classname" "map_location"
+}
+{
+"message" "Stone Gate"
+"origin" "-1838 2825 -2924"
+"classname" "map_location"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1607 2472 -2886"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1285 1888 -2977"
+"classname" "light"
+}
+{
+"volume" "0.3"
+"noise" "faf/wind.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-2504 3057 -2917"
+"classname" "target_speaker"
+}
+{
+"message" "Bridge"
+"origin" "-2858 3058 -2955"
+"classname" "map_location"
+}
+{
+"message" "Allied Spawn"
+"origin" "-3304 3043 -2959"
+"classname" "map_location"
+}
+{
+"volume" "0.3"
+"noise" "faf/wind.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-3015 3057 -2704"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "faf/bird9.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-2478 2376 -2831"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "faf/windr.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-1975 2845 -2796"
+"classname" "target_speaker"
+}
+{
+"volume" "0.3"
+"noise" "cherbourg/warwind.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-1034 2147 -2917"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/chopin.wav"
+"spawnflags" "1"
+"attenuation" "4"
+"origin" "-1987 3092 -2519"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-2934 2619 -2907"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-2930 2436 -2760"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-2862 2720 -2674"
+"classname" "target_speaker"
+}
+{
+"_cone" "20"
+"style" "1"
+"light" "125"
+"origin" "-1311 3453 -2905"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1305 3142 -3031"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1308 2776 -3027"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1306 3382 -3015"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1642 2743 -3024"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-2165 2746 -3043"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "-1879 2743 -3021"
+"classname" "light"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-2104 2736 -3040"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-1766 2738 -3029"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-1305 2764 -3037"
+"classname" "target_speaker"
+}
+{
+"message" "Graveyard"
+"origin" "-3183 2548 -2959"
+"classname" "map_location"
+}
+{
+"message" "Dead End"
+"origin" "-3532 2320 -2959"
+"classname" "map_location"
+}
+{
+"message" "Lawn"
+"origin" "-2296 2490 -2959"
+"classname" "map_location"
+}
+{
+"message" "Dark Alley"
+"origin" "-1610 2338 -2959"
+"classname" "map_location"
+}
+{
+"message" "Manhole"
+"origin" "-2190 2815 -2959"
+"classname" "map_location"
+}
+{
+"message" "Relaxing Sniper Room"
+"origin" "-1919 3192 -2633"
+"classname" "map_location"
+}
+{
+"message" "Rooftops"
+"origin" "-1701 3201 -2618"
+"classname" "map_location"
+}
+{
+"message" "Bombed Out House"
+"origin" "-1005 3256 -2915"
+"classname" "map_location"
+}
+{
+"message" "Tunnel Steps"
+"origin" "-1315 3459 -3061"
+"classname" "map_location"
+}
+{
+"message" "Tunnel"
+"origin" "-1303 2773 -3076"
+"classname" "map_location"
+}
+{
+"message" "Axis Spawn"
+"origin" "-1020 1959 -2988"
+"classname" "map_location"
+}
+{
+"message" "Courtyard"
+"origin" "-1045 2600 -2934"
+"classname" "map_location"
+}
+{
+"message" "Mariachis Spot"
+"origin" "-1449 3092 -2949"
+"classname" "map_location"
+}
+{
+"message" "Tunnel"
+"origin" "-1934 2742 -3073"
+"classname" "map_location"
+}
+{
+"message" "Darkened Tower"
+"origin" "-2858 2718 -2751"
+"classname" "map_location"
+}
