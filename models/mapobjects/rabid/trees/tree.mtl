@@ -1,0 +1,27 @@
+# Material file for tree.obj
+
+newmtl MAT_A5490C
+	Ns 8
+	d 1
+	illum 2
+	Kd 0.752941 0.752941 0.752941
+	Ks 0.752941 0.752941 0.752941
+	Ka 0.117647 0.117647 0.117647
+
+newmtl MAT_A738F8
+	Ns 51
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.0 0.0 0.0
+	Ka 0.0 0.0 0.0
+
+newmtl MAT_A73A00
+	Ns 12
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.15 0.15 0.15
+	Ka 0.0 0.0 0.0
+	map_Kd ..\\Textures\\tree_uv.png
+

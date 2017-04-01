@@ -1,0 +1,37 @@
+# Material file for light_5.obj
+
+newmtl 01
+	Ns 1
+	d 1
+	illum 2
+	Kd 0.376471 0.376471 0.376471
+	Ks 0.898039 0.898039 0.898039
+	Ka 0.376471 0.376471 0.376471
+	map_Kd ..\..\textures\metal\black_2.jpg
+
+newmtl Glass
+	Ns 1
+	d 1
+	illum 2
+	Kd 0.584314 0.584314 0.584314
+	Ks 0.898039 0.898039 0.898039
+	Ka 0.584314 0.584314 0.584314
+
+newmtl filiment.jpg
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd filiment.jpg
+
+newmtl bulb.tga
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd bulb.tga
+
