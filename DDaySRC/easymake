@@ -1,0 +1,3 @@
+#!/bin/bash
+
+make clean && make -j2 build_debug

@@ -1,0 +1,94 @@
+{
+"sky" "doomtown"
+"_ambient" "38"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "555 -2367 415"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "259.3 -362.1 138.1"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "794.8 -570.4 137.3"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "857.3 -1318.7 134.4"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "326.2 -1308.4 132.7"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "171"
+"origin" "521 -2608 -79"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "171"
+"origin" "1148 -2608 -79"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "208"
+"origin" "1101 220 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "208"
+"origin" "-201 197 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "russia"
+"nextmap" "doomtown"
+"kills" "60"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "208"
+"origin" "645.3 -933.9 200.5"
+"classname" "info_team_start"
+}
+{
+"message" "axis"
+"kills" "60"
+"nextmap" "doomtown"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "208"
+"origin" "598.9 -723.0 222.4"
+"classname" "info_team_start"
+}
+{
+"min" "456 -2032 241"
+"max" "1206 -2831 -357"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"min" "1673 -2315 215"
+"max" "1131 -2959 -344"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"min" "1483 197 152"
+"max" "-410 765 -247"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}

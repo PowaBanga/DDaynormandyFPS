@@ -1,0 +1,32 @@
+;
+; The client side check variables file for the q2admin dll.
+;
+; Checking client side variables are set correctly for a specific mod
+; can be enabled and disabled by the checkvarcmds_enable command.
+;
+; q2admincheckvar.txt is loaded from the Quake2 directory and then the mod directory 
+; in that order.
+; 
+;
+; The format for each check variable line is:
+;
+; CT: "<variablename>" "<value>"
+; RG: "<variablename>" "<lower bound>" "<upper bound>"
+;
+;
+; CT - (constant) is used for variables that are required to be only one value.  
+;      This can be used for text variables as well has normal variables.
+; 
+; RG - (range) is used for variables that are required to be in a range of values.
+;      This can only be used for variables that hold number values.
+;
+;
+;e.g.
+;CT: "gl_modulate" "1"
+; This will only allow the gl_modulate variable to be a value of "1".
+;
+;RG: "gl_lockpvs" "1" "2"
+; This will only allow gl_lockpvs values to be between 1 and 2.
+;
+
+

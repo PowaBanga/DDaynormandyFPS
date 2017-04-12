@@ -1,0 +1,227 @@
+{
+"_sun_angle" "10 -40"
+"_sun_color" ".5 .7 .9"
+"_sun_diffuse" "210"
+"_sun_light" "250"
+"_sun_ambient" "55"
+"sky" "dwell"
+"message" "The Railyard\nMr. YOur no fun"
+"classname" "worldspawn"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russian"
+"nextmap" "soviet4"
+"origin" "624 595 112"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "268"
+"origin" "615.2 1540.1 79"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "360"
+"origin" "-172 1716 80"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "184"
+"origin" "183.9 1784.8 80"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "276"
+"origin" "541.3 1557.5 78"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"nextmap" "soviet4"
+"origin" "474.6 -332.2 100"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "9"
+"origin" "237 -1161 77"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "293.2 -1151.4 83"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "59.2 -1139.1 83"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "2"
+"origin" "-71.2 -579.1 83"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"origin" "609.1 1394.2 108"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "caule"
+"mass" "75"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"targetname" "folha"
+"mass" "75"
+"health" "6"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"targetname" "caule"
+"spawnflags" "0"
+"target" "folha"
+"mass" "75"
+"health" "7"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"spawnflags" "7"
+"classname" "func_wall"
+}
+{
+"model" "*8"
+"spawnflags" "7"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "trigger_hurt"
+}
+{
+"model" "*10"
+"classname" "func_wall"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "combat"
+"noise" "cherbourg/amb4"
+"attenuation" "4"
+"origin" "-148 -29.8 -5"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"random" "0"
+"wait" "45"
+"spawnflags" "1"
+"target" "combat"
+"origin" "-111 -206.7 7"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"targetname" "arta1"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/ambience"
+"origin" "-96 522 121"
+"classname" "target_speaker"
+}
+{
+"wait" "37"
+"target" "arta1"
+"spawnflags" "1"
+"origin" "89 547 -3"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"targetname" "noise"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/combata2"
+"origin" "710 192 -3"
+"classname" "target_speaker"
+}
+{
+"wait" "18"
+"target" "noise"
+"spawnflags" "1"
+"origin" "717 340 -3"
+"classname" "func_timer"
+}
+{
+"target" "fire"
+"spawnflags" "1"
+"origin" "11 5 53"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "faf/fire1"
+"attenuation" "2"
+"origin" "548 81 99"
+"classname" "target_speaker"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "527.3 92.8 128"
+"classname" "light"
+}
+{
+"light" "80"
+"origin" "225 712 36"
+"classname" "light"
+}
+{
+"origin" "577.1 94.8 28.2"
+"model" "sprites/faf/fire2.sp2"
+"mass" "8"
+"style" "2"
+"classname" "misc_md2"
+}

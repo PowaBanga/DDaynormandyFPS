@@ -1,0 +1,150 @@
+{
+"message" "Dunkirk - By Anrkist \nCapture the Upstairs Room!"
+"sky" "sr"
+"gravity" "800"
+"classname" "worldspawn"
+}
+{
+"origin" "-448 3200 -128"
+"kills" "50"
+"points" "100"
+"nextmap" "dday2"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"classname" "info_team_start"
+}
+{
+"origin" "-320 3200 -128"
+"kills" "50"
+"points" "100"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"classname" "info_team_start"
+}
+{
+"origin" "-384 1216 -128"
+"angle" "360"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"mass" "75"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"mass" "75"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"_minlight" "0"
+"mass" "75"
+"dmg" "2"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"mass" "125"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"mass" "200"
+"health" "7000"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"mass" "75"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"origin" "1728 832 -192"
+"wait" "0"
+"target" "stop2"
+"targetname" "stop1"
+"classname" "path_corner"
+}
+{
+"origin" "-320 832 -192"
+"targetname" "stop2"
+"classname" "path_corner"
+}
+{
+"model" "*7"
+"team" "0"
+"speed" "40"
+"target" "stop1"
+"classname" "func_train"
+}
+{
+"origin" "-228 1892 -167"
+"obj_owner" "0"
+"angle" "345"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-464 -359 -167"
+"obj_owner" "1"
+"angle" "195"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*8"
+"mass" "75"
+"health" "10000"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"mass" "75"
+"health" "50"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"_minlight" "0"
+"dmg" "0"
+"mass" "75"
+"health" "50"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"mass" "75"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"mass" "75"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"mass" "75"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"min" "-847 496 24"
+"max" "47 719 24"
+"message" "Upstairs Room"
+"dmg" "0"
+"health" "100"
+"obj_time" "120"
+"classname" "timed_objective_touch"
+}

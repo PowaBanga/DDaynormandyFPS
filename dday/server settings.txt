@@ -1,0 +1,60 @@
+// This text gives information on the server.cfg settings
+// THIS FILE IS NOT USED! IT IS A REFERENCE.
+//
+// IF you plan on running a server, DELETE or RENAME autoexec.cfg
+// This file is particularly large and may cause SZ_GetSpace overflows for dedicated servers
+
+game dday
+gamedir dday
+
+set hostname "D-Day: Normandy Server 5.3"
+set website "http://www.ddaydev.com" s  // yes the s is needed
+set deathmatch 1
+set timelimit 0
+set maxclients 10	
+set public 1
+setmaster satan.idsoftware.com master0.gamespy.com q2master.planetquake.com
+
+//set password "mypass"      // password to keep server private
+//set rcon_password "mypass" // remote console for server administration
+
+// If you do not wish to use D-Day's built-in campaign system,
+// uncomment the following lines and use the maplist.ini in the dday folder.
+// The maplist limit is 64 maps. Make sure to comment the 'map dday1' line.
+//sv maplist maplist.ini 1
+//sv maplist start
+
+//sv logfile 1   // 0 Disable logging, 1 Enable burst logging, 2 Enable continuous logging.
+
+// Start the server
+map dday1
+
+// D-Day configuration 
+set RI 10             // Respawn Interval (number of seconds before respawning)
+set level_wait 30     // Time in seconds to countdown the battle at map start
+set team_kill 0       // 1 = team_kill on,  2 = team_kill on w/penalties
+set invuln_medic 0    // Set to 1 to have invunlnerable medics
+set death_msg 2       // 0 = death printed to self only, 1 = to everybody (like in older dday), 2 = team only
+set easter_egg 0      // Enable easter eggs
+
+// Uncomment and set this so admins may type: /observer mypass to spectate. (before joining a team)
+//set observer_password "mypass"
+
+// Artillery Options
+arty_delay 10     // Seconds till artillery fires after triggered
+arty_time 60      // Seconds until you can fire again
+arty_max 1        // Number of shots to be fired in each volley
+
+// Spawn Camp Protection
+// With this style, a player is invulnerable at spawn
+set invuln_spawn 2      // Time a player is invulnerable at spawn
+
+// With this style, spawn camping is checked and kills the spawn killer
+set spawn_camp_check 0	// Set to 0 to turn off spawn camp checking
+set spawn_camp_time 2	// check if '2' seconds after respawn
+
+// Q2 chat flood protection
+set flood_msgs 4       //Number of messages before protection activates
+set flood_persecond 4  //messages allowed per second
+set flood_waitdelay 10 //penalty in seconds
+
