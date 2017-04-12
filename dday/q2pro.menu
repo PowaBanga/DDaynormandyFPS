@@ -232,7 +232,7 @@ end
 
 begin input
     title "Input Setup"
-    field --integer --width 2 "mouse sens" sensitivity
+    range "mouse sensitivity" sensitivity 0 9
     toggle "auto sens" m_autosens
     toggle "mouse filter" m_filter
     toggle "free look" freelook
@@ -263,6 +263,7 @@ begin general
     bind "Previous item" invprev
     bind "Nect item" invnext
     bind "help computer" help
+    bind "Open Console" toggleconsole
     bind "Obsrever" observer
     bind "Screenshot" screenshot
     bind "Vote yes" vote yes
