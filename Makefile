@@ -5,7 +5,10 @@ q2pro:
 	cp -a q2proSRC/q2pro .
 	cp -a q2proSRC/q2proded .
 
-dday:
+dday/config.cfg:
+	cp -a dday/config.cfg.sample dday/config.cfg
+
+dday: dday/config.cfg
 	$(MAKE) -C DDaySRC
 	cp -a DDaySRC/game*.* dday/
 
