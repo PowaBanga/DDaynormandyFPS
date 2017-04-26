@@ -184,7 +184,7 @@ end
 
 begin multiplayer
     banner m_banner_multiplayer
-    action "Referenced servers" pushmenu servers "+http://q2servers.com/?g=dday&raw=2" "file:///servers.lst" "favorites://" "broadcast://"
+    action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&raw=2" "file:///servers.lst" "favorites://" "broadcast://"
     action "demo browser" pushmenu demos
     action "start server" pushmenu startserver
     action "Address book" pushmenu addressbook
@@ -201,8 +201,7 @@ begin main
 end
 
 begin game
-    action "Referenced servers" pushmenu servers "+http://q2servers.com/?g=dday&raw=2"
-    action "Browse address book" pushmenu servers "favorites://" "file:///servers.lst" "broadcast://"
+    action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&raw=2" "favorites://" "file:///servers.lst" "broadcast://"
     action "demos" pushmenu demos
     action "options" pushmenu options
     action "disconnect" disconnect
@@ -311,16 +310,16 @@ begin shouts
     bind "Right !" ff
     bind "Medic !" mm
     bind "Attack !" gg
-    bind "Get on my shoulders !" ii
-    bind "Retreat !" hh
-    bind "Incoming !" jj
+    bind "Retreat !" hh   
+    bind "Get on my shoulders !" ii 
+    bind "Incoming !" jj    
     bind "Follow me." kk
     bind "Funny shouts." ww
     bind "Sniper !" ll
     bind "Cease fire !" qq
-    bind "I need a weapon." rr
-    bind "Grenade !" ss
     bind "Misc." xx
+    bind "I need a weapon." rr
     bind "Help !" dd
+    bind "Grenade !" ss
 end
 
