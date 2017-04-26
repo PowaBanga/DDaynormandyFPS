@@ -5,7 +5,7 @@ Dependencies
 ------------
 
 ```
-libc6-dev libx11-dev libsdl1.2-dev libopenal-dev
+libc6-dev libx11-dev libSDL2-dev libsdl1.2-dev libopenal-dev
 libpng12-dev libjpeg8-dev zlib1g-dev mesa-common-dev
 liblircclient-dev libcurl4-gnutls-dev
 ```

@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := build
 
 .PHONY: build clean q2pro dday
-ARCH=$(arch)
+
 q2pro:
 	$(MAKE) -C q2proSRC
 	cp -a q2proSRC/q2pro .
