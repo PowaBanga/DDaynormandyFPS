@@ -7,7 +7,7 @@ q2pro:
 	cp -a q2proSRC/q2pro .
 	cp -a q2proSRC/q2proded .
 	mv q2pro DDaynormandy
-	mv q2proded Dediedserver
+	mv q2proded DDaynormandyded
 dday/config.cfg:
 	cp -a dday/config.cfg.sample dday/config.cfg
 
