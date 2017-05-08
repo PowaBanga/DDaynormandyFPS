@@ -14,24 +14,30 @@ You can download [the latest release](https://github.com/PowaBanga/DDaynormandyF
 
 How to play:
 ------------
-ESCAPE -> Main menu
-[,],PAGEDOWN/UP -> go up/down in game menu
-A,S,D,W or ARROWS  -> movements
-Q -> take items
-SPACE -> Jump
-CTRL or C -> down-crouch
-Left click -> shoot
-Right click -> use weapon (position to aim)
-R or Middle click -> reload
+ * ESCAPE -> Main menu
+ * [,],PAGEDOWN/UP -> go up/down in game menu
+ * A,S,D,W or ARROWS  -> movements
+ * Q -> take items
+ * SPACE -> Jump
+ * CTRL or C -> down-crouch
+ * Left click -> shoot
+ * Right click -> use weapon (position to aim)
+ * R or Middle click -> reload
 
 Links
 ------
 [Developpement site](http://ddaydev.com/)
+
 [French site](http://ddaynormandy.keumforum.com/)
+
 [Chilian site (spanish)](http://ddaychile.com/)
+
 [Facebook page](https://www.facebook.com/ddaynormandyquake2)
+
 [Find players on facebook](https://www.facebook.com/groups/ddaynormandy)
+
 [How to contribue](https://github.com/PowaBanga/DDaynormandyFPS/wiki/How-to-contribue)
+
 [Last realese](https://github.com/PowaBanga/DDaynormandyFPS/releases/latest)
 
 
