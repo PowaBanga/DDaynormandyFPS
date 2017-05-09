@@ -25,7 +25,7 @@
 #
 
 #ARCH=i386
-ARCH=x86_64
+ARCH=$(arch)
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp
 

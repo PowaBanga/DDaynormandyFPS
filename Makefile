@@ -19,7 +19,9 @@ build: q2pro dday
 
 clean:
 	$(MAKE) -C q2proSRC clean
+	rm -f q2proSRC/game?*.*
 	rm -f DDaynormandy
 	rm -f Dediedserver
 	$(MAKE) -C DDaySRC clean
+	rm -f DDaySRC/game?*.*
 	rm -f dday/game?*.*

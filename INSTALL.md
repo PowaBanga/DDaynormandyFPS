@@ -30,19 +30,21 @@ to build using all available cores:
 make -j$(nproc)
 ```
 _note :_
-If you compil the game on an other arch that x84_64, you have to modify this files with a text editor :
+If you want to force arch of the compilation, you have to modify this files with a text editor :
 ```
-ai/makefile
-gbr/makefile
-grm/makefile
-ita/makefile
-jpn/makefile
-pol/makefile
-rus/makefile
-usa/makefile
-usm/makefile
+q2proSRC/.config
+DDaySRC/Makefile
+DDaySRC/ai/makefile
+DDaySRC/gbr/makefile
+DDaySRC/grm/makefile
+DDaySRC/ita/makefile
+DDaySRC/jpn/makefile
+DDaySRC/pol/makefile
+DDaySRC/rus/makefile
+DDaySRC/usa/makefile
+DDaySRC/usm/makefile
 ```
-to replace `ARCH=x86_64` by for exemple with 32bits : `ARCH=i386`
+to replace `ARCH=x86_64` or `ARCH=$(arch)` by for exemple with 32bits : `ARCH=i386`
 
 
 Install

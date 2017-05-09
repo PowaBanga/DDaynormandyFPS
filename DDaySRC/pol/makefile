@@ -24,7 +24,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 
-ARCH=x86_64
+ARCH=$(arch)
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 
