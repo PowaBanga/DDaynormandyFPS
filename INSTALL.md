@@ -30,22 +30,11 @@ to build using all available cores:
 make -j$(nproc)
 ```
 _note :_
-If you want to force arch of the compilation, you have to modify this files with a text editor :
-```
-q2proSRC/.config
-DDaySRC/Makefile
-DDaySRC/ai/makefile
-DDaySRC/gbr/makefile
-DDaySRC/grm/makefile
-DDaySRC/ita/makefile
-DDaySRC/jpn/makefile
-DDaySRC/pol/makefile
-DDaySRC/rus/makefile
-DDaySRC/usa/makefile
-DDaySRC/usm/makefile
-```
-to replace `ARCH=x86_64` or `ARCH=$(arch)` by for exemple with 32bits : `ARCH=i386`
+If you want to force arch of the compilation, you have to modify this line in makefile with a text editor :
+`echo "ARCH=$(arch)" -> variable.mk` by `echo "ARCH=YOURARCH" -> variable.mk`
 
+and modify too in this file  `/q2proSRC/.config`:
+`#CPU=x86` by `CPU=YOURARCH`
 
 Install
 -------
