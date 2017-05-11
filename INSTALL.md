@@ -31,9 +31,11 @@ make -j$(nproc)
 ```
 _note :_
 If you want to force arch of the compilation, you have to modify this line in makefile with a text editor :
+
 `echo "ARCH=$(arch)" -> variable.mk` by `echo "ARCH=YOURARCH" -> variable.mk`
 
 and modify too in this file  `/q2proSRC/.config`:
+
 `#CPU=x86` by `CPU=YOURARCH`
 
 Install
