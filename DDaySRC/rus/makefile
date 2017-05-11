@@ -24,7 +24,8 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 
-ARCH=$(arch)
+#ARCH=x86_64
+-include ../../variable.mk
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 
@@ -74,6 +75,7 @@ rus$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 
 clean:
 	-rm -f $(GAME_OBJS)
+	-rm -f rus$(ARCH).$(SHLIBEXT)
 
 depend:
 	gcc -MM $(GAME_OBJS:.o=.c)

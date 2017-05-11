@@ -25,7 +25,8 @@
 #
 
 #ARCH=i386
-ARCH=$(arch)
+#ARCH=x86_64
+-include ../variable.mk
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp
 
@@ -144,16 +145,8 @@ game$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 
 clean:
 	-rm -f $(GAME_OBJS)
-	$(MAKE) clean -C usa
-	$(MAKE) clean -C grm
-	$(MAKE) clean -C rus
-	$(MAKE) clean -C gbr
-	$(MAKE) clean -C jpn
-	$(MAKE) clean -C usm
-	$(MAKE) clean -C pol
-	$(MAKE) clean -C ita
+	-rm -f game$(ARCH).$(SHLIBEXT)
 
-	$(MAKE) clean -C ai
 
 
 depend:
