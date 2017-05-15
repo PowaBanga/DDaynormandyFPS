@@ -1,0 +1,80 @@
+;
+; The ban file list for the q2admin dll.
+;
+;
+; Banning can be enabled and disabled by the 'nickbanning_enable', 
+; 'ipbanning_enable' and 'chatbanning_enable' commands.  
+;
+; They can be enabled/disabled in the q2admin.txt by changing the
+; there values to "Yes" or "No".
+; 
+; e.g. in the q2admin.log file:
+; nickbanning_enable "Yes"
+; ipbanning_enable "Yes"
+; chatbanning_enable "Yes"
+; 
+; They can also be enabled/disabled from the server console / client admin 
+; console as well.  See section 2.3 and 2.4 in the readme.txt for how to do 
+; this.
+; 
+; q2adminban.txt is loaded from the Quake2 directory and then the mod directory 
+; in that order.
+; 
+;
+; The format for each ban line is:
+;
+; BAN: [+/-(-)] [ALL/[NAME [LIKE/RE] "name"/BLANK/ALL(ALL)] [IP xxx[.xxx(0)[.xxx(0)[.xxx(0)]]][/yy(32)]] [PASSWORD "xxx"] [MAX 0-xxx(0)] [FLOOD xxx(num) xxx(sec) xxx(silence] [MSG "xxx"]
+;
+; e.g.
+; BAN: NAME LIKE "fuck"
+; BAN: NAME BLANK MSG "no blank names allowed"
+; BAN: IP 192.168.1.10
+; BAN: + ALL MAX 10
+; BAN: + IP 192.168/16
+; BAN: ALL MSG "Down For Maintenance"
+; BAN: + NAME RE "^VK-.*$" PASSWORD "duck" MSG "Name reserved for Clan VK"
+; BAN: + NAME LIKE "Fred" FLOOD 10 4 -1
+;
+BAN: NAME LIKE "nigger" MSG "Choose another name."
+BAN: NAME LIKE "niger" MSG "Choose another name."
+BAN: NAME LIKE "fag" MSG "Choose another name."
+BAN: NAME LIKE "gay" MSG "Choose another name."
+BAN: NAME LIKE "asshole" MSG "Choose another name."
+BAN: NAME LIKE "fuck" MSG "Choose another name."
+BAN: NAME LIKE "shit" MSG "Choose another name."
+BAN: NAME LIKE "%.*S"
+BAN: NAME LIKE "%.*s"
+;
+;
+; CHATBAN: [LIKE/RE(LIKE)] "xxx" [MSG "xxx"]
+CHATBAN: RE " fuck"
+CHATBAN: RE " cock"
+CHATBAN: RE " cum "
+CHATBAN: RE "dick"
+CHATBAN: RE "%.*s";
+CHATBAN: RE "%.*S";
+CHATBAN: RE "pute"
+CHATBAN: RE "connard"
+CHATBAN: RE "enculer"
+CHATBAN: RE "encule"
+CHATBAN: RE "ta gueule"
+CHATBAN: RE "tg"
+CHATBAN: RE "hijo de puta"
+CHATBAN: RE "capullo"
+CHATBAN: RE "gilipollas"
+CHATBAN: RE "subnormal"
+CHATBAN: RE "me cago"
+CHATBAN: RE "callate la puta boca"
+
+
+
+; e.g.
+; CHATBAN: "fuck" 
+; CHATBAN: RE "f[u$@#%]ck"
+;
+;
+; INCLUDE: "banfile"
+;
+; e.g. 
+INCLUDE: "../q2adminban.txt"
+;

@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := build
 
-.PHONY: build clean q2pro dday
+.PHONY: build clean q2pro dday q2admintsmod
 
 q2pro:
 	$(MAKE) -C q2proSRC
@@ -11,18 +11,23 @@ dday/config.cfg:
 	cp -a dday/config.cfg.sample dday/config.cfg
 
 dday: dday/config.cfg
-	echo "ARCH=`arch`" > variable.mk
+	echo "ARCH=$(shell arch)" > variable.mk
 	$(MAKE) -C DDaySRC
-	cp -a DDaySRC/game?*.* dday/
+	cp -a DDaySRC/game?*.real.* dday/
 
-build: q2pro dday
+q2admintsmod:
+	$(MAKE) -C q2admintsmod
+	cp -a q2admintsmod/game?*.* dday/
+
+build: q2pro dday q2admintsmod
 
 clean:
 	$(MAKE) -C q2proSRC clean
 	rm -f DDayNormandy
 	rm -f DDayNormandyded
 	$(MAKE) -C DDaySRC clean
-	rm -f dday/game?*.*
+	rm -f dday/game?*.real.*
+	rm -f variable.mk
 	$(MAKE) -C DDaySRC/ai clean
 	$(MAKE) -C DDaySRC/gbr clean
 	$(MAKE) -C DDaySRC/grm clean
@@ -32,5 +37,6 @@ clean:
 	$(MAKE) -C DDaySRC/rus clean
 	$(MAKE) -C DDaySRC/usa clean
 	$(MAKE) -C DDaySRC/usm clean
-	rm -f variable.mk
+	$(MAKE) -C q2admintsmod clean
+	rm -f dday/game?*.*
 

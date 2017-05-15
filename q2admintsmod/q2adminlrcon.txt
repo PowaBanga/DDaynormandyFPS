@@ -1,0 +1,62 @@
+;
+;Limited rcon is for admin's that have to give out rcon to clan's for 
+;compotations but don't really want to. 
+;
+;What the server admin can do is setup a limited rcon which only allows
+;commands that the admin has setup to be allowed to run.
+;
+;The file q2adminlrcon.txt is read from the quake2 directory and the mod 
+;directory.  This allows server admin's to setup lrcon's as global and 
+;mod specific as well.
+;
+;The format for q2adminlrcon.txt is as follows:
+;
+;Lines beginning with a ';' are comments.
+;
+;lrcon command format:
+;<lrcontype><password> <command to allow>
+;
+; <lrcontype> can be one of three values:
+; 'SW:'  Starts with match.
+; 'EX:'  Exact match.
+; 'RE:'  Regular Expression match. 
+;
+;e.g.
+;SW:secret map
+;SW:secret timelimit
+;SW:secret fraglimit
+;EX:top fraglimit 100
+;EX:top fraglimit 50
+;RE:tip ^map q2dm[1258]$
+;
+;You can even specify extact commands that are allowed e.g. say you want 
+;lrcon password 'duck' only to be able to change maps to q2dm1, q2dm2 and
+;q2dm8.  The q2adminlrcon.txt would look like:
+;
+;EX:duck map q2dm1
+;EX:duck map q2dm2
+;EX:duck map q2dm8
+;
+; or use a regular expression like this:
+;RE:duck ^map q2dm[128]$
+;
+;To run lrcon from the client console is the same as running rcon.
+;e.g.
+;
+;lrcon duck map q2dm1
+;
+;or
+;
+;lrcon secret timelimit 40
+;
+;
+;There is a limit of 1024 lrcon password commands that can be setup.
+;
+;The only prereqesit for running lrcon is that the quake2 server 
+;rcon_password must be set to *SOMETHING*. It doesn't matter what 
+;but something so that normal rcon works.
+;
+;Also if the client has rcon_password set lrcon will not work.
+;Note: there is no lrcon_password, so the password must be typed all 
+;the time.
+;

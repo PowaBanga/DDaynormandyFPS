@@ -1,0 +1,69 @@
+;
+;Vote commands list.
+;
+;This lists all the spawning entities that will be disabled.
+;
+;The file q2adminvote.txt is read from the quake2 directory and the mod 
+;directory.  This allows server admin's to setup lrcon's as global and 
+;mod specific as well.
+;
+;The format for q2adminvote.txt is as follows:
+;
+;Lines beginning with a ';' are comments.
+;
+;vote command format:
+;<matchtype><vote command>
+;
+; <matchtype> can be one of three values:
+; 'EX:'  Exact match.
+; 'SW:'  Starts with match.
+; 'RE:'  Regular Expression match. 
+;
+;e.g.
+;EX:map q2dm1
+;SW:fraglimit
+;RE:^map q2dm[123456]$
+;
+;There is a limit of 1024 disbaled entity types can be setup.
+;
+SW:team_kill
+SW:sv_gravity
+SW:set skill 
+SW:set alliedbots
+SW:set axisbots
+SW:bot
+SW:ban
+SW:kick
+RE:^set mashup [01]$
+EX:map bunk
+RE:^map dday[1-5]$
+EX:map dday2bed
+EX:map dday2civ
+EX:map dday2ctc
+EX:map dday2hitler
+EX:map dday2vip
+EX:map dday3civ
+RE:^map desert[1-7]$
+EX:map doomtown
+RE:^map gbrdday[1-6]$
+RE:^map gbrsnow1[1-4]$
+EX:map hill
+RE:^map inland[1-7]$
+EX:map inland4civ
+EX:map inland4ctc
+EX:map inland7civ
+EX:map inland7ctc
+EX:map inland7hitler
+RE:^map invade[1-7]$
+EX:map invade6civ
+EX:map invade7
+RE:^map itadday[1-3]$
+EX:map itadday3vip
+EX:map kawaj
+EX:map outpost
+RE:^map poldday[1-5]$
+RE:^map polmunf[1-3]$
+RE:^map soviet[1-8]$
+EX:map wake
+
+

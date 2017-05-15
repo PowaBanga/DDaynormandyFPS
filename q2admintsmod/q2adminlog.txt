@@ -90,27 +90,24 @@
 ;          It is meant to collect / pin-point performance problems with q2admin and 
 ;          the underlying mod.
 ;
-;
+
 ;
 ; Log files:
 ;
-LOGFILE: 1 MOD "q2admin_new.log"
-;
+LOGFILE: 1 MOD "q2admin.log"
+
 ;
 ; Log Events:
 ;
-ZBOT: YES 1 "[#t] Proxy User:  name \"#n\" Ping \"#p\" IP \"#i\" I(#e)"
-ZBOTIMPULSES: YES 1 "[#t] ZBOT Impulse: \"#n generated a impulse #m\" Ping \"#p\" IP \"#i\""
-IMPULSES: YES 1 "[#t] Impulse: Impulse \"#n generated a impulse #e\"  Ping \"#p\" IP \"#i\""
-NAMECHANGE: YES 1 "[#t] Name: \"#m -->> #n\"  Ping \"#p\" IP \"#i\""
-CLIENTCONNECT: YES 1 "[#t] Connect: Name \"#n\"  Ping \"#p\" IP \"#i\""
-CLIENTBEGIN: YES 1 "[#t] Player Begin: Name \"#n\"  Ping \"#p\" IP \"#i\""
-CLIENTDISCONNECT: YES 1 "[#t] Disconnect: Name \"#n\"  Ping \"#p\" IP \"#i\""
-INTERNALWARN: YES 1 "[#t] Internal Warning(#e):  Name \"#n\"  Ping \"#p\" IP \"#i\" #m"
-;INVALIDIP: YES 1 "Client has invalid IP Address: Name \"#n\"  Ping \"#p\" IP \"#i\" #m"
-INVALIDIP: YES 1 "[#t] Client has invalid IP Address: Name \"#n\"  Ping \"#p\" IP \"#i\""
-;
-SKINCHANGE: YES 1 "[#t] Skin: Name \"#n\" \"#m -->> #s\"  Ping \"#p\" IP \"#i\""
-CHAT: YES 1 "[#t] Player #n said \"#m\""
-CLIENTKICK: YES 1 "[#t] Kick reason: \"#m\" Player \"#n\"" 
-BAN: YES 1 "[#t] Ban reason: \"#m\" Player \"#n\"" 
+ZBOT: YES 1 "Proxy User: Time \"#t\" name \"#n\" Ping \"#p\" IP \"#i\" I(#e)"
+ZBOTIMPULSES: YES 1 "ZBOT Impulse: Time \"#t\" Impulse \"#n generated a impulse #m\" Ping \"#p\" IP \"#i\""
+IMPULSES: YES 1 "Impulse: Time \"#t\" Impulse \"#n generated a impulse #e\"  Ping \"#p\" IP \"#i\""
+NAMECHANGE: YES 1 "Name: Time \"#t\" \"#m -->> #n\"  Ping \"#p\" IP \"#i\""
+CLIENTCONNECT: NO 1 "Connect: Time \"#t\" Name \"#n\"  Ping \"#p\" IP \"#i\""
+CLIENTBEGIN: NO 1 "Player Begin: Time \"#t\" Name \"#n\"  Ping \"#p\" IP \"#i\""
+CLIENTDISCONNECT: NO 1 "Disconnect: Time \"#t\" Name \"#n\"  Ping \"#p\" IP \"#i\""
+INTERNALWARN: YES 1 "Internal Warning(#e): Time \"#t\" Name \"#n\"  Ping \"#p\" IP \"#i\" #m"
+;INVALIDIP: YES 1 "Client has invalid IP Address: Time \"#t\" Name \"#n\"  Ping \"#p\" IP \"#i\" #m"
+INVALIDIP: YES 1 "Client has invalid IP Address: Time \"#t\" Name \"#n\"  Ping \"#p\" IP \"#i\""
+
+; SKINCHANGE: YES 1 "Skin: Time \"#t\" Name \"#n\" \"#m -->> #s\"  Ping \"#p\" IP \"#i\""

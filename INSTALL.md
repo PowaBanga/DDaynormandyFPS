@@ -37,6 +37,9 @@ and modify too in this file  `/q2proSRC/.config`:
 
 `#CPU=x86` by `CPU=YOURARCH`
 
+_Note_ about windows
+If you compil this game on windows, you have to place all `/dday/q2amdin*.txt` in the main folder `/`
+
 
 Install
 -------

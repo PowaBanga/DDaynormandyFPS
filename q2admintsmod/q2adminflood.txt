@@ -1,0 +1,43 @@
+;
+;Custom flood protection mod commands.
+;
+;This lists all the extra mod commands that can be monitored under
+;the standard flood protection / mute rules.
+;
+;The file q2adminflood.txt is read from the quake2 directory and the mod 
+;directory.  This allows server admin's to setup custom flood commands as 
+;global and mod specific as well.
+;
+;The format for q2adminflood.txt is as follows:
+;
+;Lines beginning with a ';' are comments.
+;
+;flood command format:
+;<floodtype><command to check>
+;
+; <floodtype> can be one of three values:
+; 'EX:'  Exact match.
+; 'SW:'  Starts with match.
+; 'RE:'  Regular Expression match. 
+;
+;e.g.
+;SW:play_
+;EX:wfplay
+;RE:^say.*
+;
+; The matchs are only made against the first word or the command 
+; e.g. in the command "play_person cl 0 xxx" only "play_person" is 
+; checked against the flood command list
+;
+; NOTE: DO NOT PUT THE FOLLOWING COMMANDS INTO THIS FILE:
+; say, say_team, say_group, say_person or any added mod command
+; that generates normal message text.
+;
+; You can monitor q2admin own commands like:
+; play_person, play_team
+;
+; Also note that internal commands to quake2 can't be monitored as
+; mod's don't see these client commands. e.g. name, cl_maxfps, rate, etc 
+;
+;There is a limit of 1024 custom flood commands that can be setup.
+;

@@ -35,26 +35,9 @@
 ; BAN: + NAME RE "^VK-.*$" PASSWORD "duck" MSG "Name reserved for Clan VK"
 ; BAN: + NAME LIKE "Fred" FLOOD 10 4 -1
 ;
-BAN: NAME LIKE "nigger" MSG "Choose another name."
-BAN: NAME LIKE "niger" MSG "Choose another name."
-BAN: NAME LIKE "fag" MSG "Choose another name."
-BAN: NAME LIKE "gay" MSG "Choose another name."
-BAN: NAME LIKE "asshole" MSG "Choose another name."
-BAN: NAME LIKE "fuck" MSG "Choose another name."
-BAN: NAME LIKE "shit" MSG "Choose another name."
-BAN: NAME LIKE "%.*S"
-BAN: NAME LIKE "%.*s"
-;
 ;
 ; CHATBAN: [LIKE/RE(LIKE)] "xxx" [MSG "xxx"]
-CHATBAN: RE " fuck"
-CHATBAN: RE " cock"
-CHATBAN: RE " cum "
-CHATBAN: RE "dick"
-CHATBAN: RE "%.*s";
-CHATBAN: RE "%.*S";
-
-
+;
 ; e.g.
 ; CHATBAN: "fuck" 
 ; CHATBAN: RE "f[u$@#%]ck"
@@ -63,5 +46,5 @@ CHATBAN: RE "%.*S";
 ; INCLUDE: "banfile"
 ;
 ; e.g. 
-INCLUDE: "../q2adminban.txt"
+; INCLUDE: "/banlist/banlist.txt"
 ;

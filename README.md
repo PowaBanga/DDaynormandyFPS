@@ -34,7 +34,7 @@ Links:
  * [How to contribue](https://github.com/PowaBanga/DDaynormandyFPS/wiki/How-to-contribue)
  * [Last realese](https://github.com/PowaBanga/DDaynormandyFPS/releases/latest)
  
-*_IRC:_* #ddayhome on irc.quakenet.org 
+_*IRC:*_ #ddayhome on irc.quakenet.org 
 
 
 Thanks:

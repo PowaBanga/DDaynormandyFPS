@@ -1,0 +1,31 @@
+;
+;Disable client commands.
+;
+;This lists all the cleint mod commands that will be disabled
+;
+;The file q2admindisable.txt is read from the quake2 directory and the mod 
+;directory.  This allows server admin's to setup disabled commands as 
+;global and mod specific as well.
+;
+;The format for q2admindisable.txt is as follows:
+;
+;Lines beginning with a ';' are comments.
+;
+;disable command format:
+;<disabletype><command to disable>
+;
+; <floodtype> can be one of three values:
+; 'EX:'  Exact match.
+; 'SW:'  Starts with match.
+; 'RE:'  Regular Expression match. 
+;
+;e.g.
+;SW:say_team
+;EX:team
+;RE:^say.*
+;
+; Note that internal commands to quake2 can't be monitored as
+; mod's don't see these client commands. e.g. name, cl_maxfps, rate, etc 
+;
+;There is a limit of 1024 disable commands that can be setup.
+;

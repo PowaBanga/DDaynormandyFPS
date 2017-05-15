@@ -184,7 +184,7 @@ end
 
 begin multiplayer
     banner m_banner_multiplayer
-    action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&raw=2" "file:///servers.lst" "favorites://" "broadcast://"
+    action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&ac=0&raw=2" "file:///servers.lst" "favorites://" "broadcast://"
     action "demo browser" pushmenu demos
     action "start server" pushmenu startserver
     action "Address book" pushmenu addressbook
@@ -201,7 +201,7 @@ begin main
 end
 
 begin game
-    action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&raw=2" "favorites://" "file:///servers.lst" "broadcast://"
+    action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&ac=0&raw=2" "favorites://" "file:///servers.lst" "broadcast://"
     action "demos" pushmenu demos
     action "options" pushmenu options
     action "disconnect" disconnect
