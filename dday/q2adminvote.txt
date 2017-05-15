@@ -20,9 +20,9 @@
 ; 'RE:'  Regular Expression match. 
 ;
 ;e.g.
-;EX:map q2dm1
+;EX:gamemap q2dm1
 ;SW:fraglimit
-;RE:^map q2dm[123456]$
+;RE:^gamemap q2dm[123456]$
 ;
 ;There is a limit of 1024 disbaled entity types can be setup.
 ;
@@ -35,35 +35,35 @@ SW:bot
 SW:ban
 SW:kick
 RE:^set mashup [01]$
-EX:map bunk
-RE:^map dday[1-5]$
-EX:map dday2bed
-EX:map dday2civ
-EX:map dday2ctc
-EX:map dday2hitler
-EX:map dday2vip
-EX:map dday3civ
-RE:^map desert[1-7]$
-EX:map doomtown
-RE:^map gbrdday[1-6]$
-RE:^map gbrsnow1[1-4]$
-EX:map hill
-RE:^map inland[1-7]$
-EX:map inland4civ
-EX:map inland4ctc
-EX:map inland7civ
-EX:map inland7ctc
-EX:map inland7hitler
-RE:^map invade[1-7]$
-EX:map invade6civ
-EX:map invade7
-RE:^map itadday[1-3]$
-EX:map itadday3vip
-EX:map kawaj
-EX:map outpost
-RE:^map poldday[1-5]$
-RE:^map polmunf[1-3]$
-RE:^map soviet[1-8]$
-EX:map wake
+EX:gamemap bunk
+RE:^gamemap dday[1-5]$
+EX:gamemap dday2bed
+EX:gamemap dday2civ
+EX:gamegamemap dday2ctc
+EX:gamemap dday2hitler
+EX:gamemap dday2vip
+EX:gamemap dday3civ
+RE:^gamemap desert[1-7]$
+EX:gamemap doomtown
+RE:^gamemap gbrdday[1-6]$
+RE:^gamemap gbrsnow1[1-4]$
+EX:gamemap hill
+RE:^gamemap inland[1-7]$
+EX:gamemap inland4civ
+EX:gamemap inland4ctc
+EX:gamemap inland7civ
+EX:gamemap inland7ctc
+EX:gamemap inland7hitler
+RE:^gamemap invade[1-7]$
+EX:gamemap invade6civ
+EX:gamemap invade7
+RE:^gamemap itadday[1-3]$
+EX:gamemap itadday3vip
+EX:gamemap kawaj
+EX:gamemap outpost
+RE:^gamemap poldday[1-5]$
+RE:^gamemap polmunf[1-3]$
+RE:^gamemap soviet[1-8]$
+EX:gamemap wake
 
 
