@@ -178,6 +178,8 @@ begin startserver
     field --integer --status "4" --width 2 "Allied bots" alliedlevel
     field --integer --status "4" --width 2 "Axis bots" axislevel
     blank
+    toggle "Allow command map" sv_allow_map
+    blank
     action --align "deathmatch flags" pushmenu gameflags
     action --align "begin game" "forcemenuoff; map $nextserver force"
 end
