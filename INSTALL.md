@@ -1,6 +1,15 @@
+DDayN Installation for Windows10:
+=================================
+Windows10 Install:
+------------------
+ * Unzip the game where do you want. 
+   And, if you have a windows secutity error message when you lauch the game:
+   * Right clic on DDaynormandy_x84.exe -> Property
+   * On the line `This file came from another computer may be blocked to help protect this computer` check: `unblock` 
+ 
+ 
 DDayN compilation
 =================
-
 Dependencies
 ------------
 
