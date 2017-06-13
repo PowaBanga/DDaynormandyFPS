@@ -28,7 +28,7 @@ Links:
 ------
  * [Developpement site](http://ddaydev.com/)
  * [French site](http://ddaynormandy.keumforum.com/)
- * [Chilian site (spanish)](http://ddaychile.com/)
+ * [Chilean site (spanish)](http://ddaychile.com/)
  * [Facebook page](https://www.facebook.com/ddaynormandyquake2)
  * [Find players on facebook](https://www.facebook.com/groups/ddaynormandy)
  * [How to contribue](https://github.com/PowaBanga/DDaynormandyFPS/wiki/How-to-contribue)
