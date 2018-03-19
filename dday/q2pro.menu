@@ -47,14 +47,15 @@ begin <menuname>
 end
 */
 
+
+cursor 3_cursor3
 background conback
 font conchars
-cursor ch1
 weapon w_railgun.md2
 
-color normal #0f90eb64
-color active #0f90ff64
-color selection #0f90eb64
+color normal #19423E64
+color active #001A1764
+color selection #001A1764
 color disabled #7f7f7f
 
 begin video
@@ -65,11 +66,13 @@ begin video
     toggle "Hardware gamma" vid_hwgamma
     values "Video mode" vid_fullscreen windowed $vid_modelist
     range "Texture quality" gl_picmip 3 0 -1
+    pairs "Override textures" r_override_textures Disabled 0 Enabled 1
     pairs "Texture filter" gl_texturemode \
         nearest GL_NEAREST \
         linear GL_LINEAR \
         bilinear GL_LINEAR_MIPMAP_NEAREST \
         trilinear GL_LINEAR_MIPMAP_LINEAR
+    pairs "Upscale pcx" gl_upscale_pcx "Disabled" 0 "2x (takes 5x more memory)" 1 "4x (takes 21x more memory)" 2
         
     pairs "anisotropic filter" gl_anisotropy no 0 2x 2 4x 4 8x 8 16x 16
     toggle "Vertical sync" gl_swapinterval
@@ -146,6 +149,11 @@ begin screen
     pairs "console scale" con_scale auto 0 1x 1 2x 2 4x 4
     pairs "menu scale" ui_scale auto 0 1x 1 2x 2 4x 4
     toggle "Console clock" con_clock
+    pairs "Chat notify" cl_chat_notify "Disabled" 0 "Enabled" 1
+    pairs "Chat HUD" scr_chathud "Disabled" 0 "Normal color" 1 "Alternative color" 2
+    pairs "Chat HUD lines" scr_chathud_lines 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32
+    pairs "Chat HUD time" scr_chathud_time Disable 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48 49 49 50 50 51 51 52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59 60 60 
+    pairs "Font shadow" gl_fontshadow 0 0 1 1 2 2
 end
 
 
@@ -171,17 +179,41 @@ begin startserver
     strings "initial map" nextserver $com_maplist
     field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
     field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
-    field --integer --width 3 "Max players" maxclients
     field --width 16 "Host name" hostname
+    blank
+    action --align "Server's settings" pushmenu serversetting
+    action --align "deathmatch flags" pushmenu gameflags
+    action --align "begin game" "forcemenuoff; map $nextserver force"
+end
+
+begin serversetting
+    title "Server's settings"
+    blank
+    pairs "Team kill" team_kill No 0 Yes 1 Penalities 2
+    pairs "Medic" invuln_medic vulnerable 0 invulnerable 1
+    pairs "Death messages" death_msg self 0 everybody 1 team 2
+    pairs "Class limits" class_limits yes 0 no 1
+    field --integer --status "20" --width 2 "Level wait" level_wait
+    field --integer --status "10" --width 2 "Resurection time" RI
+    pairs "Camp check" spawn_camp_check active 0 unactive 1
+    field --integer --status "2" --width 2 "Camp time" spawn_camp_time 
+    field --integer --status "2" --width 2 "Invuln spawn time" invuln_spawn
+    field --integer --status "10" --width 3 "Arty delay" arty_delay
+    field --integer --status "60" --width 3 "Arty time" arty_time
+    field --integer --status "1" --width 2 "Arty shots" arty_max 
+    field --integer --status "4" --width 2 "Flood messages max" flood_msgs 
+    field --integer --status "4" --width 2 "Flood message per seconds" flood_persecond
+    field --integer --status "2" --width 2 "Flood wait delais" flood_waitdelay
+    field --width 16 "Observer password" observer_password
+    pairs "Easter egg" easter_egg ON 0 Off 1
+    blank
+    field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
+    field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
     blank
     toggle "Bots" bots
     field --integer --status "4" --width 2 "Allied bots" alliedlevel
     field --integer --status "4" --width 2 "Axis bots" axislevel
-    blank
-    toggle "Allow command map" sv_allow_map
-    blank
-    action --align "deathmatch flags" pushmenu gameflags
-    action --align "begin game" "forcemenuoff; map $nextserver force"
+    field --integer --width 3 "Max players" maxclients
 end
 
 begin multiplayer
@@ -203,9 +235,17 @@ begin main
 end
 
 begin game
+    background #001A1767
+    style --compact
+    action "Return to the game" forcemenuoff
+    blank
+    action "Ingame actions" pushmenu ingamecommands
+    blank
+    action "options" pushmenu optionsingame
     action "Servers" pushmenu servers "+http://q2servers.com/?g=dday&ac=0&raw=2" "favorites://" "file:///servers.lst" "broadcast://"
     action "demos" pushmenu demos
-    action "options" pushmenu options
+    action "Help" forcemenuoff;toggleconsole;help
+    blank
     action "disconnect" disconnect
     action "quit" quit
 end
@@ -263,7 +303,7 @@ begin general
     bind "Use item" invuse
     bind "Previous item" invprev
     bind "Next item" invnext
-    bind "help computer" help
+    bind "help computer" help1
     bind "Open Console" toggleconsole
     bind "Obsrever" observer
     bind "Screenshot" screenshot
@@ -303,6 +343,286 @@ end
 
 begin shouts
     title You can say ingame
+    bind "Thanks !" vv
+    bind "Yes !" aa
+    bind "No !" bb
+    bind "Get down and fire !" cc
+    bind "Move out !" zz
+    bind "Left !" ee
+    bind "Right !" ff
+    bind "Medic !" mm
+    bind "Attack !" gg
+    bind "Retreat !" hh   
+    bind "Get on my shoulders !" ii 
+    bind "Incoming !" jj    
+    bind "Follow me." kk
+    bind "Funny shouts." ww
+    bind "Sniper !" ll
+    bind "Cease fire !" qq
+    bind "Misc." xx
+    bind "I need a weapon." rr
+    bind "Help !" dd
+    bind "Grenade !" ss
+end
+
+    //INGAMEMODE
+begin ingamecommands
+    background #001A1767
+    style --compact
+    blank
+    action "Observer mode" observer;forcemenuoff
+    blank
+    action "Join the game" dday_menu_main;forcemenuoff
+    action "Choose a team" dday_menu_team;forcemenuoff
+    action "Choose a class" dday_menu_class;forcemenuoff
+    blank
+    action "Vote yes" vote yes;forcemenuoff
+    action "Vote no" vote no; forcemenuoff
+    blank
+    action "Server settings" pushmenu serversettingingame
+end
+begin videoingame
+    background #001A1767
+    style --compact
+    title "Video"
+    blank
+    range "Screen size" viewsize 40 100 10
+    range "Textures gamma" vid_gamma 1.3 0.3
+    toggle "Hardware gamma" vid_hwgamma
+    values "Video mode" vid_fullscreen windowed $vid_modelist
+    range "Texture quality" gl_picmip 3 0 -1
+    pairs "Override textures" r_override_textures Disabled 0 Enabled 1
+    pairs "Texture filter" gl_texturemode \
+        nearest GL_NEAREST \
+        linear GL_LINEAR \
+        bilinear GL_LINEAR_MIPMAP_NEAREST \
+        trilinear GL_LINEAR_MIPMAP_LINEAR
+    pairs "Upscale pcx" gl_upscale_pcx "Disabled" 0 "2x (takes 5x more memory)" 1 "4x (takes 21x more memory)" 2
+        
+    pairs "anisotropic filter" gl_anisotropy no 0 2x 2 4x 4 8x 8 16x 16
+    toggle "Vertical sync" gl_swapinterval
+    values "Dynamic lighting" gl_dynamic "no" "yes" "only switchable"
+    toggle "Smooth lights falloff" gl_dlight_falloff
+    range "Texture saturation" gl_saturation 0 1
+    range "Lightmap saturation" gl_coloredlightmaps 0 1
+    range "lightmap brightness" gl_brightness 0 0.3
+    pairs "texture intensity" intensity 1x 1 2x 2 3x 3
+end
+
+begin optionsingame
+    background #001A1767
+    style --compact
+    title "Options"
+    blank
+    action "Player setup" pushmenu playersingame
+    action "Input setup" pushmenu inputingame
+    action "Keyboard" pushmenu keysingame
+    action "Video setup" pushmenu videoingame
+    action "Sound setup" pushmenu soundingame
+    action "effects setup" pushmenu effectsingame
+    action "screen setup" pushmenu screeningame
+    action "Download options" pushmenu downloadsingame
+end
+begin playersingame
+    background #001A1767
+    style --compact
+    title "Player's settings"
+    blank
+    field --width 16 "Name" name
+    pairs "Hand" hand Right 0 Left 1
+end
+begin serversettingingame
+    background #001A1767
+    style --compact
+    title "Server's settings"
+    blank
+    pairs "Team kill" team_kill No 0 Yes 1 Penalities 2
+    pairs "Medic" invuln_medic vulnerable 0 invulnerable 1
+    pairs "Death messages" death_msg self 0 everybody 1 team 2
+    pairs "Class limits" class_limits yes 0 no 1
+    field --integer --status "20" --width 2 "Level wait" level_wait
+    field --integer --status "10" --width 2 "Resurection time" RI
+    pairs "Camp check" spawn_camp_check active 0 unactive 1
+    field --integer --status "2" --width 2 "Camp time" spawn_camp_time 
+    field --integer --status "2" --width 2 "Invuln spawn time" invuln_spawn
+    field --integer --status "10" --width 3 "Arty delay" arty_delay
+    field --integer --status "60" --width 3 "Arty time" arty_time
+    field --integer --status "1" --width 2 "Arty shots" arty_max 
+    field --integer --status "4" --width 2 "Flood messages max" flood_msgs 
+    field --integer --status "4" --width 2 "Flood message per seconds" flood_persecond
+    field --integer --status "2" --width 2 "Flood wait delais" flood_waitdelay
+    field --width 16 "Observer password" observer_password
+    pairs "Easter egg" easter_egg ON 0 Off 1
+    blank
+    field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
+    field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
+    blank
+    toggle "Bots" bots
+    field --integer --status "4" --width 2 "Allied bots" alliedlevel
+    field --integer --status "4" --width 2 "Axis bots" axislevel
+    field --integer --width 3 "Max players" maxclients
+end
+begin keysingame
+    background #001A1767
+    style --compact
+    //title "Options"
+    title "Key Bindings"
+    blank
+    action "General" pushmenu generalingame
+    action "Movements" pushmenu movementsingame
+    action "Weapons" pushmenu weaponsingame
+    action "shouts" pushmenu shoutsingame
+end
+
+begin soundingame
+    background #001A1767
+    style --compact
+    title "Sound Setup"
+    blank
+    values "Sound engine" s_enable "no sound" "software" "OpenAL"
+    values "Hardware access" s_direct "max compatibility" "max performance"
+    range "Effects volume" s_volume 0 1
+    values "Ambient sounds" s_ambient "no" "yes" "only player's own"
+    values "Chat beep" cl_chat_sound "disabled" "default" "alternative"
+end
+
+begin downloadsingame
+    background #001A1767
+    style --compact
+    title "Download Options"
+    blank
+    toggle "Allow downloading" allow_download
+    toggle "Maps" allow_download_maps
+    toggle "Player models/skins" allow_download_players
+    toggle "Models" allow_download_models
+    toggle "sounds" allow_download_sounds
+    toggle "Textures" allow_download_textures
+    toggle "Tics" allow_download_pics
+    blank
+    toggle "HTTP downloads" cl_http_downloads
+end
+begin effectsingame
+    background #001A1767
+    style --compact
+    title "Effects Setup"
+    blank
+    values "dynamic lighting" gl_dynamic "no" "yes" "only switchable"
+    values "entity cel-shading" gl_celshading no 1x 2x 3x 4x 5x 6x
+    toggle "entity glowing" cl_noglow ~
+    toggle "ground shadows" gl_shadows
+    toggle "screen blending" gl_polyblend
+    toggle "grenade explosions" cl_disable_explosions ~0
+    toggle "rocket explosions" cl_disable_explosions ~1
+end
+
+begin screeningame
+    background #001A1767
+    style --compact
+    title "Screen Setup"
+    blank
+    range "screen size" viewsize 40 100 10
+    toggle "ping graph" scr_lag_draw
+    values "demo bar" scr_demobar no yes verbose
+    range "HUD opacity" scr_alpha 0 1
+    range "console opacity" con_alpha 0 1
+    pairs "HUD scale" scr_scale auto 0 1x 1 2x 2 4x 4
+    pairs "console scale" con_scale auto 0 1x 1 2x 2 4x 4
+    pairs "menu scale" ui_scale auto 0 1x 1 2x 2 4x 4
+    toggle "Console clock" con_clock
+    pairs "Chat notify" cl_chat_notify "Disabled" 0 "Enabled" 1
+    pairs "Chat HUD" scr_chathud "Disabled" 0 "Normal color" 1 "Alternative color" 2
+    pairs "Chat HUD lines" scr_chathud_lines 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32
+    pairs "Chat HUD time" scr_chathud_time Disable 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48 49 49 50 50 51 51 52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59 60 60 
+    pairs "Font shadow" gl_fontshadow 0 0 1 1 2 2
+end
+
+begin inputingame
+    background #001A1767
+    style --compact
+    title "Input Setup"
+    blank
+    range "mouse sensitivity" sensitivity 0 9
+    toggle "auto sens" m_autosens
+    toggle "mouse filter" m_filter
+    toggle "free look" freelook
+    toggle "always run" cl_run
+end
+
+begin movementsingame
+    background #001A1767
+    style --compact
+    title "Movements Bindings"
+    blank
+    bind "Walk forward" +forward
+    bind "Backpedal" +back 
+    bind "Step left" +moveleft
+    bind "Step right" +moveright 
+    bind "Up / Jump" +moveup
+    bind "Stance crouch-standing" stance
+    blank
+    bind "Turn left" +left
+    bind "Turn right" +right
+    bind "keyboard look" +klook
+    bind "mouse look" +mlook
+    bind "look up" +lookup
+    bind "look down" +lookdown
+    bind "center view" centerview
+end
+begin generalingame
+    background #001A1767
+    style --compact
+    title "General Bindings"
+    blank
+    bind "pause game" pause
+    bind "Use item" invuse
+    bind "Previous item" invprev
+    bind "Next item" invnext
+    bind "help computer" help1
+    bind "Open Console" toggleconsole
+    bind "Obsrever" observer
+    bind "Screenshot" screenshot
+    bind "Vote yes" vote yes
+    bind "Vote no" vote no
+    bind "Chat" messagemode
+    bind "Team chat" messagemode2
+    blank
+    bind "Scorebar"scoreboard
+    bind "Show Objectives" objectives
+    bind "Main menu" dday_menu_main
+    bind "Team menu" dday_menu_team
+    bind "Class menu" dday_menu_class
+end
+
+begin weaponsingame
+    background #001A1767
+    style --compact
+    title "Weapons Bindings"
+    blank
+    bind "Attack" +attack
+    bind "Reload" reload
+    bind "Use weapon" use weapon
+    bind "Autopickup" autopickup
+    bind "Special" arty
+    bind "Next Weapon" weapnext
+    bind "Previous weapon" weapprev
+    bind "Drop weapon" drop weapon
+    bind "Drop gun" drop gun
+    bind "Drop ammo" drop ammo
+    blank
+    bind "Melee" "use melee"
+    bind "Weapon 1" "use weapon1"
+    bind "Weapon 2" "use weapon2"
+    bind "Grenades" "use grenades"
+    bind "Special" "use special"
+    bind "Pickup" "use pickup"
+    
+end
+
+begin shoutsingame
+    background #001A1767
+    style --compact
+    title You can say ingame
+    blank
     bind "Thanks !" vv
     bind "Yes !" aa
     bind "No !" bb
