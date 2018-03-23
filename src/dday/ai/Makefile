@@ -24,8 +24,12 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, ai.
 #
 
+# This nice line comes from the linux kernel makefile
+ARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ -e s/arm.*/arm/ -e s/sa110/arm/ -e s/alpha/axp/)
+
+#ARCH=i386
 #ARCH=x86_64
--include ../../variable.mk
+
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 

@@ -1,6 +1,6 @@
 #         D-Day: Normandy by Vipersoft
 # ************************************
-# *   $Source: /usr/local/cvsroot/dday/src/ita/Makefile,v $
+# *   $Source: /usr/local/cvsroot/dday/src/pol/Makefile,v $
 # *   $Revision: 1.6 $
 # *   $Date: 2002/07/25 09:07:45 $
 # *
@@ -24,8 +24,12 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 
+# This nice line comes from the linux kernel makefile
+ARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ -e s/arm.*/arm/ -e s/sa110/arm/ -e s/alpha/axp/)
+
+#ARCH=i386
 #ARCH=x86_64
--include ../../variable.mk
+
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 
@@ -40,7 +44,12 @@ CFLAGS_RELEASE=$(BASE_CFLAGS) -O3 -funroll-loops \
 CFLAGS_DEBUG=$(BASE_CFLAGS) -g
 
 # Always uncommented
-LDFLAGS=-ldl -lm
+ifeq ($OSTYPE),FreeBSD)
+LDFLAGS=-lm
+endif
+ifeq ($(OSTYPE),Linux)
+LDFLAGS=-lm -ldl
+endif
 SHLIBEXT=so
 
 SHLIBCFLAGS=-fPIC
@@ -49,10 +58,10 @@ SHLIBLDFLAGS=-shared
 DO_CC=$(CC) $(CFLAGS) $(SHLIBCFLAGS) -o $@ -c $<
 
 build_debug:
-	$(MAKE) ita$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
+	$(MAKE) pol$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
 
 build_release:
-	$(MAKE) ita$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
+	$(MAKE) pol$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
 
 #############################################################################
 # SETUP AND BUILD
@@ -62,10 +71,10 @@ build_release:
 .c.o:
 	$(DO_CC)
 
-GAME_OBJS = ita_item.o ita_spawn.o ita_guninfo.o ita_weapon.o ita_main.o
+GAME_OBJS = pol_item.o pol_spawn.o pol_guninfo.o pol_weapon.o pol_main.o
 #	g_so.o # this file is a shared library thingie needed for Solaris
 
-ita$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
+pol$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 	$(CC) $(CFLAGS) $(SHLIBLDFLAGS) -o $@ $(GAME_OBJS) $(LDFLAGS)
 
 
@@ -75,17 +84,17 @@ ita$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 
 clean:
 	-rm -f $(GAME_OBJS)
-	-rm -f ita$(ARCH).$(SHLIBEXT)
+	-rm -f pol$(ARCH).$(SHLIBEXT)
 
 depend:
 	gcc -MM $(GAME_OBJS:.o=.c)
-ita_item.o: ita_item.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
+pol_item.o: pol_item.c pol_main.h pol_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-ita_spawn.o: ita_spawn.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
+pol_spawn.o: pol_spawn.c pol_main.h pol_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-ita_guninfo.o: ita_guninfo.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
+pol_guninfo.o: pol_guninfo.c pol_main.h pol_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-ita_weapon.o: ita_weapon.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
+pol_weapon.o: pol_weapon.c pol_main.h pol_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-ita_main.o: ita_main.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
+pol_main.o: pol_main.c pol_main.h pol_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
  ../game.h ../p_menu.h ../g_cmds.h  ../p_classes.h

@@ -1,6 +1,6 @@
 #         D-Day: Normandy by Vipersoft
 # ************************************
-# *   $Source: /usr/local/cvsroot/dday/src/gbr/Makefile,v $
+# *   $Source: /usr/local/cvsroot/dday/src/jpn/Makefile,v $
 # *   $Revision: 1.6 $
 # *   $Date: 2002/07/25 09:07:45 $
 # *
@@ -24,19 +24,19 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 
+# This nice line comes from the linux kernel makefile
+ARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ -e s/arm.*/arm/ -e s/sa110/arm/ -e s/alpha/axp/)
+
+#ARCH=i386
 #ARCH=x86_64
--include ../../variable.mk
+
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 
-#CFLAGS_RELEASE=$(BASE_CFLAGS) -O1
-
-# Nick - fixed 'make build_release' flags.
-
-CFLAGS_RELEASE=$(BASE_CFLAGS) -O3 -funroll-loops \
+CFLAGS_RELEASE=$(BASE_CFLAGS) -g -mpentiumpro -O6 -ffast-math -funroll-loops \
 	-fomit-frame-pointer -fexpensive-optimizations
-# Nick - fixed 'make build_debug' flags.
-CFLAGS_DEBUG=$(BASE_CFLAGS) -g
+
+CFLAGS_DEBUG=$(BASE_CFLAGS) -g 
 
 # Always uncommented
 LDFLAGS=-ldl -lm
@@ -46,12 +46,12 @@ SHLIBCFLAGS=-fPIC
 SHLIBLDFLAGS=-shared
 
 DO_CC=$(CC) $(CFLAGS) $(SHLIBCFLAGS) -o $@ -c $<
- 
+
 build_debug:
-	$(MAKE) gbr$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
+	$(MAKE) jpn$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
 
 build_release:
-	$(MAKE) gbr$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
+	$(MAKE) jpn$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
 
 #############################################################################
 # SETUP AND BUILD
@@ -61,10 +61,10 @@ build_release:
 .c.o:
 	$(DO_CC)
 
-GAME_OBJS = gbr_item.o gbr_spawn.o gbr_guninfo.o gbr_weapon.o gbr_main.o
+GAME_OBJS = jpn_item.o jpn_spawn.o jpn_guninfo.o jpn_weapon.o jpn_main.o
 #	g_so.o # this file is a shared library thingie needed for Solaris
 
-gbr$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
+jpn$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 	$(CC) $(CFLAGS) $(SHLIBLDFLAGS) -o $@ $(GAME_OBJS) $(LDFLAGS)
 
 
@@ -74,17 +74,17 @@ gbr$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 
 clean:
 	-rm -f $(GAME_OBJS)
-	-rm -f gbr$(ARCH).$(SHLIBEXT)
+	-rm -f jpn$(ARCH).$(SHLIBEXT)
 
 depend:
 	gcc -MM $(GAME_OBJS:.o=.c)
-gbr_item.o: gbr_item.c gbr_main.h gbr_defines.h ../g_local.h ../g_defines.h \
+jpn_item.o: jpn_item.c jpn_main.h jpn_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-gbr_spawn.o: gbr_spawn.c gbr_main.h gbr_defines.h ../g_local.h ../g_defines.h \
+jpn_spawn.o: jpn_spawn.c jpn_main.h jpn_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-gbr_guninfo.o: gbr_guninfo.c gbr_main.h gbr_defines.h ../g_local.h ../g_defines.h \
+jpn_guninfo.o: jpn_guninfo.c jpn_main.h jpn_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-gbr_weapon.o: gbr_weapon.c gbr_main.h gbr_defines.h ../g_local.h ../g_defines.h \
+jpn_weapon.o: jpn_weapon.c jpn_main.h jpn_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-gbr_main.o: gbr_main.c gbr_main.h gbr_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
+jpn_main.o: jpn_main.c jpn_main.h jpn_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
  ../game.h ../p_menu.h ../g_cmds.h  ../p_classes.h

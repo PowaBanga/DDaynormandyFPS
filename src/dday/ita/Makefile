@@ -1,6 +1,6 @@
 #         D-Day: Normandy by Vipersoft
 # ************************************
-# *   $Source: /usr/local/cvsroot/dday/src/usm/Makefile,v $
+# *   $Source: /usr/local/cvsroot/dday/src/ita/Makefile,v $
 # *   $Revision: 1.6 $
 # *   $Date: 2002/07/25 09:07:45 $
 # *
@@ -24,15 +24,24 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 
+# This nice line comes from the linux kernel makefile
+ARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ -e s/arm.*/arm/ -e s/sa110/arm/ -e s/alpha/axp/)
+
+#ARCH=i386
 #ARCH=x86_64
--include ../../variable.mk
+
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 
-CFLAGS_RELEASE=$(BASE_CFLAGS) -g -mpentiumpro -O6 -ffast-math -funroll-loops \
+#CFLAGS_RELEASE=$(BASE_CFLAGS) -O1
+
+# Nick - fixed 'make build_release' flags.
+
+CFLAGS_RELEASE=$(BASE_CFLAGS) -O3 -funroll-loops \
 	-fomit-frame-pointer -fexpensive-optimizations
 
-CFLAGS_DEBUG=$(BASE_CFLAGS) -g 
+# Nick - fixed 'make build_debug' flags.
+CFLAGS_DEBUG=$(BASE_CFLAGS) -g
 
 # Always uncommented
 LDFLAGS=-ldl -lm
@@ -44,10 +53,10 @@ SHLIBLDFLAGS=-shared
 DO_CC=$(CC) $(CFLAGS) $(SHLIBCFLAGS) -o $@ -c $<
 
 build_debug:
-	$(MAKE) usm$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
+	$(MAKE) ita$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
 
 build_release:
-	$(MAKE) usm$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
+	$(MAKE) ita$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
 
 #############################################################################
 # SETUP AND BUILD
@@ -57,10 +66,10 @@ build_release:
 .c.o:
 	$(DO_CC)
 
-GAME_OBJS = usm_item.o usm_spawn.o usm_guninfo.o usm_weapon.o usm_main.o
+GAME_OBJS = ita_item.o ita_spawn.o ita_guninfo.o ita_weapon.o ita_main.o
 #	g_so.o # this file is a shared library thingie needed for Solaris
 
-usm$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
+ita$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 	$(CC) $(CFLAGS) $(SHLIBLDFLAGS) -o $@ $(GAME_OBJS) $(LDFLAGS)
 
 
@@ -70,17 +79,17 @@ usm$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 
 clean:
 	-rm -f $(GAME_OBJS)
-	-rm -f usm$(ARCH).$(SHLIBEXT)
+	-rm -f ita$(ARCH).$(SHLIBEXT)
 
 depend:
 	gcc -MM $(GAME_OBJS:.o=.c)
-usm_item.o: usm_item.c usm_main.h usm_defines.h ../g_local.h ../g_defines.h \
+ita_item.o: ita_item.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-usm_spawn.o: usm_spawn.c usm_main.h usm_defines.h ../g_local.h ../g_defines.h \
+ita_spawn.o: ita_spawn.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-usm_guninfo.o: usm_guninfo.c usm_main.h usm_defines.h ../g_local.h ../g_defines.h \
+ita_guninfo.o: ita_guninfo.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-usm_weapon.o: usm_weapon.c usm_main.h usm_defines.h ../g_local.h ../g_defines.h \
+ita_weapon.o: ita_weapon.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-usm_main.o: usm_main.c usm_main.h usm_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
+ita_main.o: ita_main.c ita_main.h ita_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
  ../game.h ../p_menu.h ../g_cmds.h  ../p_classes.h

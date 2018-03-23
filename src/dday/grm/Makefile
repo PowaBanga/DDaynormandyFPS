@@ -1,6 +1,6 @@
 #         D-Day: Normandy by Vipersoft
 # ************************************
-# *   $Source: /usr/local/cvsroot/dday/src/rus/Makefile,v $
+# *   $Source: /usr/local/cvsroot/dday/src/grm/Makefile,v $
 # *   $Revision: 1.6 $
 # *   $Date: 2002/07/25 09:07:45 $
 # *
@@ -24,19 +24,23 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 
+# This nice line comes from the linux kernel makefile
+ARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ -e s/arm.*/arm/ -e s/sa110/arm/ -e s/alpha/axp/)
+
+#ARCH=i386
 #ARCH=x86_64
--include ../../variable.mk
+
 CC=gcc
 BASE_CFLAGS=-Dstricmp=strcasecmp -I..
 
 #CFLAGS_RELEASE=$(BASE_CFLAGS) -O1
 
-# Nick - fixed 'make build_release flags.
+# Nick - fixed 'make build_release' flags.
 
 CFLAGS_RELEASE=$(BASE_CFLAGS) -O3 -funroll-loops \
 	-fomit-frame-pointer -fexpensive-optimizations
 
-# Nick - 'make build_debug' flags.
+# Nick - fixed 'make build_debug' flags.
 CFLAGS_DEBUG=$(BASE_CFLAGS) -g
 
 # Always uncommented
@@ -47,12 +51,12 @@ SHLIBCFLAGS=-fPIC
 SHLIBLDFLAGS=-shared
 
 DO_CC=$(CC) $(CFLAGS) $(SHLIBCFLAGS) -o $@ -c $<
- 
+
 build_debug:
-	$(MAKE) rus$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
+	$(MAKE) grm$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_DEBUG)"
 
 build_release:
-	$(MAKE) rus$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
+	$(MAKE) grm$(ARCH).$(SHLIBEXT) CFLAGS="$(CFLAGS_RELEASE)"
 
 #############################################################################
 # SETUP AND BUILD
@@ -62,10 +66,10 @@ build_release:
 .c.o:
 	$(DO_CC)
 
-GAME_OBJS = rus_item.o rus_spawn.o rus_guninfo.o rus_weapon.o rus_main.o
+GAME_OBJS = grm_item.o grm_spawn.o grm_guninfo.o grm_weapon.o grm_main.o
 #	g_so.o # this file is a shared library thingie needed for Solaris
 
-rus$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
+grm$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 	$(CC) $(CFLAGS) $(SHLIBLDFLAGS) -o $@ $(GAME_OBJS) $(LDFLAGS)
 
 
@@ -75,17 +79,17 @@ rus$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 
 clean:
 	-rm -f $(GAME_OBJS)
-	-rm -f rus$(ARCH).$(SHLIBEXT)
+	-rm -f grm$(ARCH).$(SHLIBEXT)
 
 depend:
 	gcc -MM $(GAME_OBJS:.o=.c)
-rus_item.o: rus_item.c rus_main.h rus_defines.h ../g_local.h ../g_defines.h \
+grm_item.o: grm_item.c grm_main.h grm_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-rus_spawn.o: rus_spawn.c rus_main.h rus_defines.h ../g_local.h ../g_defines.h \
+grm_spawn.o: grm_spawn.c grm_main.h grm_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-rus_guninfo.o: rus_guninfo.c rus_main.h rus_defines.h ../g_local.h ../g_defines.h \
+grm_guninfo.o: grm_guninfo.c grm_main.h grm_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-rus_weapon.o: rus_weapon.c rus_main.h rus_defines.h ../g_local.h ../g_defines.h \
+grm_weapon.o: grm_weapon.c grm_main.h grm_defines.h ../g_local.h ../g_defines.h \
  ../q_shared.h ../game.h ../p_menu.h ../g_cmds.h 
-rus_main.o: rus_main.c rus_main.h rus_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
+grm_main.o: grm_main.c grm_main.h grm_defines.h ../g_local.h ../g_defines.h ../q_shared.h \
  ../game.h ../p_menu.h ../g_cmds.h  ../p_classes.h
