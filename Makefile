@@ -3,7 +3,7 @@
 .PHONY: build clean q2pro dday q2admin
 
 q2pro:
-	$(MAKE) -C src/q2pro
+	$(MAKE) -C src/q2pro CONFIG_FILE=../q2pro.config
 	cp -a src/q2pro/q2pro ddaynormandy
 	cp -a src/q2pro/q2proded ddaynormandy-dedicated
 	
