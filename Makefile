@@ -26,15 +26,6 @@ clean:
 	rm -f ddaynormandy-dedicated
 	$(MAKE) -C src/dday clean
 	rm -f dday/game?*.real.*
-	$(MAKE) -C src/dday/ai clean
-	$(MAKE) -C src/dday/gbr clean
-	$(MAKE) -C src/dday/grm clean
-	$(MAKE) -C src/dday/ita clean
-	$(MAKE) -C src/dday/jpn clean
-	$(MAKE) -C src/dday/pol clean
-	$(MAKE) -C src/dday/rus clean
-	$(MAKE) -C src/dday/usa clean
-	$(MAKE) -C src/dday/usm clean
 	$(MAKE) -C src/q2admin-tsmod clean
 	rm -f dday/game?*.*
 

@@ -121,23 +121,17 @@ GAME_OBJS =	\
 	ai/ai_items.o ai/ai_dropnodes.o ai/ai_class_dmbot.o \
 	ai/ai_class_monster_default.o ai/AStar.o ai/ai_main.o
 
-
-
-#	g_so.o # this file is a shared library thingie needed for Solaris
 game$(ARCH).real.$(SHLIBEXT) : $(GAME_OBJS)
-	$(MAKE) usa$(ARCH).$(SHLIBEXT) -C usa
-	$(MAKE) grm$(ARCH).$(SHLIBEXT) -C grm
-# Nick - Uncomment out the next two lines if you wish to build GBR & RUS source
-	$(MAKE) rus$(ARCH).$(SHLIBEXT) -C rus	
-	$(MAKE) gbr$(ARCH).$(SHLIBEXT) -C gbr	
+	$(MAKE) gbr$(ARCH).$(SHLIBEXT) -C gbr -f ../Makefile.country COUNTRY_CODE=gbr
+	$(MAKE) grm$(ARCH).$(SHLIBEXT) -C grm -f ../Makefile.country COUNTRY_CODE=grm
+	$(MAKE) ita$(ARCH).$(SHLIBEXT) -C ita -f ../Makefile.country COUNTRY_CODE=ita
+	$(MAKE) jpn$(ARCH).$(SHLIBEXT) -C jpn -f ../Makefile.country COUNTRY_CODE=jpn
+	$(MAKE) pol$(ARCH).$(SHLIBEXT) -C pol -f ../Makefile.country COUNTRY_CODE=pol
+	$(MAKE) rus$(ARCH).$(SHLIBEXT) -C rus -f ../Makefile.country COUNTRY_CODE=rus
+	$(MAKE) usa$(ARCH).$(SHLIBEXT) -C usa -f ../Makefile.country COUNTRY_CODE=usa
+	$(MAKE) usm$(ARCH).$(SHLIBEXT) -C usm -f ../Makefile.country COUNTRY_CODE=usm
 
-	$(MAKE) jpn$(ARCH).$(SHLIBEXT) -C jpn	
-	$(MAKE) usm$(ARCH).$(SHLIBEXT) -C usm
-
-	$(MAKE) pol$(ARCH).$(SHLIBEXT) -C pol
-	$(MAKE) ita$(ARCH).$(SHLIBEXT) -C ita
-
-#ai
+# ai
 	$(MAKE) ai$(ARCH).$(SHLIBEXT) -C ai
 
 	$(CC) $(CFLAGS) $(SHLIBLDFLAGS) -o $@ $(GAME_OBJS) $(LDFLAGS)
@@ -150,7 +144,14 @@ clean:
 	-rm -f $(GAME_OBJS)
 	-rm -f game$(ARCH).real.$(SHLIBEXT)
 
-
+	$(MAKE) clean -C gbr -f ../Makefile.country COUNTRY_CODE=gbr
+	$(MAKE) clean -C grm -f ../Makefile.country COUNTRY_CODE=grm
+	$(MAKE) clean -C ita -f ../Makefile.country COUNTRY_CODE=ita
+	$(MAKE) clean -C jpn -f ../Makefile.country COUNTRY_CODE=jpn
+	$(MAKE) clean -C pol -f ../Makefile.country COUNTRY_CODE=pol
+	$(MAKE) clean -C rus -f ../Makefile.country COUNTRY_CODE=rus
+	$(MAKE) clean -C usa -f ../Makefile.country COUNTRY_CODE=usa
+	$(MAKE) clean -C usm -f ../Makefile.country COUNTRY_CODE=usm
 
 depend:
 	gcc -MM $(GAME_OBJS:.o=.c)
