@@ -379,6 +379,8 @@ begin ingamecommands
     action "Vote yes" vote yes;forcemenuoff
     action "Vote no" vote no; forcemenuoff
     blank
+    action "Record a demo" record  $com_date$_$com_time$ ; forcemenuoff
+    blank
     action "Server settings" pushmenu serversettingingame
 end
 begin videoingame
@@ -435,6 +437,8 @@ begin serversettingingame
     background #001A1767
     style --compact
     title "Server's settings"
+    blank
+    pairs "Game mode" map_override_path bed "mode/default/" Default "mode/bed/" civ "mode/civ/" ctc "mode/ctc/" Hitler "mode/hitler/" vip "mode/vip/"
     blank
     pairs "Team kill" team_kill No 0 Yes 1 Penalities 2
     pairs "Medic" invuln_medic vulnerable 0 invulnerable 1

@@ -1,0 +1,19 @@
+
+alias initcheck "changemode; echo end"
+
+alias mode_game_view "ifbed;ifciv;ifctc;ifhitler;ifvip;ifdefault"
+
+alias ifbed "if $map_override_path == mode/bed/ then set game_mode bed s else "
+alias ifciv "if $map_override_path == mode/civ/ then set game_mode civ s else "
+alias ifctc "if $map_override_path == mode/ctc/ then set game_mode ctc s else"
+alias ifvip "if $map_override_path == mode/vip/ then set game_mode vip s else"
+alias ifhitler "if $map_override_path == mode/hitler/ then set game_mode hitler s else"
+alias ifdefault "if $map_override_path == maps/ then set game_mode default s else "
+
+
+alias mode_game_view_s "ifbed;ifciv;ifctc;ifhitler;ifvip;ifdefault;exec cfg/$mapname$.cfg"
+
+
+
+
+
