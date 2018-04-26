@@ -1,6 +1,6 @@
-.DEFAULT_GOAL := build
+.DEFAULT_GOAL := root
 
-.PHONY: build clean q2pro dday q2admintsmod
+.PHONY: build clean q2proroot ddayroot q2admintsmodroot
 
 q2pro:
 	$(MAKE) -C q2proSRC
@@ -18,8 +18,24 @@ dday: dday/config.cfg
 q2admintsmod:
 	$(MAKE) -C q2admintsmod
 	cp -a q2admintsmod/game?*.* dday/
+CompAll:
+	echo "ARCH=$(uname -m)" > variable.mk
+	mv q2proSRC/.config q2proSRC/.configlocal
+	mv q2proSRC/.configroot q2proSRC/.config
+	$(MAKE) -C q2proSRC
+	$(MAKE) -C DDaySRC
+	$(MAKE) -C q2admintsmod
+	mv q2proSRC/.config q2proSRC/.configroot
+	mv q2proSRC/.configlocal q2proSRC/.config
+install:
+	cp -a q2proSRC/q2pro /usr/local/lib/games/ddaynormandy/ddaynormandy
+	cp -a q2proSRC/q2proded /usr/local/lib/games/ddaynormandy/ddaynormandyded
+	cp -a DDaySRC/game?*.real.* /usr/local/share/games/ddaynormandy/dday/
+	cp -a dday/config.cfg.sample /usr/local/share/games/ddaynormandy/dday/config.cfg
+	cp -a q2admintsmod/game?*.* /usr/local/share/games/ddaynormandy/dday/
 
 build: q2pro dday q2admintsmod
+root: CompAll
 
 clean:
 	$(MAKE) -C q2proSRC clean
