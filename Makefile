@@ -20,9 +20,9 @@ q2admintsmod:
 	cp -a q2admintsmod/game?*.* dday/
 CompAll:
 	echo "ARCH=$(uname -m)" > variable.mk
-	mv q2proSRC/.config q2proSRC/.configlocal
-	mv q2proSRC/.configroot q2proSRC/.config
+	sed -i 's/#CONFIG_PATH/CONFIG_PATH/g' q2proSRC/.config
 	$(MAKE) -C q2proSRC
+	sed -i 's/CONFIG_PATH/#CONFIG_PATH/g' q2proSRC/.config
 	$(MAKE) -C DDaySRC
 	$(MAKE) -C q2admintsmod
 	mv q2proSRC/.config q2proSRC/.configroot
