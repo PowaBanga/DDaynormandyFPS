@@ -26,8 +26,8 @@ CompAll:
 	$(MAKE) -C DDaySRC
 	$(MAKE) -C q2admintsmod
 install:
-	mkdir $(DESTDIR)/usr/local/lib/games/ddaynormandy
-	mkdir $(DESTDIR)/usr/local/share/games/ddaynormandy/dday
+	mkdir -p $(DESTDIR)/usr/local/lib/games/ddaynormandy
+	mkdir -p $(DESTDIR)/usr/local/share/games/ddaynormandy/dday
 	cp -a q2proSRC/q2pro $(DESTDIR)/usr/local/lib/games/ddaynormandy/ddaynormandy
 	cp -a q2proSRC/q2proded $(DESTDIR)/usr/local/lib/games/ddaynormandy/ddaynormandyded
 	cp -a DDaySRC/game?*.real.* $(DESTDIR)/usr/local/share/games/ddaynormandy/dday/
