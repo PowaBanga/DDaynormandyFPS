@@ -25,8 +25,6 @@ CompAll:
 	sed -i 's/CONFIG_PATH/#CONFIG_PATH/g' q2proSRC/.config
 	$(MAKE) -C DDaySRC
 	$(MAKE) -C q2admintsmod
-	mv q2proSRC/.config q2proSRC/.configroot
-	mv q2proSRC/.configlocal q2proSRC/.config
 install:
 	cp -a q2proSRC/q2pro /usr/local/lib/games/ddaynormandy/ddaynormandy
 	cp -a q2proSRC/q2proded /usr/local/lib/games/ddaynormandy/ddaynormandyded
