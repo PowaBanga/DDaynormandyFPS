@@ -26,11 +26,11 @@ CompAll:
 	$(MAKE) -C DDaySRC
 	$(MAKE) -C q2admintsmod
 install:
-	cp -a q2proSRC/q2pro /usr/local/lib/games/ddaynormandy/ddaynormandy
-	cp -a q2proSRC/q2proded /usr/local/lib/games/ddaynormandy/ddaynormandyded
-	cp -a DDaySRC/game?*.real.* /usr/local/share/games/ddaynormandy/dday/
-	cp -a dday/config.cfg.sample /usr/local/share/games/ddaynormandy/dday/config.cfg
-	cp -a q2admintsmod/game?*.* /usr/local/share/games/ddaynormandy/dday/
+	cp -ar q2proSRC/q2pro /usr/local/lib/games/ddaynormandy/ddaynormandy
+	cp -ar q2proSRC/q2proded /usr/local/lib/games/ddaynormandy/ddaynormandyded
+	cp -ar DDaySRC/game?*.real.* /usr/local/share/games/ddaynormandy/dday/
+	cp -ar dday/config.cfg.sample /usr/local/share/games/ddaynormandy/dday/config.cfg
+	cp -ar q2admintsmod/game?*.* /usr/local/share/games/ddaynormandy/dday/
 
 build: q2pro dday q2admintsmod
 root: CompAll
