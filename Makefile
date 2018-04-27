@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := root
 
 .PHONY: build clean q2proroot ddayroot q2admintsmodroot
-ARCH = $(uname -m)
+
 q2pro:
 	$(MAKE) -C q2proSRC
 	cp -a q2proSRC/q2pro DDayNormandy
@@ -19,7 +19,7 @@ q2admintsmod:
 	$(MAKE) -C q2admintsmod
 	cp -a q2admintsmod/game?*.* dday/
 CompAll:
-	echo "ARCH=$(ARCH)" > variable.mk
+	echo "ARCH=$(shell uname -m)" > variable.mk
 	sed -i 's/#CONFIG_PATH/CONFIG_PATH/g' q2proSRC/.config
 	$(MAKE) -C q2proSRC
 	sed -i 's/CONFIG_PATH/#CONFIG_PATH/g' q2proSRC/.config
