@@ -1,3 +1,5 @@
+DESTDIR=/usr/local
+
 .DEFAULT_GOAL := root
 
 .PHONY: build clean q2proroot ddayroot q2admintsmodroot
@@ -26,13 +28,13 @@ CompAll:
 	$(MAKE) -C DDaySRC
 	$(MAKE) -C q2admintsmod
 install:
-	mkdir /usr/local/lib/games/ddaynormandy
-	mkdir /usr/local/share/games/ddaynormandy/dday
-	cp -a q2proSRC/q2pro /usr/local/lib/games/ddaynormandy/ddaynormandy
-	cp -a q2proSRC/q2proded /usr/local/lib/games/ddaynormandy/ddaynormandyded
-	cp -a DDaySRC/game?*.real.* /usr/local/share/games/ddaynormandy/dday/
-	cp -a dday/config.cfg.sample /usr/local/share/games/ddaynormandy/dday/config.cfg
-	cp -a q2admintsmod/game?*.* /usr/local/share/games/ddaynormandy/dday/
+	mkdir $DESTDIR/lib/games/ddaynormandy
+	mkdir $DESTDIR/share/games/ddaynormandy/dday
+	cp -a q2proSRC/q2pro $DESTDIR/lib/games/ddaynormandy/ddaynormandy
+	cp -a q2proSRC/q2proded $DESTDIR/lib/games/ddaynormandy/ddaynormandyded
+	cp -a DDaySRC/game?*.real.* $DESTDIR/share/games/ddaynormandy/dday/
+	cp -a dday/config.cfg.sample $DESTDIR/share/games/ddaynormandy/dday/config.cfg
+	cp -a q2admintsmod/game?*.* $DESTDIR/share/games/ddaynormandy/dday/
 
 build: q2pro dday q2admintsmod
 root: CompAll
