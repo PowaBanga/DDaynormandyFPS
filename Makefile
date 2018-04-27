@@ -32,7 +32,8 @@ install:
 	cp -a q2proSRC/q2proded $(DESTDIR)/usr/local/lib/games/ddaynormandy/ddaynormandyded
 	cp -a DDaySRC/game?*.real.* $(DESTDIR)/usr/local/share/games/ddaynormandy/dday/
 	cp -a dday/config.cfg.sample $(DESTDIR)/usr/local/share/games/ddaynormandy/dday/config.cfg
-	cp -a q2admintsmod/game?*.* $(DESTDIR)/usr/local/share/games/ddaynormandy/dday/
+	cp -a q2admintsmod/game?*.* 
+	cp -ar dday/* $(DESTDIR)/usr/local/share/games/ddaynormandy/dday/
 
 build: q2pro dday q2admintsmod
 root: CompAll
