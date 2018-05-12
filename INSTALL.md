@@ -1,15 +1,18 @@
-DDayN Installation for Windows10:
-=================================
+DDayN Installation for Windows10
+================================
+
 Windows10 Install:
 ------------------
- * Unzip the game where do you want. 
-   And, if you have a windows secutity error message when you lauch the game:
-   * Right clic on DDaynormandy_x84.exe -> Property
-   * On the line `This file came from another computer may be blocked to help protect this computer` check: `unblock` 
- 
- 
+
+* Unzip the game where you want. 
+And, if you have a windows security error message when you lauch the game:
+   * Right click on DDaynormandy_x84.exe, select `Property`;
+   * On the line `This file came from another computer may be blocked to help protect this computer`, check: `unblock` .
+
+
 DDayN compilation
 =================
+
 Dependencies
 ------------
 
@@ -23,46 +26,58 @@ You can use `libjpeg62-dev` instead of `libjpeg8-dev` or
 `libcurl4-openssl-dev` instead of `libcurl4-gnutls-dev` as you
 like.
 
+Get the sources
+---------------
+
+### Clone the repository:
+
+```sh
+git clone https://github.com/PowaBanga/DDaynormandyFPS.git
+cd DDaynormandyFPS
+```
+
+### Fetch submodules:
+
+```sh
+git submodule update --init --recursive
+```
+
 Build
 -----
 
 This is how to build the game in user directory:
 
-`make`
+```sh
+make
+```
 
 You can optionaly use `-j2` to build using 2 cores or `-j$(nproc)`
 to build using all available cores:
 
-`make -j$(nproc)`
+```sh
+make -j$(nproc)
+```
 
-_note :_
+_Note:_ You can force target architecture for the compilation, this way:
 
-If you want to force arch of the compilation, you have to modify this line in makefile with a text editor :
+```sh
+make CPU=YOURARCH
+```
 
-`echo "ARCH=$(arch)" -> variable.mk` by `echo "ARCH=YOURARCH" -> variable.mk`
+Where YOURARCH is something like `x86` or `x86_64`.
 
-
-and modify too in this file  `/q2proSRC/.config`:
-
-`#CPU=x86` by `CPU=YOURARCH`
-
-_Note_ about windows
-If you compil this game on windows, you have to place all `/dday/q2amdin*.txt` in the main folder `/`
+_Note:_ If you compile this game on Windows, you have to place every `/dday/q2amdin*.txt` file in the main `/` folder.
 
 
 Install
 -------
 
-To install the game system wide, first of all you must edit
-the `q2proSRC/.config` file this way:
+To install the game system wide, you must build this way:
 
-```
-CONFIG_PATH_DATA=/usr/local/share/games/ddaynormandy
-CONFIG_PATH_LIB=/usr/local/lib/games/ddaynormandy
+```sh
+make CONFIG_PATH_DATA=/usr/local/share/games/ddaynormandy CONFIG_PATH_LIB=/usr/local/lib/games/ddaynormandy
 ```
 
-then build using `make` as explained above,
+Then paste `ddaySRC/game*.so` and `dday/` in the related directories.
 
-then paste `ddaySRC/game*.so` and `dday/` in the right directories.
-
-See `q2proSRC/INSTALL` for more information.
+See `src/q2pro/INSTALL` for more information.
