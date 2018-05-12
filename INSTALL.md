@@ -29,14 +29,14 @@ like.
 Get the sources
 ---------------
 
-### Clone the repository:
+### Clone the repository, fetch submodules, enter the source tree:
 
 ```sh
-git clone https://github.com/PowaBanga/DDaynormandyFPS.git
+git clone --recurse-submodules https://github.com/PowaBanga/DDaynormandyFPS.git
 cd DDaynormandyFPS
 ```
 
-### Fetch submodules:
+If you already clone the repository and haven't fetched submodules you can fetch them this way (within _DDaynormandyFPS_ directory):
 
 ```sh
 git submodule update --init --recursive
@@ -78,6 +78,8 @@ To install the game system wide, you must build this way:
 make CONFIG_PATH_DATA=/usr/local/share/games/ddaynormandy CONFIG_PATH_LIB=/usr/local/lib/games/ddaynormandy
 ```
 
-Then paste `ddaySRC/game*.so` and `dday/` in the related directories.
+And install this way:
 
-See `src/q2pro/INSTALL` for more information.
+```sh
+sudo make install CONFIG_PATH_DATA=/usr/local/share/games/ddaynormandy CONFIG_PATH_LIB=/usr/local/lib/games/ddaynormandy
+```
