@@ -27,14 +27,20 @@ How to play:
 Links:
 ------
  * [Developpement site](http://ddaydev.com/)
- * [French site](http://ddaynormandy.keumforum.com/)
- * [Chilean site (spanish)](http://ddaychile.com/)
+ * [French site](http://ddaynormandy.forumactif.com/)
  * [Facebook page](https://www.facebook.com/ddaynormandyquake2)
- * [Find players on facebook](https://www.facebook.com/groups/ddaynormandy)
+ * [Discord](https://discord.gg/Xkpct32)
  * [How to contribue](https://github.com/PowaBanga/DDaynormandyFPS/wiki/How-to-contribue)
  * [Last realese](https://github.com/PowaBanga/DDaynormandyFPS/releases/latest)
  
 _*IRC:*_ #ddayhome on irc.quakenet.org 
+
+Screenshots:
+-------
+![](https://holysh1t.net/dday/dynamic.ddaynormandy.com/dday/include/images/quake2max092.jpg)
+
+![Omaha Beach](https://holysh1t.net/dday/dynamic.ddaynormandy.com/dday/include/images/quake2max089.jpg)
+![DDay2 map](https://holysh1t.net/dday/dynamic.ddaynormandy.com/dday/include/images/quake2max039.jpg)
 
 
 Thanks:
