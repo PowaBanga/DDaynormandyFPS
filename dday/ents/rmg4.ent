@@ -1,0 +1,224 @@
+{
+"_sun_diffade" ".25"
+"_sun_color" "1 1 1"
+"message" "Ruins and Roof tops by GypsyLlama"
+"_sun_angle" "225 -15"
+"_sun_diffuse" "45"
+"_sun_ambient" "20"
+"_sun_light" "80"
+"sky" "ruined"
+"classname" "worldspawn"
+}
+{
+"nextmap" "rmg5"
+"kills" "60"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "-2628 -748 16"
+"fullbright" "1"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "72"
+"origin" "-2660 -800 8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "72"
+"origin" "-2660 -800 -112"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "42"
+"origin" "-2360 644 -128"
+"classname" "info_player_start"
+}
+{
+"nextmap" "rmg5"
+"kills" "60"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-96 -56 104"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-208 -152 56"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "-68 -60 76"
+"classname" "info_reinforcements_start"
+}
+{
+"_color" "1 1 0"
+"style" "3"
+"origin" "-1140 1452 -256"
+"light" "150"
+"classname" "light"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-904 -176 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/fire1"
+"origin" "-468 -692 12"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-624 368 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-936 808 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-1496 808 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-1944 544 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-1952 -104 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-2392 1000 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/crickets3q"
+"origin" "-1456 -104 -124"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/hum"
+"origin" "-1356 -100 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/hum"
+"origin" "-2016 1280 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/ncrickets"
+"origin" "-456 24 100"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"obj_owner" "0"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"model" "*2"
+"obj_owner" "1"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"_color" "1 1 0"
+"style" "0"
+"origin" "-1360.01 -98.01 -28"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "1 1 0"
+"style" "0"
+"origin" "-2018 1276 -28"
+"light" "150"
+"classname" "light"
+}
+{
+"frames" "21"
+"model" "sprites/faf/fire2.sp2"
+"angle" "360"
+"origin" "-480 -836 -40"
+"classname" "misc_md2"
+}
+{
+"_color" "1 1 0"
+"style" "3"
+"origin" "-480 -832 -4"
+"light" "180"
+"classname" "light"
+}
+{
+"angle" "360"
+"origin" "-2714 426 44"
+"classname" "misc_banner"
+}
+{
+"angle" "360"
+"origin" "-2714 596 44"
+"classname" "misc_banner"
+}

@@ -1,0 +1,636 @@
+{
+"light" "0.502 0.502 0.502"
+"_sun_color" "1.000 0.502 0.251"
+"_sun4_difwait" "0"
+"_sun4_diffuse" "0"
+"_sun3_difwait" "0"
+"_sun3_diffuse" "0"
+"_sun2_difwait" "0"
+"gravity" "800"
+"_sun2_diffuse" "0"
+"_sun_diffuse" "20"
+"_sun_surface" "100"
+"_sun_ambient" "16"
+"_sun_light" "275"
+"label" "This is a label - DON'T TOUCH!"
+"sounds" "0"
+"message" "Hidden Resistance \n -By The Violator\n Capture the Church!"
+"sky" "night2"
+"classname" "worldspawn"
+}
+{
+"origin" "324 -744 -204"
+"count" "0"
+"points" "100"
+"kills" "60"
+"dll" "grm"
+"message" "Axis"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "324 -722 -204"
+"count" "1"
+"points" "100"
+"kills" "60"
+"message" "Allies"
+"dll" "gbr"
+"classname" "info_team_start"
+}
+{
+"origin" "1118 -2226 -402"
+"model" "models/weapons/grm/g_mg42/tris.md2"
+"angle" "272"
+"classname" "misc_md2"
+}
+{
+"origin" "1106 -2200 -434"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "299 -425 -370"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-240 -3664 -392"
+"delay" "5"
+"obj_owner" "0"
+"angle" "2"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "2292 -768 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2324 -768 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2308 -768 -273"
+"model" "sprites/s_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2308 -768 -456"
+"model" "models/mapmodels/inlandtree/tris.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "2308 -752 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2308 -784 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2276 -768 -315"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2340 -768 -315"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2194 -1770 -380"
+"pausetime" "0"
+"delay" "0"
+"random" "+"
+"wait" "0"
+"target" "splash"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "2194 -1796 -441"
+"dmg" "0"
+"count" "255"
+"targetname" "splash"
+"classname" "target_splash"
+}
+{
+"origin" "2230 -1796 -441"
+"dmg" "0"
+"count" "255"
+"targetname" "splash2"
+"classname" "target_splash"
+}
+{
+"origin" "2269 -1796 -441"
+"dmg" "0"
+"count" "255"
+"targetname" "splash"
+"classname" "target_splash"
+}
+{
+"origin" "2270 -1770 -389"
+"pausetime" "0"
+"delay" "3"
+"random" "+"
+"wait" "1"
+"target" "splash2"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "356 -3452 -300"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "356 -3436 -440"
+"model" "models/mapmodels/inlandtree/tris.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "356 -3420 -300"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3232 -865 -314"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3168 -865 -315"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3200 -881 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3200 -849 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3200 -865 -456"
+"model" "models/mapmodels/inlandtree/tris.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "3200 -865 -276"
+"model" "sprites/s_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3216 -865 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "3184 -865 -456"
+"model" "sprites/s_hedgetrim.sp2"
+"classname" "misc_md2"
+}
+{
+"model" "*1"
+"dmg" "30"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "supply crate"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"style" "0"
+"_minlight" "0"
+"label" "This is a label - DON'T TOUCH!"
+"dmg" "30"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "supply crate"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"dmg" "30"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "supply crate"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"dmg" "30"
+"mass" "75"
+"health" "20"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "supply crate"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"dmg" "30"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "supply crate"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"dmg" "100"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Fuel Tank"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"dmg" "100"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Fuel Tank"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"dmg" "100"
+"mass" "75"
+"health" "200"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Fuel Tank"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "391 -427 -401"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "1200 -1200 -330"
+"obj_owner" "0"
+"angle" "271"
+"classname" "info_special_start"
+}
+{
+"origin" "283 -1655 -431"
+"_angfade" "1"
+"style" "0"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "62 -1295 -431"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "283 -1297 -430"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "220 -2050 -388"
+"pausetime" "0"
+"delay" "3"
+"random" "+"
+"wait" "3"
+"target" "sparks"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "2308 -800 -315"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "2308 -737 -315"
+"model" "sprites/m_foliage.sp2"
+"classname" "misc_md2"
+}
+{
+"origin" "85 -2793 -400"
+"_focus" "1"
+"_cone" "10"
+"_fade" "1"
+"_falloff" "0"
+"_color" "1.000 0.502 0.000"
+"_angfade" "1"
+"style" "2"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "3768 -2352 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3848 -2448 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3816 -2552 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_engineer_start"
+}
+{
+"origin" "3848 -2760 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3800 -2936 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_officer_start"
+}
+{
+"origin" "1912 -1216 -304"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_special_start"
+}
+{
+"origin" "3856 -2184 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "3936 -2400 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_sniper_start"
+}
+{
+"origin" "3912 -3000 -440"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_medic_start"
+}
+{
+"origin" "176 -1792 -416"
+"count" "3"
+"target" "secret"
+"targetname" "counter"
+"classname" "trigger_counter"
+}
+{
+"model" "*9"
+"dmg" "1"
+"mass" "75"
+"health" "5"
+"target" "counter"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"dmg" "1"
+"mass" "75"
+"health" "5"
+"target" "counter"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"lip" "8"
+"health" "1"
+"wait" "-1"
+"target" "counter"
+"classname" "func_button"
+}
+{
+"origin" "-17 -1746 -416"
+"_focus" "1"
+"_cone" "10"
+"_angfade" "1"
+"_fade" "1"
+"light" "200"
+"_color" "1.000 1.000 1.000"
+"classname" "light"
+}
+{
+"origin" "-172 -1970 -392"
+"targetname" "resort"
+"volume" "1"
+"attenuation" "2"
+"noise" "4thsounds/lastresort.wav"
+"spawnflags" "6"
+"classname" "target_speaker"
+}
+{
+"origin" "-236 -1970 -392"
+"targetname" "resort"
+"volume" "1"
+"attenuation" "2"
+"noise" "4thsounds/lastresort.wav"
+"spawnflags" "6"
+"classname" "target_speaker"
+}
+{
+"model" "*12"
+"style" "0"
+"_minlight" "0"
+"label" "This is a label - DON'T TOUCH!"
+"sounds" "0"
+"health" "0"
+"lip" "4"
+"decel" "0"
+"accel" "0"
+"speed" "40"
+"wait" "5"
+"target" "resort"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*13"
+"delay" "0"
+"message" "4thReich hangout!"
+"target" "resort"
+"classname" "trigger_once"
+}
+{
+"model" "*14"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "nebelwurfer #1"
+"obj_owner" "1"
+"health" "300"
+"style" "0"
+"_minlight" "0"
+"label" "This is a label - DON'T TOUCH!"
+"dmg" "30"
+"mass" "75"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*15"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "nebelwurfer #2"
+"obj_owner" "1"
+"health" "300"
+"style" "0"
+"_minlight" "0"
+"label" "This is a label - DON'T TOUCH!"
+"dmg" "30"
+"mass" "75"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "-112 -1974 -422"
+"angle" "90"
+"classname" "weapon_mp40"
+}
+{
+"model" "*16"
+"origin" "40 -1766 -404"
+"targetname" "door"
+"dmg" "0"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*17"
+"wait" "3"
+"sounds" "0"
+"delay" "0"
+"target" "door"
+"targetname" "secret"
+"spawnflags" "4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*18"
+"wait" "3"
+"sounds" "0"
+"delay" "0"
+"target" "door"
+"targetname" "secret"
+"spawnflags" "4"
+"classname" "trigger_multiple"
+}
+{
+"origin" "279 -2068 -385"
+"dmg" "0"
+"targetname" "sparks"
+"count" "200"
+"sounds" "1"
+"classname" "target_splash"
+}
+{
+"origin" "-272 -1728 -420"
+"angle" "180"
+"classname" "weapon_mauser98k"
+}
+{
+"origin" "-384 -1856 -393"
+"classname" "weapon_mg42"
+}
+{
+"origin" "-172 -1970 -422"
+"targetname" "resort"
+"volume" "1"
+"attenuation" "2"
+"noise" "4thsounds/lastresort.wav"
+"spawnflags" "6"
+"classname" "target_speaker"
+}
+{
+"origin" "-236 -1970 -422"
+"targetname" "resort"
+"volume" "1"
+"attenuation" "2"
+"noise" "4thsounds/lastresort.wav"
+"spawnflags" "6"
+"classname" "target_speaker"
+}
+{
+"origin" "579 -426 -386"
+"angle" "180"
+"classname" "info_player_start"
+}
+{
+"origin" "579 -425 -346"
+"volume" "3"
+"attenuation" "2"
+"noise" "inland/requiem.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "352 -504 -400"
+"angle" "230"
+"classname" "weapon_mg42"
+}
+{
+"origin" "400 -476 -400"
+"angle" "90"
+"classname" "ammo_grenades_grm"
+}
+{
+"origin" "-208 -1928 -384"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-320 -1856 -400"
+"targetname" "resort"
+"volume" "1"
+"attenuation" "2"
+"noise" "4thsounds/lastresort.wav"
+"spawnflags" "6"
+"classname" "target_speaker"
+}
+{
+"origin" "-208 -1776 -400"
+"targetname" "resort"
+"volume" "1"
+"attenuation" "2"
+"noise" "4thsounds/lastresort.wav"
+"spawnflags" "6"
+"classname" "target_speaker"
+}
+{
+"min" "394 -655 -413"
+"max" "901 -198 -413"
+"message" "Church"
+"dmg" "0"
+"health" "100"
+"obj_time" "120"
+"classname" "timed_objective_touch"
+}
