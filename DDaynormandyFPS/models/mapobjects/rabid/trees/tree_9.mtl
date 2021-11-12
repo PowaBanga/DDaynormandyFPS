@@ -1,0 +1,20 @@
+# Material file for tree_9.obj
+
+newmtl bark
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd tree_uv.png
+
+newmtl leaves
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd ..\..\..\..\..\..\quake3\baseq3\models\mapobjects\rabid\trees\leaves.tga
+

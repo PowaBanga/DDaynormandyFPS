@@ -1,0 +1,36 @@
+# Wavefront OBJ file
+# Exported by Misfit Model 3D 1.3.7a
+# Thu May 09 06:40:06 2013
+
+mtllib fire_1.mtl
+
+# 4 Vertices
+v 10.836653 -6.247012 8.414343
+v 10.836653 18.231075 8.414343
+v -10.836654 -6.247012 8.414342
+v -10.836654 18.231075 8.414342
+
+# 6 Texture Coordinates
+vt 0.942708 1.0
+vt 0.057292 0.0
+vt 0.942708 0.0
+vt 0.942708 1.0
+vt 0.057292 1.0
+vt 0.057292 0.0
+
+# 6 Vertex Normals
+vn -0.0 -0.0 1.0
+vn -0.0 -0.0 1.0
+vn -0.0 -0.0 1.0
+vn -0.0 -0.0 1.0
+vn -0.0 0.0 1.0
+vn -0.0 -0.0 1.0
+
+# lensflare_1, 2 grouped triangles
+
+usemtl lensflare_1
+o lensflare_1
+g lensflare_1
+
+f 2/1/1 3/2/2 1/3/3
+f 2/4/4 4/5/5 3/6/6

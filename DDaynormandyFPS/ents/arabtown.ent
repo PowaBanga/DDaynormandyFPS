@@ -1,0 +1,66 @@
+{
+"sky" "wanger"
+"message" "Action in the drylands, by: HcPeura"
+"classname" "worldspawn"
+}
+{
+"origin" "594 -303 126"
+"angle" "225"
+"classname" "info_player_start"
+}
+{
+"origin" "-248 712 170"
+"classname" "info_reinforcements_start"
+"obj_owner" "0"
+}
+{
+"origin" "-401 200 34"
+"classname" "info_reinforcements_start"
+"obj_owner" "0"
+}
+{
+"origin" "77 200 34"
+"classname" "info_reinforcements_start"
+"obj_owner" "0"
+}
+{
+"origin" "1068 -2186 170"
+"classname" "info_reinforcements_start"
+"obj_owner" "1"
+}
+{
+"origin" "-248 712 170"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"nextmap" "country2"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"origin" "1068 -2186 170"
+"message" "Axis"
+"obj_owner" "1"
+"dll" "ita"
+"nextmap" "country2"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"classname" "spawn_protect"
+"obj_owner" "0"
+"min" "513 60 480"
+"max" "-521 1129 -147"
+}
+{
+"classname" "spawn_protect"
+"obj_owner" "1"
+"min" "886 -2363 394"
+"max" "162 -2161 237"
+}
+{
+"classname" "spawn_protect"
+"obj_owner" "1"
+"min" "1299 -2154 91"
+"max" "1063 -1475 477"
+}

@@ -1,0 +1,38 @@
+# Material file for Spitfire2_1.obj
+
+newmtl pilot
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.121569 0.07451 0.058824
+	Ks 0.329412 0.329412 0.329412
+	Ka 0.0 0.0 0.0
+	map_Kd Spitfire_1\pilot.jpg
+
+newmtl glass
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.494118 0.537255 0.713726
+	Ks 0.329412 0.329412 0.329412
+	Ka 0.0 0.0 0.0
+	map_Kd ..\..\textures\glass\glass_clear1.tga
+
+newmtl spitfire_main
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.239216 0.219608 0.164706
+	Ks 0.329412 0.329412 0.329412
+	Ka 0.0 0.0 0.0
+	map_Kd Spitfire_1\spitfire_main.jpg
+
+newmtl metal
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd ..\..\textures\metal\drop_result.jpg
+

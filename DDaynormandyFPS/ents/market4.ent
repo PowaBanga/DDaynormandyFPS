@@ -1,0 +1,377 @@
+{
+"_sun_angle" "270 -20"
+"_sun_ambient" "80"
+"_sun_diffade" ".5"
+"_sun_diffuse" "75"
+"message" "Arnhem Bridge \n By Matthias"
+"_sun_color" "1.0 1.0 1.0"
+"_sun_light" "250"
+"sky" "inland3"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"origin" "-777 -476 -55"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-777 -721 -54"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "-773 -1296 -50"
+"speed" "100"
+"wait" "3"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"origin" "-773 718 -54"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"volume" "1.0"
+"spawnflags" "1"
+"noise" "Matthias/bbc1"
+"origin" "-1740 508 -660"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1636 -380 -48"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-832 -448 52"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-856 -708 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1080 -944 -72"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1232 -1440 -44"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1216 544 -28"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1808 524 -40"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-988 88 60"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-224 60 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "332 16 88"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-968 -240 -28"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-872 -732 -68"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-912 -1276 -32"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-2284 -420 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-844 424 60"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-868 728 56"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-616 584 -76"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-580 -720 -60"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-2756 1004 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-2764 772 156"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-2100 904 168"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1624 -892 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "-1856 64 60"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "1424 772 -80"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "1440 -1752 -52"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "1360 -432 -72"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "june6/ambience"
+"origin" "1092 44 36"
+"classname" "target_speaker"
+}
+{
+"model" "*5"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"spawnflags" "1"
+"classname" "func_wall"
+
+}
+{
+"model" "*7"
+"spawnflags" "1"
+"classname" "func_wall"
+
+}
+{
+"delay" "25"
+"dmg" "75"
+"origin" "-1636 -304 -64"
+"classname" "target_explosion"
+}
+{
+"message" "1st Airborne"
+"nextmap" "market1"
+"kills" "50"
+"points" "100"
+"dll" "usa"
+"obj_owner" "0"
+"origin" "-660 -478 -246"
+"classname" "info_team_start"
+}
+{
+"angle" "270"
+"origin" "-1736 494 -652"
+"classname" "info_player_start"
+}
+{
+"nextmap" "market1"
+"points" "100"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"message" "9th Panzers"
+"obj_owner" "1"
+"origin" "-660 -478 -246"
+"classname" "info_team_start"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "-1324 733 -94"
+"min" "-4 -4 -10"
+"max" "4 4 120"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "-1324 731 30"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "-1192 401 -96"
+"min" "-4 -4 -10"
+"max" "4 4 120"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "-1192 395 30"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "-2"
+"origin" "-1884 -619 -95"
+"min" "-4 -4 -10"
+"max" "4 4 120"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "-2"
+"origin" "-1884 -621 37"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "-1188 -1147 -98"
+"min" "-4 -4 -10"
+"max" "4 4 120"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "-1188 -1149 34"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "-908 -1679 -98"
+"min" "-4 -4 -10"
+"max" "4 4 120"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "-908 -1681 34"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/faf/objflag.md2"
+"targetname" "flag"
+"angle" "315"
+"mass" "13"
+"origin" "-2235 910 126"
+"classname" "objective_flag"
+}
+{
+"spawnflags" "1"
+"noise" "faf/flag.wav"
+"origin" "-2235 910 135"
+"classname" "target_speaker"
+}
+{
+"style" "2"
+"dmg" "0"
+"target" "flag"
+"min" "-2205 875 275"
+"max" "-2175 949 7"
+"obj_time" "180"
+"health" "100"
+"message" "Base"
+"obj_owner" "-1"
+"classname" "timed_objective_touch"
+}
+{
+"obj_owner" "-1"
+"targetname" "spawns"
+"angle" "360"
+"origin" "1376 -812 -71"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "-1"
+"targetname" "spawns"
+"angle" "360"
+"origin" "-2760 988 -44"
+"classname" "info_reinforcements_start"
+}
+{
+"target" "spawns"
+"targetname" "flag"
+"style" "2"
+"classname" "spawn_toggle"
+}
