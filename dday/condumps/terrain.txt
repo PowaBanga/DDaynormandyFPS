@@ -1,0 +1,119 @@
+------- FS_Init -------
+Current search path:
+./dday/pak7.pak (133 files)
+./dday/pak3.pak (157 files)
+./dday/pak1.pak (79 files)
+./dday/pak0.pak (924 files)
+./dday
+./dday/pak7.pak (133 files)
+./dday/pak3.pak (157 files)
+./dday/pak1.pak (79 files)
+./dday/pak0.pak (924 files)
+./dday
+2586 files in PAK files
+-----------------------
+Execing default.cfg
+Unknown command "+mlook"
+Execing config.cfg
+Execing autoexec.cfg
+Execing alias.txt
+------- S_Init -------
+Using SDL audio driver: pulseaudio
+sound sampling rate: 22050
+----------------------
+------- R_Init -------
+...enabling GL_EXT_compiled_vertex_array
+...enabling GL_ARB_multitexture (8 TMUs)
+...enabling GL_EXT_texture_filter_anisotropic (16 max)
+...enabling GL_ARB_vertex_buffer_object
+...enabling GL_ARB_fragment_program
+----------------------
+SDL mouse initialized.
+====== Q2PRO initialized ======
+
+q2pro r1616~bb8acb5, Nov 14 2021
+https://github.com/skullernet/q2pro
+
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: theater
+No .ent File for theater.bsp
+Loading map objective pic dday/pics/objectives/theater.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: theater
+AI: FAILED to load nodes file.
+-------------------------------------
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+theater
+libpng: pics/i_health.png: iCCP: known incorrect sRGB profile
+Usage: connect <server> [34|35|36]
+Execing cfg/theater.cfg
+Dumped console text to condumps/theater.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: testvier2
+No .ent File for testvier2.bsp
+Loading map objective pic dday/pics/objectives/testvier2.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: testvier2
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+testvier2
+Usage: connect <server> [34|35|36]
+Execing cfg/testvier2.cfg
+Dumped console text to condumps/testvier2.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: terrain
+No .ent File for terrain.bsp
+Loading map objective pic dday/pics/objectives/terrain.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: terrain
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+German Terrain
+Designed by Afrow UK
+Compiled by Mac Sog 1
+Usage: connect <server> [34|35|36]
+Execing cfg/terrain.cfg

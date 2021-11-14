@@ -1,0 +1,659 @@
+------- FS_Init -------
+Current search path:
+./dday/pak7.pak (133 files)
+./dday/pak3.pak (157 files)
+./dday/pak1.pak (79 files)
+./dday/pak0.pak (924 files)
+./dday
+./dday/pak7.pak (133 files)
+./dday/pak3.pak (157 files)
+./dday/pak1.pak (79 files)
+./dday/pak0.pak (924 files)
+./dday
+2586 files in PAK files
+-----------------------
+Execing default.cfg
+Unknown command "+mlook"
+Execing config.cfg
+Execing autoexec.cfg
+Execing alias.txt
+------- S_Init -------
+Using SDL audio driver: pulseaudio
+sound sampling rate: 22050
+----------------------
+------- R_Init -------
+...enabling GL_EXT_compiled_vertex_array
+...enabling GL_ARB_multitexture (8 TMUs)
+...enabling GL_EXT_texture_filter_anisotropic (16 max)
+...enabling GL_ARB_vertex_buffer_object
+...enabling GL_ARB_fragment_program
+----------------------
+SDL mouse initialized.
+====== Q2PRO initialized ======
+
+q2pro r1616~bb8acb5, Nov 14 2021
+https://github.com/skullernet/q2pro
+
+]map garage
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: garage
+No .ent File for garage.bsp
+Loading map objective pic dday/pics/objectives/garage.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: garage
+AI: FAILED to load nodes file.
+-------------------------------------
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Garage
+By Julhelm
+Usage: connect <server> [34|35|36]
+Execing cfg/garage.cfg
+Dumped console text to condumps/garage.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: fy_dus~1
+No .ent File for fy_dus~1.bsp
+mapversion is not a field
+MaxRange is not a field
+skyname is not a field
+Loading map objective pic dday/pics/objectives/fy_dus~1.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: fy_dus~1
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Fy_haxx_cempy
+Usage: connect <server> [34|35|36]
+Execing cfg/fy_dus~1.cfg
+Dumped console text to condumps/fy_dus~1.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: frozen
+No .ent File for frozen.bsp
+Loading map objective pic dday/pics/objectives/frozen.pcx...done.
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+0 entities inhibited
+0 teams with 0 entities
+server map: frozen
+frozen.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:297.
+       : added nodes:6.
+       : total nodes:303.
+       : loaded links:969.
+       : added links:38.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Frozen area
+modificated by:Tanatovago
+Usage: connect <server> [34|35|36]
+Rostislav connected.
+VerBOTen connected.
+Viktor connected.
+Niels connected.
+KalashniBOT connected.
+PolkaBOT connected.
+Execing cfg/frozen.cfg
+Dumped console text to condumps/frozen.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: frozenbhv2
+No .ent File for frozenbhv2.bsp
+Loading map objective pic dday/pics/objectives/frozenbhv2.pcx...done.
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+0 entities inhibited
+0 teams with 0 entities
+server map: frozenbhv2
+frozenbhv2.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:165.
+       : added nodes:0.
+       : total nodes:165.
+       : loaded links:424.
+       : added links:0.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Frozen area
+modificated by:Tanatovago
+edited by MYNF
+Usage: connect <server> [34|35|36]
+Stalin connected.
+BOTskrieg connected.
+Dmitri connected.
+Erik connected.
+KalashniBOT connected.
+Rommel connected.
+Execing cfg/frozenbhv2.cfg
+Dumped console text to condumps/frozenbhv2.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: frozenbh
+No .ent File for frozenbh.bsp
+Loading map objective pic dday/pics/objectives/frozenbh.pcx...done.
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+0 entities inhibited
+0 teams with 0 entities
+server map: frozenbh
+frozenbh.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:165.
+       : added nodes:0.
+       : total nodes:165.
+       : loaded links:424.
+       : added links:0.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Frozen area
+modificated by:Tanatovago
+edited by MYNF
+Usage: connect <server> [34|35|36]
+Stalin connected.
+PolkaBOT connected.
+CosmoBOT connected.
+BOTwurst connected.
+Vladimir connected.
+VolksBOT connected.
+Execing cfg/frozenbh.cfg
+Dumped console text to condumps/frozenbh.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: frontLv3
+No .ent File for frontLv3.bsp
+Loading map objective pic dday/pics/objectives/frontLv3.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: frontLv3
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Assault on the German Front Line
+==by Afrow UK==
+Update - v3.00
+Usage: connect <server> [34|35|36]
+Execing cfg/frontLv3.cfg
+Dumped console text to condumps/frontLv3.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: frontL
+No .ent File for frontL.bsp
+Loading map objective pic dday/pics/objectives/frontL.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: frontL
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Assault on the German Front Line
+by Afrow UK
+Usage: connect <server> [34|35|36]
+Execing cfg/frontL.cfg
+Dumped console text to condumps/frontL.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: frontl
+No .ent File for frontl.bsp
+Loading map objective pic dday/pics/objectives/frontl.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: frontl
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Assault on the German Front Line
+by Afrow UK
+Usage: connect <server> [34|35|36]
+Execing cfg/frontl.cfg
+Dumped console text to condumps/frontl.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: fracaro
+No .ent File for fracaro.bsp
+Loading map objective pic dday/pics/objectives/fracaro.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: fracaro
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Arena Cascavel-PR
+(33&15)Exercito
+Designed by Fracaro
+Usage: connect <server> [34|35|36]
+Execing cfg/fracaro.cfg
+Dumped console text to condumps/fracaro.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: formul1
+No .ent File for formul1.bsp
+Loading map objective pic dday/pics/objectives/formul1.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: formul1
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Certain By L.T. Mark
+Usage: connect <server> [34|35|36]
+Execing cfg/formul1.cfg
+Dumped console text to condumps/formul1.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: forestraid
+forestraid.ent Loaded
+Loading map objective pic dday/pics/objectives/forestraid.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: forestraid
+forestraid.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:106.
+       : added nodes:3.
+       : total nodes:109.
+       : loaded links:268.
+       : added links:0.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Forest Raid by gimp
+Usage: connect <server> [34|35|36]
+Patton connected.
+Takumi connected.
+Blithe connected.
+Katsutohi connected.
+Dipsymama connected.
+Yamamoto connected.
+Execing cfg/forestraid.cfg
+Dumped console text to condumps/forestraid.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: forestraid2
+forestraid2.ent Loaded
+Loading map objective pic dday/pics/objectives/forestraid2.pcx...error.
+item key_pass not found for trigger_key at (-696 982 1306)
+key_pass doesn't have a spawn function
+0 entities inhibited
+0 teams with 0 entities
+server map: forestraid2
+forestraid2.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:101.
+       : added nodes:3.
+       : total nodes:104.
+       : loaded links:263.
+       : added links:6.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Forest Raid by gimp
+Usage: connect <server> [34|35|36]
+Patton connected.
+Miyagi connected.
+Speirs connected.
+Izumi connected.
+saBOTage connected.
+Shinakio connected.
+Execing cfg/forestraid2.cfg
+Dumped console text to condumps/forestraid2.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: forestp
+No .ent File for forestp.bsp
+Loading map objective pic dday/pics/objectives/forestp.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: forestp
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Forest Patrol
+[4thReich]Summy 
+help from Munf
+Usage: connect <server> [34|35|36]
+Execing cfg/forestp.cfg
+Dumped console text to condumps/forestp.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: forest
+No .ent File for forest.bsp
+Loading map objective pic dday/pics/objectives/forest.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: forest
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Forest Village Designed by GypsyLlama
+Usage: connect <server> [34|35|36]
+Execing cfg/forest.cfg
+Dumped console text to condumps/forest.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: forest5
+No .ent File for forest5.bsp
+Loading map objective pic dday/pics/objectives/forest5.pcx...error.
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+mdlskin is not a field
+mdl is not a field
+0 entities inhibited
+0 teams with 0 entities
+server map: forest5
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Small Axis Camp
+[505]Summy
+Usage: connect <server> [34|35|36]
+Execing cfg/forest5.cfg
+Dumped console text to condumps/forest5.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: fog
+No .ent File for fog.bsp
+Loading map objective pic dday/pics/objectives/fog.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: fog
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Night & Fog
+Mr YOur no fun
+Usage: connect <server> [34|35|36]
+Execing cfg/fog.cfg
+Dumped console text to condumps/fog.txt.
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: fmaze
+No .ent File for fmaze.bsp
+Loading map objective pic dday/pics/objectives/fmaze.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: fmaze
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Forest Maze
+ by [1RB]Fafner
+Usage: connect <server> [34|35|36]
+Execing cfg/fmaze.cfg
