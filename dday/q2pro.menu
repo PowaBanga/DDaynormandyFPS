@@ -176,6 +176,7 @@ end
 begin startserver
     //title "Start Server"
     banner m_banner_start_server
+    
     strings "initial map" nextserver $com_maplist
     field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
     field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
@@ -189,6 +190,7 @@ end
 begin serversetting
     title "Server's settings"
     blank
+    pairs "Game mode" map_override_path default "mode/default/" bed "mode/bed/" civ "mode/civ/" ctc "mode/ctc/" Hitler "mode/hitler/" vip "mode/vip/" landing "mode/landing/"
     pairs "Team kill" team_kill No 0 Yes 1 Penalities 2
     pairs "Medic" invuln_medic vulnerable 0 invulnerable 1
     pairs "Death messages" death_msg self 0 everybody 1 team 2
