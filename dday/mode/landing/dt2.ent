@@ -1,0 +1,392 @@
+{
+"gravity" "800"
+"message" "The Fight For DoomTown  - Revised By [CLiK]Grinder"
+"sky" "night1"
+"_ambient" "38"
+"classname" "worldspawn"
+}
+{
+"angle" "48"
+"origin" "-308 -2964 589.6"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "1469.4 -2392.1 -68.9"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "The Red Army"
+"nextmap" "doomtown"
+"kills" "80"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "90"
+"origin" "617.0 -761.7 244.0"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "324"
+"origin" "34.9 2224.9 -327.0"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "Hitler's Youth"
+"kills" "80"
+"nextmap" "dday2"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "270"
+"origin" "616.9 -381.2 176.0"
+"classname" "info_team_start"
+}
+{
+"light" "400"
+"origin" "323.1 -170.1 140"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"origin" "-173.1 2309.1 -125.6"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "925.0 334.7 139.5"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "1593.4 1467.5 -132.4"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "858.7 -570.3 137.7"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "1533.8 -236.9 139.9"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1276.2 574.8 114.7"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "923.4 -1318.6 136.4"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "387.6 -1308.3 132.2"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "400"
+"origin" "-208.1 -2160.0 141.7"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "400"
+"origin" "621.4 -2482.7 141.8"
+"classname" "light"
+}
+{
+"model" "*1"
+"message" "Mine!"
+"lip" "0"
+"wait" "15"
+"target" "G1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "150"
+"delay" "0"
+"targetname" "G1"
+"origin" "388.7 52.7 -88.2"
+"classname" "target_explosion"
+}
+{
+"targetname" "G1"
+"style" "21"
+"origin" "389.2 52.3 -83.6"
+"classname" "target_temp_entity"
+}
+{
+"model" "*2"
+"message" "Mine!"
+"lip" "0"
+"wait" "15"
+"target" "G4"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G4"
+"style" "21"
+"origin" "869.2 84.3 -83.6"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "150"
+"delay" "0"
+"targetname" "G4"
+"origin" "868.7 84.7 -88.2"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"sounds" "4"
+"message" "Mine!"
+"lip" "-2"
+"wait" "30"
+"speed" "100"
+"target" "G2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G2"
+"style" "21"
+"origin" "1007.5 -1316.9 -82.9"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "G2"
+"origin" "1007.1 -1316.6 -89.6"
+"classname" "target_explosion"
+}
+{
+"model" "*4"
+"sounds" "4"
+"message" "Mine!"
+"lip" "-2"
+"wait" "30"
+"speed" "100"
+"target" "G5"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G5"
+"style" "21"
+"origin" "463.5 -1700.9 -82.9"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "G5"
+"origin" "463.1 -1700.6 -89.6"
+"classname" "target_explosion"
+}
+{
+"model" "*5"
+"sounds" "4"
+"message" "Mine!"
+"lip" "-2"
+"wait" "30"
+"speed" "100"
+"target" "G7"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G7"
+"style" "21"
+"origin" "687.5 -580.9 -82.9"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "G7"
+"origin" "687.1 -580.6 -89.6"
+"classname" "target_explosion"
+}
+{
+"model" "*6"
+"sounds" "4"
+"message" "Mine!"
+"lip" "-2"
+"wait" "30"
+"speed" "100"
+"target" "G8"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G8"
+"style" "21"
+"origin" "-272.5 -580.9 -82.9"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "G8"
+"origin" "-272.9 -580.6 -89.6"
+"classname" "target_explosion"
+}
+{
+"model" "*7"
+"sounds" "4"
+"message" "Mine!"
+"lip" "-2"
+"wait" "30"
+"speed" "100"
+"target" "G6"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G6"
+"style" "21"
+"origin" "-305.8 -1509.7 -85.0"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "G6"
+"origin" "-305.5 -1510.2 -90.1"
+"classname" "target_explosion"
+}
+{
+"model" "*8"
+"message" "Fire!"
+"speed" "100"
+"wait" "60"
+"target" "russian1"
+"angle" "76"
+"classname" "func_button"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "russian1"
+"origin" "918.5 -2830.0 -20.8"
+"classname" "target_explosion"
+}
+{
+"targetname" "russian1"
+"delay" "4"
+"dmg" "300"
+"origin" "767.7 955.1 -69.6"
+"classname" "target_explosion"
+}
+{
+"count" "1"
+"speed" "1"
+"targetname" "russian1"
+"origin" "919.9 -2916.3 -74.4"
+"classname" "target_earthquake"
+}
+{
+"model" "*9"
+"message" "For The Mother Land"
+"wait" "120"
+"speed" "100"
+"target" "german1"
+"angle" "258"
+"classname" "func_button"
+}
+{
+"dmg" "300"
+"delay" "3"
+"targetname" "german1"
+"origin" "396.4 -1576.0 -101.8"
+"classname" "target_explosion"
+}
+{
+"dmg" "300"
+"delay" "0"
+"targetname" "german1"
+"origin" "495.1 1266.3 -192.4"
+"classname" "target_explosion"
+}
+{
+"count" "1"
+"speed" "1"
+"targetname" "german1"
+"origin" "492.6 1429.3 -314.6"
+"classname" "target_earthquake"
+}
+{
+"model" "*10"
+"message" "Ride It !"
+"lip" "0"
+"wait" "15"
+"target" "G3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"style" "21"
+"targetname" "G3"
+"origin" "925.1 763.7 -165.9"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "150"
+"delay" "0"
+"targetname" "G3"
+"origin" "925.5 763.4 -170.9"
+"classname" "target_explosion"
+}
+{
+"style" "0"
+"light" "150"
+"angle" "360"
+"origin" "1196.5 -819.6 -32.7"
+"classname" "light_mine2"
+}
+{
+"style" "0"
+"light" "150"
+"angle" "360"
+"origin" "1197.5 -1183.5 -33.2"
+"classname" "light_mine2"
+}
+{
+"style" "0"
+"light" "150"
+"angle" "180"
+"origin" "1334.9 -1181.4 -32.1"
+"classname" "light_mine2"
+}
+{
+"style" "0"
+"light" "150"
+"angle" "180"
+"origin" "1334.8 -817.5 -32.2"
+"classname" "light_mine2"
+}
+{
+"model" "*11"
+"dmg" "30"
+"mass" "100"
+"health" "500"
+"classname" "func_explosive"
+}
+

@@ -1,0 +1,187 @@
+{
+"message" "Day of Days First Town BH - MUNF"
+"_sun_ambient" "55"
+"_sun_light" "300"
+"_sun_diffuse" "250"
+"_sun_color" ".4 .6 .8"
+"_sun_angle" "90 -30"
+"sky" "blue"
+"classname" "worldspawn"
+}
+{
+"angle" "88"
+"origin" "-355.63 -76.12 148"
+"classname" "info_player_start"
+}
+{
+"kills" "60"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "681.93 -1394.86 148.32"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-508 -1635 76"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-60.58 -1640 71"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "660 -1618 72.53"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-808.24 1293.51 133"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-794.22 1850.95 133"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "401.72 1854.58 133"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-771.24 1934.51 135.51"
+"classname" "info_team_start"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-7.24 -546.99 158"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-772.24 -173.49 135"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-803.10 -676.29 134"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-545.24 370.01 122"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "50.89 1562.88 174.22"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "586.12 -507.22 148.41"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "4"
+"wait" "5"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "188.80 -859.46 106.01"
+"classname" "func_timer"
+}
+{
+"volume" ".7"
+"spawnflags" "4"
+"targetname" "combat2"
+"noise" "june6/combata2"
+"attenuation" "2"
+"origin" "-529.76 -966.54 94.01"
+"classname" "target_speaker"
+}
+{
+"volume" ".7"
+"spawnflags" "4"
+"targetname" "combat2"
+"noise" "june6/combata2"
+"attenuation" "2"
+"origin" "-539.63 -72.99 94.01"
+"classname" "target_speaker"
+}
+{
+"targetname" "combat2"
+"volume" ".8"
+"attenuation" "2"
+"noise" "june6/combata2"
+"origin" "115.42 136.82 89.01"
+"classname" "target_speaker"
+}
+{
+"volume" ".7"
+"spawnflags" "4"
+"targetname" "combat2"
+"noise" "june6/combata2"
+"attenuation" "2"
+"origin" "144.43 1310.64 148.41"
+"classname" "target_speaker"
+}
+{
+"targetname" "combat2"
+"volume" ".8"
+"attenuation" "2"
+"noise" "june6/combata2"
+"origin" "599.37 427.20 174.22"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "3"
+"wait" "4"
+"spawnflags" "17"
+"target" "combat2"
+"origin" "352.37 -787.89 106.01"
+"classname" "func_timer"
+}
+

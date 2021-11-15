@@ -1,0 +1,134 @@
+{
+"_sun_angle" "245 -45"
+"_sun_ambient" "50"
+"_sun_light" "200"
+"_sun_color" "1 1 1"
+"message" "Brecourt Manor by Hoot\nInfantry Only Version"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"kills" "50"
+"nextmap" "bm_inf"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-736 736 -16"
+"classname" "info_team_start"
+}
+{
+"nextmap" "bm_inf"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-672 800 -16"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "208 240 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-240 240 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-912 272 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-912 -272 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-176 -976 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1424 544 -16"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1424 320 -16"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1632 320 -16"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1632 544 -16"
+"classname" "info_infantry_start"
+}
+{
+"angle" "255"
+"origin" "-448 448 -16"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "1"
+"noise" "hedge/cricket1.wav"
+"attenuation" "4"
+"origin" "-672 416 -48"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "hedge/5insx.wav"
+"attenuation" "4"
+"origin" "704 -512 -48"
+"classname" "target_speaker"
+}
+{
+"targetname" "crow"
+"spawnflags" "0"
+"noise" "hedge/crow.wav"
+"attenuation" "4"
+"origin" "-672 -400 -48"
+"classname" "target_speaker"
+}
+{
+"targetname" "ccro1"
+"spawnflags" "0"
+"noise" "hedge/ccro1.wav"
+"attenuation" "4"
+"origin" "640 352 -48"
+"classname" "target_speaker"
+}
+{
+"pausetime" "25"
+"wait" "50"
+"spawnflags" "1"
+"target" "crow"
+"origin" "-704 -512 -64"
+"classname" "func_timer"
+}
+{
+"wait" "50"
+"spawnflags" "1"
+"target" "ccro1"
+"origin" "704 256 -64"
+"classname" "func_timer"
+}
+

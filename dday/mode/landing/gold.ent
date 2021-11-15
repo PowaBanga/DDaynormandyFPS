@@ -1,0 +1,236 @@
+{
+"message" "Clairemont- 149 brushes:   Designed by El"
+"_sun_color" "255 255 255"
+"_sun_diffuse" "60"
+"_sun_ambient" "60"
+"_sun_angle" "315 -40"
+"_sun_light" "360"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"angle" "49"
+"origin" "1224 -608 -192"
+"classname" "info_player_start"
+}
+{
+"volume" "1"
+"attenuation" "1"
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"origin" "448 -200 96"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "1"
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"origin" "-88 -40 -8"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "1"
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"origin" "984 -680 72"
+"classname" "target_speaker"
+}
+{
+"obj_owner" "0"
+"angle" "1"
+"origin" "-229 -33.3 -69"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-211.4 60.6 -70.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "-45.7 143 2.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "337"
+"origin" "-143.7 160.7 -81"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "150"
+"origin" "-29.7 -224.7 -28.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "9"
+"origin" "-215.2 -91.1 -66.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "47"
+"origin" "-191 -218.7 -64"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "355"
+"origin" "-109.7 58.7 -71.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "5"
+"origin" "-117.7 -117.3 -66.3"
+"classname" "info_officer_start"
+}
+{
+"points" "100"
+"kills" "30"
+"nextmap" "wolf"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-130.5 -37.2 13.7"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "176"
+"origin" "1711.4 -1033.7 -67.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "47"
+"origin" "1229.7 -123 4"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "321"
+"origin" "1206 48 2"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "72"
+"origin" "529 -861.3 201"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "135"
+"origin" "1696.3 -1108 -72.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "28"
+"origin" "458.3 -843.7 208"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "206"
+"origin" "1394.3 -48 2.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "46"
+"origin" "1613.7 -1103 -69.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "147"
+"origin" "1394 -124 1.3"
+"classname" "info_officer_start"
+}
+{
+"kills" "30"
+"nextmap" "wolf"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "1481.3 -676.6 135.5"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"message" "Gold"
+"dmg" "0"
+"health" "100"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*2"
+"dmg" "24"
+"mass" "500"
+"health" "4000"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"origin" "48 -94 4"
+"sounds" "1"
+"targetname" "fdoors"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"origin" "48 -2 4"
+"spawnflags" "2"
+"sounds" "1"
+"targetname" "fdoors"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*5"
+"wait" "5"
+"target" "fdoors"
+"classname" "trigger_multiple"
+}
+{
+"light" "150"
+"origin" "1216 -608 -152"
+"classname" "light"
+}
+{
+"model" "*6"
+"origin" "1250 -242 12"
+"sounds" "1"
+"targetname" "bdoors"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*7"
+"origin" "1342 -242 12"
+"spawnflags" "2"
+"sounds" "1"
+"targetname" "bdoors"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*8"
+"wait" "5"
+"target" "bdoors"
+"classname" "trigger_multiple"
+}
+

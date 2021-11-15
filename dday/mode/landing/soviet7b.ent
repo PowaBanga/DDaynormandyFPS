@@ -1,0 +1,149 @@
+{
+"_sun_angle" "-20 -20"
+"_sun_color" ".4 .5 .9"
+"_sun_diffuse" "95"
+"_sun_ambient" "175"
+"_sun_slight" "200"
+"message" "The Russian Winter\nMr. YOur no fun"
+"sky" "rain"
+"classname" "worldspawn"
+}
+{
+"nextmap" "soviet8b"
+"kills" "60"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Soviet"
+"origin" "225 -7 -60"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "1280 107 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "1284.92 455.38 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "soviet8b"
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-793.36 2.58 -48"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-1349 -640 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-1344.59 409.56 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "3"
+"origin" "-27.08 83.69 -84"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"random" "15"
+"wait" "75"
+"target" "wind"
+"spawnflags" "1"
+"origin" "-187.3 259.6 -42"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" ".6"
+"noise" "June6/s7wind"
+"attenuation" "4"
+"targetname" "wind"
+"origin" "144 224 2"
+"classname" "target_speaker"
+}
+{
+"wait" "9"
+"target" "wind2"
+"spawnflags" "1"
+"origin" "-203.3 -24.4 -42"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"noise" "faf/windr"
+"attenuation" "4"
+"targetname" "wind2"
+"origin" "-169 -149 2"
+"classname" "target_speaker"
+}
+{
+"wait" ".15"
+"target" "burning1"
+"spawnflags" "1"
+"origin" "-387.7 723.5 2"
+"classname" "func_timer"
+}
+{
+"model" "*3"
+"targetname" "burning"
+"spawnflags" "7"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"targetname" "burning"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"wait" ".15"
+"target" "burning"
+"spawnflags" "1"
+"origin" "887.3 -19.5 60"
+"classname" "func_timer"
+}
+{
+"target" "fire"
+"spawnflags" "1"
+"origin" "-703.21 -66.97 -10"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "inland/fire"
+"attenuation" "3"
+"origin" "823 33 36"
+"classname" "target_speaker"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "826.3 10.8 -16"
+"classname" "light"
+}
+

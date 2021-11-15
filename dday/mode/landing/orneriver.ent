@@ -1,0 +1,410 @@
+{
+"gravity" "800"
+"_sun_angle" "245 -45"
+"_sun_color" "1.0 1.0 1.0"
+"_sun_ambient" "30"
+"_sun_light" "400"
+"sky" "sr"
+"message" "Orne river battle - by matthias"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-52 0 -72"
+"classname" "info_player_start"
+}
+{
+"Spawnflags" "1"
+"style" "0"
+"_cone" "10"
+"_color" "1 1 0.5"
+"light" "2000"
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"points" "100"
+"nextmap" "inland5"
+"count" "1"
+"dll" "usa"
+"message" "Allies"
+"obj_owner" "0"
+"angle" "360"
+"origin" "-4 4 0"
+"classname" "info_team_start"
+}
+{
+"nextmap" "sword2k"
+"kills" "35"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "-4 4 0"
+"classname" "info_team_start"
+}
+{
+"Spawnflags" "1"
+"style" "0"
+"_cone" "10"
+"_color" "0 0 1"
+"light" "600"
+"origin" "24 -4 -184"
+"classname" "light"
+}
+{
+"model" "*1"
+"message" "wooden bridge"
+"dmg" "5"
+"health" "5"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*2"
+"message" "watchtower"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*3"
+"message" "watchtower"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*4"
+"message" "HMG-place"
+"dmg" "0"
+"health" "5"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*5"
+"health" "5"
+"dmg" "5"
+"message" "wooden bridge"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*6"
+"message" "report room"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"Spawnflags" "1"
+"style" "0"
+"_cone" "10"
+"_color" "0 0 1"
+"light" "100"
+"origin" "1164 204 -36"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-2524 1160 32"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*7"
+"dmg" "7"
+"spawnflags" "8"
+"classname" "trigger_hurt"
+}
+{
+"model" "*8"
+"origin" "1270 178 -40"
+"dmg" "0"
+"wait" "3"
+"spawnflags" "0"
+"sounds" "1"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1916 48 64"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2044 276 36"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2108 -164 72"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1428 -248 68"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1536 -552 48"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2344 200 64"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2568 568 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1748 752 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1640 1140 60"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "8 128 -124"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "16 1004 -124"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "28 620 -128"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "16 -516 -116"
+"classname" "target_speaker"
+}
+{
+"model" "*9"
+"dmg" "500"
+"mass" "800"
+"health" "300"
+"obj_loss" "0"
+"obj_gain" "5"
+"obj_name" "Radio"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "1932 -204 -36"
+"classname" "info_reinforcements_start"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2016 568 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1588 552 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1940 732 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2188 896 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-2508 1140 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1340 744 4"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1556 364 16"
+"classname" "target_speaker"
+}
+{
+"volume" "0.5"
+"noise" "faf/bird13"
+"spawnflags" "1"
+"origin" "-1404 88 4"
+"classname" "target_speaker"
+}
+{
+"delay" "10"
+"targetname" "explosion1"
+"dmg" "200"
+"origin" "-1564 992 8"
+"classname" "target_explosion"
+}
+{
+"pausetime" "0"
+"random" "0"
+"delay" "0"
+"wait" "1"
+"spawnflags" "1"
+"targetname" "timer"
+"target" "explosion1"
+"origin" "-356 768 -44"
+"classname" "func_timer"
+}
+{
+"model" "*10"
+"dmg" "100"
+"mass" "200"
+"health" "300"
+"obj_loss" "0"
+"obj_gain" "5"
+"obj_name" "documents"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*11"
+"message" "bedroom"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*12"
+"origin" "1852 -688 -4"
+"dmg" "0"
+"sounds" "1"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*13"
+"_minlight" "1"
+"dmg" "0"
+"mass" "200"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"_minlight" "1"
+"dmg" "0"
+"mass" "200"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"_minlight" "1"
+"dmg" "0"
+"health" "250"
+"mass" "175"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"_minlight" "1"
+"dmg" "0"
+"mass" "175"
+"health" "250"
+"classname" "func_explosive"
+}
+{
+"model" "*17"
+"_minlight" "1"
+"dmg" "0"
+"mass" "175"
+"health" "250"
+"classname" "func_explosive"
+}
+

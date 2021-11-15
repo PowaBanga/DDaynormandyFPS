@@ -1,0 +1,183 @@
+{
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "sound1"
+"classname" "trigger_once"
+}
+{
+"noise" "hedge/5insx"
+"attenuation" "3"
+"volume" "1"
+"spawnflags" "1"
+"origin" "2256 -3192 136"
+"targetname" "sound1"
+"classname" "target_speaker"
+}
+{
+"origin" "2160 -80 728"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "30"
+"origin" "2225.8 -3415 77"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "2199.7 -3424.7 75.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "105"
+"origin" "2170.1 -3422.2 76.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "120"
+"origin" "2139.6 -3420.3 81"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "60"
+"origin" "2114.5 -3422.3 77.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "75"
+"origin" "2087.9 -3420.8 79.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "2064.4 -3421.1 82"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "105"
+"origin" "2029.7 -3422.4 74.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "150"
+"origin" "1997.7 -3422.4 79.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "2695.4 1469.3 297.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "255"
+"origin" "2693.7 1444 289"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "2694 1423 295"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "2697 1401.7 294"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "2696.3 1379 292.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "195"
+"origin" "2698.3 1355.3 293"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "2698.3 1327 287.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "15"
+"origin" "2693.7 1296 287.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "345"
+"origin" "2698 1275 294.3"
+"classname" "info_officer_start"
+}
+{
+"kills" "75"
+"nextmap" "dday5"
+"count" "100"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "2406.5 1531.8 262.7"
+"classname" "info_team_start"
+}
+{
+"kills" "75"
+"nextmap" "dday1"
+"dll" "grm"
+"obj_owner" "1"
+"count" "80"
+"message" "Axis"
+"origin" "2458.3 1532.4 264.5"
+"classname" "info_team_start"
+}
+{
+"model" "*2"
+"message" "Kraut Corner"
+"dmg" "20"
+"health" "25"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*3"
+"message" "Clock Tower"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*4"
+"message" "MG Nest"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*5"
+"message" "MG Nest"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+

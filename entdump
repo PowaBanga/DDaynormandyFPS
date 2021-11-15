@@ -1,0 +1,4 @@
+for i in $(ls dday/maps | grep "\.bsp" | sed '/override$/d')
+do
+'/home/powabanga/Téléchargements/a.out' $PWD/dday/maps/$i > $PWD/dday/mode/landing/$(echo $i | sed 's/bsp/ent/g')
+done

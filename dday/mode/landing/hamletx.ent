@@ -1,0 +1,788 @@
+{
+"sounds" "5"
+"gravity" "800"
+"light" "25 25 30"
+"message" "Hamlet Revisited : by [SC]Krom"
+"sky" "night1dark"
+"classname" "worldspawn"
+}
+{
+"points" "450"
+"kills" "125"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-953.8 536.5 263.2"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"mass" "20"
+"health" "280"
+"classname" "func_explosive"
+}
+{
+"kills" "75"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-800.5 543.5 263.2"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-177.6 -2891.6 -11.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-776.2 -1250.5 137"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "181.8 494.5 145.4"
+"classname" "info_officer_start"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-698.4 -516.3 18.2"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-534.5 -586.1 27.3"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-42.5 -728.8 60.7"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "100"
+"origin" "-720.4 -1062.8 0"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "182.2 -731.8 63.8"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "200"
+"origin" "-370.5 -1087.2 -6.1"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "3"
+"light" "120"
+"origin" "598.3 -953.6 -24.3"
+"classname" "light"
+}
+{
+"angle" "270"
+"origin" "1096.4 922.7 7.7"
+"classname" "info_player_start"
+}
+{
+"model" "*2"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"_falloff" "1"
+"style" "10"
+"_cone" "40"
+"target" "bill1"
+"_color" "1 1 0.6"
+"light" "300"
+"origin" "-679 819 168"
+"classname" "light"
+}
+{
+"_falloff" "1"
+"style" "10"
+"_cone" "40"
+"target" "bill2"
+"_color" "1 1 0.6"
+"light" "300"
+"origin" "-514 817 169"
+"classname" "light"
+}
+{
+"targetname" "bill2"
+"origin" "-520 806 265"
+"classname" "info_null"
+}
+{
+"targetname" "bill1"
+"origin" "-676 808 269"
+"classname" "info_null"
+}
+{
+"style" "0"
+"_cone" "20"
+"target" "spot2"
+"_color" "0.9 1 0.1"
+"light" "120"
+"origin" "-399 1083 77"
+"classname" "light"
+}
+{
+"targetname" "spot2"
+"origin" "-340 1116 102"
+"classname" "info_null"
+}
+{
+"style" "7"
+"_cone" "20"
+"_color" "0.7 1 0.1"
+"target" "spot1"
+"light" "100"
+"origin" "-189 1082 75"
+"classname" "light"
+}
+{
+"targetname" "spot1"
+"origin" "-251 1115 101"
+"classname" "info_null"
+}
+{
+"targetname" "targetp"
+"origin" "1344 -212 28"
+"classname" "info_null"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "300"
+"origin" "1155 -423 229"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "300"
+"origin" "264.2 -434.3 170.1"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "300"
+"origin" "984.0 935.3 194.4"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "300"
+"origin" "75.9 938.4 173.1"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-841.3 841.2 3.0"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-452.5 513.2 0.0"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "300"
+"origin" "72.9 495.0 230.8"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "300"
+"origin" "385.7 495.0 239.9"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "220"
+"origin" "385.7 495.0 48.6"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-510.2 145.7 66.8"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-889.8 142.7 60.8"
+"classname" "light"
+}
+{
+"model" "*7"
+"dmg" "0"
+"mass" "75"
+"health" "400"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"dmg" "5"
+"mass" "30"
+"health" "150"
+"obj_gain" "50"
+"obj_name" "Transmitter #1"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"dmg" "5"
+"mass" "30"
+"health" "150"
+"obj_gain" "50"
+"obj_name" "Transmitter #2"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*10"
+"dmg" "0"
+"mass" "30"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"dmg" "80"
+"mass" "60"
+"health" "300"
+"obj_gain" "50"
+"obj_name" "TNT #2"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*12"
+"dmg" "0"
+"mass" "100"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"dmg" "80"
+"mass" "100"
+"health" "300"
+"obj_gain" "50"
+"obj_name" "TNT #1"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*14"
+"dmg" "0"
+"mass" "30"
+"health" "180"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"dmg" "50"
+"mass" "125"
+"health" "750"
+"obj_gain" "100"
+"obj_name" "Super Computer"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*16"
+"health" "150"
+"classname" "func_explosive"
+}
+{
+"model" "*17"
+"health" "150"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"mass" "10"
+"targetname" "comp1"
+"classname" "func_explosive"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-651.7 290 -28.3"
+"classname" "info_infantry_start"
+}
+{
+"count" "2"
+"obj_owner" "1"
+"angle" "180"
+"origin" "607.2 -988.9 159.9"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "329"
+"origin" "-599.9 988.9 225.4"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "273"
+"origin" "974.4 -210.9 21.8"
+"classname" "info_hgunner_start"
+}
+{
+"count" "1"
+"obj_owner" "1"
+"angle" "360"
+"origin" "1223.1 922.8 13.1"
+"classname" "info_lgunner_start"
+}
+{
+"count" "-1"
+"obj_owner" "1"
+"angle" "180"
+"origin" "1192.5 -665.3 10.9"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "123.6 687.1 -18.2"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-3.6 487.1 0.0"
+"classname" "info_medic_start"
+}
+{
+"count" "-1"
+"obj_owner" "0"
+"angle" "360"
+"origin" "-936 -2872 -245.40"
+"classname" "info_flamethrower_start"
+}
+{
+"model" "*19"
+"dmg" "0"
+"mass" "75"
+"health" "500"
+"obj_gain" "1"
+"obj_owner" "1"
+"obj_name" "Hitler's Porn Stash"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*20"
+"dmg" "0"
+"mass" "20"
+"health" "350"
+"classname" "func_explosive"
+}
+{
+"model" "*21"
+"dmg" "0"
+"mass" "0"
+"health" "50"
+"obj_gain" "50"
+"obj_name" "German Battle Plans"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*22"
+"target" "breach5"
+"classname" "turret_range"
+}
+{
+"model" "*23"
+"origin" "-153 -2271 -39"
+"team" "gun5"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"targetname" "tip5"
+"origin" "-129.7 -2263.5 -14.8"
+"classname" "info_notnull"
+}
+{
+"md2" "models/mapmodels/afrowuk/mg42.md2"
+"fire_sound" "grm/mg42/fire.wav"
+"ammo_type" "bullet"
+"count" "1000"
+"team" "gun5"
+"target" "tip5"
+"angle" "0"
+"dmg" "50"
+"speed" "200"
+"targetname" "breach5"
+"origin" "-181.7 -2263.5 -34.8"
+"classname" "turret_breach"
+}
+{
+"target" "breach5"
+"angle" "0"
+"origin" "-206.0 -2271.4 -19.8"
+"classname" "turret_driver"
+}
+{
+"model" "*24"
+"target" "breach6"
+"classname" "turret_range"
+}
+{
+"model" "*25"
+"origin" "922 -197 138"
+"team" "gun6"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"targetname" "tip6"
+"origin" "945.9 -189.4 163.3"
+"classname" "info_notnull"
+}
+{
+"ammo_speed" "600"
+"rate" "3"
+"maxyaw" "360"
+"minyaw" "0"
+"md2" "models/weapons/gbr/g_piat/tris.md2"
+"fire_sound" "usa/bar/fire.wav"
+"ammo_type" "grenade"
+"count" "100"
+"team" "gun6"
+"target" "tip6"
+"angle" "0"
+"dmg" "50"
+"speed" "1000"
+"targetname" "breach6"
+"origin" "894.7 -189.4 152.2"
+"classname" "turret_breach"
+}
+{
+"target" "breach6"
+"angle" "0"
+"origin" "869.6 -197.3 158.3"
+"classname" "turret_driver"
+}
+{
+"model" "*26"
+"target" "breach9"
+"classname" "turret_range"
+}
+{
+"model" "*27"
+"origin" "-131 -681 142"
+"team" "gun9"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"targetname" "tip9"
+"origin" "-107.9 -673.0 166.9"
+"classname" "info_notnull"
+}
+{
+"rate" "1"
+"md2" "models/weapons/grm/g_panzer/tris.md2"
+"fire_sound" "weapons/grenlx1a.wav"
+"ammo_type" "shell"
+"count" "30"
+"team" "gun9"
+"target" "tip9"
+"angle" "0"
+"dmg" "20"
+"speed" "200"
+"targetname" "breach9"
+"origin" "-160.3 -673.0 159.3"
+"classname" "turret_breach"
+}
+{
+"model" "*28"
+"mass" "10"
+"health" "80"
+"classname" "func_explosive"
+}
+{
+"target" "breach9"
+"angle" "0"
+"origin" "-184.2 -680.9 161.9"
+"classname" "turret_driver"
+}
+{
+"model" "*29"
+"dmg" "65"
+"mass" "100"
+"targetname" "fence1"
+"classname" "func_explosive"
+}
+{
+"model" "*30"
+"obj_owner" "3"
+"message" "BOOM GO FENCE"
+"sounds" "4"
+"lip" "6"
+"wait" "-1"
+"speed" "40"
+"target" "fence1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*31"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"model" "*32"
+"message" "A Door Has Opened Somewhere..."
+"sounds" "4"
+"wait" "-1"
+"lip" "4"
+"speed" "40"
+"angle" "-2"
+"target" "comp1"
+"classname" "func_button"
+}
+{
+"model" "*33"
+"mass" "0"
+"health" "0"
+"targetname" "bomb1"
+"classname" "func_explosive"
+}
+{
+"model" "*34"
+"message" "THE ORANGES, THE BOMB IS IN THE ORANGES!"
+"mass" "60"
+"health" "600"
+"target" "bomb1"
+"classname" "func_explosive"
+}
+{
+"model" "*35"
+"target" "bomb2"
+"dmg" "1250"
+"mass" "75"
+"health" "500"
+"obj_gain" "100"
+"obj_name" "Large Bomb"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*36"
+"target" "breach2"
+"classname" "turret_range"
+}
+{
+"model" "*37"
+"origin" "767 806 3"
+"team" "gun2"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"targetname" "tip2"
+"origin" "791.0 814.8 28"
+"classname" "info_notnull"
+}
+{
+"md2" "models/mapmodels/afrowuk/mg42.md2"
+"fire_sound" "grm/mg42/fire.wav"
+"ammo_type" "bullet"
+"count" "1000"
+"team" "gun2"
+"target" "tip2"
+"angle" "0"
+"dmg" "50"
+"speed" "200"
+"targetname" "breach2"
+"origin" "739.0 814.8 8"
+"classname" "turret_breach"
+}
+{
+"target" "breach2"
+"angle" "0"
+"origin" "714.7 806.9 23"
+"classname" "turret_driver"
+}
+{
+"model" "*38"
+"mass" "0"
+"health" "50"
+"classname" "func_explosive"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-1000.4 1090.1 -12.4"
+"light" "250"
+"classname" "light"
+}
+{
+"origin" "-188.9 -2938.2 67.5"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-884.2 -661.4 135.0"
+"light" "180"
+"classname" "light"
+}
+{
+"origin" "-884.2 -821.2 -11.2"
+"light" "180"
+"classname" "light"
+}
+{
+"origin" "-438.7 -908.9 175.5"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-292.5 -908.9 184.5"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "1106.9 436.4 114.7"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "343.6 -2887.7 -42.5"
+"light" "150"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-432.4 -1293.3 185.3"
+"light" "100"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-984.4 -65.6 30.9"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-598.4 633.1 200.8"
+"light" "100"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "408.4 207.3 107.3"
+"light" "60"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "1086.7 926.6 15.0"
+"light" "80"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-289.6 -1297.2 181.4"
+"light" "100"
+"classname" "light"
+}
+{
+"model" "*39"
+"targetname" "bomb2"
+"classname" "func_explosive"
+}
+{
+"origin" "-707.0 260.4 25.6"
+"light" "200"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-500 1064 2"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-622.6 1089.4 2.0"
+"light" "150"
+"classname" "light"
+}
+

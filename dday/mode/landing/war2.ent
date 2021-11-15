@@ -1,0 +1,258 @@
+{
+"_sun_angle" "180 -45"
+"_sun_diffade" ".5"
+"_sun_diffuse" "250"
+"_sun_color" "1 1 .8"
+"_sun_ambient" "33 32 45"
+"_sun_light" "350"
+"message" "Exquisite Corpse"
+"sounds" "10"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"health" "5"
+"message" "area"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"origin" "-1397 543 32"
+"angle" "358"
+"classname" "info_player_start"
+}
+{
+"origin" "-343 1446 368"
+"targetname" "viper"
+"target" "vpath"
+"speed" "350"
+"angle" "270"
+"classname" "misc_viper"
+}
+{
+"spawnflags" "0"
+"origin" "-955 -475 392"
+"targetname" "vpath"
+"target" "vpath2"
+"classname" "path_corner"
+}
+{
+"origin" "-956 1523 365"
+"targetname" "vpath2"
+"spawnflags" "0"
+"target" "vpath3"
+"classname" "path_corner"
+}
+{
+"origin" "-956 1515 -315"
+"targetname" "vpath3"
+"spawnflags" "0"
+"target" "vpath4"
+"classname" "path_corner"
+}
+{
+"wait" "-1"
+"origin" "-956 -489 -315"
+"targetname" "vpath4"
+"spawnflags" "0"
+"target" "vpath"
+"classname" "path_corner"
+}
+{
+"model" "*2"
+"sounds" "dinant/p51"
+"target" "viper"
+"wait" "6"
+"message" "Go Airborne !"
+"classname" "trigger_multiple"
+}
+{
+"obj_owner" "0"
+"angle" "89"
+"origin" "-549.2 -506.1 119"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "88"
+"origin" "-437.4 -503.8 119.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "-950.7 -469 399.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "94"
+"origin" "-673.5 -505.4 127"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "87"
+"origin" "-294.5 -499.3 127.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "75"
+"origin" "-1421.1 -497.9 129.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "78"
+"origin" "-1298.6 -496.2 132"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "82"
+"origin" "-1151.4 -499.5 134.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "87"
+"origin" "-809.4 -495.5 131.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "187"
+"origin" "-393.3 1287.2 -171.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "187"
+"origin" "-532.6 1286.9 -180"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "212"
+"origin" "-713.4 1282.7 -174"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "350"
+"origin" "-982.8 1275.5 -175"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "3"
+"origin" "-1071.4 1276.3 -176.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "181"
+"origin" "-305.1 1288.3 -176"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "359"
+"origin" "-1179.6 1280.3 -181.7"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "359"
+"origin" "-1296.5 1276.9 -181.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "1"
+"origin" "-1401.4 1278.7 -174.7"
+"classname" "info_officer_start"
+}
+{
+"points" "60"
+"nextmap" "dday1"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-547.5 -62.2 -47.3"
+"classname" "info_team_start"
+}
+{
+"points" "60"
+"nextmap" "war"
+"dll" "grm"
+"obj_owner" "1"
+"count" "0"
+"message" "Axis"
+"origin" "-495.7 -61.6 -45.5"
+"classname" "info_team_start"
+}
+{
+"model" "*3"
+"target" "a3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"targetname" "a3"
+"accel" "800"
+"speed" "1000"
+"sounds" "1"
+"classname" "func_plat"
+}
+{
+"model" "*5"
+"target" "a1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"targetname" "a1"
+"accel" "3000"
+"speed" "5000"
+"sounds" "1"
+"lip" "1"
+"classname" "func_plat"
+}
+{
+"target" "horse"
+"spawnflags" "1"
+"origin" "-512 182 -94"
+"classname" "func_timer"
+}
+{
+"model" "*7"
+"origin" "-492 174 -114"
+"wait" ".5"
+"sounds" "1"
+"targetname" "horse"
+"spawnflags" "128"
+"distance" "30"
+"classname" "func_door_rotating"
+}
+{
+"model" "*8"
+"target" "a2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"targetname" "a2"
+"accel" "500"
+"speed" "40"
+"lip" "0"
+"sounds" "1"
+"classname" "func_plat"
+}
+

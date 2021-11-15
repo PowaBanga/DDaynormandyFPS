@@ -1,0 +1,378 @@
+{
+"message" "Medic Arena\nDesigned by Castrator"
+"classname" "worldspawn"
+}
+{
+"style" "4"
+"_color" "1 0 1"
+"light" "300"
+"origin" "0 0 192"
+"classname" "light"
+}
+{
+"noise" "medarena/medarena"
+"spawnflags" "1"
+"origin" "-4 0 108"
+"classname" "target_speaker"
+}
+{
+"noise" "medarena/medarena"
+"spawnflags" "1"
+"origin" "-384 0 172"
+"classname" "target_speaker"
+}
+{
+"noise" "medarena/medarena"
+"spawnflags" "1"
+"origin" "360 -4 192"
+"classname" "target_speaker"
+}
+{
+"noise" "medarena/medarena"
+"spawnflags" "1"
+"origin" "0 0 508"
+"classname" "target_speaker"
+}
+{
+"style" "4"
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "176 -112 512"
+"classname" "light"
+}
+{
+"style" "4"
+"_color" "0 0 1"
+"light" "200"
+"origin" "0 0 480"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "4"
+"light" "200"
+"origin" "168 152 512"
+"classname" "light"
+}
+{
+"style" "9"
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "-144 -112 512"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "4"
+"light" "200"
+"origin" "-144 128 512"
+"classname" "light"
+}
+{
+"style" "9"
+"_color" "1 0.5 0.8"
+"light" "300"
+"origin" "-352 0 192"
+"classname" "light"
+}
+{
+"_color" "1 0 1"
+"style" "2"
+"light" "300"
+"origin" "-352 0 64"
+"classname" "light"
+}
+{
+"style" "2"
+"_color" "0 0.7 1"
+"light" "300"
+"origin" "360 0 192"
+"classname" "light"
+}
+{
+"_color" "1 0 1"
+"style" "4"
+"light" "300"
+"origin" "360 0 64"
+"classname" "light"
+}
+{
+"angle" "360"
+"origin" "0 0 192"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "351 118.7 191"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "352.6 24.6 189.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "354.3 -73 190.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "356.3 -199.3 191"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "198.3 7.3 75.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "352.8 26.9 57.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "353 -74.7 56"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "345"
+"origin" "350.3 122.7 52.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "386.3 -149.3 53.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-352.6 190.3 180.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-346.3 61 180"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-346 120 178"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-363 202.7 41"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-179.7 4 67.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-341.7 -11.7 180"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-359.7 113 39.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-346.3 -95 178.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-358 -48 41.3"
+"classname" "info_officer_start"
+}
+{
+"kills" "60"
+"nextmap" "medarena"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-102.5 178.8 473.7"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"nextmap" "medarena"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-98.7 115.4 507.5"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"lip" "4"
+"wait" "6"
+"targetname" "door"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"lip" "4"
+"wait" "6"
+"targetname" "door"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"lip" "2"
+"sounds" "1"
+"target" "door"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*4"
+"height" "140"
+"accel" "1000"
+"speed" "700"
+"classname" "func_plat"
+}
+{
+"model" "*5"
+"height" "140"
+"accel" "800"
+"speed" "1000"
+"classname" "func_plat"
+}
+{
+"model" "*6"
+"height" "140"
+"accel" "1200"
+"speed" "600"
+"classname" "func_plat"
+}
+{
+"model" "*7"
+"height" "140"
+"accel" "900"
+"speed" "1200"
+"classname" "func_plat"
+}
+{
+"model" "*8"
+"height" "140"
+"accel" "700"
+"speed" "600"
+"classname" "func_plat"
+}
+{
+"model" "*9"
+"height" "140"
+"accel" "1600"
+"speed" "300"
+"classname" "func_plat"
+}
+{
+"model" "*10"
+"origin" "0 0 536"
+"speed" "50"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"targetname" "laser"
+"target" "t1"
+"spawnflags" "8"
+"angle" "15"
+"origin" "9 1 520"
+"classname" "target_laser"
+}
+{
+"pausetime" "1"
+"random" "2"
+"wait" "5"
+"target" "laser"
+"spawnflags" "1"
+"origin" "9 1 520"
+"classname" "func_timer"
+}
+{
+"targetname" "p1"
+"target" "p2"
+"origin" "233 -208 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p"
+"target" "p1"
+"origin" "228 -61 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p2"
+"target" "p3"
+"origin" "0 -223 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p3"
+"target" "p4"
+"origin" "-216 -211 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p4"
+"target" "p5"
+"origin" "-233 -51 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p5"
+"target" "p6"
+"origin" "-223 208 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p6"
+"target" "p7"
+"origin" "-3 213 117"
+"classname" "path_corner"
+}
+{
+"targetname" "p7"
+"target" "p"
+"origin" "213 208 117"
+"classname" "path_corner"
+}
+{
+"model" "*11"
+"targetname" "t1"
+"spawnflags" "1"
+"dmg" "0"
+"speed" "60"
+"target" "p1"
+"classname" "func_train"
+}
+

@@ -1,0 +1,341 @@
+{
+"_ambient" "5"
+"_sun_ambient" "10"
+"_sun_diffade" ".7"
+"_sun_color" "1 6 2"
+"_sun_light" "300"
+"_sun_angle" "180-70"
+"sky" "blue"
+"message" "The green paradise gualdalcanal, by (*AAF*)Felipe"
+"classname" "worldspawn"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-816 0 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-752 -384 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-944 -416 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/ships/jpnplane/tris.md2"
+"angle" "270"
+"origin" "624 -544 -72"
+"classname" "misc_md2"
+}
+{
+"model" "models/ships/jpnplane/tris.md2"
+"angle" "270"
+"origin" "784 -544 -72"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-2416 -384 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-528 -192 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-432 -448 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-1008 -224 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-336 64 -104"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-336 -512 -104"
+"classname" "misc_md2"
+}
+{
+"angle" "-2"
+"origin" "-624 -192 88"
+"classname" "info_player_start"
+}
+{
+"kills" "50"
+"nextmap" "made"
+"count" "99"
+"Message" "U.S. Marines"
+"obj_owner" "1"
+"dll" "usm"
+"angle" "-2"
+"origin" "-624 -192 88"
+"classname" "info_team_start"
+}
+{
+"points" "200"
+"kills" "50"
+"nextmap" "made"
+"count" "99"
+"Message" "Jappanesse"
+"obj_owner" "0"
+"dll" "jpn"
+"angle" "-2"
+"origin" "-624 -192 88"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2512 -640 -8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "-2"
+"origin" "-1104 192 -40"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-2800 -736 -8"
+"classname" "info_reinforcements_start"
+}
+{
+"_color" "1 0.5 0.3"
+"light" "300"
+"origin" "-1088 160 -32"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0"
+"light" "300"
+"origin" "-2944 -736 0"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0"
+"light" "300"
+"origin" "-2944 -736 0"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0"
+"light" "300"
+"origin" "-2944 -736 0"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0"
+"light" "300"
+"origin" "-2784 -768 0"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0"
+"light" "300"
+"origin" "-3072 -736 0"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0"
+"light" "300"
+"origin" "-3072 -736 0"
+"classname" "light"
+}
+{
+"model" "*1"
+"dmg" "5"
+"mass" "100"
+"health" "40"
+"spawnflags" "1"
+"targetname" "Crate of ammo"
+"classname" "func_explosive"
+}
+{
+"_color" "1 0.5 0"
+"style" "3"
+"light" "300"
+"origin" "736 32 32"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"origin" "-2624 -384 -64"
+"classname" "spawn_protect"
+}
+{
+"targetname" "escape"
+"message" "Soldier, you can't go there the battle is over there not here"
+"spawnflags" "1"
+"origin" "-1024 -1280 -64"
+"classname" "target_help"
+}
+{
+"targetname" "Forest"
+"message" "Road is closed"
+"spawnflags" "1"
+"origin" "-1920 -960 -64"
+"classname" "target_help"
+}
+{
+"target" "t1"
+"origin" "-2304 -640 -32"
+"classname" "misc_teleporter"
+}
+{
+"target" "t2"
+"origin" "-2560 -544 -32"
+"classname" "misc_teleporter"
+}
+{
+"target" "t3"
+"origin" "-2464 -544 -32"
+"classname" "misc_teleporter"
+}
+{
+"target" "t4"
+"origin" "-2368 -544 -32"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "768 32 64"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t2"
+"angle" "141"
+"origin" "-480 -1664 -32"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t3"
+"angle" "141"
+"origin" "-1408 -1824 -32"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t4"
+"angle" "141"
+"origin" "512 -1536 -32"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*2"
+"obj_gain" "50"
+"mass" "50"
+"obj_loss" "30"
+"dmg" "40"
+"obj_name" "Ammo for morters"
+"health" "30"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"obj_gain" "50"
+"mass" "50"
+"obj_loss" "30"
+"dmg" "40"
+"obj_name" "Hangar"
+"health" "30"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"obj_gain" "50"
+"mass" "50"
+"obj_loss" "30"
+"dmg" "40"
+"obj_name" "Radar of airport"
+"health" "30"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"obj_gain" "50"
+"mass" "50"
+"obj_loss" "30"
+"dmg" "40"
+"obj_name" "High Tech Hangar"
+"health" "30"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"light" "300"
+"style" "0"
+"angle" "-2"
+"origin" "-3200 -192 -32"
+"classname" "light_mine1"
+}
+{
+"light" "300"
+"style" "0"
+"angle" "-2"
+"origin" "512 -1472 -32"
+"classname" "light_mine1"
+}
+{
+"target" "breach"
+"angle" "276"
+"origin" "-960 -1088 -32"
+"classname" "turret_driver"
+}
+{
+"model" "*6"
+"health" "999"
+"fire_sound" "weapons/grenlx1a.wav"
+"ammot_type" "shell"
+"count" "10"
+"rate" "1"
+"maxyaw" "360"
+"minyaw" "0"
+"team" "gun"
+"target" "tip"
+"targetname" "breach"
+"speed" "150"
+"angle" "269"
+"classname" "turret_breach"
+}
+{
+"model" "*7"
+"team" "gun"
+"angle" "270"
+"classname" "turret_base"
+}
+{
+"model" "*8"
+"target" "breach"
+"classname" "turret_range"
+}
+{
+"targetname" "tip"
+"origin" "-992 -1248 -64"
+"classname" "info_notnull"
+}
+

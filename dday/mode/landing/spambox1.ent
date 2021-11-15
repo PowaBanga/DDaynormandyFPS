@@ -1,0 +1,47 @@
+{
+"_sun_light" "300"
+"_sun_color" "1.000 1.000 1.000"
+"_sun_angle" "135 -70"
+"classname" "worldspawn"
+}
+{
+"origin" "0 0 288"
+"angle" "45"
+"classname" "info_player_start"
+}
+{
+"origin" "3808 -3680 173"
+"count" "99"
+"points" "0"
+"kills" "150"
+"nextmap" "dday5"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Bloody!"
+"angle" "135"
+"classname" "info_team_start"
+}
+{
+"origin" "-3775 3680 173"
+"points" "0"
+"kills" "150"
+"nextmap" "dday1"
+"dll" "rus"
+"obj_owner" "1"
+"message" "Pinkos!"
+"angle" "315"
+"classname" "info_team_start"
+}
+{
+"origin" "3840 -3712 183"
+"obj_owner" "0"
+"angle" "135"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-3840 3712 184"
+"obj_owner" "1"
+"angle" "315"
+"classname" "info_reinforcements_start"
+}
+

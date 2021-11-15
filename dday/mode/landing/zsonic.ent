@@ -1,0 +1,272 @@
+{
+"message" "Robotinik power plant gate"
+"sky" "bluesky"
+"classname" "worldspawn"
+}
+{
+"origin" "512 1408 1664"
+"classname" "info_player_start"
+}
+{
+"origin" "192 2224 1744"
+"light" "1300"
+"classname" "light"
+}
+{
+"origin" "488 2744 1256"
+"_cone" "10"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-112 2632 1256"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-112 2744 1256"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "488 2632 1256"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "136 1880 1208"
+"_color" "0.933 0.918 0.192"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "272 1528 1200"
+"_color" "1.000 1.000 1.000"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "144 1528 1200"
+"_color" "1.000 1.000 1.000"
+"_cone" "10"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-184 2264 1640"
+"_color" "0.933 0.918 0.192"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-184 2088 1640"
+"_color" "0.933 0.918 0.192"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "896 2240 1640"
+"noise" "music/c.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "896 2048 1640"
+"noise" "music/c.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "896 2400 1640"
+"noise" "music/c.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "896 2208 1184"
+"noise" "music/c.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "896 1952 1152"
+"noise" "music/c.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "896 2400 1184"
+"noise" "music/c.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "879 2704 1488"
+"obj_owner" "0"
+"angle" "240"
+"classname" "info_officer_start"
+}
+{
+"origin" "785 2673 1488"
+"obj_owner" "0"
+"angle" "195"
+"classname" "info_infantry_start"
+}
+{
+"origin" "879 2783 1487"
+"obj_owner" "0"
+"angle" "270"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "848 2672 1488"
+"obj_owner" "0"
+"angle" "165"
+"classname" "info_sniper_start"
+}
+{
+"origin" "753 2673 1488"
+"obj_owner" "0"
+"angle" "150"
+"classname" "info_medic_start"
+}
+{
+"origin" "815 2672 1487"
+"obj_owner" "0"
+"angle" "210"
+"classname" "info_engineer_start"
+}
+{
+"origin" "625 2528 1920"
+"obj_owner" "0"
+"angle" "195"
+"classname" "info_special_start"
+}
+{
+"origin" "848 2769 1488"
+"obj_owner" "0"
+"angle" "360"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "848 2705 1487"
+"obj_owner" "0"
+"angle" "120"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "55 1207 1590"
+"points" "50"
+"kills" "50"
+"nextmap" "dday1"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Nazi Guard"
+"classname" "info_team_start"
+}
+{
+"origin" "3 1206 1588"
+"points" "50"
+"kills" "50"
+"nextmap" "dday5"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Red Platoon"
+"angle" "360"
+"classname" "info_team_start"
+}
+{
+"origin" "0 1216 1600"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"mass" "75"
+"_minlight" "0"
+"dmg" "500"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"origin" "728 2536 1256"
+"_cone" "10"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*2"
+"mass" "75"
+"dmg" "2"
+"health" "30"
+"classname" "func_explosive"
+}
+{
+"origin" "656 2704 1472"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "768 1424 1520"
+"_color" "1.000 1.000 1.000"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "528 1888 1544"
+"classname" "light"
+}
+{
+"origin" "625 1865 1499"
+"obj_owner" "1"
+"angle" "195"
+"classname" "info_sniper_start"
+}
+{
+"origin" "576 1865 1500"
+"obj_owner" "1"
+"angle" "150"
+"classname" "info_engineer_start"
+}
+{
+"origin" "600 1865 1498"
+"obj_owner" "1"
+"angle" "270"
+"classname" "info_medic_start"
+}
+{
+"origin" "553 1865 1501"
+"obj_owner" "1"
+"angle" "360"
+"classname" "info_special_start"
+}
+{
+"origin" "576 1840 1500"
+"obj_owner" "1"
+"angle" "255"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "600 1839 1498"
+"obj_owner" "1"
+"angle" "15"
+"classname" "info_infantry_start"
+}
+{
+"origin" "625 1839 1505"
+"obj_owner" "1"
+"angle" "345"
+"classname" "info_officer_start"
+}
+{
+"origin" "551 1839 1498"
+"obj_owner" "1"
+"angle" "270"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "529 1857 1502"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_lgunner_start"
+}
+

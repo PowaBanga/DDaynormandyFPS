@@ -1,0 +1,827 @@
+{
+"message" "-- Recobra los 2 Jeeps -- por  hAnS!!   Solo para Open GL"
+"sky" "night2"
+"classname" "worldspawn"
+}
+{
+"points" "20"
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-1888 -256 32"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "1184 448 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1152 384 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1248 416 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "155"
+"origin" "-160 480 -32"
+"classname" "info_player_start"
+}
+{
+"origin" "1184 480 0"
+"light" "400"
+"classname" "light"
+}
+{
+"model" "*1"
+"origin" "-544 608 -32"
+"sounds" "dday2/locked"
+"speed" "200"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-544 736 -32"
+"sounds" "dday2/locked"
+"speed" "200"
+"spawnflags" "0"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "-288 95 -44"
+"target" "puerta1"
+"spawnflags" "2"
+"speed" "200"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"target" "gun"
+"wait" "24"
+"message" "Fuego!!"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"delay" "1.5"
+"targetname" "gun"
+"target" "gun1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"target" "home1"
+"targetname" "gun1"
+"classname" "trigger_once"
+}
+{
+"origin" "-370 1359 -53"
+"targetname" "bunker1"
+"dmg" "200"
+"classname" "target_explosion"
+}
+{
+"origin" "-370 1327 -85"
+"targetname" "home1"
+"dmg" "200"
+"classname" "target_explosion"
+}
+{
+"origin" "-370 1199 -85"
+"targetname" "home1"
+"dmg" "200"
+"classname" "target_explosion"
+}
+{
+"origin" "-370 1199 -53"
+"targetname" "home1"
+"dmg" "200"
+"classname" "target_explosion"
+}
+{
+"origin" "-1984 1280 -32"
+"targetname" "gun"
+"dmg" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "-384 1248 96"
+"targetname" "gun"
+"dmg" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "-384 1280 96"
+"targetname" "gun"
+"dmg" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "-352 1280 0"
+"targetname" "gun"
+"dmg" "0"
+"classname" "target_explosion"
+}
+{
+"model" "*7"
+"health" "100"
+"targetname" "home1"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"health" "100"
+"targetname" "home1"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"health" "100"
+"targetname" "home1"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"health" "100"
+"targetname" "home1"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"health" "100"
+"targetname" "home1"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"message" "has destruido la puerta blindada"
+"wait" "-1"
+"angle" "-2"
+"sounds" "4"
+"speed" "20"
+"target" "Blindade Door Axis"
+"classname" "func_button"
+}
+{
+"model" "*13"
+"message" "Puerta Destruida"
+"mass" "500"
+"health" "10000"
+"dmg" "50"
+"targetname" "Blindade Door Axis"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"targetname" "Blindade Door Axis"
+"classname" "func_explosive"
+}
+{
+"dmg" "50"
+"targetname" "Blindade Door Axis"
+"origin" "32 672 96"
+"classname" "target_explosion"
+}
+{
+"dmg" "50"
+"targetname" "Blindade Door Axis"
+"origin" "32 672 64"
+"classname" "target_explosion"
+}
+{
+"dmg" "50"
+"targetname" "Blindade Door Axis"
+"origin" "192 640 0"
+"classname" "target_explosion"
+}
+{
+"model" "*15"
+"dmg" "15"
+"mass" "200"
+"health" "150"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"dmg" "10"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "models/objects/helmet/tris.md2"
+"angle" "-1"
+"origin" "-704 1088 -64"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/faf/j.md2"
+"angle" "-1"
+"origin" "-1696 864 0"
+"classname" "misc_md2"
+}
+{
+"model" "*17"
+"mass" "400"
+"_minlight" "0"
+"dmg" "25"
+"health" "1200"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"mass" "400"
+"_minlight" "0"
+"dmg" "25"
+"health" "1200"
+"classname" "func_explosive"
+}
+{
+"model" "*19"
+"mass" "300"
+"dmg" "2"
+"health" "500"
+"classname" "func_explosive"
+}
+{
+"model" "*20"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*21"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*22"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*23"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*24"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*25"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*26"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*27"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*28"
+"mass" "150"
+"_minlight" "0.01"
+"dmg" "2"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*29"
+"origin" "1120 1070 -72"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*30"
+"origin" "1256 1070 -72"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*31"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"model" "*32"
+"origin" "-640 672 32"
+"focus" ".7"
+"light" "700"
+"speed" "150"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-2196.7 1112.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-2164.7 600.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1652.7 1304.6 0.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1588.7 472.6 0.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1812.7 856.6 0.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1108.7 1272.6 0.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1076.7 824.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1108.7 440.6 -95.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-852.7 -7.4 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1396.7 120.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-1396.7 -423.4 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-948.7 -295.4 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-532.7 -455.4 -31.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-500.7 -7.4 -31.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-564.7 216.6 224.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-308.7 1016.6 224.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-660.7 664.6 256.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "171.3 -103.4 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "11.3 376.6 32.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "395.3 248.6 -31.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "555.3 -359.4 256.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-20.7 -423.4 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "139.3 248.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-276.7 -199.4 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-468.7 1272.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "-52.7 1304.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "139.3 984.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "491.3 1304.6 -95.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "459.3 824.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "395.3 440.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "555.3 56.6 -63.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "1195.3 344.6 -95.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "1323.3 -263.4 -95.8"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "1227.3 760.6 0.2"
+"classname" "target_speaker"
+}
+{
+"volume" ".6"
+"noise" "faf/rain2.wav"
+"spawnflags" "5"
+"origin" "1259.3 1112.6 -31.8"
+"classname" "target_speaker"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-992 -224 96"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2304 -256 256"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "92"
+"origin" "-2144 224 64"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1440 -384 -32"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-384 320 -32"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "122"
+"origin" "1280 864 -32"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "896 128 160"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1280 -384 -64"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-192 160 128"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-320 -384 -32"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "928 512 352"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-704 224 224"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-128 960 -32"
+"classname" "info_medic_start"
+}
+{
+"model" "*33"
+"dmg" "100"
+"mass" "50"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"attenuation" "2"
+"volume" "0.7"
+"noise" "colpiron/engine4"
+"spawnflags" "1"
+"origin" "-359.7 626 -74"
+"classname" "target_speaker"
+}
+{
+"origin" "-344.4 632.9 -49"
+"style" "0"
+"_light" "255 255 128 50"
+"classname" "light"
+}
+{
+"origin" "-372.9 616.6 -49"
+"style" "10"
+"_light" "255 255 128 50"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"origin" "-398.3 734.3 -63"
+"style" "4"
+"_light" "255 255 128 50"
+"classname" "light"
+}
+{
+"model" "*34"
+"mass" "0"
+"dmg" "0"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*35"
+"mass" "0"
+"dmg" "0"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*36"
+"dmg" "100"
+"mass" "50"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"attenuation" "2"
+"volume" "0.7"
+"noise" "colpiron/engine4"
+"spawnflags" "1"
+"origin" "-329.8 529.7 -74"
+"classname" "target_speaker"
+}
+{
+"origin" "-332.6 546.3 -49"
+"style" "0"
+"_light" "255 255 128 50"
+"classname" "light"
+}
+{
+"origin" "-324.2 514.6 -49"
+"style" "10"
+"_light" "255 255 128 50"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"origin" "-444.2 520.5 -63"
+"style" "4"
+"_light" "255 255 128 50"
+"classname" "light"
+}
+{
+"model" "*37"
+"mass" "0"
+"dmg" "0"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*38"
+"mass" "0"
+"dmg" "0"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*39"
+"health" "20"
+"message" "Los 2 Jeeps han Sido Recuperados"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*40"
+"origin" "482 123 -11"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"volume" ".5"
+"attenuation" "2"
+"noise" "dinant/tank.wav"
+"spawnflags" "1"
+"origin" "525.8 58.6 -79"
+"classname" "target_speaker"
+}
+{
+"obj_owner" "1"
+"angle" "135"
+"origin" "1241.7 1312 -44"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "75"
+"origin" "1214.2 1268.4 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*41"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+

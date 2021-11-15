@@ -1,0 +1,86 @@
+{
+"_sun_diffuse" "30"
+"_sun_angle" "0 -60"
+"_sun_colour" ".8 .8 1"
+"_sun_ambient" "15"
+"_sun_light" "150"
+"message" "Diving Board\nBy Partsie"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "188.5 -270.6 2005.3"
+"classname" "info_team_start"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "231.9 -265.8 2010.2"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "177.5 -340.7 2010.5"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "235.1 -333.4 2015.0"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "-2"
+"origin" "217.4 280.2 2116.5"
+"classname" "info_player_start"
+}
+{
+"_color" "1 1 0.5"
+"origin" "-264.0 479.8 -367.1"
+"light" "500"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"origin" "700.5 479.8 -367.1"
+"light" "500"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"origin" "700.6 -168.0 -367.1"
+"light" "500"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "500"
+"origin" "-268.7 -172.8 -367.1"
+"classname" "light"
+}
+{
+"noise" "faf/undrwtr.wav"
+"volume" "1"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "208 164 -564"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/windr.wav"
+"volume" "1"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "208.4 -255.7 1998.1"
+"classname" "target_speaker"
+}
+

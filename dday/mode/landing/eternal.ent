@@ -1,0 +1,44 @@
+{
+"message" "The eternal pillar\nby The Violator"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "-900"
+"classname" "trigger_hurt"
+}
+{
+"origin" "248 0 -128"
+"angle" "180"
+"classname" "info_player_start"
+}
+{
+"origin" "56 232 -120"
+"dll" "grm"
+"message" "Witches"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "168 184 -136"
+"dll" "usa"
+"message" "Wizards"
+"obj_owner" "0"
+"classname" "info_team_start"
+}
+{
+"origin" "-552 544 -152"
+"delay" "5"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "544 -536 -168"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "0 0 -128"
+"_color" "1.000 0.000 0.000"
+"classname" "light"
+}
+

@@ -1,0 +1,264 @@
+{
+"message" "Meatgrinderd BH\nMr YOur no fun"
+"_sun_ambient" "70"
+"_sun_light" "75"
+"_sun_diffuse" "80"
+"_sun_color" ".7 .7 .7"
+"_sun_angle" "60 110"
+"sky" "cher"
+"classname" "worldspawn"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-1940.13 -2397.5 -37"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-1366.69 -2395.5 -36"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-892.01 -2398.5 -34"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-455.56 -2397.5 -35"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "75"
+"count" "99"
+"dll" "usm"
+"obj_owner" "0"
+"message" "USMC"
+"origin" "-755.56 -903.63 -97.50"
+"classname" "info_team_start"
+}
+{
+"kills" "75"
+"count" "99"
+"dll" "jpn"
+"obj_owner" "1"
+"message" "Japanese Marines"
+"origin" "-561.92 -846.68 -97.50"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-512.91 -386 -43.5"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-974.84 -385 -43.5"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1420.85 -380 -43.5"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1918.45 -387 -41.5"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-1146.87 -1220.15 -47.79"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "b25"
+"attenuation" "4"
+"noise" "faf/b25"
+"origin" "-1654.56 -1985.47 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "b25"
+"attenuation" "4"
+"noise" "faf/b25"
+"origin" "-724.43 -1931.81 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "29"
+"target" "b25"
+"origin" "-1103.04 -1794.67 -117"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crickets3"
+"attenuation" "3"
+"noise" "faf/crickets3"
+"origin" "-935.47 -1942.21 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crickets3"
+"attenuation" "3"
+"noise" "faf/crickets3"
+"origin" "-1287.05 -872.90 -12.74"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "17"
+"target" "crickets3"
+"origin" "-1627.73 -1845.35 -138"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "cricket"
+"attenuation" "3"
+"noise" "faf/cricket"
+"origin" "-2121.72 -1459.08 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "cricket"
+"attenuation" "3"
+"noise" "faf/cricket"
+"origin" "-1678.41 -1493.57 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "17"
+"target" "cricket"
+"origin" "-2224.90 -1552.88 -24"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crick"
+"attenuation" "3"
+"noise" "faf/crick"
+"origin" "-1617 -829 -128"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crick"
+"attenuation" "4"
+"noise" "faf/crick"
+"origin" "-1341.20 -2344.72 -15.93"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crick"
+"attenuation" "4"
+"noise" "faf/crick"
+"origin" "-1940.15 -911.22 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"target" "crick"
+"origin" "-581.33 -1687.35 -24"
+"classname" "func_timer"
+}
+{
+"spawnflags" "1"
+"wait" "12"
+"target" "tree"
+"origin" "-1932.55 -1016.26 -50.97"
+"classname" "func_timer"
+}
+{
+"targetname" "tree"
+"volume" "1"
+"spawnflags" "4"
+"attenuation" "3"
+"noise" "gimp/tree"
+"origin" "-1560.47 -735.91 -66.90"
+"classname" "target_speaker"
+}
+{
+"target" "churchsound"
+"spawnflags" "1"
+"origin" "-1818.65 -820.10 -156"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "churchsound"
+"attenuation" "3"
+"noise" "gimp/5insx"
+"origin" "-2172.69 -1124.57 -143"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "churchsound"
+"attenuation" "3"
+"noise" "gimp/5insx"
+"origin" "-1404.80 -880.85 -67"
+"classname" "target_speaker"
+}
+{
+"wait" "5"
+"spawnflags" "0"
+"targetname" "flyawaybird"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/bird13_43.wav"
+"origin" "-2221.11 -1974.32 -143"
+"classname" "target_speaker"
+}
+{
+"wait" "5"
+"spawnflags" "4"
+"targetname" "flyawaybird"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/bird13_43.wav"
+"origin" "-1470 -850 -142"
+"classname" "target_speaker"
+}
+{
+"wait" "31"
+"random" "11"
+"spawnflags" "1"
+"target" "flyawaybird"
+"origin" "-1697.15 -896.04 -81"
+"classname" "func_timer"
+}
+

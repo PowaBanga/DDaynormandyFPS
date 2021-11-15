@@ -1,0 +1,302 @@
+{
+"_sun_diffade" ".25"
+"message" "North Africa 1941: Desert Canyon By GypsyLlama"
+"sky" "desert1"
+"_sun_angle" "45 -45"
+"_sun_ambient" "30"
+"_sun_diffuse" "70"
+"_sun_color" "1 1 1"
+"_sun_light" "125"
+"classname" "worldspawn"
+}
+{
+"angle" "44"
+"origin" "8 -336 3092"
+"classname" "info_player_start"
+}
+{
+"volume" "1"
+"attenuation" "3"
+"noise" "faf/wind"
+"spawnflags" "1"
+"origin" "16 -408 3144"
+"classname" "target_speaker"
+}
+{
+"nextmap" "rmg2"
+"points" "180"
+"kills" "40"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "2032 1920 -24"
+"classname" "info_team_start"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "faf/windr"
+"spawnflags" "1"
+"origin" "1840 1888 -120"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "faf/windr"
+"spawnflags" "1"
+"origin" "1680 2112 -120"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "faf/windr"
+"spawnflags" "1"
+"origin" "1808 1712 -216"
+"classname" "target_speaker"
+}
+{
+
+"delay" "8"
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "1888 1888 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "rmg2"
+"points" "180"
+"kills" "40"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "224 -1648 -104"
+"classname" "info_team_start"
+}
+{
+"delay" "8"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "91"
+"origin" "148 -2882 -146"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"origin" "-304 -2592 -62"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*2"
+"origin" "24 -2592 -62"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "gimp/lebi3"
+"spawnflags" "1"
+"origin" "-256 720 -312"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "inland/fan"
+"spawnflags" "1"
+"origin" "-304 -2592 -120"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "inland/fan"
+"spawnflags" "1"
+"origin" "24 -2592 -120"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "faf/frog"
+"spawnflags" "1"
+"origin" "-416 880 -440"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "colpiron/engine4"
+"spawnflags" "1"
+"origin" "952 2056 -112"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "colpiron/engine4"
+"spawnflags" "1"
+"origin" "680 1912 -112"
+"classname" "target_speaker"
+}
+{
+"targetname" "creak"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "inland/creak"
+"spawnflags" "0"
+"origin" "520 48 -8"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"noise" "inland/flies"
+"spawnflags" "1"
+"origin" "728 968 -160"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"wait" "5"
+"target" "creak"
+"classname" "trigger_multiple"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"model" "*4"
+"obj_owner" "1"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"model" "*5"
+"obj_owner" "0"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"model" "*6"
+"message" "Sniper nest"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*7"
+"message" "Sniper nest ruins"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*8"
+"message" "Valuable supplies"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*9"
+"message" "South facing pillbox"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*10"
+"message" "Foxhole north"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*11"
+"message" "Foxhole south"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*12"
+"message" "Australian armor position"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*13"
+"message" "Valuable supplies"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*14"
+"message" "Supply platform"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*15"
+"message" "Desert hanger"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*16"
+"message" "Desert hanger"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+

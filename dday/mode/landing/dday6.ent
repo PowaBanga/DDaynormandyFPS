@@ -1,0 +1,227 @@
+{
+"sky" "valley1"
+"message" "Somewhere in France: D-Day+4 *FINAL BETA*\nDesigned by !Wh33ty!"
+"_sun_angle" "280 -45"
+"_sun_diffade" "0.5"
+"_sun_diffuse" "200"
+"_sun_color" "255 127 127"
+"_sun_ambient" "80"
+"_sun_light" "280"
+"classname" "worldspawn"
+}
+{
+"origin" "743 -361 172"
+"classname" "info_player_start"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"nextmap" "dday5"
+"count" "1"
+"kills" "75"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "90"
+"origin" "2032 -1088 288"
+"classname" "info_team_start"
+}
+{
+"nextmap" "dday2"
+"count" "0"
+"kills" "75"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "270"
+"origin" "2096 2992 336"
+"classname" "info_team_start"
+}
+{
+"delay" "5"
+"obj_owner" "0"
+"angle" "270"
+"origin" "80 3200 40"
+"classname" "info_reinforcements_start"
+}
+{
+"delay" "5"
+"obj_owner" "0"
+"angle" "270"
+"origin" "1048 2992 32"
+"classname" "info_hgunner_start"
+}
+{
+"delay" "5"
+"obj_owner" "0"
+"angle" "180"
+"origin" "888 1248 80"
+"classname" "info_special_start"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"angle" "119"
+"origin" "1576 1152 40"
+"classname" "info_special_start"
+}
+{
+"delay" "5"
+"obj_owner" "0"
+"angle" "270"
+"origin" "368 3320 88"
+"classname" "info_infantry_start"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"angle" "90"
+"origin" "816 -992 128"
+"classname" "info_reinforcements_start"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"angle" "58"
+"origin" "-56 -1008 80"
+"classname" "info_infantry_start"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"angle" "62"
+"origin" "392 -456 56"
+"classname" "info_hgunner_start"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"angle" "90"
+"origin" "1416 -880 144"
+"classname" "info_sniper_start"
+}
+{
+"model" "*1"
+"target" "secrettrig"
+"wait" "-1"
+"health" "1"
+"sounds" "1"
+"classname" "func_button"
+}
+{
+"model" "*2"
+"targetname" "secret"
+"speed" "500"
+"wait" "1"
+"dmg" "50"
+"sounds" "1"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"volume" "1"
+"spawnflags" "1"
+"noise" "hedge/5insx.wav"
+"attenuation" "3"
+"origin" "560 1120 192"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "1"
+"noise" "hedge/5insx.wav"
+"attenuation" "3"
+"origin" "1296 1120 192"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"spawnflags" "4"
+"targetname" "secrettrig"
+"target" "secret"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"spawnflags" "4"
+"targetname" "secrettrig"
+"target" "secret"
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "gijoe"
+"volume" "1"
+"attenuation" "2"
+"noise" "dday6/gijoe.wav"
+"origin" "880 912 48"
+"classname" "target_speaker"
+}
+{
+"model" "*5"
+"target" "gijoe"
+"wait" "30"
+"classname" "trigger_multiple"
+}
+{
+"map2" "dday2"
+"map1" "dday5"
+"team2" "1"
+"team1" "0"
+"origin" "-8 1160 240"
+"classname" "info_mission_results"
+}
+{
+"model" "*6"
+"speed" "60"
+"lip" "4"
+"wait" "45"
+"target" "abaris"
+"angle" "180"
+"sounds" "1"
+"classname" "func_button"
+}
+{
+"targetname" "abaris"
+"volume" "1"
+"attenuation" "2"
+"noise" "dday6/info.wav"
+"origin" "832 960 48"
+"classname" "target_speaker"
+}
+{
+"model" "*7"
+"speed" "60"
+"angle" "180"
+"target" "cast"
+"wait" "60"
+"sounds" "1"
+"health" "1"
+"classname" "func_button"
+}
+{
+"noise" "dday6/aintbag.wav"
+"attenuation" "2"
+"volume" "1"
+"targetname" "cast"
+"origin" "872 1016 56"
+"classname" "target_speaker"
+}
+{
+"model" "*8"
+"health" "50"
+"dmg" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"health" "50"
+"dmg" "1000"
+"classname" "func_explosive"
+}
+

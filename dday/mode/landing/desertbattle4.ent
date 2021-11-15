@@ -1,0 +1,102 @@
+{
+"gravity" "800"
+"sky" "sr"
+"_sun_angle" "245 -45"
+"_sun_color" "5.8 5.8 5.8"
+"_sun_ambient" "30"
+"_sun_light" "400"
+"message" "Desert Battle#4 Battle Axe By L.T. Mark"
+"classname" "worldspawn"
+}
+{
+"kills" "30"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-918.3 -61.5 -4.1"
+"classname" "info_team_start"
+}
+{
+"kills" "30"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "713.3 160 49.2"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-951.0 -237.8 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "733.8 90.2 24.6"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "181"
+"origin" "360.7 500.1 12.3"
+"classname" "info_player_start"
+}
+{
+"dmg" "100"
+"delay" "5"
+"targetname" "1"
+"origin" "-549.3 -143.5 -84"
+"classname" "target_explosion"
+}
+{
+"delay" "5"
+"dmg" "100"
+"targetname" "2"
+"origin" "48 -220 -80"
+"classname" "target_explosion"
+}
+{
+"dmg" "100"
+"delay" "6"
+"targetname" "3"
+"origin" "-20.5 -389.4 -76"
+"classname" "target_explosion"
+}
+{
+"pausetime" "5"
+"delay" "5"
+"random" "5"
+"wait" "5"
+"target" "1"
+"origin" "-463.2 -106.6 32.8"
+"classname" "func_timer"
+}
+{
+"pausetime" "6"
+"delay" "8"
+"random" "3"
+"wait" "4"
+"target" "2"
+"origin" "132 -180 2"
+"classname" "func_timer"
+}
+{
+"pausetime" "12"
+"delay" "4"
+"random" "6"
+"wait" "8"
+"target" "3"
+"origin" "135.3 -373.0 2"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+

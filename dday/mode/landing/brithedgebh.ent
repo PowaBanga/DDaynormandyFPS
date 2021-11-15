@@ -1,0 +1,271 @@
+{
+"message" "Hedge Fight BH\n Mr. Your No Fun"
+"_sun_angle" "-40 -30"
+"_sun_color" ".4 .6 .8"
+"_sun_diffuse" "65"
+"_sun_light" "90"
+"_sun_ambient" "85"
+"sky" "grnplsnt"
+"classname" "worldspawn"
+}
+{
+"kills" "50"
+"nextmap" "poltownbh"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "3rd Canadian"
+"origin" "159.9 -1616.9 80"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "94"
+"origin" "-300 -1702.8 20"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "563.9 -1691.7 20"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "50"
+"nextmap" "poltownbh"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Germans"
+"origin" "51.9 418.2 -68"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "554.9 1716.2 26"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "297"
+"origin" "-331.9 1717.2 27"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "205 339 -37"
+"classname" "info_reinforcements_start"
+}
+{
+"targetname" "Mont"
+"attenuation" "1"
+"spawnflags" "1"
+"noise" "june6/mont"
+"origin" "184 -886 -51"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "85"
+"spawnflags" "1"
+"target" "Mont"
+"origin" "155 -943 -54"
+"classname" "func_timer"
+}
+{
+"angle" "90"
+"origin" "186 -938 -46"
+"classname" "info_player_start"
+}
+{
+"targetname" "Speaker1"
+"spawnflags" "0"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/canary2441"
+"origin" "-189.1 -283.7 41"
+"classname" "target_speaker"
+}
+{
+"delay" "0"
+"pausetime" "0"
+"wait" "30"
+"target" "Speaker1"
+"random" "0"
+"spawnflags" "15"
+"origin" "-228.2 -346.9 8"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "june6/canary441"
+"targetname" "Plane2"
+"origin" "-43.1 -681.8 8"
+"classname" "target_speaker"
+}
+{
+"random" "0"
+"delay" "11"
+"wait" "33"
+"spawnflags" "1"
+"target" "Plane2"
+"origin" "-86 -687.8 8"
+"classname" "func_timer"
+}
+{
+"volume" ".7"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/combata1"
+"attenuation" "4"
+"origin" "-319 -547.8 8"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "10"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "-184 -675.7 20"
+"classname" "func_timer"
+}
+{
+"targetname" "surf"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/chicken441"
+"origin" "-102.1 -925.7 8"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "28"
+"spawnflags" "1"
+"target" "surf"
+"origin" "-174 -907.8 8"
+"classname" "func_timer"
+}
+{
+"targetname" "cow"
+"spawnflags" "4"
+"volume" ".7"
+"attenuation" "4"
+"noise" "june6/cattle441"
+"origin" "-72.1 58.1 8"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "26"
+"spawnflags" "1"
+"target" "cow"
+"origin" "-86.1 -97.9 8"
+"classname" "func_timer"
+}
+{
+"volume" ".7"
+"targetname" "MG"
+"noise" "june6/machgun2441"
+"attenuation" "4"
+"origin" "55.57 1447.30 10"
+"classname" "target_speaker"
+}
+{
+"wait" "16"
+"spawnflags" "1"
+"target" "MG"
+"origin" "684.32 1435.78 10"
+"classname" "func_timer"
+}
+{
+"targetname" "arta1"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/arta1"
+"origin" "-325 1209 10"
+"classname" "target_speaker"
+}
+{
+"wait" "14"
+"target" "arta1"
+"spawnflags" "1"
+"origin" "-186 1222 10"
+"classname" "func_timer"
+}
+{
+"targetname" "battle"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/battle441"
+"origin" "614 1432 10"
+"classname" "target_speaker"
+}
+{
+"delay" "15"
+"wait" "7"
+"target" "battle"
+"spawnflags" "1"
+"origin" "518 1445 10"
+"classname" "func_timer"
+}
+{
+"light" "250"
+"style" "0"
+"angle" "141"
+"origin" "218 -945 -16"
+"classname" "light_mine1"
+}
+{
+"dmg" "75"
+"targetname" "bombm1"
+"origin" "-182 -105 10"
+"classname" "target_explosion"
+}
+{
+"wait" "105"
+"spawnflags" "1"
+"target" "bombm1"
+"origin" "-317 -117 10"
+"classname" "func_timer"
+}
+{
+"dmg" "75"
+"targetname" "bombm2"
+"origin" "623 4 10"
+"classname" "target_explosion"
+}
+{
+"delay" "5"
+"wait" "90"
+"spawnflags" "1"
+"target" "bombm2"
+"origin" "472 28 10"
+"classname" "func_timer"
+}
+{
+"dmg" "75"
+"targetname" "bombm3"
+"origin" "165 -70 10"
+"classname" "target_explosion"
+}
+{
+"wait" "103"
+"spawnflags" "1"
+"target" "bombm3"
+"origin" "43 -79 10"
+"classname" "func_timer"
+}
+

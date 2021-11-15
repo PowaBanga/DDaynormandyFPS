@@ -1,0 +1,144 @@
+{
+"_sun_color" ".159 .159 .20"
+"_sun_angle" "300 300"
+"_sun_light" "130"
+"message" "Alpine Village \nBy [AMF]Julhelm"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"nextmap" "gbrsnow4"
+"kills" "50"
+"count" "2"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "British Squad"
+"origin" "1020 -1684 416"
+"classname" "info_team_start"
+}
+{
+"nextmap" "gbrsnow4"
+"kills" "50"
+"count" "2"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Wehrmacht"
+"origin" "-496 1640 416"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-84 -1816 40"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-496 1528 36"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"origin" "-632 -92 -288"
+"classname" "info_player_start"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "julhelm/gryzor.wav"
+"origin" "-640 0 -288"
+"classname" "target_speaker"
+}
+{
+"style" "0"
+"origin" "-448 944 -32"
+"light" "50"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-464 688 -32"
+"light" "70"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-448 224 -32"
+"light" "70"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-464 -48 -32"
+"light" "70"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-864 -48 -32"
+"light" "70"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-1248 -48 -32"
+"light" "70"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-1248 -448 -32"
+"light" "70"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-1348 -1236 92"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-1348 -1236 -20"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-1348 -916 -20"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-1344 -912 96"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*1"
+"origin" "-1048 1394 28"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-912 1394 28"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "-1248 -1778 24"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"origin" "-1112 -1778 24"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+

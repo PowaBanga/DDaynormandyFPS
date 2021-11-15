@@ -1,0 +1,297 @@
+{
+"message" "U-571 by Hoot\n\nHmg's, Flamers, and Engineers are not allowed."
+"_sun_diffuse" "25"
+"_sun_light" "150"
+"_sun_ambient" "50"
+"_sun_angle" "-55 -20"
+"_sun_color" ".8 .8 1"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"nextmap" "u571"
+"kills" "50"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-1536 384 256"
+"classname" "info_team_start"
+}
+{
+"nextmap" "u571"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-1472 384 256"
+"classname" "info_team_start"
+}
+{
+"angle" "165"
+"origin" "1536 -384 256"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-208 0 48"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-756 0 52"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "752 0 48"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-128 96 -60"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "544 -4 -158"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-320 -112 -162"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "448 -134 -62"
+"classname" "info_officer_start"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "-176 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "175"
+"origin" "-16 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "-432 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "192 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "115"
+"origin" "416 -112 -16"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "125"
+"origin" "656 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "125"
+"origin" "-656 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "115"
+"origin" "416 96 -16"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "192 0 -112"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "175"
+"origin" "-16 0 -112"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "-496 0 -112"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "150"
+"origin" "-224 0 -112"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "100"
+"origin" "576 0 -112"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "150"
+"origin" "424 0 -112"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "-896 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "928 0 -16"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "150"
+"origin" "192 0 96"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1202 0 -64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1216 0 -64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1216 0 -64"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1216 0 -64"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1202 0 -64"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1202 0 -64"
+"classname" "info_flamethrower_start"
+}
+{
+"spawnflags" "4"
+"noise" "hoot/subdive.wav"
+"targetname" "dive"
+"volume" "1"
+"attenuation" "1"
+"origin" "200 4 -24"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "hoot/ocean.wav"
+"volume" "1"
+"attenuation" "4"
+"origin" "0 0 256"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "hoot/ocean.wav"
+"volume" "1"
+"attenuation" "4"
+"origin" "-1088 0 256"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "hoot/ocean.wav"
+"volume" "1"
+"attenuation" "4"
+"origin" "1088 0 256"
+"classname" "target_speaker"
+}
+{
+"noise" "hoot/sonar.wav"
+"targetname" "sonar"
+"volume" ".5"
+"attenuation" "3"
+"origin" "200 0 -36"
+"classname" "target_speaker"
+}
+{
+"target" "dive"
+"delay" "0"
+"wait" "60"
+"spawnflags" "1"
+"origin" "-1364 388 260"
+"classname" "func_timer"
+}
+{
+"target" "sonar"
+"delay" "5"
+"wait" "20"
+"spawnflags" "1"
+"origin" "-1420 376 256"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"dmg" "20"
+"spawnflags" "28"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"dmg" "20"
+"spawnflags" "28"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"message" "You are not allowed to be this class.\nNow, you die."
+"wait" "5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"message" "You are not allowed to be this class.\nNow, you die."
+"wait" "5"
+"classname" "trigger_multiple"
+}
+

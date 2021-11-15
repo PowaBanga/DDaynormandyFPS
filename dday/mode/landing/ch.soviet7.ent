@@ -1,0 +1,224 @@
+{
+"_sun_angle" "-20 -20"
+"_sun_color" ".4 .5 .9"
+"_sun_diffuse" "95"
+"_sun_ambient" "175"
+"_sun_slight" "200"
+"message" "The Russian Winter\nModificado por PoLaFio"
+"sky" "rain"
+"classname" "worldspawn"
+}
+{
+"nextmap" "soviet8"
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "225 -7 -60"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1203 131 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1197 337 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1197 511 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "soviet8"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-866 354 -48"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-1355 -238 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-1349 -436 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-1349 -640 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "3"
+"origin" "-1272 546 -84"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"random" "15"
+"wait" "75"
+"target" "wind"
+"spawnflags" "1"
+"origin" "-187.3 259.6 -42"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" ".6"
+"noise" "June6/s7wind"
+"attenuation" "4"
+"targetname" "wind"
+"origin" "144 224 2"
+"classname" "target_speaker"
+}
+{
+"wait" "9"
+"target" "wind2"
+"spawnflags" "1"
+"origin" "-203.3 -24.4 -42"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"noise" "faf/windr"
+"attenuation" "4"
+"targetname" "wind2"
+"origin" "-169 -149 2"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"targetname" "burning2"
+"spawnflags" "7"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"targetname" "burning2"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"wait" ".15"
+"target" "burning2"
+"spawnflags" "1"
+"origin" "-423.7 -536.5 2"
+"classname" "func_timer"
+}
+{
+"model" "*5"
+"targetname" "burning1"
+"spawnflags" "7"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"targetname" "burning1"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"wait" ".15"
+"target" "burning1"
+"spawnflags" "1"
+"origin" "-387.7 723.5 2"
+"classname" "func_timer"
+}
+{
+"model" "*7"
+"targetname" "burning"
+"spawnflags" "7"
+"classname" "func_wall"
+}
+{
+"model" "*8"
+"targetname" "burning"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+{
+"wait" ".15"
+"target" "burning"
+"spawnflags" "1"
+"origin" "887.3 -19.5 60"
+"classname" "func_timer"
+}
+{
+"target" "fire"
+"spawnflags" "1"
+"origin" "-887 152 -10"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "inland/fire"
+"attenuation" "3"
+"origin" "-205 717 36"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "inland/fire"
+"attenuation" "3"
+"origin" "-423 -353 36"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "inland/fire"
+"attenuation" "3"
+"origin" "823 33 36"
+"classname" "target_speaker"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "-208.7 696.8 -39"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "-420.7 -379.2 -39"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "826.3 10.8 -16"
+"classname" "light"
+}
+

@@ -1,0 +1,196 @@
+{
+"sounds" "2"
+"_sun_diffuse" "75"
+"_sun_angle" "85 -85"
+"_sun_color" "0 0.5 1"
+"_sun_ambient" "65"
+"_sun_light" "90"
+"message" "Rail Fight BH - MYNF"
+"sky" "wake"
+"classname" "worldspawn"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "378 -1649 201"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"obj_owner" "1"
+"origin" "561 -1591 201"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"obj_owner" "1"
+"origin" "549 -1712 201"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"obj_owner" "1"
+"origin" "1951.15 -2111 223"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "60"
+"nextmap" "lasttownbhv2"
+"angle" "180"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "German"
+"origin" "1384 1812 212"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"nextmap" "lasttownbhv2"
+"angle" "180"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "USA"
+"origin" "1384 1812 212"
+"classname" "info_team_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "1087.79 1873.93 66.34"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"obj_owner" "0"
+"origin" "1300.24 1285.12 66.34"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "1130.73 -1219.17 180"
+"classname" "info_player_start"
+}
+{
+"wait" "127"
+"random" "8"
+"target" "dog"
+"spawnflags" "1"
+"origin" "1492.5 -24.5 210"
+"classname" "func_timer"
+}
+{
+"targetname" "dog"
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "June6/dog_growl"
+"origin" "1488.5 127.5 92"
+"classname" "target_speaker"
+}
+{
+"targetname" "woodfall"
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "cherbourg/woodbreak"
+"origin" "1616.5 1255.5 92"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "1396.1 -2009.5 185"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "1242.8 -1039.5 65"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "715.3 -2043.5 72"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "1753.4 -426.7 72"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "1685.3 1309 72"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "llurk/thunder"
+"origin" "1312.5 -1720 169"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "llurk/thunder"
+"origin" "1692.5 103.5 169"
+"classname" "target_speaker"
+}
+{
+"dmg" "50"
+"targetname" "train"
+"origin" "722.33 -1958.00 32.50"
+"classname" "target_explosion"
+}
+{
+"dmg" "50"
+"targetname" "train"
+"origin" "975.33 -1133.00 32.50"
+"classname" "target_explosion"
+}
+{
+"delay" "15"
+"random" "17"
+"wait" "96"
+"target" "woodfall"
+"targetname" "barn"
+"origin" "1274.5 1531.5 171"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"angle" "360"
+"speed" "30"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"angle" "270"
+"speed" "30"
+"classname" "trigger_push"
+}
+{
+"model" "*3"
+"angle" "270"
+"speed" "30"
+"classname" "trigger_push"
+}
+

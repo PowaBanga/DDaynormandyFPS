@@ -1,0 +1,189 @@
+{
+"message" "Carantein - By - (352nd)Powers"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"origin" "-160 -360 56"
+"classname" "target_explosion"
+}
+{
+"delay" "3"
+"random" "15"
+"wait" "15"
+"spawnflags" "1"
+"target" "explosion1"
+"targetname" "timer1"
+"origin" "-72 -472 -28"
+"classname" "func_timer"
+}
+{
+"delay" "5"
+"random" "15"
+"wait" "15"
+"spawnflags" "1"
+"target" "explosion2"
+"targetname" "timer1"
+"origin" "784 324 -28"
+"classname" "func_timer"
+}
+{
+"delay" "8"
+"random" "15"
+"wait" "15"
+"spawnflags" "1"
+"target" "explosion3"
+"targetname" "timer1"
+"origin" "240 48 -28"
+"classname" "func_timer"
+}
+{
+"angle" "360"
+"origin" "-1348 140 -92"
+"classname" "info_player_start"
+}
+{
+"message" "Allies"
+"kills" "80"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"origin" "-872 72 114"
+"classname" "info_team_start"
+}
+{
+"message" "Axis"
+"kills" "80"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"origin" "1472 48 114"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-788 -132 -228"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1364 -116 -220"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-640 700 -92"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1188 692 -112"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1020 -548 -144"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1656 -556 -152"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-652 -552 -112"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1188 -548 -108"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-856 -112 -56"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1368 -116 -64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-624 68 148"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1156 52 100"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1036 -72 -144"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1660 -60 -148"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1412 20 -136"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1276 20 -136"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-932 -52 -228"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1532 -112 -216"
+"classname" "info_medic_start"
+}
+{
+"dmg" "200"
+"targetname" "explosion1"
+"origin" "-12 -392 16"
+"classname" "target_explosion"
+}
+{
+"dmg" "200"
+"targetname" "explosion2"
+"origin" "692 396 -12"
+"classname" "target_explosion"
+}
+{
+"dmg" "200"
+"targetname" "explosion3"
+"origin" "192 8 -104"
+"classname" "target_explosion"
+}
+

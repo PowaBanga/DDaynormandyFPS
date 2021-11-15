@@ -1,0 +1,182 @@
+{
+"_sun_angle" "70 -60"
+"_sun_color" ".8 .9 .8"
+"_sun_diffuse" "75"
+"_sun_light" "100"
+"_sun_ambient" "90"
+"message" "MUNF Bocage BH"
+"sky" "cerisy"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "503.12 -184.35 47"
+"classname" "info_player_start"
+}
+{
+"kills" "50"
+"nextmap" "brithedgebh"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "90"
+"origin" "-102.22 -1595.56 65"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "71.11 -2066.67 55"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "523.50 -2265.06 45"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "1119.39 -2495.18 44"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "2"
+"obj_owner" "1"
+"origin" "694.55 507.95 25"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "180"
+"obj_owner" "1"
+"origin" "1482.46 72.97 25"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "180"
+"obj_owner" "1"
+"origin" "679.78 171.00 49"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"nextmap" "brithedgebh"
+"kills" "50"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "756.59 -76.81 65"
+"classname" "info_team_start"
+}
+{
+"targetname" "combat"
+"noise" "june6/ambience.wav"
+"attenuation" "2"
+"volume" "1.0"
+"origin" "192.03 49.93 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "combat"
+"noise" "june6/ambience.wav"
+"attenuation" "2"
+"volume" "1.0"
+"origin" "1601.52 -2515.58 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "combat"
+"noise" "june6/ambience.wav"
+"attenuation" "2"
+"volume" "1.0"
+"origin" "684.18 -2405.00 105.62"
+"classname" "target_speaker"
+}
+{
+"wait" "10"
+"spawnflags" "1"
+"random" "2"
+"pausetime" "5"
+"delay" "4"
+"target" "combat"
+"origin" "460.87 -1188.66 105.62"
+"classname" "func_timer"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/bird13_7.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "114.03 -1326.90 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/cattle441.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "971.67 -1551.60 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/hog441.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "347.27 -2482.75 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/hog441.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "218.91 -1805.07 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/bird13_7.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "450.94 430.21 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/cattle441.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "996.00 -33.00 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/hog441.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "425.02 -725.65 105.62"
+"classname" "target_speaker"
+}
+{
+"targetname" "noncombat"
+"noise" "june6/hog441.wav"
+"attenuation" "1"
+"volume" "1.0"
+"origin" "414.78 -69.13 105.62"
+"classname" "target_speaker"
+}
+{
+"wait" "20"
+"spawnflags" "1"
+"random" "6"
+"pausetime" "3"
+"delay" "15"
+"target" "noncombat"
+"origin" "460.87 -1188.66 105.62"
+"classname" "func_timer"
+}
+

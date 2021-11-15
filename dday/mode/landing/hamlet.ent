@@ -1,0 +1,205 @@
+{
+"_sun" "targetp"
+"_sun_angle" "165 -85"
+"_sun_difwait" "30"
+"_light" "15 17 95"
+"_sun_diffuse" "10"
+"_sun_light" "60"
+"_sun_color" "221 236 255"
+"sounds" "5"
+"gravity" "800"
+"light" "7"
+"message" "Hamlet From Hell! : by [SC]Krom"
+"sky" "night1dark"
+"classname" "worldspawn"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-953.8 536.5 263.2"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-800.5 543.5 263.2"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "91"
+"origin" "-704.5 -470.6 -11.6"
+"classname" "info_reinforcements_start"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-698.4 -516.3 18.2"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-534.5 -586.1 27.3"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "-42.5 -728.8 60.7"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "100"
+"origin" "-720.4 -1062.8 0"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "150"
+"origin" "182.2 -731.8 63.8"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "200"
+"origin" "-370.5 -1087.2 -6.1"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "3"
+"light" "120"
+"origin" "596.3 -963.6 -24.3"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"angle" "48"
+"origin" "1074 130.6 25.9"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "120 430.8 194.9"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"lip" "2"
+"speed" "150"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"_falloff" "1"
+"style" "10"
+"_cone" "40"
+"target" "bill1"
+"_color" "1 1 0.6"
+"light" "300"
+"origin" "-679 819 168"
+"classname" "light"
+}
+{
+"_falloff" "1"
+"style" "10"
+"_cone" "40"
+"target" "bill2"
+"_color" "1 1 0.6"
+"light" "300"
+"origin" "-514 817 169"
+"classname" "light"
+}
+{
+"targetname" "bill2"
+"origin" "-520 806 265"
+"classname" "info_null"
+}
+{
+"targetname" "bill1"
+"origin" "-676 808 269"
+"classname" "info_null"
+}
+{
+"style" "0"
+"_cone" "20"
+"target" "spot2"
+"_color" "0.9 1 0.1"
+"light" "120"
+"origin" "-399 1083 77"
+"classname" "light"
+}
+{
+"targetname" "spot2"
+"origin" "-340 1116 102"
+"classname" "info_null"
+}
+{
+"style" "7"
+"_cone" "20"
+"_color" "0.7 1 0.1"
+"target" "spot1"
+"light" "100"
+"origin" "-189 1082 75"
+"classname" "light"
+}
+{
+"targetname" "spot1"
+"origin" "-251 1115 101"
+"classname" "info_null"
+}
+{
+"targetname" "targetp"
+"origin" "1344 -212 28"
+"classname" "info_null"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "300"
+"origin" "1155 -423 229"
+"classname" "light"
+}
+

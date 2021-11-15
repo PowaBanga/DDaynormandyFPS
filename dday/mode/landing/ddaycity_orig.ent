@@ -1,0 +1,118 @@
+{
+"gravity" "800"
+"sounds" "0"
+"sky" "sr"
+"_sun_difwait" "30"
+"_sun_color" "1.000 1.000 0.000"
+"_sun_ambient" "50"
+"_sun_diffuse" "50"
+"_sun_vector" "50 50 50"
+"_sun_angle" "50 50"
+"_sun" "20"
+"light" "80"
+"skyaxis" "50 50 50"
+"_sun_light" "100"
+"_sun_surface" "50"
+"message" "city ambush - by the violator"
+"classname" "worldspawn"
+}
+{
+"origin" "1648 -1804 -336"
+"classname" "info_player_start"
+}
+{
+"origin" "2316 -2724 -442"
+"kills" "70"
+"count" "1"
+"dll" "usa"
+"message" "america"
+"classname" "info_team_start"
+}
+{
+"origin" "1856 -1012 -426"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "1888 -684 -410"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "1880 -828 -416"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "1880 -900 -434"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "1888 -964 -426"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "1888 -748 -408"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "1784 -980 -428"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "1808 -916 -426"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "1792 -804 -424"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "2336 -1926 -420"
+"points" "0"
+"kills" "70"
+"count" "0"
+"dll" "grm"
+"message" "Germans"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "2274 -972 -344"
+"_focus" "1"
+"_cone" "10"
+"style" "8"
+"_angfade" "1"
+"_fade" "1"
+"light" "250"
+"classname" "light"
+}
+{
+"model" "*1"
+"dmg" "50"
+"mass" "200"
+"health" "500"
+"classname" "func_explosive"
+}
+{
+"origin" "2082 -766 -424"
+"classname" "light"
+}
+{
+"origin" "1730 -1804 -334"
+"noise" "dday2/france.wav"
+"volume" "1.0"
+"attenuation" "-1"
+"classname" "target_speaker"
+}
+{
+"origin" "2816 -2640 -448"
+"classname" "info_reinforcements_start"
+}
+

@@ -1,0 +1,410 @@
+{
+"_sun_angle" "15"
+"_sun_diffuse" "50"
+"_sun_light" "1 1 1"
+"_sun_ambient" "30"
+"_sun_" "sun"
+"message" "Gualdalcanal v.2.1 by (*AAF*)Felipe"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"angle" "179"
+"origin" "560 -480 56"
+"classname" "info_player_start"
+}
+{
+"nextmap" "contact"
+"obj_owner" "1"
+"points" "102"
+"count" "99"
+"kills" "50"
+"Message" "Japan"
+"dll" "jpn"
+"angle" "360"
+"origin" "-144 0 -72"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-304 192 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "358"
+"origin" "-272 -416 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "688 0 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "656 160 -72"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "contact"
+"obj_owner" "0"
+"count" "99"
+"kills" "50"
+"Message" "Marines"
+"dll" "usm"
+"angle" "360"
+"origin" "-144 0 -72"
+"classname" "info_team_start"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-352 192 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-448 -416 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-1088 -416 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-768 -384 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-640 -512 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-128 -448 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-768 -480 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-832 -352 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-32 -352 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "224 -128 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-96 192 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-32 -192 -32"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/faf/plant.md2"
+"angle" "360"
+"origin" "-1120 64 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/fa/weeds.md2"
+"angle" "360"
+"origin" "-1088 64 -96"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "360"
+"origin" "-448 224 -96"
+"classname" "misc_md2"
+}
+{
+"_color" "1 1 1"
+"light" "900"
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "-1184 128 -32"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "-1120 -416 -32"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "-960 -128 -32"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "-1088 224 -160"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "900"
+"origin" "512 0 -128"
+"classname" "light"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"dmg" "0"
+"Message" "Shore"
+"target" "jap flag"
+"health" "50"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*3"
+"dmg" "0"
+"Message" "River"
+"health" "25"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*4"
+"dmg" "0"
+"Message" "Little House"
+"health" "20"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*5"
+"dmg" "0"
+"Message" "Jungle"
+"health" "1"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*6"
+"dmg" "0"
+"Message" "mountains"
+"health" "1"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*7"
+"mass" "100"
+"obj_gain" "5"
+"obj_loss" "40"
+"dmg" "16"
+"obj_name" "Little house door"
+"health" "40"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"spawnflags" "1"
+"targetname" "flag taken"
+"classname" "func_wall"
+}
+{
+"target" "t1"
+"origin" "-864 192 -64"
+"classname" "misc_teleporter"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/frog.wav"
+"spawnflags" "1"
+"origin" "-1056 -96 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/frog.wav"
+"spawnflags" "1"
+"origin" "-1056 -96 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/cricklets.wav"
+"spawnflags" "1"
+"origin" "-992 128 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/cricklets.wav"
+"spawnflags" "1"
+"origin" "-1184 192 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "felipe/oceano.wav"
+"spawnflags" "1"
+"origin" "384 -32 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "felipe/oceano.wav"
+"spawnflags" "1"
+"origin" "384 256 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "felipe/oceano.wav"
+"spawnflags" "1"
+"origin" "672 224 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "felipe/oceano.wav"
+"spawnflags" "1"
+"origin" "672 -32 -64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "-96 -128 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "-288 -96 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "-512 -128 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "-672 -128 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "-320 224 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "felipe/oceano.wav"
+"spawnflags" "1"
+"origin" "576 -480 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "0 192 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/chiken.wav"
+"spawnflags" "1"
+"origin" "-832 -160 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "4"
+"noise" "faf/frogs.wav"
+"spawnflags" "1"
+"origin" "-1056 -96 -64"
+"classname" "target_speaker"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "608 -352 32"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "416 -352 -32"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "736 -448 -32"
+"classname" "light"
+}
+

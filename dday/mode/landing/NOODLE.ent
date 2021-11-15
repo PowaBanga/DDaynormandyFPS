@@ -1,0 +1,87 @@
+{
+"classname" "worldspawn"
+"message" "getyournoodlesandcheese...by:::sprsnprchkn:::id textures"
+"_sun_color" "1.8 2.1 3.3"
+"_sun_ambient" "30"
+"_sun_light" "150"
+"_sun" "s1"
+"sky" "sr"
+
+}
+{
+"angle" "360"
+"origin" "976 -576 592"
+"classname" "info_player_start"
+}
+{
+"light" "200"
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"model" "*1"
+"spawnflags" "8"
+"classname" "func_door_secret"
+}
+{
+"model" "*2"
+"sounds" "1"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"spawnflags" "8"
+"classname" "func_door_secret"
+}
+{
+"model" "*6"
+"sounds" "1"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"points" "99"
+"kills" "30"
+"nextmap" "dday2"
+"count" "99"
+"obj_owner" "0"
+"message" "allie"
+"dll" "usa"
+"angle" "360"
+"origin" "-424 -784 176"
+"classname" "info_team_start"
+}
+{
+"points" "99"
+"obj_owner" "1"
+"nextmap" "dday1"
+"count" "99"
+"dll" "grm"
+"kills" "50"
+"message" "storm troopers"
+"angle" "360"
+"origin" "-424 -664 152"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1056 -640 616"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1336 112 -24"
+"classname" "info_reinforcements_start"
+}
+

@@ -1,0 +1,196 @@
+{
+"classname" "worldspawn"
+}
+{
+"light" "300"
+"origin" "1236.6 -93.4 -266"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "254.7 -23.3 -12"
+"classname" "light"
+}
+{
+"angle" "360"
+"origin" "1148 -69 -326"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "120"
+"origin" "-573 101.7 -337"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-563.4 75.6 -338.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "-565.7 46 -337.7"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "210"
+"origin" "-567.7 15.7 -333"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "150"
+"origin" "-565.7 -9.7 -336.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "165"
+"origin" "-567.2 -36.1 -334.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-567 -59.7 -332"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "-565.7 -94.3 -339.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "240"
+"origin" "-565.7 -126.3 -334.3"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1207.4 89.3 -305.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "255"
+"origin" "1205.7 64 -314"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1206 43 -308"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "1209 21.7 -309"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "1208.3 -1 -310.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "195"
+"origin" "1210.3 -24.7 -310"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "1210.3 -53 -315.7"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "15"
+"origin" "1205.7 -84 -315.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "345"
+"origin" "1210 -105 -308.7"
+"classname" "info_officer_start"
+}
+{
+"kills" "50"
+"nextmap" "dday5"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "181.5 -165.2 53.7"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"nextmap" "dday1"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "233.3 -164.6 55.5"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"obj_loss" "1"
+"obj_gain" "4"
+"obj_name" "Ammo Crate"
+"obj_owner" "0"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"message" "Test Objective"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"angle" "90"
+"origin" "-64 -184 8"
+"classname" "misc_banner"
+}
+{
+"targetname" "t"
+"dmg" "150"
+"delay" "0"
+"origin" "-44.4 -83 -78.5"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t"
+"classname" "func_button"
+}
+{
+"Spawnflags" "0"
+"style" "0"
+"light" "300"
+"origin" "-904 -73 63"
+"classname" "light"
+}
+

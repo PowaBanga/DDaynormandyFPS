@@ -1,0 +1,81 @@
+{
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-224 160 64"
+"classname" "info_team_start"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-192 160 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-477 37 33"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "481 15 33"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-350 128 -135"
+"classname" "info_player_start"
+}
+{
+"style" "11"
+"_color" "1 0.5 0.5"
+"origin" "0 0 0"
+"light" "400"
+"classname" "light"
+}
+{
+"target" "t1"
+"origin" "298 -150 -143"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "159 -324 118"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"origin" "442 261 -196"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t2"
+"angle" "360"
+"origin" "-452 2 133"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*1"
+"speed" "10"
+"angle" "44"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"speed" "10"
+"angle" "32"
+"classname" "trigger_push"
+}
+

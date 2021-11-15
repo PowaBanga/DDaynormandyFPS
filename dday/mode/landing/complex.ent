@@ -1,0 +1,317 @@
+{
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-2831.1 397.9 304.7"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Axis Tank Right Tracks"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "1500"
+"health" "1500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Axis Tank Left Tracks"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "1500"
+"health" "1500"
+"classname" "func_explosive_objective"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "179"
+"origin" "-674.1 380.5 42.5"
+"classname" "info_hgunner_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "180"
+"origin" "-443.3 429.1 39.5"
+"classname" "info_lgunner_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "183"
+"origin" "-443.3 365.3 42.5"
+"classname" "info_special_start"
+}
+{
+"kills" "80"
+"nextmap" "complex"
+"count" "80"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "1094.8 -242.5 33.5"
+"classname" "info_team_start"
+}
+{
+"origin" "-3463.4 384.2 186.5"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "686.7 384.6 135.8"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-578.7 378.1 89.4"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-2930.5 391.3 89.4"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-2075.9 397.9 89.4"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-1380.3 384.7 89.4"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-3010.0 848.4 135.8"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-2738.4 841.8 135.8"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-2745.0 -79.1 135.8"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-3069.6 -65.8 135.8"
+"light" "50"
+"classname" "light"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "180"
+"origin" "-576.9 380.5 39.5"
+"classname" "info_engineer_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "150"
+"origin" "814.0 690.2 42.5"
+"classname" "info_medic_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "270"
+"origin" "1157.1 863.3 48.6"
+"classname" "info_flamethrower_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "180"
+"origin" "-437.2 316.7 36.4"
+"classname" "info_infantry_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "240"
+"origin" "595.3 -151.0 33.4"
+"classname" "info_officer_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "267"
+"origin" "-2775.6 997.0 42.5"
+"classname" "info_officer_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "2"
+"origin" "-2280.6 383.5 36.4"
+"classname" "info_infantry_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "270"
+"origin" "-2356.6 729.7 33.4"
+"classname" "info_flamethrower_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "180"
+"origin" "-2702.8 702.4 45.6"
+"classname" "info_lgunner_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "355"
+"origin" "-2632.9 -38.6 355.3"
+"classname" "info_sniper_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "359"
+"origin" "-3118.8 19.1 55.6"
+"classname" "info_medic_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2113.6 395.7 42.5"
+"classname" "info_engineer_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "360"
+"origin" "-3049.0 723.7 45.6"
+"classname" "info_special_start"
+}
+{
+"kills" "99"
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2022.5 395.7 39.5"
+"classname" "info_hgunner_start"
+}
+{
+"kills" "99"
+"obj_owner" "0"
+"angle" "165"
+"origin" "1154.1 -8.2 36.4"
+"classname" "info_sniper_start"
+}
+{
+"kills" "80"
+"nextmap" "forest"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "-3322.3 397.7 38.2"
+"classname" "info_team_start"
+}
+{
+"model" "*3"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Axis Tank Turret Gun"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "500"
+"health" "500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Allied Tank Turret Gun"
+"obj_owner" "0"
+"dmg" "10"
+"mass" "500"
+"health" "500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Axis Tank Turret"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "1000"
+"health" "1000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Back of Axis Tank"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "2000"
+"health" "2000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Back of Allied Tank"
+"obj_owner" "0"
+"dmg" "10"
+"mass" "2000"
+"health" "2000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Allied Tank Turret"
+"obj_owner" "0"
+"dmg" "10"
+"mass" "1000"
+"health" "1000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Allied Tank Left Tracks"
+"obj_owner" "0"
+"dmg" "10"
+"mass" "1500"
+"health" "1500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*10"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Allied Tank Right Tracks"
+"obj_owner" "0"
+"dmg" "10"
+"mass" "1500"
+"health" "1500"
+"classname" "func_explosive_objective"
+}
+

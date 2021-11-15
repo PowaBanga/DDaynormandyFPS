@@ -1,0 +1,872 @@
+{
+"sky" "sr"
+"message" "Axis Base V1.1(1.37 mb) by NEMESIS_00039"
+"classname" "worldspawn"
+}
+{
+"points" "150"
+"message" "Green Beret"
+"nextmap" "dday3"
+"kills" "60"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "270"
+"origin" "0 -1952 -80"
+"classname" "info_team_start"
+}
+{
+"points" "150"
+"message" "The Gestapo"
+"nextmap" "dday5"
+"kills" "60"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "270"
+"origin" "-768 2464 -256"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "896 -3456 -64"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "0 -2816 -72"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "896 -2944 -64"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "896 -2432 -80"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-896 -3456 -64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-384 -2432 224"
+"classname" "info_special_start"
+}
+{
+"model" "*1"
+"message" "Command Center"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*2"
+"health" "900"
+"obj_loss" "6"
+"obj_gain" "15"
+"obj_name" "Ammo Crate Trio"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"message" "Rooftop"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-896 -2432 -64"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-1344 1840 -368"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 -3520 -64"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "0 -3072 272"
+"classname" "info_sniper_start"
+}
+{
+"light" "300"
+"origin" "-1856 1696 -256"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "320 1696 -80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "320 1696 -256"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1856 1696 -80"
+"classname" "light"
+}
+{
+"light" "700"
+"origin" "0 2176 48"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "-768 2464 -416"
+"classname" "light"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "45"
+"origin" "1952 -864 256"
+"classname" "info_player_start"
+}
+{
+"model" "*4"
+"message" "Radio Room"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-192 1856 -368"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-768 2048 -496"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "320 1728 112"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "225"
+"origin" "-256 2816 -336"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "300"
+"origin" "-1408 2816 -336"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-768 3040 -128"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "315"
+"origin" "-1424 2752 -336"
+"classname" "info_engineer_start"
+}
+{
+"delay" "15"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "640 1288 -352"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "315"
+"origin" "-1856 1696 -16"
+"classname" "info_sniper_start"
+}
+{
+"model" "*5"
+"obj_loss" "2"
+"obj_name" "Ammo Crate"
+"health" "300"
+"obj_owner" "1"
+"obj_gain" "5"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"obj_loss" "2"
+"obj_name" "Ammo Crate"
+"health" "300"
+"obj_owner" "1"
+"obj_gain" "5"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"message" "Left Sniper Tower"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*8"
+"message" "Right Sniper Tower"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*9"
+"message" "Lower Level"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*10"
+"sounds" "1"
+"lip" "0"
+"target" "m1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"light" "300"
+"origin" "-128 64 -40"
+"classname" "light"
+}
+{
+"model" "*11"
+"sounds" "1"
+"lip" "0"
+"target" "m2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"message" "Mine"
+"targetname" "m1"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"dmg" "150"
+"targetname" "m1"
+"origin" "-320 144 -80"
+"classname" "target_explosion"
+}
+{
+"model" "*13"
+"sounds" "1"
+"lip" "0"
+"target" "m3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "150"
+"targetname" "m2"
+"origin" "-128 64 -80"
+"classname" "target_explosion"
+}
+{
+"dmg" "150"
+"targetname" "m3"
+"origin" "0 -80 -80"
+"classname" "target_explosion"
+}
+{
+"model" "*14"
+"message" "Mine"
+"targetname" "m2"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"model" "*15"
+"message" "Mine"
+"targetname" "m3"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"light" "150"
+"origin" "-192 1856 -368"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "-1344 1840 -368"
+"classname" "light"
+}
+{
+"model" "*16"
+"message" "Ammo Cache"
+"dmg" "5"
+"health" "10"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"model" "*17"
+"mass" "25"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_owner" "0"
+"health" "7500"
+"obj_name" "Wooden Bridge"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"light" "200"
+"origin" "0 -2816 -48"
+"classname" "light"
+}
+{
+"model" "*18"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*19"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*20"
+"sounds" "1"
+"lip" "0"
+"target" "m4"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*21"
+"message" "Mine"
+"targetname" "m4"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"dmg" "150"
+"targetname" "m4"
+"origin" "0 -1408 -80"
+"classname" "target_explosion"
+}
+{
+"model" "*22"
+"sounds" "1"
+"lip" "0"
+"target" "m5"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*23"
+"sounds" "1"
+"lip" "0"
+"target" "m6"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*24"
+"message" "Mine"
+"targetname" "m5"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"model" "*25"
+"message" "Mine"
+"targetname" "m6"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"dmg" "150"
+"targetname" "m5"
+"origin" "-768 -1664 -80"
+"classname" "target_explosion"
+}
+{
+"dmg" "150"
+"targetname" "m6"
+"origin" "768 -1664 -80"
+"classname" "target_explosion"
+}
+{
+"model" "*26"
+"sounds" "1"
+"lip" "0"
+"target" "m7"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*27"
+"sounds" "1"
+"lip" "0"
+"target" "m8"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "150"
+"targetname" "m7"
+"origin" "-768 -1792 -80"
+"classname" "target_explosion"
+}
+{
+"dmg" "150"
+"targetname" "m8"
+"origin" "768 -1792 -80"
+"classname" "target_explosion"
+}
+{
+"model" "*28"
+"message" "Mine"
+"targetname" "m7"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"model" "*29"
+"message" "Mine"
+"targetname" "m8"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"model" "*30"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*31"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"light" "300"
+"origin" "-2288 1792 -48"
+"classname" "light"
+}
+{
+"spawnflags" "0"
+"model" "*32"
+"origin" "168 1712"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "0"
+"model" "*33"
+"origin" "168 1712"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "2"
+"model" "*34"
+"origin" "-1708 1716"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "2"
+"model" "*35"
+"origin" "-1708 1716"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "2"
+"model" "*36"
+"origin" "-684 2568"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "2"
+"model" "*37"
+"origin" "-172 1960"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "0"
+"model" "*38"
+"origin" "-1364 1960"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "0"
+"model" "*39"
+"origin" "-812 2056"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*40"
+"message" "Upper Floor"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "objective_touch"
+}
+{
+"targetname" "d1"
+"spawnflags" "0"
+"model" "*41"
+"origin" "-492 2568"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*42"
+"target" "d1"
+"wait" "4"
+"sounds" "4"
+"classname" "trigger_multiple"
+}
+{
+"light" "600"
+"origin" "-1344 2832 -192"
+"classname" "light"
+}
+{
+"spawnflags" "2"
+"model" "*43"
+"origin" "-1044 2568"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"light" "600"
+"origin" "-144 2848 -192"
+"classname" "light"
+}
+{
+"delay" "15"
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "-896 -2944 -80"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*44"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"model" "*45"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"model" "*46"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"light" "300"
+"origin" "-2304 2176 -48"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-2048 2688 -144"
+"classname" "light"
+}
+{
+"model" "*47"
+"health" "50"
+"classname" "func_explosive"
+}
+{
+"model" "*48"
+"sounds" "1"
+"lip" "0"
+"target" "m9"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*49"
+"sounds" "1"
+"lip" "0"
+"target" "m10"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*50"
+"message" "Mine"
+"targetname" "m9"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"model" "*51"
+"message" "Mine"
+"targetname" "m10"
+"wait" "3"
+"sounds" "4)silent"
+"classname" "trigger_multiple"
+}
+{
+"dmg" "150"
+"targetname" "m10"
+"origin" "-2192 1408 -112"
+"classname" "target_explosion"
+}
+{
+"dmg" "150"
+"targetname" "m9"
+"origin" "-2304 2688 -224"
+"classname" "target_explosion"
+}
+{
+"light" "300"
+"origin" "-1280 2304 -192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-256 2304 -192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "848 -1024 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "928 -1280 -80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "928 -1536 -80"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-768 2816 -192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "768 -1664 -16"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 -1664 -16"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-2000 1056 -32"
+"classname" "light"
+}
+{
+"model" "*52"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"light" "300"
+"origin" "-640 -1472 -16"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "640 -1472 -16"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 2304 -56"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 2568 -56"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 2816 -56"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 3040 -56"
+"classname" "light"
+}
+{
+"spawnflags" "2"
+"model" "*53"
+"origin" "-724 2056"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"light" "300"
+"origin" "-512 -432 -48"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 -432 -48"
+"classname" "light"
+}
+{
+"wait" "10"
+"target" "e1"
+"spawnflags" "1"
+"origin" "2048 -768 256"
+"classname" "func_timer"
+}
+{
+"targetname" "e1"
+"origin" "2144 -672 336"
+"classname" "target_explosion"
+}
+{
+"light" "300"
+"origin" "0 0 -32"
+"classname" "light"
+}
+{
+"targetname" "e1"
+"origin" "2144 -672 176"
+"classname" "target_explosion"
+}
+{
+"targetname" "e1"
+"origin" "2048 -768 256"
+"classname" "target_explosion"
+}
+{
+"targetname" "e1"
+"origin" "2144 -864 176"
+"classname" "target_explosion"
+}
+{
+"targetname" "e1"
+"origin" "2144 -864 336"
+"classname" "target_explosion"
+}
+{
+"targetname" "e1"
+"origin" "1952 -672 336"
+"classname" "target_explosion"
+}
+{
+"targetname" "e1"
+"origin" "1952 -672 160"
+"classname" "target_explosion"
+}
+{
+"volume" "1.0"
+"noise" "world/xian1.wav"
+"spawnflags" "1"
+"attenuation" "4"
+"origin" "2048 -768 256"
+"classname" "target_speaker"
+}
+

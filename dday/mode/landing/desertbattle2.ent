@@ -1,0 +1,221 @@
+{
+"message" "Desert Battle#2 Fuel Dump By L.T. Mark & Bule Death"
+"gravity" "800"
+"_sun_angle" "245 -45"
+"_sun_color" "3.4 3.4 3.43"
+"_sun_ambient" "50"
+"_sun_light" "400"
+"sky" "night2"
+"classname" "worldspawn"
+}
+{
+"points" "150"
+"kills" "50"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-800 -88 64"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "288.5 130.6 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "35"
+"origin" "-756 -128 -66.8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "279.4 54.7 -51.6"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "-212.6 79.0 -39.5"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "0"
+"mass" "0"
+"health" "4"
+"spawnflags" "4"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"dmg" "500"
+"mass" "500"
+"health" "2000"
+"obj_loss" "50"
+"obj_gain" "50"
+"obj_name" "The Door"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"dmg" "500"
+"delay" "5"
+"targetname" "2"
+"origin" "-428 -24 -76"
+"classname" "target_explosion"
+}
+{
+"pausetime" "5"
+"delay" "5"
+"random" "0"
+"wait" "1"
+"target" "2"
+"spawnflags" "1"
+"origin" "-536 168 44"
+"classname" "func_timer"
+}
+{
+"model" "*3"
+"message" "Files"
+"dmg" "50"
+"health" "50"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"target" "t1"
+"origin" "393.8 -216.2 69.5"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "-640.8 443.9 61.8"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*4"
+"dmg" "500"
+"mass" "500"
+"health" "5000"
+"obj_loss" "50"
+"obj_gain" "50"
+"obj_name" "Fuel Dump"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"obj_owner" "1"
+"angle" "179"
+"origin" "346.2 267.3 -57.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "177"
+"origin" "215.6 69.8 -54.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "182"
+"origin" "652.9 -167.1 75.9"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "206.5 400.9 -22.8"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "680.3 6 -60.7"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "649.9 -306.7 -57.7"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "275"
+"origin" "662.0 334 -45.6"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "269"
+"origin" "680.3 403.9 -22.8"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "281"
+"origin" "324.9 376.5 -51.6"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "57"
+"origin" "-592.2 -142.7 -63.8"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "83"
+"origin" "-543.6 -209.6 -60.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "316"
+"origin" "-583.1 358.3 -57.7"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-577.0 437.3 88.1"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "339"
+"origin" "-628.6 315.8 -66.8"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "58"
+"origin" "-656.0 -154.9 -60.7"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-738.0 145.8 -60.7"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-716.7 -42.5 -45.5"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-677.2 54.7 -51.7"
+"classname" "info_medic_start"
+}
+

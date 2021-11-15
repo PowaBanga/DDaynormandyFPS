@@ -1,0 +1,90 @@
+{
+"_sun_angle" "300 300"
+"_sun_color" ".150 .150 .34"
+"_sun_light" "100"
+"message" "Operation Market Garden \nDesigned by NitroX"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"kills" "60"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-493 -36 -37"
+"classname" "info_team_start"
+}
+{
+"kills" "70"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "3648 308 -120"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-537 -32 -137"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "3516 320 -420"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "1892 -32 44"
+"classname" "info_player_start"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "3568 332 -420"
+"classname" "light"
+}
+{
+"model" "*1"
+"sounds" "4"
+"target" "light1"
+"classname" "func_button"
+}
+{
+"model" "*2"
+"sounds" "4"
+"target" "light2"
+"classname" "func_button"
+}
+{
+"Spawnflags" "1"
+"_cone" "10"
+"targetname" "light1"
+"style" "32"
+"light" "300"
+"origin" "3346 109 -68"
+"classname" "light"
+}
+{
+"Spawnflags" "1"
+"_cone" "10"
+"targetname" "light2"
+"style" "33"
+"light" "300"
+"origin" "3348 -240 -68"
+"classname" "light"
+}
+{
+"targetname" "light1"
+"origin" "2251 320 -234"
+"classname" "info_null"
+}
+{
+"targetname" "light2"
+"origin" "2269 -370 -235"
+"classname" "info_null"
+}
+

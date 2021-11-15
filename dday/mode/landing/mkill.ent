@@ -1,0 +1,77 @@
+{
+"_sun_color" "182 182 103"
+"_sun_ambient" "100"
+"_sun_light" "2000"
+"sky" "drksky"
+"classname" "worldspawn"
+"message" "mount killemalljaro:::mad__monk"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-768 640 -448"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-768 -576 -384"
+"classname" "light"
+}
+{
+"angle" "360"
+"origin" "-128 80 -360"
+"classname" "info_player_start"
+}
+{
+"points" "99"
+"kills" "50"
+"nextmap" "dday5"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "allies"
+"angle" "360"
+"origin" "-48 100 212"
+"classname" "info_team_start"
+}
+{
+"nextmap" "dday2"
+"points" "99"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "axis"
+"angle" "360"
+"origin" "-216 284 192"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-964 96 -680"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "212 200 -704"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"spawnflags" "4"
+"dmg" "20"
+"mass" "800"
+"health" "400"
+"classname" "func_explosive"
+}
+{
+"_color" "0 1 0"
+"style" "10"
+"light" "300"
+"origin" "-640 -64 256"
+"classname" "light"
+}
+

@@ -1,0 +1,580 @@
+{
+"message" "Le Grand Bunker by Rabid"
+"_sun_angle" "245 -45"
+"_sun_color" "1 1 1"
+"_sun_ambient" "30"
+"_sun_light" "1000"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"points" "100"
+"kills" "50"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-97 -57.6 -455"
+"classname" "info_team_start"
+}
+{
+"kills" "100"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-34.9 -191.6 -1197"
+"classname" "info_team_start"
+}
+{
+"angle" "-2"
+"origin" "-733.9 -1545.4 -397"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "500"
+"mass" "800"
+"health" "15000"
+"obj_gain" "100"
+"obj_name" "Bunkerdoor"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"wait" "-1"
+"classname" "func_door_secret"
+}
+{
+"style" "0"
+"origin" "1124 -1188 -597"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*3"
+"origin" "1145 -1158 -535"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"origin" "1124 -1188 -485"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "1124 -939 -598"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "1124 -1187 -724"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "1124 -938 -723"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "1124 -939 -848"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "1125 -1187 -850"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "928 -1212 -1030"
+"light" "100"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "71 -1111 -1107"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*4"
+"origin" "-735 -193 -1205"
+"sounds" "3"
+"spawnflags" "2"
+"distance" "120"
+"classname" "func_door_rotating"
+}
+{
+"model" "*5"
+"origin" "101 -1103 -795"
+"wait" "5"
+"speed" "200"
+"health" "10"
+"sounds" "3"
+"spawnflags" "128"
+"distance" "100"
+"classname" "func_door_rotating"
+}
+{
+"model" "*6"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"classname" "func_explosive"
+}
+{
+"model" "*17"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"classname" "func_explosive"
+}
+{
+"model" "*19"
+"origin" "219 -1124 -957"
+"sounds" "3"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*20"
+"classname" "func_explosive"
+}
+{
+"model" "*21"
+"dmg" "200"
+"mass" "300"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*22"
+"dmg" "200"
+"mass" "300"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*23"
+"dmg" "200"
+"mass" "300"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*24"
+"sounds" "1"
+"target" "mine1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine1"
+"origin" "316.6 -438.2 -994"
+"classname" "target_explosion"
+}
+{
+"model" "*25"
+"sounds" "1"
+"target" "mine2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine2"
+"origin" "324.7 -334.6 -994"
+"classname" "target_explosion"
+}
+{
+"model" "*26"
+"origin" "-94 -1252 -1040"
+"sounds" "3"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*27"
+"classname" "func_explosive"
+}
+{
+"model" "*28"
+"classname" "func_explosive"
+}
+{
+"model" "*29"
+"sounds" "1"
+"target" "mine3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine3"
+"origin" "310 -578 -993"
+"classname" "target_explosion"
+}
+{
+"model" "*30"
+"sounds" "1"
+"target" "mine4"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine4"
+"origin" "310 -728 -993"
+"classname" "target_explosion"
+}
+{
+"model" "*31"
+"sounds" "1"
+"target" "mine5"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine5"
+"origin" "311.6 -842.7 -993"
+"classname" "target_explosion"
+}
+{
+"model" "*32"
+"sounds" "1"
+"target" "mine6"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine6"
+"origin" "300 -1349 -998"
+"classname" "target_explosion"
+}
+{
+"model" "*33"
+"sounds" "1"
+"target" "mine7"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine7"
+"origin" "253 -1536 -1006"
+"classname" "target_explosion"
+}
+{
+"model" "*34"
+"sounds" "1"
+"target" "mine8"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine8"
+"origin" "241 -1701 -1012"
+"classname" "target_explosion"
+}
+{
+"model" "*35"
+"sounds" "1"
+"target" "mine9"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine9"
+"origin" "232 -1946 -1024"
+"classname" "target_explosion"
+}
+{
+"model" "*36"
+"sounds" "1"
+"target" "mine10"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine10"
+"origin" "261 -2097 -1029"
+"classname" "target_explosion"
+}
+{
+"model" "*37"
+"sounds" "1"
+"target" "mine11"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine11"
+"origin" "401 -2194 -1028"
+"classname" "target_explosion"
+}
+{
+"model" "*38"
+"sounds" "1"
+"target" "mine12"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine12"
+"origin" "606 -2301 -1025"
+"classname" "target_explosion"
+}
+{
+"model" "*39"
+"sounds" "1"
+"target" "mine13"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine13"
+"origin" "670 -2502 -1024"
+"classname" "target_explosion"
+}
+{
+"model" "*40"
+"sounds" "1"
+"target" "mine15"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine15"
+"origin" "317.3 -216.6 -991"
+"classname" "target_explosion"
+}
+{
+"model" "*41"
+"sounds" "1"
+"target" "mine14"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine14"
+"origin" "333.4 -72.8 -992"
+"classname" "target_explosion"
+}
+{
+"model" "*42"
+"sounds" "1"
+"target" "mine16"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"targetname" "mine16"
+"origin" "258 -1821 -1018"
+"classname" "target_explosion"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-735 -49 -1210"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-701 395 -1228"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-745 -303 -1221"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "155 -1168 -875"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "28 -1105 -971"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "912 -1113 -549"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1045 -1070 -549"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "982 -1068 -435"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "578.9 -108 -506.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1000.9 -444 -514.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1235.9 -148 -514.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "704.9 -766 -514.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1044.9 -1132 -514.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "104.9 -1060 -484.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-209.1 165 -454.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-518.1 -2011 -671.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-518.1 -1058 -654.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2220 -1824 -1234"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2237 -2176 -1248"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2224 -2538 -1240"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1869 -776 -794"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2305 -1479 -953"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "1"
+"origin" "-2336 -2517 -960"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "338"
+"origin" "-1289 961 -613"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1004 973 -404"
+"classname" "info_special_start"
+}
+

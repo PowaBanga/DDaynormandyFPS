@@ -1,0 +1,413 @@
+{
+"_sun_diffuse" "300"
+"_sun_angle" "276 -60"
+"message" "Lostcoast, ported by Beavisss and Fred"
+"_sky_ambient" "14"
+"_sun_color" "0.882353 0.941176 1.000000"
+"_sun_light" "550"
+"angle" "276"
+"gravity" "800"
+"sky" "lostcoast/lostcoast"
+"dmg" "100"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "100"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+}
+{
+"model" "*8"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "func_wall"
+}
+{
+"model" "*10"
+"classname" "func_wall"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"classname" "func_wall"
+}
+{
+"model" "*15"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"classname" "func_wall"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+}
+{
+"origin" "1600 -832 -40"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-112 -1144 -96"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "320 -512 400"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1296 -384 280"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "296 1032 160"
+"angle" "270"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-48 -240 -112"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*18"
+"dmg" "100"
+"spawnflags" "0"
+"classname" "trigger_hurt"
+}
+{
+"model" "*19"
+"classname" "func_wall"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_tunnel1.wav"
+"spawnflags" "1"
+"origin" "758 -295 -29"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_tunnel1.wav"
+"spawnflags" "1"
+"origin" "1579 -674 -36"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_moan1.wav"
+"spawnflags" "1"
+"origin" "89 -542 -59"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_tunnel1.wav"
+"spawnflags" "1"
+"origin" "929 -606 -9"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_tunnel1.wav"
+"spawnflags" "1"
+"origin" "518 -468 59"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "bird_global_sea"
+"noise" "lostcoast/seagulls_ambient2.wav"
+"spawnflags" "0"
+"origin" "747 -23 707"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"noise" "lostcoast/wind_rooftop1.wav"
+"spawnflags" "1"
+"origin" "314 -164 880"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"noise" "lostcoast/wind_rooftop1.wav"
+"spawnflags" "1"
+"origin" "1364 -1476 792"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"noise" "lostcoast/wind_rooftop1.wav"
+"spawnflags" "1"
+"origin" "1596 -868 796"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"noise" "lostcoast/wind_rooftop1.wav"
+"spawnflags" "1"
+"origin" "664 -1548 840"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"noise" "lostcoast/coastbird6.wav"
+"spawnflags" "1"
+"origin" "1652 -1528 348"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"targetname" "bird_global"
+"noise" "lostcoast/coastbird4.wav"
+"spawnflags" "0"
+"origin" "1052 1024 646"
+"classname" "target_speaker"
+}
+{
+"volume" "0.6"
+"targetname" "bird_global"
+"noise" "lostcoast/coastbird5.wav"
+"spawnflags" "0"
+"origin" "-212 -1360 -12"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "lostcoast/wind_rooftop1.wav"
+"spawnflags" "1"
+"origin" "-65 -973 833"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_med2.wav"
+"spawnflags" "1"
+"origin" "-348 -480 428"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_med2.wav"
+"spawnflags" "1"
+"origin" "-346 -686 430"
+"classname" "target_speaker"
+}
+{
+"origin" "884 -624 -40"
+"classname" "weapon_machinegun"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"target" "bird_global"
+"random" "20"
+"wait" "100"
+"spawnflags" "1"
+"origin" "-64 836 344"
+"classname" "func_timer"
+}
+{
+"random" "50"
+"pausetime" "0"
+"delay" "0"
+"target" "bird_global_sea"
+"wait" "150"
+"spawnflags" "1"
+"origin" "-68 836 344"
+"classname" "func_timer"
+}
+{
+"origin" "836 -1572 608"
+"classname" "weapon_railgun"
+}
+{
+"origin" "872 800 84"
+"classname" "ammo_slugs"
+}
+{
+"origin" "-40 -524 -76"
+"classname" "ammo_slugs"
+}
+{
+"origin" "1168 1056 460"
+"classname" "weapon_shotgun"
+}
+{
+"origin" "996 28 468"
+"classname" "ammo_shells"
+}
+{
+"origin" "1700 -1228 220"
+"classname" "ammo_shells"
+}
+{
+"origin" "48 -1492 28"
+"classname" "ammo_shells"
+}
+{
+"origin" "184 152 280"
+"classname" "ammo_shells"
+}
+{
+"origin" "-80 -1140 740"
+"classname" "weapon_rocketlauncher"
+}
+{
+"origin" "1700 -740 -40"
+"classname" "ammo_grenades"
+}
+{
+"origin" "692 -1236 620"
+"classname" "weapon_chaingun"
+}
+{
+"origin" "192 72 508"
+"classname" "weapon_bfg"
+}
+{
+"origin" "972 -1308 216"
+"classname" "ammo_cells"
+}
+{
+"origin" "760 -220 -16"
+"classname" "ammo_cells"
+}
+{
+"origin" "-28 1048 -60"
+"classname" "ammo_rockets"
+}
+{
+"origin" "1280 -644 276"
+"classname" "ammo_rockets"
+}
+{
+"origin" "1696 -788 740"
+"classname" "ammo_bullets"
+}
+{
+"origin" "732 1048 328"
+"classname" "ammo_bullets"
+}
+{
+"origin" "1512 -936 224"
+"classname" "ammo_bullets"
+}
+{
+"origin" "-24 -780 392"
+"classname" "ammo_bullets"
+}
+{
+"light" "250"
+"angle" "326"
+"origin" "403.12 -350.62 16"
+"classname" "light_mine1"
+}
+{
+"style" "0"
+"light" "250"
+"angle" "270"
+"origin" "733.09 -153.97 1"
+"classname" "light_mine2"
+}
+{
+"style" "0"
+"light" "250"
+"angle" "270"
+"origin" "1580.00 -706.01 152.5"
+"classname" "light_mine2"
+}
+{
+"light" "250"
+"angle" "180"
+"origin" "1726.05 -827.50 -2.13"
+"classname" "light_mine1"
+}
+{
+"light" "300"
+"angle" "90"
+"origin" "1348.25 -622 -2.47"
+"classname" "light_mine1"
+}
+{
+"light" "200"
+"angle" "360"
+"origin" "-61.87 -522.55 -53.03"
+"classname" "light_mine1"
+}
+{
+"light" "250"
+"angle" "196"
+"origin" "499.04 -713.65 -3.01"
+"classname" "light_mine2"
+}
+{
+"light" "250"
+"angle" "334"
+"origin" "308.48 -1086.29 65.58"
+"classname" "light_mine1"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_med2.wav"
+"spawnflags" "1"
+"origin" "-347.90 -251.73 431.34"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_med2.wav"
+"spawnflags" "1"
+"origin" "-349.31 73.54 429.92"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "lostcoast/wind_med2.wav"
+"spawnflags" "1"
+"origin" "-308.30 315.37 548.71"
+"classname" "target_speaker"
+}
+

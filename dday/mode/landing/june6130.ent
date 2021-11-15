@@ -1,0 +1,207 @@
+{
+"message" "June 6th 1944 - 1:30 PM - Mr. Your No Fun"
+"_sun_angle" "10 -90"
+"_sun_color" ".6 .8 1"
+"_sun_diffuse" "300"
+"_sun_light" "350"
+"_Sun_ambient" "55"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"nextmap" "June6500"
+"points" "1"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "1000 160 -264"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "954 332 -308"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "946 -386 -306"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "954 566 -304"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "june6630"
+"kills" "75"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-966 52 -240"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-914 136 -306"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-916 406 -300"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "92"
+"origin" "-950 -516 -302"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "358"
+"origin" "-804 718 -304"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "954 -678 -306"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "150"
+"mass" "150"
+"health" "800"
+"obj_gain" "1"
+"obj_name" "RoadBlock"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"targetname" "Mont"
+"attenuation" "1"
+"spawnflags" "1"
+"noise" "june6/Mont8"
+"origin" "956 -744 -312"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "78"
+"spawnflags" "1"
+"target" "Mont"
+"origin" "956 -740 -312"
+"classname" "func_timer"
+}
+{
+"targetname" "Speaker1"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/canary2441"
+"origin" "-292 -146 -246"
+"classname" "target_speaker"
+}
+{
+"delay" "0"
+"pausetime" "0"
+"wait" "25"
+"target" "Speaker1"
+"random" "0"
+"spawnflags" "15"
+"origin" "-158 -252 -164"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "June6/canary441"
+"targetname" "Plane2"
+"origin" "-18 -76 -264"
+"classname" "target_speaker"
+}
+{
+"random" "0"
+"delay" "5"
+"wait" "30"
+"spawnflags" "1"
+"target" "Plane2"
+"origin" "140 -118 -164"
+"classname" "func_timer"
+}
+{
+"volume" ".8"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/bees441"
+"attenuation" "4"
+"origin" "30 -158 -164"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "4"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "222 -158 -152"
+"classname" "func_timer"
+}
+{
+"targetname" "surf"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/chicken441"
+"origin" "194 -614 -164"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "18"
+"spawnflags" "1"
+"target" "surf"
+"origin" "700 -606 -164"
+"classname" "func_timer"
+}
+{
+"targetname" "battle"
+"spawnflags" "4"
+"volume" ".7"
+"attenuation" "4"
+"noise" "june6/cattle441"
+"origin" "316 -358 -164"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "20"
+"spawnflags" "1"
+"target" "battle"
+"origin" "222 -498 -164"
+"classname" "func_timer"
+}
+{
+"light" "250"
+"style" "0"
+"angle" "360"
+"origin" "1012 -660 -276"
+"classname" "light_mine1"
+}
+

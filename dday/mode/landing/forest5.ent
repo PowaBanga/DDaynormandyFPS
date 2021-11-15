@@ -1,0 +1,489 @@
+{
+"_sun_ambient" "20"
+"_sun_color" ".159 .159 .21"
+"_sun_angle" "270 -45"
+"_sun_light" "75"
+"message" "Small Axis Camp\n[505]Summy"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"mass" "800"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"mass" "800"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"mass" "800"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"mass" "800"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"mass" "800"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"mass" "300"
+"target" "1"
+"obj_gain" "50"
+"obj_name" "Flak Cannon"
+"obj_owner" "1"
+"health" "1500"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*11"
+"mass" "300"
+"health" "1500"
+"target" "2"
+"obj_gain" "50"
+"obj_name" "Flak Cannon"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*12"
+"mass" "150"
+"health" "500"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"target" "3"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*13"
+"target" "4"
+"mass" "150"
+"health" "500"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*14"
+"target" "7"
+"mass" "150"
+"health" "500"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*15"
+"target" "6"
+"mass" "150"
+"health" "500"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*16"
+"target" "8"
+"mass" "150"
+"health" "500"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*17"
+"target" "5"
+"mass" "150"
+"health" "500"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*18"
+"target" "10"
+"mass" "500"
+"health" "2000"
+"obj_gain" "50"
+"obj_name" "Axis Bridge"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*19"
+"target" "9"
+"mass" "500"
+"health" "2000"
+"obj_gain" "50"
+"obj_name" "Axis Bridge"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"targetname" "10"
+"delay" "0"
+"dmg" "50"
+"origin" "684.1 -1324.1 336"
+"classname" "target_explosion"
+}
+{
+"targetname" "10"
+"delay" "0"
+"dmg" "50"
+"origin" "676.0 -1580.0 336"
+"classname" "target_explosion"
+}
+{
+"targetname" "9"
+"delay" "0"
+"dmg" "50"
+"origin" "348 -1580.1 336"
+"classname" "target_explosion"
+}
+{
+"targetname" "9"
+"delay" "0"
+"dmg" "50"
+"origin" "348 -1308 336"
+"classname" "target_explosion"
+}
+{
+"targetname" "3"
+"delay" "0"
+"dmg" "50"
+"origin" "636.0 -1931.9 352"
+"classname" "target_explosion"
+}
+{
+"targetname" "4"
+"delay" "0"
+"dmg" "50"
+"origin" "572.1 -1939.9 352"
+"classname" "target_explosion"
+}
+{
+"targetname" "1"
+"delay" "0"
+"dmg" "50"
+"origin" "660.0 -1788.0 352"
+"classname" "target_explosion"
+}
+{
+"targetname" "5"
+"delay" "0"
+"dmg" "50"
+"origin" "548.1 -1572.1 216"
+"classname" "target_explosion"
+}
+{
+"targetname" "2"
+"delay" "0"
+"dmg" "50"
+"origin" "268.0 -2116.1 344"
+"classname" "target_explosion"
+}
+{
+"targetname" "8"
+"delay" "0"
+"dmg" "50"
+"origin" "355.9 -2124.1 344"
+"classname" "target_explosion"
+}
+{
+"targetname" "6"
+"delay" "0"
+"dmg" "50"
+"origin" "420.1 -2124.0 344"
+"classname" "target_explosion"
+}
+{
+"targetname" "7"
+"delay" "0"
+"dmg" "50"
+"origin" "724.1 -2780.1 544"
+"classname" "target_explosion"
+}
+{
+"delay" "2"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "636.0 -2971.9 560"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "508.1 -3236.0 672"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "516.0 -2755.9 400"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "93"
+"origin" "604.1 -3075.9 560"
+"classname" "info_flamethrower_start"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "476.1 868.0 192"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "700.1 -3228.1 672"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "92"
+"origin" "452.0 -2739.9 400"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "508.0 -3052.0 560"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "396.0 -2868.1 560"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "732.0 -2867.9 568"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "684.1 -2808.1 684"
+"classname" "info_sniper_start"
+}
+{
+"nextmap" "forest5"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"message" "Axis"
+"obj_owner" "1"
+"angle" "270"
+"origin" "524.0 -2947.9 568"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"delay" "5"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "524.0 3316.0 -112"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "724.1 3060.1 -112"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "644.0 3163.9 -112"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "516.0 3180.0 -112"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "435.9 3164.1 -112"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "587.9 3212.0 -112"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "356.0 3260.2 104"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "300.0 3299.9 -112"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "356.0 3188.0 -112"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "Team 1"
+"angle" "270"
+"origin" "560.1 3087.9 -100"
+"classname" "info_sniper_start"
+}
+{
+"nextmap" "forest5"
+"points" "260"
+"kills" "60"
+"count" "1"
+"dll" "usa"
+"message" "Allies"
+"obj_owner" "0"
+"angle" "270"
+"origin" "388.1 3284.0 -112"
+"classname" "info_team_start"
+}
+{
+"noise" "faf/bird20"
+"targetname" "bird20"
+"volume" "1.0"
+"attenuation" "2"
+"origin" "484.0 2459.9 -120"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/bird10"
+"targetname" "bird10"
+"volume" "1.0"
+"attenuation" "2"
+"origin" "587.8 524.0 56"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "0"
+"noise" "faf/bird14"
+"targetname" "bird14"
+"volume" "1.0"
+"attenuation" "2"
+"origin" "596.0 -1900.0 408"
+"classname" "target_speaker"
+}
+{
+"delay" "5"
+"wait" "10"
+"target" "bird20"
+"spawnflags" "1"
+"origin" "364.0 2356.0 -104"
+"classname" "func_timer"
+}
+{
+"delay" "5"
+"wait" "10"
+"target" "bird10"
+"spawnflags" "1"
+"origin" "467.9 419.9 72"
+"classname" "func_timer"
+}
+{
+"delay" "5"
+"wait" "10"
+"target" "bird14"
+"spawnflags" "1"
+"origin" "476.0 -2004.0 424"
+"classname" "func_timer"
+}
+{
+"model" "*20"
+"mass" "800"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"style" "1"
+"light" "450"
+"origin" "312 -2792 424"
+"classname" "light"
+}
+

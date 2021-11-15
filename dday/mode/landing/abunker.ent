@@ -1,0 +1,412 @@
+{
+"message" "Axis Bunker"
+"gravity" "800"
+"sounds" "1"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"origin" "1216 -118 -3456"
+"angle" "183"
+"classname" "info_player_start"
+}
+{
+"origin" "-60 28 3605"
+"kills" "75"
+"points" "160"
+"nextmap" "dday3"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Allies"
+"classname" "info_team_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3570 10 -3858"
+"kills" "60"
+"points" "10000"
+"nextmap" "dday3"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Axis"
+"classname" "info_team_start"
+}
+{
+"origin" "3765 -848 -3829"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3764 -628 -3828"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3884 -316 -3827"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3884 -956 -3828"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_officer_start"
+}
+{
+"origin" "4020 -412 -3824"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_medic_start"
+}
+{
+"origin" "3764 -420 -3829"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_sniper_start"
+}
+{
+"origin" "4020 -632 -3824"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "4020 -857 -3824"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_engineer_start"
+}
+{
+"origin" "2780 -612 -3861"
+"targetname" "boom1"
+"dmg" "0"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "2901 512 -3868"
+"targetname" "boom2"
+"dmg" "0"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "2802 400 -3792"
+"pausetime" "0"
+"delay" "0"
+"random" "15"
+"wait" "15"
+"target" "boom1"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "2822 400 -3791"
+"pausetime" "0"
+"delay" "0"
+"random" "15"
+"wait" "15"
+"target" "boom2"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "3744 -975 -3832"
+"volume" "1"
+"attenuation" "1"
+"noise" "zwit.wav"
+"spawnflags" "1"
+"angle" "87"
+"classname" "target_speaker"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_officer_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_special_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_medic_start"
+}
+{
+"origin" "-156 28 3654"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "3884 -632 -3828"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_special_start"
+}
+{
+"model" "*1"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Axis Radio #3"
+"obj_owner" "1"
+"dmg" "2"
+"health" "2500"
+"mass" "75"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Axis Radio #2"
+"obj_owner" "1"
+"dmg" "2"
+"health" "2500"
+"mass" "75"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Axis Radio #1"
+"obj_owner" "1"
+"dmg" "2"
+"health" "2500"
+"mass" "75"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"_minlight" "0"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Axis Ammo Crate"
+"obj_owner" "1"
+"dmg" "2"
+"health" "2500"
+"mass" "75"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Axis Fuel Barrels"
+"obj_owner" "1"
+"mass" "75"
+"_minlight" "0"
+"dmg" "2"
+"health" "2500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"mass" "75"
+"dmg" "200"
+"health" "3000"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"mass" "75"
+"_minlight" "0"
+"dmg" "10000"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Axis TNT Supply"
+"obj_owner" "1"
+"mass" "75"
+"dmg" "10000"
+"health" "9999"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"message" "Axis Pillbox #1"
+"dmg" "10"
+"health" "20"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*10"
+"message" "What? You dont Like Rammstein? ;P"
+"wait" "1"
+"_minlight" "0"
+"sounds" "1"
+"lip" "0"
+"speed" "100"
+"health" "1"
+"angle" "272"
+"classname" "func_button"
+}
+{
+"model" "*11"
+"message" "Axis Pillbox #2"
+"dmg" "10"
+"health" "20"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*12"
+"targetname" "door1"
+"_minlight" "0"
+"sounds" "1"
+"dmg" "0"
+"lip" "-8"
+"wait" "-1"
+"speed" "100"
+"health" "0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"message" "Bunker door opened."
+"target" "door1"
+"_minlight" "0"
+"sounds" "1"
+"lip" "-8"
+"wait" "-1"
+"speed" "100"
+"health" "1"
+"classname" "func_button"
+}
+

@@ -1,0 +1,302 @@
+{
+"_sun" "sun"
+"_sun_ambient" "33"
+"_sun_color" ".7 .7 1"
+"_sun_diffuse" "100"
+"_sun_light" "140"
+"message" "Forest Maze\n by [1RB]Fafner"
+"sky" "caen"
+"classname" "worldspawn"
+}
+{
+"target" "sun"
+"origin" "378.7 -416.4 190.9"
+"light" "1"
+"classname" "light"
+}
+{
+"targetname" "sun"
+"origin" "378.7 -416.4 108.5"
+"classname" "info_null"
+}
+{
+"angle" "271"
+"targetname" "t1"
+"origin" "1818.7 -891.9 93.1"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t1"
+"origin" "496.1 -1077.6 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "498.3 -1128.0 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "497.2 -1186.0 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "500.5 -1234.2 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "450.1 -1234.2 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "401.9 -1235.3 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "357.0 -1236.3 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "306.6 -1234.2 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "266.1 -1236.3 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "446.8 -1186.0 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "398.6 -1187.1 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "353.7 -1188.1 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "303.3 -1186.0 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "262.8 -1188.1 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "447.9 -1128.0 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "399.7 -1129.1 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "354.8 -1130.1 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "304.4 -1128.0 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "263.9 -1130.1 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "445.7 -1077.6 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "397.5 -1078.7 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "352.6 -1079.7 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "302.2 -1077.6 15.3"
+"classname" "misc_teleporter"
+}
+{
+"target" "t1"
+"origin" "261.7 -1079.7 15.3"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1903.0 -891.2 104.7"
+"classname" "target_speaker"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1732.6 -885.3 104.7"
+"classname" "target_speaker"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1856.0 -879.4 104.7"
+"classname" "target_speaker"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1767.9 -879.4 104.7"
+"classname" "target_speaker"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1850.1 -891.2 104.7"
+"classname" "target_speaker"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1797.2 -891.2 98.9"
+"classname" "target_speaker"
+}
+{
+"targetname" "boo"
+"noise" "faf/hi"
+"origin" "1826.6 -891.2 104.7"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"wait" "10"
+"target" "boo"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"delay" "4"
+"wait" "10"
+"target" "boo2"
+"classname" "trigger_multiple"
+}
+{
+"message" "April Fools!"
+"targetname" "boo2"
+"dmg" "1000"
+"origin" "1815.6 -892.7 57.2"
+"classname" "target_explosion"
+}
+{
+"angle" "270"
+"origin" "380.6 -605.1 64"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "1"
+"noise" "faf/crickets.wav"
+"origin" "368.1 -549.0 53"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/crickets.wav"
+"origin" "374.3 -449.2 53"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/crickets.wav"
+"origin" "361.9 -698.8 53"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/crickets.wav"
+"origin" "368.1 -910.9 53"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/crickets.wav"
+"origin" "355.6 -1185.4 53"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/crickets.wav"
+"origin" "393.1 -1553.5 53"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"origin" "465.4 -1675.3 9.8"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "1815.1 -888.0 108.8"
+"light" "1000"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"origin" "392.2 -426.6 38.8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"origin" "370.3 -521.4 39.2"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "358.1 -501.4 39.9"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "50"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "88"
+"origin" "389.5 -497.0 42.7"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"nextmap" "dday2"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "390.2 -423.4 44.6"
+"classname" "info_team_start"
+}
+

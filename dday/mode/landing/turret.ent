@@ -1,0 +1,340 @@
+{
+"sky" "night2"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-144 0 -72"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"target" "breach"
+"classname" "turret_range"
+}
+{
+"targetname" "tip"
+"origin" "140.6 -11 -55.3"
+"classname" "info_notnull"
+}
+{
+"model" "*2"
+"origin" "22 -10 -54"
+"health" "200"
+"fire_sound" "weapons/grenlx1a.wav"
+"ammo_type" "shell"
+"count" "10"
+"rate" "1"
+"speed" "150"
+"minyaw" "0"
+"maxyaw" "360"
+"targetname" "breach"
+"target" "tip"
+"team" "gun"
+"angle" "0"
+"classname" "turret_breach"
+}
+{
+"model" "*3"
+"origin" "23 -10 -84"
+"team" "gun"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"target" "breach"
+"angle" "0"
+"origin" "-49.2 -11.1 -65.6"
+"classname" "turret_driver"
+}
+{
+"model" "*4"
+"target" "breach3"
+"classname" "turret_range"
+}
+{
+"targetname" "tip3"
+"origin" "-236.9 309 -59.1"
+"classname" "info_notnull"
+}
+{
+"model" "*5"
+"origin" "-297 309 -58"
+"health" "200"
+"ammo_speed" "50"
+"fire_sound" "weapons/flamer/fire.wav"
+"ammo_type" "fire"
+"count" "200"
+"rate" ".2"
+"speed" "150"
+"minyaw" "0"
+"maxyaw" "360"
+"targetname" "breach3"
+"target" "tip3"
+"team" "gun3"
+"angle" "0"
+"classname" "turret_breach"
+}
+{
+"model" "*6"
+"origin" "-296 309 -84"
+"team" "gun3"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"target" "breach3"
+"angle" "0"
+"origin" "-369.7 308.9 -66.6"
+"classname" "turret_driver"
+}
+{
+"model" "*7"
+"target" "breach4"
+"classname" "turret_range"
+}
+{
+"targetname" "tip4"
+"origin" "-255.0 -408.3 -59.1"
+"classname" "info_notnull"
+}
+{
+"model" "*8"
+"origin" "-315 -407 -58"
+"health" "200"
+"dmg" "50"
+"ammo_speed" "600"
+"fire_sound" "usa/bar/fire.wav"
+"ammo_type" "grenade"
+"count" "100"
+"rate" "3"
+"speed" "150"
+"minyaw" "0"
+"maxyaw" "360"
+"targetname" "breach4"
+"target" "tip4"
+"team" "gun4"
+"angle" "0"
+"classname" "turret_breach"
+}
+{
+"model" "*9"
+"origin" "-315 -407 -84"
+"team" "gun4"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"target" "breach4"
+"angle" "0"
+"origin" "-387.8 -408.4 -66.6"
+"classname" "turret_driver"
+}
+{
+"obj_owner" "0"
+"origin" "39.3 349.1 -54.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"origin" "21.5 343.8 -33.8"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "10"
+"nextmap" "goldse"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "19.5 -349.9 -56.7"
+"classname" "info_team_start"
+}
+{
+"model" "*10"
+"target" "breach5"
+"classname" "turret_range"
+}
+{
+"model" "*11"
+"origin" "-97 -703 -92"
+"team" "gun5"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"targetname" "tip5"
+"origin" "-73.9 -694.9 -68.3"
+"classname" "info_notnull"
+}
+{
+"md2" "models/weapons/grm/g_mg42/tris.md2"
+"fire_sound" "grm/mg42/fire.wav"
+"ammo_type" "bullet"
+"count" "1000"
+"team" "gun5"
+"target" "tip5"
+"angle" "0"
+"dmg" "50"
+"speed" "200"
+"targetname" "breach5"
+"origin" "-125.9 -694.9 -88.3"
+"classname" "turret_breach"
+}
+{
+"target" "breach5"
+"angle" "0"
+"origin" "-150.2 -702.8 -73.3"
+"classname" "turret_driver"
+}
+{
+"kills" "10"
+"nextmap" "wiltz"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "269"
+"origin" "3.3 -295.8 -64.4"
+"classname" "info_team_start"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "-36.1 579.4 -90"
+"classname" "target_speaker"
+}
+{
+"model" "*12"
+"origin" "-89 578 -27"
+"maxpitch" "30"
+"minpitch" "-30"
+"maxyaw" "30"
+"fire_sound" "usa/bar/fire.wav"
+"dmg" "100"
+"ammo_type" "bullet"
+"count" "1000"
+"rate" "0"
+"speed" "200"
+"minyaw" "-30"
+"team" "gun2"
+"target" "tip2"
+"targetname" "breach2"
+"angle" "0"
+"classname" "turret_breach"
+}
+{
+"model" "*13"
+"target" "breach2"
+"classname" "turret_range"
+}
+{
+"model" "*14"
+"origin" "-89 578 -36"
+"team" "gun2"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"targetname" "tip2"
+"origin" "-66.1 578.6 -27.6"
+"classname" "info_notnull"
+}
+{
+"target" "breach2"
+"angle" "0"
+"origin" "-118.4 578.7 -40.6"
+"classname" "turret_driver"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "-36.1 579.4 -90"
+"classname" "target_speaker"
+}
+{
+"model" "*15"
+"origin" "43 -516 -27"
+"health" "500"
+"team" "gun6"
+"angle" "0"
+"classname" "turret_base"
+}
+{
+"model" "*16"
+"target" "breach6"
+"classname" "turret_range"
+}
+{
+"model" "*17"
+"origin" "43 -516 -27"
+"deathtarget" "tanksound"
+"turret_sound" "catacombs/cart.wav"
+"health" "500"
+"minpitch" "-10"
+"maxpitch" "2"
+"ammo_speed" "900"
+"maxyaw" "360"
+"fire_sound" "weapons/grenlx1a.wav"
+"dmg" "300"
+"ammo_type" "shell"
+"count" "100"
+"rate" "4"
+"speed" "30"
+"minyaw" "0"
+"team" "gun6"
+"target" "tip6"
+"targetname" "breach6"
+"angle" "0"
+"classname" "turret_breach"
+}
+{
+"targetname" "tip6"
+"origin" "221.5 -516.9 -26.6"
+"classname" "info_notnull"
+}
+{
+"target" "breach6"
+"angle" "0"
+"origin" "41.8 -506.1 -16"
+"classname" "turret_driver"
+}
+{
+"targetname" "tanksound"
+"attenuation" "2"
+"volume" "0.8"
+"noise" "colpiron/tank1.wav"
+"spawnflags" "1"
+"origin" "55 -520 32"
+"classname" "target_speaker"
+}
+{
+"model" "*18"
+"target" "mg"
+"message" "Machine Gun"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*19"
+"message" "nothing"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"count" "3"
+"speed" "50"
+"targetname" "mg"
+"origin" "429.0 -461.8 -9.1"
+"classname" "target_earthquake"
+}
+

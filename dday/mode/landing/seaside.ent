@@ -1,0 +1,343 @@
+{
+"sky" "viervill/sea"
+"message" "Sea Side Invasion, Designed by GypsyLlama"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "544 2008 120"
+"classname" "info_player_start"
+}
+{
+"style" "0"
+"light" "1000"
+"origin" "1032 248 64"
+"classname" "light"
+}
+{
+"noise" "seaside/buzz"
+"spawnflags" "1"
+"attenuation" "2"
+"volume" "1.0"
+"origin" "182 -374 46"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"origin" "180 -132 -32"
+"sounds" "1"
+"spawnflags" "66"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"noise" "seaside/buzz"
+"spawnflags" "1"
+"attenuation" "2"
+"volume" "1.0"
+"origin" "646 -442 46"
+"classname" "target_speaker"
+}
+{
+"style" "0"
+"origin" "-52 2080 324"
+"light" "3200"
+"classname" "light"
+}
+{
+"model" "*2"
+"origin" "644 -200 -32"
+"sounds" "1"
+"spawnflags" "66"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "256 352 60"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "544 352 64"
+"classname" "target_speaker"
+}
+{
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "224 576 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "768 576 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "800 768 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "800 960 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "768 1184 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "608 1408 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "816 1472 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "768 1664 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "800 1888 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "508 1888 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "160 1856 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "160 1632 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "544 1664 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "548 1056 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "256 1056 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "20 928 64"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dinant/battle1b"
+"attenuation" "2"
+"origin" "160 1184 64"
+"classname" "target_speaker"
+}
+{
+"count" "1"
+"message" "Allies"
+"points" "200"
+"kills" "40"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "360"
+"origin" "408 -348 4"
+"classname" "info_team_start"
+}
+{
+"points" "200"
+"kills" "40"
+"count" "0"
+"dll" "grm"
+"message" "Axis"
+"obj_owner" "1"
+"angle" "360"
+"origin" "432 -348 4"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "640 -352 32"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "640 -320 4"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "640 -384 4"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "640 -288 4"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "176 -224 4"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "416 -448 4"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "176 -288 4"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "176 -256 4"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "176 -320 4"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "636 1608 64"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "628 1988 52"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "299"
+"origin" "544 1988 52"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "16 1976 52"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "20 2064 52"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "408 1728 52"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "384 1472 52"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "544 1604 44"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "448 1992 44"
+"classname" "info_medic_start"
+}
+{
+"style" "0"
+"origin" "792 248 80"
+"light" "300"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "944 248 80"
+"light" "300"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "800 416 80"
+"light" "300"
+"classname" "light"
+}
+{
+"model" "*3"
+"origin" "702 1566 48"
+"sounds" "1"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+

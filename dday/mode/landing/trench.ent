@@ -1,0 +1,277 @@
+{
+"classname" "worldspawn"
+}
+{
+"style" "0"
+"origin" "640 224 128"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-2828.9 -275.4 18.1"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-2725.5 496 16"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-2752 704 32"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-2776 432 177.4"
+"angle" "1"
+"obj_owner" "0"
+"classname" "info_special_start"
+}
+{
+"origin" "-2793.9 -182.3 22.1"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-2806.6 138.7 18.8"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_medic_start"
+}
+{
+"origin" "-2542.4 329.2 116.6"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-2597.5 615.7 87.1"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-2779.1 69.9 20.8"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_officer_start"
+}
+{
+"origin" "2333 -305.2 11.3"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "2318 226.3 3"
+"angle" "181"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "2370.2 132.5 169"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "2279.4 523.8 40"
+"angle" "178"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "2392.5 70.7 6.7"
+"angle" "181"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "2325.2 649.9 5.4"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "2408.1 -148.2 1.3"
+"angle" "183"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "2384 323.9 7.1"
+"angle" "183"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "2227.3 446.5 72.6"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "-2713.5 233.8 81.9"
+"angle" "360"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "99"
+"nextmap" "trench"
+"kills" "50"
+"points" "0"
+"classname" "info_team_start"
+}
+{
+"origin" "2423.8 34.2 -11.5"
+"message" "Axis"
+"count" "99"
+"obj_owner" "1"
+"dll" "grm"
+"nextmap" "trench"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"angle" "360"
+"origin" "-320 -352 0"
+"classname" "info_player_start"
+}
+{
+"origin" "-30.7 267 32.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "-958.7 -53 0.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "1377.3 235 32.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "641.3 491 32.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "-478.7 459 32.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "-126.7 139 0.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "-1022.7 491 0.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "-510.7 -213 32.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "641.3 -21 0.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"origin" "2401.3 395 32.3"
+"spawnflags" "1"
+"noise" "beach/gatling"
+"classname" "target_speaker"
+}
+{
+"dmg" "200"
+"delay" ".5"
+"origin" "64 640 0"
+"classname" "target_explosion"
+}
+{
+"delay" ".5"
+"dmg" "200"
+"origin" "32 576 0"
+"classname" "target_explosion"
+}
+{
+"delay" ".5"
+"dmg" "300"
+"origin" "-32 512 0"
+"classname" "target_explosion"
+}
+{
+"delay" ".5"
+"dmg" "300"
+"origin" "-64 448 0"
+"classname" "target_explosion"
+}
+{
+"delay" ".5"
+"dmg" "300"
+"origin" "-128 384 0"
+"classname" "target_explosion"
+}
+{
+"delay" ".5"
+"dmg" "300"
+"origin" "-160 320 0"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "300"
+"origin" "256 480 0"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "300"
+"origin" "192 416 0"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "300"
+"origin" "128 384 0"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "300"
+"origin" "64 320 0"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "300"
+"origin" "0 256 0"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "300"
+"origin" "-96 224 0"
+"classname" "target_explosion"
+}
+

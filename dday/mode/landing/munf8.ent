@@ -1,0 +1,439 @@
+{
+"message" "A Little Russian Village\nMr. YOur No Fun"
+"sky" "hedge"
+"-sun-angle" "15 -50"
+"-sun-color" ".8 .9 1.2"
+"-sun-diffuse" "50"
+"-sun-ambient" "275"
+"-sun-light" "300"
+"classname" "worldspawn"
+}
+{
+"nextmap" "munf9"
+"kills" "60"
+"count" "99"
+"dll" "Rus"
+"obj_owner" "0"
+"message" "Russian"
+"origin" "-667 -272 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-800.6 -349 35.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-767.6 -164 34.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-676.6 -140 -13.4"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "munf9"
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "587 -248 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-792.1 175 -33.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-788.1 651 -33.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-788.1 403 -33.1"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-214 -96 13"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-300.6 -589 -30.4"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"health" "50"
+"classname" "flag"
+}
+{
+"model" "*2"
+"target" "hqrubble"
+"dmg" "150"
+"mass" "800"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"dmg" "150"
+"targetname" "hqrubble"
+"origin" "-451 -562 4"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"targetname" "hqrubble"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"target" "newgrey1"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"spawnflags" "1"
+"targetname" "newgrey1"
+"classname" "func_wall"
+}
+{
+"dmg" "150"
+"targetname" "newgrey1"
+"origin" "-108 -656 4"
+"classname" "target_explosion"
+}
+{
+"model" "*8"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"target" "shack1a"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"spawnflags" "1"
+"targetname" "shack1a"
+"classname" "func_wall"
+}
+{
+"dmg" "150"
+"targetname" "shack1a"
+"origin" "468 -188 4"
+"classname" "target_explosion"
+}
+{
+"model" "*11"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"target" "ls1"
+"dmg" "250"
+"mass" "400"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"spawnflags" "1"
+"targetname" "ls1"
+"classname" "func_wall"
+}
+{
+"dmg" "150"
+"targetname" "ls1"
+"origin" "948 516 4"
+"classname" "target_explosion"
+}
+{
+"dmg" "150"
+"targetname" "ls1"
+"origin" "952 280 4"
+"classname" "target_explosion"
+}
+{
+"model" "*17"
+"target" "rws1"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"spawnflags" "1"
+"targetname" "rws1"
+"classname" "func_wall"
+}
+{
+"dmg" "150"
+"targetname" "rws1"
+"origin" "640 608 4"
+"classname" "target_explosion"
+}
+{
+"model" "*19"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*20"
+"target" "s3"
+"dmg" "120"
+"mass" "600"
+"health" "1900"
+"classname" "func_explosive"
+}
+{
+"model" "*21"
+"spawnflags" "1"
+"targetname" "s3"
+"classname" "func_wall"
+}
+{
+"dmg" "150"
+"targetname" "s3"
+"origin" "176 564 4"
+"classname" "target_explosion"
+}
+{
+"model" "*22"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*23"
+"dmg" "120"
+"mass" "600"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*24"
+"target" "ng3"
+"dmg" "120"
+"mass" "600"
+"health" "1600"
+"classname" "func_explosive"
+}
+{
+"model" "*25"
+"spawnflags" "1"
+"targetname" "ng3"
+"classname" "func_wall"
+}
+{
+"dmg" "150"
+"targetname" "ng3"
+"origin" "-312 128 4"
+"classname" "target_explosion"
+}
+{
+"targetname" "Speaker1"
+"spawnflags" "0"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/canary2441"
+"origin" "-188.1 -304.7 19"
+"classname" "target_speaker"
+}
+{
+"delay" "0"
+"pausetime" "0"
+"wait" "30"
+"target" "Speaker1"
+"random" "0"
+"spawnflags" "15"
+"origin" "-9.2 -321.9 -14"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "june6/canary441"
+"targetname" "Plane2"
+"origin" "-443.1 477.2 -14"
+"classname" "target_speaker"
+}
+{
+"random" "0"
+"delay" "11"
+"wait" "33"
+"spawnflags" "1"
+"target" "Plane2"
+"origin" "-430 334.2 -14"
+"classname" "func_timer"
+}
+{
+"volume" ".7"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/combata1"
+"attenuation" "4"
+"origin" "450 -313.8 -14"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "10"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "389 -347.7 -2"
+"classname" "func_timer"
+}
+{
+"targetname" "surf"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/chicken441"
+"origin" "1049.9 75.3 -14"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "28"
+"spawnflags" "1"
+"target" "surf"
+"origin" "1057 -81.8 -14"
+"classname" "func_timer"
+}
+{
+"targetname" "cow"
+"spawnflags" "4"
+"volume" ".7"
+"attenuation" "4"
+"noise" "june6/cattle441"
+"origin" "204.9 -142.9 -14"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "26"
+"spawnflags" "1"
+"target" "cow"
+"origin" "156.9 -108.9 -14"
+"classname" "func_timer"
+}
+{
+"volume" ".8"
+"targetname" "MG"
+"noise" "june6/torture1"
+"attenuation" "4"
+"origin" "-218 512 -12"
+"classname" "target_speaker"
+}
+{
+"wait" "47"
+"spawnflags" "1"
+"target" "MG"
+"origin" "-293 498 -12"
+"classname" "func_timer"
+}
+{
+"targetname" "arta1"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/ambience"
+"origin" "532 293 -12"
+"classname" "target_speaker"
+}
+{
+"wait" "14"
+"target" "arta1"
+"spawnflags" "1"
+"origin" "627 300 -12"
+"classname" "func_timer"
+}
+{
+"targetname" "battle"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/battle441"
+"origin" "859 -730 -12"
+"classname" "target_speaker"
+}
+{
+"delay" "15"
+"wait" "7"
+"target" "battle"
+"spawnflags" "1"
+"origin" "975 -730 -12"
+"classname" "func_timer"
+}
+

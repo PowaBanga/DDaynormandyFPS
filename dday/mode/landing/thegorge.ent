@@ -1,0 +1,199 @@
+{
+"message" "The Gorge : [SC]Krom\n   Infantry and Sniper Only"
+"sky" "doomtown"
+"classname" "worldspawn"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "789.0 -424.8 36.4"
+"classname" "info_sniper_start"
+}
+{
+"model" "*1"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"model" "*2"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}
+{
+"model" "*3"
+"spawnflags" "1"
+"target" "train1"
+"speed" "50"
+"classname" "func_train"
+}
+{
+"target" "train2"
+"targetname" "train1"
+"origin" "-740.7 -55.6 76.1"
+"classname" "path_corner"
+}
+{
+"target" "train3"
+"targetname" "train2"
+"origin" "-49.9 -63.9 81.8"
+"classname" "path_corner"
+}
+{
+"targetname" "train3"
+"target" "train1"
+"origin" "506.8 -63.7 59.9"
+"classname" "path_corner"
+}
+{
+"message" "Allies"
+"kills" "50"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"origin" "-1028.7 9.7 112.9"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"count" "1"
+"dll" "grm"
+"message" "Axis"
+"obj_owner" "1"
+"origin" "935.2 196.7 145.1"
+"classname" "info_team_start"
+}
+{
+"angle" "360"
+"origin" "1033.6 9.7 546.7"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1129.3 21.1 517.0"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1057.9 -3.9 548.2"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-899.0 387.5 38.9"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-897.3 -385.8 38.9"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "787.5 196.4 35.4"
+"classname" "info_infantry_start"
+}
+{
+"target" "t2"
+"origin" "-1093.7 354.7 26.3"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t2"
+"angle" "360"
+"origin" "-523.5 295.1 -50.6"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t2"
+"angle" "360"
+"origin" "-408.7 -57.7 -49.4"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t1"
+"origin" "932.1 -322.5 22.5"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "180"
+"origin" "482.8 -322.5 -50.6"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t1"
+"angle" "180"
+"origin" "463.0 309.7 -50.6"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "-24.6 12.3 133.2"
+"light" "800"
+"classname" "light"
+}
+{
+"origin" "-1098.6 409.9 159.9"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "-1090.4 24.6 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "-1098.6 -422.2 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "-594.4 389.4 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "-586.2 8.2 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "-590.3 -422.2 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "1012.5 360.7 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "1057.6 16.4 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "1037.2 -422.3 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "483.8 368.9 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "504.3 12.3 133.2"
+"light" "650"
+"classname" "light"
+}
+{
+"origin" "512.4 -442.7 133.2"
+"light" "650"
+"classname" "light"
+}
+

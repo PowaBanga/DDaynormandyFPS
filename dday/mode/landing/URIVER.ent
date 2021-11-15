@@ -1,0 +1,361 @@
+{
+"_sun_diffade" ".5"
+"_sun_diffuse" "400"
+"gravity" "800"
+"sounds" "0"
+"_sun_angle" "0 -70"
+"_sun_light" "600"
+"classname" "worldspawn"
+}
+{
+"origin" "-512 -2528 -224"
+"volume" "1"
+"attenuation" "3"
+"noise" "faf/river.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-688 -2544 -272"
+"angle" "151"
+"classname" "info_player_start"
+}
+{
+"origin" "-896 -2480 -400"
+"volume" "1"
+"attenuation" "3"
+"noise" "faf/stream.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -2272 -400"
+"volume" "1"
+"attenuation" "3"
+"noise" "faf/stream.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-784 -2384 -416"
+"volume" "1"
+"attenuation" "3"
+"noise" "world/curnt1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-576 -2368 -304"
+"volume" "1"
+"attenuation" "3"
+"noise" "world/curnt1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -2112 -416"
+"volume" "1"
+"attenuation" "3"
+"noise" "luisx/wfall_lg.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -2032 -672"
+"volume" "1"
+"attenuation" "3"
+"noise" "luisx/wfall_lg.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -1984 -960"
+"volume" "1"
+"attenuation" "3"
+"noise" "luisx/wfall_lg.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-960 -2448 -408"
+"volume" "0.003"
+"attenuation" "1"
+"noise" "luisx/wfall_lg.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -1632 -976"
+"volume" "0.003"
+"attenuation" "1"
+"noise" "luisx/wfall_lg.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -1472 -912"
+"volume" "1"
+"attenuation" "2"
+"noise" "luisx/aura.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -1472 -912"
+"_cone" "10"
+"style" "11"
+"_color" "0.000 1.000 1.000"
+"light" "250"
+"classname" "light"
+}
+{
+"origin" "-1248 -624 -896"
+"volume" "1"
+"attenuation" "3"
+"noise" "faf/river.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1248 -624 -688"
+"volume" ".5"
+"attenuation" "3"
+"noise" "faf/river.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1088 -620 -480"
+"volume" ".01"
+"attenuation" "3"
+"noise" "faf/river.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1248 -976 -1104"
+"volume" "1"
+"attenuation" "3"
+"noise" "luisx/UNDERWTR.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1248 -724 -1104"
+"volume" "1"
+"attenuation" "3"
+"noise" "luisx/UNDERWTR.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1248 -512 -1104"
+"volume" "1"
+"attenuation" "3"
+"noise" "luisx/UNDERWTR.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1464 -336 -888"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "250"
+"classname" "light"
+}
+{
+"origin" "-1384 136 -896"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "250"
+"classname" "light"
+}
+{
+"origin" "-1336 1008 -874"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "450"
+"classname" "light"
+}
+{
+"origin" "-1376 1056 -864"
+"_color" "0.000 0.000 1.000"
+"style" "0"
+"_cone" "10"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-1336 1100 -874"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "450"
+"classname" "light"
+}
+{
+"origin" "-1416 1100 -874"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "450"
+"classname" "light"
+}
+{
+"origin" "-1192 -80 -896"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "250"
+"classname" "light"
+}
+{
+"origin" "-1416 1008 -874"
+"_color" "0.000 0.000 1.000"
+"style" "11"
+"_cone" "10"
+"light" "450"
+"classname" "light"
+}
+{
+"origin" "-672 -2544 -192"
+"obj_owner" "0"
+"delay" "5"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-672 -2512 -192"
+"obj_owner" "1"
+"delay" "5"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-640 -2544 -216"
+"points" "1"
+"kills" "100"
+"nextmap" "dday1"
+"message" "Allies"
+"dll" "usa"
+"classname" "info_team_start"
+}
+{
+"origin" "-640 -2512 -216"
+"points" "1"
+"nextmap" "dday1"
+"message" "Axis"
+"kills" "100"
+"dll" "grm"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "-1280 -1072 -1120"
+"_color" "0.216 0.216 1.000"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "-1264 -976 -1080"
+"_color" "0.216 0.216 1.000"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "-1216 -816 -1136"
+"_color" "0.216 0.216 1.000"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "-1296 -720 -1056"
+"_color" "0.216 0.216 1.000"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "-1200 -496 -1136"
+"_color" "0.216 0.216 1.000"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "-1464 -336 -888"
+"_color" "0.000 0.000 1.000"
+"style" "0"
+"_cone" "10"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-1192 -80 -896"
+"_color" "0.000 0.000 1.000"
+"style" "0"
+"_cone" "10"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-1384 136 -896"
+"_color" "0.000 0.000 1.000"
+"style" "0"
+"_cone" "10"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-1320 -40 -888"
+"attenuation" "3"
+"noise" "world/drip_amb.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1208 808 -888"
+"attenuation" "3"
+"noise" "world/drip_amb.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1440 904 -888"
+"attenuation" "3"
+"noise" "gimp/mrdrip.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1464 -336 -888"
+"volume" "0.1"
+"noise" "luisx/aura.wav"
+"attenuation" "1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1192 -80 -896"
+"volume" "0.1"
+"noise" "luisx/aura.wav"
+"attenuation" "2"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1384 136 -896"
+"volume" "0.1"
+"noise" "luisx/aura.wav"
+"attenuation" "1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1376 1056 -864"
+"volume" "1"
+"noise" "luisx/aura2.wav"
+"attenuation" "3"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+

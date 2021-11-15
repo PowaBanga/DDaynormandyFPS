@@ -1,0 +1,355 @@
+{
+"_sun_angle" "245 -45"
+"_sun_color" "3.4 3.4 3.3"
+"_sun_ambient" "50"
+"_sun_light" "200"
+"message" "Desert V2 Rocket By (*AAF*) Mark\nRev. TanatoVago"
+"gravity" "800"
+"sky" "darkhollow256_"
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"origin" "-912.2 -1028.8 -139.7"
+"classname" "info_player_start"
+}
+{
+"points" "50"
+"kills" "50"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-2169.4 -69.3 -152.9"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2384 -184.9 -168"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2056 -80 -204"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2548 -1036 -232"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2624 8 -184"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2408 -988 -232"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2388 -1116 -228"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2624 -228 -196"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2580 -1148 -228"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2272 71.5 -196"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2200 -194.5 -196"
+"classname" "info_medic_start"
+}
+{
+"skin" "dak"
+"kills" "100"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "439.5 -97.1 61.8"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "431.3 -158.6 -10.2"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "134.5 -654.4 -9.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "21.0 -1329.9 -57.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-35.4 240.3 -31.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "447.0 -17.0 -38.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "308.4 -566.3 -1.1"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "264.8 -880.8 -36.8"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-172.1 -440.4 -6.8"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "24.9 17.2 -52.5"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "246.4 -1204.0 -38.1"
+"classname" "info_medic_start"
+}
+{
+"model" "*1"
+"message" "V2 Rocket"
+"dmg" "25"
+"health" "25"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "113 -1310.8 -68.6"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "-1849.3 -35.6 -255.2"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "435.5 205.1 -52.5"
+"classname" "target_speaker"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "50"
+"origin" "602.5 220.1 -34"
+"classname" "light"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"dmg" "200"
+"mass" "70"
+"health" "200"
+"spawnflags" "4"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"spawnflags" "24"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"speed" "100"
+"wait" "3"
+"lip" "8"
+"dmg" "100"
+"spawnflags" "0"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"dmg" "100"
+"mass" "20"
+"health" "300"
+"obj_loss" "25"
+"obj_gain" "25"
+"obj_name" "V2 contals"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"light" "100"
+"angle" "270"
+"origin" "675.7 342.8 -41"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "180"
+"origin" "751.2 89.8 -41"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "270"
+"origin" "438.0 47.1 -41"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "90"
+"origin" "441.3 -223.4 -41"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "180"
+"origin" "735.9 -76.7 -41"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "180"
+"origin" "671.9 -364.7 -9"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "180"
+"origin" "671.9 -492.7 -9"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "270"
+"origin" "320.3 -336.3 -9"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "304"
+"origin" "224.3 -336.3 -9"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "90"
+"origin" "441.3 -703.0 -17.5"
+"classname" "light_mine1"
+}
+{
+"light" "150"
+"angle" "180"
+"origin" "192.1 -482.1 86"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "90"
+"origin" "146.7 -703.0 -17.5"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "270"
+"origin" "142.4 -320.9 -17.5"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "299"
+"origin" "-847.6 -673.5 -110.6"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "299"
+"origin" "-1065.5 -760.0 -110.6"
+"classname" "light_mine1"
+}
+{
+"light" "50"
+"angle" "299"
+"origin" "-977.9 -1011.9 -110.6"
+"classname" "light_mine1"
+}
+{
+"light" "100"
+"angle" "270"
+"origin" "515.7 342.8 -41"
+"classname" "light_mine1"
+}
+

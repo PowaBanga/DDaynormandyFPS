@@ -1,0 +1,305 @@
+{
+"message" "Dinant River Country Side - By DERWOOD"
+"sky" "riverscape1"
+"classname" "worldspawn"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"light" "300"
+"origin" "1140 1256 417"
+"classname" "light"
+}
+{
+"model" "*1"
+"mass" "400"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"mass" "400"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"light" "300"
+"origin" "1236 1144 289"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1012 1144 273"
+"classname" "light"
+}
+{
+"model" "*3"
+"origin" "1083 1040 174"
+"spawnflags" "0"
+"sounds" "3"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"light" "300"
+"origin" "1146 996 451"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1146 898 259"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "878 1404 443"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "906 882 265"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1308 886 279"
+"classname" "light"
+}
+{
+"classname" "func_group"
+}
+{
+"angle" "90"
+"origin" "480 576 560"
+"classname" "info_player_start"
+}
+{
+"message" "29th Inf.Div."
+"kills" "75"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "360"
+"origin" "-416 -304 144"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-352 -256 160"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-464 -304 176"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-16 -272 560"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-352 -304 160"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-384 -352 160"
+"classname" "info_sniper_start"
+}
+{
+"model" "*12"
+"dmg" "1000"
+"spawnflags" "4"
+"classname" "trigger_hurt"
+}
+{
+"kills" "75"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Waffen SS"
+"angle" "360"
+"origin" "1344 1248 160"
+"classname" "info_team_start"
+}
+{
+"noise" "faf\rriver.wav"
+"volume" "1"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "208 656 224"
+"classname" "target_speaker"
+}
+{
+"count" "40"
+"sounds" "2"
+"origin" "-224 -496 16"
+"classname" "target_splash"
+}
+{
+"count" "40"
+"sounds" "2"
+"origin" "-144 -496 -32"
+"classname" "target_splash"
+}
+{
+"count" "40"
+"sounds" "2"
+"origin" "-48 -496 -32"
+"classname" "target_splash"
+}
+{
+"count" "40"
+"sounds" "2"
+"origin" "48 -496 -32"
+"classname" "target_splash"
+}
+{
+"count" "40"
+"sounds" "2"
+"origin" "96 -496 16"
+"classname" "target_splash"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1280 1184 192"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "944 1200 448"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "928 1136 192"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "992 1136 192"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "960 1232 192"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1312 1296 656"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1056 1184 464"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "1200 1200 192"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-352 -208 160"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-416 -16 160"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-416 -64 160"
+"classname" "info_flamethrower_start"
+}
+{
+"light" "300"
+"origin" "704 256 560"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "624 224 496"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "784 208 496"
+"classname" "info_engineer_start"
+}
+

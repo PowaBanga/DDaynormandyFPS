@@ -1,0 +1,91 @@
+{
+"gravity" "800"
+"message" "Brits vs Yanks"
+"sky" "night1"
+"_ambient" "38"
+"classname" "worldspawn"
+}
+{
+"angle" "41"
+"origin" "43.1 -1574.6 -49.1"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "323.1 -170.1 140"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "858.7 -570.3 137.7"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "925.4 -1318.5 135.7"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "390.2 -1308.4 132.7"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "400"
+"origin" "-208.1 -2160.0 141.7"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "130"
+"origin" "1432 -2800 -51.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "151"
+"origin" "1556 524 -56.8"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "U.K."
+"nextmap" "gbrdday1"
+"kills" "70"
+"count" "1"
+"dll" "gbr"
+"obj_owner" "0"
+"angle" "90"
+"origin" "664 -920 200.5"
+"classname" "info_team_start"
+}
+{
+"message" "U.S."
+"kills" "70"
+"nextmap" "dday1"
+"count" "0"
+"dll" "usa"
+"obj_owner" "1"
+"angle" "270"
+"origin" "662.9 -723 222.4"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"mass" "75"
+"health" "1500"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"dmg" "30"
+"mass" "75"
+"health" "500"
+"classname" "func_explosive"
+}
+

@@ -1,0 +1,68 @@
+{
+"_sun_ambient" "25"
+"_sun_diffuse" "175"
+"_sun" "sun2"
+"_sun_light" "170"
+"_sun_color" "1 1 1"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"mass" "20"
+"health" "1"
+"obj_gain" "100"
+"obj_name" "Fuel Barrels"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"mass" "20"
+"health" "1"
+"obj_gain" "100"
+"obj_name" "Fuel Barrels"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"points" "100"
+"origin" "-199.6 2688.8 107.9"
+"angle" "180"
+"message" "Axis"
+"obj_owner" "1"
+"dll" "grm"
+"count" "99"
+"nextmap" "dday1"
+"kills" "1"
+"classname" "info_team_start"
+}
+{
+"kills" "1"
+"points" "100"
+"origin" "334.1 2771.6 130.4"
+"angle" "90"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "99"
+"nextmap" "dday2"
+"classname" "info_team_start"
+}
+{
+"angle" "270"
+"origin" "-220.3 2731.7 106.4"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "340.0 2724.3 112.3"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "32.5 2851.5 260.7"
+"classname" "info_player_start"
+}
+

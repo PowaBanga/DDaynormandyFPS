@@ -1,0 +1,490 @@
+{
+"sky" "grnplsnt"
+"classname" "worldspawn"
+}
+{
+"light" "400"
+"origin" "-2600 0 1276"
+"classname" "light"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-437.5 387.5 -167.9"
+"classname" "info_player_start"
+}
+{
+"message" "Allies"
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "360"
+"origin" "203.4 313 -615.0"
+"classname" "info_team_start"
+}
+{
+"message" "Axis"
+"kills" "75"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1853.4 -491.8 -674.7"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"targetname" "swall"
+"spawnflags" "6"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"target" "swall"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"target" "swall"
+"classname" "func_button"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "1247.4 -2388.5 -1159.8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "539.4 419.5 -830.7"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*4"
+"targetname" "cabin"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"mass" "400"
+"health" "1000"
+"target" "cabin"
+"dmg" "500"
+"obj_gain" "200"
+"obj_name" "Cabin"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"targetname" "crap"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"targetname" "crap"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"targetname" "crap"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"targetname" "crap"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"targetname" "crap"
+"classname" "func_explosive"
+}
+{
+"target" "t2"
+"origin" "-542 952 -521"
+"classname" "misc_teleporter"
+}
+{
+"model" "*11"
+"targetname" "swall2"
+"spawnflags" "6"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"target" "swall2"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*13"
+"target" "swall2"
+"health" "1"
+"classname" "func_button"
+}
+{
+"model" "*14"
+"spawnflags" "3"
+"targetname" "swall2"
+"classname" "func_wall"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "-542 887 -521"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t1"
+"origin" "-1210 2190 -902"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t2"
+"angle" "360"
+"origin" "-494 1970 95"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*15"
+"spawnflags" "33"
+"targetname" "jaild1"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"target" "jaild1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "360"
+"origin" "-800 2466 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "285"
+"origin" "-857 2456 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*17"
+"spawnflags" "33"
+"targetname" "jaild2"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"target" "jaild2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "360"
+"origin" "-597 2466 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "285"
+"origin" "-654 2456 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*19"
+"spawnflags" "33"
+"targetname" "jaild3"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"target" "jaild3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "360"
+"origin" "-394 2466 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "285"
+"origin" "-451 2456 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*21"
+"spawnflags" "33"
+"targetname" "jaild4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*22"
+"target" "jaild4"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "360"
+"origin" "-191 2466 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "285"
+"origin" "-248 2456 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*23"
+"spawnflags" "33"
+"targetname" "jaild5"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"target" "jaild5"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"origin" "-190.3 2147.8 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "105"
+"origin" "-133.1 2157.6 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*25"
+"spawnflags" "33"
+"targetname" "jaild6"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*26"
+"target" "jaild6"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"origin" "-393.3 2147.7 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "105"
+"origin" "-336.2 2157.7 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*27"
+"spawnflags" "33"
+"targetname" "jaild7"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*28"
+"target" "jaild7"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"origin" "-596.3 2147.7 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "105"
+"origin" "-539.4 2157.8 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*29"
+"spawnflags" "33"
+"targetname" "jaild8"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*30"
+"target" "jaild8"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"origin" "-799.1 2147.8 -768"
+"classname" "misc_insane"
+}
+{
+"angle" "105"
+"origin" "-742.3 2157.7 -766"
+"classname" "misc_deadsoldier"
+}
+{
+"model" "*31"
+"origin" "-72 2276 -755"
+"targetname" "jdoor"
+"spawnflags" "34"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*32"
+"target" "jdoor"
+"classname" "func_button"
+}
+{
+"model" "*33"
+"origin" "-1777 236 -816"
+"dmg" "500"
+"targetname" "tower"
+"sounds" "1"
+"spawnflags" "100"
+"distance" "110"
+"classname" "func_door_rotating"
+}
+{
+"model" "*34"
+"origin" "-1781 373 -858"
+"message" "The Watch Tower has been destroyed"
+"sounds" "1"
+"targetname" "tower"
+"spawnflags" "98"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*35"
+"target" "tower"
+"health" "500"
+"obj_loss" "0"
+"obj_gain" "25"
+"obj_name" "Watch Tower"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*36"
+"targetname" "bunker"
+"spawnflags" "1"
+"classname" "func_object"
+}
+{
+"model" "*37"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*38"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*39"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*40"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*41"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*42"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*43"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*44"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*45"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*46"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*47"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*48"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*49"
+"spawnflags" "1"
+"targetname" "bunker"
+"classname" "func_object"
+}
+{
+"model" "*50"
+"mass" "3000"
+"health" "1"
+"obj_gain" "50"
+"obj_name" "Bunker"
+"obj_owner" "1"
+"target" "bunker"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*51"
+"targetname" "bunker"
+"spawnflags" "3"
+"classname" "func_wall"
+}
+

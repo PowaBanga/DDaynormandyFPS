@@ -1,0 +1,300 @@
+{
+"_sun_diffuse" "200"
+"_sun_target" "x"
+"message" "bansh by Banshee \n3rd place  \n150 Brush Map Contest"
+"_sun_color" "1.8 2.1 3.3"
+"_sun_light" "1500"
+"_sun_ambient" "30"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"spawnflags" "1"
+"target" "path1"
+"dmg" "2"
+"speed" "5"
+"classname" "func_train"
+}
+{
+"spawnflags" "0"
+"target" "path2"
+"targetname" "path1"
+"angle" "0"
+"origin" "-360 -1024 -136"
+"classname" "path_corner"
+}
+{
+"spawnflags" "0"
+"target" "path1"
+"targetname" "path2"
+"angle" "0"
+"origin" "-360 -1024 -120"
+"classname" "path_corner"
+}
+{
+"delay" "0.000000"
+"targetname" "explosion2"
+"spawnflags" "0"
+"dmg" "200"
+"origin" "256 -128 376"
+"classname" "target_explosion"
+}
+{
+"model" "*2"
+"health" "0"
+"sounds" "1"
+"target" "explosion2"
+"angle" "-2"
+"lip" "4"
+"wait" "5.000000"
+"speed" "40"
+"classname" "func_button"
+}
+{
+"delay" "0.000000"
+"targetname" "explosion1"
+"spawnflags" "0"
+"dmg" "200"
+"origin" "-24 -200 376"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"_minlight" "0.000000"
+"target" "explosion1"
+"sounds" "1"
+"angle" "-2"
+"lip" "4"
+"wait" "5.000000"
+"speed" "40"
+"classname" "func_button"
+}
+{
+"delay" "0.000000"
+"targetname" "explosion3"
+"spawnflags" "0"
+"dmg" "200"
+"origin" "-256 -96 376"
+"classname" "target_explosion"
+}
+{
+"model" "*4"
+"_minlight" "0.000000"
+"target" "explosion3"
+"sounds" "1"
+"health" "0"
+"angle" "-2"
+"lip" "4"
+"wait" "5.000000"
+"speed" "40"
+"classname" "func_button"
+}
+{
+"model" "*5"
+"spawnflags" "28"
+"dmg" "25"
+"classname" "trigger_hurt"
+}
+{
+"model" "*6"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"obj_owner" "1"
+"angle" "233"
+"origin" "283.8 426.4 408.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "93"
+"origin" "-233.9 -922.9 -29.5"
+"classname" "info_sniper_start"
+}
+{
+"model" "*10"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"angle" "90"
+"origin" "-10 -883 165"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "93"
+"origin" "158.5 -944.9 -31.8"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "70"
+"origin" "167.9 -948 -27.5"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-232.3 -922.9 -30.7"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "91"
+"origin" "146.0 -949.6 -35.8"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "94"
+"origin" "-233.9 -921.4 -29.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "92"
+"origin" "147.5 -946.5 -20.8"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "93"
+"origin" "-230.7 -921.4 -32.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "92"
+"origin" "-221.3 -921.4 -27.3"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "311.4 444.3 420.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "255"
+"origin" "-0.3 445 356"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 444 354"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "323 364.7 417"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "280.3 392 415.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "208.3 442 410.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "15"
+"origin" "309.7 415 410.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "345"
+"origin" "246 424 417.3"
+"classname" "info_officer_start"
+}
+{
+"points" "100"
+"kills" "30"
+"nextmap" "gold"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "93.5 -315.2 267.7"
+"classname" "info_team_start"
+}
+{
+"kills" "30"
+"nextmap" "gold"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "-0.7 311.4 367.5"
+"classname" "info_team_start"
+}
+{
+"targetname" "x"
+"origin" "17 -628 377"
+"classname" "info_null"
+}
+{
+"target" "x"
+"origin" "-58 -915 446"
+"light" "300"
+"classname" "light"
+}
+

@@ -1,0 +1,85 @@
+{
+"message" "bunkier \n by  [101st] CIPA"
+"_sun_diffuse" "70"
+"_sun_ambient" "15"
+"_sun_light" "400"
+"_sun" "null"
+"_sun_color" "225 225 204"
+"light" "30"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "-48 160 205"
+"classname" "info_player_start"
+}
+{
+"message" "axis"
+"kills" "40"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"origin" "-530 -164 228"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "167"
+"origin" "346 124 -107"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"health" "400"
+"obj_gain" "100"
+"obj_name" "radio"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"points" "100"
+"kills" "60"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russians"
+"origin" "-663 87 223"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2234 -615 -116"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*2"
+"sounds" "1"
+"spawnflags" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"sounds" "1"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"target" "null"
+"light" "100"
+"origin" "-994.1 759.2 308"
+"classname" "light"
+}
+{
+"targetname" "null"
+"origin" "-1007.3 -520.6 220"
+"classname" "info_null"
+}
+{
+"model" "*4"
+"health" "600"
+"classname" "func_explosive"
+}
+

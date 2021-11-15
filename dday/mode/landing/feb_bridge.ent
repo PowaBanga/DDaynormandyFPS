@@ -1,0 +1,455 @@
+{
+"message" "FEB:brazilians in action bridge!\nby:TanatoVago\nto:CUCO's server"
+"_sun_surface" "100"
+"_sun_light" "100"
+"_sun_color" "1 1 0.8"
+"_sun_angle" "0 -60"
+"_sun_diffuse" "5"
+"_sun_difwait" "0"
+"_sun_ambient" "50"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"origin" "-283 576 -46"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"origin" "-283 288 -46"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"origin" "5 0 -46"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"origin" "293 -288 -46"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"origin" "293 -576 -46"
+"classname" "target_speaker"
+}
+{
+"points" "880"
+"kills" "88"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Waffen"
+"origin" "-59 -60 192"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "45"
+"origin" "-208 -188 -38"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1083 -432 96"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-608 -704 96"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1024 760 192"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1080 292 36"
+"classname" "info_reinforcements_start"
+}
+{
+"points" "880"
+"kills" "88"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "F.E.B."
+"origin" "61 60 192"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "1093 431 96"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "225 723 56"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "1069 -285 36"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "929 -681 184"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "225"
+"origin" "183 193 -38"
+"classname" "info_special_start"
+}
+{
+"angle" "-1"
+"origin" "1 0 29"
+"classname" "info_player_start"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "984 448 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "504 440 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "-8 8 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "-488 -488 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "-992 -432 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "-560 296 64"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dinant/battle1b.wav"
+"spawnflags" "5"
+"origin" "280 -288 64"
+"classname" "target_speaker"
+}
+{
+"origin" "-1024 281 51"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "970 -283 51"
+"classname" "weapon_sniper"
+}
+{
+"model" "*1"
+"obj_loss" "5"
+"obj_gain" "5"
+"dmg" "10"
+"mass" "100"
+"obj_name" "ammo Lurdinha"
+"health" "200"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"dmg" "100"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"dmg" "100"
+"mass" "200"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"mass" "200"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"mass" "200"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"mass" "200"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"mass" "200"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "func_wall"
+}
+{
+"model" "*10"
+"classname" "func_wall"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"classname" "func_wall"
+}
+{
+"model" "*15"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"classname" "func_wall"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+}
+{
+"model" "*18"
+"classname" "func_wall"
+}
+{
+"model" "*19"
+"classname" "func_wall"
+}
+{
+"model" "*20"
+"classname" "func_wall"
+}
+{
+"model" "*21"
+"classname" "func_wall"
+}
+{
+"model" "*22"
+"classname" "func_wall"
+}
+{
+"model" "*23"
+"classname" "func_wall"
+}
+{
+"model" "*24"
+"mass" "100"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*25"
+"mass" "100"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"noise" "dday3/truck.wav"
+"attenuation" "2"
+"volume" ".8"
+"spawnflags" "5"
+"origin" "745 427 35"
+"classname" "target_speaker"
+}
+{
+"model" "*26"
+"dmg" "100"
+"mass" "200"
+"health" "5000"
+"obj_loss" "15"
+"obj_gain" "60"
+"obj_name" "Motor M2-haltrack"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*27"
+"message" "F.E.B. M2-haltrack captured !"
+"dmg" "5"
+"health" "15"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*28"
+"classname" "func_wall"
+}
+{
+"model" "*29"
+"dmg" "200"
+"mass" "200"
+"health" "2000"
+"obj_loss" "25"
+"obj_gain" "50"
+"obj_name" "sentinel PAK 35"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*30"
+"dmg" "20"
+"mass" "50"
+"health" "100"
+"obj_loss" "25"
+"obj_gain" "50"
+"obj_name" "camp radio"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "100"
+"origin" "1010 -591 72"
+"classname" "light"
+}
+{
+"model" "*31"
+"classname" "func_wall"
+}
+{
+"model" "*32"
+"classname" "func_wall"
+}
+{
+"model" "*33"
+"dmg" "100"
+"mass" "50"
+"health" "8000"
+"classname" "func_explosive"
+}
+{
+"model" "*34"
+"dmg" "100"
+"mass" "50"
+"health" "8000"
+"classname" "func_explosive"
+}
+{
+"model" "*35"
+"dmg" "100"
+"mass" "50"
+"health" "8000"
+"classname" "func_explosive"
+}
+{
+"model" "*36"
+"dmg" "100"
+"mass" "50"
+"health" "8000"
+"classname" "func_explosive"
+}
+{
+"model" "*37"
+"message" "Waffeb head bridge captured !"
+"dmg" "5"
+"health" "15"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*38"
+"message" "Middle bridge captured !"
+"dmg" "5"
+"health" "15"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*39"
+"message" "F.E.B. head bridge captured !"
+"dmg" "5"
+"health" "15"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*40"
+"message" "F.E.B. head bridge captured !"
+"dmg" "5"
+"health" "15"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+

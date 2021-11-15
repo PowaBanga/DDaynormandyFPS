@@ -1,0 +1,301 @@
+{
+"_sun_angle" "10 -40"
+"_sun_color" ".5 .7 .9"
+"_sun_diffuse" "90"
+"_sun_light" "120"
+"_sun_ambient" "55"
+"sky" "dwell"
+"message" "The Railyard V2\nMr. YOur no fun"
+"classname" "worldspawn"
+}
+{
+"nextmap" "sgmunfb"
+"kills" "60"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Soviet"
+"origin" "624 595 112"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "276"
+"origin" "278 1882 63"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "90"
+"origin" "-407.72 1491.81 -53.73"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "276"
+"origin" "-313 1184 100"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "276"
+"origin" "902 1134 97"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "Team 0"
+"angle" "276"
+"origin" "170 1188 114"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "sgmunfb"
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "615 -335.8 100"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "9"
+"origin" "-66.37 -1065.12 -50.57"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-338 -1140 83"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "963.18 -221.02 66"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "545 -1166.27 -47.41"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "2"
+"origin" "23.00 -393.00 83"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"origin" "653.5 1364.5 132.6"
+"classname" "info_player_start"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "combat"
+"noise" "cherbourg/amb4"
+"attenuation" "4"
+"origin" "-148 -29.8 -5"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"random" "0"
+"wait" "45"
+"spawnflags" "1"
+"target" "combat"
+"origin" "-111 -206.7 7"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"targetname" "arta1"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/ambience"
+"origin" "-96 522 121"
+"classname" "target_speaker"
+}
+{
+"wait" "37"
+"target" "arta1"
+"spawnflags" "1"
+"origin" "89 547 -3"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"targetname" "noise"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/combata2"
+"origin" "727 192 75"
+"classname" "target_speaker"
+}
+{
+"wait" "18"
+"target" "noise"
+"spawnflags" "1"
+"origin" "707 340 63"
+"classname" "func_timer"
+}
+{
+"target" "fire"
+"spawnflags" "1"
+"origin" "11 5 53"
+"classname" "func_timer"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "527.3 92.8 128"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "300"
+"origin" "1184.44 48.75 128"
+"classname" "light"
+}
+{
+"light" "80"
+"origin" "225 712 36"
+"classname" "light"
+}
+{
+"model" "*1"
+"spawnflags" "4"
+"classname" "func_wall"
+}
+{
+"mass" "8"
+"model" "sprites/faf/fire1.sp2"
+"angle" "328"
+"origin" "584.2 103.9 26.3"
+"classname" "misc_md2"
+}
+{
+"_color" "1 1 0"
+"style" "7"
+"light" "300"
+"origin" "600.1 99.6 35.7"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0.3"
+"style" "8"
+"light" "300"
+"origin" "613 107.4 35.7"
+"classname" "light"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "faf/fire1"
+"attenuation" "2"
+"origin" "550 81 69"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "faf/fire1"
+"attenuation" "2"
+"origin" "632 1046 154"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"targetname" "fire"
+"attenuation" "2"
+"spawnflags" "5"
+"noise" "faf/fire1"
+"origin" "398 -555 112"
+"classname" "target_speaker"
+}
+{
+"mass" "8"
+"model" "sprites/faf/fire1.sp2"
+"angle" "328"
+"origin" "613.6 1023.7 98.9"
+"classname" "misc_md2"
+}
+{
+"_color" "1 1 0"
+"style" "7"
+"light" "300"
+"origin" "593.2 1064.4 113.1"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0.3"
+"style" "8"
+"light" "300"
+"origin" "606.1 1072.2 113.1"
+"classname" "light"
+}
+{
+"mass" "8"
+"model" "sprites/faf/fire1.sp2"
+"angle" "83"
+"origin" "404.8 -595.7 103.7"
+"classname" "misc_md2"
+}
+{
+"_color" "1 1 0"
+"style" "2"
+"light" "300"
+"origin" "380.8 -588.1 137.0"
+"classname" "light"
+}
+{
+"_color" "1 0.5 0.3"
+"style" "4"
+"light" "300"
+"origin" "415.9 -574.0 137.0"
+"classname" "light"
+}
+{
+"volume" "1"
+"spawnflags" "0"
+"targetname" "fire"
+"noise" "faf/fire1"
+"attenuation" "2"
+"origin" "1020 111 63.3"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"classname" "trigger_hurt"
+}
+{
+"model" "*4"
+"dmg" "4"
+"spawnflags" "24"
+"classname" "trigger_hurt"
+}
+{
+"model" "*5"
+"speed" "20"
+"angle" "90"
+"classname" "trigger_push"
+}
+{
+"model" "*6"
+"speed" "20"
+"angle" "270"
+"classname" "trigger_push"
+}
+

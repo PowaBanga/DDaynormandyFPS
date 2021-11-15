@@ -1,0 +1,168 @@
+{
+"message" "Infantry Attack V.1 For D-Day Verson 4.1         By : Psyco"
+"sky" "night2"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"origin" "1739 34 -72"
+"speed" "50"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-328 119 -72"
+"speed" "50"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"angle" "-2"
+"origin" "712 96 624"
+"classname" "info_player_start"
+}
+{
+"nextmap" "siege"
+"kills" "100"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russians"
+"origin" "-448 88 -48"
+"classname" "info_team_start"
+}
+{
+"nextmap" "siege"
+"kills" "100"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "1888 64 -48"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "271"
+"origin" "-696 464 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "89"
+"origin" "-696 -288 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "271"
+"origin" "-696 464 376"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-696 -288 -72"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "271"
+"origin" "2104 440 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "89"
+"origin" "2104 -312 -72"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "271"
+"origin" "2104 440 -72"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "2104 -312 -72"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "600 24 1840"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "592 24 1848"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "608 24 1848"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "608 24 1960"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "616 24 1896"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "616 24 1848"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "720 24 1848"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "712 24 1856"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "728 24 1856"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "728 24 1968"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "736 24 1904"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "736 24 1856"
+"classname" "info_engineer_start"
+}
+

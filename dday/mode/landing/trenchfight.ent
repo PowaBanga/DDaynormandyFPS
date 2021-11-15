@@ -1,0 +1,388 @@
+{
+"classname" "worldspawn"
+"_sun_ambient" "20"
+"_sun_angle" "100 -50"
+"_sun_diffuse" "200"
+"_sun_light" "85"
+"message" "Trench Fight - By Aaron"
+"sky" "cher"
+"skyrotate" "1"
+"skyaxis" "1 1 100"
+}
+{
+"origin" "768 -52 48"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "1"
+"kills" "40"
+"classname" "info_team_start"
+}
+{
+"origin" "768 -20 48"
+"message" "Axis"
+"obj_owner" "1"
+"count" "0"
+"kills" "40"
+"dll" "grm"
+"classname" "info_team_start"
+}
+{
+"noise" "surreal/birdsng1.wav"
+"spawnflags" "1"
+"origin" "472 219 56"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/bird11.wav"
+"spawnflags" "1"
+"origin" "143 -357 48"
+"classname" "target_speaker"
+}
+{
+"classname" "info_player_start"
+"origin" "661 -342 23"
+"angle" "90"
+}
+{
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "562 264 -16"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "570 0 -16"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "562 -336 -16"
+"spawnflags" "1"
+"noise" "faf/stream"
+}
+{
+"classname" "target_speaker"
+"origin" "-399 -395 104"
+"spawnflags" "1"
+"noise" "faf/bird18"
+}
+{
+"classname" "target_speaker"
+"origin" "-400 380 108"
+"spawnflags" "1"
+"noise" "faf/bird9.wav"
+}
+{
+"noise" "faf/bird9.wav"
+"spawnflags" "1"
+"origin" "1812 -380 92"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/bird18"
+"spawnflags" "1"
+"origin" "1819 379 96"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "862 272 -16"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "854 -64 -16"
+"spawnflags" "1"
+"noise" "faf/stream"
+}
+{
+"classname" "target_speaker"
+"origin" "862 -328 -16"
+"spawnflags" "1"
+"noise" "faf/stream"
+}
+{
+"classname" "target_speaker"
+"origin" "1269 389 48"
+"spawnflags" "1"
+"noise" "faf/bird11.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "948 -219 56"
+"spawnflags" "1"
+"noise" "surreal/birdsng1.wav"
+}
+{
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "712 -328 -16"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/stream"
+"spawnflags" "1"
+"origin" "704 -64 -16"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "712 272 -16"
+"spawnflags" "1"
+"noise" "faf/stream"
+}
+{
+"noise" "faf/bird11.wav"
+"spawnflags" "1"
+"origin" "1277 -395 48"
+"classname" "target_speaker"
+}
+{
+"classname" "target_speaker"
+"origin" "127 403 48"
+"spawnflags" "1"
+"noise" "faf/bird11.wav"
+}
+{
+"classname" "light"
+"origin" "-112 -920 -312"
+}
+{
+"classname" "info_hgunner_start"
+"origin" "-112 -860 -326"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "info_lgunner_start"
+"origin" "-193 -897 -287"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "info_special_start"
+"origin" "-179 -985 -327"
+"angle" "1"
+"obj_owner" "0"
+}
+{
+"classname" "info_engineer_start"
+"origin" "-109 -943 -322"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "info_medic_start"
+"origin" "-26 -934 -325"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "info_flamethrower_start"
+"origin" "-32 -849 -321"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "info_officer_start"
+"origin" "-190 -939 -323"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "info_lgunner_start"
+"origin" "536 -940 -363"
+"angle" "180"
+"obj_owner" "1"
+}
+{
+"classname" "info_hgunner_start"
+"origin" "481 -905 -371"
+"angle" "181"
+"obj_owner" "1"
+}
+{
+"classname" "info_special_start"
+"origin" "461 -1006 -365"
+"angle" "180"
+"obj_owner" "1"
+}
+{
+"classname" "info_engineer_start"
+"origin" "554 -839 -366"
+"angle" "178"
+"obj_owner" "1"
+}
+{
+"classname" "info_medic_start"
+"origin" "596 -988 -367"
+"angle" "181"
+"obj_owner" "1"
+}
+{
+"classname" "info_flamethrower_start"
+"origin" "435 -943 -373"
+"angle" "183"
+"obj_owner" "1"
+}
+{
+"classname" "info_officer_start"
+"origin" "622 -868 -301"
+"angle" "180"
+"obj_owner" "1"
+}
+{
+"origin" "544 -920 -304"
+"classname" "light"
+}
+{
+"classname" "info_sniper_start"
+"origin" "-1662 -208 -13"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1706 522 -78"
+"classname" "info_infantry_start"
+}
+{
+"classname" "info_infantry_start"
+"origin" "-1706 458 -78"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1642 522 -78"
+"classname" "info_infantry_start"
+}
+{
+"classname" "info_infantry_start"
+"origin" "-1642 458 -78"
+"angle" "360"
+"obj_owner" "0"
+}
+{
+"classname" "target_speaker"
+"origin" "-1272 332 56"
+"spawnflags" "1"
+"noise" "surreal/birdsng1.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-1688 180 40"
+"spawnflags" "1"
+"noise" "faf/bird11.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-1352 -196 48"
+"spawnflags" "1"
+"noise" "faf/bird11.wav"
+}
+{
+"classname" "info_sniper_start"
+"origin" "3088 195 -11"
+"angle" "90"
+"obj_owner" "1"
+}
+{
+"classname" "info_infantry_start"
+"origin" "3057 -572 -87"
+"angle" "183"
+"obj_owner" "1"
+}
+{
+"obj_owner" "1"
+"angle" "183"
+"origin" "3137 -572 -87"
+"classname" "info_infantry_start"
+}
+{
+"classname" "info_infantry_start"
+"origin" "3137 -508 -87"
+"angle" "183"
+"obj_owner" "1"
+}
+{
+"obj_owner" "1"
+"angle" "183"
+"origin" "3057 -508 -87"
+"classname" "info_infantry_start"
+}
+{
+"noise" "faf/bird11.wav"
+"spawnflags" "1"
+"origin" "2764 196 48"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/bird11.wav"
+"spawnflags" "1"
+"origin" "3100 -180 40"
+"classname" "target_speaker"
+}
+{
+"noise" "surreal/birdsng1.wav"
+"spawnflags" "1"
+"origin" "2684 -332 56"
+"classname" "target_speaker"
+}
+{
+"targetname" "b52"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "-1"
+"origin" "254 6 2"
+"noise" "faf/b25.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "254 27 12"
+"target" "b52"
+"delay" "1"
+"wait" "30"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"classname" "target_speaker"
+"noise" "beach/thunder.wav"
+"origin" "254 -42 2"
+"attenuation" "-1"
+"volume" "1"
+"spawnflags" "4"
+"targetname" "t53"
+}
+{
+"classname" "func_timer"
+"spawnflags" "1"
+"wait" "80"
+"target" "t53"
+"origin" "254 -21 12"
+"delay" "1"
+}
+{
+"targetname" "t54"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "-1"
+"origin" "254 -90 2"
+"noise" "faf/caenamb.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "254 -69 12"
+"target" "t54"
+"delay" "0"
+"wait" "25"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+

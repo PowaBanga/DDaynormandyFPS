@@ -1,0 +1,259 @@
+{
+"_sun_diffuse" "70"
+"_sun_angle" "-75 105"
+"_sun_color" ".65 .75 .75"
+"_sun_ambient" "50"
+"_sun_light" "95"
+"message" "Last Battle - MUNF"
+"sky" "wake"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-1188 83 163"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-1618 67 163"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-783.00 -1347.00 205"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"obj_owner" "1"
+"origin" "-846.13 152.72 153"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-1650.5 177 52"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "dday1bh"
+"kills" "90"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-1507.47 -580.00 52"
+"classname" "info_team_start"
+}
+{
+"nextmap" "dday1bh"
+"kills" "90"
+"angle" "180"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "USA"
+"origin" "528.58 -328.85 212"
+"classname" "info_team_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "473.10 -1586.55 193"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "180"
+"obj_owner" "0"
+"origin" "362 -1654 193"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"obj_owner" "0"
+"origin" "602.61 -1655.11 193"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "738.21 -78.43 164"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "-1136 -1644 180"
+"classname" "info_player_start"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "hedge/5insx"
+"origin" "512.9 -458.1 92"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/bell2441"
+"origin" "-392.5 124.5 92"
+"classname" "target_speaker"
+}
+{
+"targetname" "creak"
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/creak441"
+"origin" "-589.5 -558.5 92"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "afrowuk/light_broken"
+"origin" "-547.5 -1568.5 92"
+"classname" "target_speaker"
+}
+{
+"targetname" "creak"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "0"
+"noise" "coco/creak3"
+"origin" "-1111.5 -1568.5 92"
+"classname" "target_speaker"
+}
+{
+"target" "creak"
+"random" "5"
+"wait" "46"
+"spawnflags" "1"
+"origin" "-1081.1 -1428.1 210"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "faf/reic2"
+"origin" "-1559.5 -1180.5 92"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "inland/babycry"
+"origin" "-563.5 -1116.5 92"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "-511.6 -664.4 72"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "1029"
+"noise" "June6/peakwind"
+"origin" "-1291.6 -576.4 72"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "June6/peakwind"
+"origin" "-675.6 -1672.4 72"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "5"
+"noise" "llurk/thunder"
+"origin" "336.5 -1244.5 169"
+"classname" "target_speaker"
+}
+{
+"style" "2"
+"origin" "-808 -431 195"
+"_color" "1 1 0.5"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "-1739 -617 253"
+"_color" "1 1 0.5"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "-783.20 -1347.00 253"
+"_color" "1 1 0.5"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "-1740 -508 235"
+"_color" "1 1 0"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "-587.06 -1550.81 332.67"
+"_color" "1 1 0.5"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "-591.95 -1800.31 332.67"
+"_color" "1 1 0"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "79 -91.19 184"
+"_color" "1 1 0.5"
+"light" "150"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "505.67 99.54 182"
+"_color" "1 1 0"
+"light" "150"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "505.68 -927.73 218.99"
+"_color" "1 1 0.5"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "2"
+"origin" "203.06 -1242.29 286.68"
+"_color" "1 1 0"
+"light" "200"
+"classname" "light"
+}
+

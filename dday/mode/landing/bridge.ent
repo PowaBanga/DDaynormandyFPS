@@ -1,0 +1,474 @@
+{
+"_sun_light" "360"
+"_sun_ambient" "55"
+"_sun_diffuse" "300"
+"_sun_color" ".5 .8 1"
+"_sun_angle" "10 -30"
+"sky" "dwell"
+"message" "Attrition: A Bridge Too Far    By: Jay"
+"classname" "worldspawn"
+}
+{
+"angle" "202"
+"origin" "260 -32 -78"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "341"
+"origin" "-101 -45.3 -5"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "143"
+"origin" "-87.4 -55.4 -6.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "339"
+"origin" "906.3 327 550.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "148"
+"origin" "-23.7 -94.3 8"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "4"
+"origin" "-73.7 -72.7 -8.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "127"
+"origin" "-91.2 -67.1 -42.5"
+"classname" "info_sniper_start"
+}
+{
+"noise" "jay/erriewind"
+"volume" "1.0"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "832 -90 411"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/erriewind"
+"volume" "1.0"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "792 240 140"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/erriewind"
+"volume" "1.0"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "774 -434 140"
+"classname" "target_speaker"
+}
+{
+"obj_owner" "0"
+"angle" "62"
+"origin" "-221 -304.7 -48"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "145"
+"origin" "-53.7 -85.3 -7.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "335"
+"origin" "-181.7 -21.3 -42.3"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "159"
+"origin" "1189.4 -307.7 -175.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "219"
+"origin" "1829.7 -55 -60"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "178"
+"origin" "910 -428 6"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "1681 -341.3 -19"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "43"
+"origin" "1628.3 -152 -192.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "175"
+"origin" "770.3 -87.7 400"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "112"
+"origin" "1872.3 -318 -61.7"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "182"
+"origin" "1753.7 -155 -65.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "148"
+"origin" "1690 -96 -182.7"
+"classname" "info_officer_start"
+}
+{
+"targetname" "light"
+"_color" "1 0 0"
+"style" "32"
+"origin" "1640 -76 -162"
+"light" "300"
+"classname" "light"
+}
+{
+"targetname" "light"
+"_color" "1 0 0"
+"style" "32"
+"origin" "1057 -320 -145"
+"light" "250"
+"classname" "light"
+}
+{
+"targetname" "light"
+"_color" "1 0 0"
+"style" "32"
+"origin" "802 -90 458"
+"light" "300"
+"classname" "light"
+}
+{
+"targetname" "light"
+"_color" "1 0 0"
+"style" "32"
+"origin" "864 -428 76"
+"light" "300"
+"classname" "light"
+}
+{
+"message" "Unite Allie"
+"points" "40"
+"nextmap" "dday3"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "360"
+"origin" "-90.5 -141.2 -78.3"
+"classname" "info_team_start"
+}
+{
+"kills" "40"
+"nextmap" "dday3"
+"dll" "grm"
+"obj_owner" "1"
+"count" "0"
+"message" "The Gestapo"
+"origin" "1713.3 -144.6 -56.5"
+"classname" "info_team_start"
+}
+{
+"angle" "181"
+"origin" "672 96 0"
+"classname" "misc_banner"
+}
+{
+"angle" "179"
+"origin" "676 -264 -4"
+"classname" "misc_banner"
+}
+{
+"targetname" "t"
+"dmg" "150"
+"delay" "0"
+"origin" "1447.6 -87 -80.5"
+"classname" "target_explosion"
+}
+{
+"model" "*1"
+"lip" "-2"
+"wait" "15"
+"speed" "100"
+"angle" "-2"
+"sounds" "1"
+"target" "c"
+"classname" "func_button"
+}
+{
+"model" "*2"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "a"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"message" "Bridge has been taken by"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*4"
+"message" "Bridge maintanance level has been taken by:"
+"dmg" "10"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"noise" "dday3/truck"
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "1"
+"origin" "88 -164 -12"
+"classname" "target_speaker"
+}
+{
+"targetname" "a"
+"dmg" "200"
+"delay" "0"
+"origin" "1551.6 -237 -68.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "c"
+"dmg" "200"
+"delay" "0"
+"origin" "1475.6 43 -78.5"
+"classname" "target_explosion"
+}
+{
+"target" "rumble"
+"targetname" "speak"
+"noise" "jay/speaker"
+"volume" "1.0"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "784 36 64"
+"classname" "target_speaker"
+}
+{
+"model" "*5"
+"dmg" "600"
+"spawnflags" "4"
+"classname" "trigger_hurt"
+}
+{
+"targetname" "speak"
+"noise" "jay/speaker"
+"volume" "1.0"
+"attenuation" "1"
+"spawnflags" "1"
+"origin" "448 -190 58"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/rumble"
+"targetname" "rumble"
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "1088 -216 -186"
+"classname" "target_speaker"
+}
+{
+"target" "speak"
+"targetname" "blow"
+"origin" "830 2 4"
+"classname" "trigger_relay"
+}
+{
+"model" "*6"
+"mass" "350"
+"classname" "func_explosive"
+}
+{
+"target" "rumble"
+"targetname" "speak"
+"origin" "830 2 4"
+"classname" "trigger_relay"
+}
+{
+"model" "*7"
+"mass" "350"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"mass" "350"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"mass" "350"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"mass" "350"
+"classname" "func_explosive"
+}
+{
+"spawnflags" "6"
+"noise" "jay/light"
+"targetname" "shutdown"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "828 -104 4"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/light"
+"targetname" "shutdown"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "484 -112 4"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/light"
+"targetname" "shutdown"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "148 -112 28"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/light"
+"targetname" "shutdown"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "1308 -80 -30"
+"classname" "target_speaker"
+}
+{
+"noise" "jay/light"
+"targetname" "shutdown"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "1624 -92 -172"
+"classname" "target_speaker"
+}
+{
+"speed" "2"
+"message" "za"
+"targetname" "fade"
+"target" "light"
+"origin" "894 -260 630"
+"classname" "target_lightramp"
+}
+{
+"model" "*11"
+"target" "blow"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Power Box"
+"obj_owner" "1"
+"dmg" "100"
+"mass" "700"
+"health" "775"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*12"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Bridge Blue Prints"
+"obj_owner" "1"
+"dmg" "0"
+"mass" "300"
+"health" "75"
+"classname" "func_explosive_objective"
+}
+{
+"target" "fade"
+"targetname" "blow"
+"origin" "1142 -298 -124"
+"classname" "trigger_relay"
+}
+{
+"target" "down"
+"targetname" "blow"
+"origin" "1142 -298 -124"
+"classname" "trigger_relay"
+}
+{
+"targetname" "down"
+"noise" "jay/down"
+"volume" "1.0"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "1094 -220 -180"
+"classname" "target_speaker"
+}
+{
+"targetname" "down"
+"noise" "jay/down"
+"volume" "1.0"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "1642 -94 -172"
+"classname" "target_speaker"
+}
+{
+"model" "*13"
+"targetname" "door1"
+"spawnflags" "4"
+"target" "door"
+"sounds" "dday3/openlock"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"message" "Door Unlocked!"
+"target" "door1"
+"sounds" "dday3/openlock"
+"classname" "trigger_once"
+}
+{
+"model" "*15"
+"spawnflags" "2"
+"origin" "791 -384 -14"
+"sounds" "1"
+"targetname" "door"
+"message" "Door Locked"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+

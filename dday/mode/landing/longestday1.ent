@@ -1,0 +1,431 @@
+{
+"message" "The Longest Day\nYour Finest Hour  By: (SAS)SARGE"
+"_sun_angle" "10 -30"
+"_sun_color" ".5 .8 1"
+"_sun_diffuse" "100"
+"_sun_ambient" "10"
+"_sun_light" "100"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"angle" "181"
+"origin" "-1246.9 -91.7 226.2"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "200"
+"mass" "200"
+"health" "900"
+"classname" "func_explosive"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1222.9 352.3 0.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1302.9 -31.7 0.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1034.9 -227.7 24.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-690.9 -227.7 8.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-870.9 436.3 24.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1298.9 -827.7 24.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1078.9 -415.7 0.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1078.9 224.3 0.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-278.9 -239.7 224.0"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2142.9 272.3 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2110.9 -55.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2326.9 -271.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2366.9 -591.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1710.9 216.3 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1966.9 368.3 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2406.9 88.3 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2542.9 -295.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2518.9 -911.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2110.9 -895.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1910.9 -735.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1918.9 -391.7 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-2382.9 520.3 -8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "josh/war"
+"origin" "-1414.9 -87.7 0.0"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"mass" "200"
+"dmg" "10"
+"health" "2000"
+"obj_gain" "50"
+"obj_loss" "20"
+"obj_name" "AA gun"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"mass" "200"
+"dmg" "10"
+"health" "2000"
+"obj_name" "AA gun"
+"obj_gain" "50"
+"obj_loss" "10"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"nextmap" "longestday2"
+"points" "300"
+"message" "Allies"
+"dll" "usa"
+"obj_owner" "0"
+"origin" "-555.9 -39.7 0.0"
+"classname" "info_team_start"
+}
+{
+"nextmap" "longestday1"
+"kills" "70"
+"message" "Nazis"
+"dll" "grm"
+"obj_owner" "1"
+"origin" "-555.9 -39.7 0.0"
+"classname" "info_team_start"
+}
+{
+"model" "*4"
+"dmg" "5"
+"mass" "100"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"message" "Tunnel"
+"dmg" "10"
+"health" "50"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*6"
+"message" "Bunker Tunnel"
+"dmg" "20"
+"health" "50"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"obj_owner" "1"
+"origin" "207.1 -695.7 296"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"origin" "335.1 -229.7 264"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"origin" "2185.1 370.3 112"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"origin" "2233.1 440.3 104"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"origin" "205.1 146.3 260"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"origin" "239.1 -189.7 144"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"origin" "2233.1 384.3 132"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"origin" "241.1 -61.7 276"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"origin" "243.1 -263.7 128"
+"classname" "info_medic_start"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"origin" "-240.9 -191.7 164.0"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"origin" "-240.9 164.3 164.0"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"origin" "-240.9 -421.7 163.0"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"origin" "-240.9 -537.7 161.0"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-226.9 -707.7 -64.0"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-346.9 -699.7 -64.0"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-38.9 -703.7 44.0"
+"light" "300"
+"classname" "light"
+}
+{
+"targetname" "explo1"
+"dmg" "50"
+"delay" "20"
+"origin" "-1206.9 -179.7 -36.0"
+"classname" "target_explosion"
+}
+{
+"spawnflags" "17"
+"style" "0"
+"target" "explo1"
+"targetname" "timer1"
+"origin" "-910.9 172.3 0.0"
+"classname" "func_clock"
+}
+{
+"angle" "181"
+"origin" "-310.9 -667.7 212.0"
+"classname" "weapon_mg42"
+}
+{
+"Obj_owner" "0"
+"angle" "360"
+"origin" "-1624 200 -16"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1648 200 -16"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2360 -232 -24"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2400 -576 -24"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2440 384 -24"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2408 368 -16"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2352 -232 -24"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2384 392 -48"
+"classname" "info_medic_start"
+}
+{
+"angle" "360"
+"origin" "-2376 -256 -16"
+"classname" "info_flamethrower_start"
+}
+

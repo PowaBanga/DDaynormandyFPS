@@ -1,0 +1,271 @@
+{
+"sounds" "0"
+"message" "- Nuenen -\nDesigned by Matthias"
+"sky" "sr"
+"_sun_angle" "245 -45"
+"_sun_color" "1.0 1.0 1.0"
+"_sun_ambient" "10"
+"_sun_light" "190"
+"classname" "worldspawn"
+}
+{
+"nextmap" "Nuenen"
+"origin" "-1687 2672 64"
+"kills" "60"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"classname" "info_team_start"
+}
+{
+"nextmap" "Nuenen"
+"origin" "352 2024 -84"
+"kills" "60"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"classname" "info_team_start"
+}
+{
+"origin" "-1892 2684 -92"
+"obj_owner" "0"
+"angle" "360"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "256 2036 -112"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-8 0 -72"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "-1180 288 -28"
+"angle" "270"
+"classname" "info_player_start"
+}
+{
+"origin" "-1803 2694 -60"
+"light" "400"
+"classname" "light"
+}
+{
+"model" "*1"
+"health" "10"
+"target" "raams1"
+"classname" "func_explosive"
+}
+{
+"origin" "-1634 -15 -95"
+"noise" "world/brkglas"
+"targetname" "raams1"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"wait" "2"
+"target" "raam2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"origin" "-1287 -75 -112"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"target" "raams2"
+"mass" "75"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"origin" "-1520 69 -96"
+"targetname" "raams2"
+"noise" "world/brkglas"
+"classname" "target_speaker"
+}
+{
+"model" "*5"
+"origin" "-1289 13 32"
+"targetname" "raam2"
+"dmg" "0"
+"speed" "150"
+"distance" "90"
+"wait" "3"
+"sounds" "1"
+"classname" "func_door_rotating"
+}
+{
+"model" "*6"
+"origin" "-1287 -49 32"
+"targetname" "raam2"
+"dmg" "0"
+"speed" "150"
+"distance" "90"
+"wait" "3"
+"sounds" "1"
+"spawnflags" "2"
+"classname" "func_door_rotating"
+}
+{
+"model" "*7"
+"health" "10"
+"target" "raams3"
+"classname" "func_explosive"
+}
+{
+"origin" "-1392 29 17"
+"noise" "world/brkglas.wav"
+"targetname" "raams3"
+"classname" "target_speaker"
+}
+{
+"model" "*8"
+"mass" "250"
+"dmg" "25"
+"health" "150"
+"classname" "func_explosive"
+}
+{
+"origin" "1024 2024 -116"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-1132 2716 4"
+"obj_owner" "0"
+"angle" "360"
+"classname" "info_reinforcements_start"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "560 1666 -108"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "108 1352 4"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "1000 1400 4"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "168 664 -68"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "512 -224 4"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "-240 280 4"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "1044 348 -84"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "632 920 -108"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-688 236 -92"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-904 940 -120"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-564 -256 -96"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-1872 232 -32"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-1764 -168 -96"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-1852 1068 -84"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "124 956 -96"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "192 128 -120"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "-1472 300 -76"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fight.wav"
+"spawnflags" "1"
+"origin" "632 428 4"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "-1856 444 4"
+"classname" "target_speaker"
+}
+{
+"noise" "Matthias/fire03.wav"
+"spawnflags" "1"
+"origin" "-1208 1300 4"
+"classname" "target_speaker"
+}
+

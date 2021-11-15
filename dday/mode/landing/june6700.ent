@@ -1,0 +1,212 @@
+{
+"message" "June 6th 1944 7:00 PM - Mr Your No Fun"
+"_sun_angle" "10 -30"
+"_sun_color" ".5 .8 1"
+"_sun_diffuse" "300"
+"_sun_light" "350"
+"_sun_ambient" "55"
+"classname" "worldspawn"
+}
+{
+"nextmap" "june6230"
+"points" "1"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "192 -896 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-84 -1354 -96"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-548 -1356 48"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "june6500"
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-160 864 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-932 732 28"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "36 140 126"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-340 876 -98"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "96 -808 -70"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "1"
+"targetname" "eisenhower"
+"noise" "june6/eisenhower441"
+"volume" "1"
+"attenuation" "1"
+"origin" "96 -846 -62"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "45"
+"target" "eisenhower"
+"spawnflags" "1"
+"origin" "-2 -2 4"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"dmg" "0"
+"mass" "25"
+"health" "100"
+"obj_gain" "1"
+"obj_name" "Radio"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"targetname" "Speaker1"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/creak441"
+"origin" "-300 -630 -16"
+"classname" "target_speaker"
+}
+{
+"delay" "0"
+"pausetime" "0"
+"wait" "5"
+"target" "Speaker1"
+"random" "0"
+"spawnflags" "15"
+"origin" "-434 -630 292"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "June6/basset441"
+"targetname" "Plane2"
+"origin" "-768 -630 64"
+"classname" "target_speaker"
+}
+{
+"random" "0"
+"delay" "5"
+"wait" "35"
+"spawnflags" "1"
+"target" "Plane2"
+"origin" "-434 -630 292"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/belch441"
+"attenuation" "4"
+"origin" "-434 -630 292"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "90"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "-80 -630 304"
+"classname" "func_timer"
+}
+{
+"targetname" "surf"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/bell2441"
+"origin" "-434 -630 292"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "60"
+"spawnflags" "1"
+"target" "surf"
+"origin" "-680 -364 292"
+"classname" "func_timer"
+}
+{
+"targetname" "battle"
+"spawnflags" "4"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/crying441"
+"origin" "-434 -630 292"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "17"
+"spawnflags" "1"
+"target" "battle"
+"origin" "-680 -364 292"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"targetname" "hog"
+"noise" "june6/hog441"
+"attenuation" "4"
+"origin" "-434 -630 292"
+"classname" "target_speaker"
+}
+{
+"wait" "28"
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"target" "hog"
+"spawnflags" "1"
+"origin" "-434 -630 292"
+"classname" "func_timer"
+}
+{
+"light" "250"
+"angle" "360"
+"origin" "32 -828 4"
+"classname" "light_mine2"
+}
+

@@ -1,0 +1,164 @@
+{
+"_sun_angle" "-20 -20"
+"_sun_color" ".4 .5 .9"
+"_sun_diffuse" "95"
+"_sun_ambient" "175"
+"_sun_slight" "200"
+"message" "The Russian Winter\nMr. YOur no fun"
+"sky" "rain"
+"classname" "worldspawn"
+}
+{
+"nextmap" "iraidbhv3"
+"kills" "85"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Soviet"
+"origin" "225 -7 -60"
+"classname" "info_team_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "911 -96 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "925 138 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "794.5 655 -1.5"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "252 506.65 -1.5"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-1026 -595.7 -63.6"
+"_color" "1 1 1"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-1013.3 -689.9 -84"
+"_color" "1 1 1"
+"light" "150"
+"classname" "light"
+}
+{
+"nextmap" "iraidbhv3"
+"kills" "85"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-793.36 2.58 -48"
+"classname" "info_team_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-1318.25 -640 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-1315.25 -506.25 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-1346.09 448.06 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "1"
+"origin" "-1341.84 321.56 -38"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "3"
+"origin" "-27.08 83.69 -84"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"random" "15"
+"wait" "75"
+"target" "wind"
+"spawnflags" "1"
+"origin" "-187.3 259.6 -42"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" ".6"
+"noise" "June6/s7wind"
+"attenuation" "4"
+"targetname" "wind"
+"origin" "144 224 2"
+"classname" "target_speaker"
+}
+{
+"wait" "9"
+"target" "wind2"
+"spawnflags" "1"
+"origin" "-203.3 -24.4 -42"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"noise" "faf/windr"
+"attenuation" "4"
+"targetname" "wind2"
+"origin" "-169 -149 2"
+"classname" "target_speaker"
+}
+{
+"wait" ".15"
+"target" "burning1"
+"spawnflags" "1"
+"origin" "-387.7 723.5 2"
+"classname" "func_timer"
+}
+{
+"target" "fire"
+"spawnflags" "1"
+"origin" "-703.21 -66.97 -10"
+"classname" "func_timer"
+}
+{
+"model" "*3"
+"mass" "75"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+}
+

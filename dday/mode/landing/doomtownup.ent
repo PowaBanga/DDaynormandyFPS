@@ -1,0 +1,278 @@
+{
+"_sun_surface" "50"
+"_sun_diffuse" "10"
+"message" "Return the Doomtown (abandonware)"
+"sky" "drkholo"
+"_sun" "t1"
+"_sun_light" "250"
+"_sun_ambient" "40"
+"_sun_color" "1 1 .6"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-1469.0 1366.6 176.8"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "-1073.4 492.5 95.8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-679.4 630.2 551.4"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-756.3 582.0 539.1"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-728.6 2673.2 551.4"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-1297.2 2660.9 541.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-501.1 517.1 95.8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "-1319.5 806.3 378.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "-308.0 2666.5 94.3"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "-1024 2552 381.5"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-1725.5 2673.2 98.5"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "Redarmy"
+"nextmap" "doomtownup"
+"kills" "51"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "208"
+"origin" "-1118.3 1684 228.1"
+"classname" "info_team_start"
+}
+{
+"message" "Werhmacht"
+"kills" "51"
+"nextmap" "doomtownup"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "208"
+"origin" "-1154.1 1846.3 244.9"
+"classname" "info_team_start"
+}
+{
+"target" "t1"
+"origin" "-974.8 1294.8 566.2"
+"classname" "light"
+}
+{
+"origin" "-900.9 1270.2 369.2"
+"targetname" "t1"
+"classname" "info_null"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-937.8 679.4 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-347.1 1060.9 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1639.4 802.5 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1110.2 1184.0 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-950.2 1602.5 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1122.5 2082.5 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1700.9 1664 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-482.5 1737.8 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-568.6 2279.4 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1504.0 2291.7 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1479.4 1910.2 467.7"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-580.9 2020.9 467.7"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-580.9 1467.1 467.7"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-974.8 974.8 504.6"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-974.8 2267.1 504.6"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1479.4 1368.6 467.7"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1319.4 2660.9 123.1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-753.2 2636.3 123.1"
+"classname" "target_speaker"
+}
+{
+"style" "3"
+"_color" "1 0.5 0.3"
+"light" "150"
+"origin" "-1467.1 1417.8 393.8"
+"classname" "light"
+}
+{
+"origin" "-640 504 128"
+"classname" "weapon_m9130s"
+}
+{
+"origin" "-960 512 128"
+"classname" "weapon_m9130s"
+}
+{
+"origin" "-600 1464 504"
+"classname" "weapon_m9130s"
+}
+{
+"origin" "-1280 2712 128"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "-752 2720 128"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "-1472 1912 512"
+"classname" "weapon_m98ks"
+}
+

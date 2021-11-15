@@ -1,0 +1,298 @@
+{
+"sounds" "Alley/5insx"
+"message" "Alleyway Brawl  Designed By GypsyLlama"
+"sky" "drksky"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"sounds" "1"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"origin" "62 -100 8"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "-36 150 136"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"origin" "-36 26 136"
+"spawnflags" "0"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*5"
+"sounds" "1"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"sounds" "1"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"origin" "-66 580 -6"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*8"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"dmg" "30"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"health" "40"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"origin" "250 580 8"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*13"
+"origin" "703 96 -20"
+"sounds" "1"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"origin" "-180 -480 228"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "64 -352 220"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "244 -192 220"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "192 160 220"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-80 352 220"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "80 640 220"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "288 960 220"
+"light" "300"
+"classname" "light"
+}
+{
+"style" "1"
+"origin" "62 -192 108"
+"light" "300"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-224 672 0"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-212 224 12"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-224 320 12"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "288 992 12"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "288 928 20"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-160 896 160"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-224 416 12"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-128 1088 192"
+"classname" "info_sniper_start"
+}
+{
+"kills" "50"
+"count" "2"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "90"
+"origin" "592 -528 4"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "820 -420 4"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-192 -608 4"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-160 -608 12"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-192 -640 12"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-192 -576 12"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-160 -352 12"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-176 -624 12"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-208 -592 12"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "91"
+"origin" "-160 -576 12"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "-160 -640 12"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-256 1088 192"
+"classname" "info_engineer_start"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "448 800 32"
+"classname" "info_player_start"
+}
+{
+"style" "0"
+"origin" "636 1088 228"
+"light" "700"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "276 720 64"
+"light" "300"
+"classname" "light"
+}
+{
+"style" "1"
+"origin" "-156 92 164"
+"light" "300"
+"classname" "light"
+}
+{
+"style" "1"
+"origin" "-212 296 12"
+"light" "300"
+"classname" "light"
+}
+{
+"style" "1"
+"origin" "-64 668 12"
+"light" "300"
+"classname" "light"
+}
+

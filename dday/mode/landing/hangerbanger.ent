@@ -1,0 +1,140 @@
+{
+"message" "HangerBanger---By___Sprsnprchkn"
+"_sun_light" "400"
+"_ambient" "20"
+"_sun_angle" "90 -45"
+"_sun_color" "249 242 166"
+"sky" "inland2"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"health" "10"
+"mass" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"mass" "800"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"mass" "800"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"mass" "800"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"mass" "800"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"mass" "800"
+"health" "10"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"mass" "800"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"origin" "1798.6 1037.4 2524.1"
+"angle" "360"
+"classname" "info_player_start"
+}
+{
+"origin" "639.2 618.0 2528.1"
+"angle" "179"
+"mdl" "players/usa/tris.md2"
+"mdlskin" "players/usa/class_infantry.pcx"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*8"
+"origin" "406 393 2524"
+"targetname" "d1"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*9"
+"target" "d1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2535.5 407.1 2350.7"
+"angle" "360"
+"mdl" "players/usa/tris.md2"
+"mdlskin" "players/usa/class_infantry.pcx"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-359.4 182.6 2738.0"
+"angle" "360"
+"obj_owner" "0"
+"dll" "usa"
+"count" "0"
+"kills" "30"
+"nextmap" "hunger1"
+"message" "allies"
+"classname" "info_team_start"
+}
+{
+"origin" "-785.5 162.3 2682.3"
+"angle" "360"
+"obj_owner" "1"
+"dll" "grm"
+"count" "1"
+"points" "30"
+"nextmap" "hunger1"
+"message" "Axis"
+"classname" "info_team_start"
+}
+{
+"model" "*10"
+"targetname" "plat1"
+"speed" "20"
+"spawnflags" "1"
+"height" "700"
+"classname" "func_plat"
+}
+{
+"model" "*11"
+"target" "plat1"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"mass" "100"
+"classname" "func_explosive"
+}
+
+

@@ -1,0 +1,348 @@
+{
+"message" "Armour Deadlock\nCreated By Shard"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"angle" "53"
+"origin" "-200 -993 85"
+"classname" "info_player_start"
+}
+{
+"light" "1500"
+"origin" "328 0 92"
+"classname" "light"
+}
+{
+"speed" "25"
+"dmg" "100"
+"spawnflags" "1"
+"target" "al4a"
+"classname" "func_group"
+}
+{
+"speed" "25"
+"dmg" "100"
+"spawnflags" "1"
+"target" "al4a"
+"classname" "func_group"
+}
+{
+"speed" "25"
+"dmg" "100"
+"spawnflags" "1"
+"target" "al4a"
+"classname" "func_group"
+}
+{
+"target" "ax4a"
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"origin" "-102 -927 79"
+"angle" "360"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "99"
+"kills" "35"
+"classname" "info_team_start"
+}
+{
+"origin" "315 952 70"
+"message" "Axis"
+"count" "99"
+"obj_owner" "1"
+"dll" "grm"
+"kills" "35"
+"classname" "info_team_start"
+}
+{
+"origin" "-121 914 39"
+"angle" "270"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "778 927 39"
+"angle" "270"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-174 905 39"
+"angle" "269"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "792 969 39"
+"angle" "270"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "342 963 39"
+"angle" "270"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "375 897 39"
+"angle" "271"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-160 961 39"
+"angle" "270"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "345 925 39"
+"angle" "267"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "823 938 39"
+"angle" "272"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "814 -911 48"
+"angle" "93"
+"obj_owner" "0"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-69 -927 48"
+"angle" "90"
+"obj_owner" "0"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "356 -919 48"
+"angle" "88"
+"obj_owner" "0"
+"classname" "info_special_start"
+}
+{
+"origin" "850 -938 48"
+"angle" "93"
+"obj_owner" "0"
+"classname" "info_engineer_start"
+}
+{
+"origin" "384 -927 48"
+"angle" "90"
+"obj_owner" "0"
+"classname" "info_medic_start"
+}
+{
+"origin" "795 -955 48"
+"angle" "90"
+"obj_owner" "0"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-83 -963 48"
+"angle" "90"
+"obj_owner" "0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "340 -961 48"
+"angle" "90"
+"obj_owner" "0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-41 -972 48"
+"angle" "86"
+"obj_owner" "0"
+"classname" "info_officer_start"
+}
+{
+"random" "5"
+"wait" "5"
+"spawnflags" "1"
+"target" "a1"
+"origin" "-176 -596 57"
+"classname" "func_timer"
+}
+{
+"angle" "90"
+"dmg" "100"
+"targetname" "a1"
+"origin" "-81 -603 67"
+"classname" "target_splash"
+}
+{
+"targetname" "a1"
+"dmg" "100"
+"delay" "1"
+"origin" "-131 420 49"
+"classname" "target_explosion"
+}
+{
+"noise" "usa/bazooka/fire"
+"attenuation" "1"
+"targetname" "a1"
+"origin" "-81 -603 67"
+"classname" "target_speaker"
+}
+{
+"random" "5"
+"wait" "5"
+"spawnflags" "1"
+"target" "a2"
+"origin" "267 -601 57"
+"classname" "func_timer"
+}
+{
+"angle" "90"
+"dmg" "100"
+"targetname" "a2"
+"origin" "362 -608 67"
+"classname" "target_splash"
+}
+{
+"targetname" "a2"
+"dmg" "100"
+"delay" "1"
+"origin" "312 415 49"
+"classname" "target_explosion"
+}
+{
+"noise" "usa/bazooka/fire"
+"attenuation" "1"
+"targetname" "a2"
+"origin" "362 -608 67"
+"classname" "target_speaker"
+}
+{
+"random" "5"
+"wait" "5"
+"spawnflags" "1"
+"target" "a3"
+"origin" "716 -602 57"
+"classname" "func_timer"
+}
+{
+"angle" "90"
+"dmg" "100"
+"targetname" "a3"
+"origin" "811 -609 67"
+"classname" "target_splash"
+}
+{
+"targetname" "a3"
+"dmg" "100"
+"delay" "1"
+"origin" "761 414 49"
+"classname" "target_explosion"
+}
+{
+"noise" "usa/bazooka/fire"
+"attenuation" "1"
+"targetname" "a3"
+"origin" "811 -609 67"
+"classname" "target_speaker"
+}
+{
+"random" "5"
+"wait" "5"
+"spawnflags" "1"
+"target" "ax1"
+"origin" "-41.6 594.8 57"
+"classname" "func_timer"
+}
+{
+"angle" "270"
+"dmg" "100"
+"targetname" "ax1"
+"origin" "-136.6 601.8 67"
+"classname" "target_splash"
+}
+{
+"targetname" "ax1"
+"dmg" "100"
+"delay" "1"
+"origin" "-86.6 -421.2 49"
+"classname" "target_explosion"
+}
+{
+"noise" "usa/bazooka/fire"
+"attenuation" "1"
+"targetname" "ax1"
+"origin" "-136.6 601.8 67"
+"classname" "target_speaker"
+}
+{
+"random" "5"
+"wait" "5"
+"spawnflags" "1"
+"target" "ax2"
+"origin" "447.4 594.8 57"
+"classname" "func_timer"
+}
+{
+"random" "5"
+"wait" "5"
+"spawnflags" "1"
+"target" "ax3"
+"origin" "889.4 604.8 57"
+"classname" "func_timer"
+}
+{
+"angle" "270"
+"dmg" "100"
+"targetname" "ax2"
+"origin" "352.4 601.8 67"
+"classname" "target_splash"
+}
+{
+"targetname" "ax2"
+"dmg" "100"
+"delay" "1"
+"origin" "402.4 -421.2 49"
+"classname" "target_explosion"
+}
+{
+"noise" "usa/bazooka/fire"
+"attenuation" "1"
+"targetname" "ax2"
+"origin" "352.4 601.8 67"
+"classname" "target_speaker"
+}
+{
+"angle" "270"
+"dmg" "100"
+"targetname" "ax3"
+"origin" "791.4 618.8 67"
+"classname" "target_splash"
+}
+{
+"targetname" "ax3"
+"dmg" "100"
+"delay" "1"
+"origin" "841.4 -404.2 49"
+"classname" "target_explosion"
+}
+{
+"noise" "usa/bazooka/fire"
+"attenuation" "1"
+"targetname" "ax3"
+"origin" "791.4 618.8 67"
+"classname" "target_speaker"
+}
+

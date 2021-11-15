@@ -1,0 +1,270 @@
+{
+"gravity" "800"
+"sounds" "0"
+"sky" "ambush"
+"_sun_difwait" "30"
+"_sun_color" "1.000 1.000 0.769"
+"_sun_ambient" "10"
+"_sun_diffuse" "50"
+"_sun_vector" "50 50 50"
+"_sun_angle" "50 50"
+"_sun" "20"
+"light" "80"
+"skyaxis" "50 50 50"
+"_sun_light" "90"
+"_sun_surface" "40"
+"message" "City Ambush | Beta III\nby The Violator\ndesigned for dday 5.0"
+"classname" "worldspawn"
+}
+{
+"origin" "-1440 256 32"
+"classname" "info_player_start"
+}
+{
+"origin" "-624 -944 38"
+"points" "0"
+"kills" "50"
+"count" "2"
+"dll" "usm"
+"message" "Allies"
+"classname" "info_team_start"
+}
+{
+"origin" "-322 1150 40"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-896 1216 60"
+"points" "0"
+"kills" "50"
+"count" "2"
+"dll" "grm"
+"message" "Axis"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "-472 1024 136"
+"_focus" "1"
+"_cone" "10"
+"style" "8"
+"_angfade" "1"
+"_fade" "1"
+"light" "250"
+"classname" "light"
+}
+{
+"origin" "-656 1216 56"
+"classname" "light"
+}
+{
+"origin" "-970 1034 40"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "192 64 8"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "-784 -880 17"
+"angle" "89"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-880 -768 17"
+"angle" "167"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-784 -912 17"
+"angle" "173"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-928 -704 16"
+"angle" "166"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-832 -800 17"
+"angle" "84"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "64 256 8"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "192 448 8"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "192 -256 8"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "-312 -664 8"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "-1368 -392 0"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "-980 1288 32"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-672 1288 16"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-264 -1024 0"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"origin" "-912 -760 8"
+"model" "models/mapmodels/tree3.md2"
+"classname" "misc_md2"
+}
+{
+"model" "*1"
+"spawnflags" "4"
+"classname" "func_wall"
+}
+{
+"origin" "-720 -896 16"
+"angle" "99"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-768 -784 16"
+"angle" "99"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-816 -880 16"
+"angle" "99"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-784 -832 16"
+"angle" "99"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*2"
+"spawnflags" "4"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"spawnflags" "4"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"obj_owner" "1"
+"classname" "spawn_protect"
+}
+{
+"model" "*5"
+"obj_owner" "0"
+"classname" "spawn_protect"
+}
+{
+"origin" "-912 1280 32"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-880 1024 32"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-960 1088 40"
+"count" "1"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-896 1088 40"
+"count" "1"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-800 -720 16"
+"count" "1"
+"obj_owner" "0"
+"angle" "99"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-752 -880 16"
+"count" "1"
+"obj_owner" "0"
+"angle" "99"
+"classname" "info_hgunner_start"
+}
+{
+"model" "*6"
+"style" "0"
+"_minlight" "0"
+"dmg" "0"
+"mass" "200"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"style" "0"
+"_minlight" "0"
+"dmg" "0"
+"mass" "200"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"style" "0"
+"_minlight" "0"
+"dmg" "0"
+"mass" "200"
+"health" "300"
+"classname" "func_explosive"
+}
+{
+"origin" "-752 -912 16"
+"count" "1"
+"obj_owner" "0"
+"angle" "99"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-880 -720 16"
+"count" "1"
+"obj_owner" "0"
+"angle" "99"
+"classname" "info_hgunner_start"
+}
+{
+"model" "*9"
+"dmg" "0"
+"mass" "200"
+"health" "1"
+"classname" "func_explosive"
+}
+

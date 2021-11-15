@@ -1,0 +1,289 @@
+{
+"sky" "night1"
+"message" "La Jaula - By Tipper B. Squawkin'"
+"sounds" "2"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "16 -12 0"
+"classname" "info_player_start"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "-260 8 -45"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "-256 211 -37"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "-29 233 -14"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "144 221 -17"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "277 159 -47"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "307 -4 -44"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "-120 -110 -39"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "-109 134 -10"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "6 -1 0"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "143 -129 -53"
+"classname" "light"
+}
+{
+"style" "6"
+"_color" "1.00 0.93 0.75"
+"light" "300"
+"origin" "147 123 -30"
+"classname" "light"
+}
+{
+"origin" "-266 82 0"
+"obj_owner" "0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-264 33 0"
+"obj_owner" "0"
+"classname" "info_medic_start"
+}
+{
+"origin" "-266 141 0"
+"obj_owner" "0"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-266 -25 0"
+"obj_owner" "0"
+"classname" "info_special_start"
+}
+{
+"origin" "-266 -68 0"
+"obj_owner" "0"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-262 -108 0"
+"obj_owner" "0"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-262 58 0"
+"obj_owner" "0"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-264 114 0"
+"obj_owner" "0"
+"classname" "info_officer_start"
+}
+{
+"origin" "-264 -136 0"
+"obj_owner" "0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "320 124 0"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "318 101 0"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "322 75 0"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "327 46 0"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "329 20 0"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "329 -8 0"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "327 -31 0"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "326 -53 0"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "326 -76 0"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-85 35 0"
+"kills" "60"
+"points" "100"
+"nextmap" "trainer"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Axis"
+"classname" "info_team_start"
+}
+{
+"origin" "58 43 0"
+"Message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "99"
+"nextmap" "trainer"
+"points" "100"
+"kills" "60"
+"classname" "info_team_start"
+}
+{
+"origin" "-267 -289 -51"
+"noise" "world/brkglas.wav"
+"targetname" "fl1"
+"classname" "target_speaker"
+}
+{
+"origin" "-267 -289 -23"
+"style" "32"
+"light" "200"
+"targetname" "fl1"
+"_color" "1 1 .5"
+"classname" "light"
+}
+{
+"model" "*1"
+"mass" "75"
+"health" "5"
+"dmg" "1"
+"target" "fl1"
+"classname" "func_explosive"
+}
+{
+"origin" "273 -296 -51"
+"noise" "world/brkglas.wav"
+"targetname" "fl1"
+"classname" "target_speaker"
+}
+{
+"origin" "265 -288 -23"
+"style" "32"
+"light" "200"
+"targetname" "fl1"
+"_color" "1 1 .5"
+"classname" "light"
+}
+{
+"model" "*2"
+"mass" "75"
+"health" "5"
+"dmg" "1"
+"target" "fl1"
+"classname" "func_explosive"
+}
+{
+"origin" "-115 -288 -51"
+"noise" "world/brkglas.wav"
+"targetname" "fl1"
+"classname" "target_speaker"
+}
+{
+"origin" "-105 -298 -23"
+"style" "32"
+"light" "200"
+"targetname" "fl1"
+"_color" "1 1 .5"
+"classname" "light"
+}
+{
+"model" "*3"
+"mass" "75"
+"health" "5"
+"dmg" "1"
+"target" "fl1"
+"classname" "func_explosive"
+}
+{
+"origin" "86 -290 -51"
+"noise" "world/brkglas.wav"
+"targetname" "fl1"
+"classname" "target_speaker"
+}
+{
+"origin" "86 -290 -23"
+"style" "32"
+"light" "200"
+"targetname" "fl1"
+"_color" "1 1 .5"
+"classname" "light"
+}
+{
+"model" "*4"
+"mass" "75"
+"health" "5"
+"dmg" "1"
+"target" "fl1"
+"classname" "func_explosive"
+}
+

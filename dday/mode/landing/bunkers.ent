@@ -1,0 +1,579 @@
+{
+"sky" "forest"
+"message" "Die Waffen Bunkers By Psyconutt"
+"classname" "worldspawn"
+}
+{
+"light" "700"
+"origin" "-1624 1230 182"
+"classname" "light"
+}
+{
+"light" "700"
+"origin" "-2485 1237 182"
+"classname" "light"
+}
+{
+"model" "*1"
+"origin" "-610 1356 123"
+"dmg" "20"
+"wait" "5"
+"spawnflags" "6"
+"target" "frdoor"
+"sounds" "1"
+"speed" "50"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"light" "400"
+"origin" "-632 -595 126"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-1384 -612 143"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-1393 180 180"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "349 1688 292"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "325 394 361"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "358 1098 221"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "-272 1686 108"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "-272 806 128"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "-424 1250 112"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-879 1236 142"
+"classname" "light"
+}
+{
+"style" "1"
+"targetname" "frdoor"
+"classname" "func_areaportal"
+}
+{
+"light" "300"
+"origin" "-1304 1247 185"
+"classname" "light"
+}
+{
+"model" "*2"
+"origin" "-2624 1824 167"
+"targetname" "axisdoor"
+"target" "tnkdoor"
+"sounds" "1"
+"speed" "70"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"target" "axisdoor"
+"classname" "trigger_multiple"
+}
+{
+"style" "2"
+"targetname" "tnkdoor"
+"classname" "func_areaportal"
+}
+{
+"light" "300"
+"origin" "-2508 2078 188"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-3008 2312 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1732 476 136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1732 -136 130"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1730 -838 124"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-2208 -1020 134"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-2852 -1030 130"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-3458 -1030 136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1302 -1020 126"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-634 -1020 124"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "196 -1020 134"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "654 -1020 136"
+"classname" "light"
+}
+{
+"model" "*4"
+"origin" "-2682 -832 112"
+"target" "ax1"
+"targetname" "axisdoor1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*5"
+"target" "axisdoor1"
+"classname" "trigger_multiple"
+}
+{
+"style" "3"
+"targetname" "ax1"
+"classname" "func_areaportal"
+}
+{
+"model" "*6"
+"origin" "-3306 -1159 111"
+"sounds" "1"
+"target" "electroom"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"light" "300"
+"origin" "-3256 -1479 113"
+"classname" "light"
+}
+{
+"model" "*7"
+"origin" "-2087 -1099 115"
+"target" "middoor"
+"speed" "50"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "4"
+"targetname" "middoor"
+"classname" "func_areaportal"
+}
+{
+"style" "5"
+"targetname" "electroom"
+"classname" "func_areaportal"
+}
+{
+"model" "*8"
+"origin" "593 -1156 114"
+"targetname" "d1"
+"target" "gr1"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*9"
+"target" "d1"
+"targetname" "t1"
+"classname" "trigger_multiple"
+}
+{
+"style" "6"
+"targetname" "gr1"
+"classname" "func_areaportal"
+}
+{
+"model" "*10"
+"origin" "-776 -831 110"
+"sounds" "1"
+"target" "chemroom1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "7"
+"targetname" "chemroom1"
+"classname" "func_areaportal"
+}
+{
+"light" "300"
+"origin" "598 -1414 145"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-3586 2296 253"
+"classname" "light"
+}
+{
+"model" "*11"
+"origin" "-1201 -1159 99"
+"targetname" "tp1"
+"target" "spawna"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "8"
+"targetname" "spawna"
+"classname" "func_areaportal"
+}
+{
+"light" "400"
+"origin" "-1123 -1574 146"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-2601 -383 111"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "120"
+"origin" "396 228.7 132"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "315.6 1947.6 161.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "-2"
+"origin" "-62.7 1872 480.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "210"
+"origin" "344.3 2025.7 170"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "150"
+"origin" "379.3 1987.3 169.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "165"
+"origin" "336.8 177.9 142.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "396 183.3 145"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "208.3 1146.7 112.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "240"
+"origin" "343.3 236.7 142.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-3876.6 2319.3 204.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "312"
+"origin" "-3046.3 1739 100"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "80"
+"origin" "-1040 -1440 106"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "-1211 -1470.3 105"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-2449.7 -191 103.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "195"
+"origin" "-2749.7 -149.7 136"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-3287.7 2327 98.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "359"
+"origin" "-2814.3 2327 98.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "345"
+"origin" "-2569 2330 105.3"
+"classname" "info_officer_start"
+}
+{
+"Points" "100"
+"kills" "40"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-2023.5 1043.8 213.7"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"nextmap" "dday1"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "-1971.7 1044.4 215.5"
+"classname" "info_team_start"
+}
+{
+"model" "*12"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Communications Station"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*13"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Generator #3"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*14"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Generator #2"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*15"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Generator #1"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*16"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Chemical Mixing Plant"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "1000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*17"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Ordanance supplies"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "600"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*18"
+"origin" "-1882 862 108"
+"target" "contr1"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "9"
+"targetname" "contr1"
+"classname" "func_areaportal"
+}
+{
+"model" "*19"
+"origin" "-748 1637 357"
+"message" "Air vent Door"
+"sounds" "1"
+"target" "hr1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "10"
+"targetname" "hr1"
+"classname" "func_areaportal"
+}
+{
+"model" "*20"
+"mass" "100"
+"classname" "func_explosive"
+}
+{
+"angle" "138"
+"origin" "367 131 363"
+"classname" "info_player_start"
+}
+{
+"light" "300"
+"origin" "-484 1681 370"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-988 1681 370"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1529 1690 290"
+"classname" "light"
+}
+{
+"model" "*21"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Chemical Tub #2"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "50"
+"health" "200"
+"classname" "func_explosive_objective"
+}
+{
+"light" "300"
+"origin" "-2033 816 169"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-2265 823 190"
+"classname" "light"
+}
+{
+"model" "*22"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "New Weapons Factory Blue Prints"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "50"
+"health" "50"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*23"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Chemical Tub #2"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "50"
+"health" "200"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*24"
+"classname" "func_explosive"
+}
+

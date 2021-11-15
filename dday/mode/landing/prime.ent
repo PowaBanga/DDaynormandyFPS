@@ -1,0 +1,110 @@
+{
+"skyrotate" "1"
+"skyaxis" "0 0 1"
+"sky" "ghetto_"
+"classname" "worldspawn"
+}
+{
+"angle" "320"
+"origin" "48.9 879.9 -602.9"
+"classname" "info_player_start"
+}
+{
+"targetname" "prime"
+"style" "2"
+"mass" "94"
+"model" "models/mapmodels/prime/tris.md2"
+"angle" "271"
+"origin" "6.4 1792 95.7"
+"classname" "misc_md2"
+}
+{
+"targetname" "prime"
+"style" "2"
+"mass" "123"
+"model" "models/mapmodels/prime/tris2.md2"
+"angle" "91"
+"origin" "6.4 640 95.7"
+"classname" "misc_md2"
+}
+{
+"targetname" "wind"
+"attenuation" "-1"
+"noise" "prime/prime.wav"
+"spawnflags" "0"
+"origin" "1103.1 929 396"
+"classname" "target_speaker"
+}
+{
+"targetname" "wind"
+"attenuation" "-1"
+"noise" "prime/prime.wav"
+"spawnflags" "0"
+"origin" "1032 929 396"
+"classname" "target_speaker"
+}
+{
+"targetname" "primetimer"
+"target" "wind"
+"wait" "85"
+"delay" "5"
+"spawnflags" "0"
+"origin" "1055.2 1314.6 364.0"
+"classname" "func_timer"
+}
+{
+"targetname" "primetimer"
+"target" "prime"
+"wait" "99999999999999"
+"delay" "5"
+"spawnflags" "0"
+"origin" "1056 960 364"
+"classname" "func_timer"
+}
+{
+"target" "primetimer"
+"origin" "1152 992 428"
+"classname" "trigger_always"
+}
+{
+"origin" "1627.6 2495.0 107.3"
+"angle" "224"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-1591.8 -8.9 107.3"
+"angle" "32"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "523.2 1406.3 353.7"
+"angle" "360"
+"message" "OptimusPrime"
+"obj_owner" "0"
+"dll" "usa"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angles" "1.0 -85.9 0"
+"origin" "-8.9 1198.3 2325.1"
+"classname" "info_player_intermission"
+}
+{
+"obj_owner" "0"
+"angles" "4.0 88.5 0"
+"origin" "-26.8 1323.5 2325.1"
+"classname" "info_player_intermission"
+}
+{
+"origin" "574.3 1407.1 353.7"
+"message" "Megatron"
+"obj_owner" "1"
+"dll" "grm"
+"kills" "50"
+"classname" "info_team_start"
+}
+

@@ -1,0 +1,236 @@
+{
+"message" "Dunkirk - By Anrkist"
+"sky" "sr"
+"gravity" "800"
+"classname" "worldspawn"
+}
+{
+"origin" "-448 3200 -128"
+"kills" "230"
+"nextmap" "dday1"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"classname" "info_team_start"
+}
+{
+"origin" "-320 3200 -128"
+"kills" "230"
+"nextmap" "dday5"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"classname" "info_team_start"
+}
+{
+"origin" "-384 2176 -144"
+"obj_owner" "0"
+"angle" "120"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-496 3032 -145"
+"obj_owner" "0"
+"angle" "360"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-320 3840 -144"
+"obj_owner" "0"
+"angle" "195"
+"classname" "info_special_start"
+}
+{
+"origin" "-640 2176 -140"
+"obj_owner" "0"
+"angle" "210"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-512 2496 -143"
+"obj_owner" "0"
+"angle" "150"
+"classname" "info_medic_start"
+}
+{
+"origin" "-256 2176 64"
+"obj_owner" "0"
+"angle" "165"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-512 2368 -139"
+"obj_owner" "0"
+"angle" "270"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-268 3036 -141"
+"obj_owner" "0"
+"angle" "240"
+"classname" "info_officer_start"
+}
+{
+"origin" "-384 1216 -128"
+"angle" "360"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"mass" "75"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"mass" "75"
+"health" "1000"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"_minlight" "0"
+"mass" "75"
+"dmg" "2"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"mass" "125"
+"health" "5000"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"mass" "200"
+"health" "7000"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"mass" "75"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"origin" "1728 832 -192"
+"wait" "0"
+"target" "stop2"
+"targetname" "stop1"
+"classname" "path_corner"
+}
+{
+"origin" "-320 832 -192"
+"targetname" "stop2"
+"classname" "path_corner"
+}
+{
+"model" "*7"
+"team" "0"
+"speed" "40"
+"target" "stop1"
+"classname" "func_train"
+}
+{
+"origin" "-768 -192 -128"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-704 -512 -128"
+"obj_owner" "1"
+"angle" "255"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-512 -128 -175"
+"obj_owner" "1"
+"angle" "150"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-704 128 -177"
+"obj_owner" "1"
+"angle" "270"
+"classname" "info_medic_start"
+}
+{
+"origin" "-645 -218 -176"
+"obj_owner" "1"
+"angle" "195"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-704 -640 -182"
+"obj_owner" "1"
+"angle" "270"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-512 -256 -182"
+"obj_owner" "1"
+"angle" "15"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-512 128 -175"
+"obj_owner" "1"
+"angle" "345"
+"classname" "info_officer_start"
+}
+{
+"origin" "-320 2368 -182"
+"obj_owner" "0"
+"angle" "195"
+"classname" "info_infantry_start"
+}
+{
+"origin" "2240 960 64"
+"obj_owner" "1"
+"angle" "360"
+"classname" "info_special_start"
+}
+{
+"model" "*8"
+"mass" "75"
+"health" "10000"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"mass" "75"
+"health" "50"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"_minlight" "0"
+"dmg" "0"
+"mass" "75"
+"health" "50"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"mass" "75"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"mass" "75"
+"health" "1"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"mass" "75"
+"health" "1"
+"classname" "func_explosive"
+}
+

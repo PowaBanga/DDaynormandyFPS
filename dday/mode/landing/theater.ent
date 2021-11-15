@@ -1,0 +1,176 @@
+{
+"classname" "worldspawn"
+}
+{
+"angle" "271"
+"origin" "-272.2 580.8 124.7"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"spawnflags" "23"
+"classname" "func_wall"
+}
+{
+"noise" "faf/sitr.wav"
+"spawnflags" "1"
+"origin" "-352.0 -111.6 38.0"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/sitr.wav"
+"spawnflags" "1"
+"origin" "-185.2 -111.6 38"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/sitr.wav"
+"spawnflags" "1"
+"origin" "-185.2 25.4 83.7"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/snore.wav"
+"spawnflags" "1"
+"origin" "-151.2 143.4 103.7"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/sitr.wav"
+"spawnflags" "1"
+"origin" "-352.6 22.8 86.2"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/sitr.wav"
+"spawnflags" "1"
+"origin" "-352.6 182.6 144.6"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/sitr.wav"
+"spawnflags" "1"
+"origin" "-185.2 190.2 144.6"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"origin" "-269 391 135"
+"speed" "20"
+"spawnflags" "37"
+"classname" "func_rotating"
+}
+{
+"model" "*3"
+"origin" "-269 391 175"
+"speed" "20"
+"spawnflags" "37"
+"classname" "func_rotating"
+}
+{
+"origin" "-224 538 184"
+"light" "175"
+"classname" "light"
+}
+{
+"origin" "-293.9 379.1 184"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-161.7 377.8 184"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-368 456 184"
+"light" "175"
+"classname" "light"
+}
+{
+"spawnflags" "1"
+"noise" "faf/projector.wav"
+"origin" "-267.4 373.7 158.8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/projector.wav"
+"origin" "-175.4 381.7 158.8"
+"classname" "target_speaker"
+}
+{
+"model" "*4"
+"sounds" "1"
+"angle" "181"
+"classname" "func_door"
+}
+{
+"angle" "270"
+"model" "models/mapmodels/faf/theatergoer.md2"
+"origin" "-326.7 -114.1 -30.3"
+"classname" "misc_md2"
+}
+{
+"angle" "270"
+"model" "models/mapmodels/faf/theatergoer.md2"
+"origin" "-358.7 -18.1 17.7"
+"classname" "misc_md2"
+}
+{
+"angle" "270"
+"model" "models/mapmodels/faf/theatergoer.md2"
+"origin" "-214.7 -50.1 1.7"
+"classname" "misc_md2"
+}
+{
+"angle" "270"
+"model" "models/mapmodels/faf/theatergoer.md2"
+"origin" "-182.7 45.9 49.7"
+"classname" "misc_md2"
+}
+{
+"angle" "270"
+"model" "models/mapmodels/faf/snorer.md2"
+"origin" "-148.7 141.9 97.7"
+"classname" "misc_md2"
+}
+{
+"angle" "270"
+"model" "models/mapmodels/faf/theatergoer.md2"
+"origin" "-358.7 109.9 81.7"
+"classname" "misc_md2"
+}
+{
+"obj_owner" "0"
+"origin" "-280.7 553.1 125.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"origin" "-298.5 547.8 146.2"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "50"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-300.5 -145.9 123.3"
+"classname" "info_team_start"
+}
+{
+"kills" "50"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "269"
+"origin" "-316.7 -91.8 115.6"
+"classname" "info_team_start"
+}
+

@@ -1,0 +1,233 @@
+{
+"_sun_ambient" "30"
+"_sun_angle" "-75 90"
+"_sun_color" "1.0 1.2 1.2"
+"_sun_light" "160"
+"message" "we is in da jungle aiiii"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-1284.7 -1286.6 -35.6"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-1040.5 -615.8 -88.1"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "338.7 -932.6 -38.3"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "811.2 80.3 -44.1"
+"classname" "misc_md2"
+}
+{
+"angle" "360"
+"origin" "617.8 280.3 19.5"
+"classname" "info_player_start"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-283.8 -1173.3 -87.6"
+"classname" "misc_md2"
+}
+{
+"kills" "45"
+"nextmap" "jungl"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Tommys"
+"angle" "360"
+"origin" "739.5 91.8 5"
+"classname" "info_team_start"
+}
+{
+"nextmap" "jungl"
+"dll" "jpn"
+"obj_owner" "1"
+"count" "99"
+"message" "Japanese"
+"origin" "637.4 25.8 34.2"
+"kills" "45"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "60"
+"origin" "2202.1 585.8 4.7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "60"
+"origin" "2258.3 -24.4 7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "60"
+"origin" "2237.2 837.1 9.4"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-2192.3 63.5 -41.8"
+"angle" "60"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-2189.7 1051.8 -39.1"
+"angle" "60"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-2161 493.3 -39.1"
+"angle" "60"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"light" "300"
+"origin" "784.7 881.8 50"
+"classname" "light"
+}
+{
+"model" "*1"
+"target" "breach5"
+"classname" "turret_range"
+}
+{
+"model" "*2"
+"origin" "158 -345 95"
+"team" "gun5"
+"angle" "75"
+"classname" "turret_base"
+}
+{
+"targetname" "tip5"
+"origin" "145.7 -264.6 101.8"
+"classname" "info_notnull"
+}
+{
+"md2" "models/weapons/grm/g_mg42/tris.md2"
+"fire_sound" "grm/mg42/fire.wav"
+"ammo_type" "bullet"
+"count" "1000"
+"team" "gun5"
+"target" "tip5"
+"angle" "75"
+"dmg" "50"
+"speed" "200"
+"targetname" "breach5"
+"origin" "142.7 -371.1 89.1"
+"classname" "turret_breach"
+}
+{
+"target" "breach5"
+"angle" "75"
+"origin" "143 -394.7 106.8"
+"classname" "turret_driver"
+}
+{
+"model" "*3"
+"target" "breach6"
+"classname" "turret_range"
+}
+{
+"model" "*4"
+"origin" "604 -1183 -28"
+"team" "gun6"
+"angle" "180"
+"classname" "turret_base"
+}
+{
+"targetname" "tip6"
+"origin" "529.6 -1216.6 -22.1"
+"classname" "info_notnull"
+}
+{
+"md2" "models/weapons/grm/g_mg42/tris.md2"
+"fire_sound" "grm/mg42/fire.wav"
+"ammo_type" "bullet"
+"count" "1000"
+"team" "gun6"
+"target" "tip6"
+"angle" "180"
+"dmg" "50"
+"speed" "200"
+"targetname" "breach6"
+"origin" "633.4 -1191.8 -34.8"
+"classname" "turret_breach"
+}
+{
+"target" "breach6"
+"angle" "180"
+"origin" "637.8 -1185.3 -39.2"
+"classname" "turret_driver"
+}
+{
+"model" "models/mapmodels/julhelm/grass.md2"
+"angle" "360"
+"origin" "-994.6 588.8 8.5"
+"classname" "misc_md2"
+}
+{
+"origin" "1040.8 491.7 20"
+"attenuation" "4"
+"noise" "inland/fire.wav"
+"spawnflags" "1"
+"volume" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "1038.2 491.7 6"
+"angle" "328"
+"model" "sprites/faf/fire2.sp2"
+"mass" "8"
+"classname" "misc_md2"
+}
+{
+"light" "300"
+"origin" "1040.8 491.7 36"
+"style" "1"
+"_color" "1 0.5 0"
+"classname" "light"
+}
+{
+"noise" "greyfox/swamp"
+"spawnflags" "1"
+"origin" "-1075.5 -782.9 8.5"
+"classname" "target_speaker"
+}
+{
+"noise" "greyfox/swamp"
+"spawnflags" "1"
+"origin" "-1054.8 -421.1 7.7"
+"classname" "target_speaker"
+}
+{
+"noise" "greyfox/swamp"
+"spawnflags" "1"
+"origin" "-326.5 -1116.7 -36.1"
+"classname" "target_speaker"
+}
+{
+"noise" "greyfox/swamp"
+"spawnflags" "1"
+"origin" "1963.3 -79.4 -45.8"
+"classname" "target_speaker"
+}
+

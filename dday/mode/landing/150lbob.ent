@@ -1,0 +1,235 @@
+{
+"_sun_light" "120"
+"_sun_ambient" "40"
+"_sun_diffuse" "30"
+"_sun_angle" "50 -50"
+"_sun_color" ".8.4 1"
+"message" "Russian Barge - By: LooseBob"
+"sky" "sea"
+"classname" "worldspawn"
+}
+{
+"classname" "light"
+"origin" "311 233 -211"
+"light" "150"
+}
+{
+"model" "*1"
+"target" "dr1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"targetname" "dr1"
+"angle" "-1"
+"sounds" "1"
+"classname" "func_door"
+}
+{
+"classname" "light"
+"origin" "933 -469 -211"
+"light" "150"
+}
+{
+"light" "150"
+"origin" "792 -452 -211"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "882 -587 -211"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "366 400 -211"
+"light" "150"
+}
+{
+"light" "150"
+"origin" "442 232 -211"
+"classname" "light"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"classname" "info_medic_start"
+"obj_owner" "0"
+"angle" "0"
+"origin" "265 436 -265"
+}
+{
+"classname" "info_flamethrower_start"
+"obj_owner" "0"
+"angle" "0"
+"origin" "345 399 -265"
+}
+{
+"classname" "info_sniper_start"
+"obj_owner" "0"
+"angle" "0"
+"origin" "345 364 -265"
+}
+{
+"classname" "info_officer_start"
+"angle" "0"
+"obj_owner" "0"
+"origin" "265 401 -265"
+}
+{
+"classname" "info_special_start"
+"angle" "0"
+"obj_owner" "0"
+"origin" "345 436 -265"
+}
+{
+"classname" "info_infantry_start"
+"angle" "0"
+"obj_owner" "0"
+"origin" "305 437 -265"
+}
+{
+"classname" "info_engineer_start"
+"obj_owner" "0"
+"angle" "0"
+"origin" "305 399 -265"
+}
+{
+"classname" "info_lgunner_start"
+"obj_owner" "0"
+"angle" "0"
+"origin" "306 364 -265"
+}
+{
+"classname" "info_hgunner_start"
+"obj_owner" "0"
+"angle" "0"
+"origin" "265 365 -265"
+}
+{
+"origin" "975 -535 -203"
+"classname" "info_team_start"
+"dll" "grm"
+"kills" "75"
+"count" "0"
+"obj_owner" "1"
+"message" "German's"
+"nextmap" "seige"
+}
+{
+"origin" "265 435 -189"
+"classname" "info_team_start"
+"points" "50"
+"kills" "50"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russian's"
+"nextmap" "train"
+}
+{
+"classname" "info_medic_start"
+"angle" "90"
+"obj_owner" "1"
+"origin" "415 -953 -265"
+}
+{
+"classname" "info_engineer_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "415 -883 -265"
+}
+{
+"classname" "info_special_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "450 -919 -265"
+}
+{
+"classname" "info_flamethrower_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "381 -883 -265"
+}
+{
+"classname" "info_lgunner_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "450 -884 -265"
+}
+{
+"classname" "info_hgunner_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "415 -919 -265"
+}
+{
+"classname" "info_infantry_start"
+"angle" "90"
+"obj_owner" "1"
+"origin" "381 -919 -265"
+}
+{
+"classname" "info_officer_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "450 -953 -265"
+}
+{
+"classname" "info_sniper_start"
+"obj_owner" "1"
+"angle" "90"
+"origin" "381 -953 -265"
+}
+{
+"angle" "0"
+"classname" "info_player_start"
+"origin" "-347 -113 -195"
+}
+{
+"model" "*4"
+"classname" "func_train"
+"spawnflags" "1"
+"targetname" "crane"
+"target" "track"
+"speed" "10"
+}
+{
+"classname" "path_corner"
+"origin" "408 -398 -252"
+"targetname" "track"
+"target" "track1"
+}
+{
+"target" "track"
+"targetname" "track1"
+"origin" "-103 -398 -252"
+"classname" "path_corner"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+}
+{
+"classname" "light"
+"origin" "-264 331 -211"
+"light" "150"
+}
+{
+"light" "150"
+"origin" "19 406 -211"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-60 263 -211"
+"light" "150"
+}
+{
+"light" "150"
+"origin" "140 270 -211"
+"classname" "light"
+}
+

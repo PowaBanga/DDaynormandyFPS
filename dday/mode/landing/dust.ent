@@ -1,0 +1,119 @@
+{
+"classname" "worldspawn"
+"message" "Dust\nby DaveJ"
+"_sun_ambient" "20"
+"_sun" "star"
+"_sun_color" "1 1 1"
+"_sun_light" "400"
+"sky" "des"
+"angle" "300"
+}
+{
+"classname" "info_null"
+"targetname" "star"
+"origin" "-437 -1717 100"
+}
+{
+"classname" "light"
+"origin" "-450 -1730 136"
+"target" "star"
+}
+{
+"classname" "light"
+"light" "140"
+"origin" "-508 1364 144"
+}
+{
+"classname" "light"
+"light" "140"
+"origin" "-32 1172 144"
+}
+{
+"classname" "light"
+"light" "140"
+"origin" "640 1323 144"
+}
+{
+"classname" "light"
+"light" "140"
+"origin" "-108 1824 144"
+}
+{
+"classname" "light"
+"light" "140"
+"origin" "-915 2048 -80"
+}
+{
+"classname" "light"
+"light" "140"
+"origin" "-916 1792 -80"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "-563 -1660.3 105"
+"angle" "60"
+"obj_owner" "0"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "-659 -1660.3 105"
+"angle" "60"
+"obj_owner" "0"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "653 -1692.3 105"
+"angle" "132"
+"obj_owner" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "-720 624 128"
+"angles" "0 0.3 0"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "1637 3347.7 -63"
+"angle" "209"
+"obj_owner" "1"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "1637 3475.7 -63"
+"angle" "209"
+"obj_owner" "1"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "1445 3475.7 -63"
+"angle" "255"
+"obj_owner" "1"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "1445 3283.7 -63"
+"angle" "255"
+"obj_owner" "1"
+}
+{
+"classname" "info_team_start"
+"origin" "-554.5 -1723.2 149.7"
+"angle" "360"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "99"
+"nextmap" "dust"
+"kills" "60"
+}
+{
+"classname" "info_team_start"
+"origin" "-526.7 -1730.6 143.5"
+"message" "Axis"
+"count" "99"
+"obj_owner" "1"
+"dll" "grm"
+"nextmap" "dust"
+"kills" "60"
+}
+

@@ -1,0 +1,288 @@
+{
+"message" "Treetop House\nDesigned by Fighter."
+"gravity" "800"
+"style" ""
+"classname" "worldspawn"
+"sky" "caen"
+}
+{
+"classname" "target_explosion"
+"dmg" "2"
+"targetname" "t12"
+"origin" "-1320 1296 -576"
+}
+{
+"model" "*1"
+"mass" "800"
+"health" "2500"
+"dmg" "200"
+"classname" "func_explosive"
+}
+{
+"origin" "-894 298 -497"
+"angle" "45"
+"classname" "info_player_start"
+}
+{
+"model" "*2"
+"classname" "trigger_push"
+"angle" "270"
+"speed" "2000"
+"target" "t12"
+}
+{
+"classname" "misc_skeleton"
+"angle" "270"
+"origin" "-1159 556 -418"
+}
+{
+"classname" "light_mine2"
+"angle" "270"
+"origin" "347 490 -454"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "t5"
+}
+{
+"model" "*4"
+"classname" "func_door"
+"angle" "90"
+"targetname" "t5"
+"speed" "20"
+}
+{
+"origin" "-106 927 -636"
+"angle" "180"
+"classname" "light_mine1"
+}
+{
+"origin" "-945 1543 -717"
+"model" "models/mapmodels/afrowuk/gbr-deadbody.md2"
+"angle" "225"
+"classname" "misc_md2"
+}
+{
+"origin" "-1375 1682 -768"
+"kills" "30"
+"count" "0"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"classname" "info_team_start"
+}
+{
+"angle" "270"
+"classname" "info_team_start"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"count" "0"
+"kills" "30"
+"origin" "709 559 -768"
+}
+{
+"model" "*5"
+"target" "t2"
+"health" "120"
+"classname" "func_explosive"
+"dmg" "150"
+}
+{
+"origin" "708 494 -768"
+"delay" "10"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+"angle" "270"
+}
+{
+"classname" "info_reinforcements_start"
+"obj_owner" "0"
+"delay" "10"
+"origin" "-1323 1682 -768"
+"angle" "0"
+}
+{
+"classname" "target_speaker"
+"targetname" "fl1"
+"noise" "world/brkglas.wav"
+"origin" "-739 1767 -622"
+}
+{
+"_color" "1 1 .5"
+"targetname" "t4"
+"classname" "light"
+"light" "200"
+"style" "32"
+"origin" "-739 1767 -594"
+}
+{
+"model" "*6"
+"classname" "func_explosive"
+"target" "fl1"
+"dmg" "1"
+"health" "5"
+}
+{
+"classname" "misc_md2"
+"angle" "225"
+"model" "models/mapmodels/faf/plant.md2"
+"origin" "-1067 810 -736"
+}
+{
+"origin" "-1143 717 -736"
+"model" "models/mapmodels/faf/weeds.md2"
+"angle" "225"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"angle" "225"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "-1111 713 -736"
+}
+{
+"origin" "-1209 790 -736"
+"model" "models/mapmodels/faf/weeds.md2"
+"angle" "225"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"angle" "225"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "-1252 799 -736"
+}
+{
+"origin" "-1124 1413 -736"
+"model" "models/mapmodels/faf/weeds.md2"
+"angle" "225"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"angle" "225"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "-1097 1394 -736"
+}
+{
+"origin" "-1131 1380 -736"
+"model" "models/mapmodels/faf/weeds.md2"
+"angle" "225"
+"classname" "misc_md2"
+}
+{
+"classname" "light_mine1"
+"angle" "0"
+"origin" "-223 927 -636"
+}
+{
+"model" "*7"
+"dmg" "150"
+"classname" "func_explosive"
+"health" "120"
+"target" "t6"
+}
+{
+"model" "*8"
+"dmg" "150"
+"classname" "func_explosive"
+"health" "120"
+"target" "t7"
+}
+{
+"origin" "121 490 -454"
+"angle" "270"
+"classname" "light_mine2"
+}
+{
+"classname" "light_mine2"
+"angle" "270"
+"origin" "519 490 -454"
+}
+{
+"classname" "target_speaker"
+"targetname" "t8"
+"noise" "world/brkglas.wav"
+"origin" "-527 1610 -627"
+}
+{
+"_color" "1 1 .5"
+"targetname" "t8"
+"classname" "light"
+"light" "200"
+"style" "33"
+"origin" "-527 1610 -599"
+}
+{
+"model" "*9"
+"classname" "func_explosive"
+"target" "t8"
+"dmg" "1"
+"health" "5"
+}
+{
+"origin" "-608 984 -576"
+"noise" "world/brkglas.wav"
+"targetname" "t9"
+"classname" "target_speaker"
+}
+{
+"origin" "-608 984 -548"
+"style" "34"
+"light" "200"
+"classname" "light"
+"targetname" "t9"
+"_color" "1 1 .5"
+}
+{
+"model" "*10"
+"health" "5"
+"dmg" "1"
+"target" "t9"
+"classname" "func_explosive"
+}
+{
+"origin" "-762 207 -623"
+"noise" "world/brkglas.wav"
+"targetname" "t10"
+"classname" "target_speaker"
+}
+{
+"origin" "-762 207 -595"
+"style" "35"
+"light" "200"
+"classname" "light"
+"targetname" "t10"
+"_color" "1 1 .5"
+}
+{
+"model" "*11"
+"health" "5"
+"dmg" "1"
+"target" "t10"
+"classname" "func_explosive"
+}
+{
+"origin" "666 465 -591"
+"noise" "world/brkglas.wav"
+"targetname" "t11"
+"classname" "target_speaker"
+}
+{
+"origin" "666 465 -563"
+"style" "36"
+"light" "200"
+"classname" "light"
+"targetname" "t11"
+"_color" "1 1 .5"
+}
+{
+"model" "*12"
+"health" "5"
+"dmg" "1"
+"target" "t11"
+"classname" "func_explosive"
+}
+

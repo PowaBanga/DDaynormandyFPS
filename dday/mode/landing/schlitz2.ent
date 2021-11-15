@@ -1,0 +1,139 @@
+{
+"sky" "doomtown"
+"message" "Morning Battle By Joshua Schlichting"
+"classname" "worldspawn"
+}
+{
+"origin" "-936 -136 -1048"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-696 -472 -1048"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-504 -168 -1032"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "1464 -2440 -1016"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "1144 -2312 -1048"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "1404 -2072 -1040"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "468 -2044 -932"
+"_cone" "10"
+"style" "0"
+"light" "50"
+"target" "t1"
+"classname" "light"
+}
+{
+"teamnumber" "1"
+"classname" "base"
+}
+{
+"teamnumber" "2"
+"classname" "base"
+}
+{
+"obj_owner" "0"
+"origin" "1539.1 -1882.0 -1019.0"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "Allies"
+"kills" "60"
+"dll" "usa"
+"obj_owner" "0"
+"origin" "1503.1 -2290.9 -1058.0"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"message" "Nazis"
+"dll" "grm"
+"obj_owner" "1"
+"origin" "-607.8 -1046.4 -907.7"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"origin" "-716.2 -132.5 -1040.3"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "-785.1 -2337.0 -947.9"
+"classname" "info_player_start"
+}
+{
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "faf/tank2"
+"volume" "1.0"
+"origin" "-913.5 -803.4 -1023.4"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"volume" "1.0"
+"noise" "faf/tank2"
+"spawnflags" "1"
+"origin" "-980.1 -1916.0 -1022.6"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "colpiron/tank1"
+"origin" "-269.1 -2509.1 -1058.5"
+"classname" "target_speaker"
+}
+{
+"delay" "3"
+"spawnflags" "1"
+"attenuation" "2"
+"noise" "tale/gunfight"
+"origin" "550.7 -820.7 -989.0"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"noise" "colpiron/tank1"
+"spawnflags" "1"
+"origin" "920.9 -2566.2 -1047.9"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"noise" "nav/lnge"
+"spawnflags" "1"
+"origin" "1136.8 -2179.3 -1099.4"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"noise" "Jay/speaker"
+"spawnflags" "1"
+"origin" "-890.7 -609.5 -938.1"
+"classname" "target_speaker"
+}
+

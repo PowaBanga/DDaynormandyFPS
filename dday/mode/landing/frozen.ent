@@ -1,0 +1,316 @@
+{
+"_sun" "sol"
+"message" "Frozen area\nmodificated by:Tanatovago"
+"_sun_ambient" "20"
+"_sun_diffade" "5"
+"_sun_diffuse" "5"
+"_sun_angle" "0 -60"
+"_sun_color" "1 1 1"
+"_sun_light" "300"
+"sky" "happy"
+"classname" "worldspawn"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "1478.4 1600.4 -31.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "1600 1440 256"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1600 -1408 256"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "1766.4 1536.4 0.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "1602.4 1144.4 -31.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "1438.4 1176.4 -31.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "1790.4 1176.4 88.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-1472.9 -1578.6 -31.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-1760.9 -1546.6 -31.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "-1600.9 -1138.6 -31.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-1440.9 -1182.6 -31.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-1784.9 -1178.6 88.9"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "41"
+"message" "Stepe guardians"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "360"
+"origin" "56.3 -373.3 142.5"
+"classname" "info_team_start"
+}
+{
+"kills" "41"
+"message" "Snow granadiers"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "360"
+"origin" "173.6 329.2 -9.2"
+"classname" "info_team_start"
+}
+{
+"angle" "180"
+"origin" "0 0 256"
+"classname" "info_player_start"
+}
+{
+"target" "sol"
+"origin" "0 0 128"
+"classname" "light"
+}
+{
+"origin" "-8 4 0"
+"targetname" "sol"
+"classname" "info_null"
+}
+{
+"origin" "-1504 -1400 32"
+"classname" "weapon_m9130s"
+}
+{
+"origin" "-1712 -1392 48"
+"classname" "weapon_m9130s"
+}
+{
+"origin" "-1608 -1304 24"
+"classname" "weapon_m9130s"
+}
+{
+"origin" "1488 1528 0"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "1600 1536 32"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "1696 1384 0"
+"classname" "weapon_m98ks"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1591 -1360.5 11"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "faf/wolfh1.wav"
+"spawnflags" "5"
+"origin" "0 0 -8"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dday2/eerie.wav"
+"spawnflags" "5"
+"origin" "-848 -776 152"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dday2/eerie.wav"
+"spawnflags" "5"
+"origin" "728 488 128"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dday2/eerie.wav"
+"spawnflags" "5"
+"origin" "824 -656 152"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "dday2/eerie.wav"
+"spawnflags" "5"
+"origin" "-1456 904 -16"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "536 1160 136"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-448 880 192"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-1456 -240 16"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "1344 8 -32"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "536 -280 -56"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-656 216 -24"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "200 -792 -16"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "1032 -1352 -40"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-304 -968 0"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-952 -1280 -40"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "-280 1408 24"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "1603 1423.4 -48"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"noise" "inland/backwind.wav"
+"spawnflags" "5"
+"origin" "1165 1111.4 -21"
+"classname" "target_speaker"
+}
+

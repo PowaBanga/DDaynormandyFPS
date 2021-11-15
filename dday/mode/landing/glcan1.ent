@@ -1,0 +1,209 @@
+{
+"_sun_light" "340"
+"_sun_ambient" "23"
+"_sun_diffade" "15"
+"_sun_diffuse" "15"
+"_sun_angle" "270 -45"
+"sky" "sr"
+"message" "Bernières-sur-Mer: June 6th 1944"
+"classname" "worldspawn"
+}
+{
+"targetname" "mg_1"
+"attenuation" "3"
+"volume" "1"
+"noise" "gypsy/fire03"
+"origin" "-252 -1292 0"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"dmg" "0"
+"mass" "10"
+"health" "20000"
+"obj_loss" "0"
+"obj_gain" "0"
+"obj_name" "Train Tracks"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"delay" "2"
+"wait" "10"
+"target" "mg_1"
+"spawnflags" "1"
+"origin" "-60 -1412 0"
+"classname" "func_timer"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"noise" "gypsy/battle1"
+"attenuation" "4"
+"origin" "-160 -868 -48"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"noise" "gypsy/battle1"
+"attenuation" "4"
+"origin" "188 -724 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"noise" "gypsy/battle1"
+"attenuation" "4"
+"origin" "-516 -612 -28"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"noise" "gypsy/battle1"
+"attenuation" "4"
+"origin" "-148 -316 4"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"noise" "gypsy/battle1"
+"attenuation" "4"
+"origin" "-448 240 8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"volume" "1.0"
+"noise" "gypsy/battle1"
+"attenuation" "4"
+"origin" "48 376 -8"
+"classname" "target_speaker"
+}
+{
+"targetname" "mg_1"
+"noise" "gypsy/fire03"
+"attenuation" "3"
+"volume" "1.0"
+"origin" "-456 -224 0"
+"classname" "target_speaker"
+}
+{
+"target" "thunder"
+"wait" "50"
+"spawnflags" "1"
+"origin" "-120 -1240 0"
+"classname" "func_timer"
+}
+{
+"targetname" "thunder"
+"volume" "1.0"
+"noise" "gypsy/Thunder"
+"attenuation" "1"
+"origin" "-112 -1016 0"
+"classname" "target_speaker"
+}
+{
+"nextmap" "dday2"
+"points" "0"
+"kills" "50"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "101"
+"origin" "324 -1732 -96"
+"classname" "info_team_start"
+}
+{
+"nextmap" "dday2"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "316 1848 -184"
+"classname" "info_team_start"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "-124 -1872 156"
+"classname" "info_player_start"
+}
+{
+"style" "0"
+"origin" "64 104 -44"
+"light" "200"
+"classname" "light"
+}
+{
+"delay" "0"
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "716 2008 -128"
+"classname" "info_reinforcements_start"
+}
+{
+"delay" "0"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "544 2016 -132"
+"classname" "info_reinforcements_start"
+}
+{
+"target" "t1"
+"origin" "500 1932 -140"
+"classname" "misc_teleporter"
+}
+{
+"target" "t2"
+"origin" "596 1932 -140"
+"classname" "misc_teleporter"
+}
+{
+"target" "t3"
+"origin" "668 1932 -140"
+"classname" "misc_teleporter"
+}
+{
+"target" "t4"
+"origin" "764 1932 -140"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "308 1828 -244"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t3"
+"angle" "360"
+"origin" "200 -1728 -112"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t4"
+"angle" "360"
+"origin" "-440 -1600 -124"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t2"
+"angle" "360"
+"origin" "-476 1828 -244"
+"classname" "misc_teleporter_dest"
+}
+

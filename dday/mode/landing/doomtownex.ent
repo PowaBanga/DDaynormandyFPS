@@ -1,0 +1,172 @@
+{
+"gravity" "800"
+"message" "doomtown EXR"
+"sky" "night1"
+"_ambient" "38"
+"classname" "worldspawn"
+}
+{
+"angle" "99"
+"origin" "-322.2 -2983.4 552.1"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "323.1 -170.1 140"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "858.7 -570.3 137.7"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "1533.8 -236.9 139.9"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "923.4 -1318.6 136.4"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "387.6 -1308.3 132.2"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "6"
+"light" "400"
+"origin" "-208.1 -2160.0 141.7"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"style" "0"
+"light" "400"
+"origin" "461.4 -2482.7 141.8"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "331"
+"origin" "524.1 -2512.3 -55.3"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "151"
+"origin" "1556 524 -56.8"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "The Red Army"
+"nextmap" "doomtown"
+"kills" "80"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "90"
+"origin" "664 -920 200.5"
+"classname" "info_team_start"
+}
+{
+"message" "Hitler's Youth"
+"kills" "80"
+"nextmap" "dday2"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "270"
+"origin" "662.9 -723 222.4"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"mass" "75"
+"health" "1500"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"message" "Mine!"
+"lip" "0"
+"wait" "15"
+"target" "G1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G1"
+"style" "21"
+"origin" "387.3 51.3 -90.6"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "150"
+"delay" "0"
+"targetname" "G1"
+"origin" "386.9 52.0 -86.4"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"message" "Mine!"
+"lip" "-2"
+"wait" "15"
+"speed" "100"
+"target" "G2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "G2"
+"style" "18"
+"origin" "1006.7 -1317.8 -88.7"
+"classname" "target_temp_entity"
+}
+{
+"dmg" "150"
+"delay" "0"
+"targetname" "G2"
+"origin" "1006.5 -1317.3 -82.7"
+"classname" "target_explosion"
+}
+{
+"model" "*4"
+"sounds" "4"
+"lip" "3"
+"wait" "60"
+"speed" "100"
+"target" "TB1"
+"angle" "179"
+"classname" "func_button"
+}
+{
+"dmg" "150"
+"delay" "60"
+"targetname" "TB1"
+"origin" "374.8 -425.9 -92.2"
+"classname" "target_explosion"
+}
+{
+"dmg" "150"
+"delay" "45"
+"targetname" "TB1"
+"origin" "-213.5 -1116.1 -86.6"
+"classname" "target_explosion"
+}
+{
+"dmg" "300"
+"delay" "90"
+"targetname" "TB1"
+"origin" "983.9 -1823.6 250.5"
+"classname" "target_explosion"
+}
+

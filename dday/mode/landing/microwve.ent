@@ -1,0 +1,57 @@
+{
+"message" "What it feels like in a microwave - by Hoot"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"nextmap" "dday1"
+"kills" "50"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russia"
+"origin" "-304 240 64"
+"classname" "info_team_start"
+}
+{
+"nextmap" "dday1"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-288 240 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "80 144 -48"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-144 144 -48"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "89"
+"origin" "-16 -416 96"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"spawnflags" "3"
+"targetname" "microwave"
+"classname" "func_wall"
+}
+{
+"target" "microwave"
+"targetname" "tmr1"
+"wait" "30"
+"spawnflags" "1"
+"origin" "-64 -432 0"
+"classname" "func_timer"
+}
+

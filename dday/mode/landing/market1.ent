@@ -1,0 +1,180 @@
+{
+"_sun_ambient" "70"
+"_sun_diffade" ".5"
+"_sun_diffuse" "75"
+"message" "Eindhoven - By Matthias"
+"sky" "darkhollow256_"
+"_sun_color" "1.0 1.0 1.0"
+"_sun_light" "100"
+"classname" "worldspawn"
+}
+{
+"nextmap" "market2"
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "506th Regiment"
+"origin" "1563 -2915.3 64"
+"classname" "info_team_start"
+}
+{
+"nextmap" "market2"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "107th Panzers"
+"origin" "1595 -2915.3 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3138 -2984 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-178 556 -224"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-252 -2769 -188"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"origin" "694 -3144 -228"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "499 306 -218"
+"wait" "3"
+"speed" "100"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"spawnflags" "0"
+"wait" "0"
+"target" "deur"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"origin" "534 567 -232"
+"targetname" "deur"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*5"
+"origin" "-65 -2739 -229"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "678 -2200 -270"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "678 -2202 -138"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "-614 -2752 -270"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "-614 -2754 -138"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "574 -884 -266"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "574 -886 -134"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "360"
+"origin" "-254 -616 -266"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/m_foliage.sp2"
+"angle" "360"
+"origin" "-254 -618 -134"
+"classname" "misc_md2"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/bell"
+"origin" "310 -1060 -224"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/bell"
+"origin" "-98 -368 -254"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/amb_battle"
+"origin" "-166 -1776 -254"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/amb_battle"
+"origin" "214 -960 -254"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/amb_battle"
+"origin" "670 -2076 -254"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/amb_battle"
+"origin" "-58 -3140 -254"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/amb_battle"
+"origin" "-590 -2240 -254"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "dday2/amb_battle"
+"origin" "-254 -2764 -282"
+"classname" "target_speaker"
+}
+

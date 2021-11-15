@@ -1,0 +1,86 @@
+{
+"sky" "valley1"
+"message" "Temple of NaN\n   By RHR-Mold"
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"origin" "248 0 88"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"delay" "3"
+"obj_owner" "1"
+"angle" "180"
+"origin" "1268 0 -40"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "348 168 -56"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "348 -168 -56"
+"classname" "info_engineer_start"
+}
+{
+"kills" "30"
+"count" "99"
+"dll" "usa"
+"message" "Allies"
+"obj_owner" "0"
+"angle" "360"
+"origin" "1424 128 24"
+"classname" "info_team_start"
+}
+{
+"kills" "30"
+"count" "99"
+"dll" "grm"
+"message" "Axis"
+"obj_owner" "1"
+"angle" "360"
+"origin" "1424 -128 24"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"dmg" "10"
+"lip" "16"
+"speed" "100"
+"sounds" "1"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"sounds" "1"
+"dmg" "10"
+"lip" "16"
+"speed" "100"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"delay" "5"
+"obj_owner" "0"
+"angle" "44"
+"origin" "-208 -112 -68"
+"classname" "info_reinforcements_start"
+}
+{
+"style" "0"
+"origin" "1408 0 56"
+"light" "500"
+"classname" "light"
+}
+

@@ -1,0 +1,225 @@
+{
+"_Sun_Angle" "10 -30"
+"_Sun_Color" ".5 .8 1"
+"_Sun_Diffuse" "100"
+"_Sun_Light" "165"
+"_Sun_Ambient" "125"
+"message" "June 6 1944 2:30 AM - Mr. YOur no fun"
+"skyaxis" "180"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"nextmap" "june6430"
+"points" "1"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "1334 192 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1642 -338 488"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-746 -1350 454"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1492 -1116 464"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1480 132 456"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "326"
+"origin" "-1480 1160 464"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "164"
+"origin" "1640 -1056 488"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "152 -1352 456"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "228"
+"origin" "1748 1340 464"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "165"
+"origin" "1792 130 488"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "june6230"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "836 774 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "186 408 124"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "1"
+"origin" "-214.1 1008 40.7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "224"
+"origin" "72 -42 26"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "339"
+"origin" "286 -132 124"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "182"
+"origin" "-146 360 124"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "180"
+"origin" "224 -772 80"
+"classname" "info_player_start"
+}
+{
+"style" "0"
+"origin" "84 100 96"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*1"
+"mass" "100"
+"health" "100"
+"obj_name" "Transmitter"
+"obj_gain" "1"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"angle" "360"
+"origin" "64 104 116"
+"classname" "misc_satellite_dish"
+}
+{
+"model" "*3"
+"dmg" "200"
+"mass" "300"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"dmg" "200"
+"mass" "300"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"dmg" "200"
+"mass" "300"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"dmg" "200"
+"mass" "300"
+"health" "800"
+"classname" "func_explosive"
+}
+{
+"delay" "0"
+"pausetime" "0"
+"wait" "3"
+"target" "speaker1"
+"random" "0"
+"spawnflags" "5"
+"origin" "-70 2 158"
+"classname" "func_timer"
+}
+{
+"targetname" "speaker1"
+"spawnflags" "4"
+"volume" ".6"
+"attenuation" "4"
+"noise" "june6/crickets"
+"origin" "-364 2 132"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "4"
+"noise" "June6/dogfight2441"
+"targetname" "Plane2"
+"origin" "-416 2 144"
+"classname" "target_speaker"
+}
+{
+"random" "0"
+"wait" "160"
+"spawnflags" "1"
+"target" "Plane2"
+"origin" "164 2 118"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "arty/hit1"
+"attenuation" "4"
+"origin" "546 2 142"
+"classname" "target_speaker"
+}
+{
+"wait" "77"
+"spawnflags" "1"
+"target" "plane1"
+"origin" "900 2 154"
+"classname" "func_timer"
+}
+

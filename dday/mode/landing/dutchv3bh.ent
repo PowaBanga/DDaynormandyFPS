@@ -1,0 +1,180 @@
+{
+"message" "Dutch Liberation BH - MUNF"
+"_sun_ambient" "75"
+"_sun_light" "95"
+"_sun_diffuse" "80"
+"_sun_color" ".9 .7 1"
+"_sun_angle" "40 -30"
+"sky" "grnplsnt"
+"classname" "worldspawn"
+}
+{
+"kills" "60"
+"nextmap" "falaisebh"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "3rd Canadian"
+"origin" "1497.58 -2140.05 -81"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"nextmap" "falaisebh"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "1560.92 -2126.47 -43"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1482 -1978 -129"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "352 -1494 -144"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "1628.79 -2194.34 -90.5"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "coco/incom"
+"targetname" "build4"
+"origin" "2078 446 -68"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "coco/incom"
+"targetname" "build5"
+"origin" "517 544 -68"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"random" "5"
+"wait" "18"
+"target" "tree"
+"origin" "1543 -1553 -30"
+"classname" "func_timer"
+}
+{
+"targetname" "tree"
+"volume" "1"
+"spawnflags" "4"
+"attenuation" "4"
+"noise" "gimp/tree"
+"origin" "1543 -1473 -37"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "angrydog"
+"attenuation" "4"
+"noise" "june6/dog_growl"
+"origin" "1588.07 -2180.77 -23"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"random" "19"
+"wait" "45"
+"target" "angrydog"
+"origin" "1529.25 -2180.77 -22"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "b25"
+"attenuation" "4"
+"noise" "faf/b25"
+"origin" "1484.01 -1655.94 -51"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "29"
+"target" "b25"
+"origin" "1588.07 -1683.08 -78"
+"classname" "func_timer"
+}
+{
+"targetname" "flyby3"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "4"
+"noise" "cherbourg/flyby3"
+"origin" "1525 -1351.88 -35"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"random" "15"
+"wait" "42"
+"target" "flyby3"
+"origin" "1577 -1158.75 -20"
+"classname" "func_timer"
+}
+{
+"target" "churchsound"
+"spawnflags" "1"
+"origin" "1521 -567 -48"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "churchsound"
+"attenuation" "3"
+"noise" "gimp/5insx"
+"origin" "1570 -499 -40"
+"classname" "target_speaker"
+}
+{
+"wait" "5"
+"spawnflags" "4"
+"targetname" "flyawaybird"
+"volume" "1"
+"attenuation" "4"
+"noise" "june6/bird13_43"
+"origin" "1612 -715 -43"
+"classname" "target_speaker"
+}
+{
+"wait" "85"
+"random" "28"
+"spawnflags" "1"
+"target" "flyawaybird"
+"origin" "1606 -892 -110"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"speed" "25"
+"angle" "90"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"speed" "25"
+"angle" "90"
+"classname" "trigger_push"
+}
+

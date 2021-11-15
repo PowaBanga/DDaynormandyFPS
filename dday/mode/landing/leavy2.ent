@@ -1,0 +1,119 @@
+{
+"message" "The Leavy Residence"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"origin" "-336 -1504 -438"
+"classname" "light"
+}
+{
+"origin" "-110 -1606 -438"
+"classname" "light"
+}
+{
+"origin" "-190 -1350 -438"
+"classname" "light"
+}
+{
+"origin" "8 -1390 -438"
+"classname" "light"
+}
+{
+"model" "*1"
+"dmg" "1"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-31 -1542 -307"
+"light" "250"
+"classname" "light"
+}
+{
+"model" "*2"
+"dmg" "100"
+"mass" "75"
+"health" "100"
+"targetname" "crapchair"
+"classname" "func_explosive"
+}
+{
+"origin" "-288 -1448 -440"
+"dll" "usa"
+"message" "Andrew's friends"
+"classname" "info_team_start"
+}
+{
+"origin" "-288 -1576 -440"
+"dll" "grm"
+"message" "The Leavy's"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "128 -1384 -616"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-72 -1200 -335"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-220 -1177 -313"
+"classname" "light"
+}
+{
+"origin" "-225 -872 -345"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "-330 -1500 -446"
+"classname" "info_player_start"
+}
+{
+"origin" "96 -1392 -600"
+"classname" "light"
+}
+{
+"origin" "-240 -1664 -432"
+"classname" "light"
+}
+{
+"origin" "120 -1480 -720"
+"classname" "light"
+}
+{
+"origin" "304 -1152 -720"
+"classname" "light"
+}
+{
+"model" "*3"
+"target" "glasbrk"
+"style" "0"
+"_minlight" "0"
+"mass" "200"
+"dmg" "0"
+"health" "5"
+"classname" "func_explosive"
+}
+{
+"origin" "62 -1372 -312"
+"volume" "1"
+"attenuation" "1"
+"noise" "world/brkglas.wav"
+"targetname" "glasbrk"
+"classname" "target_speaker"
+}
+{
+"origin" "42 -1372 -312"
+"volume" "1"
+"attenuation" "3"
+"noise" "hedge/wind01.wav"
+"targetname" "glasbrk"
+"spawnflags" "2"
+"classname" "target_speaker"
+}
+

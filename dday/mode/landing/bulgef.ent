@@ -1,0 +1,274 @@
+{
+"message" "Bulge Fight\nby [1RB]Fafner"
+"classname" "worldspawn"
+}
+{
+"targetname" "spawns"
+"origin" "-1622.2 2288.2 269.8"
+"angle" "321"
+"obj_owner" "-1"
+"classname" "info_reinforcements_start"
+}
+{
+"targetname" "spawns"
+"origin" "2211.3 -1528.1 241.1"
+"angle" "124"
+"obj_owner" "-1"
+"classname" "info_reinforcements_start"
+}
+{
+"count" "-1"
+"origin" "1971.3 -608.1 241.1"
+"obj_owner" "0"
+"classname" "info_engineer_start"
+}
+{
+"count" "-1"
+"origin" "1971.3 -608.1 241.1"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"style" "2"
+"obj_owner" "1"
+"dmg" "0"
+"target" "flag"
+"max" "-1215.6 1707.7 189.5"
+"min" "-1182.5 1751.1 348"
+"obj_time" "240"
+"health" "100"
+"message" "Base"
+"classname" "timed_objective_touch"
+}
+{
+"targetname" "flag"
+"target" "spawns"
+"style" "2"
+"classname" "spawn_toggle"
+}
+{
+"origin" "534.7 607.2 352.9"
+"angle" "360"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"nextmap" "doomtown"
+"kills" "50"
+"points" "100"
+"classname" "info_team_start"
+}
+{
+"points" "100"
+"fog" ".12"
+"origin" "839.6 611.9 353"
+"message" "Axis"
+"obj_owner" "1"
+"dll" "grm"
+"nextmap" "doomtown"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"message" "test"
+"targetname" "wind"
+"attenuation" "-1"
+"noise" "faf/wind10"
+"spawnflags" "0"
+"origin" "-624.9 1569 332"
+"classname" "target_speaker"
+}
+{
+"targetname" "windtimer"
+"target" "wind"
+"wait" "15"
+"delay" "1"
+"spawnflags" "0"
+"origin" "-736 1472 300"
+"classname" "func_timer"
+}
+{
+"target" "windtimer"
+"origin" "-768 1376 364"
+"classname" "trigger_always"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "-960 832 300"
+"classname" "misc_md2"
+}
+{
+"style" "2"
+"targetname" "flag"
+"angle" "313"
+"mass" "13"
+"model" "models/mapmodels/faf/usaflag.md2"
+"origin" "-1218.8 1721.5 226.1"
+"classname" "misc_md2"
+}
+{
+"angle" "316"
+"targetname" "flag"
+"mass" "13"
+"model" "models/mapmodels/faf/grmflag.md2"
+"origin" "-1218.8 1721.6 226.1"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "-1000 2008 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "-808 -144 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "448 -1344 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "448 -256 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "448 832 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "448 1920 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "1664 -1344 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "1664 -256 300"
+"classname" "misc_md2"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "1664 832 300"
+"classname" "misc_md2"
+}
+{
+"model" "*1"
+"wait" "-1"
+"speed" "75"
+"targetname" "startflag"
+"spawnflags" "32"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"target" "startflag"
+"classname" "trigger_once"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "256.8 1663.9 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "488.3 1550 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "248.3 1846.7 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "45 1530 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "578.3 1058.3 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "155 1091.7 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "73.3 633.3 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "583.3 643.3 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "245 151.7 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "671.7 161.7 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "443.8 -303.1 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "208.3 -620 127.1"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "faf/trickle"
+"origin" "558.3 -610 127.1"
+"classname" "target_speaker"
+}
+{
+"angle" "49"
+"origin" "-112 672 -1116"
+"classname" "info_player_start"
+}
+{
+"mass" "20"
+"model" "models/mapmodels/faf/snow.md2"
+"origin" "-4 720 -1104"
+"classname" "misc_md2"
+}
+

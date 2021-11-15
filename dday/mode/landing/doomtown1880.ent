@@ -1,0 +1,96 @@
+{
+"message" "DoomTown1880---By___Sprsnprchkn"
+"_sun_diffade" ".2"
+"_sun_diffuse" "30"
+"_sun_color" "243 255 159"
+"_sun_light" "250"
+"_sun_angle" "270 -75"
+"nextmap" "hangerbanger"
+"sky" "des"
+"_ambient" "30"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-3277.9 1277.9 -17.4"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "171"
+"origin" "-2415.6 222.3 -34"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "208"
+"origin" "2378.0 -3045.0 11.6"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "allies"
+"nextmap" "hangerbanger"
+"kills" "60"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "208"
+"origin" "-2614.1 1778.6 200.5"
+"classname" "info_team_start"
+}
+{
+"message" "axis"
+"kills" "60"
+"nextmap" "hangerbanger"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "208"
+"origin" "-2660.5 1989.5 222.4"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"origin" "-2287 1634 -71"
+"speed" "200"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-2290 1536 -69"
+"speed" "200"
+"sounds" "1"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "-2642 1009 12"
+"targetname" "td"
+"spawnflags" "64"
+"speed" "800"
+"sounds" "1"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"speed" "200"
+"health" "10"
+"target" "td"
+"classname" "func_button"
+}
+{
+"model" "*5"
+"targetname" "td"
+"dmg" "3000"
+"spawnflags" "36"
+"classname" "trigger_hurt"
+}
+

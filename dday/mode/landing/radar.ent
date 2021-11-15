@@ -1,0 +1,277 @@
+{
+"message" "Capture the radar Station"
+"sky" "cerisy"
+"classname" "worldspawn"
+}
+{
+"_color" "1 0.5 0"
+"Spawnflags" "1"
+"style" "1"
+"light" "100"
+"origin" "-2400 640 352"
+"classname" "light"
+}
+{
+"points" "150"
+"kills" "50"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Cpt.Millers Squad"
+"angle" "360"
+"origin" "-192 0 64"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Defenders Of the Radar"
+"angle" "360"
+"origin" "-2432 96 288"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-192 288 64"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "170"
+"origin" "-192 -384 64"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-192 832 96"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2496 576 320"
+"classname" "info_player_start"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-320 160 96"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-1248 160 192"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-1216 -256 160"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-1408 768 192"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-160 -256 192"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-160 704 96"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-896 -288 224"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-1024 864 192"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-2016 480 320"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-1888 -256 320"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-2048 800 0"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-1728 800 320"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-2368 576 320"
+"classname" "target_speaker"
+}
+{
+"noise" "dday2/amb_battle"
+"spawnflags" "1"
+"origin" "-2240 416 320"
+"classname" "target_speaker"
+}
+{
+"targetname" " func_timer"
+"dmg" "180"
+"delay" "0"
+"origin" "-1152 0 160"
+"classname" "target_explosion"
+}
+{
+"dmg" "180"
+"delay" "0"
+"targetname" "fund_timer"
+"origin" "-1184 640 192"
+"classname" "target_explosion"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2592 480 288"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2528 32 288"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1760 640 288"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2080 -352 288"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-160 320 64"
+"classname" "info_sniper_start"
+}
+{
+"model" "sprites/trees/tree22.sp2"
+"mass" "8"
+"origin" "-736 384 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree11.sp2"
+"mass" "8"
+"origin" "-576 128 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree22.sp2"
+"mass" "8"
+"origin" "-608 896 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree11.sp2"
+"mass" "8"
+"origin" "-640 -64 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree11.sp2"
+"mass" "8"
+"origin" "-608 224 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree11.sp2"
+"mass" "8"
+"origin" "-576 -384 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree11.sp2"
+"mass" "8"
+"origin" "-544 992 160"
+"classname" "misc_md2"
+}
+{
+"model" "sprites/trees/tree02.sp2"
+"mass" "8"
+"origin" "-576 448 160"
+"classname" "misc_md2"
+}
+{
+"model" "*1"
+"sounds" "1"
+"wait" "3"
+"speed" "100"
+"spawnflags" "0"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"obj_gain" "50"
+"obj_loss" "0"
+"obj_name" "Artillery Gun"
+"obj_owner" "1"
+"mass" "500"
+"health" "1000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"obj_gain" "50"
+"obj_loss" "0"
+"obj_name" "Radar"
+"obj_owner" "1"
+"message" "Radar Destroyed"
+"mass" "800"
+"health" "5000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"obj_gain" "50"
+"obj_loss" "0"
+"obj_name" "Flak 88"
+"obj_owner" "1"
+"mass" "450"
+"health" "1000"
+"classname" "func_explosive_objective"
+}
+

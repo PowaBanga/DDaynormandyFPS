@@ -1,0 +1,297 @@
+{
+"_sun_diffade" ".5"
+"_sun_surface" "100"
+"_sun_diffuse" "50"
+"_sun_angle" "245 -45"
+"_sun_color" "3.4 3.4 3.3"
+"_sun_ambient" "50"
+"_sun_light" "400"
+"message" "Desert Battle : a bunker battery\nBy L.T. Mark\nRev TanatoVago"
+"gravity" "800"
+"sky" "des"
+"classname" "worldspawn"
+}
+{
+"nextmap" "desert1"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Desert Fox's"
+"origin" "154.9 1090.7 -40"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "250.8 1602.7 -18.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "386.8 1602.7 -18.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-185.2 1606.7 -18.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-185.2 1554.7 -18.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-5.2 1458.7 -18.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "74.8 1458.7 -18.9"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "desert2"
+"points" "100"
+"kills" "40"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Desert Rat's"
+"origin" "-379 -243.4 -77.2"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-340.4 -262.8 -65.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "526.6 -18.8 -34.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "471.6 -142.8 -49.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "475.6 -206.8 -49.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "87.6 -326.8 -49.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "251.6 -338.8 -49.6"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"dmg" "150"
+"mass" "200"
+"health" "2500"
+"obj_owner" "0"
+"obj_loss" "-100"
+"obj_gain" "-1"
+"obj_name" "PAK baterry"
+"classname" "func_explosive_objective"
+}
+{
+"target" "t1"
+"origin" "504 -184 56"
+"classname" "misc_teleporter"
+}
+{
+"target" "t2"
+"origin" "-44 1568 116"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "-444 64 124"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"origin" "665 -284 4"
+"classname" "misc_teleporter"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/bunkerwind.wav"
+"origin" "-116 1396 -12"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/bunkerwind.wav"
+"origin" "136 1600 -12"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/bunkerwind.wav"
+"origin" "284 1444 76"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "524 992 76"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-352 1412 -12"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "152 428 76"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "340 -80 8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-128 -104 8"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-220 424 8"
+"classname" "target_speaker"
+}
+{
+"volume" ".5"
+"spawnflags" "5"
+"noise" "faf/reich.wav"
+"origin" "147.4 1609.7 -7"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"wait" "3"
+"lip" "4"
+"speed" "50"
+"targetname" "door1"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"spawnflags" "4"
+"noise" "dday3/openlock.wav"
+"volume" ".8"
+"attenuation" "2"
+"targetname" "door1"
+"origin" "320 1416 -16"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"target" "door1"
+"delay" "1"
+"wait" "4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"targetname" "j1"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"target" "j1"
+"delay" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"targetname" "j2"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"target" "j2"
+"delay" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"angle" "180"
+"origin" "-880 -376 136"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "t4"
+"angle" "183"
+"origin" "-112 544 124"
+"classname" "misc_teleporter_dest"
+}
+{
+"angle" "180"
+"origin" "-1012 -372 240"
+"classname" "info_player_start"
+}
+{
+"target" "t4"
+"origin" "-1188 -376 136"
+"classname" "misc_teleporter"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "-1140 -376 240"
+"classname" "light"
+}
+

@@ -1,0 +1,178 @@
+{
+"message" "Colored Walls -- Created by Moz"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "0 0 376"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "0 0 496"
+"classname" "light"
+}
+{
+"kills" "30"
+"message" "Allies"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "180"
+"origin" "832 0 448"
+"classname" "info_team_start"
+}
+{
+"kills" "30"
+"message" "Axis"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "360"
+"origin" "-832 0 448"
+"classname" "info_team_start"
+}
+{
+"delay" "6"
+"obj_owner" "1"
+"angle" "90"
+"origin" "-832 -336 64"
+"classname" "info_reinforcements_start"
+}
+{
+"delay" "6"
+"obj_owner" "0"
+"angle" "270"
+"origin" "832 336 64"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "832 192 64"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-832 -192 64"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-576 -80 64"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "576 64 64"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-704 192 64"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "704 -192 64"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "832 -320 64"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-832 320 64"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "576 -320 64"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "89"
+"origin" "-576 320 64"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "128"
+"origin" "-832 64 64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "310"
+"origin" "832 -64 64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "560 304 64"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-560 -320 64"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-832 192 64"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "832 -192 64"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "832 256 64"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-832 -256 64"
+"classname" "info_officer_start"
+}
+{
+"model" "*1"
+"sounds" "1"
+"speed" "120"
+"wait" "2"
+"lip" "-1"
+"dmg" "10"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"sounds" "1"
+"speed" "120"
+"wait" "2"
+"lip" "-1"
+"dmg" "10"
+"angle" "-2"
+"classname" "func_door"
+}
+

@@ -1,0 +1,1165 @@
+{
+"_sun_difwait" "0"
+"_sun_surface" "180"
+"_sun_light" "80"
+"_sun_color" "1.0 1.0 1.0"
+"_sun_diffuse" "75"
+"_sun_diffade" ".5"
+"_sun_ambient" "80"
+"_sun_angle" "270 -20"
+"message" "Atlantic Ocean, 1942\nby Afrow UK"
+"gravity" "800"
+"sounds" "0"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"origin" "3360 -1084 -672"
+"target" "spawn"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3368 -1968 272"
+"targetname" "boat1_spawn"
+"angle" "270"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "2408 -2936 168"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "2224 -3568 128"
+"count" "99"
+"obj_owner" "1"
+"points" "100"
+"kills" "50"
+"nextmap" "atsea"
+"dll" "grm"
+"message" "Axis Airborn"
+"classname" "info_team_start"
+}
+{
+"origin" "2192 -3568 128"
+"count" "99"
+"obj_owner" "0"
+"points" "0"
+"kills" "50"
+"nextmap" "atsea"
+"dll" "usa"
+"message" "Allies"
+"classname" "info_team_start"
+}
+{
+"origin" "3360 -1088 -560"
+"volume" "1"
+"attenuation" "1"
+"noise" "afrowuk/afrow_windy.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3360 -1088 -640"
+"volume" "1"
+"attenuation" "1"
+"noise" "afrowuk/afrow_windy.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3328 -1168 -552"
+"volume" "1"
+"attenuation" "1"
+"noise" "afrowuk/afrow_planeidle.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3216 -1168 -552"
+"volume" "1"
+"attenuation" "1"
+"noise" "afrowuk/afrow_planeidle.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3440 -1168 -552"
+"volume" "1"
+"attenuation" "1"
+"noise" "afrowuk/afrow_planeidle.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "2160 -3568 128"
+"volume" "1"
+"attenuation" "-1"
+"noise" "afrowuk/afrow_ocean.wav"
+"targetname" "sound_ocean"
+"classname" "target_speaker"
+}
+{
+"origin" "2128 -3568 128"
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "4.5"
+"target" "sound_ocean"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+}
+{
+"model" "*8"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "func_wall"
+}
+{
+"model" "*10"
+"classname" "func_wall"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "boat1_door2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"speed" "100"
+"sounds" "1"
+"dmg" "0"
+"lip" "3"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"target" "boat1_door2_ap"
+"targetname" "boat1_door2"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"style" "1"
+"targetname" "boat1_door2_ap"
+"classname" "func_areaportal"
+}
+{
+"style" "2"
+"targetname" "boat1_door1_ap"
+"classname" "func_areaportal"
+}
+{
+"model" "*15"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "boat1_door1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*16"
+"speed" "100"
+"sounds" "1"
+"dmg" "0"
+"lip" "3"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"target" "boat1_door1_ap"
+"targetname" "boat1_door1"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"style" "0"
+"_minlight" "0"
+"obj_name" "Radio equipment 1"
+"dmg" "100"
+"mass" "75"
+"health" "100"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_owner" "0"
+"target" "boat1_obj1_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*18"
+"targetname" "boat1_obj1_dest"
+"style" "0"
+"_minlight" "0"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*19"
+"style" "0"
+"_minlight" "0"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Valuable documents"
+"obj_owner" "0"
+"dmg" "0"
+"mass" "0"
+"health" "100"
+"target" "boat1_obj2_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*20"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat1_obj2_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"origin" "3344 -2416 -32"
+"delay" "0"
+"target" "boat1_obj"
+"targetname" "boat1_obj2_dest"
+"classname" "trigger_relay"
+}
+{
+"origin" "3520 -2464 -32"
+"delay" "0"
+"target" "boat1_obj"
+"targetname" "boat1_obj1_dest"
+"classname" "trigger_relay"
+}
+{
+"origin" "3552 -2400 -32"
+"count" "2"
+"target" "spawner"
+"targetname" "boat1_obj"
+"spawnflags" "1"
+"classname" "trigger_counter"
+}
+{
+"origin" "3104 -448 -816"
+"targetname" "spawn"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*21"
+"style" "0"
+"_minlight" "0"
+"targetname" "spawn_push"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "0"
+"wait" "0"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"classname" "func_door"
+}
+{
+"model" "*22"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "spawn_push"
+"classname" "trigger_multiple"
+}
+{
+"model" "*23"
+"style" "0"
+"_minlight" "0"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "80"
+"wait" "-1"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"targetname" "spawner"
+"classname" "func_door"
+}
+{
+"origin" "3168 -448 -944"
+"target" "boat1_spawn"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3232 -448 -944"
+"target" "boat2_spawn"
+"classname" "misc_teleporter"
+}
+{
+"origin" "2480 -1584 272"
+"targetname" "boat2_spawn"
+"angle" "270"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*24"
+"style" "0"
+"_minlight" "0"
+"dmg" "200"
+"mass" "200"
+"health" "500"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Ammunition cargo"
+"obj_owner" "0"
+"target" "boat2_box1_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*25"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat2_box1_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*26"
+"style" "0"
+"_minlight" "0"
+"dmg" "200"
+"mass" "200"
+"health" "500"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Ammunition cargo"
+"obj_owner" "0"
+"target" "boat2_box2_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*27"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat2_box2_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*28"
+"style" "0"
+"_minlight" "0"
+"dmg" "200"
+"mass" "200"
+"health" "500"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Ammunition cargo"
+"obj_owner" "0"
+"target" "boat2_box3_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*29"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat2_box3_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*30"
+"style" "0"
+"_minlight" "0"
+"dmg" "200"
+"mass" "200"
+"health" "500"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Ammunition cargo"
+"obj_owner" "0"
+"target" "boat2_box4_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*31"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat2_box4_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*32"
+"style" "0"
+"_minlight" "0"
+"dmg" "200"
+"mass" "200"
+"health" "500"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Ammunition cargo"
+"obj_owner" "0"
+"target" "boat2_box5_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*33"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat2_box5_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*34"
+"classname" "func_wall"
+}
+{
+"model" "*35"
+"classname" "func_wall"
+}
+{
+"origin" "3168 -1344 -624"
+"target" "boat2_spawn1"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3168 -1472 -624"
+"target" "boat2_spawn2"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3488 -1472 -624"
+"target" "boat1_spawn2"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3488 -1344 -624"
+"target" "boat1_spawn1"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3264 -2464 -48"
+"targetname" "boat1_spawn2"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "3312 -3312 160"
+"targetname" "boat1_spawn1"
+"angle" "90"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "2464 -2880 160"
+"targetname" "boat2_spawn1"
+"angle" "90"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "2372 -2396 -48"
+"targetname" "boat2_spawn2"
+"angle" "90"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*36"
+"wait" "5"
+"sounds" "3"
+"message" "Please change classes.\nLMG and Flamer classes have been\nbanned on this map!"
+"delay" "0"
+"target" "spawn_killer"
+"classname" "trigger_multiple"
+}
+{
+"origin" "3360 -1696 -624"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "3328 -1504 -624"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3360 -1696 -624"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "3232 -1168 -568"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3328 -1504 -624"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3328 -1504 -624"
+"classname" "info_officer_start"
+}
+{
+"origin" "3328 -1504 -624"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3328 -1504 -624"
+"classname" "info_special_start"
+}
+{
+"origin" "3360 -1696 -624"
+"classname" "info_engineer_start"
+}
+{
+"origin" "3232 -1168 -568"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3232 -1168 -568"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "3232 -1168 -568"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3232 -1168 -568"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "3360 -1696 -624"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "3424 -1168 -568"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3424 -1168 -568"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "3424 -1168 -568"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3424 -1168 -568"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"model" "*37"
+"style" "0"
+"_minlight" "0"
+"dmg" "0"
+"mass" "100"
+"health" "750"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "The safe"
+"obj_owner" "0"
+"target" "boat2_obj_dest"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*38"
+"style" "0"
+"_minlight" "0"
+"dmg" "0"
+"mass" "75"
+"health" "50"
+"target" "boat2_clock_dest"
+"classname" "func_explosive"
+}
+{
+"model" "*39"
+"targetname" "boat2_clock_dest"
+"style" "0"
+"_minlight" "0"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*40"
+"classname" "func_wall"
+}
+{
+"model" "*41"
+"classname" "func_wall"
+}
+{
+"model" "*42"
+"classname" "func_wall"
+}
+{
+"model" "*43"
+"classname" "func_wall"
+}
+{
+"model" "*44"
+"style" "0"
+"_minlight" "0"
+"targetname" "boat2_obj_dest"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"origin" "2408 -2936 192"
+"volume" "1"
+"attenuation" "1"
+"noise" "afrowuk/afrow_ocean.wav"
+"targetname" "spawn_sound_ocean"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3424 -1168 -568"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3360 -1696 -624"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "3360 -1696 -624"
+"classname" "info_sniper_start"
+}
+{
+"model" "*45"
+"dmg" "25"
+"spawnflags" "28"
+"classname" "trigger_hurt"
+}
+{
+"origin" "2496 -1792 128"
+"message" "Ship 2's Bow"
+"classname" "map_location"
+}
+{
+"origin" "2496 -3008 96"
+"message" "Ship 2's Stern"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2816 176"
+"message" "Ship 2's Bridge"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2048 -32"
+"message" "Ship 2's Hold"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2432 -32"
+"message" "Ship 2's Hold"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2688 -32"
+"message" "Ship 2's Hold"
+"classname" "map_location"
+}
+{
+"origin" "3392 -3072 -32"
+"message" "Ship 1's Hold"
+"classname" "map_location"
+}
+{
+"origin" "3392 -2816 -32"
+"message" "Ship 1's Hold"
+"classname" "map_location"
+}
+{
+"origin" "3392 -2432 -32"
+"message" "Ship 1's Hold"
+"classname" "map_location"
+}
+{
+"origin" "3392 -3392 96"
+"message" "Ship 1's Stern"
+"classname" "map_location"
+}
+{
+"origin" "3392 -3200 176"
+"message" "Ship 1's Bridge"
+"classname" "map_location"
+}
+{
+"origin" "3392 -2176 128"
+"message" "Ship 1's Bow"
+"classname" "map_location"
+}
+{
+"origin" "3392 -2432 128"
+"message" "Ship 1's Deck"
+"classname" "map_location"
+}
+{
+"origin" "3392 -2816 128"
+"message" "Ship 1's Deck"
+"classname" "map_location"
+}
+{
+"origin" "3392 -3072 128"
+"message" "Ship 1's Deck"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2048 128"
+"message" "Ship 1's Deck"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2432 128"
+"message" "Ship 1's Deck"
+"classname" "map_location"
+}
+{
+"origin" "2496 -2688 128"
+"message" "Ship 1's Deck"
+"classname" "map_location"
+}
+{
+"origin" "3336 -1168 -552"
+"message" "Axis plane"
+"classname" "map_location"
+}
+{
+"origin" "2168 -1312 -80"
+"target" "secret_spawn"
+"classname" "misc_teleporter"
+}
+{
+"origin" "3616 -320 -576"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "500"
+"spawnflags" "1"
+"classname" "light"
+}
+{
+"origin" "3424 -320 -624"
+"targetname" "secret_spawn"
+"classname" "misc_teleporter_dest"
+}
+{
+"origin" "2272 -1472 -112"
+"targetname" "secret_spawnback"
+"angle" "270"
+"classname" "misc_teleporter_dest"
+}
+{
+"model" "*46"
+"style" "0"
+"_minlight" "0"
+"classname" "func_wall"
+}
+{
+"origin" "3664 -220 -624"
+"target" "secret_spawnback"
+"classname" "misc_teleporter"
+}
+{
+"model" "*47"
+"classname" "func_wall"
+}
+{
+"origin" "2656 -2016 -16"
+"noise" "world/drip_amb.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "2336 -2720 -32"
+"noise" "world/drip_amb.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3552 -2560 -32"
+"noise" "world/drip_amb.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3232 -2864 -48"
+"noise" "world/drip_amb.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"model" "*48"
+"classname" "func_wall"
+}
+{
+"model" "*49"
+"classname" "func_wall"
+}
+{
+"model" "*50"
+"classname" "func_wall"
+}
+{
+"model" "*51"
+"classname" "func_wall"
+}
+{
+"model" "*52"
+"classname" "func_wall"
+}
+{
+"model" "*53"
+"classname" "func_wall"
+}
+{
+"model" "*54"
+"classname" "func_wall"
+}
+{
+"model" "*55"
+"classname" "func_wall"
+}
+{
+"origin" "3536 -320 -576"
+"message" "Map secret, yes you heard"
+"classname" "map_location"
+}
+{
+"origin" "3232 -1168 -568"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "3424 -1168 -568"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "3328 -1504 -624"
+"obj_owner" "0"
+"classname" "info_medic_start"
+}
+{
+"origin" "2496 -2256 272"
+"classname" "weapon_knife"
+}
+{
+"model" "*56"
+"classname" "func_wall"
+}
+{
+"origin" "3304 -3184 192"
+"classname" "weapon_colt45"
+}
+{
+"model" "*57"
+"classname" "func_wall"
+}
+{
+"model" "*58"
+"classname" "func_wall"
+}
+{
+"origin" "3528 -3096 32"
+"_color" "1.000 0.502 0.000"
+"style" "6"
+"_angfade" "1"
+"_fade" "1"
+"classname" "light"
+}
+{
+"origin" "3248 -1168 -544"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"_color" "1.000 0.502 0.000"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "3360 -1664 -608"
+"classname" "light"
+}
+{
+"model" "*59"
+"speed" "45"
+"sounds" "1"
+"dmg" "0"
+"lip" "3"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"target" "boat1_holddoor2_ap"
+"targetname" "boat1_holddoor2"
+"classname" "func_door"
+}
+{
+"style" "3"
+"targetname" "boat1_holddoor2_ap"
+"classname" "func_areaportal"
+}
+{
+"style" "4"
+"targetname" "boat1_holddoor1_ap"
+"classname" "func_areaportal"
+}
+{
+"style" "5"
+"targetname" "boat2_holddoor1_ap"
+"classname" "func_areaportal"
+}
+{
+"model" "*60"
+"speed" "45"
+"sounds" "1"
+"dmg" "0"
+"lip" "3"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"target" "boat2_holddoor2_ap"
+"targetname" "boat2_holddoor2"
+"classname" "func_door"
+}
+{
+"style" "6"
+"targetname" "boat2_holddoor2_ap"
+"classname" "func_areaportal"
+}
+{
+"model" "*61"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "boat2_holddoor2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*62"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "boat1_holddoor2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*63"
+"speed" "100"
+"sounds" "1"
+"dmg" "0"
+"lip" "8"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"target" "boat1_holddoor1_ap"
+"classname" "func_door"
+}
+{
+"model" "*64"
+"speed" "100"
+"sounds" "1"
+"dmg" "0"
+"lip" "8"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"target" "boat2_holddoor1_ap"
+"classname" "func_door"
+}
+{
+"model" "*65"
+"style" "0"
+"_minlight" "0"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "0"
+"wait" "0"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"targetname" "boat2_spawnpush"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*66"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "boat2_spawnpush"
+"classname" "trigger_multiple"
+}
+{
+"model" "*67"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "0"
+"wait" "0"
+"decel" "0"
+"accel" "0"
+"health" "0"
+"targetname" "boat1_spawnpush"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*68"
+"wait" "0"
+"sounds" "0"
+"delay" "0"
+"target" "boat1_spawnpush"
+"classname" "trigger_multiple"
+}
+{
+"origin" "3248 -1408 -608"
+"classname" "light"
+}
+{
+"origin" "3408 -1408 -608"
+"classname" "light"
+}
+{
+"origin" "3288 -3128 -12"
+"volume" "1"
+"attenuation" "1"
+"targetname" "boat1_holddoor2_ap"
+"noise" "afrowuk/afrow_switch.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "3288 -3152 -12"
+"volume" "1"
+"attenuation" "1"
+"targetname" "boat1_holddoor2_ap"
+"noise" "afrowuk/afrow_switch.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "2440 -2732 -12"
+"volume" "1"
+"attenuation" "1"
+"targetname" "boat2_holddoor2_ap"
+"noise" "afrowuk/afrow_switch.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "2440 -2756 -12"
+"volume" "1"
+"attenuation" "1"
+"targetname" "boat2_holddoor2_ap"
+"noise" "afrowuk/afrow_switch.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "2392 -2520 36"
+"classname" "light"
+}
+{
+"origin" "2472 -2648 36"
+"_color" "1.000 0.000 0.000"
+"classname" "light"
+}
+{
+"origin" "3236 -2404 -42"
+"angle" "90"
+"classname" "weapon_sniper"
+}
+{
+"origin" "2336 -2808 32"
+"_color" "1.000 0.502 0.000"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*69"
+"origin" "3254 -2393 -43"
+"style" "0"
+"_minlight" "0"
+"speed" "25"
+"sounds" "1"
+"dmg" "0"
+"wait" "3"
+"decel" "0"
+"accel" "0"
+"health" "250"
+"distance" "100"
+"classname" "func_door_rotating"
+}
+{
+"model" "*70"
+"classname" "func_wall"
+}
+{
+"model" "*71"
+"wait" "5"
+"sounds" "0"
+"message" "This map is dedicated\nto my girlfriend\nCharlotte (2003/4)"
+"delay" "0"
+"classname" "trigger_multiple"
+}
+{
+"origin" "3312 -3184 32"
+"_color" "1.000 0.502 0.000"
+"light" "200"
+"classname" "light"
+}
+

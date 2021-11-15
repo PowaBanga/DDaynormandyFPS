@@ -1,0 +1,332 @@
+{
+"_sun_color" "0.000 0.251 0.502"
+"_sun_angle" "245 -45"
+"nextmap" "castelo"
+"sky" "sr"
+"message" "Monte Castelo.               By: Vassili Zaitsev"
+"_sun_surface" "100"
+"_sun_ambient" "15"
+"_sun_difwait" "0"
+"_sun_diffuse" "0"
+"_sun_light" "170"
+"gravity" "800"
+"sounds" "0"
+"classname" "worldspawn"
+}
+{
+"origin" "-544 -576 -672"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "-656 -224 -744"
+"style" "7"
+"_falloff" "0"
+"_color" "1.000 0.702 0.000"
+"_focus" "1"
+"_cone" "10"
+"_angfade" "1"
+"_fade" "1"
+"light" "190"
+"angle" "360"
+"classname" "light"
+}
+{
+"origin" "-544 -400 -640"
+"attenuation" "1"
+"noise" "Castelo/waramb.wav"
+"volume" "50"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-624 -608 -576"
+"count" "1"
+"nextmap" "castelo"
+"points" "120"
+"kills" "90"
+"dll" "usa"
+"message" "Brazil and USA Forces"
+"classname" "info_team_start"
+}
+{
+"origin" "-624 -544 -576"
+"nextmap" "castelo"
+"count" "0"
+"points" "90"
+"obj_owner" "1"
+"kills" "75"
+"dll" "grm"
+"message" "German Force"
+"classname" "info_team_start"
+}
+{
+"origin" "1960 144 -1136"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/amb2"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "1952 768 -1136"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/amb2"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "2640 416 -904"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/amb2"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "2640 -112 -896"
+"volume" "10"
+"attenuation" "1"
+"noise" "castelo/amb2"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "3328 208 -872"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/battle1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "1216 336 -1144"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/battle1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "800 608 -1248"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/battle1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "2168 376 -992"
+"volume" "10"
+"attenuation" "1"
+"noise" "castelo/spitfire"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "2832 192 -776"
+"volume" "50"
+"attenuation" "1"
+"noise" "castelo/b25"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"message" "Left Pill box"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*2"
+"message" "Upper Left Pill Box"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*3"
+"message" "Upper Right Pill Box"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*4"
+"style" "0"
+"dmg" "95"
+"mass" "75"
+"health" "100"
+"obj_loss" "5"
+"obj_gain" "5"
+"obj_name" "Ammo Crates"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"style" "0"
+"dmg" "95"
+"mass" "75"
+"health" "100"
+"obj_loss" "5"
+"obj_gain" "5"
+"obj_name" "Ammo Crates"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"style" "0"
+"dmg" "95"
+"mass" "75"
+"health" "100"
+"obj_loss" "5"
+"obj_gain" "5"
+"obj_name" "Ammo Crates"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"style" "0"
+"dmg" "95"
+"mass" "75"
+"health" "100"
+"obj_loss" "5"
+"obj_gain" "5"
+"obj_name" "Ammo Crates"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "736 -128 -1312"
+"classname" "info_infantry_start"
+}
+{
+"origin" "864 -64 -1312"
+"classname" "info_officer_start"
+}
+{
+"origin" "800 80 -1312"
+"obj_owner" "0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "736 -32 -1312"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "864 -160 -1312"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "800 -80 -1312"
+"classname" "info_special_start"
+}
+{
+"origin" "736 48 -1312"
+"classname" "info_engineer_start"
+}
+{
+"origin" "848 16 -1312"
+"classname" "info_medic_start"
+}
+{
+"origin" "800 0 -1312"
+"classname" "info_sniper_start"
+}
+{
+"origin" "3088 192 -928"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "2976 -64 -848"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3408 432 -864"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "3392 -64 -864"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "3392 704 -864"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3184 176 -864"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "3072 448 -944"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "3456 192 -928"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "3264 320 -864"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-432 -304 -720"
+"style" "7"
+"_falloff" "0"
+"_color" "1.000 0.702 0.000"
+"_focus" "1"
+"_cone" "10"
+"_angfade" "1"
+"_fade" "1"
+"light" "190"
+"angle" "360"
+"classname" "light"
+}
+{
+"origin" "-464 -208 -768"
+"style" "7"
+"_falloff" "0"
+"_color" "1.000 0.702 0.000"
+"_focus" "1"
+"_cone" "10"
+"_angfade" "1"
+"_fade" "1"
+"light" "190"
+"angle" "360"
+"classname" "light"
+}
+{
+"origin" "-640 -336 -720"
+"style" "7"
+"_falloff" "0"
+"_color" "1.000 0.702 0.000"
+"_focus" "1"
+"_cone" "10"
+"_angfade" "1"
+"_fade" "1"
+"light" "190"
+"angle" "360"
+"classname" "light"
+}
+

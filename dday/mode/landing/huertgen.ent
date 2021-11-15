@@ -1,0 +1,704 @@
+{
+"_sun_color" "1 1 1"
+"_sun_ambient" "75"
+"_sun_light" "100"
+"_sun" "t1"
+"message" "Huertgen Forest (Nov-Dec 1944)\ndesigned by Jim Dunlop"
+"sky" "huertgen/mtnsun_"
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"origin" "3872 0 -72"
+"classname" "info_player_start"
+}
+{
+"kills" "40"
+"points" "60"
+"nextmap" "huertgen"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Allies"
+"angle" "90"
+"origin" "3792.9 137.1 -64"
+"classname" "info_team_start"
+}
+{
+"points" "60"
+"kills" "40"
+"nextmap" "huertgen"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Axis"
+"angle" "90"
+"origin" "3673 101.1 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3742.4 -24.1 -36.9"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3838.4 135.9 91.1"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3790.4 -152.1 -68.9"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3556.4 31.9 -68.9"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3118.4 231.9 -68.9"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3326.4 71.9 -68.9"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3230.4 151.9 -68.9"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3502.4 -88.1 -68.9"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "3566.4 -120.1 -68.9"
+"classname" "info_engineer_start"
+}
+{
+"model" "*1"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "88mm Gun 1"
+"obj_owner" "1"
+"target" "fire1"
+"dmg" "150"
+"mass" "500"
+"health" "500"
+"classname" "func_explosive_object"
+}
+{
+"wait" "8"
+"targetname" "fire1"
+"target" "boom1"
+"spawnflags" "1"
+"origin" "-3520 -176 -296"
+"classname" "func_timer"
+}
+{
+"dmg" "150"
+"delay" "3"
+"targetname" "boom1"
+"origin" "-3520 208 -464"
+"classname" "target_explosion"
+}
+{
+"targetname" "boom1"
+"volume" "1"
+"attenuation" "2"
+"noise" "huertgen/cannon"
+"spawnflags" "4"
+"origin" "-3520 -64 -400"
+"classname" "target_speaker"
+}
+{
+"targetname" "boom1"
+"count" "10"
+"sounds" "1"
+"origin" "-3520 -64 -400"
+"classname" "target_splash"
+}
+{
+"target" "t1"
+"origin" "3352 192 52"
+"classname" "light"
+}
+{
+"targetname" "t1"
+"origin" "3420 200 44"
+"classname" "info_null"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "1"
+"noise" "huertgen/truckidle"
+"origin" "3640 -26 -90"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "1"
+"noise" "huertgen/static2"
+"origin" "3107 547 -25"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunap"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "dday2/gate"
+"origin" "2231 128 -41"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunap"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "world/train2"
+"origin" "2231 128 -41"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunap"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "dday2/gate"
+"origin" "2254 128 -41"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunap"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "world/train2"
+"origin" "2254 128 -41"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunad"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "world/train2"
+"origin" "2198 -334 -137"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunad"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "dday2/gate"
+"origin" "2198 -334 -137"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunad"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "world/train2"
+"origin" "2198 -360 -137"
+"classname" "target_speaker"
+}
+{
+"targetname" "usabunad"
+"volume" "1"
+"attenuation" "2"
+"spawnflags" "4"
+"noise" "dday2/gate"
+"origin" "2198 -360 -137"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "4"
+"spawnflags" "1"
+"noise" "huertgen/truckidle"
+"origin" "3816 -26 -90"
+"classname" "target_speaker"
+}
+{
+"target" "hlr"
+"style" "0"
+"light" "300"
+"origin" "3614 0 -50"
+"classname" "light"
+}
+{
+"target" "hll"
+"style" "0"
+"light" "300"
+"origin" "3614 -48 -50"
+"classname" "light"
+}
+{
+"targetname" "hll"
+"origin" "3400 -56 -58"
+"classname" "info_null"
+}
+{
+"targetname" "hlr"
+"origin" "3400 8 -58"
+"classname" "info_null"
+}
+{
+"model" "*2"
+"target" "usaspn"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"wait" "0"
+"sounds" "1"
+"targetname" "usaspn"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"wait" "0"
+"sounds" "1"
+"targetname" "usaspn"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"target" "usabap4"
+"sounds" "1"
+"lip" "4"
+"wait" "1"
+"speed" "300"
+"targetname" "usabun4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"target" "usabap3"
+"sounds" "1"
+"lip" "4"
+"wait" "1"
+"speed" "300"
+"targetname" "usabun3"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"target" "usabap2"
+"sounds" "1"
+"lip" "4"
+"wait" "1"
+"speed" "300"
+"targetname" "usabun2"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"target" "usabap1"
+"sounds" "1"
+"lip" "4"
+"wait" "1"
+"speed" "300"
+"targetname" "usabun1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"target" "usabape"
+"sounds" "1"
+"lip" "4"
+"wait" "1"
+"speed" "300"
+"targetname" "usabune"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"style" "1"
+"targetname" "usabape"
+"classname" "func_areaportal"
+}
+{
+"model" "*10"
+"target" "usabun1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"target" "usabun2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "usabune"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"target" "usabun3"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"target" "usabun4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*15"
+"target" "usabundr"
+"classname" "trigger_multiple"
+}
+{
+"model" "*16"
+"delay" "5"
+"wait" "10"
+"message" "Bunker door opened."
+"target" "usabundr"
+"classname" "trigger_multiple"
+}
+{
+"model" "*17"
+"spawnflags" "0"
+"delay" "0"
+"wait" "15"
+"message" "Opening bunker door."
+"classname" "trigger_multiple"
+}
+{
+"style" "2"
+"targetname" "usabap4"
+"classname" "func_areaportal"
+}
+{
+"style" "3"
+"targetname" "usabap4"
+"classname" "func_areaportal"
+}
+{
+"style" "4"
+"targetname" "usabap4"
+"classname" "func_areaportal"
+}
+{
+"style" "5"
+"targetname" "usabap1"
+"classname" "func_areaportal"
+}
+{
+"style" "6"
+"targetname" "usabap1"
+"classname" "func_areaportal"
+}
+{
+"style" "7"
+"targetname" "usabap1"
+"classname" "func_areaportal"
+}
+{
+"style" "8"
+"targetname" "usabap3"
+"classname" "func_areaportal"
+}
+{
+"style" "9"
+"targetname" "usabap3"
+"classname" "func_areaportal"
+}
+{
+"style" "10"
+"targetname" "usabap3"
+"classname" "func_areaportal"
+}
+{
+"style" "11"
+"targetname" "usabunap"
+"classname" "func_areaportal"
+}
+{
+"style" "12"
+"targetname" "usabap2"
+"classname" "func_areaportal"
+}
+{
+"style" "13"
+"targetname" "usabap2"
+"classname" "func_areaportal"
+}
+{
+"style" "14"
+"targetname" "usabap2"
+"classname" "func_areaportal"
+}
+{
+"model" "*18"
+"origin" "2240 156 -40"
+"target" "usabunap"
+"sounds" "1"
+"dmg" "10"
+"wait" "0"
+"speed" "90"
+"targetname" "usabundr"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*19"
+"obj_loss" "10"
+"obj_gain" "5"
+"obj_name" "Troop Info"
+"obj_owner" "0"
+"dmg" "5"
+"mass" "300"
+"health" "100"
+"classname" "func_explosive_objective"
+}
+{
+"light" "-100"
+"origin" "2186 230 -34"
+"classname" "light"
+}
+{
+"light" "-75"
+"origin" "2226 270 -26"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "2090 230 -34"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "2090 126 -34"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "2186 126 -34"
+"classname" "light"
+}
+{
+"light" "-75"
+"origin" "2018 126 -34"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "2090 22 -34"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2091 75 -106"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "2186 22 -34"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "1994 22 -34"
+"classname" "light"
+}
+{
+"light" "-75"
+"origin" "1938 -18 -34"
+"classname" "light"
+}
+{
+"light" "-75"
+"origin" "2226 -18 -34"
+"classname" "light"
+}
+{
+"light" "-100"
+"origin" "1994 230 -34"
+"classname" "light"
+}
+{
+"light" "-75"
+"origin" "1938 270 -26"
+"classname" "light"
+}
+{
+"model" "*20"
+"origin" "2234 -344 -136"
+"sounds" "1"
+"dmg" "10"
+"wait" "0"
+"target" "usabunad"
+"targetname" "usabunam"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"light" "100"
+"origin" "2171 75 -106"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2011 75 -106"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2011 -243 -106"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2199 -247 -106"
+"classname" "light"
+}
+{
+"light" "125"
+"origin" "2199 -463 -106"
+"classname" "light"
+}
+{
+"target" "t2"
+"light" "75"
+"origin" "2212 -89 -106"
+"classname" "light"
+}
+{
+"targetname" "t2"
+"origin" "2212 -89 -156"
+"classname" "info_null"
+}
+{
+"model" "*21"
+"target" "usabunam"
+"classname" "trigger_multiple"
+}
+{
+"target" "t3"
+"light" "75"
+"origin" "2092 -89 -106"
+"classname" "light"
+}
+{
+"targetname" "t3"
+"origin" "2092 -89 -156"
+"classname" "info_null"
+}
+{
+"model" "*22"
+"origin" "2028 -36 -136"
+"target" "usamed"
+"dmg" "2"
+"wait" "0"
+"speed" "90"
+"sounds" "1"
+"distance" "-90"
+"classname" "func_door_rotating"
+}
+{
+"style" "15"
+"classname" "func_areaportal"
+}
+{
+"count" "200"
+"sounds" "1"
+"origin" "1552.7 1543.7 62"
+"classname" "target_splash"
+}
+{
+"model" "*23"
+"targetname" "a"
+"spawnflags" "2"
+"dmg" "20"
+"speed" "100"
+"target" "b"
+"classname" "func_train"
+}
+{
+"target" "c"
+"targetname" "b"
+"origin" "1765.6 1535.6 -9.9"
+"classname" "path_corner"
+}
+{
+"delay" ".6"
+"target" "a"
+"targetname" "h"
+"origin" "1797.6 1536.9 51.9"
+"classname" "trigger_relay"
+}
+{
+"wait" ".3"
+"pathtarget" "h"
+"target" "b"
+"targetname" "c"
+"origin" "1737.2 1534.8 -2.7"
+"classname" "path_corner"
+}
+{
+"model" "*24"
+"speed" "200"
+"sounds" "1"
+"lip" "200"
+"wait" ".2"
+"targetname" "h"
+"spawnflags" "4"
+"angle" "358"
+"classname" "func_door"
+}
+{
+"model" "*25"
+"sounds" "1"
+"wait" "8"
+"target" "ww"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"target" "a"
+"targetname" "ww"
+"origin" "1726.9 1457.7 -12"
+"classname" "trigger_relay"
+}
+{
+"target" "q"
+"targetname" "ww"
+"origin" "1726.9 1457.7 -12"
+"classname" "trigger_relay"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "q"
+"noise" "howitzer/pow"
+"origin" "1748 1541.7 40"
+"classname" "target_speaker"
+}
+

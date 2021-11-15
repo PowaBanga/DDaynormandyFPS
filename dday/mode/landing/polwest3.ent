@@ -1,0 +1,471 @@
+{
+"_sun_light" "350"
+"_sun_diffuse" "300"
+"_sun_ambient" "55"
+"_sun_color" ".5 .8 .8"
+"_sun" "s1"
+"sun_light" "350"
+"sun_ambient" "55"
+"sun_diffuse" "300"
+"sun_color" ".5 .8 .8"
+"message" "Warsaw v. II\nby Ed"
+"sky" "cher"
+"classname" "worldspawn"
+}
+{
+"classname" "ammo_mg42"
+"origin" "-736 608 96"
+}
+{
+"classname" "weapon_mg42"
+"angle" "280"
+"origin" "-770 519 95"
+}
+{
+"classname" "ammo_mg42"
+"origin" "-200 -1176 104"
+}
+{
+"origin" "554 -1168 64"
+"classname" "ammo_mg34"
+}
+{
+"origin" "-266 -1368 100"
+"angle" "45"
+"classname" "weapon_piat"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+}
+{
+"model" "*6"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+}
+{
+"model" "*8"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "func_wall"
+}
+{
+"model" "*10"
+"classname" "func_wall"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"classname" "func_wall"
+}
+{
+"model" "*15"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"classname" "func_wall"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+}
+{
+"model" "*18"
+"classname" "func_wall"
+}
+{
+"model" "*19"
+"classname" "func_wall"
+}
+{
+"model" "*20"
+"classname" "func_wall"
+}
+{
+"model" "*21"
+"classname" "func_wall"
+}
+{
+"model" "*22"
+"classname" "func_wall"
+}
+{
+"model" "*23"
+"classname" "func_wall"
+}
+{
+"origin" "176 -30 106"
+"targetname" "t1"
+"noise" "inland/dooropen.wav"
+"classname" "target_speaker"
+}
+{
+"model" "*24"
+"origin" "195 0 106"
+"target" "t1"
+"speed" "200"
+"angle" "0"
+"classname" "func_door_rotating"
+}
+{
+"classname" "info_player_start"
+"origin" "283 160 1810"
+}
+{
+"points" ""
+"classname" "info_team_start"
+"origin" "754 41 527"
+"angle" "360"
+"message" "Armia Krajowa"
+"obj_owner" "0"
+"dll" "pol"
+"count" "99"
+"nextmap" "polwest4"
+"kills" "50"
+}
+{
+"kills" "50"
+"classname" "info_team_start"
+"origin" "754 -25 527"
+"message" "Wehrmacht"
+"count" "99"
+"obj_owner" "1"
+"dll" "grm"
+"nextmap" "polwest4"
+"points" ""
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "2982 1773 177"
+"classname" "info_reinforcements_start"
+}
+{
+"classname" "misc_md2"
+"origin" "383 -1444 100"
+"angle" "0"
+"model" "models/mapmodels/faf/plant.md2"
+}
+{
+"model" "models/mapmodels/faf/plant.md2"
+"angle" "0"
+"origin" "545 -1445 100"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"origin" "228 -1443 100"
+"angle" "0"
+"model" "models/mapmodels/faf/plant.md2"
+}
+{
+"classname" "misc_md2"
+"origin" "1925 -714 -11"
+"angle" "0"
+"model" "models/mapmodels/inlandtree/tris.md2"
+}
+{
+"model" "sprites/faf/tree.sp2"
+"angle" "0"
+"origin" "1925 -712 129"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/inlandtree/tris.md2"
+"angle" "0"
+"origin" "1939 -1113 -11"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"origin" "1939 -1111 129"
+"angle" "0"
+"model" "sprites/faf/tree.sp2"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "-162 1101 105"
+"angle" "180"
+"obj_owner" "1"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-322 1109 105"
+"classname" "info_reinforcements_start"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "-234 1045 105"
+"angle" "180"
+"obj_owner" "1"
+}
+{
+"classname" "info_reinforcements_start"
+"origin" "2782 1773 177"
+"angle" "90"
+"obj_owner" "0"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "2654 1773 177"
+"classname" "info_reinforcements_start"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "-97 1073 837"
+}
+{
+"origin" "-768 1088 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "-919 471 837"
+}
+{
+"origin" "26 -82 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "-885 -611 837"
+}
+{
+"origin" "-212 -1236 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "373 -421 837"
+}
+{
+"origin" "118 -838 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "1175 -1231 837"
+}
+{
+"origin" "776 792 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "1097 1519 837"
+}
+{
+"origin" "2602 886 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "3299 1317 837"
+}
+{
+"origin" "2860 1940 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "2141 1971 837"
+}
+{
+"origin" "1534 1930 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "1223 2161 837"
+}
+{
+"origin" "-1000 -1160 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "-497 -1697 1103"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "1943 649 837"
+}
+{
+"origin" "1258 510 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "1254 -279 837"
+}
+{
+"origin" "1747 -413 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "1917 -1218 837"
+}
+{
+"origin" "-38 1547 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "1200"
+"_color" ".7 .7 .5"
+"origin" "-717 1618 837"
+}
+{
+"origin" "820 2017 837"
+"_color" ".7 .7 .5"
+"light" "1200"
+"classname" "light"
+}
+{
+"classname" "target_speaker"
+"noise" "inland/dooropen.wav"
+"targetname" "t2"
+"origin" "380 181 1808"
+}
+{
+"volume" "3.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "lewin/poleg.wav"
+"origin" "283 161 1814"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "-1"
+"origin" "484 -600 621"
+"spawnflags" "1"
+"noise" "cherbourg/amb1.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "ammo_mg34"
+"origin" "606 -1173 89"
+}
+{
+"classname" "weapon_mg34"
+"angle" "160"
+"origin" "489 -1176 107"
+}
+{
+"origin" "549 -1195 89"
+"classname" "ammo_mg34"
+}
+{
+"classname" "ammo_mg34"
+"origin" "618 -1239 89"
+}
+{
+"origin" "-239 -1192 115"
+"angle" "90"
+"classname" "weapon_RKM"
+}
+{
+"origin" "-198 -1303 97"
+"classname" "ammo_mg34"
+}
+{
+"angle" "45"
+"classname" "ammo_mg34"
+"origin" "-286 -1303 97"
+}
+{
+"origin" "-800 600 96"
+"classname" "ammo_mg42"
+}
+{
+"classname" "ammo_mg42"
+"origin" "-912 536 96"
+}
+

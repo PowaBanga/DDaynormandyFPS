@@ -1,0 +1,351 @@
+{
+"sounds" "1"
+"_sun_ambient" "20"
+"_sun_diffuse" "15"
+"message" "Street Fight by ghettoboy"
+"sky" "night1"
+"_sun_color" ".7 .7 .8"
+"_sun_angle" "0 -60"
+"_sun_light" "225"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "-22 359 132"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "1"
+"angle" "181"
+"origin" "1728 332 117.8"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "181"
+"origin" "1756 140 115.2"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "203"
+"origin" "1709.7 276.5 126.5"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "181"
+"origin" "1764 252 125.6"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "23"
+"origin" "1676.6 208.7 128.2"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1768 376 133.4"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "186"
+"origin" "1772 176 120.5"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "173"
+"origin" "1776 292 120"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "178"
+"origin" "1704 144 125.4"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1096 -356 132.3"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1136 -232 135.1"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "14"
+"origin" "-1204 -304 132.2"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "359"
+"origin" "-1288 -264 132.5"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "30"
+"origin" "-1312 -384 132.2"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1318 -202 132.5"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "42"
+"origin" "-974 -200 164.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "14"
+"origin" "-943 -241 164.5"
+"classname" "info_officer_start"
+}
+{
+"attenuation" "4"
+"noise" "dinant/tank"
+"volume" "1"
+"origin" "1644 160 140"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "1193.5 324 115.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "-44.5 284 163.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "581.0 188.1 163.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "807.9 -210.3 163.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "beach/gatling"
+"volume" "1"
+"origin" "-1224.8 -207.5 127.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "beach/gatling"
+"volume" "1"
+"origin" "-736 -752.6 204.7"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "beach/gatling"
+"volume" "1"
+"origin" "-453.7 -16.6 204.7"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"volume" ".5"
+"origin" "86.3 -57.3 109.2"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"kills" "50"
+"origin" "-1327 -297 164"
+"nextmap" "dday5"
+"points" "100"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"classname" "info_team_start"
+}
+{
+"origin" "1744 224 200"
+"nextmap" "dday2"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "7th Panzer"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+}
+{
+"_color" "1 1 0.5"
+"light" "50"
+"origin" "424 -48 192"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "1"
+"origin" "-1328 -137 132.6"
+"classname" "info_lgunner_start"
+}
+{
+"style" "0"
+"light" "200"
+"origin" "-483 358 96"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "200"
+"origin" "6 1314 291"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "200"
+"origin" "579 1766 302"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "200"
+"origin" "1133 1767 303"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "200"
+"origin" "1635 794 106"
+"classname" "light"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "384.5 141 128.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "489.5 -36 110.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "368.5 -368 103.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/battle1"
+"volume" "1"
+"origin" "-189.5 -365 106.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/cricket1"
+"volume" "1"
+"origin" "536.5 1125 251.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/cricket1"
+"volume" "1"
+"origin" "386.5 1337 251.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/cricket1"
+"volume" "1"
+"origin" "244.5 1610 251.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "hedge/cricket1"
+"volume" "1"
+"origin" "472.5 604 131.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "dinant/water"
+"volume" "1"
+"origin" "-72.5 94 179.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"attenuation" "3"
+"noise" "dday3/truck"
+"volume" "1"
+"origin" "-848.8 -387.5 127.9"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"_cone" "40"
+"_color" "1 1 1"
+"target" "s1"
+"light" "300"
+"origin" "-913.6 139.0 215.8"
+"classname" "light"
+}
+{
+"targetname" "s1"
+"origin" "-909.1 226.2 203.6"
+"classname" "info_null"
+}
+

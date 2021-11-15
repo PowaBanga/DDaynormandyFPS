@@ -1,0 +1,291 @@
+{
+"message" "Sloss \nBy Gomp"
+"_sun_angle" "245 -45"
+"_sun_color" "1.0 1.0 1.0"
+"_sun_ambient" "60"
+"_sun_light" "400"
+"sky" "valley1"
+"classname" "worldspawn"
+}
+{
+"angle" "281"
+"origin" "4 -32 120"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "120"
+"origin" "3931 -2969.3 -45"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "108"
+"origin" "3556.6 -2963.4 -46.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "146"
+"origin" "3106.3 -1713 114.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "91"
+"origin" "3392.3 -3695.3 -201"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "84"
+"origin" "3778.3 -1416.7 179.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "185"
+"origin" "2816.8 -3619.1 85.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "175"
+"origin" "3361 -378.7 120"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "91"
+"origin" "3330.3 -3229.3 -111.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "46"
+"origin" "3170.3 -3645.3 -234.3"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "52"
+"origin" "-2432.6 -2465.7 -691.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "224"
+"origin" "-2402.3 1541 -860"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2210 1744 106"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "-3007 1690.7 201"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "140"
+"origin" "-2175.7 1412 135.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "341"
+"origin" "-3485.7 3468.3 104"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "194.3 -1456 2.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "15"
+"origin" "-2050.3 1489 98.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "106"
+"origin" "-3422 1788 169.3"
+"classname" "info_officer_start"
+}
+{
+"points" "25"
+"kills" "60"
+"nextmap" "dday5"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "British"
+"angle" "44"
+"origin" "2453.5 -3813.2 85.7"
+"classname" "info_team_start"
+}
+{
+"points" "32"
+"kills" "60"
+"nextmap" "dday3"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-3798.7 3483.4 311.5"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"obj_loss" "1"
+"obj_gain" "4"
+"obj_name" "Ammo Crate"
+"obj_owner" "0"
+"dmg" "50"
+"mass" "700"
+"health" "2000"
+"classname" "func_explosive_objective"
+}
+{
+"targetname" "t"
+"dmg" "150"
+"delay" "0"
+"origin" "467.6 -1427 49.5"
+"classname" "target_explosion"
+}
+{
+"model" "*2"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"sounds" "5"
+"target" "plane"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "plane"
+"target" "p1"
+"speed" "100"
+"angle" "180"
+"origin" "3584 -1664 160"
+"classname" "misc_viper"
+}
+{
+"angle" "149"
+"origin" "768 -1608 40"
+"classname" "misc_skeleton"
+}
+{
+"spawnflags" "1"
+"target" "p2"
+"targetname" "p1"
+"origin" "3424 -1664 32"
+"classname" "path_corner"
+}
+{
+"spawnflags" "0"
+"target" "p1"
+"targetname" "p2"
+"origin" "-1504 -1792 192"
+"classname" "path_corner"
+}
+{
+"model" "*4"
+"targetname" "wall1"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"target" "wall1"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Pressure Guage Station"
+"obj_owner" "0"
+"dmg" "50"
+"mass" "700"
+"health" "60"
+"classname" "func_explosive_objective"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-3232.6 1790.3 172.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "247"
+"origin" "-2208.6 286.3 -787.7"
+"classname" "info_lgunner_start"
+}
+{
+"angle" "92"
+"origin" "-96 -1920 96"
+"classname" "misc_banner_2"
+}
+{
+"angle" "92"
+"origin" "-640 -1920 64"
+"classname" "misc_banner_2"
+}
+{
+"angle" "178"
+"origin" "3648 -960 96"
+"classname" "misc_banner_3"
+}
+{
+"angle" "270"
+"origin" "2912 0 96"
+"classname" "misc_banner_3"
+}
+{
+"angle" "360"
+"origin" "-2624 -1728 -864"
+"classname" "misc_banner"
+}
+{
+"angle" "360"
+"origin" "-2624 -2336 -864"
+"classname" "misc_banner"
+}
+{
+"angle" "360"
+"origin" "-2624 -416 -864"
+"classname" "misc_banner"
+}
+{
+"angle" "360"
+"origin" "-2624 288 -864"
+"classname" "misc_banner"
+}
+{
+"angle" "180"
+"origin" "-2016 288 -864"
+"classname" "misc_banner"
+}
+{
+"angle" "180"
+"origin" "-2016 -416 -864"
+"classname" "misc_banner"
+}
+{
+"angle" "180"
+"origin" "-2016 -2336 -864"
+"classname" "misc_banner"
+}
+

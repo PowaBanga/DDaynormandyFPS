@@ -1,0 +1,292 @@
+{
+"message" "Garage\nBy Julhelm"
+"_sun_color" ".159 .159 .21"
+"_sun_angle" "300 300"
+"_sun_light" "90"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"mass" "150"
+"health" "5"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"mass" "150"
+"health" "5"
+"classname" "func_explosive"
+}
+{
+"style" "0"
+"_color" "1 0 0"
+"origin" "-784 -256 240"
+"light" "200"
+"classname" "light"
+}
+{
+"origin" "-864 448 520"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "-496 56 520"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-688 56 520"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-360 448 520"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "-696 448 520"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "-336 56 520"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-872 56 520"
+"light" "500"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-1088 560 320"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-888 648 232"
+"light" "300"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-1088 216 184"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-1096 72 168"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "0"
+"origin" "-1088 -152 168"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "-616 856 160"
+"light" "300"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"origin" "-544 216 144"
+"light" "150"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"origin" "-544 456 144"
+"light" "150"
+"classname" "light"
+}
+{
+"model" "*3"
+"origin" "-642 904 40"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"origin" "-736 -232 352"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-312 -264 376"
+"light" "200"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"angle" "296"
+"origin" "1152 2784 32"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "272 80 184"
+"classname" "info_player_start"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "34"
+"origin" "368 -528 0"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "326"
+"origin" "496 -352 0"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "115"
+"origin" "784 -528 0"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "312"
+"origin" "384 800 0"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "216"
+"origin" "720 688 0"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/julhelm/palmtree.md2"
+"angle" "30"
+"origin" "480 432 0"
+"classname" "misc_md2"
+}
+{
+"nextmap" "dday2"
+"points" "40"
+"count" "0"
+"dll" "gbr"
+"obj_owner" "1"
+"message" "SAS"
+"angle" "360"
+"origin" "664 256 136"
+"classname" "info_team_start"
+}
+{
+"model" "*4"
+"dmg" "300"
+"mass" "300"
+"health" "2000"
+"obj_gain" "10"
+"obj_name" "Equipment2"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"nextmap" "garage"
+"kills" "60"
+"count" "0"
+"dll" "jpn"
+"obj_owner" "0"
+"message" "Japs"
+"angle" "360"
+"origin" "640 80 136"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1088 736 312"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*5"
+"dmg" "300"
+"mass" "300"
+"health" "2000"
+"obj_gain" "10"
+"obj_name" "Equipment3"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"style" "0"
+"origin" "-40 -136 412"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-40 200 416"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-40 552 416"
+"light" "200"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "-616 952 136"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*6"
+"dmg" "300"
+"mass" "300"
+"health" "2000"
+"obj_gain" "10"
+"obj_name" "Equpment4"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"dmg" "300"
+"mass" "300"
+"health" "2000"
+"obj_gain" "100"
+"obj_name" "Crate"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"dmg" "300"
+"mass" "300"
+"health" "2000"
+"obj_gain" "10"
+"obj_name" "Equipment1"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+

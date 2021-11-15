@@ -1,0 +1,318 @@
+{
+"message" "The Killing Fields"
+"sky" "valley1"
+"sounds" "1"
+"classname" "worldspawn"
+}
+{
+"origin" "2810 318 -233"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Axis"
+"classname" "info_team_start"
+}
+{
+"origin" "3005 364 -204"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "464 256 112"
+"classname" "info_player_start"
+}
+{
+"origin" "3004 584 -203"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3124 896 -202"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3124 256 -203"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_officer_start"
+}
+{
+"origin" "458 324 168"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"angle" "357"
+"classname" "info_special_start"
+}
+{
+"origin" "3260 800 -199"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_medic_start"
+}
+{
+"origin" "3004 792 -204"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_sniper_start"
+}
+{
+"origin" "3260 580 -199"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "3260 355 -199"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"Message" "Nazis"
+"classname" "info_engineer_start"
+}
+{
+"origin" "460 408 168"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Americans"
+"angle" "358"
+"classname" "info_special_start"
+}
+{
+"origin" "2020 -304 -236"
+"targetname" "boom1"
+"dmg" "0"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "2141 820 -243"
+"targetname" "boom2"
+"dmg" "0"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "2042 708 -167"
+"pausetime" "0"
+"delay" "0"
+"random" "15"
+"wait" "15"
+"target" "boom1"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "2062 708 -166"
+"pausetime" "0"
+"delay" "0"
+"random" "15"
+"wait" "15"
+"target" "boom2"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "-1882 318 -233"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Allies"
+"classname" "info_team_start"
+}
+{
+"origin" "-2077 364 -204"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-2076 584 -203"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-2196 896 -202"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-2196 256 -203"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"classname" "info_officer_start"
+}
+{
+"origin" "-2332 800 -199"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_medic_start"
+}
+{
+"origin" "-2076 792 -204"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-2332 580 -199"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-2332 355 -199"
+"kills" "80"
+"points" "60"
+"nextmap" "dday2"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"Message" "Nazis"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-1092 -304 -236"
+"targetname" "boom3"
+"dmg" "0"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "-1213 820 -243"
+"targetname" "boom4"
+"dmg" "0"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "-1114 708 -167"
+"pausetime" "0"
+"delay" "0"
+"random" "15"
+"wait" "15"
+"target" "boom3"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "-1134 708 -166"
+"pausetime" "0"
+"delay" "0"
+"random" "15"
+"wait" "15"
+"target" "boom4"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "2984 237 -207"
+"volume" "1"
+"attenuation" "1"
+"noise" "zwit.wav"
+"spawnflags" "1"
+"angle" "87"
+"classname" "target_speaker"
+}
+{
+"origin" "-2104 240 -216"
+"volume" "1"
+"attenuation" "1"
+"noise" "zwit.wav"
+"spawnflags" "1"
+"angle" "87"
+"classname" "target_speaker"
+}
+

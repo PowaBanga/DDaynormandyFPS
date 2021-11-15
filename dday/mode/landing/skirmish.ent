@@ -1,0 +1,189 @@
+{
+"message" "Sub-zero Skirmish / By [AMF]Julhelm"
+"sky" "dwell"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-16 0 120"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "-288 -2048 16"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "256 2048 16"
+"classname" "info_infantry_start"
+}
+{
+"message" "Wehrmacht"
+"nextmap" "siege"
+"points" "100"
+"count" "2"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "270"
+"origin" "0 1920 16"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "-224 -2048 16"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "128 2048 16"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "-160 -2048 16"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "0 2048 16"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "-96 -2048 16"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-64 2048 16"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "-32 -2048 16"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-192 2048 16"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "32 -2048 16"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-256 2048 16"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "224 -2048 16"
+"classname" "info_engineer_start"
+}
+{
+"message" "Red Army"
+"nextmap" "siege"
+"points" "100"
+"count" "2"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "090"
+"origin" "0 -1888 16"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"dmg" "100"
+"mass" "100"
+"health" "500"
+"obj_gain" "50"
+"obj_name" "Ammocrate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"dmg" "100"
+"mass" "100"
+"health" "500"
+"obj_gain" "50"
+"obj_name" "Ammocrate"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"dmg" "100"
+"mass" "100"
+"health" "500"
+"obj_gain" "50"
+"obj_name" "Ammocrate"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"dmg" "100"
+"mass" "100"
+"health" "500"
+"obj_gain" "50"
+"obj_name" "Ammocrate"
+"obj_owner" "0"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "64 2048 16"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "160 -2048 16"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "192 2048 16"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "090"
+"origin" "96 -2048 16"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-128 2048 16"
+"classname" "info_sniper_start"
+}
+

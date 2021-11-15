@@ -1,0 +1,309 @@
+{
+"_sun_angle" "0 -60"
+"sky" "valley1"
+"_sun_surface" "100"
+"_sun_difuse" "5"
+"_sun_ambient" "50"
+"_sun_color" "1 1 0.9"
+"_sun_light" "300"
+"message" "Battleclans :a team should fall !\nwww.dday.com.br"
+"classname" "worldspawn"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "4 4 -288"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "0 4 -320"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "368 -172 -248"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "832 52 -320"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "-848 -60 -320"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "hedge/water_medium.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "-384 156 -248"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "384 384 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "-384 -416 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "64 -512 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "-64 512 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "-672 384 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "672 -384 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "864 512 -224"
+"classname" "target_speaker"
+}
+{
+"volume" ".8"
+"noise" "dday2/amb_battle.wav"
+"spawnflags" "5"
+"attenuation" "2"
+"origin" "-864 -512 -224"
+"classname" "target_speaker"
+}
+{
+"angle" "-1"
+"origin" "0 0 -334"
+"classname" "info_player_start"
+}
+{
+"points" "50"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "MAD"
+"origin" "0 -448 -224"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-304 -592 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "832 -718 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "698 -796 -248"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "472 -504 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "344 -504 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-796 -584 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-356 -804 -244"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "188 -804 -244"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "304 592 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-848 704 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-690 780 -240"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "792 660 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-304 508 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-416 508 -264"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "324 800 -244"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-204 800 -244"
+"classname" "info_reinforcements_start"
+}
+{
+"points" "50"
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "FEB"
+"origin" "0 448 -224"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"message" "Flag - MAD"
+"dmg" "50"
+"health" "100"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"attenuation" "2"
+"noise" "faf/flag.wav"
+"volume" ".8"
+"spawnflags" "5"
+"origin" "44.7 -629.1 -28"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"message" "Flag - FEB"
+"dmg" "50"
+"health" "100"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"attenuation" "2"
+"noise" "faf/flag.wav"
+"volume" ".8"
+"spawnflags" "5"
+"origin" "-62 643 -28"
+"classname" "target_speaker"
+}
+{
+"origin" "-376 -608 -168"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "-745 -655 -198"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "832 -584 -198"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "-176 -504 -198"
+"classname" "weapon_m98ks"
+}
+{
+"origin" "394 616 -192"
+"classname" "weapon_sniper"
+}
+{
+"origin" "186 520 -192"
+"classname" "weapon_sniper"
+}
+{
+"origin" "700 651 -192"
+"classname" "weapon_sniper"
+}
+{
+"origin" "-832 584 -192"
+"classname" "weapon_sniper"
+}
+

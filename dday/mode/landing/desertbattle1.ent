@@ -1,0 +1,194 @@
+{
+"_sun_angle" "245 -45"
+"_sun_color" "3.4 3.4 3.4"
+"_sun_ambient" "50"
+"_sun_light" "400"
+"message" "Desert Battle#1 By L.T. Mark"
+"gravity" "800"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"points" "100"
+"kills" "40"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Desert Rat's"
+"origin" "-359 -239.4 -77.2"
+"classname" "info_team_start"
+}
+{
+"kills" "40"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Desert Fox's"
+"origin" "250.9 1090.7 -40.0"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-320.4 -254.8 -65.6"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "215"
+"origin" "410.8 1090.7 -50.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "271"
+"origin" "-44.6 1155.0 -65.6"
+"classname" "info_officer_start"
+}
+{
+"angle" "126"
+"origin" "435.3 -152.4 47.9"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "120"
+"mass" "50"
+"health" "2000"
+"obj_loss" "50"
+"obj_gain" "100"
+"obj_name" "Ammo"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"_color" "0 0.5 1"
+"light" "300"
+"origin" "-1044 -376 240"
+"classname" "light"
+}
+{
+"target" "t1"
+"origin" "252 -92 32"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t1"
+"angle" "360"
+"origin" "-348 76 192"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "t2"
+"origin" "-336 388 192"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "t2"
+"angle" "183"
+"origin" "-784 -400 196"
+"classname" "misc_teleporter_dest"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "302.9 1092.1 -61.6"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "267"
+"origin" "399.9 1082.9 100.9"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "89.2 1157.7 -60.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "142.9 1119.6 -57.7"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "2.6 1111.7 -64.2"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "282"
+"origin" "502.1 1145.8 -57.7"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "228.1 1075.1 91.8"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "121.9 1244.2 -65.6"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "45"
+"origin" "-291.1 -114.1 -64.2"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "76"
+"origin" "26.2 -125.9 -66.9"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "75"
+"origin" "167.8 -279.3 -65.6"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "69"
+"origin" "-129.8 -86.6 -69.5"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "48"
+"origin" "-327.8 -163.9 -61.6"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "99"
+"origin" "205.8 -371.0 -65.6"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "94"
+"origin" "371.0 -368.4 -65.6"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "48"
+"origin" "-80.0 -270.1 -66.9"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "77"
+"origin" "74.7 -262.2 -61.6"
+"classname" "info_medic_start"
+}
+

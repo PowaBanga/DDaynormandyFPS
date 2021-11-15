@@ -1,0 +1,702 @@
+{
+"_sun_diffuse" "5"
+"_sun_ambient" "57 57 33"
+"_sun_color" "182 182 103"
+"_sun_light" "600"
+"_sun" "star"
+"message" "Pointe du Hoc \n Designed by Sqdn \n Textured by foofighta"
+"sky" "viervill/sea"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "-639 119 -980"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "257"
+"origin" "-20 899.7 -444"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "248"
+"origin" "51.6 567.6 -435.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "127"
+"origin" "176.3 -528 -443.7"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "225"
+"origin" "124.3 135.7 -444"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "150"
+"origin" "180.3 -431.7 -444.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "184"
+"origin" "155.8 1035.9 -440.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "171"
+"origin" "80 1104.3 -444"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "60.3 987.7 -448.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "176"
+"origin" "12.3 135.7 -444.3"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "179"
+"origin" "-1633.6 975.3 171.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "24"
+"origin" "-1632 -62 203"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "181"
+"origin" "-979 414.7 -97"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1522.7 -196 -256.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "179"
+"origin" "-1613.7 1001.3 275"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "179"
+"origin" "-1587.3 -163 -255.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "2"
+"origin" "-1760 -167 -244.7"
+"classname" "info_officer_start"
+}
+{
+"points" "140"
+"kills" "75"
+"nextmap" "outpost"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "131"
+"origin" "323.5 -552.2 -26.3"
+"classname" "info_team_start"
+}
+{
+"model" "*1"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Eastern Pillbox"
+"obj_owner" "1"
+"dmg" "500"
+"mass" "7000"
+"health" "40000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"message" "Main Gun Emplacement Taken"
+"dmg" "50"
+"health" "50"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*3"
+"message" "Observation Post Taken"
+"dmg" "10"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"targetname" "t2"
+"dmg" "150"
+"delay" "0"
+"origin" "-1135.4 48 182.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "t1"
+"dmg" "150"
+"delay" "0"
+"origin" "-979.4 77 189.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "t"
+"dmg" "150"
+"delay" "0"
+"origin" "-954.4 1097 189.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "t7"
+"dmg" "150"
+"delay" "0"
+"origin" "-1027.4 773 186.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "t3"
+"dmg" "150"
+"delay" "0"
+"origin" "-1014.4 -53 195.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "t9"
+"dmg" "150"
+"delay" "0"
+"origin" "-730.4 27 196.5"
+"classname" "target_explosion"
+}
+{
+"model" "*4"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t9"
+"classname" "func_button"
+}
+{
+"targetname" "t5"
+"dmg" "150"
+"delay" "0"
+"origin" "-1163.4 694 186.5"
+"classname" "target_explosion"
+}
+{
+"targetname" "t4"
+"dmg" "150"
+"delay" "0"
+"origin" "-1120.4 402 187.5"
+"classname" "target_explosion"
+}
+{
+"model" "*5"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t2"
+"classname" "func_button"
+}
+{
+"targetname" "star"
+"angle" "161"
+"origin" "-1357.8 771.2 264"
+"classname" "info_null"
+}
+{
+"target" "star"
+"light" "200"
+"origin" "-1620.6 1150.8 348"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "135"
+"origin" "-38 -718 -160"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "135"
+"origin" "-386 -734 -160"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "135"
+"origin" "-760 -600 -292"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "1"
+"light" "135"
+"origin" "-1116 -414 -452"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "135"
+"origin" "-1132 144 -452"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "50"
+"origin" "-1132 -24 -446"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"angle" "178"
+"origin" "-415 -297.3 -115"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "182"
+"origin" "-1730 146.3 -270"
+"classname" "info_flamethrower_start"
+}
+{
+"points" "140"
+"kills" "45"
+"nextmap" "dday1"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "176"
+"origin" "-1413.5 -159.2 -242.3"
+"classname" "info_team_start"
+}
+{
+"targetname" "t6"
+"dmg" "150"
+"delay" "0"
+"origin" "-1150.4 902 181.5"
+"classname" "target_explosion"
+}
+{
+"model" "*6"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t"
+"classname" "func_button"
+}
+{
+"model" "*7"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t7"
+"classname" "func_button"
+}
+{
+"model" "*8"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t6"
+"classname" "func_button"
+}
+{
+"model" "*9"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t5"
+"classname" "func_button"
+}
+{
+"model" "*10"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t4"
+"classname" "func_button"
+}
+{
+"model" "*11"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t3"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t1"
+"classname" "func_button"
+}
+{
+"style" "2"
+"_color" "1 0 0"
+"light" "800"
+"origin" "-633 1064 -936"
+"classname" "light"
+}
+{
+"style" "2"
+"_color" "1 0 0"
+"light" "800"
+"origin" "-821 1056 -944"
+"classname" "light"
+}
+{
+"style" "2"
+"_color" "1 0 0"
+"light" "800"
+"origin" "-525 1072 -956"
+"classname" "light"
+}
+{
+"model" "*13"
+"sounds" "2"
+"lip" "0"
+"spawnflags" "0"
+"target" "exit1"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"style" "1"
+"targetname" "exit1"
+"classname" "func_areaportal"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "150"
+"origin" "-1489 1062 -20"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "150"
+"origin" "-1131 836 -194"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "6"
+"light" "150"
+"origin" "-1129 582 -194"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "1"
+"light" "150"
+"origin" "-1137 1058 -165"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "150"
+"origin" "-1336 1056 -83"
+"classname" "light"
+}
+{
+"model" "*14"
+"target" "pilldoor"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"style" "2"
+"targetname" "pilldoor"
+"classname" "func_areaportal"
+}
+{
+"model" "*15"
+"message" "This door cannot be opened from here"
+"targetname" "barndoor"
+"wait" "5"
+"dmg" "20"
+"spawnflags" "6"
+"speed" "50"
+"lip" "0"
+"target" "barnap"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"style" "3"
+"targetname" "barnap"
+"classname" "func_areaportal"
+}
+{
+"model" "*16"
+"obj_loss" "10"
+"obj_gain" "10"
+"obj_name" "Garage Floor"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "10"
+"health" "10"
+"classname" "func_explosive_objective"
+}
+{
+"light" "320"
+"origin" "-1432 256 -44"
+"classname" "light"
+}
+{
+"light" "275"
+"origin" "-1616 -184 -172"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "135"
+"origin" "-1210 -174 -450"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "135"
+"origin" "-1526 -162 -460"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1220 -192 -200"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "300"
+"origin" "-1604 -176 -28"
+"classname" "light"
+}
+{
+"light" "260"
+"origin" "-1216 -200 -28"
+"classname" "light"
+}
+{
+"light" "355"
+"origin" "-576 -12 -48"
+"classname" "light"
+}
+{
+"light" "265"
+"origin" "-576 300 -44"
+"classname" "light"
+}
+{
+"light" "265"
+"origin" "-912 296 -40"
+"classname" "light"
+}
+{
+"model" "*17"
+"angle" "180"
+"target" "barndoor"
+"classname" "func_button"
+}
+{
+"_color" "1 0 0"
+"light" "45"
+"origin" "-1774 302 -272"
+"classname" "light"
+}
+{
+"style" "4"
+"targetname" "exit7"
+"classname" "func_areaportal"
+}
+{
+"model" "*18"
+"sounds" "2"
+"lip" "0"
+"target" "exit7"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*19"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*20"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*21"
+"sounds" "2"
+"lip" "0"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"angle" "180"
+"origin" "-440 -90 -270"
+"classname" "misc_banner"
+}
+{
+"angle" "267"
+"origin" "-1418 440 -268"
+"classname" "misc_banner"
+}
+{
+"model" "*22"
+"sounds" "2"
+"lip" "0"
+"spawnflags" "0"
+"target" "exit2"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"style" "5"
+"targetname" "exit2"
+"classname" "func_areaportal"
+}
+{
+"model" "*23"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*24"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*25"
+"obj_loss" "25"
+"obj_gain" "25"
+"obj_name" "Artillery Piece"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "1000"
+"health" "1000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*26"
+"obj_loss" "5"
+"obj_gain" "25"
+"obj_name" "Artillery Piece"
+"obj_owner" "1"
+"dmg" "50"
+"mass" "700"
+"health" "700"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*27"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*28"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*29"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*30"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*31"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*32"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+

@@ -1,0 +1,391 @@
+{
+"_sun_vector" "180 -45 -10"
+"_sun_difwait" "0"
+"_sun_diffuse" "0"
+"gravity" "800"
+"sounds" "0"
+"_sun_surface" "110"
+"_sun_ambient" "10"
+"_sun_angle" "240 -45"
+"_sun_color" "1.000 0.812 0.533"
+"light" "1.000 0.714 0.576"
+"_sun_light" "120"
+"sky" "sr"
+"message" "Somewhere in Katyn\nBy [AMF]Vassili Zaitsev aka [FEB]Cpt.Winters"
+"classname" "worldspawn"
+}
+{
+"origin" "-2976 1776 208"
+"points" "75"
+"kills" "60"
+"dll" "rus"
+"message" "Soviet Force"
+"obj_owner" "0"
+"classname" "info_team_start"
+}
+{
+"origin" "-2936 1776 208"
+"points" "55"
+"kills" "80"
+"count" "99"
+"dll" "grm"
+"message" "Axis Troops"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "-2132 580 40"
+"classname" "info_player_start"
+}
+{
+"origin" "-2656 1736 32"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-2556 -664 -172"
+"targetname" "wat1"
+"sounds" "2"
+"dmg" "0"
+"count" "255"
+"classname" "target_splash"
+}
+{
+"origin" "-2776 -680 -172"
+"targetname" "wat2"
+"sounds" "2"
+"dmg" "0"
+"count" "255"
+"classname" "target_splash"
+}
+{
+"origin" "-2776 -536 -172"
+"targetname" "wat3"
+"sounds" "2"
+"dmg" "0"
+"count" "255"
+"classname" "target_splash"
+}
+{
+"origin" "-2604 -568 -172"
+"targetname" "wat4"
+"sounds" "2"
+"dmg" "0"
+"count" "255"
+"classname" "target_splash"
+}
+{
+"origin" "-2736 -976 360"
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "0"
+"target" "wat1"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "-2736 -928 364"
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "0"
+"target" "wat2"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "-2736 -884 360"
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "0"
+"target" "wat3"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "-2736 -840 360"
+"pausetime" "0"
+"delay" "0"
+"random" "0"
+"wait" "0"
+"target" "wat4"
+"spawnflags" "1"
+"classname" "func_timer"
+}
+{
+"origin" "-2640 1392 274"
+"obj_owner" "0"
+"classname" "info_special_start"
+}
+{
+"model" "*1"
+"style" "0"
+"_minlight" "0"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"target" "bridcrumb"
+"message" "Stone Bridge Destroyed!"
+"style" "0"
+"_minlight" "0"
+"dmg" "190"
+"mass" "225"
+"health" "15500"
+"obj_loss" "15"
+"obj_gain" "35"
+"obj_name" "Stone Bridge"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"style" "0"
+"_minlight" "0"
+"targetname" "bridcrumb"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"origin" "976 -1248 -144"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "952 -1040 -136"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "236 -656 96"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_special_start"
+}
+{
+"model" "*4"
+"message" "Sniper Tower Destroyed"
+"dmg" "190"
+"mass" "195"
+"health" "5500"
+"obj_loss" "10"
+"obj_gain" "20"
+"obj_name" "Sniper Tower"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"message" "Suply Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "1000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Suply Crate"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"message" "Suply Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "1000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Suply Crate"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"message" "Suply Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "1000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Suply Crate"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"message" "Suply Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "1000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Suply Crate"
+"_minlight" "0"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"message" "Soviet Army Train Destroyed"
+"dmg" "300"
+"mass" "225"
+"health" "30000"
+"obj_loss" "15"
+"obj_gain" "35"
+"obj_name" "Soviet Army Train"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*10"
+"message" "Ammo Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "2000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"_minlight" "0"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*11"
+"message" "Ammo Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "2000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"_minlight" "0"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*12"
+"message" "Ammo Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "2000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"_minlight" "0"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*13"
+"message" "Ammo Crate Destroyed"
+"dmg" "100"
+"mass" "75"
+"health" "2000"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_name" "Ammo Crate"
+"_minlight" "0"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "-2662 -600 -160"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1200 -606 -160"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-530 -608 -208"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-462 -608 -442"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "164 -606 -620"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "222 -1638 -610"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-2716 1628 -24"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "-2548 580 52"
+"noise" "hedge/battle1"
+"attenuation" "-1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-2618 -312 -2"
+"noise" "hedge/battle1"
+"attenuation" "-1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "402 -474 -356"
+"noise" "hedge/battle1"
+"attenuation" "-1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "222 -1866 -524"
+"noise" "hedge/battle1"
+"attenuation" "-1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "224 -1294 -532"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-120 -610 -596"
+"noise" "hedge/waterfall"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-2620 -932 -12"
+"noise" "hedge/cricket1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-2220 -928 0"
+"noise" "hedge/cricket1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-998 -952 -2"
+"noise" "hedge/cricket1"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+

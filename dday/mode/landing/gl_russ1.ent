@@ -1,0 +1,71 @@
+{
+"message" "The Russian Border  --   Designed By GypsyLlama"
+"sky" "grnplsnt"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-168 -1044 -120"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"nextmap" "dday2"
+"points" "0"
+"kills" "100"
+"count" "0"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russia"
+"angle" "360"
+"origin" "816 -2784 -104"
+"classname" "info_team_start"
+}
+{
+"nextmap" "dday2"
+"points" "0"
+"kills" "100"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "816 -2784 -104"
+"classname" "info_team_start"
+}
+{
+"delay" "0"
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "168 -3212 20"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "72 -3192 128"
+"classname" "info_sniper_start"
+}
+{
+"delay" "0"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "270"
+"origin" "524 -4 104"
+"classname" "info_reinforcements_start"
+}
+

@@ -1,0 +1,293 @@
+{
+"_sun_angle" "70.5 164.7"
+"_sun_light" "80"
+"_sun_ambient" "0 0 81"
+"sky" "drksky"
+"message" "Small Town Battle - By Cutterzig"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"dmg" "15"
+"mass" "100"
+"health" "600"
+"classname" "func_explosive"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "178"
+"origin" "-244 168 -267"
+"classname" "info_player_start"
+}
+{
+"kills" "75"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "180"
+"origin" "1284 -82 -224"
+"classname" "info_team_start"
+}
+{
+"kills" "75"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"angle" "360"
+"origin" "-1178 -64 -222"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "40"
+"origin" "-1178 -278 -264"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "210"
+"origin" "-1110 -364 -264"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "61"
+"origin" "-990 -338 -270"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "223"
+"origin" "-1092 180 -260"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "315"
+"origin" "-1000 234 -258"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "39"
+"origin" "-994 -178 -146"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "272"
+"origin" "-1084 486 -254"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "307"
+"origin" "-1282 -76 -258"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "58"
+"origin" "-1282 -254 -260"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "45"
+"origin" "1204 -119 -242"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "116"
+"origin" "1282 -196 -268"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "65"
+"origin" "1190 -558 -262"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "264"
+"origin" "1028 498 -242"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "211"
+"origin" "1058 296 -266"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "229"
+"origin" "1040 136 -28"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "168"
+"origin" "1190 118 -260"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "322"
+"origin" "886 406 -266"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "223"
+"origin" "1196 -390 -268"
+"classname" "info_sniper_start"
+}
+{
+"light" "100"
+"origin" "978 -314 -276"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "1012 -344 -226"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "1228 -428 -212"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1024 460 -210"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "436 218 -208"
+"classname" "light"
+}
+{
+"style" "1"
+"light" "150"
+"origin" "436 -268 -208"
+"classname" "light"
+}
+{
+"style" "6"
+"light" "150"
+"origin" "-12 -2 -208"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "-336 -14 -208"
+"classname" "light"
+}
+{
+"style" "3"
+"light" "100"
+"origin" "-548 -72 -302"
+"classname" "light"
+}
+{
+"light" "175"
+"origin" "-1144 -154 -218"
+"classname" "light"
+}
+{
+"style" "1"
+"light" "150"
+"origin" "-1144 436 -216"
+"classname" "light"
+}
+{
+"light" "125"
+"origin" "-1112 148 -218"
+"classname" "light"
+}
+{
+"light" "145"
+"origin" "-1132 -414 -218"
+"classname" "light"
+}
+{
+"light" "145"
+"origin" "-1278 -344 -228"
+"classname" "light"
+}
+{
+"light" "145"
+"origin" "-1280 44 -228"
+"classname" "light"
+}
+{
+"light" "145"
+"origin" "-1272 538 -228"
+"classname" "light"
+}
+{
+"light" "145"
+"origin" "-132 -336 -228"
+"classname" "light"
+}
+{
+"style" "6"
+"light" "145"
+"origin" "-730 -334 -228"
+"classname" "light"
+}
+{
+"light" "145"
+"origin" "360 312 -228"
+"classname" "light"
+}
+

@@ -1,0 +1,256 @@
+{
+"message" "Island Raid\nMr YOur no fun"
+"_sun_ambient" "70"
+"_sun_light" "80"
+"_sun_diffuse" "65"
+"_sun_color" ".7 .7 .9"
+"_sun_angle" "60 -60"
+"sky" "cher"
+"classname" "worldspawn"
+}
+{
+"kills" "60"
+"count" "99"
+"dll" "usm"
+"obj_owner" "0"
+"message" "USMC"
+"origin" "-755.56 -903.63 -97.50"
+"classname" "info_team_start"
+}
+{
+"kills" "60"
+"count" "99"
+"dll" "jpn"
+"obj_owner" "1"
+"message" "Japan"
+"origin" "-561.92 -846.68 -97.50"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-678.03 -888.24 -152.7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-681.48 -684.81 -152.7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-538 -1266 -24"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"obj_owner" "1"
+"origin" "-634 -1228 -24"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-508.52 -2400.16 -153.5"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "b25"
+"attenuation" "4"
+"noise" "faf/b25"
+"origin" "-1973.15 -2464.68 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "b25"
+"attenuation" "4"
+"noise" "faf/b25"
+"origin" "-2179.34 -3124.74 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "29"
+"target" "b25"
+"origin" "-2073.03 -2843.78 -117"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crickets3"
+"attenuation" "3"
+"noise" "faf/crickets3"
+"origin" "-2076.83 -3401.90 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crickets3"
+"attenuation" "3"
+"noise" "faf/crickets3"
+"origin" "-1335 -658 -160"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "17"
+"target" "crickets3"
+"origin" "-2217.31 -3375.32 -138"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "cricket"
+"attenuation" "3"
+"noise" "faf/cricket"
+"origin" "-2173 -1338 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "cricket"
+"attenuation" "3"
+"noise" "faf/cricket"
+"origin" "-2232.50 -2870.35 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"delay" "2"
+"random" "4"
+"wait" "17"
+"target" "cricket"
+"origin" "-2224.90 -1552.88 -24"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crick"
+"attenuation" "3"
+"noise" "faf/crick"
+"origin" "-1617 -829 -128"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crick"
+"attenuation" "4"
+"noise" "faf/crick"
+"origin" "-2209.72 -2498.27 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "crick"
+"attenuation" "4"
+"noise" "faf/crick"
+"origin" "-1940.15 -911.22 -119"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"target" "crick"
+"origin" "-2190.73 -3417.09 -24"
+"classname" "func_timer"
+}
+{
+"spawnflags" "1"
+"wait" "12"
+"target" "tree"
+"origin" "-1932.55 -774.54 -154"
+"classname" "func_timer"
+}
+{
+"targetname" "tree"
+"volume" "1"
+"spawnflags" "4"
+"attenuation" "3"
+"noise" "gimp/tree"
+"origin" "-1560.47 -672.03 -165"
+"classname" "target_speaker"
+}
+{
+"target" "churchsound"
+"spawnflags" "1"
+"origin" "-1818.65 -820.10 -156"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "churchsound"
+"attenuation" "3"
+"noise" "gimp/5insx"
+"origin" "-2228 -1336 -143"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "4"
+"volume" "1"
+"targetname" "churchsound"
+"attenuation" "3"
+"noise" "gimp/5insx"
+"origin" "-1404.80 -880.85 -67"
+"classname" "target_speaker"
+}
+{
+"wait" "5"
+"spawnflags" "4"
+"targetname" "flyawaybird"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/bird13_43"
+"origin" "-2221.11 -1974.32 -143"
+"classname" "target_speaker"
+}
+{
+"wait" "5"
+"spawnflags" "4"
+"targetname" "flyawaybird"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/bird13_43"
+"origin" "-1470 -850 -142"
+"classname" "target_speaker"
+}
+{
+"wait" "31"
+"random" "11"
+"spawnflags" "1"
+"target" "flyawaybird"
+"origin" "-1697.15 -896.04 -81"
+"classname" "func_timer"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"origin" "-1944 -2613 142"
+"_color" "1 1 1"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-1988 -2913 217"
+"_color" "1 1 1"
+"light" "300"
+"classname" "light"
+}
+

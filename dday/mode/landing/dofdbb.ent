@@ -1,0 +1,530 @@
+{
+"message" "Day of Days Ver.2\nMr YOur no fun\nhelp gomp flower\nMacsogs OSS"
+"_sun_ambient" "75"
+"_sun_light" "300"
+"_sun_diffuse" "250"
+"_sun_color" ".4 .6 .8"
+"_sun_angle" "90 -30"
+"sky" "blue"
+"classname" "worldspawn"
+}
+{
+"angle" "88"
+"origin" "-1932 214.38 -47"
+"classname" "info_player_start"
+}
+{
+"nextmap" "dofdtb"
+"points" "15"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "USA"
+"origin" "-2992.90 595.71 -251.20"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2900.23 -332.69 -316"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2847.53 1044.69 -330"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2931.53 498.69 -330"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2828.46 58.46 -330"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-115.57 1323.13 43"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-269.15 -240.44 154"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "dofdtb"
+"kills" "95"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-3025.20 735.67 -238"
+"classname" "info_team_start"
+}
+{
+"volume" "1"
+"spawnflags" "5"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-1626 196.2 -24"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "5"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-2378 404.2 -148"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "5"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-2358 -239.8 -148"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "5"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-2168 1113.2 -148"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "5"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-648 696.2 211"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"spawnflags" "5"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "2"
+"origin" "-640 -110.8 211"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "4"
+"wait" "36"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "-1262 1.3 -136"
+"classname" "func_timer"
+}
+{
+"volume" ".7"
+"spawnflags" "5"
+"targetname" "combat2"
+"noise" "june6/combata2"
+"attenuation" "2"
+"origin" "-2181 -12.8 -148"
+"classname" "target_speaker"
+}
+{
+"volume" ".7"
+"spawnflags" "5"
+"targetname" "combat2"
+"noise" "june6/combata2"
+"attenuation" "2"
+"origin" "-2155 670.2 -148"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"targetname" "combat2"
+"volume" ".8"
+"attenuation" "2"
+"noise" "june6/combata2"
+"origin" "-1043 266 -153"
+"classname" "target_speaker"
+}
+{
+"volume" ".7"
+"spawnflags" "5"
+"targetname" "combat2"
+"noise" "june6/combata2"
+"attenuation" "2"
+"origin" "-612 645.2 191"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"targetname" "combat2"
+"volume" ".8"
+"attenuation" "2"
+"noise" "june6/combata2"
+"origin" "-609 -93 179"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "3"
+"wait" "14"
+"spawnflags" "17"
+"target" "combat2"
+"origin" "-1263 -44.7 -136"
+"classname" "func_timer"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/grenad01"
+"origin" "-2506 1181 -147"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/ambience"
+"origin" "-2606 278 -207"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/grenadey2"
+"origin" "-2616 -464 -163"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/ambience"
+"origin" "-1887 895 -83"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/grenad01"
+"origin" "-1939 249 -143"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/magun4"
+"origin" "-2046 -364 -99"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/gun"
+"origin" "-1642 1063 -53"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/ambience"
+"origin" "-1236 366 -113"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "2"
+"targetname" "gamestart"
+"volume" "1"
+"attenuation" "3"
+"noise" "june6/magun4"
+"origin" "-1577 -474 -69"
+"classname" "target_speaker"
+}
+{
+"dmg" "250"
+"targetname" "beachgraybldg"
+"origin" "-1817 781 -87"
+"classname" "target_explosion"
+}
+{
+"dmg" "250"
+"targetname" "beachgraybldg"
+"origin" "-1882 399 -139"
+"classname" "target_explosion"
+}
+{
+"dmg" "250"
+"targetname" "beachgraybldg"
+"origin" "-1607 558 -77"
+"classname" "target_explosion"
+}
+{
+"dmg" "250"
+"targetname" "cappedbeachbuilding"
+"origin" "-1732 -136 -42"
+"classname" "target_explosion"
+}
+{
+"dmg" "250"
+"targetname" "cappedbeachbuilding"
+"origin" "-1782 -7 -41"
+"classname" "target_explosion"
+}
+{
+"model" "*1"
+"targetname" "mine1off"
+"spawnflags" "6"
+"classname" "func_wall"
+}
+{
+"targetname" "mine1"
+"dmg" "175"
+"delay" "0"
+"origin" "-1393 -433 -268"
+"classname" "target_explosion"
+}
+{
+"targetname" "mine1"
+"dmg" "175"
+"delay" "0"
+"origin" "-1385 -225 -268"
+"classname" "target_explosion"
+}
+{
+"model" "*2"
+"target" "mine1off"
+"health" "1200"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "0"
+"angle" "-2"
+"target" "mine1"
+"classname" "func_button"
+}
+{
+"model" "*4"
+"spawnflags" "2"
+"targetname" "mine1off"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"targetname" "mine3off"
+"spawnflags" "6"
+"classname" "func_wall"
+}
+{
+"targetname" "mine3"
+"dmg" "175"
+"delay" "0"
+"origin" "-1394 460 -268"
+"classname" "target_explosion"
+}
+{
+"targetname" "mine3"
+"dmg" "175"
+"delay" "0"
+"origin" "-1386 668 -268"
+"classname" "target_explosion"
+}
+{
+"model" "*6"
+"target" "mine3off"
+"health" "1200"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "0"
+"angle" "-2"
+"target" "mine3"
+"classname" "func_button"
+}
+{
+"model" "*8"
+"spawnflags" "2"
+"targetname" "mine3off"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"targetname" "mine5off"
+"spawnflags" "6"
+"classname" "func_wall"
+}
+{
+"targetname" "mine5"
+"dmg" "175"
+"delay" "0"
+"origin" "-1405.77 1278.55 -268"
+"classname" "target_explosion"
+}
+{
+"targetname" "mine5"
+"dmg" "175"
+"delay" "0"
+"origin" "-1408.93 1411.03 -268"
+"classname" "target_explosion"
+}
+{
+"model" "*10"
+"target" "mine5off"
+"health" "1200"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"spawnflags" "2"
+"targetname" "mine5off"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "0"
+"angle" "-2"
+"target" "mine5"
+"classname" "func_button"
+}
+{
+"model" "*13"
+"health" "250"
+"obj_gain" "5"
+"obj_name" "Artillery Radio"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*14"
+"health" "250"
+"obj_gain" "5"
+"obj_name" "Command Bunker"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*15"
+"spawnflags" "1"
+"targetname" "bunker3c"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"target" "bunker3"
+"dmg" "50"
+"mass" "500"
+"health" "500"
+"obj_gain" "5"
+"obj_name" "Bunker 3"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*17"
+"spawnflags" "5"
+"targetname" "bunker3"
+"classname" "func_wall"
+}
+{
+"delay" ".5"
+"target" "bunker3c"
+"targetname" "bunker3b"
+"origin" "-420 -155 117"
+"classname" "trigger_relay"
+}
+{
+"target" "bunker3b"
+"dmg" "250"
+"targetname" "bunker3"
+"origin" "-521 -45 87"
+"classname" "target_explosion"
+}
+{
+"target" "bunker3b"
+"dmg" "250"
+"targetname" "bunker3"
+"origin" "-401 -233 67"
+"classname" "target_explosion"
+}
+{
+"target" "bunker3b"
+"dmg" "250"
+"targetname" "bunker3"
+"origin" "-570 -225 67"
+"classname" "target_explosion"
+}
+{
+"light" "300"
+"origin" "-185.48 1140.00 107.74"
+"classname" "light"
+}
+{
+"wait" "5"
+"targetname" "gerzooka"
+"origin" "-192.35 1365.6 97"
+"classname" "ammo_rocketsG"
+}
+{
+"wait" "5"
+"targetname" "gerzooka"
+"origin" "-191.65 1354.4 97"
+"classname" "ammo_rocketsG"
+}
+{
+"wait" "5"
+"targetname" "gerzooka"
+"origin" "-179.65 1354.4 97"
+"classname" "ammo_rocketsG"
+}
+{
+"wait" "5"
+"targetname" "gerzooka"
+"origin" "-179.65 1364.4 97"
+"classname" "ammo_rocketsG"
+}
+{
+"wait" "5"
+"targetname" "gerzooka"
+"origin" "-186.15 1360.4 97"
+"classname" "ammo_rocketsG"
+}
+

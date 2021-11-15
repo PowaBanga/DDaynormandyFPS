@@ -1,0 +1,224 @@
+{
+"sky" "grnplsnt"
+"message" "Operation Neptune"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "func_door"
+"angle" "0"
+"sound" "1"
+}
+{
+"model" "*2"
+"angle" "90"
+"sound" "1"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"classname" "func_door"
+"sound" "1"
+"angle" "270"
+}
+{
+"model" "*4"
+"classname" "func_door"
+"angle" "0"
+"sounds" "1"
+}
+{
+"model" "*5"
+"classname" "func_explosive"
+"mass" "100"
+"health" "75"
+"dmg" "66"
+}
+{
+"model" "*6"
+"classname" "func_explosive"
+"dmg" "66"
+"health" "75"
+"mass" "100"
+}
+{
+"model" "*7"
+"classname" "func_explosive"
+"health" "33"
+"mass" "100"
+"dmg" "66"
+}
+{
+"model" "*8"
+"classname" "func_explosive_objective"
+"obj_owner" "1"
+"obj_name" "Fuel Barrels on Dock"
+"obj_gain" "10"
+"obj_loss" "5"
+"health" "100"
+"mass" "200"
+"dmg" "100"
+}
+{
+"model" "*9"
+"classname" "func_door"
+"sounds" "1"
+"angle" "90"
+}
+{
+"origin" "-931 -323 160"
+"angle" "0"
+"obj_owner" "0"
+"classname" "info_medic_start"
+}
+{
+"origin" "-1167 21 160"
+"angle" "270"
+"obj_owner" "0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-281 -105 35"
+"obj_owner" "1"
+"angle" "180"
+"classname" "info_medic_start"
+}
+{
+"origin" "-439 -218 281"
+"angle" "0"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "142 2 162"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "-1067 -281 160"
+"angle" "90"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-836 -289 349"
+"angle" "0"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-426 -235 160"
+"angle" "90"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-655 378 108"
+"obj_owner" "1"
+"angle" "45"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-205 -328 162"
+"angle" "0"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "-312 -275 372"
+"angle" "225"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"angle" "180"
+"origin" "402 -310 352"
+"classname" "info_player_start"
+}
+{
+"model" "*10"
+"angle" "90"
+"sounds" "1"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"classname" "info_team_start"
+"points" "100"
+"kills" "50"
+"nextmap" "dday1"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Americans"
+"origin" "-20 348 124"
+}
+{
+"model" "*12"
+"classname" "info_team_start"
+"points" "50"
+"kills" "80"
+"nextmap" "dday1"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Germans"
+"origin" "-20 380 124"
+}
+{
+"classname" "info_hgunner_start"
+"obj_owner" "0"
+"angle" "135"
+"origin" "324 529 42"
+}
+{
+"classname" "info_lgunner_start"
+"obj_owner" "0"
+"angle" "225"
+"origin" "741 -516 42"
+}
+{
+"classname" "info_engineer_start"
+"obj_owner" "0"
+"angle" "180"
+"origin" "889 -502 42"
+}
+{
+"classname" "info_infantry_start"
+"angle" "135"
+"obj_owner" "0"
+"origin" "432 486 42"
+}
+{
+"classname" "info_special_start"
+"angle" "90"
+"obj_owner" "0"
+"origin" "364 489 42"
+}
+{
+"classname" "info_officer_start"
+"angle" "180"
+"obj_owner" "0"
+"origin" "701 -572 42"
+}
+{
+"classname" "info_sniper_start"
+"obj_owner" "0"
+"angle" "90"
+"origin" "420 529 42"
+}
+{
+"model" "*13"
+"mass" "100"
+"health" "50"
+"spawnflags" "2"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"angle" "270"
+"sound" "1"
+"classname" "func_door"
+}
+

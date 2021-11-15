@@ -1,0 +1,242 @@
+{
+"skyaxis" "0 0 1"
+"skyrotate" "0.1"
+"gravity" "800"
+"message" "Toujane.- por hAnS!!"
+"sky" "cassino"
+"classname" "worldspawn"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "992 -896 -64"
+"classname" "info_team_start"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-768 704 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-704 736 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "120"
+"origin" "104 -8 224"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "832 -800 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"dmg" "70"
+"mass" "300"
+"health" "300"
+"target" "jeep"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"spawnflags" "1"
+"targetname" "jeep"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"wait" "3"
+"target" "door1"
+"targetname" "secret"
+"spawnflags" "4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"wait" "-1"
+"health" "5"
+"target" "counter"
+"angle" "-2"
+"sounds" "1"
+"lip" "0"
+"classname" "func_button"
+}
+{
+"model" "*5"
+"origin" "326 -106 -48"
+"targetname" "door1"
+"sounds" "1"
+"dmg" "1"
+"speed" "200"
+"target" "ap6"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*6"
+"wait" "-1"
+"sounds" "1"
+"health" "5"
+"lip" "0"
+"target" "counter"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"style" "1"
+"targetname" "ap6"
+"classname" "func_areaportal"
+}
+{
+"model" "*7"
+"targetname" "counter"
+"count" "2"
+"spawnflags" "0"
+"target" "secret"
+"classname" "trigger_counter"
+}
+{
+"model" "*8"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "func_wall"
+}
+{
+"model" "*10"
+"sounds" "2"
+"wait" "6"
+"speed" "100"
+"target" "pak35explode"
+"classname" "func_button"
+}
+{
+"dmg" "10"
+"targetname" "pak35explode"
+"origin" "-1089.7 -332.8 -74"
+"classname" "target_explosion"
+}
+{
+"delay" "1"
+"dmg" "100"
+"targetname" "pak35explode"
+"origin" "-359.1 -240.3 -74"
+"classname" "target_explosion"
+}
+{
+"delay" "2"
+"dmg" "100"
+"targetname" "pak35explode"
+"origin" "-526.3 -332.5 -79"
+"classname" "target_explosion"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "585.8 790.4 -72.5"
+"classname" "target_speaker"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "50"
+"origin" "714.6 683.0 -54"
+"classname" "light"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "-334.0 1128.7 -72.5"
+"classname" "target_speaker"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "50"
+"origin" "-391.9 1286.0 -54"
+"classname" "light"
+}
+{
+"model" "*12"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"origin" "-93 859 -44"
+"dmg" "250"
+"mass" "600"
+"health" "600"
+"spawnflags" "0"
+"target" "tanke1"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"targetname" "tanke1"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*15"
+"dmg" "100"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"health" "200"
+"mass" "200"
+"dmg" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*17"
+"dmg" "100"
+"mass" "200"
+"health" "200"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"health" "200"
+"mass" "200"
+"dmg" "100"
+"classname" "func_explosive"
+}
+{
+"md2" "models/mapmodels/faf/mg42.md2"
+"origin" "-743 624 -66"
+"classname" "model"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+

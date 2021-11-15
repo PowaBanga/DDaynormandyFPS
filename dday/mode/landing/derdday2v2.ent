@@ -1,0 +1,201 @@
+{
+"message" "Star Wars??.....  - By DERWOOD!"
+"sky" "space1"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-288 0 -200"
+"classname" "info_player_start"
+}
+{
+"light" "450"
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "672 0 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-672 0 0"
+"classname" "light"
+}
+{
+"model" "*1"
+"angle" "360"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"angle" "180"
+"classname" "trigger_push"
+}
+{
+"model" "*3"
+"gravity" "0.25"
+"classname" "trigger_gravity"
+}
+{
+"angles" "16.3 0 0"
+"origin" "-608 0 320"
+"classname" "info_player_intermission"
+}
+{
+"delay" "5"
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-512 0 -8"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*4"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine"
+"origin" "-176 -176 -336"
+"classname" "target_explosion"
+}
+{
+"model" "*5"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine2"
+"origin" "-32 -64 -336"
+"classname" "target_explosion"
+}
+{
+"model" "*6"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine3"
+"origin" "160 -176 -336"
+"classname" "target_explosion"
+}
+{
+"model" "*7"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine4"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine4"
+"origin" "192 48 -336"
+"classname" "target_explosion"
+}
+{
+"model" "*8"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine5"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine5"
+"origin" "-288 96 -336"
+"classname" "target_explosion"
+}
+{
+"model" "*9"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine6"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine6"
+"origin" "-192 192 -336"
+"classname" "target_explosion"
+}
+{
+"model" "*10"
+"sounds" "1"
+"lip" "1"
+"wait" "20"
+"speed" "200"
+"target" "mine7"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"dmg" "200"
+"delay" "0"
+"targetname" "mine7"
+"origin" "128 176 -336"
+"classname" "target_explosion"
+}
+{
+"kills" "100"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Space Nahtzees"
+"angle" "360"
+"origin" "224 -48 112"
+"classname" "info_team_start"
+}
+{
+"kills" "100"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Warship Troopers"
+"angle" "360"
+"origin" "-224 48 -48"
+"classname" "info_team_start"
+}
+{
+"delay" "5"
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "504 0 -8"
+"classname" "info_reinforcements_start"
+}
+

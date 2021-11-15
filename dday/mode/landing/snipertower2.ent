@@ -1,0 +1,453 @@
+{
+"_sun_diffuse" "100"
+"_sun_color" "1 1 .85"
+"_sun_light" "250"
+"_sun_ambient" "60"
+"_sun" "sun"
+"message" "Sniper Tower - designed by E"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"_color" "1 0 0"
+"light" "150"
+"origin" "-672 160 224"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "250"
+"origin" "-160 -160 224"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "300"
+"origin" "-160 160 224"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "400"
+"origin" "-704 160 64"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"light" "200"
+"origin" "128 224 384"
+"classname" "light"
+}
+{
+"style" "32"
+"targetname" "sun"
+"target" "star"
+"origin" "-576 2976 608"
+"light" "2500"
+"classname" "light"
+}
+{
+"targetname" "star"
+"origin" "-512 2848 512"
+"classname" "info_null"
+}
+{
+"model" "*1"
+"message" "Allied Town"
+"dmg" "10"
+"health" "10"
+"obj_owner" "0"
+"sounds" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*2"
+"message" "Axis Base"
+"dmg" "10"
+"health" "10"
+"obj_owner" "1"
+"sounds" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*3"
+"message" "Sniper Tower"
+"dmg" "10"
+"health" "10"
+"obj_owner" "1"
+"sounds" "1"
+"classname" "objective_touch"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "0 2592 64"
+"classname" "target_speaker"
+}
+{
+"angle" "90"
+"origin" "96 -160 -160"
+"classname" "misc_banner"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "512 1504 64"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "-64 896 32"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "-640 1472 32"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "864 544 64"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "-704 384 64"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "480 576 256"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "-800 544 256"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "96 416 448"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "-32 1248 32"
+"classname" "target_speaker"
+}
+{
+"noise" "hedge/battle1"
+"spawnflags" "1"
+"attenuation" "1"
+"origin" "0 2304 -64"
+"classname" "target_speaker"
+}
+{
+"origin" "32 2112 -224"
+"angle" "270"
+"points" "60"
+"kills" "35"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"message" "allie"
+"classname" "info_team_start"
+}
+{
+"origin" "96 608 0"
+"angle" "270"
+"points" "60"
+"kills" "35"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"message" "axis"
+"classname" "info_team_start"
+}
+{
+"angle" "270"
+"origin" "-160 1568 -32"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "128 -128 160"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "864 2976 -224"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "179"
+"origin" "-352 768 -32"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-864 2976 -224"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-32 128 192"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-864 2912 -224"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "179"
+"origin" "736 768 0"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "92"
+"origin" "0 2816 -224"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "182"
+"origin" "864 2880 -224"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "308"
+"origin" "-256 128 0"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "57"
+"origin" "-32 384 0"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "57"
+"origin" "-704 2848 -128"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "359"
+"origin" "-288 -128 0"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "1"
+"origin" "672 2848 -96"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-288 128 192"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "330"
+"origin" "-768 2944 -224"
+"classname" "info_engineer_start"
+}
+{
+"map2" "dday1"
+"team2" "1"
+"map1" "dday2"
+"team1" "0"
+"angles" "34.6 -90 0"
+"origin" "96 576 0"
+"classname" "info_mission_results"
+}
+{
+"noise" "hedge/bomb"
+"targetname" "b5"
+"origin" "-248 1544 -176"
+"volume" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-524.4 1485 -238.5"
+"delay" "2.0"
+"dmg" "150"
+"targetname" "b5"
+"classname" "target_explosion"
+}
+{
+"origin" "-332.4 1485 -238.5"
+"delay" "1.5"
+"dmg" "150"
+"targetname" "b5"
+"classname" "target_explosion"
+}
+{
+"origin" "-140.4 1485 -238.5"
+"delay" "1.0"
+"dmg" "150"
+"targetname" "b5"
+"classname" "target_explosion"
+}
+{
+"origin" "83.6 1485 -238.5"
+"delay" ".5"
+"dmg" "150"
+"targetname" "b5"
+"classname" "target_explosion"
+}
+{
+"targetname" "b5"
+"angle" "43"
+"origin" "-352 160 320"
+"classname" "misc_satellite_dish"
+}
+{
+"model" "*4"
+"wait" "20"
+"delay" "4"
+"target" "b5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*5"
+"dmg" "800"
+"mass" "50"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Sniper Tower"
+"obj_owner" "1"
+"health" "2000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"sounds" "2"
+"classname" "func_water"
+}
+{
+"model" "*7"
+"target" "gizmo"
+"dmg" "0"
+"mass" "50"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Navigation Center"
+"obj_owner" "1"
+"health" "500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"targetname" "gizmo"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"spawnflags" "0"
+"target" "beddoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"targetname" "barbed"
+"classname" "func_wall"
+}
+{
+"model" "*11"
+"dmg" "25"
+"classname" "trigger_hurt"
+}
+{
+"model" "*12"
+"targetname" "barbed"
+"classname" "func_wall"
+}
+{
+"model" "*13"
+"dmg" "25"
+"classname" "trigger_hurt"
+}
+{
+"model" "*14"
+"targetname" "barbed"
+"classname" "func_wall"
+}
+{
+"model" "*15"
+"dmg" "25"
+"classname" "trigger_hurt"
+}
+{
+"model" "*16"
+"targetname" "barbed"
+"classname" "func_wall"
+}
+{
+"model" "*17"
+"dmg" "25"
+"classname" "trigger_hurt"
+}
+{
+"model" "*18"
+"targetname" "barbed"
+"classname" "func_wall"
+}
+{
+"model" "*19"
+"dmg" "25"
+"classname" "trigger_hurt"
+}
+{
+"model" "*20"
+"wait" "1"
+"origin" "-128 -128 96"
+"target" "doorsound"
+"targetname" "beddoor"
+"speed" "200"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "80"
+"classname" "func_door_rotating"
+}
+{
+"targetname" "doorsound"
+"noise" "faf/door2"
+"spawnflags" "0"
+"attenuation" "1"
+"origin" "-192 -96 224"
+"classname" "target_speaker"
+}
+

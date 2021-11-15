@@ -1,0 +1,267 @@
+{
+"message" "Dday Villa - Torneo 1x1 de Clases - por hAnS!!"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "0 128 -64"
+"classname" "info_player_start"
+}
+{
+"kills" "30"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-640 192 -480"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-640 288 -480"
+"classname" "info_reinforcements_start"
+}
+{
+"target" "a-1"
+"origin" "-768 182 -544"
+"classname" "misc_teleporter"
+}
+{
+"target" "a-2"
+"origin" "-768 342 -544"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "a-1"
+"angle" "360"
+"origin" "-864 64 -330"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "a-3"
+"origin" "-768 416 -544"
+"classname" "misc_teleporter"
+}
+{
+"kills" "30"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "800 320 -480"
+"classname" "info_team_start"
+}
+{
+"target" "n-3"
+"origin" "736 384 -544"
+"classname" "misc_teleporter"
+}
+{
+"target" "n-2"
+"origin" "736 311 -544"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "n-2"
+"angle" "148"
+"origin" "608 288 -276"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "n-1"
+"angle" "180"
+"origin" "896 -30 -330"
+"classname" "misc_teleporter_dest"
+}
+{
+"target" "n-1"
+"origin" "736 152 -546"
+"classname" "misc_teleporter"
+}
+{
+"targetname" "n-3"
+"angle" "360"
+"origin" "682 -480 -290"
+"classname" "misc_teleporter_dest"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "896 224 -480"
+"classname" "info_reinforcements_start"
+}
+{
+"_color" "1 1 0.9"
+"target" "sol"
+"style" "32"
+"targetname" "sol"
+"origin" "-64 0 256"
+"light" "600"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "672 -544 -32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-672 512 -32"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"origin" "832 256 -448"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-128 224 0"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "352 -32 0"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-544 -320 -96"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-192 -448 128"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "288 -416 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "768 -64 -128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 320 -128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-704 64 -160"
+"classname" "light"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*1"
+"dmg" "100"
+"mass" "50"
+"health" "100"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "5"
+"noise" "colpiron/engine2.wav"
+"origin" "-66.2 473.3 -219.5"
+"classname" "target_speaker"
+}
+{
+"classname" "func_group"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "300"
+"origin" "214 215 -228"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "200"
+"origin" "148 215 -238"
+"classname" "light"
+}
+{
+"target" "chargesmoke"
+"wait" "0.5"
+"spawnflags" "1"
+"origin" "161 223.3 -234.7"
+"classname" "func_timer"
+}
+{
+"volume" "-1"
+"attenuation" "colpiron/engine4.wav"
+"spawnflags" "1"
+"origin" "154 219.8 -249.7"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"_color" "1 1 0.5"
+"style" "0"
+"light" "300"
+"origin" "203.3 166.5 -228"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "4"
+"light" "200"
+"origin" "146.2 133.4 -238"
+"classname" "light"
+}
+{
+"target" "chargesmoke"
+"wait" "0.5"
+"spawnflags" "1"
+"origin" "153.3 147.1 -234.7"
+"classname" "func_timer"
+}
+{
+"volume" "-1"
+"attenuation" "colpiron/engine4.wav"
+"spawnflags" "1"
+"origin" "148.9 140.6 -249.7"
+"classname" "target_speaker"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+{
+"style" "0"
+"light" "400"
+"origin" "-672 288 -448"
+"classname" "light"
+}
+{
+"targetname" "a-2"
+"angle" "360"
+"origin" "-544 -256 -267"
+"classname" "misc_teleporter_dest"
+}
+{
+"targetname" "a-3"
+"angle" "360"
+"origin" "-672 416 -300"
+"classname" "misc_teleporter_dest"
+}
+

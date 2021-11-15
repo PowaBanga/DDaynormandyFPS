@@ -1,0 +1,131 @@
+{
+"message" "The Queens Legs\nBy Partsie"
+"classname" "worldspawn"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "188.4 -53.6 64"
+"classname" "info_team_start"
+}
+{
+"kills" "10"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "201.5 55.1 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-104.4 0 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "184.1 -1.4 -71"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "180"
+"origin" "0 0 32"
+"classname" "info_player_start"
+}
+{
+"target" "boardlight"
+"_color" "1 1 1"
+"_cone" "30"
+"style" "0"
+"light" "150"
+"origin" "-108.1 -3.0 73.6"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1.5 1.5 81.1"
+"classname" "light"
+}
+{
+"targetname" "boardlight"
+"origin" "-239.3 -4.6 -23.0"
+"classname" "info_null"
+}
+{
+"targetname" "bar1"
+"origin" "17.1 173.3 -39.8"
+"classname" "info_null"
+}
+{
+"targetname" "bar2"
+"origin" "184.0 173.3 -41.7"
+"classname" "info_null"
+}
+{
+"target" "bar2"
+"_color" "0.5 1 1"
+"_cone" "20"
+"light" "100"
+"origin" "173.9 95.7 85.3"
+"classname" "light"
+}
+{
+"_color" "0 1 0.5"
+"_cone" "20"
+"target" "bar1"
+"light" "100"
+"origin" "34.8 89.8 84"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "200"
+"origin" "79.4 -6.4 57.9"
+"classname" "light"
+}
+{
+"model" "models/mapmodels/jhmodels/deadoff.md2"
+"angle" "182"
+"origin" "191.0 -165 -71.4"
+"classname" "misc_md2"
+}
+{
+"model" "models/mapmodels/jhmodels/deadoff.md2"
+"angle" "2"
+"origin" "-207.6 166.4 -71.3"
+"classname" "misc_md2"
+}
+{
+"mass" "8"
+"model" "models/mapmodels/jhmodels/gram.md2"
+"angle" "112"
+"origin" "-239.3 -179.2 -76.7"
+"classname" "misc_md2"
+}
+{
+"noise" "lilli/grmlilli2.wav"
+"spawnflags" "1"
+"origin" "-214.8 -173.3 -77.5"
+"classname" "target_speaker"
+}
+{
+"light" "100"
+"origin" "-243.5 176.9 -5.8"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "240.6 -175.4 -11.5"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "-245 -181.2 -4.3"
+"classname" "light"
+}
+

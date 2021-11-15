@@ -1,0 +1,56 @@
+{
+"_ambient" "60"
+"sky" "drksky"
+"classname" "worldspawn"
+"message" "Spongebobs_cell"
+}
+{
+"angle" "360"
+"origin" "1308.6 -753.5 92.3"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "1591.0 -1115.7 -245.8"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "180"
+"origin" "-1723.3 1191.0 -683.1"
+"classname" "info_reinforcements_start"
+}
+{
+"message" "allies"
+"points" "75"
+"nextmap" "bobscell"
+"kills" "75"
+"count" "1"
+"dll" "usa"
+"obj_owner" "0"
+"angle" "180"
+"origin" "302.3 -505.7 -387.9"
+"classname" "info_team_start"
+}
+{
+"message" "axis"
+"kills" "75"
+"nextmap" "bobscell"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "180"
+"origin" "302.3 -505.7 -387.9"
+"classname" "info_team_start"
+}
+

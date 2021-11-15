@@ -1,0 +1,643 @@
+{
+"sky" "forest"
+"message" "The Green Hills \n By Psyconutt[TQM] \n Prefabs by SgtRock[TQM]"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"origin" "-226 359 15"
+"target" "posh1"
+"speed" "200"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-226 358 135"
+"target" "posh2"
+"speed" "200"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "1"
+"targetname" "posh1"
+"classname" "func_areaportal"
+}
+{
+"style" "2"
+"targetname" "posh2"
+"classname" "func_areaportal"
+}
+{
+"model" "*3"
+"origin" "-1614 1875 -141"
+"targetname" "ab1"
+"speed" "200"
+"sounds" "1"
+"target" "main1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "3"
+"targetname" "main1"
+"classname" "func_areaportal"
+}
+{
+"model" "*4"
+"origin" "-1523 1876 -142"
+"targetname" "ab1"
+"spawnflags" "2"
+"speed" "200"
+"sounds" "1"
+"target" "main1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*5"
+"sounds" "1"
+"target" "ab1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"dmg" "10"
+"spawnflags" "24"
+"classname" "trigger_hurt"
+}
+{
+"model" "*7"
+"dmg" "10"
+"spawnflags" "24"
+"classname" "trigger_hurt"
+}
+{
+"model" "*8"
+"origin" "-815 127 -45"
+"wait" "7"
+"targetname" "trapdoor"
+"target" "bunker"
+"sounds" "1"
+"spawnflags" "130"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*9"
+"target" "trapdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"Message" "You have found the switch for the bunker"
+"sounds" "1"
+"target" "trapdoor"
+"classname" "func_button"
+}
+{
+"light" "200"
+"origin" "-2081 1517 -88"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-2421 1517 -26"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-1129 2306 -107"
+"classname" "light"
+}
+{
+"style" "4"
+"targetname" "bunker"
+"classname" "func_areaportal"
+}
+{
+"model" "*11"
+"origin" "-730 108 -682"
+"speed" "200"
+"sounds" "1"
+"target" "bnk1"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "5"
+"targetname" "bnk1"
+"classname" "func_areaportal"
+}
+{
+"light" "300"
+"origin" "-318 219 21"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "288"
+"origin" "-1099 2527.7 -64"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2407.4 1541.6 -97.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "190"
+"origin" "-901.7 1959 -61.7"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "210"
+"origin" "-2469.7 1495.7 -81"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "150"
+"origin" "-2410.7 1496.3 -88.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "47"
+"origin" "-1156.2 2529.9 -90.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1120 2472.3 -84"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "195"
+"origin" "-2465.7 1537.7 -93.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "240"
+"origin" "-1156.7 2474.7 -76.3"
+"classname" "info_officer_start"
+}
+{
+"light" "200"
+"origin" "-1137 2487 -45"
+"classname" "light"
+}
+{
+"obj_owner" "1"
+"angle" "210"
+"origin" "-1538.3 1975 -116.1"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "91"
+"origin" "73 117.4 20.3"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "30"
+"origin" "-1815.8 2026.6 -41.8"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "181"
+"origin" "-1419.3 1908.6 -148.9"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "300"
+"origin" "-1791.3 1989.8 -43.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "226"
+"origin" "-1683.8 1974.3 -159.6"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "300"
+"origin" "-1762.4 1946.4 -48"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "46"
+"origin" "-1750.7 1917.4 -49.2"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "14"
+"origin" "-1753.2 1900.4 -147.4"
+"classname" "info_officer_start"
+}
+{
+"kills" "50"
+"nextmap" "dday3"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "-1402.5 1441.8 -14.3"
+"classname" "info_team_start"
+}
+{
+"kills" "40"
+"nextmap" "dday2"
+"dll" "grm"
+"obj_owner" "1"
+"count" "50"
+"message" "Axis"
+"origin" "-1350.7 1442.4 -12.5"
+"classname" "info_team_start"
+}
+{
+"light" "230"
+"origin" "-637 292 35"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "58 313 31"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"light" "50"
+"origin" "0 143 -31"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "-772 131 -212"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "-772 131 -510"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "-1429 1297 -51"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1614 1614 -20"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-1612 1935 -143"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-1492 2020 2"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-1748 1968 -40"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "-1168 1852 -81"
+"classname" "light"
+}
+{
+"model" "*12"
+"obj_name" "Anti-Aircraft Gun"
+"obj_gain" "20"
+"obj_loss" "5"
+"obj_owner" "1"
+"dmg" "100"
+"mass" "800"
+"health" "5000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*13"
+"origin" "-1639 1997 -41"
+"target" "spawn1"
+"targetname" "spawnent"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*14"
+"sounds" "1"
+"target" "spawnent"
+"classname" "trigger_multiple"
+}
+{
+"style" "6"
+"targetname" "spawn1"
+"classname" "func_areaportal"
+}
+{
+"model" "*15"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_name" "Weapons Factors Blue Prints"
+"obj_owner" "1"
+"dmg" "5"
+"mass" "40"
+"health" "500"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*16"
+"obj_name" "Engima decoder"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_owner" "1"
+"dmg" "30"
+"mass" "400"
+"health" "2000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*17"
+"obj_name" "Radio Power Board"
+"obj_loss" "5"
+"obj_gain" "10"
+"obj_owner" "1"
+"dmg" "10"
+"mass" "200"
+"health" "2000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*18"
+"obj_name" "Zyclon-b Storage Tanks"
+"obj_loss" "5"
+"obj_gain" "20"
+"obj_owner" "1"
+"dmg" "400"
+"mass" "800"
+"health" "4000"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*19"
+"message" "Secret Bunker Has Been"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*20"
+"message" "The Governors Mansion has been"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"volume" "1.0"
+"attenuation" "3"
+"spawnflags" "1"
+"noise" "pn/hitler"
+"origin" "-543 163 -672"
+"classname" "target_speaker"
+}
+{
+"style" "0"
+"light" "230"
+"origin" "-240 652 138"
+"classname" "light"
+}
+{
+"light" "170"
+"origin" "-246 454 170"
+"classname" "light"
+}
+{
+"style" "7"
+"targetname" "aliesdoor1"
+"classname" "func_areaportal"
+}
+{
+"model" "*21"
+"origin" "-1100 2094 -128"
+"sounds" "1"
+"speed" "150"
+"targetname" "ad1"
+"target" "aliesdoor1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*22"
+"sounds" "1"
+"target" "ad1"
+"classname" "trigger_multiple"
+}
+{
+"style" "8"
+"targetname" "bb1"
+"classname" "func_areaportal"
+}
+{
+"model" "*23"
+"origin" "-1910 1482 -139"
+"targetname" "ax2"
+"target" "bb1"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*24"
+"target" "ax2"
+"classname" "trigger_multiple"
+}
+{
+"angle" "360"
+"origin" "-2162 1526 -144"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/verde1"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "-1323 1650 -145"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/verde1"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "-1256 1719 -146"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/5insx"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "-1768 1398 -131"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/5insx"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "-1197 2008 -141"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/5insx"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "-950 1556 -141"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/5insx"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "-618 432 62"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "gimp/5insx"
+"volume" "1.0"
+"attenuation" "3"
+"origin" "50 266 69"
+"classname" "target_speaker"
+}
+{
+"light" "150"
+"origin" "-1020 1973 -101"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-982 1532 -72"
+"classname" "light"
+}
+{
+"light" "150"
+"origin" "-1821 1360 -147"
+"classname" "light"
+}
+{
+"model" "*25"
+"origin" "-1486 1264 -145"
+"sounds" "1"
+"target" "at1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "9"
+"targetname" "at1"
+"classname" "func_areaportal"
+}
+{
+"light" "370"
+"origin" "-230 1006 158"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-864 966 14"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1448 982 -40"
+"classname" "light"
+}
+{
+"light" "240"
+"origin" "-456 166 -648"
+"classname" "light"
+}
+{
+"model" "*26"
+"origin" "-1705 1975 -177"
+"wait" "10"
+"targetname" "pn"
+"sounds" "1"
+"spawnflags" "128"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*27"
+"message" "Secret Exit Switch"
+"sounds" "1"
+"target" "pn"
+"classname" "func_button"
+}
+{
+"model" "*28"
+"origin" "-1782 1325 -183"
+"targetname" "tta"
+"target" "bba"
+"sounds" "1"
+"spawnflags" "130"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*29"
+"sounds" "1"
+"target" "tta"
+"classname" "trigger_multiple"
+}
+{
+"style" "10"
+"targetname" "bba"
+"classname" "func_areaportal"
+}
+{
+"light" "200"
+"origin" "-1744 1971 -306"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-1744 1647 -427"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "-1735 1323 -350"
+"classname" "light"
+}
+

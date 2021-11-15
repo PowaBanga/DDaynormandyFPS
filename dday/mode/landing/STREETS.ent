@@ -1,0 +1,323 @@
+{
+"_sun_surface" "100"
+"_sun_difwait" "0"
+"message" "Deserted Town - by The Violator (tweaked by loosebob)"
+"sky" "night1"
+"nextmap" "streets"
+"_sun_color" ".8.8 1"
+"_sun_angle" "15 -80"
+"_sun_diffuse" "20"
+"_sun_ambient" "50"
+"_sun_light" "200"
+"classname" "worldspawn"
+}
+{
+"origin" "972 -1024 -108"
+"light" "150"
+"style" "11"
+"classname" "light"
+}
+{
+"origin" "384 -79 -207"
+"count" "99"
+"points" "100"
+"kills" "30"
+"nextmap" "streets"
+"dll" "grm"
+"message" "Nazi's"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "404 -78 -207"
+"points" "100"
+"nextmap" "streets"
+"message" "Soviets"
+"kills" "40"
+"count" "0"
+"dll" "rus"
+"classname" "info_team_start"
+}
+{
+"origin" "-624 -154 -320"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*1"
+"obj_name" "Fuel Container 2"
+"obj_gain" "10"
+"health" "2000"
+"mass" "2000"
+"dmg" "999"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"obj_name" "Fuel Container 1"
+"obj_gain" "10"
+"health" "2000"
+"mass" "200"
+"dmg" "900"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "668 -1092 -388"
+"targetname" "explo"
+"dmg" "200"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"origin" "668 -2056 -240"
+"light" "300"
+"classname" "light"
+}
+{
+"model" "*4"
+"obj_owner" "0"
+"_minlight" "0"
+"obj_name" "ammo crate"
+"obj_gain" "10"
+"health" "1000"
+"mass" "75"
+"dmg" "100"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"obj_owner" "0"
+"_minlight" "0"
+"obj_name" "ammo crate"
+"obj_gain" "10"
+"health" "1000"
+"mass" "75"
+"dmg" "100"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"obj_owner" "0"
+"_minlight" "0"
+"obj_name" "ammo crate"
+"obj_gain" "10"
+"health" "1000"
+"mass" "75"
+"dmg" "100"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"obj_owner" "0"
+"_minlight" "0"
+"obj_name" "ammo crate"
+"obj_gain" "10"
+"health" "1000"
+"mass" "75"
+"dmg" "100"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"obj_owner" "0"
+"_minlight" "0"
+"obj_name" "ammo crate"
+"obj_gain" "10"
+"health" "1000"
+"mass" "75"
+"dmg" "100"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"health" "2000"
+"dmg" "100"
+"classname" "func_explosive"
+}
+{
+"origin" "1792 -960 -256"
+"_fade" "0"
+"_angfade" "1"
+"_cone" "50"
+"_focus" "1"
+"_color" "1.000 1.000 0.502"
+"classname" "light"
+}
+{
+"model" "*10"
+"health" "500"
+"_minlight" "0"
+"classname" "func_explosive"
+}
+{
+"origin" "24 -20 -320"
+"_fade" "0"
+"_angfade" "1"
+"_cone" "50"
+"_focus" "1"
+"_color" "1.000 1.000 0.502"
+"light" "100"
+"angle" "-2"
+"classname" "light"
+}
+{
+"model" "*11"
+"obj_owner" "0"
+"_minlight" "0"
+"obj_name" "ammo crate"
+"obj_gain" "10"
+"health" "1000"
+"mass" "75"
+"dmg" "100"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "-64 -1088 -64"
+"classname" "info_player_intermission"
+}
+{
+"model" "*12"
+"_minlight" "0"
+"style" "0"
+"health" "3000"
+"mass" "200"
+"dmg" "0"
+"obj_owner" "0"
+"obj_name" "Barrier"
+"obj_gain" "10"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "-128 -128 -320"
+"light" "200"
+"classname" "light"
+}
+{
+"model" "*13"
+"health" "2000"
+"dmg" "100"
+"_minlight" "0"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"obj_gain" "10"
+"mass" "300"
+"health" "1000"
+"obj_name" "ammo crate"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "64 -128 -120"
+"classname" "light"
+}
+{
+"origin" "316 -233 -320"
+"classname" "light"
+}
+{
+"origin" "-56 -884 -148"
+"angle" "328"
+"classname" "info_player_start"
+}
+{
+"origin" "532 -746 -383"
+"angle" "182"
+"classname" "info_infantry_start"
+}
+{
+"origin" "254 -16 -399"
+"angle" "272"
+"classname" "info_officer_start"
+}
+{
+"origin" "64 -191 -383"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-308 -727 -407"
+"angle" "273"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-182 -802 -38"
+"angle" "273"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "1536 -1279 -383"
+"angle" "182"
+"classname" "info_special_start"
+}
+{
+"origin" "-660 -900 -411"
+"angle" "273"
+"classname" "info_engineer_start"
+}
+{
+"origin" "326 -52 -401"
+"angle" "182"
+"classname" "info_medic_start"
+}
+{
+"origin" "1008 -1026 -144"
+"angle" "245"
+"classname" "info_sniper_start"
+}
+{
+"origin" "1004 -1923 -341"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "856 -2047 -340"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "816 -1854 -341"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "960 -2047 -341"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "910 -2047 -341"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "900 -1904 -225"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "1004 -1866 -341"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "1004 -1902 -341"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "1004 -1844 -341"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"model" "*15"
+"health" "2000"
+"dmg" "100"
+"classname" "func_explosive"
+}
+

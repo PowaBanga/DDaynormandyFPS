@@ -1,0 +1,230 @@
+{
+"message" "Battle for the hill /by [AMF]Julhelm"
+"sky" "night1"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "912 -224 824"
+"classname" "info_player_start"
+}
+{
+"origin" "-3482.3 45.5 -667.7"
+"angle" "360"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "2"
+"points" "100"
+"classname" "info_team_start"
+}
+{
+"origin" "3461.5 -81.3 549.4"
+"message" "Axis"
+"count" "2"
+"obj_owner" "1"
+"dll" "grm"
+"kills" "50"
+"classname" "info_team_start"
+}
+{
+"origin" "3479.3 -651.9 574.3"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "3431.2 155.1 550.4"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "3448 1348 544"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "3446.9 -1560.8 567.6"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "3445.3 -1221.2 573.9"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "3471.1 1047.8 557.4"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "3371.3 1761 544"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "3449.1 606.3 573.9"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "3496.6 377.2 550.4"
+"angle" "180"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "-3433 621.2 -670.3"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-3562.1 -261.6 -669.8"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-3566 -128 -668"
+"angle" "359"
+"obj_owner" "0"
+"classname" "info_special_start"
+}
+{
+"origin" "-3565.3 -388.8 -669.9"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-3309.7 1197.2 -670.5"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_medic_start"
+}
+{
+"noise" "surreal/cicada3.wav"
+"spawnflags" "1"
+"origin" "-2944 -64 -672"
+"classname" "target_speaker"
+}
+{
+"origin" "-3659.9 -1478.2 -670.6"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-3563.8 -782.2 -670"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-3561.6 -534.4 -670.4"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-3497.4 1325.2 -670.6"
+"angle" "360"
+"obj_owner" "0"
+"classname" "info_officer_start"
+}
+{
+"noise" "surreal/cicada3.wav"
+"spawnflags" "1"
+"origin" "-3136 1248 -672"
+"classname" "target_speaker"
+}
+{
+"noise" "surreal/cicada3.wav"
+"spawnflags" "1"
+"origin" "3040 1760 608"
+"classname" "target_speaker"
+}
+{
+"noise" "surreal/cicada3.wav"
+"spawnflags" "1"
+"origin" "3072 0 640"
+"classname" "target_speaker"
+}
+{
+"noise" "surreal/cicada3.wav"
+"spawnflags" "1"
+"origin" "3136 -1568 640"
+"classname" "target_speaker"
+}
+{
+"noise" "surreal/cicada3.wav"
+"spawnflags" "1"
+"origin" "-2976 -1472 -640"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/wind1.wav"
+"spawnflags" "1"
+"origin" "-320 0 -448"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/wind1.wav"
+"spawnflags" "1"
+"origin" "-448 1248 -480"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/wind1.wav"
+"spawnflags" "1"
+"origin" "928 1696 -96"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/wind1.wav"
+"spawnflags" "1"
+"origin" "1024 0 -96"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/wind1.wav"
+"spawnflags" "1"
+"origin" "1056 -1440 -96"
+"classname" "target_speaker"
+}
+{
+"noise" "faf/wind1.wav"
+"spawnflags" "1"
+"origin" "-352 -1568 -512"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"health" "600"
+"obj_gain" "50"
+"obj_name" "ammocrate1"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*2"
+"health" "600"
+"obj_gain" "50"
+"obj_name" "ammocrate2"
+"obj_owner" "1"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "func_explosive_objective"
+}
+

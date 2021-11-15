@@ -1,0 +1,274 @@
+{
+"message" "The Crossing \nBy Rab,d"
+"sky" "crossing"
+"_sun_diffuse" "150"
+"_sun_color" "1 1 1"
+"_sun_angle" "45 -150"
+"_sun_ambient" "60"
+"_sun_light" "240"
+"classname" "worldspawn"
+}
+{
+"angle" "270"
+"origin" "972 224 360.5"
+"classname" "info_player_start"
+}
+{
+"nextmap" "gypsy"
+"fixedscale" "1"
+"kills" "60"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-414 -128 -99.5"
+"classname" "info_team_start"
+}
+{
+"nextmap" "gypsy"
+"kills" "60"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "422 232 -99.5"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2182 -392 164.5"
+"classname" "info_reinforcements_start"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*1"
+"speed" "120"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"classname" "func_group"
+}
+{
+"light" "200"
+"origin" "931.67 -158 292"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "931.67 154 292"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "931.67 10 468"
+"classname" "light"
+}
+{
+"model" "*2"
+"speed" "120"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*3"
+"origin" "773 -921 171"
+"spawnflags" "2"
+"speed" "150"
+"distance" "120"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*4"
+"origin" "984 -643 171"
+"target" "a_1"
+"spawnflags" "0"
+"speed" "120"
+"distance" "120"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "796 -92 223.5"
+"classname" "info_reinforcements_start"
+}
+{
+"spawnflags" "1"
+"noise" "faf/air.wav"
+"volume" ".5"
+"attenuation" "1"
+"origin" "372 2 236"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-60 1508 -36"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-76 1068 -84"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-204 580 -84"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-428 188 -84"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-516 -668 -84"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-508 -212 -84"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-412 -1132 -84"
+"classname" "target_speaker"
+}
+{
+"target" "bird"
+"spawnflags" "1"
+"random" "70"
+"wait" "150"
+"origin" "-1100 -1036 492"
+"classname" "func_timer"
+}
+{
+"targetname" "bird"
+"spawnflags" "0"
+"attenuation" "4"
+"noise" "faf/bird19.wav"
+"origin" "-1100 -1064 412"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"attenuation" "4"
+"noise" "faf/river.wav"
+"origin" "-156 -1444 -84"
+"classname" "target_speaker"
+}
+{
+"targetname" "bird3"
+"spawnflags" "0"
+"attenuation" "4"
+"noise" "faf/bird19.wav"
+"origin" "1372 1040 492"
+"classname" "target_speaker"
+}
+{
+"targetname" "bird2"
+"spawnflags" "0"
+"attenuation" "4"
+"noise" "faf/CROW.wav"
+"origin" "-2220 -184 332"
+"classname" "target_speaker"
+}
+{
+"target" "bird2"
+"random" "90"
+"wait" "220"
+"spawnflags" "1"
+"origin" "-2088 -200 408"
+"classname" "func_timer"
+}
+{
+"random" "150"
+"wait" "180"
+"spawnflags" "1"
+"target" "bird3"
+"origin" "1256 1056 520"
+"classname" "func_timer"
+}
+

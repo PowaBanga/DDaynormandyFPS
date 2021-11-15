@@ -1,0 +1,425 @@
+{
+"_sun_surface" "100"
+"_sun" "star"
+"angle" "300"
+"_sun_light" "400"
+"_sun_color" "1 1 1"
+"_sun_ambient" "20"
+"message" "Dust II - by DaveJ\nconverted by TanatoVago"
+"sky" "des"
+"classname" "worldspawn"
+}
+{
+"light" "250"
+"style" "6"
+"angle" "135"
+"origin" "-2506.4 2009.1 388.4"
+"classname" "light_mine2"
+}
+{
+"model" "*1"
+"targetname" "buraco"
+"spawnflags" "1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"dmg" "100"
+"health" "800"
+"mass" "500"
+"target" "buraco"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "2000"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"obj_loss" "-7"
+"dmg" "500"
+"mass" "500"
+"health" "6000"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "3500"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*6"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "3500"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "3500"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*8"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "2000"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*9"
+"obj_loss" "-7"
+"dmg" "500"
+"mass" "500"
+"health" "6000"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*10"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "3500"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*11"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "3500"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*12"
+"obj_loss" "-2"
+"dmg" "200"
+"mass" "500"
+"health" "3500"
+"obj_gain" "-1"
+"obj_name" "Set ammo crates"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"nextmap" "desert1"
+"points" "10"
+"kills" "50"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "L.R.D.S."
+"origin" "-1007.2 2895.3 453.5"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1049.6 3271.2 438.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "135"
+"origin" "-599.7 2521.5 438.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1217.1 3103.7 438.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-987.8 2944.9 438.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-1455.3 2671.5 438.9"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1333.9 2953.7 497.7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1374.9 2867.7 497.7"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "-1594.9 3108.7 497.7"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "desert1"
+"points" "10"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Afrika Korps"
+"origin" "-2716.5 925.1 453.1"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "225"
+"origin" "-2457.3 1048.6 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "315"
+"origin" "-3259.9 863.4 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-2818.9 925.1 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-2924.7 1039.8 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-2483.7 625.2 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "300"
+"origin" "-3154.1 1657.2 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-2560.1 1035.2 509.4"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-2714.1 732.2 543.4"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "90"
+"origin" "-2362.1 2160 286.7"
+"classname" "info_player_start"
+}
+{
+"targetname" "star"
+"origin" "-2344 2936 376"
+"classname" "info_null"
+}
+{
+"target" "star"
+"light" "300"
+"origin" "-2270.3 2865.5 453.1"
+"classname" "light"
+}
+{
+"origin" "-2769 3048 414"
+"classname" "ammo_tnt"
+}
+{
+"origin" "-3203.5 2943.5 414"
+"classname" "ammo_napalm"
+}
+{
+"origin" "-3091.5 3307.5 414"
+"classname" "ammo_tnt"
+}
+{
+"origin" "-2924.5 2936.5 414"
+"classname" "ammo_grenades_grm"
+}
+{
+"origin" "-2930.5 3186.5 414"
+"classname" "ammo_mauser98k"
+}
+{
+"origin" "-2751.5 3165.5 414"
+"classname" "ammo_p38"
+}
+{
+"origin" "-3005.5 2949.5 414"
+"classname" "ammo_mp43"
+}
+{
+"origin" "-2936.5 3120 414"
+"classname" "ammo_mp40"
+}
+{
+"origin" "-2731.5 3137.5 414"
+"classname" "ammo_mg42"
+}
+{
+"origin" "-3186.5 3204.5 414"
+"classname" "ammo_grenades_gbr"
+}
+{
+"origin" "-3163.5 3351.5 414"
+"classname" "ammo_webley"
+}
+{
+"origin" "-3003.5 3192.5 414"
+"classname" "ammo_enfield"
+}
+{
+"origin" "-3064.5 3223.5 414"
+"classname" "ammo_enfields"
+}
+{
+"origin" "-3182.5 3150.5 414"
+"classname" "ammo_sten"
+}
+{
+"origin" "-3018.5 2884.5 414"
+"classname" "ammo_bren"
+}
+{
+"origin" "-3206.5 2989.5 414"
+"classname" "ammo_vickers"
+}
+{
+"origin" "-3203.5 3311.5 414"
+"classname" "ammo_piat"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/bunkerwind.wav"
+"origin" "-2840 800 448"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-984 1700 356"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-1984 1756 356"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/bunkerwind.wav"
+"origin" "-1504 1228 396"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/bunkerwind.wav"
+"origin" "-3100 3160 472"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-2932 2584 400"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-2264 2876 344"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-1656 2776 280"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-1056 3024 452"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"volume" ".8"
+"attenuation" "2"
+"noise" "faf/wind.wav"
+"origin" "-808 2364 316"
+"classname" "target_speaker"
+}
+

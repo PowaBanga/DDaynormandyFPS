@@ -1,0 +1,535 @@
+{
+"_sun_angle" "240 -45"
+"_sun_light" "240"
+"_sun_ambient" "30"
+"_sun_color" "1.8 2.1 3.1"
+"_sun_diffuse" "400"
+"message" "Raid on Sainte-Lo\nby: Sir Jay and Cpt. Miller"
+"sky" "cm-scove256_"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-1178 377 725"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "0"
+"angle" "3"
+"origin" "-1950.9 445 598"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "4"
+"origin" "-1971.4 89.1 618.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "265"
+"origin" "1139.8 1155.8 780.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "87"
+"origin" "-1938.2 227 596"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "9"
+"origin" "-1886.2 102.4 595.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "179"
+"origin" "-1849.7 438.8 603.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "229"
+"origin" "-1488.8 207.4 618"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "241"
+"origin" "-1448.2 219 610.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1973.2 573 619.7"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "788.4 -1326.7 653.3"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "334"
+"origin" "438.7 -1311 637"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "296"
+"origin" "-959 -1241 624"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "150"
+"origin" "801 -1367.3 651"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "359"
+"origin" "698.3 -1329 647.7"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "195"
+"origin" "756.3 -1329.7 649"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "811.3 -1297 654.3"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "98"
+"origin" "866.7 -1219 661.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "345"
+"origin" "752 -1357 649.3"
+"classname" "info_officer_start"
+}
+{
+"points" "100"
+"kills" "50"
+"nextmap" "norway"
+"count" "100"
+"dll" "usa"
+"obj_owner" "0"
+"message" "U.S Forces"
+"angle" "271"
+"origin" "-51.4 -58.1 593.7"
+"classname" "info_team_start"
+}
+{
+"points" "75"
+"kills" "50"
+"nextmap" "raid"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Nazi Regime"
+"origin" "52.8 -97.7 682.5"
+"classname" "info_team_start"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "786 -1211 592"
+"classname" "target_speaker"
+}
+{
+"delay" "5"
+"targetname" "air"
+"target" "bomber"
+"origin" "24 -552 740"
+"classname" "trigger_relay"
+}
+{
+"delay" "6"
+"target" "plo1"
+"targetname" "air"
+"origin" "-4 4 716"
+"classname" "trigger_relay"
+}
+{
+"delay" "9"
+"target" "plo2"
+"targetname" "air"
+"origin" "-4 4 716"
+"classname" "trigger_relay"
+}
+{
+"delay" "15"
+"target" "plo3"
+"targetname" "air"
+"origin" "-4 4 716"
+"classname" "trigger_relay"
+}
+{
+"delay" "23"
+"target" "plo4"
+"targetname" "air"
+"origin" "-4 4 716"
+"classname" "trigger_relay"
+}
+{
+"dmg" "500"
+"delay" "4"
+"targetname" "plo1"
+"origin" "87 133 594"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "9"
+"targetname" "plo1"
+"origin" "-685 -695 595"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "15"
+"targetname" "plo1"
+"origin" "800 661 587"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "15"
+"targetname" "plo1"
+"origin" "691 1038 713"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "20"
+"targetname" "plo1"
+"origin" "-657 457 589"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "20"
+"targetname" "plo1"
+"origin" "-1006 510 823"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "22"
+"targetname" "plo1"
+"origin" "17 -1147 601"
+"classname" "target_explosion"
+}
+{
+"dmg" "500"
+"delay" "7"
+"targetname" "plo1"
+"origin" "685 -644 596"
+"classname" "target_explosion"
+}
+{
+"spawnflags" "4"
+"volume" "1.0"
+"noise" "Jay/bombfall"
+"attenuation" "1"
+"targetname" "plo1"
+"origin" "48 7 653"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-1712.8 402.8 948"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-1145.9 395.8 571"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "67.1 102.8 604"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "740 515 589"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "481 1129 589"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-101 1141 589"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-101 1141 589"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-390 -439 593"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-946 -377 593"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-593 -859 593"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "-34 -1152 593"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "1"
+"noise" "Jay/erriewind"
+"attenuation" "1"
+"volume" "1"
+"origin" "200 -1310 843"
+"classname" "target_speaker"
+}
+{
+"targetname" "begin"
+"target" "air"
+"wait" "183"
+"spawnflags" "1"
+"origin" "807 90 693"
+"classname" "func_timer"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "-1400 360 591"
+"classname" "target_speaker"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "844 416 591"
+"classname" "target_speaker"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "296 -464 591"
+"classname" "target_speaker"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "-692 -564 591"
+"classname" "target_speaker"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "-64 -1172 591"
+"classname" "target_speaker"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "880 -932 591"
+"classname" "target_speaker"
+}
+{
+"delay" "4"
+"targetname" "plo1"
+"count" "1"
+"origin" "82 313 667"
+"classname" "target_earthquake"
+}
+{
+"delay" "9"
+"targetname" "plo2"
+"count" "1"
+"origin" "82 313 667"
+"classname" "target_earthquake"
+}
+{
+"delay" "15"
+"targetname" "plo3"
+"count" "1"
+"origin" "82 313 667"
+"classname" "target_earthquake"
+}
+{
+"speed" "200"
+"delay" "22"
+"targetname" "plo4"
+"count" "1"
+"origin" "82 313 667"
+"classname" "target_earthquake"
+}
+{
+"targetname" "air"
+"volume" "1.0"
+"attenuation" "1"
+"noise" "Jay/air"
+"origin" "80 1187 742"
+"classname" "target_speaker"
+}
+{
+"angle" "90"
+"origin" "65 767 628"
+"classname" "misc_banner"
+}
+{
+"targetname" "ap1"
+"volume" "1.0"
+"attenuation" "3"
+"noise" "dday3/openlock"
+"origin" "-436 -1440 588"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"origin" "-373 -1392 629"
+"target" "ap1"
+"sounds" "1"
+"speed" "50"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"style" "1"
+"targetname" "ap1"
+"classname" "func_areaportal"
+}
+{
+"model" "*2"
+"obj_loss" "0"
+"obj_gain" "15"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "100"
+"mass" "700"
+"health" "900"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"message" "South Sainte-Lo"
+"dmg" "5"
+"health" "15"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*4"
+"message" "North Sainte-Lo"
+"dmg" "25"
+"health" "20"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*5"
+"message" "East Sainte-Lo"
+"dmg" "10"
+"health" "15"
+"obj_owner" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*6"
+"obj_loss" "0"
+"obj_gain" "20"
+"obj_name" "Ammo Crate"
+"obj_owner" "1"
+"dmg" "200"
+"mass" "700"
+"health" "900"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*7"
+"obj_loss" "10"
+"obj_gain" "25"
+"obj_name" "Panther Tank"
+"obj_owner" "1"
+"dmg" "500"
+"mass" "1000"
+"health" "4000"
+"classname" "func_explosive_objective"
+}
+{
+"_color" "1 1 0"
+"origin" "-188 -1386 778"
+"light" "300"
+"classname" "light"
+}
+

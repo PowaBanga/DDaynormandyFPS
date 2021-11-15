@@ -1,0 +1,302 @@
+{
+"_sun_color" ".7 .7 1"
+"_sun_ambient" "20"
+"_sun_diffuse" "85"
+"message" "Soviet5bh\nMYNF\nBased oin Small town at night\nDesigned by shuft"
+"_sun" "moon-light"
+"_sun_light" "110"
+"_sun_angle" "313 -50"
+"sky" "night1dark"
+"classname" "worldspawn"
+}
+{
+"angle" "163"
+"origin" "220 -333 -89"
+"classname" "info_player_start"
+}
+{
+"nextmap" "doomtownbhv2"
+"kills" "50"
+"count" "2"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russians"
+"origin" "-749 643 -23"
+"classname" "info_team_start"
+}
+{
+"nextmap" "doomtownbhv2"
+"kills" "50"
+"count" "2"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Germans"
+"origin" "12 79 -68"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "357"
+"origin" "-1156 595 -123"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "357"
+"origin" "-1154.75 386.75 -123"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "357"
+"origin" "-1154.75 205.75 -123"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "-1140.05 -384.05 -123"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"obj_owner" "0"
+"origin" "-1053.05 -79.05 -80"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "113"
+"origin" "1367 -1066 -234"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "113"
+"origin" "1244 -1064.75 -234"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "113"
+"origin" "1089.4 -787.05 -99"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"obj_owner" "1"
+"origin" "968 623.95 -132"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"obj_owner" "1"
+"origin" "1312.3 538.75 -102.3"
+"classname" "info_reinforcements_start"
+}
+{
+"_color" "0 0.5 1"
+"style" "1"
+"light" "180"
+"origin" "465 379 199"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"style" "32"
+"targetname" "moon-light"
+"light" "240"
+"origin" "152 480 92"
+"classname" "light"
+}
+{
+"volume" ".5"
+"noise" "inland/dogs.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "1068 9 -112"
+"classname" "target_speaker"
+}
+{
+"volume" "0.3"
+"noise" "cherbourg/amb1.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "1046 547 9"
+"classname" "target_speaker"
+}
+{
+"_color" "1 1.0 0.8"
+"style" "1"
+"light" "180"
+"origin" "473 658 199"
+"classname" "light"
+}
+{
+"_color" "0 1 1"
+"_cone" "20"
+"style" "6"
+"light" "240"
+"origin" "1224 -144 -81"
+"classname" "light"
+}
+{
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "1084 -819 -172"
+"classname" "light"
+}
+{
+"volume" "0.3"
+"noise" "faf/wind.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-135 350 -112"
+"classname" "target_speaker"
+}
+{
+"volume" "0.3"
+"noise" "faf/wind.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-646 350 101"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "faf/bird9.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "-109 -331 -26"
+"classname" "target_speaker"
+}
+{
+"volume" "0.1"
+"noise" "faf/windr.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "394 138 9"
+"classname" "target_speaker"
+}
+{
+"volume" "0.3"
+"noise" "cherbourg/warwind.wav"
+"spawnflags" "5"
+"attenuation" "3"
+"origin" "1335 -560 -112"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/chopin.wav"
+"spawnflags" "1"
+"attenuation" "4"
+"origin" "312 385 220"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-565 -88 -102"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-561 -271 45"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "-493 13 131"
+"classname" "target_speaker"
+}
+{
+"_color" "0 1 1"
+"_cone" "20"
+"style" "1"
+"light" "240"
+"origin" "1058 481 -93"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"_cone" "20"
+"style" "6"
+"light" "240"
+"origin" "1080.5 285.90 -109"
+"classname" "light"
+}
+{
+"_color" "0 1 1"
+"_cone" "20"
+"style" "6"
+"light" "240"
+"origin" "-828 464 40"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"_cone" "20"
+"style" "6"
+"light" "240"
+"origin" "136 -236 -8"
+"classname" "light"
+}
+{
+"_color" "0 1 1"
+"_cone" "20"
+"style" "6"
+"light" "240"
+"origin" "776 36 -12"
+"classname" "light"
+}
+{
+"_color" "0 0.5 1"
+"_cone" "20"
+"style" "6"
+"light" "240"
+"origin" "48.20 213.7 -44"
+"classname" "light"
+}
+{
+"_color" "0 1 1"
+"_cone" "20"
+"style" "6"
+"light" "150"
+"origin" "1348 -684 -123"
+"classname" "light"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "269 29 -146"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "603 31 -156"
+"classname" "target_speaker"
+}
+{
+"volume" "0.01"
+"noise" "inland/drip1.wav"
+"spawnflags" "1"
+"attenuation" "3"
+"origin" "1064 114 -118.5"
+"classname" "target_speaker"
+}
+

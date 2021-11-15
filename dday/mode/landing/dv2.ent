@@ -1,0 +1,203 @@
+{
+"_sun_angle" "245 -45"
+"_sun_color" "3.4 3.4 3.3"
+"_sun_ambient" "50"
+"_sun_light" "200"
+"message" "Desert V2 Rocket By (*AAF*) Mark"
+"gravity" "800"
+"sky" "darkhollow256_"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "100"
+"mass" "20"
+"health" "300"
+"obj_loss" "25"
+"obj_gain" "25"
+"obj_name" "V2 contals"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"angle" "345"
+"origin" "87.8 291.2 -27.7"
+"classname" "info_player_start"
+}
+{
+"points" "50"
+"kills" "50"
+"count" "99"
+"dll" "gbr"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "-1987.5 -69.3 -64.7"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2029.0 -184.9 -60.1"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2107.8 -25.7 -51.5"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1999.1 -363.2 -22.9"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2142.2 -120.1 -71.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1970.5 -288.8 -88.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1944.8 -426.1 -68.6"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2210.8 -40 -77.2"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2019.2 -489.1 -74.4"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1953.4 71.5 -22.9"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1913.4 -194.5 -22.9"
+"classname" "info_medic_start"
+}
+{
+"skin" "dak"
+"kills" "100"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "440 -97.1 40"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "388.2 -161.8 -32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "111.5 -660.7 -31.5"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "17.2 -1329.9 -42.9"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "2.9 240.3 -22.9"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "391.4 -19.8 -60.1"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "308.9 -566.3 -22.9"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "263.2 -880.8 -22.9"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-171.6 -440.4 -28.6"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "25.7 17.2 -51.5"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "240.3 -1204.0 -22.9"
+"classname" "info_medic_start"
+}
+{
+"model" "*2"
+"message" "V2 Rocket"
+"dmg" "25"
+"health" "25"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "207.3 254.7 -90.4"
+"classname" "target_speaker"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"noise" "colpiron/engine2.wav"
+"origin" "321.0 -1366.8 -76.6"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"dmg" "200"
+"mass" "70"
+"health" "200"
+"spawnflags" "4"
+"classname" "func_explosive"
+}
+

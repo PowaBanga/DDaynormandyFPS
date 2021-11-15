@@ -1,0 +1,571 @@
+{
+"_sun_diffade" ".5"
+"message" "Valley of Death\nby Rab,d"
+"_sun_diffuse" "80"
+"_sun_color" "1 1 0.91"
+"_sun_angle" "45 -150"
+"_sun_ambient" "30"
+"_sun_light" "280"
+"sky" "promise"
+"classname" "worldspawn"
+}
+{
+"classname" "func_group"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "600 -1620 1016"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "152"
+"origin" "1140 -1304 1020"
+"classname" "info_special_start"
+}
+{
+"nextmap" "rmg6"
+"message" "Allies"
+"count" "1"
+"kills" "50"
+"dll" "usa"
+"obj_owner" "0"
+"origin" "188 1028 2"
+"classname" "info_team_start"
+}
+{
+"nextmap" "rmg6"
+"count" "0"
+"message" "Axis"
+"kills" "50"
+"dll" "grm"
+"obj_owner" "1"
+"origin" "188 1028 2"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2116 1165 -478"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "54"
+"origin" "-172 828 -158"
+"classname" "info_player_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "703 -1107 -169"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "90"
+"origin" "208 -1420 1016"
+"classname" "info_special_start"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*6"
+"target" "glass_break1"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"target" "glass_break2"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"target" "glass_break3"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"target" "glass_break4"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"target" "glass_break5"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"target" "glass_break6"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"target" "glass_break7"
+"health" "15"
+"classname" "func_explosive"
+}
+{
+"targetname" "glass_break3"
+"noise" "faf/break.wav"
+"origin" "387.2 -449.6 -135"
+"classname" "target_speaker"
+}
+{
+"targetname" "glass_break1"
+"noise" "faf/break.wav"
+"origin" "301.2 -389.5 -139"
+"classname" "target_speaker"
+}
+{
+"targetname" "glass_break5"
+"noise" "faf/break.wav"
+"origin" "301.2 -389.5 -33"
+"classname" "target_speaker"
+}
+{
+"targetname" "glass_break7"
+"noise" "faf/break.wav"
+"origin" "197.2 -420.6 -142"
+"classname" "target_speaker"
+}
+{
+"targetname" "glass_break6"
+"noise" "faf/break.wav"
+"origin" "164.2 -524.6 -34"
+"classname" "target_speaker"
+}
+{
+"targetname" "glass_break4"
+"noise" "faf/break.wav"
+"origin" "388.2 -449.6 -35"
+"classname" "target_speaker"
+}
+{
+"targetname" "glass_break2"
+"noise" "faf/break.wav"
+"origin" "197.3 -419.6 -32"
+"classname" "target_speaker"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*13"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"origin" "641 -584 -137"
+"speed" "120"
+"distance" "120"
+"classname" "func_door_rotating"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1844 2041 -290"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2632 1669 -458"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1760 1249 -474"
+"classname" "info_reinforcements_start"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*15"
+"spawnflags" "0"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*16"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*18"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*19"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*20"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*21"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*22"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*23"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*24"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*25"
+"spawnflags" "0"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*26"
+"spawnflags" "0"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*27"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*28"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*29"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*30"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*31"
+"classname" "func_wall"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"_color" "1 1 1"
+"light" "300"
+"origin" "768 -768 -104"
+"angle" "360"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "300"
+"origin" "368 -800 -112"
+"angle" "360"
+"classname" "light"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*32"
+"obj_owner" "0"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"model" "*33"
+"obj_owner" "1"
+"angle" "360"
+"classname" "spawn_protect"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*34"
+"origin" "441 271 -168"
+"team" "gun5"
+"angle" "90"
+"classname" "turret_base"
+}
+{
+"model" "*35"
+"target" "breach5"
+"classname" "turret_range"
+}
+{
+"stance" "1"
+"md2" "models/mapmodels/faf/mg42.md2"
+"fire_sound" "grm/mg42/fire.wav"
+"ammo_type" "bullet"
+"count" "1000"
+"team" "gun5"
+"target" "tip5"
+"angle" "90"
+"dmg" "50"
+"speed" "200"
+"targetname" "breach5"
+"origin" "441.55 272.1 -163.8"
+"classname" "turret_breach"
+}
+{
+"targetname" "tip5"
+"origin" "465.3 272.1 -164.3"
+"classname" "info_notnull"
+}
+{
+"target" "breach5"
+"angle" "0"
+"origin" "404.2 272.2 -167.5"
+"classname" "turret_driver"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"origin" "746 -996 -176"
+"classname" "weapon_panzerfaust"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-3020 1272 996"
+"classname" "info_special_start"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-2144 2032 988"
+"classname" "info_special_start"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-2068 760 976"
+"classname" "info_special_start"
+}
+{
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-1420 1240 1004"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-2656 1201 -454"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "32 1232 -180"
+"classname" "weapon_panzerfaust"
+}
+{
+"origin" "84 1232 -176"
+"classname" "ammo_rocketsl"
+}
+{
+"_color" "1 1 1"
+"light" "200"
+"origin" "284 -508 31"
+"angle" "360"
+"classname" "light"
+}
+

@@ -1,0 +1,102 @@
+{
+"-sun-angle" "10 -80"
+"-sun-color" ".9 .9 1"
+"-sun-diffuse" "300"
+"-sun-ambient" "140"
+"-sun-light" "350"
+"message" "Into East Prussia\nMr. YOur no fun"
+"sky" "blue"
+"classname" "worldspawn"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Russia"
+"nextmap" "soviet1"
+"origin" "-826 276 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-977 278 100"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-960.5 -176.9 100"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-990 597.7 7"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"nextmap" "soviet1"
+"origin" "-816 374 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "968 88 84"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "996.0 -458.0 84"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "982 708 -49"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-4 0 32"
+"classname" "info_player_start"
+}
+{
+"wait" "4"
+"target" "wind"
+"spawnflags" "1"
+"origin" "-169.7 19.8 -18"
+"classname" "func_timer"
+}
+{
+"noise" "inland/backwind"
+"attenuation" "4"
+"targetname" "wind"
+"origin" "-24.0 104 26"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+}
+

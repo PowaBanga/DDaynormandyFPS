@@ -1,0 +1,149 @@
+{
+"message" "OppositeHill By [54th]Trooper"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"points" "100"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "1152 160 128"
+"classname" "info_team_start"
+}
+{
+"points" "100"
+"kills" "100"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "1376 160 128"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "-3456 544 64"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "-2"
+"origin" "-1664 352 -288"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"message" "Axis H.Q."
+"health" "75"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*2"
+"dmg" "500"
+"mass" "500"
+"health" "500"
+"obj_gain" "25"
+"obj_name" "Ammo Box"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*3"
+"dmg" "100"
+"mass" "100"
+"health" "500"
+"obj_gain" "25"
+"obj_name" "Small Box"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*4"
+"dmg" "100"
+"mass" "500"
+"health" "600"
+"obj_gain" "50"
+"obj_name" "Ammo Box"
+"obj_owner" "0"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*5"
+"dmg" "1000"
+"mass" "500"
+"health" "500"
+"obj_gain" "25"
+"obj_name" "AMMO BOX"
+"obj_owner" "1"
+"classname" "func_explosive_objective"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-3456 768 128"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "1500"
+"origin" "-2464 448 480"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "1792 768 -672"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "608 -416 -672"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "90"
+"origin" "448 896 -672"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "89"
+"origin" "448 832 -672"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "1792 640 -672"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "864 -32 0"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "608 -480 -672"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "1792 864 -672"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "1568 768 -672"
+"classname" "info_medic_start"
+}
+

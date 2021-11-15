@@ -1,0 +1,207 @@
+{
+"_Sun_Angle" "10 -30"
+"_Sun_Color" ".5 .8 1"
+"_Sun_Diffuse" "125"
+"_Sun_Light" "190"
+"_Sun_Ambient" "150"
+"message" "St.Mary's Church\nMr. YOur no fun"
+"skyaxis" "180"
+"sky" "drksky"
+"classname" "worldspawn"
+}
+{
+"nextmap" "munf4"
+"kills" "50"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"origin" "99 209 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1307 462 194"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "174"
+"origin" "1122 -596 86"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "180"
+"origin" "-1313 -337 74"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "165"
+"origin" "1474 150 70"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-861 691 70"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "889 678 74"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "269 -252 86"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "112"
+"origin" "-1276 -548 85"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "164"
+"origin" "-235 -695 80"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "177"
+"origin" "72 -364 80"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "311"
+"origin" "-613 -58 80"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "114"
+"origin" "1339 636 70"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-9 354 70"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-1449 700 79"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "398 141 53"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "munf4"
+"kills" "50"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-767 572 96"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "1"
+"origin" "-1336.1 -64 -52.3"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "178"
+"origin" "-232 372 15"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "267"
+"origin" "424 -708 32"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "183"
+"origin" "-144 -300 -20"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "175"
+"origin" "-665 423 -53"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "2"
+"origin" "-880 69 -27"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-705 -609 -56"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "360"
+"origin" "-1310 397 37"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "360"
+"origin" "1375 -660 -28"
+"classname" "info_player_start"
+}
+{
+"targetname" "grm3"
+"spawnflags" "4"
+"volume" ".9"
+"noise" "june6/grm3"
+"attenuation" "4"
+"origin" "-414 58 -4"
+"classname" "target_speaker"
+}
+{
+"wait" "240"
+"spawnflags" "1"
+"target" "grm3"
+"origin" "-394 14 -4"
+"classname" "func_timer"
+}
+{
+"spawnflags" "4"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/grm2"
+"targetname" "grm2"
+"origin" "-444 142 -4"
+"classname" "target_speaker"
+}
+{
+"target" "grm2"
+"wait" "273"
+"spawnflags" "1"
+"origin" "-434 108 -4"
+"classname" "func_timer"
+}
+

@@ -1,0 +1,275 @@
+{
+"_sun_angle" "245 -65"
+"message" "Russian Ruins.              By: Vassili Zaitsev"
+"_sun_color" "0.000 0.396 0.467"
+"_sun_surface" "100"
+"gravity" "800"
+"sounds" "0"
+"_sun_difwait" "0"
+"_sun_diffuse" "0"
+"_sun_light" "170"
+"sky" "sr"
+"classname" "worldspawn"
+}
+{
+"origin" "-1312 -704 -976"
+"obj_owner" "0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-512 -448 -944"
+"classname" "info_player_start"
+}
+{
+"origin" "-1440 -240 -664"
+"points" "100"
+"kills" "65"
+"count" "99"
+"dll" "rus"
+"message" "Soviets"
+"obj_owner" "0"
+"classname" "info_team_start"
+}
+{
+"origin" "-1376 -240 -664"
+"points" "100"
+"kills" "65"
+"dll" "grm"
+"message" "Germans"
+"obj_owner" "1"
+"classname" "info_team_start"
+}
+{
+"origin" "-376 896 -992"
+"obj_owner" "1"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-384 -136 -904"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "240"
+"classname" "light"
+}
+{
+"origin" "-44 40 -884"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "200"
+"angle" "270"
+"classname" "light"
+}
+{
+"origin" "-44 168 -884"
+"_focus" "1"
+"_cone" "10"
+"_color" "0.984 0.745 0.259"
+"style" "3"
+"_angfade" "1"
+"_fade" "1"
+"light" "175"
+"angle" "270"
+"classname" "light"
+}
+{
+"origin" "-44 296 -884"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "200"
+"angle" "270"
+"classname" "light"
+}
+{
+"origin" "-136 912 -904"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "240"
+"classname" "light"
+}
+{
+"origin" "-456 -568 -904"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "240"
+"classname" "light"
+}
+{
+"origin" "96 864 -680"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "240"
+"classname" "light"
+}
+{
+"origin" "-64 864 -680"
+"_color" "0.984 0.745 0.259"
+"style" "1"
+"_angfade" "1"
+"_fade" "1"
+"light" "240"
+"classname" "light"
+}
+{
+"origin" "-448 592 -992"
+"obj_owner" "1"
+"classname" "info_officer_start"
+}
+{
+"origin" "16 736 -992"
+"obj_owner" "1"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-304 896 -992"
+"obj_owner" "1"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "128 736 -992"
+"obj_owner" "1"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-64 688 -848"
+"obj_owner" "1"
+"classname" "info_special_start"
+}
+{
+"origin" "144 912 -768"
+"obj_owner" "1"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-64 912 -768"
+"obj_owner" "1"
+"classname" "info_medic_start"
+}
+{
+"origin" "32 912 -768"
+"obj_owner" "1"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-1024 -704 -976"
+"classname" "info_sniper_start"
+}
+{
+"origin" "-1408 -192 -976"
+"classname" "info_medic_start"
+}
+{
+"origin" "-1472 -448 -976"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-864 -160 -864"
+"classname" "info_special_start"
+}
+{
+"origin" "-1024 -592 -976"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-1104 -224 -976"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-1280 -640 -976"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-1280 -256 -976"
+"classname" "info_officer_start"
+}
+{
+"origin" "-96 -272 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-128 -656 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-496 -448 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-880 -320 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-1296 -464 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"classname" "target_speaker"
+}
+{
+"origin" "112 384 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-416 160 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-240 720 -960"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "128 96 -720"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+{
+"origin" "-768 -640 -768"
+"volume" "1"
+"attenuation" "1"
+"noise" "ruins/battle1.wav"
+"spawnflags" "1"
+"classname" "target_speaker"
+}
+

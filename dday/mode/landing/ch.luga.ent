@@ -1,0 +1,427 @@
+{
+"message" "Luga River\nModificado por PoLaFio"
+"sky" "darkhollow256_"
+"classname" "worldspawn"
+}
+{
+"origin" "155 785 5"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"classname" "info_infantry_start"
+"angle" "45"
+"obj_owner" "0"
+"origin" "-742 -1165 29"
+}
+{
+"classname" "info_flamethrower_start"
+"angle" "135"
+"origin" "-893 -857 29"
+}
+{
+"classname" "info_special_start"
+"angle" "90"
+"obj_owner" "0"
+"origin" "-652 -1047 132"
+}
+{
+"classname" "info_engineer_start"
+"angle" "180"
+"obj_owner" "0"
+"origin" "690 -1031 27"
+}
+{
+"classname" "info_hgunner_start"
+"angle" "45"
+"origin" "-810 -884 27"
+"obj_owner" "0"
+}
+{
+"classname" "info_lgunner_start"
+"obj_owner" "0"
+"origin" "-392 -998 27"
+}
+{
+"classname" "info_medic_start"
+"angle" "180"
+"origin" "670 -977 27"
+"obj_owner" "0"
+}
+{
+"classname" "info_officer_start"
+"obj_owner" "0"
+"angle" "180"
+"origin" "1521 -1027 246"
+}
+{
+"classname" "info_sniper_start"
+"angle" "0"
+"obj_owner" "0"
+"origin" "1557 -1028 246"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+"dmg" "15"
+}
+{
+"classname" "info_player_start"
+"origin" "2374 346 345"
+"angle" "90"
+}
+{
+"classname" "info_reinforcements_start"
+"obj_owner" "1"
+"delay" "10"
+"origin" "1404 1074 150"
+"angle" "270"
+}
+{
+"classname" "info_team_start"
+"message" "Allies"
+"obj_owner" "0"
+"dll" "usa"
+"count" "0"
+"kills" "50"
+"origin" "-832 -973 24"
+}
+{
+"origin" "1182 966 150"
+"kills" "50"
+"count" "0"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Germans"
+"classname" "info_team_start"
+}
+{
+"model" "*3"
+"dmg" "15"
+"classname" "trigger_hurt"
+}
+{
+"targetname" "t"
+"dmg" "150"
+"delay" "0"
+"origin" "-267 429 19"
+"classname" "target_explosion"
+}
+{
+"model" "*4"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t"
+"classname" "func_button"
+}
+{
+"classname" "target_explosion"
+"origin" "-322 793 19"
+"delay" "0"
+"dmg" "150"
+"targetname" "t1"
+}
+{
+"model" "*5"
+"classname" "func_button"
+"target" "t1"
+"angle" "-2"
+"wait" "15"
+"lip" "-2"
+"speed" "100"
+"sounds" "1"
+}
+{
+"targetname" "t2"
+"dmg" "150"
+"delay" "0"
+"origin" "-30 682 19"
+"classname" "target_explosion"
+}
+{
+"model" "*6"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t2"
+"classname" "func_button"
+}
+{
+"classname" "target_explosion"
+"origin" "562 -589 19"
+"delay" "0"
+"dmg" "150"
+"targetname" "t3"
+}
+{
+"model" "*7"
+"classname" "func_button"
+"target" "t3"
+"angle" "-2"
+"wait" "15"
+"lip" "-2"
+"speed" "100"
+"sounds" "1"
+}
+{
+"targetname" "t4"
+"dmg" "150"
+"delay" "0"
+"origin" "266 -787 19"
+"classname" "target_explosion"
+}
+{
+"model" "*8"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t4"
+"classname" "func_button"
+}
+{
+"classname" "target_explosion"
+"origin" "422 -452 19"
+"delay" "0"
+"dmg" "150"
+"targetname" "t5"
+}
+{
+"model" "*9"
+"classname" "func_button"
+"target" "t5"
+"angle" "-2"
+"wait" "15"
+"lip" "-2"
+"speed" "100"
+"sounds" "1"
+}
+{
+"targetname" "t6"
+"dmg" "150"
+"delay" "0"
+"origin" "-178 -916 19"
+"classname" "target_explosion"
+}
+{
+"model" "*10"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"angle" "-2"
+"target" "t6"
+"classname" "func_button"
+}
+{
+"classname" "light"
+"origin" "-754 -995 39"
+"light" "200"
+"_color" "1 1 0.5"
+}
+{
+"_color" "1 1 0.5"
+"light" "300"
+"origin" "1197 -837 369"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "1233 620 170"
+"light" "200"
+"_color" "1 1 0.5"
+}
+{
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "897 736 170"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "1226 1054 170"
+"light" "200"
+"_color" "1 1 0.5"
+}
+{
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "25 397 22"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "1535 -957 263"
+"light" "50"
+"_color" "1 1 0.5"
+}
+{
+"classname" "light"
+"origin" "-976 952 145"
+"light" "300"
+"_color" "1 1 0.5"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"classname" "func_wall"
+}
+{
+"classname" "light"
+"origin" "2382 616 355"
+"light" "200"
+"_color" "1 1 0.5"
+}
+{
+"model" "*13"
+"classname" "func_wall"
+}
+{
+"model" "*14"
+"classname" "func_wall"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "35 592 5"
+}
+{
+"origin" "-284 900 5"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "284 365 7"
+}
+{
+"origin" "-131 -1034 5"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "-1028 -1201 5"
+}
+{
+"origin" "-1159 -1023 5"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "-1165 -1233 5"
+}
+{
+"origin" "518 -1148 5"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "1079 -445 5"
+}
+{
+"origin" "1394 -966 226"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "1650 -1003 226"
+}
+{
+"origin" "1069 -886 226"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "1170 -1029 226"
+}
+{
+"origin" "1171 -1030 226"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "905 -1026 226"
+}
+{
+"origin" "-1108 319 5"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "950 990 130"
+}
+{
+"origin" "876 872 130"
+"model" "models/mapmodels/faf/weeds.md2"
+"classname" "misc_md2"
+}
+{
+"classname" "misc_md2"
+"model" "models/mapmodels/faf/weeds.md2"
+"origin" "1353 763 130"
+}
+{
+"classname" "light"
+"origin" "-519 837 22"
+"light" "200"
+"_color" "1 1 0.5"
+}
+{
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "57 1173 22"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "-458 -707 175"
+"classname" "light"
+}
+{
+"_color" "1 1 0.5"
+"light" "200"
+"origin" "-1354 -539 39"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "1601 349 22"
+"light" "200"
+"_color" "1 1 0.5"
+}
+{
+"_color" "1 1 0.5"
+"light" "150"
+"origin" "257 -67 22"
+"classname" "light"
+}
+

@@ -1,0 +1,359 @@
+{
+"_sun_ambient" "30"
+"_sun_light" "75"
+"_sun_diffuse" "60"
+"_sun_angle" "85 -30"
+"_sun_color" "..8 .8 .9"
+"message" "STALINGRAD\nMr. YOur no fun"
+"sky" "inland5"
+"classname" "worldspawn"
+}
+{
+"nextmap" "soviet7bh"
+"kills" "200"
+"count" "99"
+"dll" "rus"
+"obj_owner" "0"
+"message" "Soviet"
+"origin" "-224 263 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-682.50 741.50 17"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-467.80 731.2 17"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "168 722 18"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"angle" "360"
+"origin" "-263.30 708.2 18"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"obj_owner" "0"
+"origin" "862 699 57"
+"classname" "info_reinforcements_start"
+}
+{
+"nextmap" "soviet7bh"
+"kills" "200"
+"count" "99"
+"dll" "grm"
+"obj_owner" "1"
+"message" "Axis"
+"origin" "-88 255 64"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"angle" "1"
+"origin" "-975 -442 28"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "-355 -572 16"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "17.5 -724.5 35.5"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "270"
+"origin" "-897.8 -40.9 -134"
+"classname" "info_player_start"
+}
+{
+"light" "300"
+"origin" "-384 -611 102"
+"classname" "light"
+}
+{
+"model" "*1"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*3"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*4"
+"mass" "75"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"health" "2000"
+"spawnflags" "0"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"target" "rubble2"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*17"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"spawnflags" "1"
+"targetname" "rubble2"
+"classname" "func_wall"
+}
+{
+"model" "*19"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*20"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*21"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*22"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*23"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*24"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*25"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*26"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*27"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*28"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*29"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*30"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*31"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*32"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*33"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*34"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*35"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*36"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*37"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*38"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*39"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*40"
+"spawnflags" "1"
+"targetname" "debris2"
+"classname" "func_wall"
+}
+{
+"model" "*41"
+"target" "debris2"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*42"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*43"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"targetname" "combat2"
+"volume" ".8"
+"attenuation" "4"
+"noise" "june6/combata2"
+"origin" "325 -22 161"
+"classname" "target_speaker"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "3"
+"wait" "14"
+"spawnflags" "17"
+"target" "combat2"
+"origin" "-329 26.3 -154"
+"classname" "func_timer"
+}
+{
+"pausetime" "0"
+"delay" "0"
+"random" "4"
+"wait" "36"
+"spawnflags" "17"
+"target" "plane1"
+"origin" "-408 260.3 308"
+"classname" "func_timer"
+}
+{
+"volume" "1"
+"spawnflags" "4"
+"targetname" "plane1"
+"noise" "june6/battle4"
+"attenuation" "4"
+"origin" "276 292.2 177"
+"classname" "target_speaker"
+}
+{
+"model" "*44"
+"mass" "75"
+"health" "2000"
+"classname" "func_explosive"
+}
+{
+"model" "*45"
+"mass" "75"
+"health" "2000"
+"classname" "func_explosive"
+}
+

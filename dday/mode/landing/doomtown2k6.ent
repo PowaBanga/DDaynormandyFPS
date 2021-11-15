@@ -1,0 +1,482 @@
+{
+"message" "doomtown2k6--by--sprsnprchkn"
+"_sun_color" "128 128 0"
+"_sun_diffade" "1"
+"_sun4_angle" "0 -40"
+"_sun4_ambient" "40"
+"_sun4_light" "400"
+"_sun3_ambient" "40"
+"_sun2_ambient" "40"
+"_sun3_angle" "225 -40"
+"_sun3_light" "400"
+"_sun2_angle" "135 -40"
+"_sun2_light" "300"
+"_sun1_ambient" "40"
+"_sun1_diffuse" "25"
+"_sun1_angle" "315 -40"
+"_sun1_light" "400"
+"sky" "sr"
+"_ambient" "45 45 30"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "615.72 -855.91 82.10"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"origin" "-6 605 -32"
+"target" "d1"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d1"
+"volume" "1"
+"attenuation" "3"
+"origin" "12.36 586.96 -26.95"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"origin" "-7 -53 -32"
+"targetname" "door2"
+"target" "d2"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d2"
+"volume" "1"
+"attenuation" "3"
+"origin" "11.80 -72.02 -26.95"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"target" "door2"
+"wait" "4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"origin" "-212 93 191"
+"target" "d3"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d3"
+"volume" "1"
+"attenuation" "3"
+"origin" "-193.60 112.57 197.04"
+"classname" "target_speaker"
+}
+{
+"model" "*5"
+"origin" "-212 93 383"
+"target" "d4"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d4"
+"volume" "1"
+"attenuation" "3"
+"origin" "-193.6 112.57 389.04"
+"classname" "target_speaker"
+}
+{
+"model" "*6"
+"origin" "506 -2244 -32"
+"target" "d5"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d5"
+"volume" "1"
+"attenuation" "3"
+"origin" "487.86 -2226.25 -26.65"
+"classname" "target_speaker"
+}
+{
+"model" "*7"
+"origin" "1136 -2344 -32"
+"target" "d5b"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d5b"
+"volume" "1"
+"attenuation" "3"
+"origin" "1117.93 -2326.14 -26.65"
+"classname" "target_speaker"
+}
+{
+"model" "*8"
+"origin" "1037 -2344 343"
+"target" "d5c"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d5c"
+"volume" "1"
+"attenuation" "3"
+"origin" "1018.91 -2326.14 348.54"
+"classname" "target_speaker"
+}
+{
+"model" "*9"
+"origin" "508 -1739 -32"
+"targetname" "door3"
+"target" "d6"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d6"
+"volume" "1"
+"attenuation" "3"
+"origin" "489.86 -1720.86 -26.65"
+"classname" "target_speaker"
+}
+{
+"model" "*10"
+"target" "door3"
+"wait" "4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"origin" "-49 -894 -37"
+"target" "d7"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d7"
+"volume" "1"
+"attenuation" "3"
+"origin" "-30.68 -875.84 -31.57"
+"classname" "target_speaker"
+}
+{
+"model" "*12"
+"origin" "-114 -756 283"
+"target" "d8"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d8"
+"volume" "1"
+"attenuation" "3"
+"origin" "-95.20 -774.95 288.49"
+"classname" "target_speaker"
+}
+{
+"model" "*13"
+"origin" "-118 -484 283"
+"target" "d9"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d9"
+"volume" "1"
+"attenuation" "3"
+"origin" "-99.53 -502.69 288.49"
+"classname" "target_speaker"
+}
+{
+"model" "*14"
+"origin" "-118 -484 -32"
+"target" "d10"
+"spawnflags" "2"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"wait" "3"
+"spawnflags" "0"
+"noise" "chicken/wooden03.wav"
+"targetname" "d10"
+"volume" "1"
+"attenuation" "3"
+"origin" "-99.56 -502.63 -26.74"
+"classname" "target_speaker"
+}
+{
+"_color" "1 1 0"
+"light" "300"
+"origin" "633.06 221.98 118.74"
+"classname" "light"
+}
+{
+"_color" "1 1 0"
+"light" "300"
+"origin" "1203.71 -840.51 -15.48"
+"classname" "light"
+}
+{
+"_color" "1 1 0"
+"light" "300"
+"origin" "986.04 -2060.33 -80.25"
+"classname" "light"
+}
+{
+"_color" "1 1 0"
+"light" "300"
+"origin" "30.70 -1463.42 -80.25"
+"classname" "light"
+}
+{
+"kills" "50"
+"message" "Axis"
+"nextmap" "doomtown2k6"
+"count" "1"
+"dll" "grm"
+"obj_owner" "1"
+"angle" "360"
+"origin" "180.18 750.03 37.85"
+"classname" "info_team_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-54.03 783.89 -48.35"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "313.23 789.88 -48.35"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "1"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "776.26 776.26 -48.35"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "368.75 -2389.53 -47.77"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "-60.04 -2181.55 -47.77"
+"classname" "info_reinforcements_start"
+}
+{
+"obj_owner" "0"
+"mdlskin" "players/usa/class_infantry.pcx"
+"mdl" "players/usa/tris.md2"
+"angle" "360"
+"origin" "1180.84 -2481.76 -47.77"
+"classname" "info_reinforcements_start"
+}
+{
+"kills" "50"
+"message" "Russia"
+"nextmap" "doomtown2k6"
+"count" "1"
+"dll" "rus"
+"obj_owner" "0"
+"angle" "360"
+"origin" "451.25 -2553.97 -57.35"
+"classname" "info_team_start"
+}
+{
+"model" "*15"
+"noise" "/chicken/subway.wav"
+"pathtarget" "p1"
+"targetname" "vator1"
+"spawnflags" "2"
+"classname" "func_train"
+}
+{
+"targetname" "p1"
+"origin" "218.84 413.81 -65.65"
+"classname" "path_corner"
+}
+{
+"model" "*16"
+"pathtarget" "p2"
+"sounds" "1"
+"angle" "270"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"target" "vator1"
+"targetname" "elevator"
+"origin" "247.89 489.39 248.42"
+"classname" "trigger_elevator"
+}
+{
+"model" "*17"
+"pathtarget" "p3"
+"sounds" "1"
+"angle" "90"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*18"
+"pathtarget" "p1"
+"sounds" "1"
+"angle" "90"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*19"
+"pathtarget" "p2"
+"sounds" "1"
+"angle" "90"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*20"
+"pathtarget" "p1"
+"sounds" "1"
+"angle" "90"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*21"
+"pathtarget" "p1"
+"sounds" "1"
+"angle" "270"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"pathtarget" "p3"
+"sounds" "1"
+"angle" "270"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*23"
+"pathtarget" "p3"
+"sounds" "1"
+"angle" "90"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*24"
+"pathtarget" "p2"
+"sounds" "1"
+"angle" "90"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"targetname" "p2"
+"origin" "219.04 413.98 163.61"
+"classname" "path_corner"
+}
+{
+"targetname" "p3"
+"origin" "218.29 413.73 351.58"
+"classname" "path_corner"
+}
+{
+"model" "*25"
+"sounds" "1"
+"angle" "181"
+"classname" "func_door"
+}
+{
+"model" "*26"
+"sounds" "1"
+"angle" "181"
+"classname" "func_door"
+}
+{
+"model" "*27"
+"sounds" "1"
+"angle" "181"
+"classname" "func_door"
+}
+

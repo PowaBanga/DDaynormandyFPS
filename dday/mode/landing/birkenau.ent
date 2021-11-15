@@ -1,0 +1,1051 @@
+{
+"message" "Birkenau      By Psyconutt[TQM]"
+"sky" "Forest"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"Target" "boom"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*2"
+"Target" "rboom"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"targetname" "rboom"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "world/brkglas"
+"origin" "870 -875 -414"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"Target" "rboom1"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "rboom1"
+"origin" "1250 -865 -370"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "rboom2"
+"origin" "1624 -881 -370"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "rboom3"
+"origin" "2001 -883 -370"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "rboom4"
+"origin" "2308 -886 -370"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "rboom5"
+"origin" "2599 -875 -370"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "back1"
+"origin" "-1667 -479 -450"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "back2"
+"origin" "-1352 -479 -450"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "back3"
+"origin" "-1064 -498 -418"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "back4"
+"origin" "-792 -501 -413"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "back5"
+"origin" "-512 -506 -418"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"attenuation" "2"
+"volume" "1.0"
+"targetname" "back6"
+"origin" "-221 -506 -409"
+"classname" "target_speaker"
+}
+{
+"model" "*4"
+"Target" "boom2"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*5"
+"Target" "back2"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*6"
+"Target" "back3"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*7"
+"Target" "back4"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*8"
+"Target" "back5"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*9"
+"Target" "rboom2"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*10"
+"Target" "rboom3"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*11"
+"Target" "rboom4"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*12"
+"Target" "boom3"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*13"
+"Target" "rboom5"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*14"
+"Target" "boom4"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*15"
+"Target" "boom4"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*16"
+"Target" "boom5"
+"spawnflags" "0"
+"dmg" "5"
+"mass" "400"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"targetname" "boom"
+"spawnflags" "0"
+"volume" "1.0"
+"attenuation" "2"
+"noise" "world/brkglas"
+"origin" "-1619 -865 -410"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"targetname" "boom2"
+"volume" "1.0"
+"attenuation" "2"
+"origin" "-1314 -867 -418"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "0"
+"noise" "world/brkglas"
+"targetname" "boom3"
+"volume" "1.0"
+"attenuation" "2"
+"origin" "-1026 -859 -418"
+"classname" "target_speaker"
+}
+{
+"attenuation" "2"
+"noise" "world/brkglas"
+"volume" "1.0"
+"targetname" "boom4"
+"origin" "-765 -859 -418"
+"classname" "target_speaker"
+}
+{
+"targetname" "boom5"
+"volume" "1.0"
+"noise" "world/brkglas"
+"attenuation" "2"
+"origin" "-466 -862 -418"
+"classname" "target_speaker"
+}
+{
+"noise" "world/brkglas"
+"targetname" "boom6"
+"volume" "1.0"
+"attenuation" "2"
+"origin" "-199 -862 -418"
+"classname" "target_speaker"
+}
+{
+"model" "*17"
+"Target" "tower1"
+"dmg" "10"
+"mass" "500"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"model" "*18"
+"Target" "tower1"
+"dmg" "10"
+"mass" "500"
+"health" "20"
+"classname" "func_explosive"
+}
+{
+"volume" "1.0"
+"attenuation" "2"
+"noise" "world/brkglas"
+"targetname" "tower1"
+"origin" "241 -1063 285"
+"classname" "target_speaker"
+}
+{
+"model" "*19"
+"origin" "2444 -507 -448"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*20"
+"origin" "-1490 -496 -445"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*21"
+"origin" "522 -839 -468"
+"spawnflags" "2"
+"wait" "-1"
+"targetname" "gates"
+"message" "Find the switch to open gates"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*22"
+"origin" "79 -839 -483"
+"wait" "-1"
+"targetname" "gates"
+"message" "Find the switch to open gates"
+"spawnflags" "0"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "gates"
+"noise" "pn/gates"
+"origin" "368 -788 -524"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "gates"
+"noise" "pn/gates"
+"origin" "932 -640 -422"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "gates"
+"noise" "pn/gates"
+"origin" "2104 -688 -438"
+"classname" "target_speaker"
+}
+{
+"noise" "pn/fire"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "2"
+"targetname" "fire"
+"origin" "1556 -60 -552"
+"classname" "target_speaker"
+}
+{
+"noise" "pn/fire"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "2"
+"targetname" "fire"
+"origin" "1356 -88 -544"
+"classname" "target_speaker"
+}
+{
+"noise" "pn/fire"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "2"
+"targetname" "fire"
+"origin" "1820 -160 -584"
+"classname" "target_speaker"
+}
+{
+"noise" "pn/fire"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "2"
+"targetname" "fire"
+"origin" "1148 -140 -584"
+"classname" "target_speaker"
+}
+{
+"noise" "pn/fire"
+"spawnflags" "4"
+"volume" "1"
+"attenuation" "2"
+"targetname" "fire"
+"origin" "1564 -252 -576"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "gates"
+"noise" "pn/gates"
+"origin" "-228 -424 -564"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"attenuation" "2"
+"targetname" "gates"
+"noise" "pn/gates"
+"origin" "164 -816 -422"
+"classname" "target_speaker"
+}
+{
+"targetname" "door2"
+"volume" "1"
+"noise" "pn/dopen"
+"attenuation" "2"
+"origin" "1158 -617 -474"
+"classname" "target_speaker"
+}
+{
+"targetname" "door2"
+"volume" "1"
+"noise" "pn/dopen"
+"attenuation" "2"
+"origin" "1002 -614 -458"
+"classname" "target_speaker"
+}
+{
+"style" "10"
+"light" "200"
+"origin" "781 -813 -447"
+"classname" "light"
+}
+{
+"model" "*23"
+"message" "Alies have Gained entry to Birkenau"
+"dmg" "5"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*24"
+"message" "Main Tower has been Taken over"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*25"
+"target" "axisspawn2"
+"dmg" "0"
+"classname" "objective_touch"
+}
+{
+"model" "*26"
+"target" "sound"
+"message" "Right barn has been taken over"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*27"
+"message" "Left barn has been taken over"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"model" "*28"
+"classname" "func_wall"
+}
+{
+"model" "*29"
+"origin" "1406 8 -559"
+"target" "fire"
+"sounds" "1"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*30"
+"origin" "1692 9 -563"
+"target" "fire"
+"sounds" "1"
+"spawnflags" "0"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*31"
+"classname" "func_wall"
+}
+{
+"model" "*32"
+"classname" "func_wall"
+}
+{
+"model" "*33"
+"classname" "func_wall"
+}
+{
+"model" "*34"
+"classname" "func_wall"
+}
+{
+"model" "*35"
+"classname" "func_wall"
+}
+{
+"model" "*36"
+"classname" "func_wall"
+}
+{
+"model" "*37"
+"classname" "func_wall"
+}
+{
+"model" "*38"
+"classname" "func_wall"
+}
+{
+"model" "*39"
+"classname" "func_wall"
+}
+{
+"model" "*40"
+"classname" "func_wall"
+}
+{
+"model" "*41"
+"classname" "func_wall"
+}
+{
+"model" "*42"
+"classname" "func_wall"
+}
+{
+"model" "*43"
+"origin" "-1250 8 -553"
+"sounds" "1"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*44"
+"origin" "1822 -652 -469"
+"targetname" "axisspawn2"
+"sounds" "1"
+"spawnflags" "0"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*45"
+"origin" "1822 -716 -469"
+"targetname" "axisspawn1"
+"sounds" "1"
+"spawnflags" "2"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*46"
+"origin" "-964 9 -557"
+"sounds" "1"
+"spawnflags" "0"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*47"
+"classname" "func_wall"
+}
+{
+"model" "*48"
+"classname" "func_wall"
+}
+{
+"model" "*49"
+"classname" "func_wall"
+}
+{
+"light" "900"
+"origin" "1403 0 -300"
+"classname" "light"
+}
+{
+"light" "900"
+"origin" "-760 -80 -246"
+"classname" "light"
+}
+{
+"light" "900"
+"origin" "-1023 -830 -261"
+"classname" "light"
+}
+{
+"light" "900"
+"origin" "1580 -705 -318"
+"classname" "light"
+}
+{
+"model" "*50"
+"origin" "1067 -634 -469"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*51"
+"origin" "1065 -812 -468"
+"wait" "-1"
+"targetname" "radioroom"
+"message" "Radio room opened elswhere"
+"sounds" "1"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*52"
+"wait" "-1"
+"message" "RADIO ROOM IS NOW UNLOCKED"
+"sounds" "1"
+"target" "radioroom"
+"classname" "func_button"
+}
+{
+"model" "*53"
+"obj_name" "Guard Control switch"
+"obj_loss" "5"
+"dmg" "10"
+"obj_gain" "10"
+"obj_owner" "1"
+"target" "guard"
+"mass" "800"
+"health" "500"
+"spawnflags" "0"
+"classname" "func_explosive_objective"
+}
+{
+"noise" "dday3/openlock"
+"volume" "1.0"
+"attenuation" "2"
+"targetname" "console"
+"origin" "635 -604 -453"
+"classname" "target_speaker"
+}
+{
+"model" "*54"
+"origin" "-238 -306 -564"
+"spawnflags" "32"
+"targetname" "guard"
+"sounds" "pn/dopen"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*55"
+"target" "gates"
+"message" "Front Gate is Now Open"
+"sounds" "1"
+"wait" "-1"
+"angle" "184"
+"classname" "func_button"
+}
+{
+"model" "*56"
+"message" "Main Gate"
+"dmg" "0"
+"health" "10"
+"obj_owner" "1"
+"classname" "objective_touch"
+}
+{
+"light" "100"
+"origin" "-195 -409 -507"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "-55 926 -255"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "2355 -43 -310"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "1207 555 -302"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "-1098 -109 -290"
+"classname" "light"
+}
+{
+"style" "10"
+"light" "450"
+"origin" "323 -635 292"
+"classname" "light"
+}
+{
+"style" "10"
+"light" "400"
+"origin" "-1472 -676 -302"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"origin" "-393 -696 -333"
+"classname" "light"
+}
+{
+"style" "10"
+"light" "400"
+"origin" "1248 -665 -387"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"origin" "2399 -671 -410"
+"classname" "light"
+}
+{
+"style" "10"
+"light" "400"
+"origin" "803 -635 -474"
+"classname" "light"
+}
+{
+"obj_owner" "0"
+"angle" "30"
+"origin" "2709.8 -942 -556"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "270"
+"origin" "2712.7 -993.7 -557.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "0"
+"angle" "162"
+"origin" "1855.1 -695.2 563.3"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "0"
+"angle" "120"
+"origin" "2655.6 -995.3 -552"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "0"
+"angle" "60"
+"origin" "2011.5 -1021.3 -554.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "0"
+"angle" "75"
+"origin" "2036.9 -993.8 -552.5"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "0"
+"angle" "139"
+"origin" "2016.4 -965.1 -550"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "0"
+"angle" "105"
+"origin" "1978.7 -995.4 -557.3"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "0"
+"angle" "271"
+"origin" "1972.7 -969.4 -552.3"
+"classname" "info_officer_start"
+}
+{
+"obj_owner" "1"
+"angle" "90"
+"origin" "1557.7 -750.8 -468.7"
+"classname" "info_lgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "165"
+"origin" "1532.4 -749.1 -477"
+"classname" "info_hgunner_start"
+}
+{
+"obj_owner" "1"
+"angle" "270"
+"origin" "-1591.4 516.7 -118"
+"classname" "info_special_start"
+}
+{
+"obj_owner" "1"
+"angle" "60"
+"origin" "1490.2 -752.5 -472"
+"classname" "info_engineer_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1467.6 -751.7 -473.3"
+"classname" "info_medic_start"
+}
+{
+"obj_owner" "1"
+"angle" "105"
+"origin" "1443.9 -753.7 -473"
+"classname" "info_sniper_start"
+}
+{
+"obj_owner" "1"
+"angle" "180"
+"origin" "1415.4 -753.7 -478.7"
+"classname" "info_flamethrower_start"
+}
+{
+"obj_owner" "1"
+"angle" "285"
+"origin" "1384.5 -749.1 -478.7"
+"classname" "info_infantry_start"
+}
+{
+"obj_owner" "1"
+"angle" "255"
+"origin" "1363.6 -753.3 -471.7"
+"classname" "info_officer_start"
+}
+{
+"Points" "100"
+"kills" "50"
+"nextmap" "dday3"
+"count" "99"
+"dll" "usa"
+"obj_owner" "0"
+"message" "Allies"
+"angle" "360"
+"origin" "1933.5 -1385.2 -478.3"
+"classname" "info_team_start"
+}
+{
+"points" "50"
+"kills" "35"
+"nextmap" "dday1"
+"dll" "grm"
+"obj_owner" "1"
+"count" "99"
+"message" "Axis"
+"origin" "1985.3 -1384.6 -476.5"
+"classname" "info_team_start"
+}
+{
+"angle" "202"
+"origin" "1358 112 272"
+"classname" "info_player_start"
+}
+{
+"model" "*57"
+"sounds" "1"
+"target" "axisspawn1"
+"classname" "func_button"
+}
+{
+"style" "10"
+"light" "350"
+"origin" "1668 -796 -418"
+"classname" "light"
+}
+{
+"model" "*58"
+"obj_name" "Crematorium Furnace"
+"obj_loss" "0"
+"obj_gain" "15"
+"obj_owner" "1"
+"dmg" "70"
+"mass" "800"
+"health" "1200"
+"classname" "func_explosive_objective"
+}
+{
+"model" "*59"
+"obj_name" "Comunications equipment"
+"obj_loss" "0"
+"obj_gain" "10"
+"obj_owner" "1"
+"dmg" "20"
+"mass" "400"
+"health" "500"
+"classname" "func_explosive_objective"
+}
+{
+"light" "800"
+"origin" "322 18 -456"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "-1198 -1270 -483"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "2638 -1216 -505"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "250 -1082 313"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "286 -152 304"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1532 805 -548"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-440 408 -528"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1144 472 -528"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-1616 576 -392"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-376 -1268 -456"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "2516 764 -464"
+"classname" "light"
+}
+{
+"light" "800"
+"origin" "823 -1154 -505"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "143 1086 -484"
+"classname" "light"
+}
+{
+"targetname" "sound"
+"noise" "pn/dscrm1"
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"origin" "1565 894 -579"
+"classname" "target_speaker"
+}
+{
+"targetname" "sound"
+"noise" "pn/dscrm1"
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"origin" "1400 864 -422"
+"classname" "target_speaker"
+}
+{
+"targetname" "sound"
+"noise" "pn/dscrm1"
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"origin" "1724 780 -422"
+"classname" "target_speaker"
+}
+{
+"targetname" "sound"
+"noise" "pn/dscrm1"
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"origin" "1364 652 -422"
+"classname" "target_speaker"
+}
+{
+"targetname" "sound"
+"noise" "pn/dscrm1"
+"volume" "1.0"
+"attenuation" "2"
+"spawnflags" "1"
+"origin" "1572 260 -422"
+"classname" "target_speaker"
+}
+

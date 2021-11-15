@@ -1,0 +1,61 @@
+{
+"classname" "worldspawn"
+"angle" "-1"
+"sky" "inland5"
+"_sun_angle" "180 -45"
+"_sun_light" "180"
+"_sun_color" "1 1 .8"
+"_sun_diffuse" "250"
+"_sun_ambient" "23 22 25"
+"gravity" "800"
+"message" "Somewhere in France \nby h2"
+}
+{
+"origin" "1683 2056 90"
+"obj_owner" "1"
+"message" "axis"
+"dll" "grm"
+"kills" "50"
+"next_map" ""
+"classname" "info_team_start"
+}
+{
+"next_map" ""
+"origin" "1683 2058 61"
+"obj_owner" "1"
+"classname" "info_reinforcements_start"
+}
+{
+"angle" "180"
+"origin" "34 428 -44"
+"classname" "info_player_start"
+}
+{
+"origin" "62 -657 56"
+"next_map" ""
+"kills" "50"
+"dll" "usa"
+"message" "allies"
+"obj_owner" "0"
+"classname" "info_team_start"
+}
+{
+"origin" "60 -615 59"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*1"
+"target" "door1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"origin" "1614 1466 40"
+"spawnflags" "2"
+"classname" "func_door_rotating"
+"angle" "270"
+"distance" "90"
+"targetname" "door1"
+}
+

@@ -1,0 +1,362 @@
+{
+"_sun_vector" "270"
+"_sun_color" "0.816 0.816 0.733"
+"_sun_difwait" "0"
+"_sun_diffuse" "0"
+"message" "FEB! Created by [FEB]RAPHAL"
+"_sun_surface" "225"
+"_sun_ambient" "15"
+"_sun_light" "100"
+"gravity" "800"
+"sounds" "2"
+"sky" "grnplsnt"
+"angle" "270"
+"classname" "worldspawn"
+}
+{
+"origin" "-316 -464 152"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "900"
+"classname" "light"
+}
+{
+"origin" "56 -468 -80"
+"classname" "info_player_start"
+}
+{
+"origin" "-380 328 156"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "20"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-584 376 -136"
+"obj_owner" "1"
+"angles" "0 90 0"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-536 352 -136"
+"obj_owner" "1"
+"angles" "0 94 0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-300 168 -180"
+"obj_owner" "1"
+"angles" "0 95 0"
+"angle" "274"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-488 360 -136"
+"obj_owner" "1"
+"angles" "0 90 0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-496 308 -136"
+"obj_owner" "1"
+"angles" "0 97 0"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-544 300 -136"
+"obj_owner" "1"
+"angles" "0 94 0"
+"classname" "info_medic_start"
+}
+{
+"origin" "-588 300 -136"
+"obj_owner" "1"
+"angles" "0 90 0"
+"classname" "info_officer_start"
+}
+{
+"origin" "-484 448 -108"
+"count" "1"
+"points" "100"
+"kills" "150"
+"nextmap" "feb"
+"dll" "grm"
+"obj_owner" "1"
+"message" "AXIS"
+"classname" "info_team_start"
+}
+{
+"origin" "-496 -1012 -136"
+"obj_owner" "0"
+"angles" "0 257 0"
+"classname" "info_officer_start"
+}
+{
+"origin" "-376 -928 -136"
+"obj_owner" "0"
+"angles" "0 257 0"
+"classname" "info_medic_start"
+}
+{
+"origin" "-456 -928 -136"
+"obj_owner" "0"
+"angles" "0 257 0"
+"classname" "info_lgunner_start"
+}
+{
+"origin" "-520 -928 -136"
+"obj_owner" "0"
+"angles" "0 257 0"
+"classname" "info_infantry_start"
+}
+{
+"origin" "-396 -868 -136"
+"obj_owner" "0"
+"angles" "0 257 0"
+"classname" "info_hgunner_start"
+}
+{
+"origin" "-452 -868 -136"
+"obj_owner" "0"
+"angles" "0 257 0"
+"classname" "info_flamethrower_start"
+}
+{
+"origin" "-512 -868 -136"
+"classname" "info_engineer_start"
+}
+{
+"origin" "-452 -1048 -84"
+"count" "0"
+"points" "100"
+"kills" "100"
+"nextmap" "feb"
+"dll" "usa"
+"obj_owner" "0"
+"message" "ALIADOS"
+"classname" "info_team_start"
+}
+{
+"origin" "-324 -148 188"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "900"
+"classname" "light"
+}
+{
+"origin" "-312 -104 92"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "900"
+"classname" "light"
+}
+{
+"origin" "160 324 100"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "20"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "460 -16 152"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "20"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "552 344 164"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "20"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"model" "*1"
+"style" "0"
+"message" "Huhuhuhu"
+"dmg" "100"
+"mass" "450"
+"health" "650"
+"obj_loss" "50"
+"obj_gain" "50"
+"obj_name" "Destruir logo da FEB!"
+"obj_owner" "0"
+"_minlight" "0"
+"classname" "func_explosive_objective"
+}
+{
+"origin" "-300 -1132 156"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "900"
+"classname" "light"
+}
+{
+"origin" "232 -1000 156"
+"_color" "0.863 0.863 0.804"
+"_focus" "1"
+"_cone" "10"
+"style" "0"
+"_angfade" "1"
+"_fade" "1"
+"_falloff" "0"
+"light" "900"
+"classname" "light"
+}
+{
+"model" "*2"
+"style" "0"
+"_minlight" "0"
+"health" "0"
+"decel" "0"
+"accel" "0"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"target" "t1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"origin" "-280 -764 -143"
+"targetname" "t1"
+"dmg" "150"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"model" "*3"
+"style" "0"
+"_minlight" "0"
+"health" "0"
+"decel" "0"
+"accel" "0"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"target" "t2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"origin" "-8 -450 -143"
+"targetname" "t2"
+"dmg" "150"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"model" "*4"
+"style" "0"
+"_minlight" "0"
+"health" "0"
+"decel" "0"
+"accel" "0"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"target" "t3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"origin" "340 -108 -143"
+"targetname" "t3"
+"dmg" "150"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"model" "*5"
+"style" "0"
+"_minlight" "0"
+"health" "0"
+"decel" "0"
+"accel" "0"
+"sounds" "1"
+"speed" "100"
+"lip" "-2"
+"wait" "15"
+"target" "t4"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"origin" "520 -96 -143"
+"targetname" "t4"
+"dmg" "150"
+"delay" "0"
+"classname" "target_explosion"
+}
+{
+"origin" "500 -1000 -36"
+"obj_owner" "0"
+"classname" "info_reinforcements_start"
+}
+{
+"origin" "608 152 -60"
+"obj_owner" "1"
+"angle" "280"
+"classname" "info_reinforcements_start"
+}
+{
+"model" "*6"
+"style" "0"
+"_minlight" "0"
+"targetname" "truck"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"dmg" "50"
+"health" "50"
+"message" "Chegar no carro!"
+"obj_owner" "0"
+"angle" "360"
+"classname" "objective_touch"
+}
+
