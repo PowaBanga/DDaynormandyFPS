@@ -1,341 +1,0 @@
-------- FS_Init -------
-Current search path:
-./dday/pak7.pak (133 files)
-./dday/pak3.pak (157 files)
-./dday/pak1.pak (79 files)
-./dday/pak0.pak (924 files)
-./dday
-./dday/pak7.pak (133 files)
-./dday/pak3.pak (157 files)
-./dday/pak1.pak (79 files)
-./dday/pak0.pak (924 files)
-./dday
-2586 files in PAK files
------------------------
-Execing default.cfg
-Unknown command "+mlook"
-Execing config.cfg
-Execing autoexec.cfg
-Execing alias.txt
-------- S_Init -------
-Using SDL audio driver: pulseaudio
-sound sampling rate: 22050
-----------------------
-------- R_Init -------
-...enabling GL_EXT_compiled_vertex_array
-...enabling GL_ARB_multitexture (8 TMUs)
-...enabling GL_EXT_texture_filter_anisotropic (16 max)
-...enabling GL_ARB_vertex_buffer_object
-...enabling GL_ARB_fragment_program
-----------------------
-SDL mouse initialized.
-====== Q2PRO initialized ======
-
-q2pro r1616~bb8acb5, Nov 14 2021
-https://github.com/skullernet/q2pro
-
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: theater
-No .ent File for theater.bsp
-Loading map objective pic dday/pics/objectives/theater.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: theater
-AI: FAILED to load nodes file.
--------------------------------------
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-theater
-libpng: pics/i_health.png: iCCP: known incorrect sRGB profile
-Usage: connect <server> [34|35|36]
-Execing cfg/theater.cfg
-Dumped console text to condumps/theater.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: testvier2
-No .ent File for testvier2.bsp
-Loading map objective pic dday/pics/objectives/testvier2.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: testvier2
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-testvier2
-Usage: connect <server> [34|35|36]
-Execing cfg/testvier2.cfg
-Dumped console text to condumps/testvier2.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: terrain
-No .ent File for terrain.bsp
-Loading map objective pic dday/pics/objectives/terrain.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: terrain
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-German Terrain
-Designed by Afrow UK
-Compiled by Mac Sog 1
-Usage: connect <server> [34|35|36]
-Execing cfg/terrain.cfg
-Dumped console text to condumps/terrain.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: temple
-No .ent File for temple.bsp
-Loading map objective pic dday/pics/objectives/temple.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: temple
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Temple of NaN
-   By RHR-Mold
-Usage: connect <server> [34|35|36]
-Execing cfg/temple.cfg
-Dumped console text to condumps/temple.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tebessa_wall
-No .ent File for tebessa_wall.bsp
-Loading map objective pic dday/pics/objectives/tebessa_wall.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: tebessa_wall
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-City of Tebessa / Modificado por PoLaFio
-Usage: connect <server> [34|35|36]
-Execing cfg/tebessa_wall.cfg
-Dumped console text to condumps/tebessa_wall.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tebessa
-No .ent File for tebessa.bsp
-Loading map objective pic dday/pics/objectives/tebessa.pcx...done.
-mdlskin is not a field
-mdl is not a field
-mdlskin is not a field
-mdl is not a field
-0 entities inhibited
-0 teams with 0 entities
-server map: tebessa
-tebessa.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:269.
-       : added nodes:0.
-       : total nodes:269.
-       : loaded links:1021.
-       : added links:0.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-City of Tebessa
-modificated by: Booster Gold
-Usage: connect <server> [34|35|36]
-saBOTage connected.
-Franz connected.
-Dork connected.
-Lars connected.
-Eisenhower connected.
-Goebbels connected.
-Execing cfg/tebessa.cfg
-Dumped console text to condumps/tebessa.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tbridges
-No .ent File for tbridges.bsp
-Loading map objective pic dday/pics/objectives/tbridges.pcx...done.
-0 entities inhibited
-2 teams with 4 entities
-server map: tbridges
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Italy-1944
-The three free bridges
-by TanatoVago
-Usage: connect <server> [34|35|36]
-Execing cfg/tbridges.cfg
-Dumped console text to condumps/tbridges.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tambush
-No .ent File for tambush.bsp
-Loading map objective pic dday/pics/objectives/tambush.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: tambush
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Town Ambush : [SC]Krom
-Usage: connect <server> [34|35|36]
-Execing cfg/tambush.cfg
-Dumped console text to condumps/tambush.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sykorak
-No .ent File for sykorak.bsp
-Loading map objective pic dday/pics/objectives/sykorak.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: sykorak
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-sykorak 
-
-Ceskoslovensko, Ostrava, duben 1945 
-
- by Legstrong
-Usage: connect <server> [34|35|36]
-Execing cfg/sykorak.cfg
-Dumped console text to condumps/sykorak.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sword
-No .ent File for sword.bsp
-Loading map objective pic dday/pics/objectives/sword.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: sword
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Sword Beach : By [1RB]Quakeuser
-Usage: connect <server> [34|35|36]
-Execing cfg/sword.cfg

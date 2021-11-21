@@ -1,1021 +1,0 @@
-------- FS_Init -------
-Current search path:
-./dday/pak7.pak (133 files)
-./dday/pak3.pak (157 files)
-./dday/pak1.pak (79 files)
-./dday/pak0.pak (924 files)
-./dday
-./dday/pak7.pak (133 files)
-./dday/pak3.pak (157 files)
-./dday/pak1.pak (79 files)
-./dday/pak0.pak (924 files)
-./dday
-2586 files in PAK files
------------------------
-Execing default.cfg
-Unknown command "+mlook"
-Execing config.cfg
-Execing autoexec.cfg
-Execing alias.txt
-------- S_Init -------
-Using SDL audio driver: pulseaudio
-sound sampling rate: 22050
-----------------------
-------- R_Init -------
-...enabling GL_EXT_compiled_vertex_array
-...enabling GL_ARB_multitexture (8 TMUs)
-...enabling GL_EXT_texture_filter_anisotropic (16 max)
-...enabling GL_ARB_vertex_buffer_object
-...enabling GL_ARB_fragment_program
-----------------------
-SDL mouse initialized.
-====== Q2PRO initialized ======
-
-q2pro r1616~bb8acb5, Nov 14 2021
-https://github.com/skullernet/q2pro
-
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: theater
-No .ent File for theater.bsp
-Loading map objective pic dday/pics/objectives/theater.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: theater
-AI: FAILED to load nodes file.
--------------------------------------
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-theater
-libpng: pics/i_health.png: iCCP: known incorrect sRGB profile
-Usage: connect <server> [34|35|36]
-Execing cfg/theater.cfg
-Dumped console text to condumps/theater.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: testvier2
-No .ent File for testvier2.bsp
-Loading map objective pic dday/pics/objectives/testvier2.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: testvier2
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-testvier2
-Usage: connect <server> [34|35|36]
-Execing cfg/testvier2.cfg
-Dumped console text to condumps/testvier2.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: terrain
-No .ent File for terrain.bsp
-Loading map objective pic dday/pics/objectives/terrain.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: terrain
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-German Terrain
-Designed by Afrow UK
-Compiled by Mac Sog 1
-Usage: connect <server> [34|35|36]
-Execing cfg/terrain.cfg
-Dumped console text to condumps/terrain.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: temple
-No .ent File for temple.bsp
-Loading map objective pic dday/pics/objectives/temple.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: temple
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Temple of NaN
-   By RHR-Mold
-Usage: connect <server> [34|35|36]
-Execing cfg/temple.cfg
-Dumped console text to condumps/temple.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tebessa_wall
-No .ent File for tebessa_wall.bsp
-Loading map objective pic dday/pics/objectives/tebessa_wall.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: tebessa_wall
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-City of Tebessa / Modificado por PoLaFio
-Usage: connect <server> [34|35|36]
-Execing cfg/tebessa_wall.cfg
-Dumped console text to condumps/tebessa_wall.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tebessa
-No .ent File for tebessa.bsp
-Loading map objective pic dday/pics/objectives/tebessa.pcx...done.
-mdlskin is not a field
-mdl is not a field
-mdlskin is not a field
-mdl is not a field
-0 entities inhibited
-0 teams with 0 entities
-server map: tebessa
-tebessa.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:269.
-       : added nodes:0.
-       : total nodes:269.
-       : loaded links:1021.
-       : added links:0.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-City of Tebessa
-modificated by: Booster Gold
-Usage: connect <server> [34|35|36]
-saBOTage connected.
-Franz connected.
-Dork connected.
-Lars connected.
-Eisenhower connected.
-Goebbels connected.
-Execing cfg/tebessa.cfg
-Dumped console text to condumps/tebessa.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tbridges
-No .ent File for tbridges.bsp
-Loading map objective pic dday/pics/objectives/tbridges.pcx...done.
-0 entities inhibited
-2 teams with 4 entities
-server map: tbridges
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Italy-1944
-The three free bridges
-by TanatoVago
-Usage: connect <server> [34|35|36]
-Execing cfg/tbridges.cfg
-Dumped console text to condumps/tbridges.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tambush
-No .ent File for tambush.bsp
-Loading map objective pic dday/pics/objectives/tambush.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: tambush
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Town Ambush : [SC]Krom
-Usage: connect <server> [34|35|36]
-Execing cfg/tambush.cfg
-Dumped console text to condumps/tambush.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sykorak
-No .ent File for sykorak.bsp
-Loading map objective pic dday/pics/objectives/sykorak.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: sykorak
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-sykorak 
-
-Ceskoslovensko, Ostrava, duben 1945 
-
- by Legstrong
-Usage: connect <server> [34|35|36]
-Execing cfg/sykorak.cfg
-Dumped console text to condumps/sykorak.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sword
-No .ent File for sword.bsp
-Loading map objective pic dday/pics/objectives/sword.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: sword
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Sword Beach : By [1RB]Quakeuser
-Usage: connect <server> [34|35|36]
-Execing cfg/sword.cfg
-Dumped console text to condumps/sword.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sword2k
-No .ent File for sword2k.bsp
-Loading map objective pic dday/pics/objectives/sword2k.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: sword2k
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-06.06.1944 Sword Beach 2k
-Designed by [1RB]Quakeuser
-Usage: connect <server> [34|35|36]
-Execing cfg/sword2k.cfg
-Dumped console text to condumps/sword2k.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: swamp
-No .ent File for swamp.bsp
-Loading map objective pic dday/pics/objectives/swamp.pcx...error.
-dday1 doesn't have a spawn function
-0 entities inhibited
-0 teams with 0 entities
-server map: swamp
-swamp.cmp Loaded
-SV_Trace: runaway loop avoided
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:179.
-       : added nodes:6.
-       : total nodes:185.
-       : loaded links:730.
-       : added links:17.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Swamp Frag by Loose Bob
-Usage: connect <server> [34|35|36]
-saBOTage connected.
-VerBOTen connected.
-Winters connected.
-Dipsymama connected.
-BOTched connected.
-VolksBOT connected.
-Execing cfg/swamp.cfg
-Dumped console text to condumps/swamp.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: suribachibh
-No .ent File for suribachibh.bsp
-Loading map objective pic dday/pics/objectives/suribachibh.pcx...done.
-func_timer at (1050 -917 -89) has random >= wait
-func_timer at (529 107 0) has random >= wait
-func_timer at (310 579 6) has random >= wait
-func_timer at (310 579 6) has random >= wait
-func_timer at (359 547 90) has random >= wait
-func_timer at (275 4 -59) has random >= wait
-func_timer at (275 4 -59) has random >= wait
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-func_wall START_ON without TOGGLE
-0 entities inhibited
-0 teams with 0 entities
-server map: suribachibh
-suribachibh.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:156.
-       : added nodes:3.
-       : total nodes:159.
-       : loaded links:355.
-       : added links:12.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Mount Suribachi - MUNF
-Usage: connect <server> [34|35|36]
-loBOTomy connected.
-Izumi connected.
-Dipsymama connected.
-Tatsuya connected.
-Blithe connected.
-Daichi connected.
-Execing cfg/suribachibh.cfg
-Dumped console text to condumps/suribachibh.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: subway
-No .ent File for subway.bsp
-Loading map objective pic dday/pics/objectives/subway.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: subway
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Subway Station v2.1
-by Felipe (+AAF)
-increase TanatoVago
-Couldn't load textures/blindados/m4_tracks.wal: Invalid file format
-Couldn't load textures/blindados/m4_tracks.wal: Invalid file format
-Usage: connect <server> [34|35|36]
-Execing cfg/subway.cfg
-Dumped console text to condumps/subway.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sturm
-sturm.ent Loaded
-Loading map objective pic dday/pics/objectives/sturm.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: sturm
-sturm.cmp Loaded
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
-SV_Trace: runaway loop avoided
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:174.
-       : added nodes:11.
-       : total nodes:185.
-       : loaded links:668.
-       : added links:8.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Somewhere in Europe 1945 
- by Legstrong
-Usage: connect <server> [34|35|36]
-Audie connected.
-BOTskrieg connected.
-Patton connected.
-Frederick connected.
-Speirs connected.
-VolksBOT connected.
-Execing cfg/sturm.cfg
-Dumped console text to condumps/sturm.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sturmbhv2
-No .ent File for sturmbhv2.bsp
-PF_configstring: index 0 overflowed: 64 > 63
-Loading map objective pic dday/pics/objectives/sturmbhv2.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: sturmbhv2
-sturmbhv2.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:132.
-       : added nodes:0.
-       : total nodes:132.
-       : loaded links:440.
-       : added links:0.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Sturmbh
-by MYNF
-Based on Somewhere in Europe 1945 
- by Legstron
-Usage: connect <server> [34|35|36]
-saBOTage connected.
-Franz connected.
-Bob connected.
-Erik connected.
-Speirs connected.
-Adolf connected.
-Execing cfg/sturmbhv2.cfg
-Dumped console text to condumps/sturmbhv2.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: sturmbh
-No .ent File for sturmbh.bsp
-PF_configstring: index 0 overflowed: 64 > 63
-Loading map objective pic dday/pics/objectives/sturmbh.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: sturmbh
-sturmbh.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:174.
-       : added nodes:0.
-       : total nodes:174.
-       : loaded links:668.
-       : added links:0.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Sturmbh
-by MYNF
-Based on Somewhere in Europe 1945 
- by Legstron
-Usage: connect <server> [34|35|36]
-Eisenhower connected.
-Frederick connected.
-Winters connected.
-Goebbels connected.
-Dipsymama connected.
-BOTskrieg connected.
-Execing cfg/sturmbh.cfg
-Dumped console text to condumps/sturmbh.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: STREETS
-No .ent File for STREETS.bsp
-Loading map objective pic dday/pics/objectives/STREETS.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: STREETS
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Deserted Town - by The Violator (tweaked by loosebob)
-Usage: connect <server> [34|35|36]
-Execing cfg/STREETS.cfg
-Dumped console text to condumps/STREETS.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: streets
-No .ent File for streets.bsp
-Loading map objective pic dday/pics/objectives/streets.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: streets
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Deserted Town - by The Violator (tweaked by loosebob)
-Usage: connect <server> [34|35|36]
-Execing cfg/streets.cfg
-Dumped console text to condumps/streets.txt.
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: streetfight
-No .ent File for streetfight.bsp
-Loading map objective pic dday/pics/objectives/streetfight.pcx...error.
-0 entities inhibited
-0 teams with 0 entities
-server map: streetfight
-AI: FAILED to load nodes file.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-PowaBanga connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Streetfight - By (352nd)Storm
-Usage: connect <server> [34|35|36]
-Execing cfg/streetfight.cfg
