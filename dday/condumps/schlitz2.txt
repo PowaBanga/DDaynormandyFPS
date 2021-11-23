@@ -1,3 +1,5 @@
+open_from_disk: ./dday/textures/faf/bunkfl.png: No such file or directory
+open_from_disk: ./dday/textures/faf/bunkfl.png: No such file or directory
 open_file_read: textures/faf/bunkfl.png: No such file or directory
 open_from_disk: ./dday/textures/faf/bunkfl.jpg: No such file or directory
 open_from_disk: ./dday/textures/faf/bunkfl.jpg: No such file or directory
@@ -733,9 +735,7 @@ open_from_disk: ./dday/textures/faf/camo8.tga: No such file or directory
 open_file_read: textures/faf/camo8.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/camo8.wal: 21860 bytes
 open_from_disk: ./dday/textures/e2u2/sky1.png: 685 bytes
-open_from_disk: ./dday/textures/e2u2/sky1.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u2/sky1.wal: No such file or directory
-open_file_read: textures/e2u2/sky1.wal: No such file or directory
+open_from_disk: ./dday/textures/e2u2/sky1.wal: 1460 bytes
 open_from_disk: ./dday/textures/beach/barrel.png: No such file or directory
 open_from_disk: ./dday/textures/beach/barrel.png: No such file or directory
 open_file_read: textures/beach/barrel.png: No such file or directory
@@ -1019,6 +1019,6 @@ open_from_disk: ./dday/locs/schlitz2.loc: No such file or directory
 open_from_disk: ./dday/locs/schlitz2.loc: No such file or directory
 open_file_read: locs/schlitz2.loc: No such file or directory
 Usage: connect <server> [34|35|36]
-open_from_disk: ./dday/cfg/schlitz2.cfg: 30 bytes
+open_from_disk: ./dday/cfg/schlitz2.cfg: 27 bytes
 Execing cfg/schlitz2.cfg
 open_file_write: ./dday/condumps/schlitz2.txt: 0 bytes

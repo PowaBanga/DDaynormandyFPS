@@ -1,3 +1,20 @@
+open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
+open_file_read: models/proj/beam/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/locs/brithedgebh.loc: No such file or directory
+open_from_disk: ./dday/locs/brithedgebh.loc: No such file or directory
+open_file_read: locs/brithedgebh.loc: No such file or directory
+open_from_disk: ./dday/pics/objectives/brithedgebh.png: No such file or directory
+open_from_disk: ./dday/pics/objectives/brithedgebh.png: No such file or directory
+open_file_read: pics/objectives/brithedgebh.png: No such file or directory
+open_from_disk: ./dday/pics/objectives/brithedgebh.jpg: No such file or directory
+open_from_disk: ./dday/pics/objectives/brithedgebh.jpg: No such file or directory
+open_file_read: pics/objectives/brithedgebh.jpg: No such file or directory
+open_from_disk: ./dday/pics/objectives/brithedgebh.tga: No such file or directory
+open_from_disk: ./dday/pics/objectives/brithedgebh.tga: No such file or directory
+open_file_read: pics/objectives/brithedgebh.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/brithedgebh.pcx: 43675 bytes
 open_from_disk: ./dday/pics/teams/gbr.png: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.png: No such file or directory
@@ -10,9 +27,9 @@ open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_file_read: pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.pcx: 1613 bytes
 Usage: connect <server> [34|35|36]
-Charles connected.
-Rommel connected.
-Charles joined the game.
+Ethan connected.
+VolksBOT connected.
+Ethan joined the game.
 open_from_disk: ./dday/players/gbr/class_infantry.png: No such file or directory
 open_from_disk: ./dday/players/gbr/class_infantry.png: No such file or directory
 open_file_read: players/gbr/class_infantry.png: No such file or directory
@@ -34,28 +51,19 @@ open_from_disk: ./dday/players/gbr/class_infantry_i.tga: No such file or directo
 open_from_disk: ./dday/players/gbr/class_infantry_i.tga: No such file or directory
 open_file_read: players/gbr/class_infantry_i.tga: No such file or directory
 open_from_disk: ./dday/players/gbr/class_infantry_i.pcx: 1708 bytes
-Rommel joined the game.
-open_from_disk: ./dday/players/grm/class_officer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer.png: No such file or directory
-open_file_read: players/grm/class_officer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer.jpg: No such file or directory
-open_file_read: players/grm/class_officer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer.tga: No such file or directory
-open_file_read: players/grm/class_officer.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_officer.pcx: 83093 bytes
-open_from_disk: ./dday/players/grm/class_officer_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer_i.png: No such file or directory
-open_file_read: players/grm/class_officer_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer_i.jpg: No such file or directory
-open_file_read: players/grm/class_officer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_officer_i.tga: No such file or directory
-open_file_read: players/grm/class_officer_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_officer_i.pcx: 1940 bytes
+VolksBOT joined the game.
+open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
+open_file_read: players/grm/class_hmg.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
+open_file_read: players/grm/class_hmg.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
+open_file_read: players/grm/class_hmg.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/grm/class_hmg.pcx: 96053 bytes
 open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack1.wav: 15148 bytes
+open_from_disk: ./dday/sound/misc/prone2.wav: 31782 bytes
 open_from_disk: ./dday/cfg/brithedgebh.cfg: 28 bytes
 Execing cfg/brithedgebh.cfg
 open_file_write: ./dday/condumps/brithedgebh.txt: 0 bytes
@@ -100,15 +108,11 @@ open_from_disk: ./dday/textures/gimp/dirt2.tga: No such file or directory
 open_file_read: textures/gimp/dirt2.tga: No such file or directory
 open_from_disk: ./dday/textures/gimp/dirt2.wal: 87140 bytes
 open_from_disk: ./dday/textures/e1u1/support1_3.png: 4050 bytes
-open_from_disk: ./dday/textures/e1u1/support1_3.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/support1_3.wal: No such file or directory
-open_file_read: textures/e1u1/support1_3.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/support1_3.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/doorbot.png: 3754 bytes
 open_from_disk: ./dday/textures/e1u1/doorbot.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/grnx2_6.png: 4393 bytes
-open_from_disk: ./dday/textures/e1u1/grnx2_6.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/grnx2_6.wal: No such file or directory
-open_file_read: textures/e1u1/grnx2_6.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/grnx2_6.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u2/basic1_8.png: 3790 bytes
 open_from_disk: ./dday/textures/e1u2/basic1_8.wal: 5540 bytes
 open_from_disk: ./dday/textures/dday/mr_wood16.png: No such file or directory
@@ -140,9 +144,7 @@ open_from_disk: ./dday/textures/dday/mr_woodfloor3.tga: No such file or director
 open_file_read: textures/dday/mr_woodfloor3.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/mr_woodfloor3.wal: 21860 bytes
 open_from_disk: ./dday/textures/e1u1/p_tub1_1.png: 7252 bytes
-open_from_disk: ./dday/textures/e1u1/p_tub1_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/p_tub1_1.wal: No such file or directory
-open_file_read: textures/e1u1/p_tub1_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/p_tub1_1.wal: 10980 bytes
 open_from_disk: ./dday/textures/e1u2/train1_5.png: 1002 bytes
 open_from_disk: ./dday/textures/e1u2/train1_5.wal: 1460 bytes
 open_from_disk: ./dday/textures/e1u2/basic1_7.png: 3248 bytes
@@ -234,9 +236,7 @@ open_from_disk: ./dday/textures/beach/wallruff_dark.tga: No such file or directo
 open_file_read: textures/beach/wallruff_dark.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/beach/wallruff_dark.wal: 87140 bytes
 open_from_disk: ./dday/textures/e1u1/c_met5_1.png: 30779 bytes
-open_from_disk: ./dday/textures/e1u1/c_met5_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/c_met5_1.wal: No such file or directory
-open_file_read: textures/e1u1/c_met5_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/c_met5_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/dday/base_bkup.png: No such file or directory
 open_from_disk: ./dday/textures/dday/base_bkup.png: No such file or directory
 open_file_read: textures/dday/base_bkup.png: No such file or directory

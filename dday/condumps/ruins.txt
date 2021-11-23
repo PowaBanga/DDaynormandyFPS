@@ -1,3 +1,7 @@
+open_from_disk: ./dday/textures/DDAY/LCPSIDE.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/lcpside.jpg: No such file or directory
+open_file_read: textures/DDAY/LCPSIDE.jpg: No such file or directory
+open_from_disk: ./dday/textures/DDAY/LCPSIDE.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/lcpside.tga: No such file or directory
 open_from_disk: ./dday/textures/DDAY/LCPSIDE.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/lcpside.tga: No such file or directory
@@ -159,12 +163,10 @@ open_from_disk: ./dday/locs/schlitz2.loc: No such file or directory
 open_from_disk: ./dday/locs/schlitz2.loc: No such file or directory
 open_file_read: locs/schlitz2.loc: No such file or directory
 Usage: connect <server> [34|35|36]
-open_from_disk: ./dday/cfg/schlitz2.cfg: 30 bytes
+open_from_disk: ./dday/cfg/schlitz2.cfg: 27 bytes
 Execing cfg/schlitz2.cfg
 open_file_write: ./dday/condumps/schlitz2.txt: 0 bytes
 Dumped console text to condumps/schlitz2.txt.
-open_from_disk: ./dday/maps/schlitz1.bsp: 35024 bytes
-Couldn't load maps/schlitz1.bsp: Unknown file format
 open_from_disk: ./dday/maps/sanlo.bsp: 1247560 bytes
 ==== ShutdownGame ====
 Loaded game library from ./dday/gamex86_64.so
@@ -587,9 +589,7 @@ open_from_disk: ./dday/textures/dday/trk_seat.tga: No such file or directory
 open_file_read: textures/dday/trk_seat.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/trk_seat.wal: 2820 bytes
 open_from_disk: ./dday/textures/e1u1/c_met8_2.png: 24106 bytes
-open_from_disk: ./dday/textures/e1u1/c_met8_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/c_met8_2.wal: No such file or directory
-open_file_read: textures/e1u1/c_met8_2.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/c_met8_2.wal: 21860 bytes
 open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory

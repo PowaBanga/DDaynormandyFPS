@@ -1,3 +1,8 @@
+open_from_disk: ./dday/models/weapons/grm/g_walther/skin.jpg: No such file or directory
+open_file_read: models/weapons/grm/g_walther/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/grm/g_walther/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/grm/g_walther/skin.tga: No such file or directory
+open_file_read: models/weapons/grm/g_walther/skin.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/models/weapons/grm/g_walther/skin.pcx: 33725 bytes
 open_from_pak: ./dday/pak7.pak/models/weapons/grm/v_walther/tris.md2: 122884 bytes
 open_from_disk: ./dday/models/weapons/grm/v_walther/skin.png: No such file or directory
@@ -642,15 +647,10 @@ open_from_disk: ./dday/locs/complex.loc: No such file or directory
 open_from_disk: ./dday/locs/complex.loc: No such file or directory
 open_file_read: locs/complex.loc: No such file or directory
 Usage: connect <server> [34|35|36]
-open_from_disk: ./dday/cfg/complex.cfg: 40 bytes
+open_from_disk: ./dday/cfg/complex.cfg: 38 bytes
 Execing cfg/complex.cfg
 open_file_write: ./dday/condumps/complex.txt: 0 bytes
 Dumped console text to condumps/complex.txt.
-open_from_disk: ./dday/maps/city_x_by_hans/!/!.bsp: No such file or directory
-open_from_disk: ./dday/maps/city_x_by_hans/!/!.bsp: No such file or directory
-open_file_read: maps/city_x_by_hans/!/!.bsp: No such file or directory
-Couldn't load maps/city_x_by_hans\!\!.bsp: No such file or directory
-]map city_x_by_hans!!
 open_from_disk: ./dday/maps/city_x_by_hans!!.bsp: 99600 bytes
 ==== ShutdownGame ====
 Loaded game library from ./dday/gamex86_64.so

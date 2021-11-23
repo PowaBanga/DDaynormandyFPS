@@ -1,3 +1,25 @@
+open_file_read: pics/a_arisakas.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_arisakas.tga: No such file or directory
+open_from_disk: ./dday/pics/a_arisakas.tga: No such file or directory
+open_file_read: pics/a_arisakas.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/pics/a_arisakas.pcx: 1284 bytes
+open_from_disk: ./dday/pics/scope_jpn.png: No such file or directory
+open_from_disk: ./dday/pics/scope_jpn.png: No such file or directory
+open_file_read: pics/scope_jpn.png: No such file or directory
+open_from_disk: ./dday/pics/scope_jpn.jpg: No such file or directory
+open_from_disk: ./dday/pics/scope_jpn.jpg: No such file or directory
+open_file_read: pics/scope_jpn.jpg: No such file or directory
+open_from_disk: ./dday/pics/scope_jpn.tga: No such file or directory
+open_from_disk: ./dday/pics/scope_jpn.tga: No such file or directory
+open_file_read: pics/scope_jpn.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/pics/scope_jpn.pcx: 4311 bytes
+open_from_disk: ./dday/pics/victory_jpn.png: No such file or directory
+open_from_disk: ./dday/pics/victory_jpn.png: No such file or directory
+open_file_read: pics/victory_jpn.png: No such file or directory
+open_from_disk: ./dday/pics/victory_jpn.jpg: No such file or directory
+open_from_disk: ./dday/pics/victory_jpn.jpg: No such file or directory
+open_file_read: pics/victory_jpn.jpg: No such file or directory
+open_from_disk: ./dday/pics/victory_jpn.tga: No such file or directory
 open_from_disk: ./dday/pics/victory_jpn.tga: No such file or directory
 open_file_read: pics/victory_jpn.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/victory_jpn.pcx: 6365 bytes
@@ -173,8 +195,6 @@ open_from_disk: ./dday/cfg/iraid.cfg: 31 bytes
 Execing cfg/iraid.cfg
 open_file_write: ./dday/condumps/iraid.txt: 0 bytes
 Dumped console text to condumps/iraid.txt.
-open_from_disk: ./dday/maps/iraidbhv3.bsp: 2621004 bytes
-Couldn't load maps/iraidbhv3.bsp: Unknown file format
 open_from_disk: ./dday/maps/iraidbhv2.bsp: 2718748 bytes
 ==== ShutdownGame ====
 Loaded game library from ./dday/gamex86_64.so
@@ -401,16 +421,6 @@ open_from_disk: ./dday/pics/w_shotgun.tga: No such file or directory
 open_from_disk: ./dday/pics/w_shotgun.tga: No such file or directory
 open_file_read: pics/w_shotgun.tga: No such file or directory
 open_from_disk: ./dday/pics/w_shotgun.pcx: 1369 bytes
-open_from_disk: ./dday/pics/a_shells.png: No such file or directory
-open_from_disk: ./dday/pics/a_shells.png: No such file or directory
-open_file_read: pics/a_shells.png: No such file or directory
-open_from_disk: ./dday/pics/a_shells.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_shells.jpg: No such file or directory
-open_file_read: pics/a_shells.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_shells.tga: No such file or directory
-open_from_disk: ./dday/pics/a_shells.tga: No such file or directory
-open_file_read: pics/a_shells.tga: No such file or directory
-open_from_disk: ./dday/pics/a_shells.pcx: 1189 bytes
 open_from_disk: ./dday/sound/usa/shotgun/fire.wav: 34902 bytes
 open_from_disk: ./dday/sound/usa/shotgun/reload.wav: 18932 bytes
 open_from_disk: ./dday/sound/june6/bird13_43.wav: No such file or directory
@@ -440,19 +450,19 @@ open_from_disk: ./dday/pics/teams/jpn.tga: No such file or directory
 open_file_read: pics/teams/jpn.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/teams/jpn.pcx: 1969 bytes
 Usage: connect <server> [34|35|36]
-Patton connected.
-Hirohito connected.
-Hirohito joined the game.
-open_from_disk: ./dday/players/jpn/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg.png: No such file or directory
-open_file_read: players/jpn/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg.jpg: No such file or directory
-open_file_read: players/jpn/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg.tga: No such file or directory
-open_file_read: players/jpn/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg.pcx: 119803 bytes
+Bob connected.
+Yamamoto connected.
+Yamamoto joined the game.
+open_from_disk: ./dday/players/jpn/class_infantry.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.png: No such file or directory
+open_file_read: players/jpn/class_infantry.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.jpg: No such file or directory
+open_file_read: players/jpn/class_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.tga: No such file or directory
+open_file_read: players/jpn/class_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.pcx: 120024 bytes
 open_from_disk: ./dday/players/jpn/weapon.md2: 12680 bytes
 open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
@@ -464,39 +474,38 @@ open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
 open_file_read: players/grm/w_fists.tga: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.pcx: 961 bytes
-open_from_disk: ./dday/players/jpn/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg_i.png: No such file or directory
-open_file_read: players/jpn/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg_i.jpg: No such file or directory
-open_file_read: players/jpn/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_lmg_i.tga: No such file or directory
-open_file_read: players/jpn/class_lmg_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/jpn/class_lmg_i.pcx: 1969 bytes
-Patton joined the game.
-open_from_disk: ./dday/players/usa/usmc_lmg.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg.png: No such file or directory
-open_file_read: players/usa/usmc_lmg.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg.jpg: No such file or directory
-open_file_read: players/usa/usmc_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg.tga: No such file or directory
-open_file_read: players/usa/usmc_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg.pcx: 122711 bytes
+open_from_disk: ./dday/players/jpn/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.png: No such file or directory
+open_file_read: players/jpn/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.jpg: No such file or directory
+open_file_read: players/jpn/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.tga: No such file or directory
+open_file_read: players/jpn/class_infantry_i.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/players/jpn/class_infantry_i.pcx: 1969 bytes
+Bob joined the game.
+open_from_disk: ./dday/players/usa/usmc_infantry.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry.png: No such file or directory
+open_file_read: players/usa/usmc_infantry.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry.jpg: No such file or directory
+open_file_read: players/usa/usmc_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry.tga: No such file or directory
+open_file_read: players/usa/usmc_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry.pcx: 121593 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/usmc_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg_i.png: No such file or directory
-open_file_read: players/usa/usmc_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg_i.jpg: No such file or directory
-open_file_read: players/usa/usmc_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg_i.tga: No such file or directory
-open_file_read: players/usa/usmc_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_lmg_i.pcx: 2165 bytes
-open_from_disk: ./dday/sound/jpn/shout/attack2.wav: 56670 bytes
+open_from_disk: ./dday/players/usa/usmc_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry_i.png: No such file or directory
+open_file_read: players/usa/usmc_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry_i.jpg: No such file or directory
+open_file_read: players/usa/usmc_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry_i.tga: No such file or directory
+open_file_read: players/usa/usmc_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_infantry_i.pcx: 2165 bytes
 open_from_disk: ./dday/cfg/iraidbhv2.cfg: 29 bytes
 Execing cfg/iraidbhv2.cfg
 open_file_write: ./dday/condumps/iraidbhv2.txt: 0 bytes
@@ -597,19 +606,19 @@ open_from_disk: ./dday/pics/teams/jpn.tga: No such file or directory
 open_file_read: pics/teams/jpn.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/teams/jpn.pcx: 1969 bytes
 Usage: connect <server> [34|35|36]
-G.I. Joe connected.
-Tojo connected.
-Tojo joined the game.
-open_from_disk: ./dday/players/jpn/class_special.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special.png: No such file or directory
-open_file_read: players/jpn/class_special.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special.jpg: No such file or directory
-open_file_read: players/jpn/class_special.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special.tga: No such file or directory
-open_file_read: players/jpn/class_special.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special.pcx: 119220 bytes
+Speirs connected.
+Hirohito connected.
+Hirohito joined the game.
+open_from_disk: ./dday/players/jpn/class_infantry.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.png: No such file or directory
+open_file_read: players/jpn/class_infantry.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.jpg: No such file or directory
+open_file_read: players/jpn/class_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.tga: No such file or directory
+open_file_read: players/jpn/class_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry.pcx: 120024 bytes
 open_from_disk: ./dday/players/jpn/weapon.md2: 12680 bytes
 open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
@@ -621,48 +630,38 @@ open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
 open_file_read: players/grm/w_fists.tga: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.pcx: 961 bytes
-open_from_disk: ./dday/players/jpn/class_special_i.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special_i.png: No such file or directory
-open_file_read: players/jpn/class_special_i.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special_i.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special_i.jpg: No such file or directory
-open_file_read: players/jpn/class_special_i.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special_i.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_special_i.tga: No such file or directory
-open_file_read: players/jpn/class_special_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/jpn/class_special_i.pcx: 1969 bytes
-open_from_disk: ./dday/models/objects/chute/tris.md2: 6700 bytes
-open_from_disk: ./dday/models/objects/chute/skin.png: No such file or directory
-open_from_disk: ./dday/models/objects/chute/skin.png: No such file or directory
-open_file_read: models/objects/chute/skin.png: No such file or directory
-open_from_disk: ./dday/models/objects/chute/skin.jpg: 128620 bytes
-open_from_disk: ./dday/models/objects/chute/skin.pcx: 43675 bytes
-open_from_disk: ./dday/sound/faf/flag.wav: 311668 bytes
-open_from_disk: ./dday/sound/jpn/katana/draw.wav: 34348 bytes
-G.I. Joe joined the game.
-open_from_disk: ./dday/players/usa/usmc_special.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special.png: No such file or directory
-open_file_read: players/usa/usmc_special.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special.jpg: No such file or directory
-open_file_read: players/usa/usmc_special.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special.tga: No such file or directory
-open_file_read: players/usa/usmc_special.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special.pcx: 121229 bytes
+open_from_disk: ./dday/players/jpn/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.png: No such file or directory
+open_file_read: players/jpn/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.jpg: No such file or directory
+open_file_read: players/jpn/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_infantry_i.tga: No such file or directory
+open_file_read: players/jpn/class_infantry_i.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/players/jpn/class_infantry_i.pcx: 1969 bytes
+Speirs joined the game.
+open_from_disk: ./dday/players/usa/usmc_medic.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic.png: No such file or directory
+open_file_read: players/usa/usmc_medic.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic.jpg: No such file or directory
+open_file_read: players/usa/usmc_medic.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic.tga: No such file or directory
+open_file_read: players/usa/usmc_medic.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic.pcx: 122966 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/usmc_special_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special_i.png: No such file or directory
-open_file_read: players/usa/usmc_special_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special_i.jpg: No such file or directory
-open_file_read: players/usa/usmc_special_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special_i.tga: No such file or directory
-open_file_read: players/usa/usmc_special_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_special_i.pcx: 2165 bytes
-open_from_disk: ./dday/sound/usa/shotgun/load.wav: 17286 bytes
-open_from_pak: ./dday/pak1.pak/sound/usa/shout/move1.wav: 25260 bytes
+open_from_disk: ./dday/players/usa/usmc_medic_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic_i.png: No such file or directory
+open_file_read: players/usa/usmc_medic_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic_i.jpg: No such file or directory
+open_file_read: players/usa/usmc_medic_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic_i.tga: No such file or directory
+open_file_read: players/usa/usmc_medic_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_medic_i.pcx: 1615 bytes
 open_from_disk: ./dday/cfg/iraidbh.cfg: 28 bytes
 Execing cfg/iraidbh.cfg
 open_file_write: ./dday/condumps/iraidbh.txt: 0 bytes
@@ -963,18 +962,18 @@ open_file_read: pics/teams/jpn.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/teams/jpn.pcx: 1969 bytes
 Usage: connect <server> [34|35|36]
 Jim connected.
-Naoko connected.
-Naoko joined the game.
-open_from_disk: ./dday/players/jpn/class_infantry.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry.png: No such file or directory
-open_file_read: players/jpn/class_infantry.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry.jpg: No such file or directory
-open_file_read: players/jpn/class_infantry.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry.tga: No such file or directory
-open_file_read: players/jpn/class_infantry.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry.pcx: 120024 bytes
+Takumi connected.
+Takumi joined the game.
+open_from_disk: ./dday/players/jpn/class_engineer.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer.png: No such file or directory
+open_file_read: players/jpn/class_engineer.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer.jpg: No such file or directory
+open_file_read: players/jpn/class_engineer.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer.tga: No such file or directory
+open_file_read: players/jpn/class_engineer.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer.pcx: 119814 bytes
 open_from_disk: ./dday/players/jpn/weapon.md2: 12680 bytes
 open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
@@ -986,38 +985,39 @@ open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
 open_file_read: players/grm/w_fists.tga: No such file or directory
 open_from_disk: ./dday/players/grm/w_fists.pcx: 961 bytes
-open_from_disk: ./dday/players/jpn/class_infantry_i.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry_i.png: No such file or directory
-open_file_read: players/jpn/class_infantry_i.png: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry_i.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry_i.jpg: No such file or directory
-open_file_read: players/jpn/class_infantry_i.jpg: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry_i.tga: No such file or directory
-open_from_disk: ./dday/players/jpn/class_infantry_i.tga: No such file or directory
-open_file_read: players/jpn/class_infantry_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/jpn/class_infantry_i.pcx: 1969 bytes
+open_from_disk: ./dday/players/jpn/class_engineer_i.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer_i.png: No such file or directory
+open_file_read: players/jpn/class_engineer_i.png: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer_i.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer_i.jpg: No such file or directory
+open_file_read: players/jpn/class_engineer_i.jpg: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer_i.tga: No such file or directory
+open_from_disk: ./dday/players/jpn/class_engineer_i.tga: No such file or directory
+open_file_read: players/jpn/class_engineer_i.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/players/jpn/class_engineer_i.pcx: 1969 bytes
 Jim joined the game.
-open_from_disk: ./dday/players/usa/usmc_engineer.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer.png: No such file or directory
-open_file_read: players/usa/usmc_engineer.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer.jpg: No such file or directory
-open_file_read: players/usa/usmc_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer.tga: No such file or directory
-open_file_read: players/usa/usmc_engineer.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer.pcx: 122962 bytes
+open_from_disk: ./dday/players/usa/usmc_flamethrower.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower.png: No such file or directory
+open_file_read: players/usa/usmc_flamethrower.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower.jpg: No such file or directory
+open_file_read: players/usa/usmc_flamethrower.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower.tga: No such file or directory
+open_file_read: players/usa/usmc_flamethrower.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower.pcx: 120690 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/usmc_engineer_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer_i.png: No such file or directory
-open_file_read: players/usa/usmc_engineer_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer_i.jpg: No such file or directory
-open_file_read: players/usa/usmc_engineer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer_i.tga: No such file or directory
-open_file_read: players/usa/usmc_engineer_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/usmc_engineer_i.pcx: 2165 bytes
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.png: No such file or directory
+open_file_read: players/usa/usmc_flamethrower_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.jpg: No such file or directory
+open_file_read: players/usa/usmc_flamethrower_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.tga: No such file or directory
+open_file_read: players/usa/usmc_flamethrower_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/usmc_flamethrower_i.pcx: 2165 bytes
+open_from_disk: ./dday/sound/weapons/flamer/fireitup.wav: 93286 bytes
 open_from_pak: ./dday/pak1.pak/sound/usa/shout/move2.wav: 63488 bytes
 open_from_disk: ./dday/cfg/iraidb.cfg: 29 bytes
 Execing cfg/iraidb.cfg

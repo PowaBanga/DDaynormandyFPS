@@ -1,3 +1,20 @@
+open_file_read: players/grm/class_hmg.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/grm/class_hmg.pcx: 96053 bytes
+open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack1.wav: 15148 bytes
+open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack2.wav: 18220 bytes
+open_from_disk: ./dday/cfg/rok.cfg: 26 bytes
+Execing cfg/rok.cfg
+open_file_write: ./dday/condumps/rok.txt: 0 bytes
+Dumped console text to condumps/rok.txt.
+open_from_disk: ./dday/maps/rmg5.bsp: 5042072 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: rmg5
+open_from_disk: ./dday/maps/rmg5.ent: No such file or directory
 open_from_disk: ./dday/maps/rmg5.ent: No such file or directory
 open_file_read: maps/rmg5.ent: No such file or directory
 No .ent File for rmg5.bsp
@@ -974,51 +991,34 @@ open_from_disk: ./dday/locs/rmg5.loc: No such file or directory
 open_from_disk: ./dday/locs/rmg5.loc: No such file or directory
 open_file_read: locs/rmg5.loc: No such file or directory
 Usage: connect <server> [34|35|36]
-BOTched connected.
-Goebbels connected.
-Goebbels joined the game.
-open_from_disk: ./dday/players/grm/class_sniper.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.png: No such file or directory
-open_file_read: players/grm/class_sniper.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.jpg: No such file or directory
-open_file_read: players/grm/class_sniper.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.tga: No such file or directory
-open_file_read: players/grm/class_sniper.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_sniper.pcx: 95071 bytes
-open_from_disk: ./dday/players/grm/class_sniper_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.png: No such file or directory
-open_file_read: players/grm/class_sniper_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.jpg: No such file or directory
-open_file_read: players/grm/class_sniper_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.tga: No such file or directory
-open_file_read: players/grm/class_sniper_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_sniper_i.pcx: 1940 bytes
-BOTched joined the game.
-open_from_disk: ./dday/players/usa/class_officer.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.png: No such file or directory
-open_file_read: players/usa/class_officer.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.jpg: No such file or directory
-open_file_read: players/usa/class_officer.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.tga: No such file or directory
-open_file_read: players/usa/class_officer.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_officer.pcx: 98437 bytes
+Blithe connected.
+Rommel connected.
+Rommel joined the game.
+Blithe joined the game.
+open_from_disk: ./dday/players/usa/class_engineer.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer.png: No such file or directory
+open_file_read: players/usa/class_engineer.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer.jpg: No such file or directory
+open_file_read: players/usa/class_engineer.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer.tga: No such file or directory
+open_file_read: players/usa/class_engineer.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/usa/class_engineer.pcx: 100214 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/class_officer_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.png: No such file or directory
-open_file_read: players/usa/class_officer_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.jpg: No such file or directory
-open_file_read: players/usa/class_officer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.tga: No such file or directory
-open_file_read: players/usa/class_officer_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.pcx: 2165 bytes
+open_from_disk: ./dday/players/usa/class_engineer_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer_i.png: No such file or directory
+open_file_read: players/usa/class_engineer_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer_i.jpg: No such file or directory
+open_file_read: players/usa/class_engineer_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer_i.tga: No such file or directory
+open_file_read: players/usa/class_engineer_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_engineer_i.pcx: 2165 bytes
+open_from_pak: ./dday/pak1.pak/sound/usa/shout/move1.wav: 25260 bytes
+open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack2.wav: 18220 bytes
+open_from_pak: ./dday/pak1.pak/sound/grm/shout/move2.wav: 20684 bytes
 open_from_disk: ./dday/cfg/rmg5.cfg: 26 bytes
 Execing cfg/rmg5.cfg
 open_file_write: ./dday/condumps/rmg5.txt: 0 bytes

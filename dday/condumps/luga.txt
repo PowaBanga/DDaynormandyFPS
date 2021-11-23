@@ -1,3 +1,75 @@
+open_from_disk: ./dday/cfg/made.cfg: 26 bytes
+Execing cfg/made.cfg
+open_file_write: ./dday/condumps/made.txt: 0 bytes
+Dumped console text to condumps/made.txt.
+open_from_disk: ./dday/maps/luga.bsp: 979724 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: luga
+open_from_disk: ./dday/maps/luga.ent: No such file or directory
+open_from_disk: ./dday/maps/luga.ent: No such file or directory
+open_file_read: maps/luga.ent: No such file or directory
+No .ent File for luga.bsp
+Loading map objective pic dday/pics/objectives/luga.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: luga
+luga.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:53.
+       : added nodes:0.
+       : total nodes:53.
+       : loaded links:122.
+       : added links:0.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+PowaBanga connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Luga River
+Designed by Fighter
+open_from_disk: ./dday/textures/beach/barco1.png: No such file or directory
+open_from_disk: ./dday/textures/beach/barco1.png: No such file or directory
+open_file_read: textures/beach/barco1.png: No such file or directory
+open_from_disk: ./dday/textures/beach/barco1.jpg: No such file or directory
+open_from_disk: ./dday/textures/beach/barco1.jpg: No such file or directory
+open_file_read: textures/beach/barco1.jpg: No such file or directory
+open_from_disk: ./dday/textures/beach/barco1.tga: No such file or directory
+open_from_disk: ./dday/textures/beach/barco1.tga: No such file or directory
+open_file_read: textures/beach/barco1.tga: No such file or directory
+open_from_disk: ./dday/textures/beach/barco1.wal: 87140 bytes
+open_from_disk: ./dday/textures/terrain/tree4.png: No such file or directory
+open_from_disk: ./dday/textures/terrain/tree4.png: No such file or directory
+open_file_read: textures/terrain/tree4.png: No such file or directory
+open_from_disk: ./dday/textures/terrain/tree4.jpg: No such file or directory
+open_from_disk: ./dday/textures/terrain/tree4.jpg: No such file or directory
+open_file_read: textures/terrain/tree4.jpg: No such file or directory
+open_from_disk: ./dday/textures/terrain/tree4.tga: No such file or directory
+open_from_disk: ./dday/textures/terrain/tree4.tga: No such file or directory
+open_file_read: textures/terrain/tree4.tga: No such file or directory
+open_from_disk: ./dday/textures/terrain/tree4.wal: 43620 bytes
+open_from_disk: ./dday/textures/terrain/trans.png: No such file or directory
+open_from_disk: ./dday/textures/terrain/trans.png: No such file or directory
+open_file_read: textures/terrain/trans.png: No such file or directory
+open_from_disk: ./dday/textures/terrain/trans.jpg: No such file or directory
+open_from_disk: ./dday/textures/terrain/trans.jpg: No such file or directory
+open_file_read: textures/terrain/trans.jpg: No such file or directory
+open_from_disk: ./dday/textures/terrain/trans.tga: No such file or directory
+open_from_disk: ./dday/textures/terrain/trans.tga: No such file or directory
+open_file_read: textures/terrain/trans.tga: No such file or directory
+open_from_disk: ./dday/textures/terrain/trans.wal: 440 bytes
 open_from_disk: ./dday/textures/dday3/trk_canvas.png: No such file or directory
 open_from_disk: ./dday/textures/dday3/trk_canvas.png: No such file or directory
 open_file_read: textures/dday3/trk_canvas.png: No such file or directory
@@ -739,56 +811,6 @@ open_from_disk: ./dday/pics/w_m9130s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_m9130s.tga: No such file or directory
 open_file_read: pics/w_m9130s.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/w_m9130s.pcx: 1419 bytes
-open_from_disk: ./dday/pics/a_f1grenade.png: No such file or directory
-open_from_disk: ./dday/pics/a_f1grenade.png: No such file or directory
-open_file_read: pics/a_f1grenade.png: No such file or directory
-open_from_disk: ./dday/pics/a_f1grenade.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_f1grenade.jpg: No such file or directory
-open_file_read: pics/a_f1grenade.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
-open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
-open_file_read: pics/a_f1grenade.tga: No such file or directory
-open_from_disk: ./dday/pics/a_f1grenade.pcx: 1194 bytes
-open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
-open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
-open_file_read: pics/a_m9130.png: No such file or directory
-open_from_disk: ./dday/pics/a_m9130.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_m9130.jpg: No such file or directory
-open_file_read: pics/a_m9130.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_m9130.tga: No such file or directory
-open_from_disk: ./dday/pics/a_m9130.tga: No such file or directory
-open_file_read: pics/a_m9130.tga: No such file or directory
-open_from_disk: ./dday/pics/a_m9130.pcx: 1185 bytes
-open_from_disk: ./dday/pics/a_ppsh41.png: No such file or directory
-open_from_disk: ./dday/pics/a_ppsh41.png: No such file or directory
-open_file_read: pics/a_ppsh41.png: No such file or directory
-open_from_disk: ./dday/pics/a_ppsh41.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_ppsh41.jpg: No such file or directory
-open_file_read: pics/a_ppsh41.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_ppsh41.tga: No such file or directory
-open_from_disk: ./dday/pics/a_ppsh41.tga: No such file or directory
-open_file_read: pics/a_ppsh41.tga: No such file or directory
-open_from_disk: ./dday/pics/a_ppsh41.pcx: 1374 bytes
-open_from_disk: ./dday/pics/a_pps43.png: No such file or directory
-open_from_disk: ./dday/pics/a_pps43.png: No such file or directory
-open_file_read: pics/a_pps43.png: No such file or directory
-open_from_disk: ./dday/pics/a_pps43.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_pps43.jpg: No such file or directory
-open_file_read: pics/a_pps43.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_pps43.tga: No such file or directory
-open_from_disk: ./dday/pics/a_pps43.tga: No such file or directory
-open_file_read: pics/a_pps43.tga: No such file or directory
-open_from_disk: ./dday/pics/a_pps43.pcx: 1047 bytes
-open_from_disk: ./dday/pics/a_dpm.png: No such file or directory
-open_from_disk: ./dday/pics/a_dpm.png: No such file or directory
-open_file_read: pics/a_dpm.png: No such file or directory
-open_from_disk: ./dday/pics/a_dpm.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_dpm.jpg: No such file or directory
-open_file_read: pics/a_dpm.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
-open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
-open_file_read: pics/a_dpm.tga: No such file or directory
-open_from_disk: ./dday/pics/a_dpm.pcx: 1367 bytes
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_file_read: pics/scope_rus.png: No such file or directory
@@ -961,64 +983,42 @@ open_from_disk: ./dday/sound/airstrike/stuka.wav: 194826 bytes
 open_from_disk: ./dday/locs/luga.loc: No such file or directory
 open_from_disk: ./dday/locs/luga.loc: No such file or directory
 open_file_read: locs/luga.loc: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
-open_file_read: pics/teams/rus.png: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
-open_file_read: pics/teams/rus.jpg: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
-open_file_read: pics/teams/rus.tga: No such file or directory
-open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
 Usage: connect <server> [34|35|36]
-Zhukov connected.
-Erik connected.
-Zhukov joined the game.
-open_from_disk: ./dday/players/rus/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.png: No such file or directory
-open_file_read: players/rus/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.jpg: No such file or directory
-open_file_read: players/rus/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.tga: No such file or directory
-open_file_read: players/rus/class_hmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/rus/class_hmg.pcx: 90089 bytes
+KalashniBOT connected.
+BOTwurst connected.
+KalashniBOT joined the game.
+open_from_disk: ./dday/players/rus/class_lmg.png: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg.png: No such file or directory
+open_file_read: players/rus/class_lmg.png: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg.jpg: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg.jpg: No such file or directory
+open_file_read: players/rus/class_lmg.jpg: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg.tga: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg.tga: No such file or directory
+open_file_read: players/rus/class_lmg.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/rus/class_lmg.pcx: 89458 bytes
 open_from_pak: ./dday/pak3.pak/players/rus/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/rus/class_hmg_i.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.png: No such file or directory
-open_file_read: players/rus/class_hmg_i.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.jpg: No such file or directory
-open_file_read: players/rus/class_hmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.tga: No such file or directory
-open_file_read: players/rus/class_hmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.pcx: 1265 bytes
-Erik joined the game.
-open_from_disk: ./dday/players/grm/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.png: No such file or directory
-open_file_read: players/grm/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.jpg: No such file or directory
-open_file_read: players/grm/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.tga: No such file or directory
-open_file_read: players/grm/class_lmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_lmg.pcx: 82100 bytes
-open_from_disk: ./dday/players/grm/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg_i.png: No such file or directory
-open_file_read: players/grm/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg_i.jpg: No such file or directory
-open_file_read: players/grm/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg_i.tga: No such file or directory
-open_file_read: players/grm/class_lmg_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_lmg_i.pcx: 1940 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/move1.wav: 18860 bytes
-open_from_disk: ./dday/sound/misc/prone2.wav: 31782 bytes
+open_from_disk: ./dday/players/rus/class_lmg_i.png: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg_i.png: No such file or directory
+open_file_read: players/rus/class_lmg_i.png: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg_i.jpg: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg_i.jpg: No such file or directory
+open_file_read: players/rus/class_lmg_i.jpg: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg_i.tga: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg_i.tga: No such file or directory
+open_file_read: players/rus/class_lmg_i.tga: No such file or directory
+open_from_disk: ./dday/players/rus/class_lmg_i.pcx: 1265 bytes
+BOTwurst joined the game.
+open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
+open_file_read: players/grm/class_hmg.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
+open_file_read: players/grm/class_hmg.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
+open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
+open_file_read: players/grm/class_hmg.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/grm/class_hmg.pcx: 96053 bytes
 open_from_disk: ./dday/cfg/luga.cfg: 29 bytes
 Execing cfg/luga.cfg
 open_file_write: ./dday/condumps/luga.txt: 0 bytes

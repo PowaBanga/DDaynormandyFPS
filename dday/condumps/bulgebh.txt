@@ -1,22 +1,3 @@
-open_from_disk: ./dday/textures/colpiron/metal_usa2.png: No such file or directory
-open_file_read: textures/colpiron/metal_usa2.png: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_usa2.jpg: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_usa2.jpg: No such file or directory
-open_file_read: textures/colpiron/metal_usa2.jpg: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_usa2.tga: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_usa2.tga: No such file or directory
-open_file_read: textures/colpiron/metal_usa2.tga: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_usa2.wal: 6220 bytes
-open_from_disk: ./dday/textures/dday3/trk_caback.png: No such file or directory
-open_from_disk: ./dday/textures/dday3/trk_caback.png: No such file or directory
-open_file_read: textures/dday3/trk_caback.png: No such file or directory
-open_from_disk: ./dday/textures/dday3/trk_caback.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday3/trk_caback.jpg: No such file or directory
-open_file_read: textures/dday3/trk_caback.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday3/trk_caback.tga: No such file or directory
-open_from_disk: ./dday/textures/dday3/trk_caback.tga: No such file or directory
-open_file_read: textures/dday3/trk_caback.tga: No such file or directory
-open_from_pak: ./dday/pak0.pak/textures/dday3/trk_caback.wal: 4180 bytes
 open_from_disk: ./dday/textures/colpiron/metal_dash.png: No such file or directory
 open_from_disk: ./dday/textures/colpiron/metal_dash.png: No such file or directory
 open_file_read: textures/colpiron/metal_dash.png: No such file or directory
@@ -702,6 +683,16 @@ open_from_disk: ./dday/players/usa/class_hmg.tga: No such file or directory
 open_file_read: players/usa/class_hmg.tga: No such file or directory
 open_from_pak: ./dday/pak3.pak/players/usa/class_hmg.pcx: 102235 bytes
 open_from_disk: ./dday/models/mapmodels/faf/gi3.md2: 63288 bytes
+open_from_disk: ./dday/players/usa/class_sniper.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_sniper.png: No such file or directory
+open_file_read: players/usa/class_sniper.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_sniper.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_sniper.jpg: No such file or directory
+open_file_read: players/usa/class_sniper.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_sniper.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_sniper.tga: No such file or directory
+open_file_read: players/usa/class_sniper.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/usa/class_sniper.pcx: 98434 bytes
 open_from_disk: ./dday/models/mapmodels/faf/gi4.md2: 112188 bytes
 open_from_disk: ./dday/players/usa/class_engineer.png: No such file or directory
 open_from_disk: ./dday/players/usa/class_engineer.png: No such file or directory
@@ -982,43 +973,52 @@ open_from_disk: ./dday/pics/objectives/bulgebh.tga: No such file or directory
 open_file_read: pics/objectives/bulgebh.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/bulgebh.pcx: 33251 bytes
 Usage: connect <server> [34|35|36]
-G.I. Joe connected.
-Lars connected.
-Lars joined the game.
-open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
-open_file_read: players/grm/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
-open_file_read: players/grm/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
-open_file_read: players/grm/class_hmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_hmg.pcx: 96053 bytes
-G.I. Joe joined the game.
-open_from_disk: ./dday/players/usa/class_officer.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.png: No such file or directory
-open_file_read: players/usa/class_officer.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.jpg: No such file or directory
-open_file_read: players/usa/class_officer.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer.tga: No such file or directory
-open_file_read: players/usa/class_officer.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_officer.pcx: 98437 bytes
+Blithe connected.
+Adolf connected.
+Blithe joined the game.
+open_from_disk: ./dday/players/usa/class_flamethrower.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower.png: No such file or directory
+open_file_read: players/usa/class_flamethrower.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower.jpg: No such file or directory
+open_file_read: players/usa/class_flamethrower.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower.tga: No such file or directory
+open_file_read: players/usa/class_flamethrower.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/usa/class_flamethrower.pcx: 93607 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/class_officer_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.png: No such file or directory
-open_file_read: players/usa/class_officer_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.jpg: No such file or directory
-open_file_read: players/usa/class_officer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.tga: No such file or directory
-open_file_read: players/usa/class_officer_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_officer_i.pcx: 2165 bytes
-open_from_pak: ./dday/pak1.pak/sound/usa/shout/attack1.wav: 15372 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/move2.wav: 20684 bytes
+open_from_disk: ./dday/players/usa/class_flamethrower_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower_i.png: No such file or directory
+open_file_read: players/usa/class_flamethrower_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower_i.jpg: No such file or directory
+open_file_read: players/usa/class_flamethrower_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower_i.tga: No such file or directory
+open_file_read: players/usa/class_flamethrower_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_flamethrower_i.pcx: 2165 bytes
+open_from_disk: ./dday/sound/weapons/flamer/fireitup.wav: 93286 bytes
+Adolf joined the game.
+open_from_disk: ./dday/players/grm/class_special.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_special.png: No such file or directory
+open_file_read: players/grm/class_special.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_special.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_special.jpg: No such file or directory
+open_file_read: players/grm/class_special.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_special.tga: No such file or directory
+open_from_disk: ./dday/players/grm/class_special.tga: No such file or directory
+open_file_read: players/grm/class_special.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/grm/class_special.pcx: 79831 bytes
+open_from_disk: ./dday/players/grm/class_special_i.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_special_i.png: No such file or directory
+open_file_read: players/grm/class_special_i.png: No such file or directory
+open_from_disk: ./dday/players/grm/class_special_i.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_special_i.jpg: No such file or directory
+open_file_read: players/grm/class_special_i.jpg: No such file or directory
+open_from_disk: ./dday/players/grm/class_special_i.tga: No such file or directory
+open_from_disk: ./dday/players/grm/class_special_i.tga: No such file or directory
+open_file_read: players/grm/class_special_i.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/players/grm/class_special_i.pcx: 1940 bytes
 open_from_disk: ./dday/cfg/bulgebh.cfg: 35 bytes
 Execing cfg/bulgebh.cfg
 open_file_write: ./dday/condumps/bulgebh.txt: 0 bytes

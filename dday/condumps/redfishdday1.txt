@@ -1,3 +1,25 @@
+open_from_disk: ./dday/maps/redfishdday1.bsp: 1774432 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: redfishdday1
+open_from_disk: ./dday/maps/redfishdday1.ent: No such file or directory
+open_from_disk: ./dday/maps/redfishdday1.ent: No such file or directory
+open_file_read: maps/redfishdday1.ent: No such file or directory
+No .ent File for redfishdday1.bsp
+Loading map objective pic dday/pics/objectives/redfishdday1.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: redfishdday1
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
 PowaBanga connected.
 Connected to loopback (protocol 36).
 
@@ -16,15 +38,11 @@ open_from_disk: ./dday/textures/navarone/grss1.tga: No such file or directory
 open_file_read: textures/navarone/grss1.tga: No such file or directory
 open_from_disk: ./dday/textures/navarone/grss1.wal: 136100 bytes
 open_from_disk: ./dday/textures/e1u1/rocks19_1.png: 54363 bytes
-open_from_disk: ./dday/textures/e1u1/rocks19_1.wal: 21860 bytes
+open_from_disk: ./dday/textures/e1u1/rocks19_1.wal: 43620 bytes
 open_from_disk: ./dday/textures/e1u3/grass1_5.png: 6868 bytes
-open_from_disk: ./dday/textures/e1u3/grass1_5.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u3/grass1_5.wal: No such file or directory
-open_file_read: textures/e1u3/grass1_5.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u3/grass1_5.wal: 5540 bytes
 open_from_disk: ./dday/textures/e2u2/rock0_1.png: 28193 bytes
-open_from_disk: ./dday/textures/e2u2/rock0_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u2/rock0_1.wal: No such file or directory
-open_file_read: textures/e2u2/rock0_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e2u2/rock0_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/e2u2/metal18_2.png: 11424 bytes
 open_from_disk: ./dday/textures/e2u2/metal18_2.wal: 21860 bytes
 open_from_disk: ./dday/textures/e1u1/black.png: 93 bytes
@@ -88,13 +106,9 @@ open_from_disk: ./dday/textures/e3u3/metal23_3.wal: 5540 bytes
 open_from_disk: ./dday/textures/e2u1/floor3_7.png: 5787 bytes
 open_from_disk: ./dday/textures/e2u1/floor3_7.wal: 5540 bytes
 open_from_disk: ./dday/textures/e2u2/metal18_1.png: 15210 bytes
-open_from_disk: ./dday/textures/e2u2/metal18_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u2/metal18_1.wal: No such file or directory
-open_file_read: textures/e2u2/metal18_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e2u2/metal18_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/e3u3/metal19_2.png: 15512 bytes
-open_from_disk: ./dday/textures/e3u3/metal19_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e3u3/metal19_2.wal: No such file or directory
-open_file_read: textures/e3u3/metal19_2.wal: No such file or directory
+open_from_disk: ./dday/textures/e3u3/metal19_2.wal: 21860 bytes
 open_from_disk: ./dday/textures/e3u1/marble1_7.png: 3679 bytes
 open_from_disk: ./dday/textures/e3u1/marble1_7.wal: 5540 bytes
 open_from_disk: ./dday/textures/e3u1/reddr2_1.png: 301 bytes
@@ -134,17 +148,11 @@ open_from_disk: ./dday/textures/e2u1/metal35_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/e1u1/grass1_8.png: 4852 bytes
 open_from_disk: ./dday/textures/e1u1/grass1_8.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/wbasic1_1.png: 4950 bytes
-open_from_disk: ./dday/textures/e1u1/wbasic1_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/wbasic1_1.wal: No such file or directory
-open_file_read: textures/e1u1/wbasic1_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/wbasic1_1.wal: 5540 bytes
 open_from_disk: ./dday/textures/e2u1/mmtl14_1.png: 5296 bytes
-open_from_disk: ./dday/textures/e2u1/mmtl14_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u1/mmtl14_1.wal: No such file or directory
-open_file_read: textures/e2u1/mmtl14_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e2u1/mmtl14_1.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/grnx2_6.png: 4393 bytes
-open_from_disk: ./dday/textures/e1u1/grnx2_6.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/grnx2_6.wal: No such file or directory
-open_file_read: textures/e1u1/grnx2_6.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/grnx2_6.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/c_met7_1.png: 29903 bytes
 open_from_disk: ./dday/textures/e1u1/c_met7_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/e1u2/basic1_7.png: 3248 bytes
@@ -156,13 +164,9 @@ open_from_disk: ./dday/textures/e3u1/metl5b_3.wal: 5540 bytes
 open_from_disk: ./dday/textures/e2u1/metal36_2.png: 7881 bytes
 open_from_disk: ./dday/textures/e2u1/metal36_2.wal: 10980 bytes
 open_from_disk: ./dday/textures/e3u1/pmetal6_1.png: 6258 bytes
-open_from_disk: ./dday/textures/e3u1/pmetal6_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e3u1/pmetal6_1.wal: No such file or directory
-open_file_read: textures/e3u1/pmetal6_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e3u1/pmetal6_1.wal: 10980 bytes
 open_from_disk: ./dday/textures/e1u3/rocks16_1.png: 25463 bytes
-open_from_disk: ./dday/textures/e1u3/rocks16_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u3/rocks16_1.wal: No such file or directory
-open_file_read: textures/e1u3/rocks16_1.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u3/rocks16_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/e2u3/rocks17_2.png: 28936 bytes
 open_from_disk: ./dday/textures/e2u3/rocks17_2.wal: 21860 bytes
 open_from_disk: ./dday/textures/dday/grass1.png: No such file or directory
@@ -176,9 +180,7 @@ open_from_disk: ./dday/textures/dday/grass1.tga: No such file or directory
 open_file_read: textures/dday/grass1.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/grass1.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/broken2_2.png: 1586 bytes
-open_from_disk: ./dday/textures/e1u1/broken2_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/broken2_2.wal: No such file or directory
-open_file_read: textures/e1u1/broken2_2.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/broken2_2.wal: 1460 bytes
 open_from_disk: ./dday/textures/inland/b_rc_v8aa.png: No such file or directory
 open_from_disk: ./dday/textures/inland/b_rc_v8aa.png: No such file or directory
 open_file_read: textures/inland/b_rc_v8aa.png: No such file or directory
@@ -200,9 +202,7 @@ open_from_disk: ./dday/textures/faf/sand4.tga: No such file or directory
 open_file_read: textures/faf/sand4.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/sand4.wal: 21860 bytes
 open_from_disk: ./dday/textures/e1u1/water8.png: 2437 bytes
-open_from_disk: ./dday/textures/e1u1/water8.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/water8.wal: No such file or directory
-open_file_read: textures/e1u1/water8.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/water8.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/metal14_1.png: 4276 bytes
 open_from_disk: ./dday/textures/e1u1/metal14_1.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u3/con1_2.png: 5069 bytes
