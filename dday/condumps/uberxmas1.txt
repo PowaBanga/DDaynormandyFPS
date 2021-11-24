@@ -1,3 +1,25 @@
+open_from_disk: ./dday/textures/dday3/first_aidside2.png: No such file or directory
+open_file_read: textures/dday3/first_aidside2.png: No such file or directory
+open_from_disk: ./dday/textures/dday3/first_aidside2.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday3/first_aidside2.jpg: No such file or directory
+open_file_read: textures/dday3/first_aidside2.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday3/first_aidside2.tga: No such file or directory
+open_from_disk: ./dday/textures/dday3/first_aidside2.tga: No such file or directory
+open_file_read: textures/dday3/first_aidside2.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/textures/dday3/first_aidside2.wal: 3500 bytes
+open_from_disk: ./dday/textures/beach/bunkerwall.png: 96761 bytes
+open_from_pak: ./dday/pak0.pak/textures/beach/bunkerwall.wal: 21860 bytes
+open_from_disk: ./dday/textures/e1u1/clip.png: 246 bytes
+open_from_disk: ./dday/textures/e1u1/clip.wal: 1460 bytes
+open_from_disk: ./dday/textures/e2u1/fmet1_2.png: 5704 bytes
+open_from_disk: ./dday/textures/e2u1/fmet1_2.wal: 10980 bytes
+open_from_disk: ./dday/textures/faf/woodeditx.png: No such file or directory
+open_from_disk: ./dday/textures/faf/woodeditx.png: No such file or directory
+open_file_read: textures/faf/woodeditx.png: No such file or directory
+open_from_disk: ./dday/textures/faf/woodeditx.jpg: No such file or directory
+open_from_disk: ./dday/textures/faf/woodeditx.jpg: No such file or directory
+open_file_read: textures/faf/woodeditx.jpg: No such file or directory
+open_from_disk: ./dday/textures/faf/woodeditx.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/woodeditx.tga: No such file or directory
 open_file_read: textures/faf/woodeditx.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/woodeditx.wal: 21860 bytes
@@ -241,30 +263,8 @@ open_from_disk: ./dday/textures/e3u3/arvnt1_2.png: 3853 bytes
 open_from_disk: ./dday/textures/e3u3/arvnt1_2.wal: 5540 bytes
 open_from_disk: ./dday/textures/e3u1/dfloor9_2.png: 10518 bytes
 open_from_disk: ./dday/textures/e3u1/dfloor9_2.wal: 21860 bytes
-open_from_disk: ./dday/textures/e1u1/pip04_5.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.png: No such file or directory
-open_file_read: textures/e1u1/pip04_5.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.jpg: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.jpg: No such file or directory
-open_file_read: textures/e1u1/pip04_5.jpg: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.tga: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.tga: No such file or directory
-open_file_read: textures/e1u1/pip04_5.tga: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.wal: No such file or directory
-open_file_read: textures/e1u1/pip04_5.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.png: No such file or directory
-open_file_read: textures/e1u1/pip04_5.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.jpg: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.jpg: No such file or directory
-open_file_read: textures/e1u1/pip04_5.jpg: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.tga: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.tga: No such file or directory
-open_file_read: textures/e1u1/pip04_5.tga: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/pip04_5.wal: No such file or directory
-open_file_read: textures/e1u1/pip04_5.wal: No such file or directory
+open_from_disk: ./dday/textures/e1u1/pip04_5.png: 3739 bytes
+open_from_disk: ./dday/textures/e1u1/pip04_5.wal: 5540 bytes
 open_from_disk: ./dday/textures/e3u3/rpip2_2.png: 10580 bytes
 open_from_disk: ./dday/textures/e3u3/rpip2_2.wal: 10980 bytes
 open_from_disk: ./dday/textures/e1u1/pip02_1.png: 8693 bytes
@@ -556,7 +556,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -621,7 +621,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -846,7 +846,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

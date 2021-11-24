@@ -1,13 +1,43 @@
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_file_read: pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_file_read: pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_file_read: pics/w_webley.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_webley.pcx: 1412 bytes
+open_from_disk: ./dday/players/gbr/w_piat.jpg: No such file or directory
+open_file_read: players/gbr/w_piat.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_piat.tga: No such file or directory
+open_from_disk: ./dday/players/gbr/w_piat.tga: No such file or directory
+open_file_read: players/gbr/w_piat.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/gbr/w_piat.pcx: 14065 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/w_303s.md2: 525964 bytes
+open_from_disk: ./dday/players/gbr/w_303s.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_303s.png: No such file or directory
+open_file_read: players/gbr/w_303s.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_303s.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_303s.jpg: No such file or directory
+open_file_read: players/gbr/w_303s.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_303s.tga: No such file or directory
+open_from_disk: ./dday/players/gbr/w_303s.tga: No such file or directory
+open_file_read: players/gbr/w_303s.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/gbr/w_303s.pcx: 57776 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/a_mills_bomb.md2: 261740 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/w_flame.md2: 248260 bytes
+open_from_disk: ./dday/players/gbr/w_flame.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_flame.png: No such file or directory
+open_file_read: players/gbr/w_flame.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_flame.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_flame.jpg: No such file or directory
+open_file_read: players/gbr/w_flame.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_flame.tga: No such file or directory
+open_from_disk: ./dday/players/gbr/w_flame.tga: No such file or directory
+open_file_read: players/gbr/w_flame.tga: No such file or directory
+open_from_disk: ./dday/players/gbr/w_flame.pcx: 22675 bytes
+open_from_disk: ./dday/models/ships/gbrplane/tris.md2: 20288 bytes
+open_from_disk: ./dday/models/ships/gbrplane/skin.png: No such file or directory
+open_from_disk: ./dday/models/ships/gbrplane/skin.png: No such file or directory
+open_file_read: models/ships/gbrplane/skin.png: No such file or directory
+open_from_disk: ./dday/models/ships/gbrplane/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/ships/gbrplane/skin.jpg: No such file or directory
+open_file_read: models/ships/gbrplane/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/ships/gbrplane/skin.tga: No such file or directory
+open_from_disk: ./dday/models/ships/gbrplane/skin.tga: No such file or directory
+open_file_read: models/ships/gbrplane/skin.tga: No such file or directory
+open_from_disk: ./dday/models/ships/gbrplane/skin.pcx: 13330 bytes
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_file_read: pics/w_303.png: No such file or directory
@@ -68,16 +98,6 @@ open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_file_read: pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.pcx: 1751 bytes
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_file_read: pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_file_read: pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_file_read: pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.pcx: 1422 bytes
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_file_read: pics/a_webley.png: No such file or directory
@@ -288,7 +308,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -759,16 +779,6 @@ open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
 open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
 open_file_read: pics/a_f1grenade.tga: No such file or directory
 open_from_disk: ./dday/pics/a_f1grenade.pcx: 1194 bytes
-open_from_disk: ./dday/pics/a_tt33.png: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.png: No such file or directory
-open_file_read: pics/a_tt33.png: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.jpg: No such file or directory
-open_file_read: pics/a_tt33.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.tga: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.tga: No such file or directory
-open_file_read: pics/a_tt33.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/a_tt33.pcx: 1111 bytes
 open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
 open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
 open_file_read: pics/a_m9130.png: No such file or directory
@@ -809,16 +819,6 @@ open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
 open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
 open_file_read: pics/a_dpm.tga: No such file or directory
 open_from_disk: ./dday/pics/a_dpm.pcx: 1367 bytes
-open_from_disk: ./dday/pics/w_molotov.png: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.png: No such file or directory
-open_file_read: pics/w_molotov.png: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.jpg: No such file or directory
-open_file_read: pics/w_molotov.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.tga: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.tga: No such file or directory
-open_file_read: pics/w_molotov.tga: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.pcx: 1503 bytes
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_file_read: pics/scope_rus.png: No such file or directory
@@ -962,7 +962,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

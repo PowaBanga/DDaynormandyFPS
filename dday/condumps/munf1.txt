@@ -1,3 +1,23 @@
+open_from_disk: ./dday/models/items/ammo/gbr/piatrocks/skin.jpg: No such file or directory
+open_file_read: models/items/ammo/gbr/piatrocks/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/items/ammo/gbr/piatrocks/skin.tga: No such file or directory
+open_from_disk: ./dday/models/items/ammo/gbr/piatrocks/skin.tga: No such file or directory
+open_file_read: models/items/ammo/gbr/piatrocks/skin.tga: No such file or directory
+open_from_disk: ./dday/models/items/ammo/gbr/piatrocks/skin.pcx: 12692 bytes
+open_from_disk: ./dday/models/items/ammo/gbr/303smag/tris.md2: 3768 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/tris.md2: 1092108 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/w_webley.md2: 449528 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/w_303.md2: 247724 bytes
+open_from_pak: ./dday/pak3.pak/players/gbr/w_sten.md2: 224800 bytes
+open_from_disk: ./dday/players/gbr/w_sten.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_sten.png: No such file or directory
+open_file_read: players/gbr/w_sten.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_sten.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_sten.jpg: No such file or directory
+open_file_read: players/gbr/w_sten.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_sten.tga: No such file or directory
+open_from_disk: ./dday/players/gbr/w_sten.tga: No such file or directory
+open_file_read: players/gbr/w_sten.tga: No such file or directory
 open_from_pak: ./dday/pak3.pak/players/gbr/w_sten.pcx: 42178 bytes
 open_from_pak: ./dday/pak3.pak/players/gbr/w_bren.md2: 192860 bytes
 open_from_pak: ./dday/pak3.pak/players/gbr/w_vickers.md2: 665072 bytes
@@ -79,16 +99,6 @@ open_from_disk: ./dday/models/objects/minelite/light2/base.tga: No such file or 
 open_from_disk: ./dday/models/objects/minelite/light2/base.tga: No such file or directory
 open_file_read: models/objects/minelite/light2/base.tga: No such file or directory
 open_from_disk: ./dday/models/objects/minelite/light2/base.pcx: 12317 bytes
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_file_read: pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_file_read: pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_file_read: pics/w_webley.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_webley.pcx: 1412 bytes
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_file_read: pics/w_303.png: No such file or directory
@@ -149,16 +159,6 @@ open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_file_read: pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.pcx: 1751 bytes
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_file_read: pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_file_read: pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_file_read: pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.pcx: 1422 bytes
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_file_read: pics/a_webley.png: No such file or directory
@@ -333,7 +333,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

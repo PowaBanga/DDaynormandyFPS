@@ -1,14 +1,3 @@
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc.tga: No such file or directory
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc.tga: No such file or directory
-open_file_read: textures/dday2/wallpaperd_oldc.tga: No such file or directory
-open_from_pak: ./dday/pak0.pak/textures/dday2/wallpaperd_oldc.wal: 87140 bytes
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc_h.png: No such file or directory
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc_h.png: No such file or directory
-open_file_read: textures/dday2/wallpaperd_oldc_h.png: No such file or directory
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc_h.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc_h.jpg: No such file or directory
-open_file_read: textures/dday2/wallpaperd_oldc_h.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday2/wallpaperd_oldc_h.tga: No such file or directory
 open_from_disk: ./dday/textures/dday2/wallpaperd_oldc_h.tga: No such file or directory
 open_file_read: textures/dday2/wallpaperd_oldc_h.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday2/wallpaperd_oldc_h.wal: 87140 bytes
@@ -99,6 +88,17 @@ open_file_read: models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/usa/w_thompson.md2: 116976 bytes
+open_from_disk: ./dday/players/usa/w_thompson.png: No such file or directory
+open_from_disk: ./dday/players/usa/w_thompson.png: No such file or directory
+open_file_read: players/usa/w_thompson.png: No such file or directory
+open_from_disk: ./dday/players/usa/w_thompson.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/w_thompson.jpg: No such file or directory
+open_file_read: players/usa/w_thompson.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/w_thompson.tga: No such file or directory
+open_from_disk: ./dday/players/usa/w_thompson.tga: No such file or directory
+open_file_read: players/usa/w_thompson.tga: No such file or directory
+open_from_disk: ./dday/players/usa/w_thompson.pcx: 36975 bytes
 open_from_disk: ./dday/models/ships/usaplane/tris.md2: 9752 bytes
 open_from_disk: ./dday/models/ships/usaplane/skin.png: No such file or directory
 open_from_disk: ./dday/models/ships/usaplane/skin.png: No such file or directory
@@ -683,7 +683,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -880,7 +880,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

@@ -1,3 +1,24 @@
+open_from_disk: ./dday/textures/dday/wood1.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/wood1.jpg: No such file or directory
+open_file_read: textures/dday/wood1.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/wood1.tga: 294312 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/wood1.wal: 32740 bytes
+open_from_disk: ./dday/textures/dday/base_box.png: No such file or directory
+open_from_disk: ./dday/textures/dday/base_box.png: No such file or directory
+open_file_read: textures/dday/base_box.png: No such file or directory
+open_from_disk: ./dday/textures/dday/base_box.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/base_box.jpg: No such file or directory
+open_file_read: textures/dday/base_box.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/base_box.tga: No such file or directory
+open_from_disk: ./dday/textures/dday/base_box.tga: No such file or directory
+open_file_read: textures/dday/base_box.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/textures/dday/base_box.wal: 5540 bytes
+open_from_disk: ./dday/textures/dday/base_boxtop.png: No such file or directory
+open_from_disk: ./dday/textures/dday/base_boxtop.png: No such file or directory
+open_file_read: textures/dday/base_boxtop.png: No such file or directory
+open_from_disk: ./dday/textures/dday/base_boxtop.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/base_boxtop.jpg: No such file or directory
+open_file_read: textures/dday/base_boxtop.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday/base_boxtop.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/base_boxtop.tga: No such file or directory
 open_file_read: textures/dday/base_boxtop.tga: No such file or directory
@@ -399,6 +420,8 @@ open_from_disk: ./dday/pics/objectives/dday1v.tga: No such file or directory
 open_file_read: pics/objectives/dday1v.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/dday1v.pcx: 22882 bytes
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/dday1v.cfg: 27 bytes
 Execing cfg/dday1v.cfg
 open_file_write: ./dday/condumps/dday1v.txt: 0 bytes
@@ -434,7 +457,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -996,29 +1019,6 @@ open_from_disk: ./dday/pics/objectives/dday1.tga: No such file or directory
 open_file_read: pics/objectives/dday1.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/dday1.pcx: 38915 bytes
 Usage: connect <server> [34|35|36]
-Speirs connected.
-Lars connected.
-Lars joined the game.
-open_from_disk: ./dday/players/grm/class_engineer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.png: No such file or directory
-open_file_read: players/grm/class_engineer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.jpg: No such file or directory
-open_file_read: players/grm/class_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.tga: No such file or directory
-open_file_read: players/grm/class_engineer.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_engineer.pcx: 95786 bytes
-open_from_disk: ./dday/players/grm/class_engineer_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer_i.png: No such file or directory
-open_file_read: players/grm/class_engineer_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer_i.jpg: No such file or directory
-open_file_read: players/grm/class_engineer_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer_i.tga: No such file or directory
-open_file_read: players/grm/class_engineer_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_engineer_i.pcx: 1940 bytes
 open_from_disk: ./dday/cfg/dday1.cfg: 381 bytes
 Execing cfg/dday1.cfg
 open_file_write: ./dday/condumps/dday1.txt: 0 bytes

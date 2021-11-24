@@ -1,7 +1,3 @@
-open_from_disk: ./dday/models/items/ammo/lmg2/skin.png: No such file or directory
-open_file_read: models/items/ammo/lmg2/skin.png: No such file or directory
-open_from_disk: ./dday/models/items/ammo/lmg2/skin.jpg: No such file or directory
-open_from_disk: ./dday/models/items/ammo/lmg2/skin.jpg: No such file or directory
 open_file_read: models/items/ammo/lmg2/skin.jpg: No such file or directory
 open_from_disk: ./dday/models/items/ammo/lmg2/skin.tga: No such file or directory
 open_from_disk: ./dday/models/items/ammo/lmg2/skin.tga: No such file or directory
@@ -301,6 +297,8 @@ open_file_read: sound/lewin/woda.wav: No such file or directory
 open_from_disk: ./dday/locs/ch.uprising.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.uprising.loc: No such file or directory
 open_file_read: locs/ch.uprising.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ch.uprising.cfg: 32 bytes
 Execing cfg/ch.uprising.cfg
@@ -328,7 +326,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/sound/misc/talk.wav: 8778 bytes
 open_from_disk: ./dday/locs/ch.tambush.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.tambush.loc: No such file or directory
 open_file_read: locs/ch.tambush.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ch.tambush.cfg: 32 bytes
 Execing cfg/ch.tambush.cfg

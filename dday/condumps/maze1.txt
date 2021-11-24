@@ -1,7 +1,3 @@
-open_file_read: textures/dday2/b9.tga: No such file or directory
-open_from_pak: ./dday/pak0.pak/textures/dday2/b9.wal: 5540 bytes
-open_from_disk: ./dday/textures/dday2/a14.png: No such file or directory
-open_from_disk: ./dday/textures/dday2/a14.png: No such file or directory
 open_file_read: textures/dday2/a14.png: No such file or directory
 open_from_disk: ./dday/textures/dday2/a14.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday2/a14.jpg: No such file or directory
@@ -302,6 +298,8 @@ open_from_disk: ./dday/locs/maze.loc: No such file or directory
 open_from_disk: ./dday/locs/maze.loc: No such file or directory
 open_file_read: locs/maze.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/maze.cfg: 27 bytes
 Execing cfg/maze.cfg
 open_file_write: ./dday/condumps/maze.txt: 0 bytes
@@ -328,7 +326,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/sound/world/electro.wav: 59958 bytes
 open_from_disk: ./dday/locs/maze1.loc: No such file or directory
 open_from_disk: ./dday/locs/maze1.loc: No such file or directory
 open_file_read: locs/maze1.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/maze1.cfg: 34 bytes
 Execing cfg/maze1.cfg

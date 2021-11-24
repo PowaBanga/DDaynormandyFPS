@@ -1,3 +1,19 @@
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
+open_file_read: models/ctf/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
+open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
+open_file_read: sprites/s_bfg2.sp2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_file_read: models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_file_read: models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
@@ -49,6 +65,8 @@ open_from_disk: ./dday/sound/faf/windr.wav: 211264 bytes
 open_from_disk: ./dday/locs/diving.loc: No such file or directory
 open_from_disk: ./dday/locs/diving.loc: No such file or directory
 open_file_read: locs/diving.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/diving.cfg: 35 bytes
 Execing cfg/diving.cfg
@@ -77,7 +95,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -764,16 +782,6 @@ open_from_disk: ./dday/models/ships/gbrplane/skin.tga: No such file or directory
 open_from_disk: ./dday/models/ships/gbrplane/skin.tga: No such file or directory
 open_file_read: models/ships/gbrplane/skin.tga: No such file or directory
 open_from_disk: ./dday/models/ships/gbrplane/skin.pcx: 13330 bytes
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_file_read: pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_file_read: pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_file_read: pics/w_webley.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_webley.pcx: 1412 bytes
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_file_read: pics/w_303.png: No such file or directory
@@ -834,16 +842,6 @@ open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_file_read: pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.pcx: 1751 bytes
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_file_read: pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_file_read: pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_file_read: pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.pcx: 1422 bytes
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_file_read: pics/a_webley.png: No such file or directory
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_file_read: pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.pcx: 1613 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/desertbattle4.cfg: 35 bytes
 Execing cfg/desertbattle4.cfg

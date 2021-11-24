@@ -1,3 +1,19 @@
+open_file_read: models/weapons/gbr/v_bren/arms.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/v_bren/arms.pcx: 156215 bytes
+open_from_disk: ./dday/models/weapons/gbr/g_vickers/tris.md2: 28544 bytes
+open_from_disk: ./dday/players/gbr/w_vickers.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_vickers.png: No such file or directory
+open_file_read: players/gbr/w_vickers.png: No such file or directory
+open_from_disk: ./dday/players/gbr/w_vickers.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_vickers.jpg: No such file or directory
+open_file_read: players/gbr/w_vickers.jpg: No such file or directory
+open_from_disk: ./dday/players/gbr/w_vickers.tga: No such file or directory
+open_from_disk: ./dday/players/gbr/w_vickers.tga: No such file or directory
+open_file_read: players/gbr/w_vickers.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/gbr/w_vickers.pcx: 36044 bytes
+open_from_disk: ./dday/models/weapons/gbr/v_vickers/tris.md2: 601728 bytes
+open_from_disk: ./dday/models/weapons/gbr/v_vickers/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/v_vickers/skin.png: No such file or directory
 open_file_read: models/weapons/gbr/v_vickers/skin.png: No such file or directory
 open_from_disk: ./dday/models/weapons/gbr/v_vickers/skin.jpg: No such file or directory
 open_from_disk: ./dday/models/weapons/gbr/v_vickers/skin.jpg: No such file or directory
@@ -160,16 +176,6 @@ open_from_disk: ./dday/models/ships/gbrplane/skin.tga: No such file or directory
 open_from_disk: ./dday/models/ships/gbrplane/skin.tga: No such file or directory
 open_file_read: models/ships/gbrplane/skin.tga: No such file or directory
 open_from_disk: ./dday/models/ships/gbrplane/skin.pcx: 13330 bytes
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_file_read: pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_file_read: pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_file_read: pics/w_webley.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_webley.pcx: 1412 bytes
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_file_read: pics/w_303.png: No such file or directory
@@ -230,16 +236,6 @@ open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_file_read: pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.pcx: 1751 bytes
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_file_read: pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_file_read: pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_file_read: pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.pcx: 1422 bytes
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_file_read: pics/a_webley.png: No such file or directory
@@ -442,6 +438,8 @@ open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_file_read: pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.pcx: 1613 bytes
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/monkey1.cfg: 27 bytes
 Execing cfg/monkey1.cfg
 open_file_write: ./dday/condumps/monkey1.txt: 0 bytes
@@ -468,7 +466,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/mkill.loc: No such file or directory
 open_from_disk: ./dday/locs/mkill.loc: No such file or directory
 open_file_read: locs/mkill.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/mkill.cfg: 32 bytes
 Execing cfg/mkill.cfg
 open_file_write: ./dday/condumps/mkill.txt: 0 bytes

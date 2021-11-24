@@ -1,3 +1,19 @@
+open_from_disk: ./dday/textures/dday3/gizmo_4_damaged.tga: No such file or directory
+open_from_disk: ./dday/textures/dday3/gizmo_4_damaged.tga: No such file or directory
+open_file_read: textures/dday3/gizmo_4_damaged.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/textures/dday3/gizmo_4_damaged.wal: 12340 bytes
+open_from_disk: ./dday/textures/inland/da_controls02.png: No such file or directory
+open_from_disk: ./dday/textures/inland/da_controls02.png: No such file or directory
+open_file_read: textures/inland/da_controls02.png: No such file or directory
+open_from_disk: ./dday/textures/inland/da_controls02.jpg: No such file or directory
+open_from_disk: ./dday/textures/inland/da_controls02.jpg: No such file or directory
+open_file_read: textures/inland/da_controls02.jpg: No such file or directory
+open_from_disk: ./dday/textures/inland/da_controls02.tga: No such file or directory
+open_from_disk: ./dday/textures/inland/da_controls02.tga: No such file or directory
+open_file_read: textures/inland/da_controls02.tga: No such file or directory
+open_from_disk: ./dday/textures/inland/da_controls02.wal: 10980 bytes
+open_from_disk: ./dday/textures/dday/ground1.png: No such file or directory
+open_from_disk: ./dday/textures/dday/ground1.png: No such file or directory
 open_file_read: textures/dday/ground1.png: No such file or directory
 open_from_disk: ./dday/textures/dday/ground1.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday/ground1.jpg: No such file or directory
@@ -477,16 +493,6 @@ open_from_disk: ./dday/models/objects/minelite/light1/base.tga: No such file or 
 open_from_disk: ./dday/models/objects/minelite/light1/base.tga: No such file or directory
 open_file_read: models/objects/minelite/light1/base.tga: No such file or directory
 open_from_disk: ./dday/models/objects/minelite/light1/base.pcx: 13598 bytes
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_file_read: pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_file_read: pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_file_read: pics/w_webley.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_webley.pcx: 1412 bytes
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_file_read: pics/w_303.png: No such file or directory
@@ -547,16 +553,6 @@ open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_file_read: pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.pcx: 1751 bytes
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_file_read: pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_file_read: pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_file_read: pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.pcx: 1422 bytes
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_file_read: pics/a_webley.png: No such file or directory
@@ -748,6 +744,8 @@ open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_file_read: pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.pcx: 1613 bytes
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/dv2x.cfg: 25 bytes
 Execing cfg/dv2x.cfg
 open_file_write: ./dday/condumps/dv2x.txt: 0 bytes
@@ -774,7 +772,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.tga: No such file or directory
 open_file_read: pics/teams/gbr.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/gbr.pcx: 1613 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/dv2.cfg: 30 bytes
 Execing cfg/dv2.cfg

@@ -1,3 +1,83 @@
+Usage: connect <server> [34|35|36]
+unnamed has joined team German Force.
+Your class is Infantry.
+open_from_disk: ./dday/cfg/castelo.cfg: 30 bytes
+Execing cfg/castelo.cfg
+open_file_write: ./dday/condumps/castelo.txt: 0 bytes
+Dumped console text to condumps/castelo.txt.
+open_from_disk: ./dday/maps/castel2k.bsp: 470336 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: castel2k
+open_from_disk: ./dday/maps/castel2k.ent: No such file or directory
+open_from_disk: ./dday/maps/castel2k.ent: No such file or directory
+open_file_read: maps/castel2k.ent: No such file or directory
+No .ent File for castel2k.bsp
+Loading map objective pic dday/pics/objectives/castel2k.pcx...done.
+0 entities inhibited
+2 teams with 18 entities
+server map: castel2k
+castel2k.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:79.
+       : added nodes:0.
+       : total nodes:79.
+       : loaded links:311.
+       : added links:0.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+unnamed connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Italy, Monte Castelo.
+By [FEB]Vassili Zaitsev, aka Cpt.Winters
+open_from_disk: ./dday/textures/extra/clip.png: No such file or directory
+open_from_disk: ./dday/textures/extra/clip.png: No such file or directory
+open_file_read: textures/extra/clip.png: No such file or directory
+open_from_disk: ./dday/textures/extra/clip.jpg: No such file or directory
+open_from_disk: ./dday/textures/extra/clip.jpg: No such file or directory
+open_file_read: textures/extra/clip.jpg: No such file or directory
+open_from_disk: ./dday/textures/extra/clip.tga: No such file or directory
+open_from_disk: ./dday/textures/extra/clip.tga: No such file or directory
+open_file_read: textures/extra/clip.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/textures/extra/clip.wal: 1460 bytes
+open_from_disk: ./dday/textures/terrain/grassrt2.png: No such file or directory
+open_from_disk: ./dday/textures/terrain/grassrt2.png: No such file or directory
+open_file_read: textures/terrain/grassrt2.png: No such file or directory
+open_from_disk: ./dday/textures/terrain/grassrt2.jpg: No such file or directory
+open_from_disk: ./dday/textures/terrain/grassrt2.jpg: No such file or directory
+open_file_read: textures/terrain/grassrt2.jpg: No such file or directory
+open_from_disk: ./dday/textures/terrain/grassrt2.tga: No such file or directory
+open_from_disk: ./dday/textures/terrain/grassrt2.tga: No such file or directory
+open_file_read: textures/terrain/grassrt2.tga: No such file or directory
+open_from_disk: ./dday/textures/terrain/grassrt2.wal: 21860 bytes
+open_from_disk: ./dday/textures/surreal/snb_cave9.png: No such file or directory
+open_from_disk: ./dday/textures/surreal/snb_cave9.png: No such file or directory
+open_file_read: textures/surreal/snb_cave9.png: No such file or directory
+open_from_disk: ./dday/textures/surreal/snb_cave9.jpg: No such file or directory
+open_from_disk: ./dday/textures/surreal/snb_cave9.jpg: No such file or directory
+open_file_read: textures/surreal/snb_cave9.jpg: No such file or directory
+open_from_disk: ./dday/textures/surreal/snb_cave9.tga: No such file or directory
+open_from_disk: ./dday/textures/surreal/snb_cave9.tga: No such file or directory
+open_file_read: textures/surreal/snb_cave9.tga: No such file or directory
+open_from_disk: ./dday/textures/surreal/snb_cave9.wal: 87140 bytes
+open_from_disk: ./dday/textures/dday/bark.png: No such file or directory
+open_from_disk: ./dday/textures/dday/bark.png: No such file or directory
+open_file_read: textures/dday/bark.png: No such file or directory
+open_from_disk: ./dday/textures/dday/bark.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/bark.jpg: No such file or directory
 open_file_read: textures/dday/bark.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday/bark.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/bark.tga: No such file or directory
@@ -238,41 +318,6 @@ open_from_disk: ./dday/pics/objectives/castel2k.tga: No such file or directory
 open_file_read: pics/objectives/castel2k.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/castel2k.pcx: 35182 bytes
 Usage: connect <server> [34|35|36]
-Patton connected.
-Erik connected.
-Patton joined the game.
-open_from_disk: ./dday/players/usa/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.png: No such file or directory
-open_file_read: players/usa/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.jpg: No such file or directory
-open_file_read: players/usa/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.tga: No such file or directory
-open_file_read: players/usa/class_lmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_lmg.pcx: 98244 bytes
-open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg_i.png: No such file or directory
-open_file_read: players/usa/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg_i.jpg: No such file or directory
-open_file_read: players/usa/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg_i.tga: No such file or directory
-open_file_read: players/usa/class_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg_i.pcx: 2165 bytes
-Erik joined the game.
-open_from_disk: ./dday/players/grm/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.png: No such file or directory
-open_file_read: players/grm/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.jpg: No such file or directory
-open_file_read: players/grm/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.tga: No such file or directory
-open_file_read: players/grm/class_lmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_lmg.pcx: 82100 bytes
 open_from_disk: ./dday/cfg/castel2k.cfg: 33 bytes
 Execing cfg/castel2k.cfg
 open_file_write: ./dday/condumps/castel2k.txt: 0 bytes
@@ -308,7 +353,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -974,51 +1019,6 @@ open_from_disk: ./dday/pics/teams/pol.tga: No such file or directory
 open_file_read: pics/teams/pol.tga: No such file or directory
 open_from_disk: ./dday/pics/teams/pol.pcx: 1403 bytes
 Usage: connect <server> [34|35|36]
-Fryderyk connected.
-PolkaBOT connected.
-Fryderyk joined the game.
-open_from_disk: ./dday/players/pol/class_sniper.png: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper.png: No such file or directory
-open_file_read: players/pol/class_sniper.png: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper.jpg: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper.jpg: No such file or directory
-open_file_read: players/pol/class_sniper.jpg: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper.tga: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper.tga: No such file or directory
-open_file_read: players/pol/class_sniper.tga: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper.pcx: 84864 bytes
-open_from_disk: ./dday/players/pol/weapon.md2: 12680 bytes
-open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
-open_from_disk: ./dday/players/grm/w_fists.png: No such file or directory
-open_file_read: players/grm/w_fists.png: No such file or directory
-open_from_disk: ./dday/players/grm/w_fists.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/w_fists.jpg: No such file or directory
-open_file_read: players/grm/w_fists.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
-open_from_disk: ./dday/players/grm/w_fists.tga: No such file or directory
-open_file_read: players/grm/w_fists.tga: No such file or directory
-open_from_disk: ./dday/players/grm/w_fists.pcx: 961 bytes
-open_from_disk: ./dday/players/pol/class_sniper_i.png: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper_i.png: No such file or directory
-open_file_read: players/pol/class_sniper_i.png: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper_i.jpg: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper_i.jpg: No such file or directory
-open_file_read: players/pol/class_sniper_i.jpg: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper_i.tga: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper_i.tga: No such file or directory
-open_file_read: players/pol/class_sniper_i.tga: No such file or directory
-open_from_disk: ./dday/players/pol/class_sniper_i.pcx: 1021 bytes
-PolkaBOT joined the game.
-open_from_disk: ./dday/players/grm/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.png: No such file or directory
-open_file_read: players/grm/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.jpg: No such file or directory
-open_file_read: players/grm/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_lmg.tga: No such file or directory
-open_file_read: players/grm/class_lmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_lmg.pcx: 82100 bytes
 open_from_disk: ./dday/cfg/cassinobhv3.cfg: 33 bytes
 Execing cfg/cassinobhv3.cfg
 open_file_write: ./dday/condumps/cassinobhv3.txt: 0 bytes

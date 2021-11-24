@@ -1,3 +1,17 @@
+open_from_disk: ./dday/pics/teams/pol.png: No such file or directory
+open_file_read: pics/teams/pol.png: No such file or directory
+open_from_disk: ./dday/pics/teams/pol.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/pol.jpg: No such file or directory
+open_file_read: pics/teams/pol.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/pol.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/pol.tga: No such file or directory
+open_file_read: pics/teams/pol.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/pol.pcx: 1403 bytes
+Usage: connect <server> [34|35|36]
+open_from_disk: ./dday/cfg/reichstag.cfg: 34 bytes
+Execing cfg/reichstag.cfg
+open_file_write: ./dday/condumps/reichstag.txt: 0 bytes
+Dumped console text to condumps/reichstag.txt.
 open_from_disk: ./dday/maps/redfishdday1.bsp: 1774432 bytes
 ==== ShutdownGame ====
 Loaded game library from ./dday/gamex86_64.so
@@ -20,7 +34,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -418,21 +432,7 @@ open_file_read: textures/urban/capt0124_1.jpg: No such file or directory
 open_from_disk: ./dday/textures/urban/capt0124_1.tga: No such file or directory
 open_from_disk: ./dday/textures/urban/capt0124_1.tga: No such file or directory
 open_file_read: textures/urban/capt0124_1.tga: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.wal: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.wal: No such file or directory
-open_file_read: textures/urban/capt0124_1.wal: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.png: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.png: No such file or directory
-open_file_read: textures/urban/capt0124_1.png: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.jpg: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.jpg: No such file or directory
-open_file_read: textures/urban/capt0124_1.jpg: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.tga: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.tga: No such file or directory
-open_file_read: textures/urban/capt0124_1.tga: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.wal: No such file or directory
-open_from_disk: ./dday/textures/urban/capt0124_1.wal: No such file or directory
-open_file_read: textures/urban/capt0124_1.wal: No such file or directory
+open_from_disk: ./dday/textures/urban/capt0124_1.wal: 21860 bytes
 open_from_disk: ./dday/textures/altex/sandbag3.png: No such file or directory
 open_from_disk: ./dday/textures/altex/sandbag3.png: No such file or directory
 open_file_read: textures/altex/sandbag3.png: No such file or directory

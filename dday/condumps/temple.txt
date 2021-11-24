@@ -1,3 +1,14 @@
+open_file_read: textures/altex/hedge2.tga: No such file or directory
+open_from_disk: ./dday/textures/altex/hedge2.wal: 87140 bytes
+open_from_disk: ./dday/textures/e1u2/sky1.png: 685 bytes
+open_from_disk: ./dday/textures/e1u2/sky1.wal: 1460 bytes
+open_from_disk: ./dday/textures/altex/rockbest.png: No such file or directory
+open_from_disk: ./dday/textures/altex/rockbest.png: No such file or directory
+open_file_read: textures/altex/rockbest.png: No such file or directory
+open_from_disk: ./dday/textures/altex/rockbest.jpg: No such file or directory
+open_from_disk: ./dday/textures/altex/rockbest.jpg: No such file or directory
+open_file_read: textures/altex/rockbest.jpg: No such file or directory
+open_from_disk: ./dday/textures/altex/rockbest.tga: No such file or directory
 open_from_disk: ./dday/textures/altex/rockbest.tga: No such file or directory
 open_file_read: textures/altex/rockbest.tga: No such file or directory
 open_from_disk: ./dday/textures/altex/rockbest.wal: 81700 bytes
@@ -260,7 +271,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -269,10 +280,8 @@ Connected to loopback (protocol 36).
 German Terrain
 Designed by Afrow UK
 Compiled by Mac Sog 1
-open_from_disk: ./dday/textures/E2U1/GRASS1_7.png: No such file or directory
-open_from_disk: ./dday/textures/e2u1/grass1_7.png: 7681 bytes
-open_from_disk: ./dday/textures/E2U1/GRASS1_7.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u1/grass1_7.wal: 5540 bytes
+open_from_disk: ./dday/textures/E2U1/GRASS1_7.png: 7681 bytes
+open_from_disk: ./dday/textures/E2U1/GRASS1_7.wal: 5540 bytes
 open_from_disk: ./dday/textures/DDAY/MR_WOODFLOOR1.png: No such file or directory
 open_from_disk: ./dday/textures/dday/mr_woodfloor1.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/MR_WOODFLOOR1.png: No such file or directory
@@ -318,22 +327,15 @@ open_from_disk: ./dday/textures/DDAY/ROOFTOP1.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/rooftop1.tga: No such file or directory
 open_file_read: textures/DDAY/ROOFTOP1.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/rooftop1.wal: 21860 bytes
-open_from_disk: ./dday/textures/E2U3/TIMPOD3_2.png: No such file or directory
-open_from_disk: ./dday/textures/e2u3/timpod3_2.png: 14859 bytes
-open_from_disk: ./dday/textures/E2U3/TIMPOD3_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u3/timpod3_2.wal: 21860 bytes
-open_from_disk: ./dday/textures/E1U2/GRATE1_6.png: No such file or directory
-open_from_disk: ./dday/textures/e1u2/grate1_6.png: 4870 bytes
-open_from_disk: ./dday/textures/E1U2/GRATE1_6.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u2/grate1_6.wal: 5540 bytes
-open_from_disk: ./dday/textures/E1U1/GRATE1_6.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/grate1_6.png: 4414 bytes
-open_from_disk: ./dday/textures/E1U1/GRATE1_6.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/grate1_6.wal: 5540 bytes
-open_from_disk: ./dday/textures/E1U3/FMET2_2.png: No such file or directory
-open_from_disk: ./dday/textures/e1u3/fmet2_2.png: 6158 bytes
-open_from_disk: ./dday/textures/E1U3/FMET2_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u3/fmet2_2.wal: 10980 bytes
+open_from_disk: ./dday/textures/E2U3/TIMPOD3_2.png: 14859 bytes
+open_from_disk: ./dday/textures/E2U3/TIMPOD3_2.wal: 21860 bytes
+open_from_disk: ./dday/textures/E1U2/GRATE1_6.png: 4870 bytes
+open_from_disk: ./dday/textures/E1U2/GRATE1_6.wal: 5540 bytes
+open_from_disk: ./dday/textures/E1U1/GRATE1_6.png: 4414 bytes
+open_from_disk: ./dday/textures/E1U1/GRATE1_6.wal: 5540 bytes
+open_from_disk: ./dday/textures/E1U3/FMET2_2.png: 10980 bytes
+libpng: textures/E1U3/FMET2_2.png: Not a PNG file
+Couldn't load textures/E1U3/FMET2_2.wal: Library error
 open_from_disk: ./dday/textures/DDAY3/C_MET7_2.png: No such file or directory
 open_from_disk: ./dday/textures/dday3/c_met7_2.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY3/C_MET7_2.png: No such file or directory
@@ -350,18 +352,20 @@ open_from_disk: ./dday/textures/DDAY3/C_MET7_2.tga: No such file or directory
 open_from_disk: ./dday/textures/dday3/c_met7_2.tga: No such file or directory
 open_file_read: textures/DDAY3/C_MET7_2.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday3/c_met7_2.wal: 21860 bytes
-open_from_disk: ./dday/textures/E1U3/MET4_3.png: No such file or directory
-open_from_disk: ./dday/textures/e1u3/met4_3.png: 4366 bytes
-open_from_disk: ./dday/textures/E1U3/MET4_3.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u3/met4_3.wal: 5540 bytes
+open_from_disk: ./dday/textures/E1U3/FMET2_2.png: 10980 bytes
+libpng: textures/E1U3/FMET2_2.png: Not a PNG file
+Couldn't load textures/E1U3/FMET2_2.wal: Library error
+open_from_disk: ./dday/textures/E1U3/FMET2_2.png: 10980 bytes
+libpng: textures/E1U3/FMET2_2.png: Not a PNG file
+Couldn't load textures/E1U3/FMET2_2.wal: Library error
+open_from_disk: ./dday/textures/E1U3/MET4_3.png: 4366 bytes
+open_from_disk: ./dday/textures/E1U3/MET4_3.wal: 5540 bytes
 open_from_disk: ./dday/textures/E1U1/FLORR1_5.png: No such file or directory
 open_from_disk: ./dday/textures/e1u1/florr1_5.png: 6006 bytes
 open_from_disk: ./dday/textures/E1U1/FLORR1_5.wal: No such file or directory
 open_from_disk: ./dday/textures/e1u1/florr1_5.wal: 5540 bytes
-open_from_disk: ./dday/textures/E1U1/P_LIT_03.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/p_lit_03.png: 647 bytes
-open_from_disk: ./dday/textures/E1U1/P_LIT_03.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/p_lit_03.wal: 440 bytes
+open_from_disk: ./dday/textures/E1U1/P_LIT_03.png: 647 bytes
+open_from_disk: ./dday/textures/E1U1/P_LIT_03.wal: 440 bytes
 open_from_disk: ./dday/textures/DDAY3/TRK_TREAD.png: No such file or directory
 open_from_disk: ./dday/textures/dday3/trk_tread.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY3/TRK_TREAD.png: No such file or directory
@@ -467,8 +471,7 @@ open_from_disk: ./dday/textures/terrain/track2.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TRACK2.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/track2.tga: No such file or directory
 open_file_read: textures/TERRAIN/TRACK2.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/TRACK2.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/track2.wal: 21860 bytes
+open_from_disk: ./dday/textures/TERRAIN/TRACK2.wal: 21860 bytes
 open_from_disk: ./dday/textures/TERRAIN/TRACK1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/track1.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TRACK1.png: No such file or directory
@@ -484,8 +487,7 @@ open_from_disk: ./dday/textures/terrain/track1.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TRACK1.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/track1.tga: No such file or directory
 open_file_read: textures/TERRAIN/TRACK1.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/TRACK1.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/track1.wal: 21860 bytes
+open_from_disk: ./dday/textures/TERRAIN/TRACK1.wal: 21860 bytes
 open_from_disk: ./dday/textures/TERRAIN/TRACK3.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/track3.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TRACK3.png: No such file or directory
@@ -501,8 +503,7 @@ open_from_disk: ./dday/textures/terrain/track3.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TRACK3.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/track3.tga: No such file or directory
 open_file_read: textures/TERRAIN/TRACK3.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/TRACK3.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/track3.wal: 21860 bytes
+open_from_disk: ./dday/textures/TERRAIN/TRACK3.wal: 21860 bytes
 open_from_disk: ./dday/textures/DDAY/WOOD1.png: No such file or directory
 open_from_disk: ./dday/textures/dday/wood1.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/WOOD1.png: No such file or directory
@@ -531,8 +532,7 @@ open_from_disk: ./dday/textures/terrain/tree1x.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TREE1X.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/tree1x.tga: No such file or directory
 open_file_read: textures/TERRAIN/TREE1X.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/TREE1X.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/tree1x.wal: 440 bytes
+open_from_disk: ./dday/textures/TERRAIN/TREE1X.wal: 440 bytes
 open_from_disk: ./dday/textures/TERRAIN/TREE1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/tree1.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TREE1.png: No such file or directory
@@ -548,8 +548,7 @@ open_from_disk: ./dday/textures/terrain/tree1.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/TREE1.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/tree1.tga: No such file or directory
 open_file_read: textures/TERRAIN/TREE1.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/TREE1.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/tree1.wal: 30020 bytes
+open_from_disk: ./dday/textures/TERRAIN/TREE1.wal: 30020 bytes
 open_from_disk: ./dday/textures/TERRAIN/MATERIAL1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/material1.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/MATERIAL1.png: No such file or directory
@@ -565,8 +564,7 @@ open_from_disk: ./dday/textures/terrain/material1.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/MATERIAL1.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/material1.tga: No such file or directory
 open_file_read: textures/TERRAIN/MATERIAL1.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/MATERIAL1.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/material1.wal: 10980 bytes
+open_from_disk: ./dday/textures/TERRAIN/MATERIAL1.wal: 10980 bytes
 open_from_disk: ./dday/textures/TERRAIN/FIRE1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/fire1.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FIRE1.png: No such file or directory
@@ -582,8 +580,7 @@ open_from_disk: ./dday/textures/terrain/fire1.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FIRE1.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/fire1.tga: No such file or directory
 open_file_read: textures/TERRAIN/FIRE1.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/FIRE1.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/fire1.wal: 21860 bytes
+open_from_disk: ./dday/textures/TERRAIN/FIRE1.wal: 21860 bytes
 open_from_disk: ./dday/textures/TERRAIN/FLAG1_2.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/flag1_2.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FLAG1_2.png: No such file or directory
@@ -647,8 +644,7 @@ open_from_disk: ./dday/textures/terrain/flagbtm.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FLAGBTM.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/flagbtm.tga: No such file or directory
 open_file_read: textures/TERRAIN/FLAGBTM.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/FLAGBTM.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/flagbtm.wal: 21860 bytes
+open_from_disk: ./dday/textures/TERRAIN/FLAGBTM.wal: 21860 bytes
 open_from_disk: ./dday/textures/DDAY/MR_WOODFLOOR3.png: No such file or directory
 open_from_disk: ./dday/textures/dday/mr_woodfloor3.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/MR_WOODFLOOR3.png: No such file or directory
@@ -680,8 +676,7 @@ open_from_disk: ./dday/textures/terrain/filecab2.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FILECAB2.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/filecab2.tga: No such file or directory
 open_file_read: textures/TERRAIN/FILECAB2.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/FILECAB2.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/filecab2.wal: 2820 bytes
+open_from_disk: ./dday/textures/TERRAIN/FILECAB2.wal: 2820 bytes
 open_from_disk: ./dday/textures/TERRAIN/FILECAB1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/filecab1.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FILECAB1.png: No such file or directory
@@ -697,8 +692,7 @@ open_from_disk: ./dday/textures/terrain/filecab1.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/FILECAB1.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/filecab1.tga: No such file or directory
 open_file_read: textures/TERRAIN/FILECAB1.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/FILECAB1.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/filecab1.wal: 2820 bytes
+open_from_disk: ./dday/textures/TERRAIN/FILECAB1.wal: 2820 bytes
 open_from_disk: ./dday/textures/TERRAIN/BUSH3.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/bush3.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/BUSH3.png: No such file or directory
@@ -714,8 +708,7 @@ open_from_disk: ./dday/textures/terrain/bush3.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/BUSH3.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/bush3.tga: No such file or directory
 open_file_read: textures/TERRAIN/BUSH3.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/BUSH3.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/bush3.wal: 1460 bytes
+open_from_disk: ./dday/textures/TERRAIN/BUSH3.wal: 1460 bytes
 open_from_disk: ./dday/textures/TERRAIN/BUSH2.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/bush2.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/BUSH2.png: No such file or directory
@@ -731,8 +724,7 @@ open_from_disk: ./dday/textures/terrain/bush2.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/BUSH2.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/bush2.tga: No such file or directory
 open_file_read: textures/TERRAIN/BUSH2.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/BUSH2.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/bush2.wal: 1460 bytes
+open_from_disk: ./dday/textures/TERRAIN/BUSH2.wal: 1460 bytes
 open_from_disk: ./dday/textures/TERRAIN/BUSH1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/bush1.png: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/BUSH1.png: No such file or directory
@@ -748,8 +740,16 @@ open_from_disk: ./dday/textures/terrain/bush1.tga: No such file or directory
 open_from_disk: ./dday/textures/TERRAIN/BUSH1.tga: No such file or directory
 open_from_disk: ./dday/textures/terrain/bush1.tga: No such file or directory
 open_file_read: textures/TERRAIN/BUSH1.tga: No such file or directory
-open_from_disk: ./dday/textures/TERRAIN/BUSH1.wal: No such file or directory
-open_from_disk: ./dday/textures/terrain/bush1.wal: 1460 bytes
+open_from_disk: ./dday/textures/TERRAIN/BUSH1.wal: 1460 bytes
+open_from_disk: ./dday/textures/E1U3/FMET2_2.png: 10980 bytes
+libpng: textures/E1U3/FMET2_2.png: Not a PNG file
+Couldn't load textures/E1U3/FMET2_2.wal: Library error
+open_from_disk: ./dday/textures/E1U3/FMET2_2.png: 10980 bytes
+libpng: textures/E1U3/FMET2_2.png: Not a PNG file
+Couldn't load textures/E1U3/FMET2_2.wal: Library error
+open_from_disk: ./dday/textures/E1U3/FMET2_2.png: 10980 bytes
+libpng: textures/E1U3/FMET2_2.png: Not a PNG file
+Couldn't load textures/E1U3/FMET2_2.wal: Library error
 open_from_disk: ./dday/textures/E1U1/ORIGIN.png: No such file or directory
 open_from_disk: ./dday/textures/e1u1/origin.png: 254 bytes
 open_from_disk: ./dday/textures/E1U1/ORIGIN.wal: 1460 bytes
@@ -893,7 +893,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

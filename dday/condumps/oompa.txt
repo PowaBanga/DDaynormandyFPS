@@ -335,9 +335,7 @@ open_file_read: textures/oompa/truck1.jpg: No such file or directory
 open_from_disk: ./dday/textures/oompa/truck1.tga: No such file or directory
 open_from_disk: ./dday/textures/oompa/truck1.tga: No such file or directory
 open_file_read: textures/oompa/truck1.tga: No such file or directory
-open_from_disk: ./dday/textures/oompa/truck1.wal: No such file or directory
-open_from_disk: ./dday/textures/oompa/truck1.wal: No such file or directory
-open_file_read: textures/oompa/truck1.wal: No such file or directory
+open_from_disk: ./dday/textures/oompa/truck1.wal: 4180 bytes
 open_from_disk: ./dday/textures/pegasus/kub4b.png: No such file or directory
 open_from_disk: ./dday/textures/pegasus/kub4b.png: No such file or directory
 open_file_read: textures/pegasus/kub4b.png: No such file or directory
@@ -1018,6 +1016,8 @@ open_file_read: sound/faf/oompth.wav: No such file or directory
 open_from_disk: ./dday/locs/oompa.loc: No such file or directory
 open_from_disk: ./dday/locs/oompa.loc: No such file or directory
 open_file_read: locs/oompa.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/oompa.cfg: 27 bytes
 Execing cfg/oompa.cfg

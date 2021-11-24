@@ -1,5 +1,3 @@
-open_from_disk: ./dday/textures/over/fafner.png: No such file or directory
-open_file_read: textures/over/fafner.png: No such file or directory
 open_from_disk: ./dday/textures/over/fafner.jpg: No such file or directory
 open_from_disk: ./dday/textures/over/fafner.jpg: No such file or directory
 open_file_read: textures/over/fafner.jpg: No such file or directory
@@ -307,7 +305,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -680,6 +678,8 @@ open_from_disk: ./dday/pics/objectives/over5.tga: No such file or directory
 open_file_read: pics/objectives/over5.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/over5.pcx: 36219 bytes
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/over5.cfg: 27 bytes
 Execing cfg/over5.cfg
 open_file_write: ./dday/condumps/over5.txt: 0 bytes
@@ -706,7 +706,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

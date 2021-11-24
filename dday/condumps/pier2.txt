@@ -1,7 +1,3 @@
-open_from_disk: ./dday/sound/gbr/303/reload.wav: 64112 bytes
-open_from_disk: ./dday/sound/gbr/303/unload.wav: 16488 bytes
-open_from_disk: ./dday/sound/gbr/bayonet/hit.wav: 3352 bytes
-open_from_disk: ./dday/sound/gbr/bayonet/stab.wav: 14332 bytes
 open_from_disk: ./dday/sound/gbr/bayonet/swipe.wav: 9588 bytes
 open_from_disk: ./dday/sound/gbr/sten/fire.wav: 68510 bytes
 open_from_disk: ./dday/sound/gbr/sten/reload.wav: 29414 bytes
@@ -67,7 +63,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -619,6 +615,8 @@ open_from_disk: ./dday/locs/pillbox.loc: No such file or directory
 open_from_disk: ./dday/locs/pillbox.loc: No such file or directory
 open_file_read: locs/pillbox.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/pillbox.cfg: 27 bytes
 Execing cfg/pillbox.cfg
 open_file_write: ./dday/condumps/pillbox.txt: 0 bytes
@@ -651,7 +649,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/sound/osiris/seagull.wav: 203139 bytes
 open_from_disk: ./dday/locs/pier2.loc: No such file or directory
 open_from_disk: ./dday/locs/pier2.loc: No such file or directory
 open_file_read: locs/pier2.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/pier2.cfg: 29 bytes
 Execing cfg/pier2.cfg

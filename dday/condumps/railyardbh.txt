@@ -1,6 +1,67 @@
+open_from_disk: ./dday/sound/june6/combata2.wav: No such file or directory
+open_from_disk: ./dday/sound/june6/combata2.wav: No such file or directory
+open_file_read: sound/june6/combata2.wav: No such file or directory
+open_from_disk: ./dday/sound/faf/fire1.wav: 138240 bytes
+open_from_disk: ./dday/locs/railyard.loc: No such file or directory
+open_from_disk: ./dday/locs/railyard.loc: No such file or directory
+open_file_read: locs/railyard.loc: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.png: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.png: No such file or directory
+open_file_read: pics/objectives/railyard.png: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.jpg: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.jpg: No such file or directory
+open_file_read: pics/objectives/railyard.jpg: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.tga: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.tga: No such file or directory
+open_file_read: pics/objectives/railyard.tga: No such file or directory
+open_from_disk: ./dday/pics/objectives/railyard.pcx: 58531 bytes
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_file_read: pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_file_read: pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_file_read: pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
+Usage: connect <server> [34|35|36]
+open_from_disk: ./dday/cfg/railyard.cfg: 34 bytes
+Execing cfg/railyard.cfg
+open_file_write: ./dday/condumps/railyard.txt: 0 bytes
+Dumped console text to condumps/railyard.txt.
+open_from_disk: ./dday/maps/railyardbhv2.bsp: 2248256 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: railyardbhv2
+open_from_disk: ./dday/maps/railyardbhv2.ent: No such file or directory
+open_from_disk: ./dday/maps/railyardbhv2.ent: No such file or directory
+open_file_read: maps/railyardbhv2.ent: No such file or directory
+railyardbhv2.ent Loaded
+Loading map objective pic dday/pics/objectives/railyardbhv2.pcx...done.
+func_wall START_ON without TOGGLE
+0 entities inhibited
+0 teams with 0 entities
+server map: railyardbhv2
+railyardbhv2.cmp Loaded
+-------------------------------------
+       : AI: Nodes Initialized.
+       : loaded nodes:107.
+       : added nodes:0.
+       : total nodes:107.
+       : loaded links:245.
+       : added links:0.
+       : added jump links:0.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -856,43 +917,17 @@ open_from_disk: ./dday/pics/objectives/railyardbhv2.tga: No such file or directo
 open_from_disk: ./dday/pics/objectives/railyardbhv2.tga: No such file or directory
 open_file_read: pics/objectives/railyardbhv2.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/railyardbhv2.pcx: 205800 bytes
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_file_read: pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_file_read: pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_file_read: pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
 Usage: connect <server> [34|35|36]
-Zhukov connected.
-PolkaBOT connected.
-Zhukov joined the game.
-open_from_disk: ./dday/players/rus/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg.png: No such file or directory
-open_file_read: players/rus/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg.jpg: No such file or directory
-open_file_read: players/rus/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg.tga: No such file or directory
-open_file_read: players/rus/class_lmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/rus/class_lmg.pcx: 89458 bytes
-open_from_pak: ./dday/pak3.pak/players/rus/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/rus/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg_i.png: No such file or directory
-open_file_read: players/rus/class_lmg_i.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg_i.jpg: No such file or directory
-open_file_read: players/rus/class_lmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg_i.tga: No such file or directory
-open_file_read: players/rus/class_lmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_lmg_i.pcx: 1265 bytes
-PolkaBOT joined the game.
-open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.png: No such file or directory
-open_file_read: players/grm/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.jpg: No such file or directory
-open_file_read: players/grm/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_hmg.tga: No such file or directory
-open_file_read: players/grm/class_hmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_hmg.pcx: 96053 bytes
-open_from_disk: ./dday/sound/rus/shout/move1.wav: 28356 bytes
 open_from_disk: ./dday/cfg/railyardbhv2.cfg: 32 bytes
 Execing cfg/railyardbhv2.cfg
 open_file_write: ./dday/condumps/railyardbhv2.txt: 0 bytes
@@ -928,7 +963,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -973,52 +1008,17 @@ open_from_disk: ./dday/pics/objectives/railyardbh.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/railyardbh.tga: No such file or directory
 open_file_read: pics/objectives/railyardbh.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/railyardbh.pcx: 58532 bytes
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_file_read: pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_file_read: pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_file_read: pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
 Usage: connect <server> [34|35|36]
-Rostislav connected.
-Goering connected.
-Goering joined the game.
-open_from_disk: ./dday/players/grm/class_sniper.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.png: No such file or directory
-open_file_read: players/grm/class_sniper.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.jpg: No such file or directory
-open_file_read: players/grm/class_sniper.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper.tga: No such file or directory
-open_file_read: players/grm/class_sniper.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_sniper.pcx: 95071 bytes
-open_from_disk: ./dday/players/grm/class_sniper_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.png: No such file or directory
-open_file_read: players/grm/class_sniper_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.jpg: No such file or directory
-open_file_read: players/grm/class_sniper_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_sniper_i.tga: No such file or directory
-open_file_read: players/grm/class_sniper_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_sniper_i.pcx: 1940 bytes
-Rostislav joined the game.
-open_from_disk: ./dday/players/rus/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.png: No such file or directory
-open_file_read: players/rus/class_hmg.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.jpg: No such file or directory
-open_file_read: players/rus/class_hmg.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg.tga: No such file or directory
-open_file_read: players/rus/class_hmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/rus/class_hmg.pcx: 90089 bytes
-open_from_pak: ./dday/pak3.pak/players/rus/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/rus/class_hmg_i.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.png: No such file or directory
-open_file_read: players/rus/class_hmg_i.png: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.jpg: No such file or directory
-open_file_read: players/rus/class_hmg_i.jpg: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.tga: No such file or directory
-open_file_read: players/rus/class_hmg_i.tga: No such file or directory
-open_from_disk: ./dday/players/rus/class_hmg_i.pcx: 1265 bytes
 open_from_disk: ./dday/cfg/railyardbh.cfg: 31 bytes
 Execing cfg/railyardbh.cfg
 open_file_write: ./dday/condumps/railyardbh.txt: 0 bytes

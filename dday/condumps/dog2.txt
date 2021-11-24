@@ -1,7 +1,3 @@
-open_from_disk: ./dday/textures/omaha/sand2.wal: 21860 bytes
-open_from_disk: ./dday/textures/beach/wallruff_dark.png: No such file or directory
-open_from_disk: ./dday/textures/beach/wallruff_dark.png: No such file or directory
-open_file_read: textures/beach/wallruff_dark.png: No such file or directory
 open_from_disk: ./dday/textures/beach/wallruff_dark.jpg: No such file or directory
 open_from_disk: ./dday/textures/beach/wallruff_dark.jpg: No such file or directory
 open_file_read: textures/beach/wallruff_dark.jpg: No such file or directory
@@ -613,6 +609,8 @@ open_from_disk: ./dday/pics/objectives/doggreen.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/doggreen.tga: No such file or directory
 open_file_read: pics/objectives/doggreen.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/doggreen.pcx: 36501 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/doggreen.cfg: 26 bytes
 Execing cfg/doggreen.cfg
@@ -642,7 +640,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_pak: ./dday/pak0.pak/env/srdn.tga: 2066 bytes
 open_from_disk: ./dday/locs/dog2.loc: No such file or directory
 open_from_disk: ./dday/locs/dog2.loc: No such file or directory
 open_file_read: locs/dog2.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/dog2.cfg: 28 bytes
 Execing cfg/dog2.cfg

@@ -1,5 +1,15 @@
-open_file_read: locs/Caen.loc: No such file or directory
-Usage: connect <server> [34|35|36]
+open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
+open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
+open_file_read: players/usa/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
+open_file_read: players/usa/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
+open_file_read: players/usa/class_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.pcx: 2165 bytes
+Your class is Infantry.
 open_from_disk: ./dday/cfg/Caen.cfg: 26 bytes
 Execing cfg/Caen.cfg
 open_file_write: ./dday/condumps/Caen.txt: 0 bytes
@@ -25,7 +35,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -96,7 +106,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -909,16 +919,6 @@ open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
 open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
 open_file_read: pics/a_dpm.tga: No such file or directory
 open_from_disk: ./dday/pics/a_dpm.pcx: 1367 bytes
-open_from_disk: ./dday/pics/w_molotov.png: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.png: No such file or directory
-open_file_read: pics/w_molotov.png: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.jpg: No such file or directory
-open_file_read: pics/w_molotov.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.tga: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.tga: No such file or directory
-open_file_read: pics/w_molotov.tga: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.pcx: 1503 bytes
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_file_read: pics/scope_rus.png: No such file or directory

@@ -1,7 +1,3 @@
-open_from_disk: ./dday/textures/colpiron/metal_dash.jpg: No such file or directory
-open_file_read: textures/colpiron/metal_dash.jpg: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_dash.tga: No such file or directory
-open_from_disk: ./dday/textures/colpiron/metal_dash.tga: No such file or directory
 open_file_read: textures/colpiron/metal_dash.tga: No such file or directory
 open_from_disk: ./dday/textures/colpiron/metal_dash.wal: 6220 bytes
 open_from_disk: ./dday/textures/dday3/floor_grated.png: No such file or directory
@@ -377,6 +373,8 @@ open_from_disk: ./dday/sound/faf/fire1.wav: 138240 bytes
 open_from_disk: ./dday/locs/ch.poldday5.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.poldday5.loc: No such file or directory
 open_file_read: locs/ch.poldday5.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ch.poldday5.cfg: 33 bytes
 Execing cfg/ch.poldday5.cfg
@@ -408,7 +406,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/ch.poldday4.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.poldday4.loc: No such file or directory
 open_file_read: locs/ch.poldday4.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/ch.poldday4.cfg: 33 bytes
 Execing cfg/ch.poldday4.cfg
 open_file_write: ./dday/condumps/ch.poldday4.txt: 0 bytes

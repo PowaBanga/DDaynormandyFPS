@@ -1,15 +1,8 @@
-open_from_disk: ./dday/textures/dodtex6/k_snow1.png: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.png: No such file or directory
-open_file_read: textures/dodtex6/k_snow1.png: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.jpg: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.jpg: No such file or directory
-open_file_read: textures/dodtex6/k_snow1.jpg: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.tga: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.tga: No such file or directory
-open_file_read: textures/dodtex6/k_snow1.tga: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.wal: No such file or directory
-open_from_disk: ./dday/textures/dodtex6/k_snow1.wal: No such file or directory
-open_file_read: textures/dodtex6/k_snow1.wal: No such file or directory
+open_from_disk: ./dday/textures/1337/wu_bed_top.tga: No such file or directory
+open_file_read: textures/1337/wu_bed_top.tga: No such file or directory
+open_from_disk: ./dday/textures/1337/wu_bed_top.wal: No such file or directory
+open_from_disk: ./dday/textures/1337/wu_bed_top.wal: No such file or directory
+open_file_read: textures/1337/wu_bed_top.wal: No such file or directory
 open_from_disk: ./dday/textures/dodtex2/m_khwall3.png: No such file or directory
 open_from_disk: ./dday/textures/dodtex2/m_khwall3.png: No such file or directory
 open_file_read: textures/dodtex2/m_khwall3.png: No such file or directory
@@ -298,6 +291,8 @@ open_from_disk: ./dday/sound/funionz/dogbarking.wav: 643302 bytes
 open_from_disk: ./dday/locs/christmas.loc: No such file or directory
 open_from_disk: ./dday/locs/christmas.loc: No such file or directory
 open_file_read: locs/christmas.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/christmas.cfg: 34 bytes
 Execing cfg/christmas.cfg
@@ -329,7 +324,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1014,11 @@ open_from_disk: ./dday/locs/ch.reichstag.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.reichstag.loc: No such file or directory
 open_file_read: locs/ch.reichstag.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
+unnamed is no longer an Observer.
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/ch.reichstag.cfg: 33 bytes
 Execing cfg/ch.reichstag.cfg
 open_file_write: ./dday/condumps/ch.reichstag.txt: 0 bytes

@@ -1,5 +1,3 @@
-open_from_disk: ./dday/sprites/trees/tree14_0.jpg: No such file or directory
-open_from_disk: ./dday/sprites/trees/tree14_0.jpg: No such file or directory
 open_file_read: sprites/trees/tree14_0.jpg: No such file or directory
 open_from_disk: ./dday/sprites/trees/tree14_0.tga: No such file or directory
 open_from_disk: ./dday/sprites/trees/tree14_0.tga: No such file or directory
@@ -198,7 +196,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -395,7 +393,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -560,7 +558,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/maze.loc: No such file or directory
 open_from_disk: ./dday/locs/maze.loc: No such file or directory
 open_file_read: locs/maze.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/maze.cfg: 27 bytes
 Execing cfg/maze.cfg
 open_file_write: ./dday/condumps/maze.txt: 0 bytes

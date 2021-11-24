@@ -1,3 +1,43 @@
+open_from_disk: ./dday/models/weapons/usa/v_bhmg/skin.jpg: No such file or directory
+open_file_read: models/weapons/usa/v_bhmg/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bhmg/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bhmg/skin.tga: No such file or directory
+open_file_read: models/weapons/usa/v_bhmg/skin.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_bhmg/skin.pcx: 24678 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_bazooka/tris.md2: 6540 bytes
+open_from_disk: ./dday/models/weapons/usa/g_bazooka/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_bazooka/skin.png: No such file or directory
+open_file_read: models/weapons/usa/g_bazooka/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_bazooka/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_bazooka/skin.jpg: No such file or directory
+open_file_read: models/weapons/usa/g_bazooka/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_bazooka/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_bazooka/skin.tga: No such file or directory
+open_file_read: models/weapons/usa/g_bazooka/skin.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_bazooka/skin.pcx: 10987 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_bazooka/tris.md2: 105704 bytes
+open_from_disk: ./dday/models/weapons/usa/v_bazooka/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bazooka/skin.png: No such file or directory
+open_file_read: models/weapons/usa/v_bazooka/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bazooka/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bazooka/skin.jpg: No such file or directory
+open_file_read: models/weapons/usa/v_bazooka/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bazooka/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/v_bazooka/skin.tga: No such file or directory
+open_file_read: models/weapons/usa/v_bazooka/skin.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_bazooka/skin.pcx: 23554 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_m1903/tris.md2: 16372 bytes
+open_from_disk: ./dday/models/weapons/usa/g_m1903/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_m1903/skin.png: No such file or directory
+open_file_read: models/weapons/usa/g_m1903/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_m1903/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_m1903/skin.jpg: No such file or directory
+open_file_read: models/weapons/usa/g_m1903/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_m1903/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/usa/g_m1903/skin.tga: No such file or directory
+open_file_read: models/weapons/usa/g_m1903/skin.tga: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_m1903/skin.pcx: 50990 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_m1903/tris.md2: 305860 bytes
 open_from_disk: ./dday/models/weapons/usa/v_m1903/skin.png: No such file or directory
 open_from_disk: ./dday/models/weapons/usa/v_m1903/skin.png: No such file or directory
 open_file_read: models/weapons/usa/v_m1903/skin.png: No such file or directory
@@ -334,6 +374,8 @@ open_from_disk: ./dday/pics/objectives/dutchv2.tga: No such file or directory
 open_file_read: pics/objectives/dutchv2.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/dutchv2.pcx: 48549 bytes
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/dutchv2.cfg: 30 bytes
 Execing cfg/dutchv2.cfg
 open_file_write: ./dday/condumps/dutchv2.txt: 0 bytes
@@ -377,7 +419,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -462,6 +504,8 @@ open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/locs/dutchlib.loc: No such file or directory
 open_from_disk: ./dday/locs/dutchlib.loc: No such file or directory
 open_file_read: locs/dutchlib.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/dutchlib.cfg: 26 bytes
 Execing cfg/dutchlib.cfg
@@ -497,7 +541,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -973,52 +1017,8 @@ open_from_disk: ./dday/pics/objectives/dust.tga: No such file or directory
 open_file_read: pics/objectives/dust.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/dust.pcx: 32457 bytes
 Usage: connect <server> [34|35|36]
-Dipsymama connected.
-BOTwurst connected.
-Dipsymama joined the game.
-open_from_disk: ./dday/players/usa/class_infantry.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.png: No such file or directory
-open_file_read: players/usa/class_infantry.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.jpg: No such file or directory
-open_file_read: players/usa/class_infantry.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.tga: No such file or directory
-open_file_read: players/usa/class_infantry.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_infantry.pcx: 100408 bytes
-open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
-open_file_read: players/usa/class_infantry_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
-open_file_read: players/usa/class_infantry_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
-open_file_read: players/usa/class_infantry_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.pcx: 2165 bytes
-BOTwurst joined the game.
-open_from_disk: ./dday/players/grm/class_flamethrower.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower.png: No such file or directory
-open_file_read: players/grm/class_flamethrower.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower.jpg: No such file or directory
-open_file_read: players/grm/class_flamethrower.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower.tga: No such file or directory
-open_file_read: players/grm/class_flamethrower.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_flamethrower.pcx: 82803 bytes
-open_from_disk: ./dday/players/grm/class_flamethrower_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower_i.png: No such file or directory
-open_file_read: players/grm/class_flamethrower_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower_i.jpg: No such file or directory
-open_file_read: players/grm/class_flamethrower_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_flamethrower_i.tga: No such file or directory
-open_file_read: players/grm/class_flamethrower_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_flamethrower_i.pcx: 1940 bytes
-open_from_disk: ./dday/sound/weapons/flamer/fireitup.wav: 93286 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/dust.cfg: 29 bytes
 Execing cfg/dust.cfg
 open_file_write: ./dday/condumps/dust.txt: 0 bytes

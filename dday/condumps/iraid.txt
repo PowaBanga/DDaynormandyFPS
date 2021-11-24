@@ -1,3 +1,63 @@
+open_from_disk: ./dday/pics/teams/ita.pcx: 1319 bytes
+Usage: connect <server> [34|35|36]
+open_from_disk: ./dday/cfg/itadday1.cfg: 378 bytes
+Execing cfg/itadday1.cfg
+open_file_write: ./dday/condumps/itadday1.txt: 0 bytes
+Dumped console text to condumps/itadday1.txt.
+open_from_disk: ./dday/maps/iraide.bsp: 1883488 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: iraide
+open_from_disk: ./dday/maps/iraide.ent: No such file or directory
+open_from_disk: ./dday/maps/iraide.ent: No such file or directory
+open_file_read: maps/iraide.ent: No such file or directory
+No .ent File for iraide.bsp
+Loading map objective pic dday/pics/objectives/iraide.pcx...error.
+0 entities inhibited
+0 teams with 0 entities
+server map: iraide
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+unnamed connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Island Raid
+Mr YOur no fun
+open_from_disk: ./dday/textures/gimp/grass1_base1.png: No such file or directory
+open_from_disk: ./dday/textures/gimp/grass1_base1.png: No such file or directory
+open_file_read: textures/gimp/grass1_base1.png: No such file or directory
+open_from_disk: ./dday/textures/gimp/grass1_base1.jpg: No such file or directory
+open_from_disk: ./dday/textures/gimp/grass1_base1.jpg: No such file or directory
+open_file_read: textures/gimp/grass1_base1.jpg: No such file or directory
+open_from_disk: ./dday/textures/gimp/grass1_base1.tga: No such file or directory
+open_from_disk: ./dday/textures/gimp/grass1_base1.tga: No such file or directory
+open_file_read: textures/gimp/grass1_base1.tga: No such file or directory
+open_from_disk: ./dday/textures/gimp/grass1_base1.wal: 21860 bytes
+open_from_disk: ./dday/textures/taken/scala.png: No such file or directory
+open_from_disk: ./dday/textures/taken/scala.png: No such file or directory
+open_file_read: textures/taken/scala.png: No such file or directory
+open_from_disk: ./dday/textures/taken/scala.jpg: No such file or directory
+open_from_disk: ./dday/textures/taken/scala.jpg: No such file or directory
+open_file_read: textures/taken/scala.jpg: No such file or directory
+open_from_disk: ./dday/textures/taken/scala.tga: No such file or directory
+open_from_disk: ./dday/textures/taken/scala.tga: No such file or directory
+open_file_read: textures/taken/scala.tga: No such file or directory
+open_from_disk: ./dday/textures/taken/scala.wal: 43620 bytes
+open_from_disk: ./dday/textures/taken/sand_01.png: No such file or directory
+open_from_disk: ./dday/textures/taken/sand_01.png: No such file or directory
+open_file_read: textures/taken/sand_01.png: No such file or directory
+open_from_disk: ./dday/textures/taken/sand_01.jpg: No such file or directory
 open_from_disk: ./dday/textures/taken/sand_01.jpg: No such file or directory
 open_file_read: textures/taken/sand_01.jpg: No such file or directory
 open_from_disk: ./dday/textures/taken/sand_01.tga: No such file or directory
@@ -731,16 +791,6 @@ open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_panzer/skin.pcx: 40360 bytes
 open_from_disk: ./dday/players/jpn/w_arisakas.md2: 441912 bytes
 open_from_disk: ./dday/players/jpn/a_97_grenade.md2: 55212 bytes
 open_from_disk: ./dday/players/jpn/w_katana.md2: 151388 bytes
-open_from_disk: ./dday/pics/w_nambu.png: No such file or directory
-open_from_disk: ./dday/pics/w_nambu.png: No such file or directory
-open_file_read: pics/w_nambu.png: No such file or directory
-open_from_disk: ./dday/pics/w_nambu.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_nambu.jpg: No such file or directory
-open_file_read: pics/w_nambu.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_nambu.tga: No such file or directory
-open_from_disk: ./dday/pics/w_nambu.tga: No such file or directory
-open_file_read: pics/w_nambu.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_nambu.pcx: 1254 bytes
 open_from_disk: ./dday/pics/w_arisaka.png: No such file or directory
 open_from_disk: ./dday/pics/w_arisaka.png: No such file or directory
 open_file_read: pics/w_arisaka.png: No such file or directory
@@ -801,36 +851,6 @@ open_from_disk: ./dday/pics/w_katana.tga: No such file or directory
 open_from_disk: ./dday/pics/w_katana.tga: No such file or directory
 open_file_read: pics/w_katana.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/w_katana.pcx: 1235 bytes
-open_from_disk: ./dday/pics/a_nambu.png: No such file or directory
-open_from_disk: ./dday/pics/a_nambu.png: No such file or directory
-open_file_read: pics/a_nambu.png: No such file or directory
-open_from_disk: ./dday/pics/a_nambu.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_nambu.jpg: No such file or directory
-open_file_read: pics/a_nambu.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_nambu.tga: No such file or directory
-open_from_disk: ./dday/pics/a_nambu.tga: No such file or directory
-open_file_read: pics/a_nambu.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/a_nambu.pcx: 1096 bytes
-open_from_disk: ./dday/pics/a_arisaka.png: No such file or directory
-open_from_disk: ./dday/pics/a_arisaka.png: No such file or directory
-open_file_read: pics/a_arisaka.png: No such file or directory
-open_from_disk: ./dday/pics/a_arisaka.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_arisaka.jpg: No such file or directory
-open_file_read: pics/a_arisaka.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_arisaka.tga: No such file or directory
-open_from_disk: ./dday/pics/a_arisaka.tga: No such file or directory
-open_file_read: pics/a_arisaka.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/a_arisaka.pcx: 1284 bytes
-open_from_disk: ./dday/pics/a_arisakas.png: No such file or directory
-open_from_disk: ./dday/pics/a_arisakas.png: No such file or directory
-open_file_read: pics/a_arisakas.png: No such file or directory
-open_from_disk: ./dday/pics/a_arisakas.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_arisakas.jpg: No such file or directory
-open_file_read: pics/a_arisakas.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_arisakas.tga: No such file or directory
-open_from_disk: ./dday/pics/a_arisakas.tga: No such file or directory
-open_file_read: pics/a_arisakas.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/a_arisakas.pcx: 1284 bytes
 open_from_disk: ./dday/pics/scope_jpn.png: No such file or directory
 open_from_disk: ./dday/pics/scope_jpn.png: No such file or directory
 open_file_read: pics/scope_jpn.png: No such file or directory
@@ -926,16 +946,6 @@ open_file_read: sound/june6/bird 13_43.wav: No such file or directory
 open_from_disk: ./dday/locs/iraide.loc: No such file or directory
 open_from_disk: ./dday/locs/iraide.loc: No such file or directory
 open_file_read: locs/iraide.loc: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.png: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.png: No such file or directory
-open_file_read: pics/teams/jpn.png: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.jpg: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.jpg: No such file or directory
-open_file_read: pics/teams/jpn.jpg: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.tga: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.tga: No such file or directory
-open_file_read: pics/teams/jpn.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/teams/jpn.pcx: 1969 bytes
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/iraide.cfg: 27 bytes
 Execing cfg/iraide.cfg
@@ -963,7 +973,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1008,16 +1018,6 @@ open_from_disk: ./dday/pics/objectives/iraid.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/iraid.tga: No such file or directory
 open_file_read: pics/objectives/iraid.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/iraid.pcx: 6683 bytes
-open_from_disk: ./dday/pics/teams/jpn.png: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.png: No such file or directory
-open_file_read: pics/teams/jpn.png: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.jpg: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.jpg: No such file or directory
-open_file_read: pics/teams/jpn.jpg: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.tga: No such file or directory
-open_from_disk: ./dday/pics/teams/jpn.tga: No such file or directory
-open_file_read: pics/teams/jpn.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/teams/jpn.pcx: 1969 bytes
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/iraid.cfg: 31 bytes
 Execing cfg/iraid.cfg

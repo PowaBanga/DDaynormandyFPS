@@ -1,12 +1,3 @@
-open_from_disk: ./dday/textures/luisx/+light03.tga: No such file or directory
-open_file_read: textures/luisx/+light03.tga: No such file or directory
-open_from_disk: ./dday/textures/luisx/+light03.wal: 1460 bytes
-open_from_disk: ./dday/textures/luisx/+light04.png: No such file or directory
-open_from_disk: ./dday/textures/luisx/+light04.png: No such file or directory
-open_file_read: textures/luisx/+light04.png: No such file or directory
-open_from_disk: ./dday/textures/luisx/+light04.jpg: No such file or directory
-open_from_disk: ./dday/textures/luisx/+light04.jpg: No such file or directory
-open_file_read: textures/luisx/+light04.jpg: No such file or directory
 open_from_disk: ./dday/textures/luisx/+light04.tga: No such file or directory
 open_from_disk: ./dday/textures/luisx/+light04.tga: No such file or directory
 open_file_read: textures/luisx/+light04.tga: No such file or directory
@@ -713,6 +704,8 @@ open_from_disk: ./dday/locs/lcave.loc: No such file or directory
 open_from_disk: ./dday/locs/LCAVE.loc: No such file or directory
 open_from_disk: ./dday/locs/lcave.loc: No such file or directory
 open_file_read: locs/LCAVE.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/LCAVE.cfg: 27 bytes
 Execing cfg/LCAVE.cfg
@@ -740,7 +733,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -786,6 +779,8 @@ open_from_disk: ./dday/pics/objectives/lcave.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/lcave.tga: No such file or directory
 open_file_read: pics/objectives/lcave.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/lcave.pcx: 35180 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/lcave.cfg: 33 bytes
 Execing cfg/lcave.cfg
@@ -816,7 +811,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1014,11 @@ open_from_disk: ./dday/locs/lavatubeOLD.loc: No such file or directory
 open_from_disk: ./dday/locs/lavatubeold.loc: No such file or directory
 open_file_read: locs/lavatubeOLD.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
+unnamed is no longer an Observer.
+unnamed has joined team Axis.
+Your class is Infantry.
 open_from_disk: ./dday/cfg/lavatubeOLD.cfg: 30 bytes
 Execing cfg/lavatubeOLD.cfg
 open_file_write: ./dday/condumps/lavatubeOLD.txt: 0 bytes

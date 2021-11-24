@@ -1,9 +1,3 @@
-open_from_pak: ./dday/pak0.pak/textures/extra/black.wal: 440 bytes
-open_from_disk: ./dday/textures/dday/crate2.png: No such file or directory
-open_from_disk: ./dday/textures/dday/crate2.png: No such file or directory
-open_file_read: textures/dday/crate2.png: No such file or directory
-open_from_disk: ./dday/textures/dday/crate2.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday/crate2.jpg: No such file or directory
 open_file_read: textures/dday/crate2.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday/crate2.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/crate2.tga: No such file or directory
@@ -500,6 +494,8 @@ open_from_disk: ./dday/sound/hedge/ccro1.wav: 115556 bytes
 open_from_disk: ./dday/locs/ch.polmunf3.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.polmunf3.loc: No such file or directory
 open_file_read: locs/ch.polmunf3.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ch.polmunf3.cfg: 33 bytes
 Execing cfg/ch.polmunf3.cfg
@@ -538,7 +534,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -709,6 +705,8 @@ open_from_disk: ./dday/locs/ch.polmunf2.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.polmunf2.loc: No such file or directory
 open_file_read: locs/ch.polmunf2.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/ch.polmunf2.cfg: 33 bytes
 Execing cfg/ch.polmunf2.cfg
 open_file_write: ./dday/condumps/ch.polmunf2.txt: 0 bytes
@@ -738,7 +736,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/sound/beach/gatling.wav: 1582124 bytes
 open_from_disk: ./dday/locs/ch.polmunf1.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.polmunf1.loc: No such file or directory
 open_file_read: locs/ch.polmunf1.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ch.polmunf1.cfg: 33 bytes
 Execing cfg/ch.polmunf1.cfg

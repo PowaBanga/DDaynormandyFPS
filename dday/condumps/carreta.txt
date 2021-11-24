@@ -1,7 +1,3 @@
-open_file_read: textures/julhelm/eastwndwn0c.tga: No such file or directory
-open_from_disk: ./dday/textures/julhelm/eastwndwn0c.wal: 5540 bytes
-open_from_disk: ./dday/textures/julhelm/eastwndwn0.png: No such file or directory
-open_from_disk: ./dday/textures/julhelm/eastwndwn0.png: No such file or directory
 open_file_read: textures/julhelm/eastwndwn0.png: No such file or directory
 open_from_disk: ./dday/textures/julhelm/eastwndwn0.jpg: No such file or directory
 open_from_disk: ./dday/textures/julhelm/eastwndwn0.jpg: No such file or directory
@@ -855,6 +851,8 @@ open_from_disk: ./dday/sound/doors/dr1_end.wav: 234 bytes
 open_from_disk: ./dday/locs/casablanca.loc: No such file or directory
 open_from_disk: ./dday/locs/casablanca.loc: No such file or directory
 open_file_read: locs/casablanca.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/casablanca.cfg: 29 bytes
 Execing cfg/casablanca.cfg
@@ -882,7 +880,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/carreta.loc: No such file or directory
 open_from_disk: ./dday/locs/carreta.loc: No such file or directory
 open_file_read: locs/carreta.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/carreta.cfg: 31 bytes
 Execing cfg/carreta.cfg
 open_file_write: ./dday/condumps/carreta.txt: 0 bytes

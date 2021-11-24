@@ -1,9 +1,3 @@
-open_from_disk: ./dday/textures/dday3/breechside002.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday3/breechside002.jpg: No such file or directory
-open_file_read: textures/dday3/breechside002.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday3/breechside002.tga: No such file or directory
-open_from_disk: ./dday/textures/dday3/breechside002.tga: No such file or directory
-open_file_read: textures/dday3/breechside002.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday3/breechside002.wal: 1460 bytes
 open_from_disk: ./dday/textures/dday3/wall_part1.png: No such file or directory
 open_from_disk: ./dday/textures/dday3/wall_part1.png: No such file or directory
@@ -569,6 +563,8 @@ open_from_disk: ./dday/sound/doors/dr1_end.wav: 234 bytes
 open_from_disk: ./dday/locs/casablanca.loc: No such file or directory
 open_from_disk: ./dday/locs/casablanca.loc: No such file or directory
 open_file_read: locs/casablanca.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/casablanca.cfg: 29 bytes
 Execing cfg/casablanca.cfg
@@ -596,7 +592,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -733,6 +729,8 @@ open_from_disk: ./dday/locs/carreta.loc: No such file or directory
 open_from_disk: ./dday/locs/carreta.loc: No such file or directory
 open_file_read: locs/carreta.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/carreta.cfg: 31 bytes
 Execing cfg/carreta.cfg
 open_file_write: ./dday/condumps/carreta.txt: 0 bytes
@@ -762,7 +760,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/pics/objectives/carantein.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/carantein.tga: No such file or directory
 open_file_read: pics/objectives/carantein.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/carantein.pcx: 33485 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/carantein.cfg: 33 bytes
 Execing cfg/carantein.cfg

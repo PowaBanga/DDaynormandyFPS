@@ -1,7 +1,3 @@
-open_from_disk: ./dday/textures/grim/flaggrm.wal: 10980 bytes
-open_from_disk: ./dday/textures/caen/cnbldg5b.png: No such file or directory
-open_from_disk: ./dday/textures/caen/cnbldg5b.png: No such file or directory
-open_file_read: textures/caen/cnbldg5b.png: No such file or directory
 open_from_disk: ./dday/textures/caen/cnbldg5b.jpg: No such file or directory
 open_from_disk: ./dday/textures/caen/cnbldg5b.jpg: No such file or directory
 open_file_read: textures/caen/cnbldg5b.jpg: No such file or directory
@@ -342,6 +338,8 @@ open_from_disk: ./dday/sound/doors/dr1_end.wav: 234 bytes
 open_from_disk: ./dday/locs/ddaysp1.loc: No such file or directory
 open_from_disk: ./dday/locs/ddaysp1.loc: No such file or directory
 open_file_read: locs/ddaysp1.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ddaysp1.cfg: 33 bytes
 Execing cfg/ddaysp1.cfg
@@ -370,7 +368,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/sound/world/drips.wav: 80710 bytes
 open_from_disk: ./dday/locs/dday_espana.loc: No such file or directory
 open_from_disk: ./dday/locs/dday_espana.loc: No such file or directory
 open_file_read: locs/dday_espana.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/dday_espana.cfg: 31 bytes
 Execing cfg/dday_espana.cfg

@@ -1,3 +1,14 @@
+open_from_disk: ./dday/textures/viervill/epicerie.tga: No such file or directory
+open_from_disk: ./dday/textures/viervill/epicerie.tga: No such file or directory
+open_file_read: textures/viervill/epicerie.tga: No such file or directory
+open_from_disk: ./dday/textures/viervill/epicerie.wal: 6900 bytes
+open_from_disk: ./dday/textures/dday2/b6.png: No such file or directory
+open_from_disk: ./dday/textures/dday2/b6.png: No such file or directory
+open_file_read: textures/dday2/b6.png: No such file or directory
+open_from_disk: ./dday/textures/dday2/b6.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday2/b6.jpg: No such file or directory
+open_file_read: textures/dday2/b6.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday2/b6.tga: No such file or directory
 open_from_disk: ./dday/textures/dday2/b6.tga: No such file or directory
 open_file_read: textures/dday2/b6.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday2/b6.wal: 5540 bytes
@@ -831,6 +842,8 @@ open_from_disk: ./dday/pics/objectives/mp1dday1.tga: No such file or directory
 open_file_read: pics/objectives/mp1dday1.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/mp1dday1.pcx: 22882 bytes
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/mp1dday1.cfg: 31 bytes
 Execing cfg/mp1dday1.cfg
 open_file_write: ./dday/condumps/mp1dday1.txt: 0 bytes
@@ -871,7 +884,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1004,21 +1017,8 @@ open_from_disk: ./dday/locs/mountains.loc: No such file or directory
 open_from_disk: ./dday/locs/mountains.loc: No such file or directory
 open_file_read: locs/mountains.loc: No such file or directory
 Usage: connect <server> [34|35|36]
-Jim connected.
-Lars connected.
-Jim joined the game.
-open_from_disk: ./dday/players/usa/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.png: No such file or directory
-open_file_read: players/usa/class_lmg.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.jpg: No such file or directory
-open_file_read: players/usa/class_lmg.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_lmg.tga: No such file or directory
-open_file_read: players/usa/class_lmg.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_lmg.pcx: 98244 bytes
-open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-Lars joined the game.
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/mountains.cfg: 29 bytes
 Execing cfg/mountains.cfg
 open_file_write: ./dday/condumps/mountains.txt: 0 bytes

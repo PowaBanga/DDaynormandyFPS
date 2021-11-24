@@ -1,3 +1,23 @@
+open_from_disk: ./dday/models/weapons/rus/v_tt33/skin.png: No such file or directory
+open_file_read: models/weapons/rus/v_tt33/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_tt33/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_tt33/skin.jpg: No such file or directory
+open_file_read: models/weapons/rus/v_tt33/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_tt33/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_tt33/skin.tga: No such file or directory
+open_file_read: models/weapons/rus/v_tt33/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_tt33/skin.pcx: 32951 bytes
+open_from_disk: ./dday/models/weapons/rus/v_tt33/tris.md2: 140756 bytes
+open_from_disk: ./dday/models/weapons/rus/g_m9130/tris.md2: 13564 bytes
+open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.png: No such file or directory
+open_file_read: models/weapons/rus/v_m9130s/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.jpg: No such file or directory
+open_file_read: models/weapons/rus/v_m9130s/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.tga: No such file or directory
+open_file_read: models/weapons/rus/v_m9130s/skin.tga: No such file or directory
 open_from_disk: ./dday/models/weapons/rus/v_m9130s/skin.pcx: 43745 bytes
 open_from_disk: ./dday/models/weapons/rus/v_m9130/tris.md2: 215112 bytes
 open_from_disk: ./dday/models/weapons/rus/g_ppsh41/tris.md2: 9376 bytes
@@ -176,16 +196,6 @@ open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
 open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
 open_file_read: pics/a_f1grenade.tga: No such file or directory
 open_from_disk: ./dday/pics/a_f1grenade.pcx: 1194 bytes
-open_from_disk: ./dday/pics/a_tt33.png: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.png: No such file or directory
-open_file_read: pics/a_tt33.png: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.jpg: No such file or directory
-open_file_read: pics/a_tt33.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.tga: No such file or directory
-open_from_disk: ./dday/pics/a_tt33.tga: No such file or directory
-open_file_read: pics/a_tt33.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/a_tt33.pcx: 1111 bytes
 open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
 open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
 open_file_read: pics/a_m9130.png: No such file or directory
@@ -226,16 +236,6 @@ open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
 open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
 open_file_read: pics/a_dpm.tga: No such file or directory
 open_from_disk: ./dday/pics/a_dpm.pcx: 1367 bytes
-open_from_disk: ./dday/pics/w_molotov.png: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.png: No such file or directory
-open_file_read: pics/w_molotov.png: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.jpg: No such file or directory
-open_file_read: pics/w_molotov.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.tga: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.tga: No such file or directory
-open_file_read: pics/w_molotov.tga: No such file or directory
-open_from_disk: ./dday/pics/w_molotov.pcx: 1503 bytes
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_file_read: pics/scope_rus.png: No such file or directory
@@ -379,7 +379,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -466,7 +466,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -962,7 +962,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

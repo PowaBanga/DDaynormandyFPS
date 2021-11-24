@@ -1,3 +1,4 @@
+open_from_disk: ./dday/textures/dday/sandbag2.jpg: No such file or directory
 open_from_disk: ./dday/textures/DDAY/SANDBAG2.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday/sandbag2.jpg: No such file or directory
 open_file_read: textures/DDAY/SANDBAG2.jpg: No such file or directory
@@ -214,8 +215,7 @@ open_from_disk: ./dday/textures/dday/rockwall.tga: No such file or directory
 open_from_disk: ./dday/textures/DDAY/ROCKWALL.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/rockwall.tga: No such file or directory
 open_file_read: textures/DDAY/ROCKWALL.tga: No such file or directory
-open_from_disk: ./dday/textures/DDAY/ROCKWALL.wal: No such file or directory
-open_from_disk: ./dday/textures/dday/rockwall.wal: 21860 bytes
+open_from_disk: ./dday/textures/DDAY/ROCKWALL.wal: 21860 bytes
 open_from_disk: ./dday/textures/BEACH/CEMENT1.png: No such file or directory
 open_from_disk: ./dday/textures/beach/cement1.png: 104274 bytes
 open_from_pak: ./dday/pak0.pak/textures/beach/cement1.wal: 5540 bytes
@@ -235,10 +235,8 @@ open_from_disk: ./dday/textures/DDAY/SAND.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/sand.tga: No such file or directory
 open_file_read: textures/DDAY/SAND.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/sand.wal: 5540 bytes
-open_from_disk: ./dday/textures/E1U1/TRIGGER.png: No such file or directory
-open_from_disk: ./dday/textures/e1u1/trigger.png: 288 bytes
-open_from_disk: ./dday/textures/E1U1/TRIGGER.wal: No such file or directory
-open_from_disk: ./dday/textures/e1u1/trigger.wal: 1460 bytes
+open_from_disk: ./dday/textures/E1U1/TRIGGER.png: 288 bytes
+open_from_disk: ./dday/textures/E1U1/TRIGGER.wal: 1460 bytes
 open_from_disk: ./dday/textures/DDAY/ROCKGRASS.png: No such file or directory
 open_from_disk: ./dday/textures/dday/rockgrass.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/ROCKGRASS.png: No such file or directory
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/pics/objectives/mp1dday2.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/mp1dday2.tga: No such file or directory
 open_file_read: pics/objectives/mp1dday2.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/mp1dday2.pcx: 18036 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/mp1dday2.cfg: 30 bytes
 Execing cfg/mp1dday2.cfg

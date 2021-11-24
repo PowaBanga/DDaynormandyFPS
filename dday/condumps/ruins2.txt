@@ -1,73 +1,3 @@
-open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
-open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
-open_file_read: models/proj/lightning/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
-open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
-open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
-open_from_pak: ./dday/pak0.pak/models/objects/banner/tris.md2: 13428 bytes
-open_from_disk: ./dday/models/objects/banner/skin.png: No such file or directory
-open_from_disk: ./dday/models/objects/banner/skin.png: No such file or directory
-open_file_read: models/objects/banner/skin.png: No such file or directory
-open_from_disk: ./dday/models/objects/banner/skin.jpg: No such file or directory
-open_from_disk: ./dday/models/objects/banner/skin.jpg: No such file or directory
-open_file_read: models/objects/banner/skin.jpg: No such file or directory
-open_from_disk: ./dday/models/objects/banner/skin.tga: No such file or directory
-open_from_disk: ./dday/models/objects/banner/skin.tga: No such file or directory
-open_file_read: models/objects/banner/skin.tga: No such file or directory
-open_from_pak: ./dday/pak0.pak/models/objects/banner/skin.pcx: 48517 bytes
-open_from_disk: ./dday/env/valley1rt.png: No such file or directory
-open_from_disk: ./dday/env/valley1rt.png: No such file or directory
-open_file_read: env/valley1rt.png: No such file or directory
-open_from_disk: ./dday/env/valley1rt.jpg: No such file or directory
-open_from_disk: ./dday/env/valley1rt.jpg: No such file or directory
-open_file_read: env/valley1rt.jpg: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/valley1rt.tga: 206962 bytes
-open_from_disk: ./dday/env/valley1bk.png: No such file or directory
-open_from_disk: ./dday/env/valley1bk.png: No such file or directory
-open_file_read: env/valley1bk.png: No such file or directory
-open_from_disk: ./dday/env/valley1bk.jpg: No such file or directory
-open_from_disk: ./dday/env/valley1bk.jpg: No such file or directory
-open_file_read: env/valley1bk.jpg: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/valley1bk.tga: 196222 bytes
-open_from_disk: ./dday/env/valley1lf.png: No such file or directory
-open_from_disk: ./dday/env/valley1lf.png: No such file or directory
-open_file_read: env/valley1lf.png: No such file or directory
-open_from_disk: ./dday/env/valley1lf.jpg: No such file or directory
-open_from_disk: ./dday/env/valley1lf.jpg: No such file or directory
-open_file_read: env/valley1lf.jpg: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/valley1lf.tga: 205806 bytes
-open_from_disk: ./dday/env/valley1ft.png: No such file or directory
-open_from_disk: ./dday/env/valley1ft.png: No such file or directory
-open_file_read: env/valley1ft.png: No such file or directory
-open_from_disk: ./dday/env/valley1ft.jpg: No such file or directory
-open_from_disk: ./dday/env/valley1ft.jpg: No such file or directory
-open_file_read: env/valley1ft.jpg: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/valley1ft.tga: 203906 bytes
-open_from_disk: ./dday/env/valley1up.png: No such file or directory
-open_from_disk: ./dday/env/valley1up.png: No such file or directory
-open_file_read: env/valley1up.png: No such file or directory
-open_from_disk: ./dday/env/valley1up.jpg: No such file or directory
-open_from_disk: ./dday/env/valley1up.jpg: No such file or directory
-open_file_read: env/valley1up.jpg: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/valley1up.tga: 214582 bytes
-open_from_disk: ./dday/env/valley1dn.png: No such file or directory
-open_from_disk: ./dday/env/valley1dn.png: No such file or directory
-open_file_read: env/valley1dn.png: No such file or directory
-open_from_disk: ./dday/env/valley1dn.jpg: No such file or directory
-open_from_disk: ./dday/env/valley1dn.jpg: No such file or directory
-open_file_read: env/valley1dn.jpg: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/valley1dn.tga: 155902 bytes
-open_from_disk: ./dday/locs/sanlo.loc: No such file or directory
-open_from_disk: ./dday/locs/sanlo.loc: No such file or directory
-open_file_read: locs/sanlo.loc: No such file or directory
-Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/sanlo.cfg: 27 bytes
 Execing cfg/sanlo.cfg
 open_file_write: ./dday/condumps/sanlo.txt: 0 bytes
@@ -94,7 +24,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -442,7 +372,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -908,6 +838,16 @@ open_from_disk: ./dday/players/rus/a_f1grenade.tga: No such file or directory
 open_from_disk: ./dday/players/rus/a_f1grenade.tga: No such file or directory
 open_file_read: players/rus/a_f1grenade.tga: No such file or directory
 open_from_pak: ./dday/pak3.pak/players/rus/a_f1grenade.pcx: 17530 bytes
+open_from_disk: ./dday/pics/w_tt33.png: No such file or directory
+open_from_disk: ./dday/pics/w_tt33.png: No such file or directory
+open_file_read: pics/w_tt33.png: No such file or directory
+open_from_disk: ./dday/pics/w_tt33.jpg: No such file or directory
+open_from_disk: ./dday/pics/w_tt33.jpg: No such file or directory
+open_file_read: pics/w_tt33.jpg: No such file or directory
+open_from_disk: ./dday/pics/w_tt33.tga: No such file or directory
+open_from_disk: ./dday/pics/w_tt33.tga: No such file or directory
+open_file_read: pics/w_tt33.tga: No such file or directory
+open_from_pak: ./dday/pak7.pak/pics/w_tt33.pcx: 1160 bytes
 open_from_disk: ./dday/pics/w_m9130.png: No such file or directory
 open_from_disk: ./dday/pics/w_m9130.png: No such file or directory
 open_file_read: pics/w_m9130.png: No such file or directory
@@ -958,6 +898,56 @@ open_from_disk: ./dday/pics/w_m9130s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_m9130s.tga: No such file or directory
 open_file_read: pics/w_m9130s.tga: No such file or directory
 open_from_pak: ./dday/pak7.pak/pics/w_m9130s.pcx: 1419 bytes
+open_from_disk: ./dday/pics/a_f1grenade.png: No such file or directory
+open_from_disk: ./dday/pics/a_f1grenade.png: No such file or directory
+open_file_read: pics/a_f1grenade.png: No such file or directory
+open_from_disk: ./dday/pics/a_f1grenade.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_f1grenade.jpg: No such file or directory
+open_file_read: pics/a_f1grenade.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
+open_from_disk: ./dday/pics/a_f1grenade.tga: No such file or directory
+open_file_read: pics/a_f1grenade.tga: No such file or directory
+open_from_disk: ./dday/pics/a_f1grenade.pcx: 1194 bytes
+open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
+open_from_disk: ./dday/pics/a_m9130.png: No such file or directory
+open_file_read: pics/a_m9130.png: No such file or directory
+open_from_disk: ./dday/pics/a_m9130.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_m9130.jpg: No such file or directory
+open_file_read: pics/a_m9130.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_m9130.tga: No such file or directory
+open_from_disk: ./dday/pics/a_m9130.tga: No such file or directory
+open_file_read: pics/a_m9130.tga: No such file or directory
+open_from_disk: ./dday/pics/a_m9130.pcx: 1185 bytes
+open_from_disk: ./dday/pics/a_ppsh41.png: No such file or directory
+open_from_disk: ./dday/pics/a_ppsh41.png: No such file or directory
+open_file_read: pics/a_ppsh41.png: No such file or directory
+open_from_disk: ./dday/pics/a_ppsh41.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_ppsh41.jpg: No such file or directory
+open_file_read: pics/a_ppsh41.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_ppsh41.tga: No such file or directory
+open_from_disk: ./dday/pics/a_ppsh41.tga: No such file or directory
+open_file_read: pics/a_ppsh41.tga: No such file or directory
+open_from_disk: ./dday/pics/a_ppsh41.pcx: 1374 bytes
+open_from_disk: ./dday/pics/a_pps43.png: No such file or directory
+open_from_disk: ./dday/pics/a_pps43.png: No such file or directory
+open_file_read: pics/a_pps43.png: No such file or directory
+open_from_disk: ./dday/pics/a_pps43.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_pps43.jpg: No such file or directory
+open_file_read: pics/a_pps43.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_pps43.tga: No such file or directory
+open_from_disk: ./dday/pics/a_pps43.tga: No such file or directory
+open_file_read: pics/a_pps43.tga: No such file or directory
+open_from_disk: ./dday/pics/a_pps43.pcx: 1047 bytes
+open_from_disk: ./dday/pics/a_dpm.png: No such file or directory
+open_from_disk: ./dday/pics/a_dpm.png: No such file or directory
+open_file_read: pics/a_dpm.png: No such file or directory
+open_from_disk: ./dday/pics/a_dpm.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_dpm.jpg: No such file or directory
+open_file_read: pics/a_dpm.jpg: No such file or directory
+open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
+open_from_disk: ./dday/pics/a_dpm.tga: No such file or directory
+open_file_read: pics/a_dpm.tga: No such file or directory
+open_from_disk: ./dday/pics/a_dpm.pcx: 1367 bytes
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_from_disk: ./dday/pics/scope_rus.png: No such file or directory
 open_file_read: pics/scope_rus.png: No such file or directory
@@ -1018,6 +1008,16 @@ open_from_disk: ./dday/pics/objectives/ruins2.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/ruins2.tga: No such file or directory
 open_file_read: pics/objectives/ruins2.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/ruins2.pcx: 31772 bytes
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_file_read: pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_file_read: pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_file_read: pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ruins2.cfg: 32 bytes
 Execing cfg/ruins2.cfg

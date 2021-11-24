@@ -1,7 +1,3 @@
-open_file_read: textures/dday/mr_wood3.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday/mr_wood3.tga: No such file or directory
-open_from_disk: ./dday/textures/dday/mr_wood3.tga: No such file or directory
-open_file_read: textures/dday/mr_wood3.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/mr_wood3.wal: 4180 bytes
 open_from_disk: ./dday/textures/terrain/filecab1.png: No such file or directory
 open_from_disk: ./dday/textures/terrain/filecab1.png: No such file or directory
@@ -141,6 +137,8 @@ open_from_disk: ./dday/env/darkhollow256_dn.tga: 196652 bytes
 open_from_disk: ./dday/locs/ch.luga.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.luga.loc: No such file or directory
 open_file_read: locs/ch.luga.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/ch.luga.cfg: 30 bytes
 Execing cfg/ch.luga.cfg
@@ -182,7 +180,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/ch.kawaj.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.kawaj.loc: No such file or directory
 open_file_read: locs/ch.kawaj.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/ch.kawaj.cfg: 34 bytes
 Execing cfg/ch.kawaj.cfg
 open_file_write: ./dday/condumps/ch.kawaj.txt: 0 bytes

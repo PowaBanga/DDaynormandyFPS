@@ -1,3 +1,21 @@
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.png: No such file or directory
+open_file_read: models/weapons/gbr/g_sten/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.jpg: No such file or directory
+open_file_read: models/weapons/gbr/g_sten/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.tga: No such file or directory
+open_file_read: models/weapons/gbr/g_sten/skin.tga: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/g_sten/skin.pcx: 42369 bytes
+open_from_disk: ./dday/models/weapons/gbr/v_sten/tris.md2: 289504 bytes
+open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.png: No such file or directory
+open_file_read: models/weapons/gbr/v_sten/skin.png: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.jpg: No such file or directory
+open_file_read: models/weapons/gbr/v_sten/skin.jpg: No such file or directory
+open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.tga: No such file or directory
 open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.tga: No such file or directory
 open_file_read: models/weapons/gbr/v_sten/skin.tga: No such file or directory
 open_from_disk: ./dday/models/weapons/gbr/v_sten/skin.pcx: 30447 bytes
@@ -201,16 +219,6 @@ open_from_disk: ./dday/models/objects/banner1/skin.tga: No such file or director
 open_from_disk: ./dday/models/objects/banner1/skin.tga: No such file or directory
 open_file_read: models/objects/banner1/skin.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/models/objects/banner1/skin.pcx: 49358 bytes
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.png: No such file or directory
-open_file_read: pics/w_webley.png: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.jpg: No such file or directory
-open_file_read: pics/w_webley.jpg: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_from_disk: ./dday/pics/w_webley.tga: No such file or directory
-open_file_read: pics/w_webley.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/pics/w_webley.pcx: 1412 bytes
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_from_disk: ./dday/pics/w_303.png: No such file or directory
 open_file_read: pics/w_303.png: No such file or directory
@@ -261,16 +269,6 @@ open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.tga: No such file or directory
 open_file_read: pics/w_303s.tga: No such file or directory
 open_from_disk: ./dday/pics/w_303s.pcx: 1751 bytes
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.png: No such file or directory
-open_file_read: pics/a_mills_bomb.png: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.jpg: No such file or directory
-open_file_read: pics/a_mills_bomb.jpg: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.tga: No such file or directory
-open_file_read: pics/a_mills_bomb.tga: No such file or directory
-open_from_disk: ./dday/pics/a_mills_bomb.pcx: 1422 bytes
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_from_disk: ./dday/pics/a_webley.png: No such file or directory
 open_file_read: pics/a_webley.png: No such file or directory
@@ -467,7 +465,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/pillbox.loc: No such file or directory
 open_from_disk: ./dday/locs/pillbox.loc: No such file or directory
 open_file_read: locs/pillbox.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/pillbox.cfg: 27 bytes
 Execing cfg/pillbox.cfg
 open_file_write: ./dday/condumps/pillbox.txt: 0 bytes

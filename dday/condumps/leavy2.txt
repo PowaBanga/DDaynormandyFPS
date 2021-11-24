@@ -1,5 +1,3 @@
-open_from_disk: ./dday/textures/dday3/stone_walk.png: No such file or directory
-open_file_read: textures/dday3/stone_walk.png: No such file or directory
 open_from_disk: ./dday/textures/dday3/stone_walk.jpg: No such file or directory
 open_from_disk: ./dday/textures/dday3/stone_walk.jpg: No such file or directory
 open_file_read: textures/dday3/stone_walk.jpg: No such file or directory
@@ -656,7 +654,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/leavy2.loc: No such file or directory
 open_from_disk: ./dday/locs/leavy2.loc: No such file or directory
 open_file_read: locs/leavy2.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/leavy2.cfg: 27 bytes
 Execing cfg/leavy2.cfg
 open_file_write: ./dday/condumps/leavy2.txt: 0 bytes

@@ -1,3 +1,25 @@
+open_file_read: textures/oompa/dance2.jpg: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance2.tga: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance2.tga: No such file or directory
+open_file_read: textures/oompa/dance2.tga: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance2.wal: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance2.wal: No such file or directory
+open_file_read: textures/oompa/dance2.wal: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.png: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.png: No such file or directory
+open_file_read: textures/oompa/dance1.png: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.jpg: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.jpg: No such file or directory
+open_file_read: textures/oompa/dance1.jpg: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.tga: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.tga: No such file or directory
+open_file_read: textures/oompa/dance1.tga: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.wal: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance1.wal: No such file or directory
+open_file_read: textures/oompa/dance1.wal: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance2.png: No such file or directory
+open_from_disk: ./dday/textures/oompa/dance2.png: No such file or directory
+open_file_read: textures/oompa/dance2.png: No such file or directory
 open_from_disk: ./dday/textures/oompa/dance2.jpg: No such file or directory
 open_from_disk: ./dday/textures/oompa/dance2.jpg: No such file or directory
 open_file_read: textures/oompa/dance2.jpg: No such file or directory
@@ -321,6 +343,8 @@ open_file_read: sound/faf/oompth.wav: No such file or directory
 open_from_disk: ./dday/locs/oompa.loc: No such file or directory
 open_from_disk: ./dday/locs/oompa.loc: No such file or directory
 open_file_read: locs/oompa.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/oompa.cfg: 27 bytes
 Execing cfg/oompa.cfg
@@ -357,7 +381,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -992,33 +1016,9 @@ open_from_disk: ./dday/pics/objectives/omaha.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/omaha.tga: No such file or directory
 open_file_read: pics/objectives/omaha.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/omaha.pcx: 36118 bytes
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
-loBOTomy connected.
-Frederick connected.
-Frederick joined the game.
-open_from_disk: ./dday/players/grm/class_special.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_special.png: No such file or directory
-open_file_read: players/grm/class_special.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_special.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_special.jpg: No such file or directory
-open_file_read: players/grm/class_special.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_special.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_special.tga: No such file or directory
-open_file_read: players/grm/class_special.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_special.pcx: 79831 bytes
-open_from_disk: ./dday/players/grm/class_special_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_special_i.png: No such file or directory
-open_file_read: players/grm/class_special_i.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_special_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_special_i.jpg: No such file or directory
-open_file_read: players/grm/class_special_i.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_special_i.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_special_i.tga: No such file or directory
-open_file_read: players/grm/class_special_i.tga: No such file or directory
-open_from_pak: ./dday/pak7.pak/players/grm/class_special_i.pcx: 1940 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack1.wav: 15148 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/move1.wav: 18860 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack2.wav: 18220 bytes
 open_from_disk: ./dday/cfg/omaha.cfg: 30 bytes
 Execing cfg/omaha.cfg
 open_file_write: ./dday/condumps/omaha.txt: 0 bytes

@@ -1,3 +1,11 @@
+open_from_disk: ./dday/sound/faf/goat.wav: 6048 bytes
+open_from_disk: ./dday/sound/faf/cow2.wav: 63166 bytes
+open_from_disk: ./dday/sound/faf/cow3.wav: 59948 bytes
+open_from_disk: ./dday/sound/faf/cow4.wav: 58572 bytes
+open_from_disk: ./dday/sound/faf/chickens.wav: 133286 bytes
+open_from_disk: ./dday/sound/faf/woodbreak.wav: 57992 bytes
+open_from_disk: ./dday/sound/faf/wcreak.wav: 26882 bytes
+open_from_disk: ./dday/sound/faf/larks.wav: 420914 bytes
 open_from_disk: ./dday/sound/faf/windm.wav: 253964 bytes
 open_from_disk: ./dday/sound/faf/clock.wav: 85827 bytes
 open_from_disk: ./dday/sound/faf/boxmove.wav: 95394 bytes
@@ -44,7 +52,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -95,8 +103,7 @@ open_from_disk: ./dday/textures/faf/redcarp.tga: No such file or directory
 open_from_disk: ./dday/textures/FAF/REDCARP.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/redcarp.tga: No such file or directory
 open_file_read: textures/FAF/REDCARP.tga: No such file or directory
-open_from_disk: ./dday/textures/FAF/REDCARP.wal: No such file or directory
-open_from_disk: ./dday/textures/faf/redcarp.wal: 5540 bytes
+open_from_disk: ./dday/textures/FAF/REDCARP.wal: 5540 bytes
 open_from_disk: ./dday/textures/DDAY/GRASS1.png: No such file or directory
 open_from_disk: ./dday/textures/dday/grass1.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/GRASS1.png: No such file or directory
@@ -197,12 +204,16 @@ open_from_disk: ./dday/textures/surreal/sgrass1.tga: No such file or directory
 open_from_disk: ./dday/textures/SURREAL/SGRASS1.tga: No such file or directory
 open_from_disk: ./dday/textures/surreal/sgrass1.tga: No such file or directory
 open_file_read: textures/SURREAL/SGRASS1.tga: No such file or directory
-open_from_disk: ./dday/textures/SURREAL/SGRASS1.wal: No such file or directory
-open_from_disk: ./dday/textures/surreal/sgrass1.wal: 5540 bytes
-open_from_disk: ./dday/textures/E2U2/METAL18_2.png: No such file or directory
-open_from_disk: ./dday/textures/e2u2/metal18_2.png: 11424 bytes
-open_from_disk: ./dday/textures/E2U2/METAL18_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e2u2/metal18_2.wal: 21860 bytes
+open_from_disk: ./dday/textures/SURREAL/SGRASS1.wal: 5540 bytes
+open_from_disk: ./dday/textures/E2U2/METAL18_2.png: 21860 bytes
+libpng: textures/E2U2/METAL18_2.png: Not a PNG file
+Couldn't load textures/E2U2/METAL18_2.wal: Library error
+open_from_disk: ./dday/textures/E2U2/METAL18_2.png: 21860 bytes
+libpng: textures/E2U2/METAL18_2.png: Not a PNG file
+Couldn't load textures/E2U2/METAL18_2.wal: Library error
+open_from_disk: ./dday/textures/E2U2/METAL18_2.png: 21860 bytes
+libpng: textures/E2U2/METAL18_2.png: Not a PNG file
+Couldn't load textures/E2U2/METAL18_2.wal: Library error
 open_from_disk: ./dday/textures/SURREAL/SWOOD4.png: No such file or directory
 open_from_disk: ./dday/textures/surreal/swood4.png: No such file or directory
 open_from_disk: ./dday/textures/SURREAL/SWOOD4.png: No such file or directory
@@ -218,8 +229,7 @@ open_from_disk: ./dday/textures/surreal/swood4.tga: No such file or directory
 open_from_disk: ./dday/textures/SURREAL/SWOOD4.tga: No such file or directory
 open_from_disk: ./dday/textures/surreal/swood4.tga: No such file or directory
 open_file_read: textures/SURREAL/SWOOD4.tga: No such file or directory
-open_from_disk: ./dday/textures/SURREAL/SWOOD4.wal: No such file or directory
-open_from_disk: ./dday/textures/surreal/swood4.wal: 21860 bytes
+open_from_disk: ./dday/textures/SURREAL/SWOOD4.wal: 21860 bytes
 open_from_disk: ./dday/textures/GIMP/WIZWOOD1_3.png: No such file or directory
 open_from_disk: ./dday/textures/gimp/wizwood1_3.png: No such file or directory
 open_from_disk: ./dday/textures/GIMP/WIZWOOD1_3.png: No such file or directory
@@ -235,8 +245,7 @@ open_from_disk: ./dday/textures/gimp/wizwood1_3.tga: No such file or directory
 open_from_disk: ./dday/textures/GIMP/WIZWOOD1_3.tga: No such file or directory
 open_from_disk: ./dday/textures/gimp/wizwood1_3.tga: No such file or directory
 open_file_read: textures/GIMP/WIZWOOD1_3.tga: No such file or directory
-open_from_disk: ./dday/textures/GIMP/WIZWOOD1_3.wal: No such file or directory
-open_from_disk: ./dday/textures/gimp/wizwood1_3.wal: 5540 bytes
+open_from_disk: ./dday/textures/GIMP/WIZWOOD1_3.wal: 5540 bytes
 open_from_disk: ./dday/textures/DDAY/STREET1.png: No such file or directory
 open_from_disk: ./dday/textures/dday/street1.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/STREET1.png: No such file or directory
@@ -284,8 +293,7 @@ open_from_disk: ./dday/textures/surreal/flwood.tga: No such file or directory
 open_from_disk: ./dday/textures/SURREAL/FLWOOD.tga: No such file or directory
 open_from_disk: ./dday/textures/surreal/flwood.tga: No such file or directory
 open_file_read: textures/SURREAL/FLWOOD.tga: No such file or directory
-open_from_disk: ./dday/textures/SURREAL/FLWOOD.wal: No such file or directory
-open_from_disk: ./dday/textures/surreal/flwood.wal: 5540 bytes
+open_from_disk: ./dday/textures/SURREAL/FLWOOD.wal: 5540 bytes
 open_from_disk: ./dday/textures/DDAY/ROOFTOP1.png: No such file or directory
 open_from_disk: ./dday/textures/dday/rooftop1.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/ROOFTOP1.png: No such file or directory
@@ -302,10 +310,8 @@ open_from_disk: ./dday/textures/DDAY/ROOFTOP1.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/rooftop1.tga: No such file or directory
 open_file_read: textures/DDAY/ROOFTOP1.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/rooftop1.wal: 21860 bytes
-open_from_disk: ./dday/textures/E3U1/BRICK1_2.png: No such file or directory
-open_from_disk: ./dday/textures/e3u1/brick1_2.png: 4874 bytes
-open_from_disk: ./dday/textures/E3U1/BRICK1_2.wal: No such file or directory
-open_from_disk: ./dday/textures/e3u1/brick1_2.wal: 5540 bytes
+open_from_disk: ./dday/textures/E3U1/BRICK1_2.png: 4874 bytes
+open_from_disk: ./dday/textures/E3U1/BRICK1_2.wal: 5540 bytes
 open_from_disk: ./dday/textures/DDAY/STRAW.png: No such file or directory
 open_from_disk: ./dday/textures/dday/straw.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/STRAW.png: No such file or directory
@@ -340,8 +346,7 @@ open_from_disk: ./dday/textures/faf/trees.tga: No such file or directory
 open_from_disk: ./dday/textures/FAF/TREES.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/trees.tga: No such file or directory
 open_file_read: textures/FAF/TREES.tga: No such file or directory
-open_from_disk: ./dday/textures/FAF/TREES.wal: No such file or directory
-open_from_disk: ./dday/textures/faf/trees.wal: 10980 bytes
+open_from_disk: ./dday/textures/FAF/TREES.wal: 10980 bytes
 open_from_disk: ./dday/textures/FAF/FOREST3.png: No such file or directory
 open_from_disk: ./dday/textures/faf/forest3.png: No such file or directory
 open_from_disk: ./dday/textures/FAF/FOREST3.png: No such file or directory
@@ -357,15 +362,12 @@ open_from_disk: ./dday/textures/faf/forest3.tga: No such file or directory
 open_from_disk: ./dday/textures/FAF/FOREST3.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/forest3.tga: No such file or directory
 open_file_read: textures/FAF/FOREST3.tga: No such file or directory
-open_from_disk: ./dday/textures/FAF/FOREST3.wal: No such file or directory
-open_from_disk: ./dday/textures/faf/forest3.wal: 21860 bytes
+open_from_disk: ./dday/textures/FAF/FOREST3.wal: 21860 bytes
 open_from_disk: ./dday/textures/E1U1/SKY1.png: No such file or directory
 open_from_disk: ./dday/textures/e1u1/sky1.png: 685 bytes
 open_from_disk: ./dday/textures/E1U1/SKY1.wal: 1460 bytes
-open_from_disk: ./dday/textures/E3U3/XSKY1.png: No such file or directory
-open_from_disk: ./dday/textures/e3u3/xsky1.png: 18875 bytes
-open_from_disk: ./dday/textures/E3U3/XSKY1.wal: No such file or directory
-open_from_disk: ./dday/textures/e3u3/xsky1.wal: 43620 bytes
+open_from_disk: ./dday/textures/E3U3/XSKY1.png: 18875 bytes
+open_from_disk: ./dday/textures/E3U3/XSKY1.wal: 43620 bytes
 open_from_disk: ./dday/textures/DDAY/BASE_BKFNT.png: No such file or directory
 open_from_disk: ./dday/textures/dday/base_bkfnt.png: No such file or directory
 open_from_disk: ./dday/textures/DDAY/BASE_BKFNT.png: No such file or directory
@@ -382,14 +384,10 @@ open_from_disk: ./dday/textures/DDAY/BASE_BKFNT.tga: No such file or directory
 open_from_disk: ./dday/textures/dday/base_bkfnt.tga: No such file or directory
 open_file_read: textures/DDAY/BASE_BKFNT.tga: No such file or directory
 open_from_pak: ./dday/pak0.pak/textures/dday/base_bkfnt.wal: 5540 bytes
-open_from_disk: ./dday/textures/E3U1/PMETAL3_1.png: No such file or directory
-open_from_disk: ./dday/textures/e3u1/pmetal3_1.png: 6094 bytes
-open_from_disk: ./dday/textures/E3U1/PMETAL3_1.wal: No such file or directory
-open_from_disk: ./dday/textures/e3u1/pmetal3_1.wal: 10980 bytes
-open_from_disk: ./dday/textures/E3U3/METAL4_4.png: No such file or directory
-open_from_disk: ./dday/textures/e3u3/metal4_4.png: 1012 bytes
-open_from_disk: ./dday/textures/E3U3/METAL4_4.wal: No such file or directory
-open_from_disk: ./dday/textures/e3u3/metal4_4.wal: 1460 bytes
+open_from_disk: ./dday/textures/E3U1/PMETAL3_1.png: 6094 bytes
+open_from_disk: ./dday/textures/E3U1/PMETAL3_1.wal: 10980 bytes
+open_from_disk: ./dday/textures/E3U3/METAL4_4.png: 1012 bytes
+open_from_disk: ./dday/textures/E3U3/METAL4_4.wal: 1460 bytes
 open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
@@ -486,7 +484,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -930,7 +928,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1018,6 +1016,8 @@ open_from_disk: ./dday/env/unit1_dn.tga: 196626 bytes
 open_from_disk: ./dday/locs/falling.loc: No such file or directory
 open_from_disk: ./dday/locs/falling.loc: No such file or directory
 open_file_read: locs/falling.loc: No such file or directory
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/falling.cfg: 33 bytes
 Execing cfg/falling.cfg

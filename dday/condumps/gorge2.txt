@@ -1,5 +1,3 @@
-open_from_disk: ./dday/textures/perez/bricks2_rip.tga: No such file or directory
-open_from_disk: ./dday/textures/perez/bricks2_rip.tga: No such file or directory
 open_file_read: textures/perez/bricks2_rip.tga: No such file or directory
 open_from_disk: ./dday/textures/perez/bricks2_rip.wal: 16420 bytes
 open_from_disk: ./dday/textures/rabid/screenshot.png: No such file or directory
@@ -216,6 +214,8 @@ open_file_read: pics/objectives/grand1e.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/grand1e.pcx: 104106 bytes
 Couldn't load pics/objectives/grand1e.pcx: Invalid file format
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/grand1e.cfg: 29 bytes
 Execing cfg/grand1e.cfg
 open_file_write: ./dday/condumps/grand1e.txt: 0 bytes
@@ -242,7 +242,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -363,7 +363,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

@@ -1,4 +1,39 @@
-PowaBanga connected.
+open_file_read: pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_file_read: pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_file_read: pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
+Usage: connect <server> [34|35|36]
+open_from_disk: ./dday/cfg/zsonic.cfg: 27 bytes
+Execing cfg/zsonic.cfg
+open_file_write: ./dday/condumps/zsonic.txt: 0 bytes
+Dumped console text to condumps/zsonic.txt.
+open_from_disk: ./dday/maps/xcity.bsp: 280824 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: xcity
+open_from_disk: ./dday/maps/xcity.ent: No such file or directory
+open_from_disk: ./dday/maps/xcity.ent: No such file or directory
+open_file_read: maps/xcity.ent: No such file or directory
+No .ent File for xcity.bsp
+Loading map objective pic dday/pics/objectives/xcity.pcx...done.
+0 entities inhibited
+0 teams with 0 entities
+server map: xcity
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -301,7 +336,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -984,41 +1019,6 @@ open_from_disk: ./dday/pics/objectives/wolf.tga: No such file or directory
 open_file_read: pics/objectives/wolf.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/wolf.pcx: 34439 bytes
 Usage: connect <server> [34|35|36]
-saBOTage connected.
-Lars connected.
-Lars joined the game.
-open_from_disk: ./dday/players/grm/class_engineer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.png: No such file or directory
-open_file_read: players/grm/class_engineer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.jpg: No such file or directory
-open_file_read: players/grm/class_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.tga: No such file or directory
-open_file_read: players/grm/class_engineer.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_engineer.pcx: 95786 bytes
-saBOTage joined the game.
-open_from_disk: ./dday/players/usa/class_medic.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic.png: No such file or directory
-open_file_read: players/usa/class_medic.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic.jpg: No such file or directory
-open_file_read: players/usa/class_medic.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic.tga: No such file or directory
-open_file_read: players/usa/class_medic.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_medic.pcx: 97364 bytes
-open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/class_medic_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic_i.png: No such file or directory
-open_file_read: players/usa/class_medic_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic_i.jpg: No such file or directory
-open_file_read: players/usa/class_medic_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic_i.tga: No such file or directory
-open_file_read: players/usa/class_medic_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_medic_i.pcx: 1615 bytes
 open_from_disk: ./dday/cfg/wolf.cfg: 29 bytes
 Execing cfg/wolf.cfg
 open_file_write: ./dday/condumps/wolf.txt: 0 bytes

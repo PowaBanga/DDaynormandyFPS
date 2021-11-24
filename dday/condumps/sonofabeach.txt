@@ -1,13 +1,3 @@
-open_file_read: textures/dday3/ammo_side.jpg: No such file or directory
-open_from_disk: ./dday/textures/dday3/ammo_side.tga: No such file or directory
-open_from_disk: ./dday/textures/dday3/ammo_side.tga: No such file or directory
-open_file_read: textures/dday3/ammo_side.tga: No such file or directory
-open_from_pak: ./dday/pak0.pak/textures/dday3/ammo_side.wal: 2140 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
-open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
 open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
@@ -129,6 +119,16 @@ open_from_disk: ./dday/pics/objectives/soviet1.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/soviet1.tga: No such file or directory
 open_file_read: pics/objectives/soviet1.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/soviet1.pcx: 32704 bytes
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.png: No such file or directory
+open_file_read: pics/teams/rus.png: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.jpg: No such file or directory
+open_file_read: pics/teams/rus.jpg: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.tga: No such file or directory
+open_file_read: pics/teams/rus.tga: No such file or directory
+open_from_disk: ./dday/pics/teams/rus.pcx: 1406 bytes
 Usage: connect <server> [34|35|36]
 open_from_disk: ./dday/cfg/soviet1.cfg: 383 bytes
 Execing cfg/soviet1.cfg
@@ -156,7 +156,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 

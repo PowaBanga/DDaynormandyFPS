@@ -1,3 +1,15 @@
+
+Hotel California 
+ Faelic (faelic@iname.com) 
+ Redone by KrAcK
+open_from_disk: ./dday/textures/e1u1/wbasic1_7.png: 3248 bytes
+open_from_disk: ./dday/textures/e1u1/wbasic1_7.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u1/metal2_2.png: 4168 bytes
+open_from_disk: ./dday/textures/e1u1/metal2_2.wal: 5540 bytes
+open_from_disk: ./dday/textures/kcs/whitelite.png: No such file or directory
+open_from_disk: ./dday/textures/kcs/whitelite.png: No such file or directory
+open_file_read: textures/kcs/whitelite.png: No such file or directory
+open_from_disk: ./dday/textures/kcs/whitelite.jpg: No such file or directory
 open_from_disk: ./dday/textures/kcs/whitelite.jpg: No such file or directory
 open_file_read: textures/kcs/whitelite.jpg: No such file or directory
 open_from_disk: ./dday/textures/kcs/whitelite.tga: No such file or directory
@@ -150,7 +162,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -614,41 +626,6 @@ open_from_disk: ./dday/pics/objectives/calais.tga: No such file or directory
 open_file_read: pics/objectives/calais.tga: No such file or directory
 open_from_disk: ./dday/pics/objectives/calais.pcx: 34703 bytes
 Usage: connect <server> [34|35|36]
-Blithe connected.
-VerBOTen connected.
-VerBOTen joined the game.
-open_from_disk: ./dday/players/grm/class_engineer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.png: No such file or directory
-open_file_read: players/grm/class_engineer.png: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.jpg: No such file or directory
-open_file_read: players/grm/class_engineer.jpg: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.tga: No such file or directory
-open_from_disk: ./dday/players/grm/class_engineer.tga: No such file or directory
-open_file_read: players/grm/class_engineer.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/grm/class_engineer.pcx: 95786 bytes
-Blithe joined the game.
-open_from_disk: ./dday/players/usa/class_infantry.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.png: No such file or directory
-open_file_read: players/usa/class_infantry.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.jpg: No such file or directory
-open_file_read: players/usa/class_infantry.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry.tga: No such file or directory
-open_file_read: players/usa/class_infantry.tga: No such file or directory
-open_from_pak: ./dday/pak3.pak/players/usa/class_infantry.pcx: 100408 bytes
-open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
-open_file_read: players/usa/class_infantry_i.png: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
-open_file_read: players/usa/class_infantry_i.jpg: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
-open_file_read: players/usa/class_infantry_i.tga: No such file or directory
-open_from_disk: ./dday/players/usa/class_infantry_i.pcx: 2165 bytes
 open_from_disk: ./dday/cfg/calais.cfg: 26 bytes
 Execing cfg/calais.cfg
 open_file_write: ./dday/condumps/calais.txt: 0 bytes
@@ -677,7 +654,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +996,29 @@ open_from_disk: ./dday/locs/Caen.loc: No such file or directory
 open_from_disk: ./dday/locs/caen.loc: No such file or directory
 open_file_read: locs/Caen.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed has joined team Allies.
+open_from_disk: ./dday/players/usa/class_infantry.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry.png: No such file or directory
+open_file_read: players/usa/class_infantry.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry.jpg: No such file or directory
+open_file_read: players/usa/class_infantry.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry.tga: No such file or directory
+open_file_read: players/usa/class_infantry.tga: No such file or directory
+open_from_pak: ./dday/pak3.pak/players/usa/class_infantry.pcx: 100408 bytes
+open_from_pak: ./dday/pak3.pak/players/usa/weapon.md2: 15904 bytes
+open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.png: No such file or directory
+open_file_read: players/usa/class_infantry_i.png: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.jpg: No such file or directory
+open_file_read: players/usa/class_infantry_i.jpg: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.tga: No such file or directory
+open_file_read: players/usa/class_infantry_i.tga: No such file or directory
+open_from_disk: ./dday/players/usa/class_infantry_i.pcx: 2165 bytes
+Your class is Infantry.
 open_from_disk: ./dday/cfg/Caen.cfg: 26 bytes
 Execing cfg/Caen.cfg
 open_file_write: ./dday/condumps/Caen.txt: 0 bytes

@@ -1,7 +1,3 @@
-open_from_disk: ./dday/models/objects/debris1/skin.tga: No such file or directory
-open_file_read: models/objects/debris1/skin.tga: No such file or directory
-open_from_pak: ./dday/pak0.pak/models/objects/debris1/skin.pcx: 4311 bytes
-open_from_disk: ./dday/env/dh3_rt.png: No such file or directory
 open_from_disk: ./dday/env/dh3_rt.png: No such file or directory
 open_file_read: env/dh3_rt.png: No such file or directory
 open_from_disk: ./dday/env/dh3_rt.jpg: No such file or directory
@@ -55,6 +51,8 @@ open_from_disk: ./dday/locs/ch.kawaj.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.kawaj.loc: No such file or directory
 open_file_read: locs/ch.kawaj.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/ch.kawaj.cfg: 34 bytes
 Execing cfg/ch.kawaj.cfg
 open_file_write: ./dday/condumps/ch.kawaj.txt: 0 bytes
@@ -83,7 +81,7 @@ Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
-PowaBanga connected.
+unnamed connected.
 Connected to loopback (protocol 36).
 
 
@@ -1019,6 +1017,8 @@ open_from_disk: ./dday/locs/ch.gbrvalley.loc: No such file or directory
 open_from_disk: ./dday/locs/ch.gbrvalley.loc: No such file or directory
 open_file_read: locs/ch.gbrvalley.loc: No such file or directory
 Usage: connect <server> [34|35|36]
+unnamed is now an Observer.
+Type "Observer" to leave observer mode.
 open_from_disk: ./dday/cfg/ch.gbrvalley.cfg: 33 bytes
 Execing cfg/ch.gbrvalley.cfg
 open_file_write: ./dday/condumps/ch.gbrvalley.txt: 0 bytes
