@@ -1,88 +1,3 @@
-open_from_disk: ./dday/env/unit1_bk.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_lf.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_ft.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_up.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_dn.tga: 196626 bytes
-open_from_disk: ./dday/sound/grm/p38/fire.wav: 51222 bytes
-open_from_disk: ./dday/sound/grm/p38/reload.wav: 6950 bytes
-open_from_disk: ./dday/sound/grm/p38/unload.wav: 4764 bytes
-open_from_disk: ./dday/sound/grm/m98k/fire.wav: 108332 bytes
-open_from_disk: ./dday/sound/grm/m98k/lastround.wav: 87852 bytes
-open_from_disk: ./dday/sound/grm/m98k/reload.wav: 37386 bytes
-open_from_disk: ./dday/sound/grm/m98k/unload.wav: 40086 bytes
-open_from_disk: ./dday/sound/grm/mp40/fire.wav: 30038 bytes
-open_from_disk: ./dday/sound/grm/mp40/reload.wav: 11514 bytes
-open_from_disk: ./dday/sound/grm/mp40/unload.wav: 6356 bytes
-open_from_disk: ./dday/sound/grm/mp43/fire.wav: 44684 bytes
-open_from_disk: ./dday/sound/grm/mp43/reload.wav: 7902 bytes
-open_from_disk: ./dday/sound/grm/mp43/unload.wav: 16772 bytes
-open_from_disk: ./dday/sound/grm/mg42/fire.wav: 83420 bytes
-open_from_disk: ./dday/sound/grm/mg42/reload.wav: 22860 bytes
-open_from_disk: ./dday/sound/grm/mg42/unload.wav: 60082 bytes
-open_from_disk: ./dday/sound/grm/panzer/fire.wav: 92082 bytes
-open_from_disk: ./dday/sound/grm/panzer/reload.wav: 16410 bytes
-open_from_disk: ./dday/sound/grm/panzer/rockfly.wav: 36042 bytes
-open_from_disk: ./dday/sound/grm/victory.wav: 117384 bytes
-open_from_disk: ./dday/sound/airstrike/stuka.wav: 194826 bytes
-open_from_disk: ./dday/sound/usa/colt45/fire.wav: 17454 bytes
-open_from_disk: ./dday/sound/usa/colt45/reload.wav: 7044 bytes
-open_from_disk: ./dday/sound/usa/colt45/unload.wav: 6724 bytes
-open_from_disk: ./dday/sound/usa/m1/fire.wav: 29600 bytes
-open_from_disk: ./dday/sound/usa/m1/lastround.wav: 58612 bytes
-open_from_disk: ./dday/sound/usa/m1/reload.wav: 9776 bytes
-open_from_disk: ./dday/sound/usa/m1/unload.wav: 18400 bytes
-open_from_disk: ./dday/sound/usa/thompson/fire.wav: 32032 bytes
-open_from_disk: ./dday/sound/usa/thompson/reload.wav: 13484 bytes
-open_from_disk: ./dday/sound/usa/thompson/unload.wav: 4822 bytes
-open_from_disk: ./dday/sound/usa/bar/fire.wav: 90498 bytes
-open_from_disk: ./dday/sound/usa/bar/reload.wav: 20378 bytes
-open_from_disk: ./dday/sound/usa/bar/unload.wav: 16492 bytes
-open_from_disk: ./dday/sound/usa/bhmg/fire.wav: 53996 bytes
-open_from_disk: ./dday/sound/usa/bhmg/reload.wav: 33436 bytes
-open_from_disk: ./dday/sound/usa/bhmg/unload.wav: 48514 bytes
-open_from_disk: ./dday/sound/usa/bazooka/fire.wav: 79350 bytes
-open_from_disk: ./dday/sound/usa/bazooka/reload.wav: 17436 bytes
-open_from_disk: ./dday/sound/usa/bazooka/rockfly.wav: 82186 bytes
-open_from_disk: ./dday/sound/usa/m1903/fire.wav: 73440 bytes
-open_from_disk: ./dday/sound/usa/m1903/lastround.wav: 158024 bytes
-open_from_disk: ./dday/sound/usa/m1903/reload.wav: 18400 bytes
-open_from_disk: ./dday/sound/usa/m1903/unload.wav: 7644 bytes
-open_from_disk: ./dday/sound/usa/victory.wav: 125886 bytes
-open_from_disk: ./dday/locs/tietest.loc: No such file or directory
-open_from_disk: ./dday/locs/tietest.loc: No such file or directory
-open_file_read: locs/tietest.loc: No such file or directory
-Usage: connect <server> [34|35|36]
-open_from_disk: ./dday/cfg/tietest.cfg: 25 bytes
-Execing cfg/tietest.cfg
-open_file_write: ./dday/condumps/tietest.txt: 0 bytes
-Dumped console text to condumps/tietest.txt.
-open_from_disk: ./dday/maps/tie.bsp: 2396320 bytes
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: tie
-open_from_disk: ./dday/maps/tie.ent: No such file or directory
-open_from_disk: ./dday/maps/tie.ent: No such file or directory
-open_file_read: maps/tie.ent: No such file or directory
-No .ent File for tie.bsp
-Loading map objective pic dday/pics/objectives/tie.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: tie
-tie.cmp Loaded
-SV_Trace: runaway loop avoided
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:186.
-       : added nodes:8.
-       : total nodes:194.
-       : loaded links:617.
-       : added links:63.
-       : added jump links:0.
--------------------------------------
 Server restarted
 Server disconnected, reconnecting
 Requesting connection... 1
@@ -204,8 +119,7 @@ open_from_disk: ./dday/textures/dod_all/pk_dodwall06a.wal: 87140 bytes
 open_from_disk: ./dday/textures/cherbourg/painting_old2.wal: 65380 bytes
 open_from_disk: ./dday/textures/mafia/0ldvere2.wal: 10980 bytes
 open_from_disk: ./dday/textures/afrowuk2/afrow_wall_clock1.wal: 5540 bytes
-open_from_disk: ./dday/textures/afrowuk2/afrow_wall_clock1_dest.wal: 5540 
-bytes
+open_from_disk: ./dday/textures/afrowuk2/afrow_wall_clock1_dest.wal: 5540 bytes
 open_from_disk: ./dday/textures/inland/da_canvas1.wal: 21860 bytes
 open_from_disk: ./dday/textures/italy/poster_00.wal: 150380 bytes
 open_from_disk: ./dday/textures/wood/wd_sr_m14.wal: 21860 bytes
@@ -237,40 +151,29 @@ open_from_disk: ./dday/textures/pegasus/leather.wal: 5540 bytes
 open_from_disk: ./dday/textures/faf/fwood.wal: 32740 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday/ground1.wal: 12340 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday/mr_formica3.wal: 5540 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/models/mapmodels/faf/light2.md2: 11560 bytes
 open_from_disk: ./dday/models/mapmodels/faf/light2.pcx: 2300 bytes
@@ -286,12 +189,49 @@ open_from_pak: ./dday/pak0.pak/models/weapons/g_tnt/tris.md2: 3404 bytes
 open_from_pak: ./dday/pak0.pak/models/objects/tnt/skin.pcx: 15563 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/v_tnt/tris.md2: 88976 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/v_tnt/skin.pcx: 41519 bytes
-open_from_pak: ./dday/pak0.pak/env/night2rt.tga: 196652 bytes
-open_from_pak: ./dday/pak0.pak/env/night2bk.tga: 196652 bytes
-open_from_pak: ./dday/pak0.pak/env/night2lf.tga: 196652 bytes
-open_from_pak: ./dday/pak0.pak/env/night2ft.tga: 196652 bytes
-open_from_pak: ./dday/pak0.pak/env/night2up.tga: 196626 bytes
-open_from_pak: ./dday/pak0.pak/env/night2dn.tga: 196652 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_tnt.pcx: 1536 bytes
+open_from_disk: ./dday/env/night2rt.png: No such file or directory
+open_from_disk: ./dday/env/night2rt.png: No such file or directory
+open_file_read: env/night2rt.png: No such file or directory
+open_from_disk: ./dday/env/night2rt.jpg: No such file or directory
+open_from_disk: ./dday/env/night2rt.jpg: No such file or directory
+open_file_read: env/night2rt.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night2rt.pcx: 57337 bytes
+open_from_disk: ./dday/env/night2bk.png: No such file or directory
+open_from_disk: ./dday/env/night2bk.png: No such file or directory
+open_file_read: env/night2bk.png: No such file or directory
+open_from_disk: ./dday/env/night2bk.jpg: No such file or directory
+open_from_disk: ./dday/env/night2bk.jpg: No such file or directory
+open_file_read: env/night2bk.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night2bk.pcx: 58852 bytes
+open_from_disk: ./dday/env/night2lf.png: No such file or directory
+open_from_disk: ./dday/env/night2lf.png: No such file or directory
+open_file_read: env/night2lf.png: No such file or directory
+open_from_disk: ./dday/env/night2lf.jpg: No such file or directory
+open_from_disk: ./dday/env/night2lf.jpg: No such file or directory
+open_file_read: env/night2lf.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night2lf.pcx: 59036 bytes
+open_from_disk: ./dday/env/night2ft.png: No such file or directory
+open_from_disk: ./dday/env/night2ft.png: No such file or directory
+open_file_read: env/night2ft.png: No such file or directory
+open_from_disk: ./dday/env/night2ft.jpg: No such file or directory
+open_from_disk: ./dday/env/night2ft.jpg: No such file or directory
+open_file_read: env/night2ft.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night2ft.pcx: 60109 bytes
+open_from_disk: ./dday/env/night2up.png: No such file or directory
+open_from_disk: ./dday/env/night2up.png: No such file or directory
+open_file_read: env/night2up.png: No such file or directory
+open_from_disk: ./dday/env/night2up.jpg: No such file or directory
+open_from_disk: ./dday/env/night2up.jpg: No such file or directory
+open_file_read: env/night2up.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night2up.pcx: 57791 bytes
+open_from_disk: ./dday/env/night2dn.png: No such file or directory
+open_from_disk: ./dday/env/night2dn.png: No such file or directory
+open_file_read: env/night2dn.png: No such file or directory
+open_from_disk: ./dday/env/night2dn.jpg: No such file or directory
+open_from_disk: ./dday/env/night2dn.jpg: No such file or directory
+open_file_read: env/night2dn.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night2dn.pcx: 54870 bytes
 open_from_disk: ./dday/sound/inland/flies.wav: 96688 bytes
 open_from_disk: ./dday/sound/inland/heart.wav: 58574 bytes
 open_from_disk: ./dday/sound/inland/ancients.wav: 296144 bytes
@@ -313,12 +253,6 @@ open_from_disk: ./dday/locs/tie.loc: No such file or directory
 open_file_read: locs/tie.loc: No such file or directory
 open_from_disk: ./dday/pics/objectives/tie.pcx: 34515 bytes
 Usage: connect <server> [34|35|36]
-Jim connected.
-Lars connected.
-loBOTomy connected.
-VolksBOT connected.
-G.I. Joe connected.
-Niels connected.
 open_from_disk: ./dday/cfg/tie.cfg: 30 bytes
 Execing cfg/tie.cfg
 open_file_write: ./dday/condumps/tie.txt: 0 bytes
@@ -380,47 +314,72 @@ open_from_pak: ./dday/pak0.pak/textures/dday/sandbag2.wal: 4180 bytes
 open_from_pak: ./dday/pak0.pak/textures/extra/trigger.wal: 1460 bytes
 open_from_disk: ./dday/textures/loosebob/metal1.wal: 39880 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday3/grass_ladder.wal: 5540 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
-open_from_disk: ./dday/env/doomtownrt.tga: 196626 bytes
-open_from_disk: ./dday/env/doomtownbk.tga: 196626 bytes
-open_from_disk: ./dday/env/doomtownlf.tga: 196626 bytes
-open_from_disk: ./dday/env/doomtownft.tga: 196626 bytes
-open_from_disk: ./dday/env/doomtownup.tga: 196626 bytes
-open_from_disk: ./dday/env/doomtowndn.tga: 196626 bytes
+open_from_disk: ./dday/env/doomtownrt.png: No such file or directory
+open_from_disk: ./dday/env/doomtownrt.png: No such file or directory
+open_file_read: env/doomtownrt.png: No such file or directory
+open_from_disk: ./dday/env/doomtownrt.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownrt.jpg: No such file or directory
+open_file_read: env/doomtownrt.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownrt.pcx: 62729 bytes
+open_from_disk: ./dday/env/doomtownbk.png: No such file or directory
+open_from_disk: ./dday/env/doomtownbk.png: No such file or directory
+open_file_read: env/doomtownbk.png: No such file or directory
+open_from_disk: ./dday/env/doomtownbk.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownbk.jpg: No such file or directory
+open_file_read: env/doomtownbk.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownbk.pcx: 65167 bytes
+open_from_disk: ./dday/env/doomtownlf.png: No such file or directory
+open_from_disk: ./dday/env/doomtownlf.png: No such file or directory
+open_file_read: env/doomtownlf.png: No such file or directory
+open_from_disk: ./dday/env/doomtownlf.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownlf.jpg: No such file or directory
+open_file_read: env/doomtownlf.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownlf.pcx: 64881 bytes
+open_from_disk: ./dday/env/doomtownft.png: No such file or directory
+open_from_disk: ./dday/env/doomtownft.png: No such file or directory
+open_file_read: env/doomtownft.png: No such file or directory
+open_from_disk: ./dday/env/doomtownft.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownft.jpg: No such file or directory
+open_file_read: env/doomtownft.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownft.pcx: 63456 bytes
+open_from_disk: ./dday/env/doomtownup.png: No such file or directory
+open_from_disk: ./dday/env/doomtownup.png: No such file or directory
+open_file_read: env/doomtownup.png: No such file or directory
+open_from_disk: ./dday/env/doomtownup.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownup.jpg: No such file or directory
+open_file_read: env/doomtownup.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtownup.pcx: 64964 bytes
+open_from_disk: ./dday/env/doomtowndn.png: No such file or directory
+open_from_disk: ./dday/env/doomtowndn.png: No such file or directory
+open_file_read: env/doomtowndn.png: No such file or directory
+open_from_disk: ./dday/env/doomtowndn.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtowndn.jpg: No such file or directory
+open_file_read: env/doomtowndn.jpg: No such file or directory
+open_from_disk: ./dday/env/doomtowndn.pcx: 65591 bytes
 open_from_disk: ./dday/sound/world/amb10.wav: 234 bytes
 open_from_disk: ./dday/locs/thegorge.loc: No such file or directory
 open_from_disk: ./dday/locs/thegorge.loc: No such file or directory
@@ -470,9 +429,6 @@ open_file_read: textures/faf/lgwall1.png: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_file_read: textures/faf/lgwall1.jpg: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_file_read: textures/faf/lgwall1.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.wal: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.wal: No such file or directory
 open_file_read: textures/faf/lgwall1.wal: No such file or directory
@@ -482,9 +438,6 @@ open_file_read: textures/faf/lgwall1.png: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_file_read: textures/faf/lgwall1.jpg: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_file_read: textures/faf/lgwall1.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.wal: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.wal: No such file or directory
 open_file_read: textures/faf/lgwall1.wal: No such file or directory
@@ -494,9 +447,6 @@ open_file_read: textures/faf/lgwall1.png: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_file_read: textures/faf/lgwall1.jpg: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_file_read: textures/faf/lgwall1.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.wal: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.wal: No such file or directory
 open_file_read: textures/faf/lgwall1.wal: No such file or directory
@@ -506,9 +456,6 @@ open_file_read: textures/faf/lgwall1.png: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_from_disk: ./dday/textures/faf/lgwall1.jpg: No such file or directory
 open_file_read: textures/faf/lgwall1.jpg: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_from_disk: ./dday/textures/faf/lgwall1.tga: No such file or directory
-open_file_read: textures/faf/lgwall1.tga: No such file or directory
 open_from_disk: ./dday/textures/faf/curtain1.wal: 1460 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday3/metal_floor.wal: 5540 bytes
 open_from_disk: ./dday/textures/sp/wood9.wal: 21860 bytes
@@ -536,51 +483,76 @@ open_from_disk: ./dday/textures/theater/sitr3.wal: 87140 bytes
 open_from_disk: ./dday/textures/theater/sitr2.wal: 87140 bytes
 open_from_pak: ./dday/pak0.pak/textures/extra/origin.wal: 1460 bytes
 open_from_disk: ./dday/textures/pegasus/kub4b.wal: 1460 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/models/mapmodels/faf/theatergoer.md2: 27904 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/class_infantry.pcx: 100408 bytes
 open_from_disk: ./dday/models/mapmodels/faf/snorer.md2: 27904 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/class_officer.pcx: 98437 bytes
-open_from_disk: ./dday/env/unit1_rt.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_bk.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_lf.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_ft.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_up.tga: 196626 bytes
-open_from_disk: ./dday/env/unit1_dn.tga: 196626 bytes
+open_from_disk: ./dday/env/unit1_rt.png: No such file or directory
+open_from_disk: ./dday/env/unit1_rt.png: No such file or directory
+open_file_read: env/unit1_rt.png: No such file or directory
+open_from_disk: ./dday/env/unit1_rt.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_rt.jpg: No such file or directory
+open_file_read: env/unit1_rt.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_rt.pcx: 17741 bytes
+open_from_disk: ./dday/env/unit1_bk.png: No such file or directory
+open_from_disk: ./dday/env/unit1_bk.png: No such file or directory
+open_file_read: env/unit1_bk.png: No such file or directory
+open_from_disk: ./dday/env/unit1_bk.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_bk.jpg: No such file or directory
+open_file_read: env/unit1_bk.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_bk.pcx: 16125 bytes
+open_from_disk: ./dday/env/unit1_lf.png: No such file or directory
+open_from_disk: ./dday/env/unit1_lf.png: No such file or directory
+open_file_read: env/unit1_lf.png: No such file or directory
+open_from_disk: ./dday/env/unit1_lf.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_lf.jpg: No such file or directory
+open_file_read: env/unit1_lf.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_lf.pcx: 17344 bytes
+open_from_disk: ./dday/env/unit1_ft.png: No such file or directory
+open_from_disk: ./dday/env/unit1_ft.png: No such file or directory
+open_file_read: env/unit1_ft.png: No such file or directory
+open_from_disk: ./dday/env/unit1_ft.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_ft.jpg: No such file or directory
+open_file_read: env/unit1_ft.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_ft.pcx: 20275 bytes
+open_from_disk: ./dday/env/unit1_up.png: No such file or directory
+open_from_disk: ./dday/env/unit1_up.png: No such file or directory
+open_file_read: env/unit1_up.png: No such file or directory
+open_from_disk: ./dday/env/unit1_up.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_up.jpg: No such file or directory
+open_file_read: env/unit1_up.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_up.pcx: 10016 bytes
+open_from_disk: ./dday/env/unit1_dn.png: No such file or directory
+open_from_disk: ./dday/env/unit1_dn.png: No such file or directory
+open_file_read: env/unit1_dn.png: No such file or directory
+open_from_disk: ./dday/env/unit1_dn.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_dn.jpg: No such file or directory
+open_file_read: env/unit1_dn.jpg: No such file or directory
+open_from_disk: ./dday/env/unit1_dn.pcx: 10933 bytes
 open_from_disk: ./dday/sound/faf/sitr.wav: 1027594 bytes
 open_from_disk: ./dday/sound/faf/snore.wav: 102580 bytes
 open_from_disk: ./dday/sound/faf/projector.wav: 43348 bytes
@@ -655,40 +627,29 @@ open_from_disk: ./dday/textures/e1u2/clip.wal: 1460 bytes
 open_from_disk: ./dday/textures/altex/rtile.wal: 1460 bytes
 open_from_disk: ./dday/textures/altex/a18.wal: 5540 bytes
 open_from_disk: ./dday/textures/e1u1/trigger.wal: 1460 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/sound/hedge/5insx.wav: 54998 bytes
 open_from_disk: ./dday/locs/testvier2.loc: No such file or directory
@@ -771,49 +732,74 @@ open_from_disk: ./dday/textures/TERRAIN/BUSH2.wal: 1460 bytes
 open_from_disk: ./dday/textures/TERRAIN/BUSH1.wal: 1460 bytes
 open_from_disk: ./dday/textures/E1U1/ORIGIN.wal: 1460 bytes
 open_from_pak: ./dday/pak0.pak/textures/beach/barrel.wal: 4180 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
 open_from_pak: ./dday/pak0.pak/models/objects/debris1/tris.md2: 980 bytes
 open_from_pak: ./dday/pak0.pak/models/objects/debris1/skin.pcx: 4311 bytes
-open_from_pak: ./dday/pak0.pak/env/valley1rt.tga: 206962 bytes
-open_from_pak: ./dday/pak0.pak/env/valley1bk.tga: 196222 bytes
-open_from_pak: ./dday/pak0.pak/env/valley1lf.tga: 205806 bytes
-open_from_pak: ./dday/pak0.pak/env/valley1ft.tga: 203906 bytes
-open_from_pak: ./dday/pak0.pak/env/valley1up.tga: 214582 bytes
-open_from_pak: ./dday/pak0.pak/env/valley1dn.tga: 155902 bytes
+open_from_disk: ./dday/env/valley1rt.png: No such file or directory
+open_from_disk: ./dday/env/valley1rt.png: No such file or directory
+open_file_read: env/valley1rt.png: No such file or directory
+open_from_disk: ./dday/env/valley1rt.jpg: No such file or directory
+open_from_disk: ./dday/env/valley1rt.jpg: No such file or directory
+open_file_read: env/valley1rt.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/valley1rt.pcx: 67648 bytes
+open_from_disk: ./dday/env/valley1bk.png: No such file or directory
+open_from_disk: ./dday/env/valley1bk.png: No such file or directory
+open_file_read: env/valley1bk.png: No such file or directory
+open_from_disk: ./dday/env/valley1bk.jpg: No such file or directory
+open_from_disk: ./dday/env/valley1bk.jpg: No such file or directory
+open_file_read: env/valley1bk.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/valley1bk.pcx: 76274 bytes
+open_from_disk: ./dday/env/valley1lf.png: No such file or directory
+open_from_disk: ./dday/env/valley1lf.png: No such file or directory
+open_file_read: env/valley1lf.png: No such file or directory
+open_from_disk: ./dday/env/valley1lf.jpg: No such file or directory
+open_from_disk: ./dday/env/valley1lf.jpg: No such file or directory
+open_file_read: env/valley1lf.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/valley1lf.pcx: 72601 bytes
+open_from_disk: ./dday/env/valley1ft.png: No such file or directory
+open_from_disk: ./dday/env/valley1ft.png: No such file or directory
+open_file_read: env/valley1ft.png: No such file or directory
+open_from_disk: ./dday/env/valley1ft.jpg: No such file or directory
+open_from_disk: ./dday/env/valley1ft.jpg: No such file or directory
+open_file_read: env/valley1ft.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/valley1ft.pcx: 71264 bytes
+open_from_disk: ./dday/env/valley1up.png: No such file or directory
+open_from_disk: ./dday/env/valley1up.png: No such file or directory
+open_file_read: env/valley1up.png: No such file or directory
+open_from_disk: ./dday/env/valley1up.jpg: No such file or directory
+open_from_disk: ./dday/env/valley1up.jpg: No such file or directory
+open_file_read: env/valley1up.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/valley1up.pcx: 70990 bytes
+open_from_disk: ./dday/env/valley1dn.png: No such file or directory
+open_from_disk: ./dday/env/valley1dn.png: No such file or directory
+open_file_read: env/valley1dn.png: No such file or directory
+open_from_disk: ./dday/env/valley1dn.jpg: No such file or directory
+open_from_disk: ./dday/env/valley1dn.jpg: No such file or directory
+open_file_read: env/valley1dn.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/valley1dn.pcx: 82307 bytes
 open_from_disk: ./dday/sound/hedge/cricket1.wav: 80923 bytes
 open_from_disk: ./dday/sound/terrain/crickets.wav: 38468 bytes
 open_from_disk: ./dday/sound/hedge/crow.wav: 72908 bytes
@@ -871,40 +857,29 @@ open_from_pak: ./dday/pak0.pak/textures/dday/stucco1.wal: 21860 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday/staing2.wal: 21860 bytes
 open_from_disk: ./dday/textures/e3u1/grass1_2.wal: 5540 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday/mr_wood16.wal: 5540 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/locs/temple.loc: No such file or directory
 open_from_disk: ./dday/locs/temple.loc: No such file or directory
@@ -974,47 +949,72 @@ open_from_disk: ./dday/textures/bricks/b_cp_v33b.wal: 21860 bytes
 open_from_disk: ./dday/textures/metals/mt_sr_ma1.wal: 21860 bytes
 open_from_disk: ./dday/textures/inland/rug192256c.wal: 87140 bytes
 open_from_disk: ./dday/textures/bricks/b_sr_v19a.wal: 5540 bytes
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such 
-file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
 open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or 
-directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
-open_from_pak: ./dday/pak0.pak/env/night1rt.tga: 71518 bytes
-open_from_pak: ./dday/pak0.pak/env/night1bk.tga: 86934 bytes
-open_from_pak: ./dday/pak0.pak/env/night1lf.tga: 77122 bytes
-open_from_pak: ./dday/pak0.pak/env/night1ft.tga: 106050 bytes
-open_from_pak: ./dday/pak0.pak/env/night1up.tga: 97286 bytes
-open_from_pak: ./dday/pak0.pak/env/night1dn.tga: 7742 bytes
+open_from_disk: ./dday/env/night1rt.png: No such file or directory
+open_from_disk: ./dday/env/night1rt.png: No such file or directory
+open_file_read: env/night1rt.png: No such file or directory
+open_from_disk: ./dday/env/night1rt.jpg: No such file or directory
+open_from_disk: ./dday/env/night1rt.jpg: No such file or directory
+open_file_read: env/night1rt.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1rt.pcx: 7257 bytes
+open_from_disk: ./dday/env/night1bk.png: No such file or directory
+open_from_disk: ./dday/env/night1bk.png: No such file or directory
+open_file_read: env/night1bk.png: No such file or directory
+open_from_disk: ./dday/env/night1bk.jpg: No such file or directory
+open_from_disk: ./dday/env/night1bk.jpg: No such file or directory
+open_file_read: env/night1bk.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1bk.pcx: 8265 bytes
+open_from_disk: ./dday/env/night1lf.png: No such file or directory
+open_from_disk: ./dday/env/night1lf.png: No such file or directory
+open_file_read: env/night1lf.png: No such file or directory
+open_from_disk: ./dday/env/night1lf.jpg: No such file or directory
+open_from_disk: ./dday/env/night1lf.jpg: No such file or directory
+open_file_read: env/night1lf.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1lf.pcx: 7456 bytes
+open_from_disk: ./dday/env/night1ft.png: No such file or directory
+open_from_disk: ./dday/env/night1ft.png: No such file or directory
+open_file_read: env/night1ft.png: No such file or directory
+open_from_disk: ./dday/env/night1ft.jpg: No such file or directory
+open_from_disk: ./dday/env/night1ft.jpg: No such file or directory
+open_file_read: env/night1ft.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1ft.pcx: 14094 bytes
+open_from_disk: ./dday/env/night1up.png: No such file or directory
+open_from_disk: ./dday/env/night1up.png: No such file or directory
+open_file_read: env/night1up.png: No such file or directory
+open_from_disk: ./dday/env/night1up.jpg: No such file or directory
+open_from_disk: ./dday/env/night1up.jpg: No such file or directory
+open_file_read: env/night1up.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1up.pcx: 47549 bytes
+open_from_disk: ./dday/env/night1dn.png: No such file or directory
+open_from_disk: ./dday/env/night1dn.png: No such file or directory
+open_file_read: env/night1dn.png: No such file or directory
+open_from_disk: ./dday/env/night1dn.jpg: No such file or directory
+open_from_disk: ./dday/env/night1dn.jpg: No such file or directory
+open_file_read: env/night1dn.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1dn.pcx: 3457 bytes
 open_from_disk: ./dday/locs/tebessa_wall.loc: No such file or directory
 open_from_disk: ./dday/locs/tebessa_wall.loc: No such file or directory
 open_file_read: locs/tebessa_wall.loc: No such file or directory

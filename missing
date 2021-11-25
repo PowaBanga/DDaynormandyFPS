@@ -1,0 +1,15 @@
+#!/bin/sh
+for i in $(grep -rh ".wal: No such" dday/condumps/ | sed 's/open_file_read: //g; s/open_from_disk: .\/dday\///g; s/: No such.*//g' | sort | uniq)
+do
+  echo -e "\e[38;5;46m$i\e[38;5;15m"
+  find dday/textures -iname "$(echo $i|sed 's/.wal//g' | awk -F/ '{print $NF}').*" | sed 's/dday\///g'
+  echo -e "\e[38;5;226m$(grep -r -l $i dday/condumps| sed 's/.txt.*//g;s/dday\/condumps\///g;/^no_such/d' | sort | uniq | tr '\n' ' ' ; echo)\e[38;5;15m"
+done
+
+if [ ! -e dday/$folder ]
+  then 
+  	 echo "le dossier existe pas"
+  else
+  	echo "le fichier existe"
+  fi
+

@@ -23,7 +23,7 @@ sound sampling rate: 22050
 ----------------------
 ------- R_Init -------
 ...enabling GL_EXT_compiled_vertex_array
-...enabling GL_ARB_multitexture (4 TMUs)
+...enabling GL_ARB_multitexture (8 TMUs)
 ...enabling GL_EXT_texture_filter_anisotropic (16 max)
 ...enabling GL_ARB_vertex_buffer_object
 ...enabling GL_ARB_fragment_program
@@ -34,215 +34,7 @@ SDL mouse initialized.
 q2pro r1616~bb8acb5, Nov 25 2021
 https://github.com/skullernet/q2pro
 
-]map gbrdday6
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: gbrdday6
-No .ent File for gbrdday6.bsp
-Loading map objective pic dday/pics/objectives/gbrdday6.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: gbrdday6
-gbrdday6.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:150.
-       : added nodes:0.
-       : total nodes:150.
-       : loaded links:383.
-       : added links:0.
-       : added jump links:0.
--------------------------------------
-Requesting connection... 1
-processing id commands
-unnamed connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Tobruk
-By [AMF]Julhelm
-unnamed is now an Observer.
-Type "Observer" to leave observer mode.
-Usage: connect <server> [34|35|36]
-Edward connected.
-Rommel connected.
-Jeeves connected.
-Niels connected.
-Charles connected.
-Adolf connected.
-Couldn't exec cfg/gbrdday6.cfg: No such file or directory
-Charles joined the game.
-Edward joined the game.
-Adolf joined the game.
-Rommel joined the game.
-Jeeves joined the game.
-Niels joined the game.
-Adolf was gunned down by Charles's submachinegun
-Adolf was gunned down by Charles's submachinegun
-Charles was gunned down by Niels's submachinegun
-Charles was gunned down by Niels's submachinegun
-]set fs_debug 1
-]map gbrdday6
-==== ShutdownGame ====
-Loaded game library from ./dday/gamex86_64.so
-WARNING: q2adminlog.txt could not be found
-Q2Admin Version 1.17.44-tsmod-2
-==== InitGame ====
-------- Server Initialization -------
-SpawnServer: gbrdday6
-open_from_disk: ./dday/maps/gbrdday6.ent: No such file or directory
-open_from_disk: ./dday/maps/gbrdday6.ent: No such file or directory
-open_file_read: maps/gbrdday6.ent: No such file or directory
-No .ent File for gbrdday6.bsp
-Loading map objective pic dday/pics/objectives/gbrdday6.pcx...done.
-0 entities inhibited
-0 teams with 0 entities
-server map: gbrdday6
-gbrdday6.cmp Loaded
--------------------------------------
-       : AI: Nodes Initialized.
-       : loaded nodes:150.
-       : added nodes:0.
-       : total nodes:150.
-       : loaded links:383.
-       : added links:0.
-       : added jump links:0.
--------------------------------------
-Server restarted
-Server disconnected, reconnecting
-Requesting connection... 1
-processing id commands
-unnamed connected.
-Connected to loopback (protocol 36).
-
-
-
-
-Tobruk
-By [AMF]Julhelm
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
-open_file_read: models/objects/explode/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
-open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
-open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
-open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
-open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
-open_file_read: models/ctf/segment/tris.md2: No such file or directory
-open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
-open_file_read: sprites/s_bfg2.sp2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
-open_file_read: models/items/armor/effect/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
-open_file_read: models/proj/lightning/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
-open_file_read: models/proj/beam/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
-open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
-open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
-open_from_disk: ./dday/locs/gbrdday6.loc: No such file or directory
-open_from_disk: ./dday/locs/gbrdday6.loc: No such file or directory
-open_file_read: locs/gbrdday6.loc: No such file or directory
-open_from_disk: ./dday/pics/objectives/gbrdday6.pcx: 32135 bytes
-open_from_disk: ./dday/pics/teams/gbr.pcx: 1613 bytes
-open_from_pak: ./dday/pak7.pak/pics/teams/grm.pcx: 1940 bytes
-unnamed is now an Observer.
-Type "Observer" to leave observer mode.
-Usage: connect <server> [34|35|36]
-Churchill connected.
-Adolf connected.
-Sgt. Leper connected.
-VerBOTen connected.
-Edward connected.
-VolksBOT connected.
-open_from_disk: ./dday/cfg/gbrdday6.cfg: No such file or directory
-open_from_disk: ./dday/cfg/gbrdday6.cfg: No such file or directory
-open_file_read: cfg/gbrdday6.cfg: No such file or directory
-Couldn't exec cfg/gbrdday6.cfg: No such file or directory
-VolksBOT joined the game.
-open_from_pak: ./dday/pak3.pak/players/grm/class_hmg.pcx: 96053 bytes
-open_from_pak: ./dday/pak7.pak/players/grm/class_hmg_i.pcx: 1940 bytes
-Edward joined the game.
-Adolf joined the game.
-open_from_pak: ./dday/pak3.pak/players/gbr/class_infantry.pcx: 87038 bytes
-open_from_pak: ./dday/pak3.pak/players/gbr/weapon.md2: 15904 bytes
-open_from_disk: ./dday/players/gbr/class_infantry_i.pcx: 1708 bytes
-open_from_pak: ./dday/pak3.pak/players/grm/class_engineer.pcx: 95786 bytes
-open_from_pak: ./dday/pak7.pak/players/grm/class_engineer_i.pcx: 1940 bytes
-VerBOTen joined the game.
-open_from_pak: ./dday/pak3.pak/players/grm/class_officer.pcx: 83093 bytes
-open_from_pak: ./dday/pak7.pak/players/grm/class_officer_i.pcx: 1940 bytes
-Sgt. Leper joined the game.
-Churchill joined the game.
-open_from_disk: ./dday/players/gbr/jump1.wav: 14086 bytes
-open_from_disk: ./dday/sound/misc/prone2.wav: 31782 bytes
-open_from_disk: ./dday/sound/bullet/whiz1.wav: 10474 bytes
-open_from_disk: ./dday/sound/weapons/machgf2b.wav: 234 bytes
-open_from_pak: ./dday/pak0.pak/sprites/null.sp2: 172 bytes
-open_from_pak: ./dday/pak0.pak/sprites/null.pcx: 929 bytes
-open_from_disk: ./dday/players/gbr/pain50_1.wav: 26362 bytes
-open_from_disk: ./dday/sound/weapons/machgf4b.wav: 234 bytes
-VerBOTen ate Adolf's rocket (Friendly fire
-Sgt. Leper did not survive Adolf's explosive attack
-Adolf blew himself up.
-open_from_disk: ./dday/sound/weapons/rockfly.wav: 131096 bytes
-VerBOTen ate Adolf's rocket (Friendly fire)
-open_from_pak: ./dday/pak0.pak/models/objects/gibs/sexyleg/tris.md2: 3288 bytes
-open_from_pak: ./dday/pak0.pak/models/objects/gibs/sexyleg/skin.pcx: 16939 bytes
-Sgt. Leper did not survive Adolf's explosive attack
-Adolf blew himself up.
-open_from_disk: ./dday/sound/weapons/rocklf1a.wav: 784 bytes
-open_from_disk: ./dday/sound/weapons/rocklr1b.wav: 784 bytes
-open_from_disk: ./dday/sound/weapons/machgf3b.wav: 234 bytes
-open_from_disk: ./dday/sound/weapons/machgf5b.wav: 234 bytes
-Churchill was killed by VolksBOT's heavy machine gun
-Churchill was killed by VolksBOT's heavy machine gun
-open_from_disk: ./dday/players/gbr/death2.wav: 24338 bytes
-open_from_disk: ./dday/sound/weapons/machgf1b.wav: 234 bytes
-open_from_pak: ./dday/pak3.pak/players/grm/class_flamethrower.pcx: 82803 bytes
-open_from_pak: ./dday/pak7.pak/players/grm/class_flamethrower_i.pcx: 1940 bytes
-open_from_pak: ./dday/pak3.pak/players/usa/w_flame.md2: 112536 bytes
-open_from_disk: ./dday/players/grm/w_flame.pcx: 19125 bytes
-open_from_disk: ./dday/sound/weapons/flamer/fireitup.wav: 93286 bytes
-open_from_disk: ./dday/sound/misc/tele1.wav: 804 bytes
-open_from_disk: ./dday/sound/gbr/shout/attack2.wav: 38126 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack1.wav: 15148 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/move2.wav: 20684 bytes
-open_from_disk: ./dday/sound/gbr/shout/move1.wav: 42850 bytes
-Sgt. Leper was killed by VolksBOT's heavy machine gun
-Sgt. Leper was killed by VolksBOT's heavy machine gun
-open_from_pak: ./dday/pak0.pak/models/objects/gibs/brain/tris.md2: 2364 bytes
-open_from_pak: ./dday/pak0.pak/models/objects/gibs/brain/skin.pcx: 5339 bytes
-open_from_disk: ./dday/players/gbr/death3.wav: 29086 bytes
-Churchill was killed by VolksBOT's heavy machine gun
-Churchill was killed by VolksBOT's heavy machine gun
-Edward was shot down by Adolf's rifle
-Edward was shot down by Adolf's rifle
-open_from_disk: ./dday/players/gbr/death1.wav: 40264 bytes
-open_from_disk: ./dday/sound/usa/m1903/bolt.wav: 53766 bytes
-open_from_pak: ./dday/pak3.pak/players/gbr/class_lmg.pcx: 86866 bytes
-open_from_disk: ./dday/players/gbr/class_lmg_i.pcx: 1708 bytes
-open_from_disk: ./dday/sound/gbr/shout/attack1.wav: 58286 bytes
-open_from_disk: ./dday/sound/gbr/shout/move2.wav: 43362 bytes
-VolksBOT was machinegunned by Sgt. Leper's light machine gun
-VolksBOT was machinegunned by Sgt. Leper's light machine gun
-Adolf was machinegunned by Churchill's light machine gun
-Adolf was machinegunned by Churchill's light machine gun
-open_from_pak: ./dday/pak3.pak/players/gbr/class_hmg.pcx: 88566 bytes
-open_from_disk: ./dday/players/gbr/class_hmg_i.pcx: 1708 bytes
-open_from_pak: ./dday/pak1.pak/sound/grm/shout/attack2.wav: 18220 bytes
-]map dday2
 open_from_disk: ./dday/maps/dday2.bsp: 2642980 bytes
-==== ShutdownGame ====
 Loaded game library from ./dday/gamex86_64.so
 WARNING: q2adminlog.txt could not be found
 Q2Admin Version 1.17.44-tsmod-2
@@ -270,8 +62,6 @@ SV_Trace: runaway loop avoided
        : added links:34.
        : added jump links:0.
 -------------------------------------
-Server restarted
-Server disconnected, reconnecting
 Requesting connection... 1
 processing id commands
 unnamed connected.
@@ -361,6 +151,7 @@ open_from_pak: ./dday/pak0.pak/textures/dday2/da_browna.wal: 5540 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday2/da_browna3.wal: 5540 bytes
 open_from_pak: ./dday/pak0.pak/textures/beach/wallruff_darker.wal: 87140 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday2/trim_wallpaper_drty.wal: 10980 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday2/door76_128x256.wal: 43620 bytes
 open_from_pak: ./dday/pak0.pak/textures/beach/cindr4_2.wal: 21860 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday3/stone_grass_straight.wal: 21860 bytes
 open_from_pak: ./dday/pak0.pak/textures/dday3/c_met7_2.wal: 21860 bytes
@@ -462,18 +253,35 @@ open_from_pak: ./dday/pak0.pak/textures/dday3/mr_cementfloor2.wal: 21860 bytes
 open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
 open_file_read: models/objects/explode/tris.md2: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/objects/smoke/tris.md2: 2308 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/smoke/skin.pcx: 5227 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/flash/tris.md2: 2020 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/flash/skin.pcx: 1876 bytes
 open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
 open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
 open_file_read: models/ctf/segment/tris.md2: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/tris.md2: 37464 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin1.pcx: 8032 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin2.pcx: 11390 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin3.pcx: 9503 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin4.pcx: 7770 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin5.pcx: 7956 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin6.pcx: 6814 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/r_explode/skin7.pcx: 4672 bytes
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
 open_file_read: sprites/s_bfg2.sp2: No such file or directory
 open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
 open_file_read: models/items/armor/effect/tris.md2: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/objects/laser/tris.md2: 628 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/laser/skin.pcx: 6302 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/dmspot/tris.md2: 12744 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/dmspot/skin.pcx: 961 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/dmspot/skin2.pcx: 961 bytes
 open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
 open_file_read: models/proj/lightning/tris.md2: No such file or directory
@@ -483,6 +291,40 @@ open_file_read: models/proj/beam/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
 open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/sm_meat/tris.md2: 3456 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/sm_meat/skin.pcx: 4459 bytes
+open_from_disk: ./dday/models/objects/gibs/arm/tris.md2: 12680 bytes
+open_from_disk: ./dday/models/items/band/skin.pcx: 1921 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/bone/tris.md2: 2544 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/bone/skin.pcx: 4165 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/bone2/tris.md2: 3328 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/bone2/skin.pcx: 16939 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/chest/tris.md2: 5508 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/chest/skin.pcx: 18555 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/skull/tris.md2: 27744 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/skull/skin.pcx: 16190 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/skull/hand.pcx: 16190 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/head2/tris.md2: 31992 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/head2/skin.pcx: 58753 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/gibs/head2/player.pcx: 58753 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_morphine/tris.md2: 156376 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_morphine/skin.pcx: 79534 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/g_helmet/tris.md2: 6432 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/g_helmet/skin.pcx: 22780 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_fists/tris.md2: 58260 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_fists/skin.pcx: 14590 bytes
+open_from_pak: ./dday/pak0.pak/models/items/g_binoculars/tris.md2: 12680 bytes
+open_from_pak: ./dday/pak0.pak/models/items/g_binoculars/skin.pcx: 2433 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_binoculars/tris.md2: 100168 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_binoculars/skin.pcx: 26771 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/g_knife/tris.md2: 5368 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/g_knife/skin.pcx: 10520 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_knife/tris.md2: 54416 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_knife/skin.pcx: 27615 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/g_flamethrower/tris.md2: 6436 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/g_flamethrower/skin.pcx: 19128 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_flamethrower/tris.md2: 42864 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/v_flamethrower/skin.pcx: 18616 bytes
 open_from_pak: ./dday/pak0.pak/models/deadbods/dude/tris.md2: 22856 bytes
 open_from_pak: ./dday/pak0.pak/models/deadbods/dude/skin.pcx: 51658 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_colt45/tris.md2: 7168 bytes
@@ -509,6 +351,10 @@ open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_bazooka/tris.md2: 6540 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_bazooka/skin.pcx: 10987 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_bazooka/tris.md2: 105704 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_bazooka/skin.pcx: 23554 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/rocket/tris.md2: 2008 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/rocket/skin.pcx: 12692 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/debris2/tris.md2: 472 bytes
+open_from_pak: ./dday/pak0.pak/models/objects/debris2/skin.pcx: 2984 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_m1903/tris.md2: 16372 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_m1903/skin.pcx: 50990 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_m1903/tris.md2: 305860 bytes
@@ -517,8 +363,17 @@ open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_grenade/tris.md2: 8184 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/g_grenade/skin.pcx: 46386 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_grenade/tris.md2: 196452 bytes
 open_from_pak: ./dday/pak0.pak/models/weapons/usa/v_grenade/skin.pcx: 62929 bytes
+open_from_pak: ./dday/pak7.pak/models/items/ammo/pistols/tris.md2: 732 bytes
+open_from_pak: ./dday/pak7.pak/models/items/ammo/pistols/skin.pcx: 1564 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/rifle/tris.md2: 5684 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/rifle/skin.pcx: 1921 bytes
+open_from_pak: ./dday/pak7.pak/models/items/ammo/smg/tris.md2: 760 bytes
+open_from_pak: ./dday/pak7.pak/models/items/ammo/smg/skin.pcx: 1908 bytes
 open_from_pak: ./dday/pak0.pak/models/items/ammo/lmg2/tris.md2: 728 bytes
 open_from_pak: ./dday/pak0.pak/models/items/ammo/lmg2/skin.pcx: 2077 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/hmg/tris.md2: 11116 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/hmg/skin.pcx: 38302 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/rockets/tris.md2: 2008 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/tris.md2: 1121488 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/w_colt45.md2: 181676 bytes
 open_from_disk: ./dday/players/usa/w_colt45.pcx: 9624 bytes
@@ -536,6 +391,8 @@ open_from_pak: ./dday/pak3.pak/players/usa/w_m1903.md2: 351776 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/w_m1903.pcx: 50990 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/a_grenade.md2: 56592 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/a_grenade.pcx: 16364 bytes
+open_from_pak: ./dday/pak3.pak/players/usa/w_flame.md2: 112536 bytes
+open_from_disk: ./dday/players/grm/w_flame.pcx: 19125 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/w_morphine.md2: 120848 bytes
 open_from_disk: ./dday/players/usa/w_morphine.pcx: 7774 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/w_knife.md2: 99544 bytes
@@ -543,8 +400,88 @@ open_from_disk: ./dday/players/usa/w_knife.pcx: 10495 bytes
 open_from_pak: ./dday/pak3.pak/players/usa/w_binoc.md2: 231408 bytes
 open_from_disk: ./dday/models/ships/usaplane/tris.md2: 9752 bytes
 open_from_disk: ./dday/models/ships/usaplane/skin.pcx: 44076 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/g_walther/tris.md2: 5796 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/g_walther/skin.pcx: 33725 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/v_walther/tris.md2: 122884 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/v_walther/skin.pcx: 33725 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_m98k/tris.md2: 15080 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_m98k/skin.pcx: 49356 bytes
+open_from_disk: ./dday/models/weapons/grm/v_m98k/tris2.md2: 339612 bytes
+open_from_disk: ./dday/models/weapons/grm/v_m98k/skin2.pcx: 86112 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/g_mp40/tris.md2: 5916 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/g_mp40/skin.pcx: 13129 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/v_mp40/tris.md2: 165912 bytes
+open_from_pak: ./dday/pak7.pak/models/weapons/grm/v_mp40/skin.pcx: 33243 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_mp43/tris.md2: 9376 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_mp43/skin.pcx: 28822 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_mp43/tris.md2: 160092 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_mp43/skin.pcx: 28920 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_mg42/tris.md2: 12856 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_mg42/skin.pcx: 43479 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_mg42/tris.md2: 406220 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_mg42/skin.pcx: 82558 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_panzer/tris.md2: 9520 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_panzer/skin.pcx: 40360 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_panzer/tris.md2: 134800 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_panzer/skin.pcx: 41092 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_m98ks/tris.md2: 16368 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_m98ks/skin.pcx: 50572 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_m98ks/tris.md2: 305860 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_m98ks/skin.pcx: 91150 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_masher/tris.md2: 2944 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/g_masher/skin.pcx: 39583 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_masher/tris.md2: 212448 bytes
+open_from_pak: ./dday/pak0.pak/models/weapons/grm/v_masher/skin.pcx: 50047 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/lmg1/tris.md2: 2944 bytes
+open_from_pak: ./dday/pak0.pak/models/items/ammo/lmg1/skin.pcx: 2086 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/tris.md2: 1074732 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_p38.md2: 123960 bytes
+open_from_disk: ./dday/players/grm/w_p38.pcx: 31840 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_m98k.md2: 96500 bytes
+open_from_disk: ./dday/players/grm/w_m98k.pcx: 25520 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_mp40.md2: 115952 bytes
+open_from_disk: ./dday/players/grm/w_mp40.pcx: 11668 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_mp43.md2: 159780 bytes
+open_from_disk: ./dday/players/grm/w_mp43.pcx: 28933 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_mg42.md2: 254028 bytes
+open_from_disk: ./dday/players/grm/w_mg42.pcx: 43479 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_panzer.md2: 183760 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_m98ks.md2: 351776 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/w_m98ks.pcx: 50572 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/a_masher.md2: 82784 bytes
+open_from_disk: ./dday/players/grm/a_masher.pcx: 41399 bytes
+open_from_disk: ./dday/models/ships/grmplane/tris.md2: 10612 bytes
+open_from_disk: ./dday/models/ships/grmplane/skin.pcx: 11116 bytes
 open_from_pak: ./dday/pak0.pak/models/objects/debris1/tris.md2: 980 bytes
 open_from_pak: ./dday/pak0.pak/models/objects/debris1/skin.pcx: 4311 bytes
+open_from_pak: ./dday/pak0.pak/pics/i_help.pcx: 945 bytes
+open_from_pak: ./dday/pak0.pak/pics/i_health.pcx: 1017 bytes
+open_from_pak: ./dday/pak0.pak/pics/i_medic.pcx: 1009 bytes
+open_from_pak: ./dday/pak0.pak/pics/help.pcx: 2817 bytes
+open_from_pak: ./dday/pak0.pak/pics/i_respcount.pcx: 1397 bytes
+open_from_pak: ./dday/pak7.pak/pics/i_dday.pcx: 1476 bytes
+open_from_pak: ./dday/pak0.pak/pics/crosshair.pcx: 1017 bytes
+open_from_pak: ./dday/pak7.pak/pics/scorehead.pcx: 14767 bytes
+open_from_pak: ./dday/pak7.pak/pics/scoreleft.pcx: 17189 bytes
+open_from_pak: ./dday/pak7.pak/pics/scoreright.pcx: 12501 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_00.pcx: 1101 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_10.pcx: 1119 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_20.pcx: 1149 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_30.pcx: 1179 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_40.pcx: 1209 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_50.pcx: 1239 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_60.pcx: 1267 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_70.pcx: 1297 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_80.pcx: 1327 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_90.pcx: 1357 bytes
+open_from_pak: ./dday/pak0.pak/pics/s_100.pcx: 1387 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_morphine.pcx: 1087 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_helmet.pcx: 1282 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_fists.pcx: 1296 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_binoc.pcx: 2709 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_knife.pcx: 1397 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_flame.pcx: 1572 bytes
+open_from_pak: ./dday/pak0.pak/pics/a_flame.pcx: 945 bytes
 open_from_pak: ./dday/pak7.pak/pics/w_colt45.pcx: 1374 bytes
 open_from_pak: ./dday/pak7.pak/pics/w_m1.pcx: 1874 bytes
 open_from_pak: ./dday/pak7.pak/pics/w_thompson.pcx: 2003 bytes
@@ -562,12 +499,171 @@ open_from_pak: ./dday/pak0.pak/pics/a_bazooka.pcx: 1406 bytes
 open_from_pak: ./dday/pak7.pak/pics/a_m1903.pcx: 1283 bytes
 open_from_pak: ./dday/pak7.pak/pics/scope_usa.pcx: 4425 bytes
 open_from_pak: ./dday/pak7.pak/pics/victory_usa.pcx: 5894 bytes
-open_from_pak: ./dday/pak0.pak/env/night1rt.tga: 71518 bytes
-open_from_pak: ./dday/pak0.pak/env/night1bk.tga: 86934 bytes
-open_from_pak: ./dday/pak0.pak/env/night1lf.tga: 77122 bytes
-open_from_pak: ./dday/pak0.pak/env/night1ft.tga: 106050 bytes
-open_from_pak: ./dday/pak0.pak/env/night1up.tga: 97286 bytes
-open_from_pak: ./dday/pak0.pak/env/night1dn.tga: 7742 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_p38.pcx: 1247 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_m98k.pcx: 1765 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_mp40.pcx: 1663 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_mp43.pcx: 2119 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_mg42.pcx: 1764 bytes
+open_from_pak: ./dday/pak0.pak/pics/w_panzer.pcx: 1789 bytes
+open_from_pak: ./dday/pak7.pak/pics/w_m98ks.pcx: 1867 bytes
+open_from_pak: ./dday/pak7.pak/pics/a_masher.pcx: 1287 bytes
+open_from_pak: ./dday/pak7.pak/pics/a_p38.pcx: 1053 bytes
+open_from_pak: ./dday/pak7.pak/pics/a_m98k.pcx: 1283 bytes
+open_from_pak: ./dday/pak7.pak/pics/a_mp40.pcx: 1158 bytes
+open_from_pak: ./dday/pak0.pak/pics/a_mp43.pcx: 1174 bytes
+open_from_pak: ./dday/pak0.pak/pics/a_mg42.pcx: 1134 bytes
+open_from_pak: ./dday/pak0.pak/pics/a_panzer.pcx: 1406 bytes
+open_from_pak: ./dday/pak7.pak/pics/scope_grm.pcx: 4311 bytes
+open_from_pak: ./dday/pak7.pak/pics/victory_grm.pcx: 7873 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/class_infantry.pcx: 80531 bytes
+open_from_pak: ./dday/pak3.pak/players/grm/weapon.md2: 15904 bytes
+open_from_disk: ./dday/players/usa/weapon.pcx: 961 bytes
+open_from_pak: ./dday/pak7.pak/players/grm/class_infantry_i.pcx: 1940 bytes
+open_from_disk: ./dday/players/male/tris.md2: 12680 bytes
+open_from_disk: ./dday/players/male/skin.pcx: 1921 bytes
+open_from_disk: ./dday/players/male/grunt.pcx: 2847 bytes
+open_from_disk: ./dday/players/male/weapon.md2: 12680 bytes
+open_from_disk: ./dday/players/male/weapon.pcx: 1921 bytes
+open_from_disk: ./dday/players/male/grunt_i.pcx: 1191 bytes
+open_from_disk: ./dday/env/night1rt.png: No such file or directory
+open_from_disk: ./dday/env/night1rt.png: No such file or directory
+open_file_read: env/night1rt.png: No such file or directory
+open_from_disk: ./dday/env/night1rt.jpg: No such file or directory
+open_from_disk: ./dday/env/night1rt.jpg: No such file or directory
+open_file_read: env/night1rt.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1rt.pcx: 7257 bytes
+open_from_disk: ./dday/env/night1bk.png: No such file or directory
+open_from_disk: ./dday/env/night1bk.png: No such file or directory
+open_file_read: env/night1bk.png: No such file or directory
+open_from_disk: ./dday/env/night1bk.jpg: No such file or directory
+open_from_disk: ./dday/env/night1bk.jpg: No such file or directory
+open_file_read: env/night1bk.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1bk.pcx: 8265 bytes
+open_from_disk: ./dday/env/night1lf.png: No such file or directory
+open_from_disk: ./dday/env/night1lf.png: No such file or directory
+open_file_read: env/night1lf.png: No such file or directory
+open_from_disk: ./dday/env/night1lf.jpg: No such file or directory
+open_from_disk: ./dday/env/night1lf.jpg: No such file or directory
+open_file_read: env/night1lf.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1lf.pcx: 7456 bytes
+open_from_disk: ./dday/env/night1ft.png: No such file or directory
+open_from_disk: ./dday/env/night1ft.png: No such file or directory
+open_file_read: env/night1ft.png: No such file or directory
+open_from_disk: ./dday/env/night1ft.jpg: No such file or directory
+open_from_disk: ./dday/env/night1ft.jpg: No such file or directory
+open_file_read: env/night1ft.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1ft.pcx: 14094 bytes
+open_from_disk: ./dday/env/night1up.png: No such file or directory
+open_from_disk: ./dday/env/night1up.png: No such file or directory
+open_file_read: env/night1up.png: No such file or directory
+open_from_disk: ./dday/env/night1up.jpg: No such file or directory
+open_from_disk: ./dday/env/night1up.jpg: No such file or directory
+open_file_read: env/night1up.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1up.pcx: 47549 bytes
+open_from_disk: ./dday/env/night1dn.png: No such file or directory
+open_from_disk: ./dday/env/night1dn.png: No such file or directory
+open_file_read: env/night1dn.png: No such file or directory
+open_from_disk: ./dday/env/night1dn.jpg: No such file or directory
+open_from_disk: ./dday/env/night1dn.jpg: No such file or directory
+open_file_read: env/night1dn.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/env/night1dn.pcx: 3457 bytes
+open_from_disk: ./dday/sound/world/ric1.wav: 20746 bytes
+open_from_disk: ./dday/sound/world/ric2.wav: 48210 bytes
+open_from_disk: ./dday/sound/world/ric3.wav: 41964 bytes
+open_from_disk: ./dday/sound/weapons/lashit.wav: No such file or directory
+open_from_disk: ./dday/sound/weapons/lashit.wav: No such file or directory
+open_file_read: sound/weapons/lashit.wav: No such file or directory
+open_from_disk: ./dday/sound/world/spark5.wav: No such file or directory
+open_from_disk: ./dday/sound/world/spark5.wav: No such file or directory
+open_file_read: sound/world/spark5.wav: No such file or directory
+open_from_disk: ./dday/sound/world/spark6.wav: No such file or directory
+open_from_disk: ./dday/sound/world/spark6.wav: No such file or directory
+open_file_read: sound/world/spark6.wav: No such file or directory
+open_from_disk: ./dday/sound/world/spark7.wav: No such file or directory
+open_from_disk: ./dday/sound/world/spark7.wav: No such file or directory
+open_file_read: sound/world/spark7.wav: No such file or directory
+open_from_disk: ./dday/sound/weapons/railgf1a.wav: No such file or directory
+open_from_disk: ./dday/sound/weapons/railgf1a.wav: No such file or directory
+open_file_read: sound/weapons/railgf1a.wav: No such file or directory
+open_from_disk: ./dday/sound/weapons/rocklx1a.wav: 180268 bytes
+open_from_disk: ./dday/sound/weapons/grenlx1a.wav: 85420 bytes
+open_from_disk: ./dday/sound/weapons/xpld_wat.wav: 175404 bytes
+open_from_disk: ./dday/sound/player/land1.wav: 23532 bytes
+open_from_disk: ./dday/sound/player/fall2.wav: No such file or directory
+open_from_disk: ./dday/sound/player/fall2.wav: No such file or directory
+open_file_read: sound/player/fall2.wav: No such file or directory
+open_from_disk: ./dday/sound/player/fall1.wav: No such file or directory
+open_from_disk: ./dday/sound/player/fall1.wav: No such file or directory
+open_file_read: sound/player/fall1.wav: No such file or directory
+open_from_disk: ./dday/sound/player/step1.wav: 10924 bytes
+open_from_disk: ./dday/sound/player/step2.wav: 25640 bytes
+open_from_disk: ./dday/sound/player/step3.wav: 13580 bytes
+open_from_disk: ./dday/sound/player/step4.wav: 11564 bytes
+open_from_disk: ./dday/sound/weapons/tesla.wav: 234 bytes
+open_from_disk: ./dday/sound/weapons/disrupthit.wav: 234 bytes
+open_from_disk: ./dday/sound/players/tear.wav: 23326 bytes
+open_from_disk: ./dday/sound/players/cloth.wav: 16844 bytes
+open_from_disk: ./dday/sound/bullet/wood1.wav: 39304 bytes
+open_from_disk: ./dday/sound/bullet/wood2.wav: 36386 bytes
+open_from_disk: ./dday/sound/bullet/wood3.wav: 67596 bytes
+open_from_disk: ./dday/sound/bullet/metal1.wav: 33476 bytes
+open_from_disk: ./dday/sound/bullet/metal2.wav: 30148 bytes
+open_from_disk: ./dday/sound/bullet/metal3.wav: 30144 bytes
+open_from_disk: ./dday/sound/bullet/glass1.wav: 9422 bytes
+open_from_disk: ./dday/sound/bullet/glass2.wav: 18566 bytes
+open_from_disk: ./dday/sound/bullet/sand1.wav: 87742 bytes
+open_from_disk: ./dday/sound/bullet/sand2.wav: 113128 bytes
+open_from_disk: ./dday/sound/bullet/sand3.wav: 69836 bytes
+open_from_disk: ./dday/sound/bullet/concrete1.wav: 113858 bytes
+open_from_disk: ./dday/sound/bullet/concrete2.wav: 144150 bytes
+open_from_disk: ./dday/sound/bullet/concrete3.wav: 68040 bytes
+open_from_disk: ./dday/sound/bullet/water1.wav: 37348 bytes
+open_from_disk: ./dday/sound/bullet/water2.wav: 39558 bytes
+open_from_disk: ./dday/sound/player/lava1.wav: 234 bytes
+open_from_disk: ./dday/sound/player/lava2.wav: 234 bytes
+open_from_disk: ./dday/sound/misc/pc_up.wav: 234 bytes
+open_from_disk: ./dday/sound/misc/talk1.wav: 1810 bytes
+open_from_disk: ./dday/sound/misc/udeath.wav: 20782 bytes
+open_from_disk: ./dday/sound/items/respawn1.wav: 804 bytes
+open_from_disk: ./dday/sound/foot/grass1.wav: 10524 bytes
+open_from_disk: ./dday/sound/foot/grass2.wav: 15340 bytes
+open_from_disk: ./dday/sound/foot/wood1.wav: 7756 bytes
+open_from_disk: ./dday/sound/foot/wood2.wav: 7020 bytes
+open_from_disk: ./dday/sound/foot/metal1.wav: 7772 bytes
+open_from_disk: ./dday/sound/foot/metal2.wav: 7308 bytes
+open_from_disk: ./dday/sound/foot/sand1.wav: 11516 bytes
+open_from_disk: ./dday/sound/foot/sand2.wav: 18108 bytes
+open_from_disk: ./dday/sound/misc/rumble.wav: 104236 bytes
+open_from_disk: ./dday/sound/misc/ring.wav: 121356 bytes
+open_from_disk: ./dday/sound/player/gasp1.wav: 15606 bytes
+open_from_disk: ./dday/sound/player/gasp2.wav: 38890 bytes
+open_from_disk: ./dday/sound/player/watr_in.wav: 38252 bytes
+open_from_disk: ./dday/sound/player/watr_out.wav: 44012 bytes
+open_from_disk: ./dday/sound/player/watr_un.wav: 23644 bytes
+open_from_disk: ./dday/sound/items/pkup.wav: 16092 bytes
+open_from_disk: ./dday/sound/world/land.wav: 234 bytes
+open_from_disk: ./dday/sound/misc/h2ohit1.wav: 234 bytes
+open_from_disk: ./dday/sound/weapons/noammo.wav: 7868 bytes
+open_from_disk: ./dday/sound/player/bodyfall.wav: 53772 bytes
+open_from_disk: ./dday/sound/weapons/gundrop.wav: 14574 bytes
+open_from_disk: ./dday/sound/weapons/ammodrop.wav: 15036 bytes
+open_from_disk: ./dday/sound/player/breathe.wav: 146462 bytes
+open_from_disk: ./dday/sound/misc/hitleg.wav: 9196 bytes
+open_from_disk: ./dday/sound/misc/hittorso.wav: 22126 bytes
+open_from_disk: ./dday/sound/misc/hithelm.wav: 89872 bytes
+open_from_disk: ./dday/sound/misc/hithead.wav: 25580 bytes
+open_from_disk: ./dday/sound/misc/gibs1.wav: 9138 bytes
+open_from_disk: ./dday/sound/misc/gibs2.wav: 5250 bytes
+open_from_disk: ./dday/sound/misc/w_pkup.wav: 17534 bytes
+open_from_disk: ./dday/sound/misc/fhit3.wav: 23662 bytes
+open_from_disk: ./dday/sound/fists/fire.wav: 14672 bytes
+open_from_disk: ./dday/sound/fists/hit.wav: 10028 bytes
+open_from_disk: ./dday/sound/knife/fire.wav: 27884 bytes
+open_from_disk: ./dday/sound/knife/hit.wav: 8910 bytes
+open_from_disk: ./dday/sound/knife/pullout.wav: 10840 bytes
+open_from_disk: ./dday/sound/misc/am_pkup.wav: 24300 bytes
+open_from_disk: ./dday/sound/weapons/flamer/fire.wav: 46172 bytes
+open_from_disk: ./dday/sound/jpn/molotov/flareup.wav: 29380 bytes
 open_from_disk: ./dday/sound/dday2/guit1.wav: 160102 bytes
 open_from_disk: ./dday/sound/dday2/locked.wav: 9880 bytes
 open_from_disk: ./dday/sound/dday2/eerie.wav: 354668 bytes
@@ -600,9 +696,69 @@ open_from_disk: ./dday/sound/usa/m1903/fire.wav: 73440 bytes
 open_from_disk: ./dday/sound/usa/m1903/lastround.wav: 158024 bytes
 open_from_disk: ./dday/sound/usa/m1903/reload.wav: 18400 bytes
 open_from_disk: ./dday/sound/usa/m1903/unload.wav: 7644 bytes
+open_from_disk: ./dday/sound/weapons/hgrent1a.wav: 234 bytes
+open_from_disk: ./dday/sound/weapons/hgrena1b.wav: 13932 bytes
+open_from_disk: ./dday/sound/weapons/hgrenb1a.wav: 10876 bytes
+open_from_disk: ./dday/sound/weapons/hgrenb2a.wav: 4972 bytes
+open_from_disk: ./dday/sound/weapons/throw.wav: 28486 bytes
 open_from_disk: ./dday/sound/usa/victory.wav: 125886 bytes
+open_from_disk: ./dday/sound/grm/p38/fire.wav: 51222 bytes
+open_from_disk: ./dday/sound/grm/p38/reload.wav: 6950 bytes
+open_from_disk: ./dday/sound/grm/p38/unload.wav: 4764 bytes
+open_from_disk: ./dday/sound/grm/m98k/fire.wav: 108332 bytes
+open_from_disk: ./dday/sound/grm/m98k/lastround.wav: 87852 bytes
+open_from_disk: ./dday/sound/grm/m98k/reload.wav: 37386 bytes
+open_from_disk: ./dday/sound/grm/m98k/unload.wav: 40086 bytes
+open_from_disk: ./dday/sound/grm/mp40/fire.wav: 30038 bytes
+open_from_disk: ./dday/sound/grm/mp40/reload.wav: 11514 bytes
+open_from_disk: ./dday/sound/grm/mp40/unload.wav: 6356 bytes
+open_from_disk: ./dday/sound/grm/mp43/fire.wav: 44684 bytes
+open_from_disk: ./dday/sound/grm/mp43/reload.wav: 7902 bytes
+open_from_disk: ./dday/sound/grm/mp43/unload.wav: 16772 bytes
+open_from_disk: ./dday/sound/grm/mg42/fire.wav: 83420 bytes
+open_from_disk: ./dday/sound/grm/mg42/reload.wav: 22860 bytes
+open_from_disk: ./dday/sound/grm/mg42/unload.wav: 60082 bytes
+open_from_disk: ./dday/sound/grm/panzer/fire.wav: 92082 bytes
+open_from_disk: ./dday/sound/grm/panzer/reload.wav: 16410 bytes
+open_from_disk: ./dday/sound/grm/panzer/rockfly.wav: 36042 bytes
+open_from_disk: ./dday/sound/grm/m98ks/fire.wav: 42722 bytes
+open_from_disk: ./dday/sound/grm/m98ks/lastround.wav: 55330 bytes
+open_from_disk: ./dday/sound/grm/m98ks/reload.wav: 18400 bytes
+open_from_disk: ./dday/sound/grm/m98ks/unload.wav: 9200 bytes
+open_from_disk: ./dday/sound/grm/victory.wav: 117384 bytes
+open_from_disk: ./dday/sound/airstrike/stuka.wav: 194826 bytes
 open_from_disk: ./dday/sound/dday2/marble.wav: 19724 bytes
 open_from_disk: ./dday/sound/dday2/gate.wav: 17764 bytes
+open_from_disk: ./dday/players/male/death1.wav: 234 bytes
+open_from_disk: ./dday/players/male/death2.wav: 234 bytes
+open_from_disk: ./dday/players/male/death3.wav: 234 bytes
+open_from_disk: ./dday/players/male/death4.wav: 234 bytes
+open_from_disk: ./dday/players/male/gurp1.wav: 234 bytes
+open_from_disk: ./dday/players/male/gurp2.wav: 234 bytes
+open_from_disk: ./dday/players/male/jump1.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain25_1.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain25_2.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain50_1.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain50_2.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain75_1.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain75_2.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain100_1.wav: 234 bytes
+open_from_disk: ./dday/players/male/pain100_2.wav: 234 bytes
+open_from_disk: ./dday/players/grm/death1.wav: 84524 bytes
+open_from_disk: ./dday/players/grm/death2.wav: 84524 bytes
+open_from_disk: ./dday/players/grm/death3.wav: 62466 bytes
+open_from_disk: ./dday/players/grm/death4.wav: 120364 bytes
+open_from_disk: ./dday/players/grm/gurp1.wav: 33644 bytes
+open_from_disk: ./dday/players/grm/gurp2.wav: 36140 bytes
+open_from_disk: ./dday/players/grm/jump1.wav: 16214 bytes
+open_from_disk: ./dday/players/grm/pain25_1.wav: 48940 bytes
+open_from_disk: ./dday/players/grm/pain25_2.wav: 54828 bytes
+open_from_disk: ./dday/players/grm/pain50_1.wav: 11850 bytes
+open_from_disk: ./dday/players/grm/pain50_2.wav: 25706 bytes
+open_from_disk: ./dday/players/grm/pain75_1.wav: 12172 bytes
+open_from_disk: ./dday/players/grm/pain75_2.wav: 58540 bytes
+open_from_disk: ./dday/players/grm/pain100_1.wav: 16844 bytes
+open_from_disk: ./dday/players/grm/pain100_2.wav: 16844 bytes
 open_from_disk: ./dday/locs/dday2.loc: No such file or directory
 open_from_disk: ./dday/locs/dday2.loc: No such file or directory
 open_file_read: locs/dday2.loc: No such file or directory
@@ -610,12 +766,6 @@ open_from_disk: ./dday/pics/objectives/dday2.pcx: 38107 bytes
 open_from_pak: ./dday/pak7.pak/pics/teams/usa.pcx: 1879 bytes
 open_from_pak: ./dday/pak7.pak/pics/teams/grm.pcx: 1940 bytes
 Usage: connect <server> [34|35|36]
-Patton connected.
-BOTskrieg connected.
-SaBOTeur connected.
-Goering connected.
-Audie connected.
-Niels connected.
 open_from_disk: ./dday/cfg/dday2.cfg: 426 bytes
 Execing cfg/dday2.cfg
 open_file_write: ./dday/condumps/dday2.txt: 0 bytes
