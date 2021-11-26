@@ -1,0 +1,16 @@
+#!/bin/sh
+
+for u in $(cat prepare.csv)
+do
+ i=$(echo $u | awk -F, '{print $NF}')
+ a=$(echo $u | awk -F"," '{print $2}')
+ e=$(echo $i | awk -F/ '{print $NF}')
+ o=$(echo $i | sed "s/$(echo $e)//g")
+ if [ ! -e dday/$o ]
+  then 
+  	 mkdir $o  >> cpwal.log 2>&1
+  	 cp $a $i" >> cpwal.log 2>&1
+  else
+  	cp $a $i" >> cpwal.log 2>&1
+  fi
+done
