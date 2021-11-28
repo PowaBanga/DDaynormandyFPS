@@ -1,0 +1,53 @@
+#!/bin/sh
+autocp()
+{
+# look for missing .wal and put them in a file no_such_file_or_directory.txt
+grep -hr ".wal: No such" dday/condumps | sed 's/open_file_read: //g; s/open_from_disk: .\/dday\///g' | sort | uniq > dday/condumps/no_such_file_or_directory.txt
+
+# for each missing files found into no_such_file_or_directory.txt
+for i in $(cat dday/condumps/no_such_file_or_directory.txt | sed 's/: No such.*//g')
+do
+  echo -e "\e[38;5;46m$i\e[38;5;15m"
+  # for all files found with the same name
+  for u in $(find dday/textures -iname "$(echo $i|sed 's/.wal//g;s/+//g' | awk -F/ '{print $NF}').*" | sed 's/dday\///g')
+   do
+     # if directories are the same, but with differents case
+     # mkdir , cp, and echo $filename
+     if [ $(echo $i | tr '[:upper:]' '[:lower:]') = $(echo $u | tr '[:upper:]' '[:lower:]') ]
+      then
+        #create a value for the folder's file
+        e=$(echo $i | awk -F/ '{print $NF}')
+        o=$(echo $i | sed "s/$(echo $e)//g")
+        # Remove extention of file name in goal to replace it by an other (pnj,jpg,tga) if file exist in this format
+        aa=$(echo $i | awk -F. '{print $NF}')
+        a=$(echo $i | sed "s/$aa//g")
+        # export the same file name extention who are differents
+        uu=$(echo $u | awk -F. '{print $NF}')
+        if [[ $uu =~ (png|jpg|tga|wal)$ ]]
+        then
+
+          # if it exist, Copy/past the file in the good place
+          if [ ! -e dday/$o ]
+              then
+              	 mkdir -p $o  >> loop.log 2>&1
+              	 cp dday/$u dday/$(echo $a$uu) >> loop.log 2>&1
+              else
+              	 cp dday/$u dday/$(echo $a$uu) >> loop.log 2>&1
+          fi
+          echo -e "$u PASTED TO \e[38;5;76m$(echo $a$(echo $u|awk -F. '{print $NF}'))\e[38;5;15m"
+        else
+          echo "$u"
+        fi
+      else
+        echo "$u"
+      fi
+  done
+  #print dumpfile files who contain missing information
+  echo -e "\e[38;5;226m$(grep -r -l $i dday/condumps| sed 's/.txt.*//g;s/dday\/condumps\///g;/^no_such/d' | sort | uniq | tr '\n' ' ' ; echo)\e[38;5;15m"
+done
+
+sleep 5
+$PWD/ddaynormandy +set fs_debug 1 +map dday2
+autocp
+}
+autocp

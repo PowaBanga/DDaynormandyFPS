@@ -8,7 +8,7 @@ do
  o=$(echo $i | sed "s/$(echo $e)//g")
  if [ ! -e dday/$o ]
   then 
-  	 mkdir $o  >> cpwal.log 2>&1
+  	 mkdir -p $o  >> cpwal.log 2>&1
   	 cp $a $i" >> cpwal.log 2>&1
   else
   	cp $a $i" >> cpwal.log 2>&1

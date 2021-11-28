@@ -1,15 +1,28 @@
-#!/bin/sh
-for i in $(grep -rh ".wal: No such" dday/condumps/ | sed 's/open_file_read: //g; s/open_from_disk: .\/dday\///g; s/: No such.*//g' | sort | uniq)
+#!/bin/bash
+grep -hr ".wal: No such" dday/condumps | sed 's/open_file_read: //g; s/open_from_disk: .\/dday\///g' | sort | uniq > dday/condumps/no_such_file_or_directory.txt
+
+
+for i in $(cat dday/condumps/no_such_file_or_directory.txt | sed 's/: No such.*//g')
 do
-  echo -e "\e[38;5;46m$i\e[38;5;15m"
-  find dday/textures -iname "$(echo $i|sed 's/.wal//g' | awk -F/ '{print $NF}').*" | sed 's/dday\///g'
-  echo -e "\e[38;5;226m$(grep -r -l $i dday/condumps| sed 's/.txt.*//g;s/dday\/condumps\///g;/^no_such/d' | sort | uniq | tr '\n' ' ' ; echo)\e[38;5;15m"
-done
+  e=$(find dday/textures -iname "$(echo $i|sed 's/.wal//g;s/+//g' | awk -F/ '{print $NF}').*" | sed 's/dday\///g')
+  o=$(echo $e | awk -F. '{print $NF}')
+  p=$(echo -n $e | wc -c)
+  r=0
+    if (( $p )) && [[ $o =~ (png|jpg|tga|wal)$ ]]
+    then
+      for q in $e
+      do
+        if [[ $(echo $i | sed 's/.wal//g') = $(echo $q | sed 's/.wal//g;s/.png//g;s/.jpg//g;s/.tga//g;') ]]
+          then
+            r=$(expr $r + 1)
+        fi
+      done
+      if [[ $r -eq 0 ]]
+        then
+          echo -e "\e[38;5;46m$i\e[38;5;15m"
+          echo "$e"
+          echo -e "\e[38;5;226m$(grep -r -l $i dday/condumps| sed 's/.txt.*//g;s/dday\/condumps\///g;/^no_such/d' | sort | uniq | tr '\n' ' ' ; echo)\e[38;5;15m"
+      fi
+    fi
 
-if [ ! -e dday/$folder ]
-  then 
-  	 echo "le dossier existe pas"
-  else
-  	echo "le fichier existe"
-  fi
-
+  done

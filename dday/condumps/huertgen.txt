@@ -1,0 +1,699 @@
+open_from_disk: ./dday/maps/huertgen.bsp: 1274284 bytes
+==== ShutdownGame ====
+Loaded game library from ./dday/gamex86_64.so
+WARNING: q2adminlog.txt could not be found
+Q2Admin Version 1.17.44-tsmod-2
+==== InitGame ====
+------- Server Initialization -------
+SpawnServer: huertgen
+open_from_disk: ./dday/maps/huertgen.ent: No such file or directory
+open_from_disk: ./dday/maps/huertgen.ent: No such file or directory
+open_file_read: maps/huertgen.ent: No such file or directory
+No .ent File for huertgen.bsp
+Loading map objective pic dday/pics/objectives/huertgen.pcx...error.
+func_explosive_object doesn't have a spawn function
+0 entities inhibited
+0 teams with 0 entities
+server map: huertgen
+AI: FAILED to load nodes file.
+-------------------------------------
+Server restarted
+Server disconnected, reconnecting
+Requesting connection... 1
+processing id commands
+unnamed connected.
+Connected to loopback (protocol 36).
+
+
+
+
+Huertgen Forest (Nov-Dec 1944)
+designed by Jim Dunlop
+open_from_disk: ./dday/textures/huertgen/jdtrkpn.wal: 3160 bytes
+open_from_disk: ./dday/textures/huertgen/jdpost1.wal: 780 bytes
+open_from_disk: ./dday/textures/e1u1/clip.wal: 1460 bytes
+open_from_disk: ./dday/textures/huertgen/jdpost2.wal: 780 bytes
+open_from_disk: ./dday/textures/huertgen/jdpstrus.wal: 59940 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/ddbasc01.wal: 5540 bytes
+open_from_disk: ./dday/textures/huertgen/jdpstrm1.wal: 81700 bytes
+open_from_disk: ./dday/textures/huertgen/jdpstrar.wal: 65380 bytes
+open_from_disk: ./dday/textures/huertgen/jdpost3.wal: 780 bytes
+open_from_disk: ./dday/textures/huertgen/jdpost4.wal: 780 bytes
+open_from_disk: ./dday/textures/e2u1/metal3_1.wal: 10980 bytes
+open_from_disk: ./dday/textures/e2u1/metal36_3.wal: 10980 bytes
+open_from_disk: ./dday/textures/e2u1/metal37_3.wal: 10980 bytes
+open_from_disk: ./dday/textures/e2u1/metal36_1.wal: 10980 bytes
+open_from_disk: ./dday/textures/e1u1/black.wal: 440 bytes
+open_from_disk: ./dday/textures/e2u1/metal37_4.wal: 10980 bytes
+open_from_disk: ./dday/textures/e1u3/con_flr1_1.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u3/cindr7_1.wal: 21860 bytes
+open_from_disk: ./dday/textures/e3u1/reddr2_1.wal: 440 bytes
+open_from_disk: ./dday/textures/huertgen/jdsnow01.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u1/grass1_8.wal: 5540 bytes
+open_from_disk: ./dday/textures/e2u3/rmetal3_1.wal: 10980 bytes
+open_from_disk: ./dday/textures/e2u3/rlight1_1.wal: 1460 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrktr.wal: 440 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrkwh.wal: 8600 bytes
+open_from_disk: ./dday/textures/e1u1/damage1_1.wal: 21860 bytes
+open_from_disk: ./dday/textures/huertgen/jdpnwl04.wal: 8260 bytes
+open_from_disk: ./dday/textures/huertgen/sndbag_g.wal: 4180 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/sandbag1.wal: 5540 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/sandbag2.wal: 4180 bytes
+open_from_disk: ./dday/textures/huertgen/jdpnwl03.wal: 21860 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/bedsheet.wal: 5540 bytes
+open_from_disk: ./dday/textures/huertgen/jdboots.wal: 780 bytes
+open_from_disk: ./dday/textures/huertgen/jdhelm.wal: 780 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrkdr.wal: 8260 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrkwn.wal: 2820 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrkpn2.wal: 3160 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrkhd.wal: 4180 bytes
+open_from_disk: ./dday/textures/e1u1/ggrat2_7.wal: 1460 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrksd3.wal: 7580 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrcnv.wal: 1120 bytes
+open_from_disk: ./dday/textures/huertgen/jdtrcfr.wal: 3500 bytes
+open_from_disk: ./dday/textures/e1u3/ceil1_21.wal: 440 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/bricks2.wal: 10980 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/bricks7.wal: 1460 bytes
+open_from_disk: ./dday/textures/huertgen/jdlog2.wal: 21860 bytes
+open_from_disk: ./dday/textures/huertgen/jdlog3.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u3/cindr3_1.wal: 21860 bytes
+open_from_disk: ./dday/textures/e1u3/cindr4_2.wal: 21860 bytes
+open_from_disk: ./dday/textures/e2u1/mud1_1.wal: 5540 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/mr_woodfloor1.wal: 21860 bytes
+open_from_disk: ./dday/textures/e1u3/cin_flr1_1.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u1/pip01_2.wal: 10980 bytes
+open_from_disk: ./dday/textures/e1u3/stairs1_3.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u3/cinder1_5.wal: 5540 bytes
+open_from_disk: ./dday/textures/e1u1/skip.wal: 1460 bytes
+open_from_disk: ./dday/textures/e1u1/hint.wal: 1460 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/mr_wood4.wal: 7240 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday2/a2.wal: 2820 bytes
+open_from_disk: ./dday/textures/e1u1/plite1_3.wal: 780 bytes
+open_from_disk: ./dday/textures/huertgen/jdpntr01.wal: 10980 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/mr_woodfloor3.wal: 21860 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday2/white_wall.wal: 5540 bytes
+open_from_disk: ./dday/textures/huertgen/malmedy.wal: 2820 bytes
+open_from_disk: ./dday/textures/huertgen/aachen.wal: 2820 bytes
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/wheel_tread001.wal: 780 bytes
+open_from_disk: ./dday/textures/dday/howitzer_wheel001.wal: 5540 bytes
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/trail_armside001.wal: 2820 bytes
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/trail_armside002.wal: 2820 bytes
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/e1u1/trigger.wal: 1460 bytes
+open_from_disk: ./dday/textures/e1u3/turret5_1.wal: 2820 bytes
+open_from_disk: ./dday/textures/e1u1/origin.wal: 1460 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/base_tableside.wal: 1460 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/base_table.wal: 1460 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/base_tabletop.wal: 1460 bytes
+open_from_disk: ./dday/textures/e1u1/metal1_4.wal: 5540 bytes
+open_from_disk: ./dday/textures/dday/breechend001.wal: 1460 bytes
+open_from_disk: ./dday/textures/e3u3/shutl22_2.wal: 5540 bytes
+open_from_disk: ./dday/textures/dday/breechside002.wal: 1460 bytes
+open_from_disk: ./dday/textures/dday/breechside001.wal: 1460 bytes
+open_from_disk: ./dday/textures/dday/breechtop001.wal: 1460 bytes
+open_from_disk: ./dday/textures/e1u3/shiny1_6.wal: 5540 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/pipeshin.wal: 21860 bytes
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedtop001.wal: 1460 bytes
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.wal: No such file or directory
+open_file_read: textures/dday/howitzer_recoilbedbkend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.png: No such file or directory
+open_file_read: textures/dday/howitzer_recoilbedbkend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_recoilbedbkend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.wal: No such file or directory
+open_file_read: textures/dday/howitzer_recoilbedbkend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.png: No such file or directory
+open_file_read: textures/dday/howitzer_recoilbedbkend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_recoilbedbkend001.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_recoilbedbkend001.jpg: No such file or directory
+open_from_pak: ./dday/pak0.pak/textures/dday/howitzer_recoilbedside001.wal: 2820 bytes
+open_from_pak: ./dday/pak0.pak/textures/dday/howitzer_recoilbedside002.wal: 2820 bytes
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrelend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrelend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrelend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrelend001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrelend001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrelend001.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrelend001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.png: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_barrel002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield002.wal: No such file or directory
+open_file_read: textures/dday/howitzer_shield002.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield002.png: No such file or directory
+open_file_read: textures/dday/howitzer_shield002.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield002.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_shield002.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield001.wal: No such file or directory
+open_file_read: textures/dday/howitzer_shield001.wal: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield001.png: No such file or directory
+open_file_read: textures/dday/howitzer_shield001.png: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield001.jpg: No such file or directory
+open_from_disk: ./dday/textures/dday/howitzer_shield001.jpg: No such file or directory
+open_file_read: textures/dday/howitzer_shield001.jpg: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/explode/tris.md2: No such file or directory
+open_file_read: models/objects/explode/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/monsters/parasite/segment/tris.md2: No such file or directory
+open_file_read: models/monsters/parasite/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/models/ctf/segment/tris.md2: No such file or directory
+open_file_read: models/ctf/segment/tris.md2: No such file or directory
+open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
+open_from_disk: ./dday/sprites/s_bfg2.sp2: No such file or directory
+open_file_read: sprites/s_bfg2.sp2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/items/armor/effect/tris.md2: No such file or directory
+open_file_read: models/items/armor/effect/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/lightning/tris.md2: No such file or directory
+open_file_read: models/proj/lightning/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
+open_from_disk: ./dday/models/proj/beam/tris.md2: No such file or directory
+open_file_read: models/proj/beam/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/models/objects/r_explode2/tris.md2: No such file or directory
+open_file_read: models/objects/r_explode2/tris.md2: No such file or directory
+open_from_disk: ./dday/env/huertgen/mtnsun_rt.png: No such file or directory
+open_from_disk: ./dday/env/huertgen/mtnsun_rt.png: No such file or directory
+open_file_read: env/huertgen/mtnsun_rt.png: No such file or directory
+open_from_disk: ./dday/env/huertgen/mtnsun_rt.jpg: No such file or directory
+open_from_disk: ./dday/env/huertgen/mtnsun_rt.jpg: No such file or directory
+open_file_read: env/huertgen/mtnsun_rt.jpg: No such file or directory
+open_from_disk: ./dday/env/huertgen/mtnsun_rt.pcx: No such file or directory
+open_from_disk: ./dday/env/huertgen/mtnsun_rt.pcx: No such file or directory
+open_file_read: env/huertgen/mtnsun_rt.pcx: No such file or directory
+Couldn't load env/huertgen/mtnsun_rt.tga: Invalid quake path
+open_from_disk: ./dday/sound/huertgen/cannon.wav: 84526 bytes
+open_from_disk: ./dday/sound/huertgen/truckidle.wav: 46748 bytes
+open_from_disk: ./dday/sound/huertgen/static2.wav: No such file or directory
+open_from_disk: ./dday/sound/huertgen/static2.wav: No such file or directory
+open_file_read: sound/huertgen/static2.wav: No such file or directory
+open_from_disk: ./dday/sound/dday2/gate.wav: 17764 bytes
+open_from_disk: ./dday/sound/world/train2.wav: 33528 bytes
+open_from_disk: ./dday/sound/howitzer/pow.wav: No such file or directory
+open_from_disk: ./dday/sound/howitzer/pow.wav: No such file or directory
+open_file_read: sound/howitzer/pow.wav: No such file or directory
+open_from_disk: ./dday/locs/huertgen.loc: No such file or directory
+open_from_disk: ./dday/locs/huertgen.loc: No such file or directory
+open_file_read: locs/huertgen.loc: No such file or directory
+Usage: connect <server> [34|35|36]
+open_from_disk: ./dday/cfg/huertgen.cfg: 34 bytes
+Execing cfg/huertgen.cfg
+open_file_write: ./dday/condumps/huertgen.txt: 0 bytes
